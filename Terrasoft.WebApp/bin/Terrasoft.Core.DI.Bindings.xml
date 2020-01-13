@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Core.DI.Bindings</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Core.DI.Bindings.ProcessBindings">
+            <summary>
+            Binds dependency injection types.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.Bindings.ProcessBindings.Initialize(Ninject.Modules.NinjectModule)">
+            <summary>
+            Performs DI types binding.
+            </summary>
+            <param name="module">NinjectModule to bind types in.</param>
+        </member>
+    </members>
+</doc>

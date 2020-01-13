@@ -1,0 +1,18 @@
+﻿#MLModelPageContainer .ts-progress-bar-wrap {
+  height: 35px;
+}
+#MLModelPageContainer .ts-progress-bar-wrap .ts-progress-bar-items {
+  height: 7px !important;
+}
+#MLModelSectionContainer .ts-progress-bar-wrap[position='1'] .ts-progress-bar-item-active,
+#MLModelPageContainer .ts-progress-bar-wrap[position='1'] .ts-progress-bar-item-active {
+  background: #03a9f4;
+}
+#MLModelSectionContainer .ts-progress-bar-wrap[position='5'] .ts-progress-bar-item-active,
+#MLModelPageContainer .ts-progress-bar-wrap[position='5'] .ts-progress-bar-item-active {
+  background: #8dcb60;
+}
+#MLModelSectionContainer .ts-progress-bar-wrap[position='-1'] .ts-progress-bar-item-inactive,
+#MLModelPageContainer .ts-progress-bar-wrap[position='-1'] .ts-progress-bar-item-inactive {
+  background: #ef7e63;
+}

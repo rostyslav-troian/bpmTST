@@ -1,0 +1,238 @@
+﻿.dc-properties-container .attributes-container {
+  overflow-y: hidden;
+  max-height: 50%;
+}
+.dc-properties-container .attributes-container .attributes-container-list {
+  overflow-y: scroll;
+  max-height: 205px;
+  -ms-overflow-style: scrollbar;
+}
+.dc-properties-container .attributes-container .attributes-container-list .t-label {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dc-properties-container .attribute-settings-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid #e6e6e6;
+  overflow: auto;
+}
+.dc-properties-container .attribute-settings-container .attribute-editor-container {
+  margin: auto;
+}
+.dc-properties-container .attribute-settings-container .attribute-editor-container .t-label {
+  width: auto;
+  padding-top: 10px;
+  color: #999999;
+}
+.dc-properties-container .attribute-settings-container .attribute-editor-container .t-btn-text.lookup-button {
+  background-color: transparent;
+  border: 1px solid #b4c1d2;
+  border-radius: 2px;
+  color: #4e7bd8;
+  font-size: 13px;
+  height: 1.923em;
+  padding-right: 0.769em;
+  margin-top: 10px;
+  min-height: auto;
+  text-transform: none;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+.dc-properties-container .segments-container {
+  overflow-y: auto;
+}
+.dc-properties-container {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 0;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+.dc-properties-container .t-title-label-dc {
+  font-size: 15px;
+  padding-top: 20px;
+  line-height: 18px;
+  color: #00aeef;
+  width: 100%;
+}
+.dc-properties-container .add-button-control {
+  color: #999999;
+  margin-bottom: 10px;
+  margin-top: 14px;
+  text-align: right;
+}
+.dc-properties-container .settings-delimiter {
+  height: 0px;
+}
+.dc-properties-container .t-btn-no-text-padding {
+  padding: 0.38em 0;
+}
+.dc-properties-container .t-empty-content-label-dc {
+  font-size: 1.4em;
+  padding: 20px;
+  line-height: 1.4em;
+  color: #a2a2a2;
+  width: auto;
+}
+.segments-container .default-segment-container {
+  display: flex;
+  justify-content: space-between;
+}
+.segments-container .default-segment-container .t-information-btn {
+  margin: auto 0 auto 0;
+  padding: 0;
+  overflow: visible;
+}
+.segments-container-list .segment-item-container {
+  display: flex;
+  margin: 0;
+  padding: 2px 8px;
+  height: 32px;
+}
+.segments-container-list .segment-item-container .t-label {
+  line-height: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.segments-container-list .segment-item-container .base-edit {
+  border: none;
+  padding-right: 0;
+}
+.segments-container-list .segment-item-container .segment-actions-container {
+  display: flex;
+}
+.segments-container-list .segment-item-container:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+.segments-container-list .segment-item-container:hover,
+.segments-container-list .segment-item-container.selected {
+  background: #e4ebfa;
+  line-height: 32px;
+}
+.segments-container-list .segment-item-container:hover .base-edit,
+.segments-container-list .segment-item-container.selected .base-edit {
+  border: none;
+}
+.segments-container-list .segment-item-container:hover .base-edit .base-edit-input,
+.segments-container-list .segment-item-container.selected .base-edit .base-edit-input {
+  background: #e4ebfa;
+  line-height: 30px;
+}
+.attributes-container-list .attribute-item-container {
+  display: flex;
+  margin: 0;
+  padding: 2px 5px;
+  min-height: 32px;
+}
+.attributes-container-list .attribute-item-container .t-label {
+  line-height: 30px;
+}
+.attributes-container-list .attribute-item-container-wrap:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+.attributes-container-list .attribute-item-container-wrap:hover,
+.attributes-container-list .attribute-item-container-wrap.selected {
+  background: #e4ebfa;
+}
+.attribute-lookup-container {
+  padding: 0 10px;
+  height: 100%;
+}
+.attribute-lookup-container .attribute-lookup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.attribute-lookup-container .attribute-lookup-buttons-container {
+  padding: 10px;
+}
+.attribute-lookup-container .attribute-lookup-list-container {
+  max-height: 210px;
+  padding: 5px 10px;
+  overflow: auto;
+}
+.attribute-lookup-container .t-title-label-dc {
+  font-size: 18px;
+  padding: 10px;
+  line-height: 18px;
+  color: #00aeef;
+  width: auto;
+}
+.attribute-lookup-container .attribute-lookup-item-container:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+.attribute-lookup-container .attribute-lookup-item-container {
+  padding: 4px 5px;
+  margin: 0;
+}
+.attribute-lookup-container .attribute-lookup-item-container .t-label {
+  line-height: 18px;
+}
+.attribute-lookup-container .attribute-lookup-item-container.selected,
+.attribute-lookup-container .attribute-lookup-item-container:hover {
+  background: #e4ebfa;
+}
+.dc-modal-box .ts-modalbox-innerbox {
+  width: 100%;
+}
+.attributes-blank-slate-image {
+  width: 90px;
+  margin: 40px auto auto auto;
+}
+.attributes-blank-slate-label {
+  max-width: 60%;
+  padding-top: 30px;
+  color: #999999;
+  font-size: 18px;
+  font-family: "Bpmonline Open Sans Light";
+}
+.attributes-blank-slate-label-container {
+  text-align: center;
+}
+.attribute-inline-grid-caption {
+  display: inline-grid;
+  margin-bottom: 10px;
+}
+.attribute-inline-grid-caption .t-label {
+  text-align: right;
+}
+.attribute-inline-grid-caption .label-wrap + .control-wrap {
+  margin-right: 0;
+  padding-right: 20px;
+  padding-left: 0;
+}
+#DCAttributesTab {
+  position: absolute;
+  height: auto;
+  top: 38px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+#DCAttributesTab .module-container {
+  height: 100%;
+}
+#AttributeFilterEditModule {
+  padding: 10px 10px 0 0;
+}
+html[dir="rtl"] body .tip .tip-content {
+  direction: rtl !important;
+}
+html[dir="rtl"] body .dc-properties-container .t-label,
+html[dir="rtl"] body .attribute-lookup-list-container .t-label {
+  direction: rtl !important;
+}
+.right-panel-container-wrap.narrow .dc-properties-container {
+  padding: 7px 0;
+}
+.right-panel-container-wrap.narrow .dc-properties-container .t-title-label-dc {
+  padding: 0;
+}
+.right-panel-container-wrap.narrow .dc-properties-container .attribute-settings-container {
+  padding: 11px 0;
+}

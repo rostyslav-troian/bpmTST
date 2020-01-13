@@ -1,0 +1,9 @@
+{
+	"profiles": {
+		"IIS Express": {
+			"commandName": "Executable",
+			"executablePath": "\\Program Files (x86)\\IIS Express\\iisexpress.exe",
+			"commandLineArgs": "/site:Terrasoft.WebApp-Site"
+		}
+	}
+}

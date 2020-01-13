@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" enable-background="new 0 0 20 20" widht="20" height="20">	
+	<g stroke="#FFF">
+		<line x1="15.3" y1="15.3" x2="4.7" y2="4.7"/>
+		<line x1="15.3" y1="4.7" x2="4.7" y2="15.3"/>
+	</g>
+</svg>

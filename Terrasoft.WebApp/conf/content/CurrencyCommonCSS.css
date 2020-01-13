@@ -1,0 +1,9 @@
+﻿.alignable-currency-items .label-wrap {
+  min-width: inherit;
+}
+.alignable-currency-items .radio-button-container {
+  margin-left: auto;
+}
+.symbol-position-label {
+  line-height: 2.4em;
+}

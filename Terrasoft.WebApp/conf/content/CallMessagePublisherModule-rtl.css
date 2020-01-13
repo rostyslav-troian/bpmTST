@@ -1,0 +1,41 @@
+﻿.call-message-module {
+  padding: 14px 14px 45px;
+}
+.call-message-module .control-wrap {
+  margin-bottom: 13px;
+}
+.call-message-module .control-wrap .call-message-publisher-edit {
+  width: 100%;
+  min-height: 100px;
+  max-height: 300px;
+  background-color: #ffffff;
+  border: 1px solid #c8c8c8;
+}
+.call-message-module .control-wrap ::-webkit-input-placeholder {
+  opacity: 1;
+}
+.call-message-module .control-wrap :-moz-placeholder {
+  opacity: 1;
+}
+.call-message-module .control-wrap ::-moz-placeholder {
+  opacity: 1;
+}
+.call-message-module .control-wrap :-ms-input-placeholder {
+  opacity: 1;
+}
+.call-message-module .label-wrap {
+  min-width: 5em;
+  margin-top: -10px;
+}
+.call-message-module .call-message-contact {
+  min-width: 5em;
+}
+.call-message-module .call-direction-message-contact {
+  min-width: 6em;
+}
+.call-message-module .header-container-margin-bottom {
+  margin-bottom: 1px;
+}
+.call-message-content {
+  height: 20px;
+}

@@ -1,0 +1,10 @@
+{
+	"harness": {
+		"runCore": "sequential",
+		"title": "Core tests"
+	},
+	"cmd": {
+		"max-workers": 1,
+		"no-color": false
+	}
+}

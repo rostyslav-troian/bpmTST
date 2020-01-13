@@ -1,0 +1,72 @@
+﻿.date-time-modal-box {
+  display: block;
+}
+.date-time-modal-box .ts-modalbox-innerbox {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.date-time-modal-box .ts-modalbox-innerbox > .schema-wrap.one-el {
+  width: 100%;
+  height: 100%;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-bottom: 15px;
+}
+.date-time-modal-box .modal-page-fixed-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 83px;
+}
+.date-time-modal-box .modal-page-fixed-container .header {
+  position: absolute;
+  top: 4px;
+}
+.date-time-modal-box .modal-page-fixed-container .header .header-name-container {
+  width: 100%;
+}
+.date-time-modal-box .modal-page-fixed-container .header .header-name-container .t-label {
+  color: #00aeef;
+  font-size: 20px;
+  letter-spacing: inherit;
+}
+.date-time-modal-box .modal-page-fixed-container .close-btn-user-class {
+  position: absolute;
+  right: -12px;
+  top: 9px;
+}
+.date-time-modal-box .modal-page-fixed-container .utils-container-modal-page {
+  position: absolute;
+  top: 53px;
+  left: 0;
+}
+.date-time-modal-box .modal-page-fixed-container .utils-buttons {
+  margin: 0 9px 0 0;
+  height: 30px;
+}
+.date-time-modal-box .modal-page-fixed-container .utils-buttons.t-btn-style-blue {
+  line-height: 18px;
+}
+.date-time-modal-box .modal-page-fixed-container .controls-container-modal-page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 32px;
+}
+.date-time-modal-box .modal-page-fixed-container .controls-container-modal-page .base-edit.datetime-timecontrol {
+  width: 88px;
+}
+.date-time-modal-box .modal-page-fixed-container .controls-container-modal-page .label-wrap {
+  float: left;
+  width: 23%;
+  min-width: 4em;
+}
+.date-time-modal-box .modal-page-fixed-container .controls-container-modal-page .date-time-container-modal-page .label-wrap {
+  float: left;
+  width: 10%;
+  min-width: 4em;
+}
+.date-time-modal-box .modal-page-fixed-container .controls-container-modal-page .date-time-container-modal-page .base-edit {
+  width: 60%;
+}

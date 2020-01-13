@@ -1,0 +1,17 @@
+﻿.cf-indicator-dashboard-component {
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+.cf-indicator-dashboard-component .x-innerhtml {
+  white-space: normal;
+  width: 100%;
+  height: auto;
+  font-size: 28px;
+  line-height: 28px;
+}

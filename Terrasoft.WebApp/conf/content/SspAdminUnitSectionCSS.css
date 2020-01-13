@@ -1,0 +1,6 @@
+﻿body[OldUI=false] .center-panel .schema-wrap .section-wrap .content-container-wrapClass > .section.left-el.ssp-section {
+  top: 6em;
+}
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .content-container-wrapClass .card.right-el.ssp-card {
+  padding-top: 0em;
+}

@@ -1,0 +1,55 @@
+﻿.base-mini-page-container {
+  width: 380px;
+}
+body.ts-minipage-opened {
+  overflow: hidden;
+}
+.label-in-header-container {
+  font-size: 20px;
+  margin: 6px 0 10px 0;
+  color: #64b8df;
+  width: 100%;
+  z-index: 2001;
+  line-height: 32px;
+}
+.header-buttons {
+  display: flex;
+}
+.lookup-with-communication-buttons {
+  margin-right: auto;
+  display: flex;
+}
+.lookup-with-communication-buttons .extended-menu-button-wrap {
+  margin-top: 10px;
+}
+[class*="mini-page-container"] .label-wrap + .control-wrap {
+  margin-top: -5px;
+}
+#MiniPageContainer .minipage-alignable-container {
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+#MiniPageContainer .minipage-alignable-container .required-columns-container {
+  padding: 0 30px 10px 30px;
+  margin-top: -10px;
+}
+#MiniPageContainer .minipage-alignable-container .required-columns-container:empty {
+  display: none;
+}
+#MiniPageContainer .minipage-alignable-container .required-columns-container .required-model-wrapper > div {
+  margin-bottom: 10px;
+}
+#MiniPageContainer .minipage-alignable-container .base-minipage-edit-button-container {
+  text-align: right;
+  padding: 10px 30px 10px 10px;
+}
+#MiniPageContainer .minipage-alignable-container .base-minipage-edit-button-container:empty {
+  display: none;
+}
+#MiniPageContainer #HeaderContainer {
+  position: static;
+}
+.minipage-content-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+}

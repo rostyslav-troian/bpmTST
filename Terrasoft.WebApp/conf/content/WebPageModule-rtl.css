@@ -1,0 +1,9 @@
+﻿.WebPage-module-wraper {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#WebPage {
+  width: 100%;
+  height: 100%;
+}

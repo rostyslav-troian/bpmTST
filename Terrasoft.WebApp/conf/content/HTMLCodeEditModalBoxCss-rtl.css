@@ -1,0 +1,9 @@
+﻿.modal-box-card-content-wrap.html-code-edit-modal-box .tap-panel-box {
+  margin-top: 1.5em;
+}
+.modal-box-card-content-wrap.html-code-edit-modal-box .tap-panel-box + .tap-panel-box {
+  margin-right: 1em;
+}
+.modal-box-card-content-wrap.html-code-edit-modal-box {
+  height: 85%;
+}

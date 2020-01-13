@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Core.ScriptEngine</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Core.ScriptEngine.DynamicExpressoEngine">
+            <summary>
+            #####, ########### ########## #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.ScriptEngine.DynamicExpressoEngine._delegateCache">
+            <summary>
+            ####### ########### #########.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ScriptEngine.DynamicExpressoEngine.#ctor">
+            <summary>
+            ############## ##### ######### ###### <see cref="T:Terrasoft.Core.ScriptEngine.DynamicExpressoEngine"/>.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ScriptEngine.DynamicExpressoEngine.Eval``1(System.String)">
+            <summary>
+            ######### #########, ############ ######### ########## #### ######.
+            </summary>
+            <typeparam name="T">### ######, ####### ###### ####### #########.</typeparam>
+            <param name="expression">##### #########.</param>
+            <returns>######### ########## #########.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ScriptEngine.DynamicExpressoEngine.Eval(System.String,System.Type)">
+            <summary>
+            ######### #########, ############ ######### #### <see cref="T:System.Object"/>.
+            </summary>
+            <param name="expression">##### #########.</param>
+            <param name="resultType">######### ### ########## ##########.</param>
+            <returns>######### ########## ######### # ##### ###### <see cref="T:System.Object"/>.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ScriptEngine.DynamicExpressoEngine.SetVariable(System.String,System.Object)">
+            <summary>
+            ############# ########## # ######### ###### ########## ########.
+            </summary>
+            <param name="name">### ##########.</param>
+            <param name="value">######## ##########.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ScriptEngine.DynamicExpressoEngine.SetVariable(System.String,System.Object,System.Type)">
+            <summary>
+            ############# ########## # ######### ###### # ##### ########## ########.
+            </summary>
+            <param name="name">### ##########.</param>
+            <param name="value">######## ##########.</param>
+            <param name="type">### ######## ##########.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ScriptEngine.DynamicExpressoEngine.AddReference(System.Type)">
+            <summary>
+            ######### ###### ## ###, ############ # #########.
+            </summary>
+            <param name="type">###.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ScriptEngine.DynamicExpressoEngine.Validate(System.String,System.Type)">
+            <summary>
+            Validates the expression.
+            </summary>
+            <param name="expression">The text of expression.</param>
+            <param name="resultType">The expression result type.</param>
+            <exception cref="T:Terrasoft.Core.ValidateExpressionException">Throws, if the expression is not valid.</exception>
+        </member>
+        <member name="M:Terrasoft.Core.ScriptEngine.DynamicExpressoEngine.Dispose">
+            <summary>
+            ########### ####### # ######### ########### ######## ### ######## ######.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,112 @@
+.listview {
+	position: absolute;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: auto;
+	outline: none;
+	text-align: center;
+	background-color: white;
+	z-index: 10000;
+	border-radius: 2px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .24);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	will-change: opacity;
+
+	ul {
+		overflow: hidden;
+		margin: 0px;
+		padding: 0px;
+		list-style: none inside;
+	}
+
+	li {
+		overflow: hidden;
+		border: 2px solid transparent;
+		padding-right: 24px;
+		padding-left: 8px;
+		text-align: left;
+		white-space: nowrap;
+		font-size: 1.4em;
+		line-height: 38px;
+		cursor: pointer;
+
+		&.listview-selected {
+			background-color: #e4ebfa;
+		}
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: #e2e2e2;
+	}
+}
+
+.listview-scroll {
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.no-transition {
+	transition: none;
+}
+
+.listview-icon {
+	background: no-repeat 9px 50%;
+}
+
+.listview-progress {
+	line-height: 37px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.listview-progress-spinner {
+	display: inline-block;
+}
+
+.listview-progress-container {
+	position: relative;
+	top: 4px;
+}
+
+.listview-progress-caption {
+	display: inline-block;
+	margin-left: 0.9em;
+	color: #999999;
+	font-size: 1.2em;
+}
+
+.listview-new-item {
+	color: #999999;
+	margin-left: -8px;
+	margin-right: -24px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.listview-with-icons li {
+	padding-left: 34px;
+}
+
+.listview-left-icon {
+	width: 16px;
+	height: 16px;
+}
+
+.listview-text-container {
+	display: inline-block;
+	width: 100%;
+}
+
+.listview-left-icon-container {
+	margin-left: -25px;
+	padding-top: 3px;
+	float: left;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}

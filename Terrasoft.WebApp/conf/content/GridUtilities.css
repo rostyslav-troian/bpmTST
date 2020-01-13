@@ -1,0 +1,45 @@
+﻿/*buttons-classes*/
+.open-button-image-size {
+  width: 21px;
+  height: 21px;
+}
+.open-button-wrapperEl {
+  padding-right: 0px;
+}
+.open-button-markerEl {
+  display: none;
+}
+.delete-button-image-size {
+  width: 7px;
+  height: 8px;
+}
+.delete-button-wrapperEl {
+  vertical-align: bottom;
+}
+/*container-classes*/
+.summary-main-container {
+  display: inline-block;
+  float: right;
+}
+.summary-item-container {
+  float: right;
+  margin: 0px 8px;
+}
+/*label-classes*/
+.summary-item-caption {
+  color: #999;
+  font-size: 1.6em;
+}
+.summary-item-value {
+  color: #88C658;
+  font-size: 2.2em;
+  padding-left: 5px;
+}
+.load-more-btn-user-class {
+  color: #444444;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 175px;
+}

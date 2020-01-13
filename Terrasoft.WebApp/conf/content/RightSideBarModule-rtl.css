@@ -1,0 +1,128 @@
+﻿.right-side-bar-container {
+  margin-right: 10px;
+  margin-left: 0;
+  height: 100%;
+}
+.right-side-bar-container .showNewMessageContainer {
+  z-index: 999;
+  position: relative;
+  right: 0;
+  left: 0;
+  top: 0;
+  background: #edf1f8;
+  margin-right: 0px;
+  height: 32px;
+  display: block;
+  text-align: center;
+}
+.right-side-bar-container .ts-tabpanel li.ts-tabpanel-active-item {
+  color: #444444;
+  background-color: white;
+  border-bottom-color: #f49d57;
+  border-top-color: #FFFFFF;
+  border-right-color: #e1e8f2;
+  border-left-color: #e1e8f2;
+  border-bottom: 2px solid #f49d57;
+}
+.right-side-bar-container .ts-tabpanel-tools {
+  padding-left: 0em;
+  padding-top: 0.8em;
+}
+.right-side-bar-container .ts-tabpanel li {
+  display: table-cell;
+  padding: 0.25em 1.25em 0 1.25em;
+  font-size: 1.4em;
+  color: #999999;
+  cursor: default;
+  height: 2.25em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e1e8f2;
+  border-right: 0px solid #FFFFFF;
+  border-left: 0px solid #FFFFFF;
+  cursor: pointer;
+}
+.right-side-bar-container .feedWidth {
+  width: 100%;
+}
+.right-side-bar-container .ts-tabpanel-wrap {
+  margin-left: 1em;
+}
+.right-side-bar-container .ts-tabpanel-scroll-right {
+  height: 3.2em;
+}
+.right-side-bar-container .ts-tabpanel-scroll-left {
+  height: 3.2em;
+}
+.right-side-bar-container .ts-tabpanel {
+  height: 3.2em;
+}
+.right-side-bar-container .schema-wrap.one-el {
+  min-width: 0px;
+  width: 318px;
+  height: 100%;
+}
+.right-side-bar-container > .ts-tabpanel {
+  margin-right: 0px;
+}
+.entityMargin {
+  margin-right: -32px;
+}
+.close-button-image-size {
+  font-size: 62.5%;
+}
+@media screen and (min-width: 1600px) {
+  .close-button-wrapperEl {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .close-button-wrapperEl {
+    padding: 0;
+  }
+}
+.remindings-number {
+  color: #f49d57;
+}
+.right-panel-modules-container {
+  padding-top: 2em;
+  height: 100%;
+}
+#rightPanelModulesContainer .showNewMessageContainerTop {
+  top: 8.4em;
+}
+#rightPanelModulesContainer {
+  padding-top: 0;
+}
+#rightPanelModulesContainer #ViewModule_RightSideBarModule_ESNFeedModule_postList-container:hover {
+  overflow: scroll;
+}
+#rightPanelTabs-tabpanel-items {
+  margin-right: 0;
+  margin-left: 0;
+}
+#ViewModule_RightSideBarModule_ESNFeedModule_postList-container::-webkit-scrollbar {
+  width: 1em;
+}
+#ViewModule_RightSideBarModule_ESNFeedModule_esnFeed #ViewModule_RightSideBarModule_ESNFeedModule_postList-container:hover {
+  width: 33.2em;
+  padding-left: 0.3em;
+}
+.headerWithChannelListTop {
+  top: 7.2em !important;
+}
+.headerWithChannelListAndMessageTop {
+  top: 12.4em !important;
+}
+.communication-panel-item-container {
+  height: 100%;
+  padding-right: 10px;
+  padding-top: 3px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-left: 7px;
+}
+.hidden {
+  display: none;
+}

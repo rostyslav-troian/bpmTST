@@ -1,0 +1,56 @@
+﻿.macros-page-modal-box .ts-modalbox-innerbox {
+  height: 100%;
+  width: 100%;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .schema-wrap.one-el {
+  min-width: 0;
+  height: 100%;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container {
+  height: 100%;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .header-container {
+  margin-right: 2.5em;
+  position: inherit;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .header-container .actions-container {
+  margin-top: 3em;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .header-container .actions-container .t-btn-wrapper {
+  margin-left: 0.64em;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .tabs-container {
+  max-height: 27em;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .tabs-container {
+  height: 100%;
+  margin-top: 2.2em;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .tabs-container .general-tab-container {
+  height: 100%;
+  margin-top: 0.5em;
+  margin-right: 2em;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .tabs-container .general-tab-container .macros-groups {
+  overflow: hidden;
+  height: 100%;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .tabs-container .general-tab-container .macros-groups:hover {
+  overflow-y: scroll;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .tabs-container .general-tab-container .macros-groups .selectable:first-of-type {
+  margin-top: 1em;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .tabs-container .general-tab-container .macros-groups .ts-controlgroup-container {
+  padding-top: 0;
+  margin-right: 1.9em;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .tabs-container .general-tab-container .macros-groups .ts-controlgroup-container:last-of-type {
+  padding-bottom: 0;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .tabs-container .general-tab-container .macros-groups .ts-controlgroup-caption-wrap {
+  height: 2.5em;
+}
+.macros-page-modal-box .ts-modalbox-innerbox .macros-page-container .tabs-container .general-tab-container .macros-groups .grid-captions {
+  display: none;
+}

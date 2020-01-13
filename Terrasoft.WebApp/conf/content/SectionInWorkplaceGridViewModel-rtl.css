@@ -1,0 +1,33 @@
+﻿.grid .sysmodule-name-label {
+  display: inline;
+  font-family: "bpmonline UI", serif;
+  color: #444;
+}
+.sysmodule-name-container .t-information-btn {
+  margin-top: -1px;
+}
+.tip-red[data-item-marker*="SysModuleRightsErrorTip"] .tip-anchor {
+  top: 34px;
+}
+.tip-red[data-item-marker*="SysModuleRightsErrorTip"] .information-container-wrap {
+  width: 500px;
+}
+.tip-red[data-item-marker*="SysModuleRightsErrorTip"] .schema-wrap.one-el {
+  min-width: auto;
+}
+.tip-red[data-item-marker*="SysModuleRightsErrorTip"] .rights-error-action {
+  display: inline;
+}
+.tip-red[data-item-marker*="SysModuleRightsErrorTip"] .multiline-label {
+  padding: 1em;
+}
+.tip-red[data-item-marker*="SysModuleRightsErrorTip"] .change-rights-button {
+  color: #4e7bd8;
+  padding-top: 2px;
+  padding-left: 0;
+  padding-bottom: 0px;
+  padding-right: 5px;
+}
+.tip-red[data-item-marker*="SysModuleRightsErrorTip"] .rights-error-footer {
+  padding-top: 1em;
+}

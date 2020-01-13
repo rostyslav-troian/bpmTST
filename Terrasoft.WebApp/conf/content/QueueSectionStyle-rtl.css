@@ -1,0 +1,21 @@
+﻿div[data-item-marker='QueueItemSectionContainer'] .fixed-filter-checkbox-container {
+  float: right;
+  width: auto;
+}
+div[data-item-marker='QueueItemSectionContainer'] .fixed-filter-checkbox-container .t-btn-text {
+  padding: 0.65em 0.86em 0.65em 0.86em;
+}
+div[data-item-marker='QueueItemSectionContainer'] .fixed-filter-checkbox-container .t-checkboxedit-wrap {
+  border: none;
+  margin: 8px 1px 1px 0px;
+  background-position: 0px -20px;
+  width: 20px;
+  height: 20px;
+}
+div[data-item-marker='QueueItemSectionContainer'] .fixed-filter-checkbox-container .t-checkboxedit-wrap.t-checkboxedit-focus {
+  box-shadow: none !important;
+  border-color: #8CA0BC !important;
+}
+div[data-item-marker='QueueItemSectionContainer'] .fixed-filter-checkbox-container .t-checkboxedit-wrap.t-checkboxedit-checked {
+  background-position: 0px 0px;
+}

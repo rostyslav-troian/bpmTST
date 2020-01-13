@@ -1,0 +1,66 @@
+﻿.custom-column-settings-container:not(:empty) {
+  margin-left: -10px;
+}
+.custom-column-settings-container:not(:empty) .column-settings-container {
+  margin-left: 0;
+}
+.custom-column-settings-container:not(:empty) .column-settings-container .top-settings-container {
+  margin-left: 0;
+}
+.custom-column-settings-container:not(:empty) + .grid-designer-container {
+  display: none;
+}
+.widget-designer-container.grid-designer-container .label-wrap + .control-wrap {
+  width: 50%;
+}
+.widget-designer-container.grid-designer-container .center-main-container:not(.grid-settings) > div:first-child {
+  padding-bottom: 22px;
+}
+.widget-designer-container.grid-designer-container .ts-controlgroup-container {
+  padding-bottom: 2.1em;
+}
+.widget-designer-container.grid-designer-container .grid-designer-header-container {
+  margin-left: -29px;
+  padding: 20px;
+  margin-top: -55px;
+}
+.widget-designer-container.grid-designer-container .grid-column-settings-container .schema-wrap.one-el .card-content-container {
+  margin-top: 0;
+  padding-top: 0;
+  background: none;
+  margin-left: 0;
+  width: 100%;
+  min-height: 0;
+}
+.widget-designer-container.grid-designer-container .grid-column-settings-container .schema-wrap.one-el .card-content-container:before {
+  display: none;
+}
+.widget-designer-container.grid-designer-container .grid-column-settings-container .schema-wrap.one-el .card-content-container .actions-container {
+  display: none;
+}
+.widget-designer-container.grid-designer-container .grid-column-settings-container .schema-wrap.one-el .card-content-container .grid-settings.center-main-container > div {
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+.widget-designer-container.grid-designer-container .grid-column-settings-container .open-grid-settings-button {
+  margin-left: 0;
+  margin-top: 10px;
+}
+.widget-designer-container.grid-designer-container .grid-column-settings-container > #WidgetModule.module-container {
+  position: static;
+  width: auto;
+  height: auto;
+}
+.widget-designer-container.grid-designer-container .grid-column-settings-container > #WidgetModule.module-container .dashboard-grid-list {
+  position: static;
+  width: auto;
+  height: auto;
+}
+.widget-designer-container.grid-designer-container .grid-view-settings-container .ts-controlgroup:not(.grid-detail) {
+  max-width: none;
+}
+.widget-designer-container.grid-designer-container .grid-view-settings-container > .ts-controlgroup > .ts-controlgroup-container > div {
+  margin-top: 5px;
+}

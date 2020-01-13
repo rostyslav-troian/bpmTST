@@ -1,0 +1,21 @@
+﻿.date-period-control-container {
+  display: -webkit-flex;
+  display: flex;
+}
+.date-period-item-container .label-mini-wrap {
+  font-size: 1.3em;
+  color: #999;
+}
+.date-period-item-container .datetime-datecontrol,
+.date-period-item-container .datetime-timecontrol {
+  border: none;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.date-period-item-container .datetime-datecontrol.base-edit-focus,
+.date-period-item-container .datetime-timecontrol.base-edit-focus,
+.date-period-item-container .datetime-datecontrol.base-edit-error,
+.date-period-item-container .datetime-timecontrol.base-edit-error {
+  border: none;
+  border-bottom: 1px solid #56b4ef;
+  box-shadow: none;
+}

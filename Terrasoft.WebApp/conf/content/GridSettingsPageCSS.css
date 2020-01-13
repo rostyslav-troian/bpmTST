@@ -1,0 +1,492 @@
+﻿body.hidden-scroll-x {
+  overflow-x: hidden;
+}
+.item-drop-hint-style {
+  width: 3px;
+  background-color: #00aeef;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.grid-settings {
+  width: 800px;
+}
+.column-url {
+  color: #0000ee;
+  text-decoration: underline;
+}
+.save-btn-wrapperClass {
+  margin-right: 9px;
+}
+.save-btn-textClass {
+  margin-right: 9px;
+}
+.top-settings-container {
+  margin-left: 2px;
+  margin-bottom: 28px;
+}
+.bottom-settings-container {
+  margin-left: 2px;
+}
+.columns-settings-container {
+  margin-top: 20px;
+}
+.columns-settings-container {
+  margin-top: 20px;
+}
+.container-float-left {
+  float: left;
+}
+.container-float-right {
+  float: right;
+}
+.narrow-button {
+  margin-left: 9px;
+  width: 32px;
+}
+.delete-button {
+  margin-left: 24px;
+}
+.expand-button {
+  margin-left: 3px;
+  width: 32px;
+}
+.unchosen-column {
+  background-color: #E5ECFA;
+}
+.selected-column {
+  background-color: #FDF1C1;
+}
+.grid-settings .grid .grid-module {
+  padding-bottom: 3px;
+}
+.grid-settings .grid #columnsSettingsGrid .grid-cols {
+  padding: 0;
+  min-height: 40px;
+}
+.grid-settings .grid [id*='element-column'] {
+  padding: 0px;
+  border-right-color: white;
+  border-right-width: 3px;
+  border-right-style: solid;
+}
+.grid-settings .grid [id*='element-column-']:last-of-type {
+  border-right-style: none;
+}
+.grid-settings .grid [id*='element-empty-'],
+.grid-settings .grid [id*='element-plus-'] {
+  padding: 0;
+  border-color: #D0D0D0;
+  border-style: dotted;
+  border-width: 1px;
+}
+.grid-settings .grid [id*='element-column-'],
+.grid-settings .grid [id*='element-plus-'] {
+  line-height: 64px;
+  text-align: center;
+}
+.grid-settings .grid [id*='element-plus-'] {
+  background-color: #F4F7F8;
+}
+.column-inner-div {
+  width: 100%;
+  height: 64px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.empty-inner-div {
+  width: 100%;
+  height: 64px;
+  white-space: nowrap;
+}
+.element-column-dd-invisible {
+  display: none;
+}
+.element-column-dd-visible {
+  display: block;
+}
+.grid {
+  margin-bottom: 22px;
+}
+.columns-settings-type-item-container {
+  margin-bottom: 16px;
+}
+#verticalRadioContainer {
+  margin-bottom: 4px;
+}
+.columns-settings-type-item-container label {
+  width: auto;
+  padding-left: 12px;
+  margin-top: 2px;
+}
+.columns-settings-type-item-container span {
+  float: left;
+}
+.expand-label-button {
+  width: 8.285em;
+  margin: 0.5em 0.05em 0.5em 1.5em;
+}
+.bottom-settings-container .setup-button {
+  margin-right: 24px;
+}
+.bottom-settings-container .t-btn-wrapper[data-item-marker="decrementWidth"]:hover,
+.bottom-settings-container .t-btn-wrapper[data-item-marker="incrementWidth"]:hover {
+  background: transparent;
+}
+.bottom-settings-container .t-btn-wrapper .t-btn-image {
+  width: 32px;
+  height: 20px;
+  background-position: 0 19px;
+}
+.bottom-settings-container .t-btn-wrapper .t-btn-image:hover {
+  background-position: 0 0;
+}
+.grid-settings .empty-inner-div {
+  overflow: hidden;
+}
+.grid-settings .grid-pad .grid-row {
+  padding-left: 0;
+}
+.x-safari .grid-settings[active-type='listed'] .grid-layout-table-edit-wrap {
+  height: inherit;
+}
+.x-safari .grid-settings[active-type='tiled'] .grid-layout-table-edit-wrap {
+  display: flex;
+}
+.x-ie:not(.x-edge) .grid-settings[active-type='listed'] .columns-design-container {
+  display: block;
+}
+.x-ie:not(.x-edge) .grid-settings[active-type='listed'] .columns-design-container .grid-layout-table-edit-wrap {
+  float: left;
+  width: calc(100% - 59px);
+}
+.x-ie .grid-settings .columns-design-container .draggable-item-move {
+  left: 16px;
+  right: 16px;
+  width: calc(100% - (15px + 1px) * 2);
+}
+.x-ie .grid-settings .columns-design-container .grid-layout-edit-item-content-wrap {
+  z-index: 0;
+}
+.x-ie .grid-settings > div:first-child {
+  margin-bottom: 17px !important;
+}
+.grid-settings .columns-design-container .dropover-zone-hint {
+  box-shadow: none;
+}
+.grid-settings .columns-design-container .add-btn-wrap .t-btn-wrapper {
+  width: 59px;
+  height: 57px;
+  border: 1px solid #eee;
+  padding: 0;
+}
+.grid-settings .columns-design-container .add-btn-wrap .t-btn-wrapper.t-btn-disabled {
+  cursor: not-allowed;
+}
+.grid-settings .columns-design-container .add-btn-wrap .t-btn-wrapper .t-btn-image {
+  background-repeat: no-repeat;
+  background-size: 30px;
+  width: 30px;
+  height: 30px;
+  margin-left: 13px;
+  margin-top: 12px;
+}
+.grid-settings .grid-layout-table-edit-wrap .grid-layout-table-edit-right-wrap {
+  width: 100%;
+}
+.grid-settings .grid-layout-table-edit-wrap .grid-layout-table-edit-grid-cell {
+  border-color: #eee;
+  height: 2.9em;
+}
+.grid-settings .grid-layout-table-edit-wrap .grid-layout-table-edit-grid-cell[data-row-index="0"] {
+  border-top: 1px solid #eee;
+}
+.grid-settings .grid-layout-table-edit-wrap .grid-layout-table-edit-grid-cell[data-column-index="0"] {
+  border-left: 1px solid #eee;
+}
+.grid-settings .grid-layout-table-edit-wrap .grid-layout-table-edit-grid-cell[data-selected="1"] {
+  background: transparent;
+  color: transparent;
+}
+.grid-settings .grid-layout-table-edit-wrap .grid-layout-table-edit-item-wrap {
+  visibility: visible;
+  background: #fefefe;
+  border-color: #cccccc;
+  min-height: 2.8em;
+}
+.grid-settings .grid-layout-table-edit-wrap .grid-layout-table-edit-item-wrap.item-drop-hint-left:after {
+  content: '';
+  left: 0;
+  width: 3px;
+  background-color: #00aeef;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.grid-settings .grid-layout-table-edit-wrap .grid-layout-table-edit-item-wrap.item-drop-hint-right:after {
+  content: '';
+  right: 0;
+  width: 3px;
+  background-color: #00aeef;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.grid-settings .grid-layout-table-edit-wrap .grid-layout-table-edit-item-wrap .draggable-item-resize-left:hover,
+.grid-settings .grid-layout-table-edit-wrap .grid-layout-table-edit-item-wrap .draggable-item-resize-right:hover {
+  background: #00aeef;
+}
+.grid-settings .grid-layout-table-edit-wrap .grid-layout-table-edit-item-wrap .grid-layout-table-edit-item-content-text-wrap {
+  font-size: 14px;
+  white-space: nowrap;
+  text-align: left;
+  padding-left: 17px;
+}
+.grid-settings .grid-layout-table-edit-wrap .grid-layout-table-edit-item-wrap[item-state="transforming"] {
+  z-index: 25;
+  background: rgba(228, 234, 249, 0.6);
+  border-color: #7d97cf;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.grid-settings .grid-layout-table-edit-wrap[current-state="transforming"] .draggable-item-resize-left:hover,
+.grid-settings .grid-layout-table-edit-wrap[current-state="transforming"] .draggable-item-resize-right:hover {
+  background: transparent;
+}
+.grid-settings .grid-layout-table-edit-wrap:not([current-state="transforming"]) .grid-layout-table-edit-item-wrap:hover {
+  background: #e4eAf9;
+  border-color: #7d97cf;
+}
+.grid-settings .grid-layout-table-edit-wrap:not([current-state="transforming"]) .grid-layout-table-edit-item-wrap:hover .grid-layout-edit-item-actions-wrap {
+  display: block;
+  background: none;
+  min-width: 52px;
+  margin-right: 15px;
+}
+.grid-settings .grid-layout-table-edit-wrap:not([current-state="transforming"]) .grid-layout-table-edit-item-wrap:hover .grid-layout-edit-item-actions-wrap .t-btn-wrapper {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  min-width: 0;
+  min-height: 0;
+  margin-top: 6px;
+}
+.grid-settings .grid-layout-table-edit-wrap:not([current-state="transforming"]) .grid-layout-table-edit-item-wrap:hover .grid-layout-edit-item-actions-wrap .t-btn-wrapper:not(:first-child) {
+  margin-left: 8px;
+}
+.grid-settings .grid-layout-table-edit-wrap:not([current-state="transforming"]) .grid-layout-table-edit-item-wrap:hover .grid-layout-edit-item-actions-wrap .t-btn-wrapper .t-btn-image {
+  width: 14px;
+  height: 14px;
+}
+.grid-settings .grid-layout-table-edit-wrap:not([current-state="transforming"]) .grid-layout-table-edit-item-wrap:hover .grid-layout-edit-item-actions-wrap .t-btn-wrapper[data-tag="addLeft"],
+.grid-settings .grid-layout-table-edit-wrap:not([current-state="transforming"]) .grid-layout-table-edit-item-wrap:hover .grid-layout-edit-item-actions-wrap .t-btn-wrapper[data-tag="addRight"] {
+  position: absolute;
+  margin-left: 0;
+  width: 15px;
+}
+.grid-settings .grid-layout-table-edit-wrap:not([current-state="transforming"]) .grid-layout-table-edit-item-wrap:hover .grid-layout-edit-item-actions-wrap .t-btn-wrapper[data-tag="addLeft"] .t-btn-image,
+.grid-settings .grid-layout-table-edit-wrap:not([current-state="transforming"]) .grid-layout-table-edit-item-wrap:hover .grid-layout-edit-item-actions-wrap .t-btn-wrapper[data-tag="addRight"] .t-btn-image {
+  width: 15px;
+  height: 15px;
+}
+.grid-settings .grid-layout-table-edit-wrap:not([current-state="transforming"]) .grid-layout-table-edit-item-wrap:hover .grid-layout-edit-item-actions-wrap .t-btn-wrapper[data-tag="addLeft"] {
+  left: 1px;
+}
+.grid-settings .grid-layout-table-edit-wrap:not([current-state="transforming"]) .grid-layout-table-edit-item-wrap:hover .grid-layout-edit-item-actions-wrap .t-btn-wrapper[data-tag="addRight"] {
+  right: 1px;
+}
+.grid-settings .preview-data-container {
+  position: relative;
+}
+.grid-settings .preview-data-container .default-widget-header {
+  position: static;
+  padding-left: 0;
+}
+.grid-settings .preview-data-container .default-widget-header-label {
+  font-size: 20px;
+}
+.grid-settings .preview-data-container .preview-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.grid-settings .preview-data-container .preview-caption {
+  color: #999;
+  font-size: 17px;
+  margin-top: -7px;
+  text-align: left;
+}
+.grid-settings .preview-data-container .grid-pad {
+  padding-left: 0;
+}
+.grid-settings .preview-data-container .grid.grid-listed .grid-captions {
+  margin-bottom: 0;
+}
+.grid-settings .preview-data-container .listed-grid-line {
+  padding-left: 0;
+  padding-right: 0;
+}
+.grid-settings.center-main-container[active-type="tiled"] .preview-data-container .grid.grid-tiled .grid-row.grid-pad:before,
+.grid-settings.center-main-container[active-type="tiled"] .preview-data-container .grid.grid-tiled .grid-row.grid-pad:after {
+  margin-left: 0;
+  margin-right: 0;
+}
+.grid-settings.center-main-container[active-type="tiled"] .preview-data-container .grid.grid-tiled .grid-row.grid-pad:first-child:before {
+  display: none;
+}
+.grid-settings[active-type="listed"] .columns-design-container {
+  display: flex;
+}
+.grid-settings[active-type="listed"] .columns-design-container .add-btn-wrap {
+  flex-grow: 1;
+  margin-left: 1px;
+}
+.grid-settings[active-type="listed"] .preview-data-container .grid,
+.grid-settings[active-type="listed"] .default-widget-header {
+  width: calc(100% - 59px - 1px);
+}
+.grid-settings[active-type="tiled"] .columns-design-container .add-btn-wrap {
+  text-align: center;
+  margin-top: -57px;
+}
+.grid-settings[active-type="tiled"] .columns-design-container .add-btn-wrap .t-btn-wrapper {
+  border: none;
+}
+.grid-settings[active-type="tiled"] .preview-data-container .preview-caption {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 14px;
+}
+.grid-settings[vertical-grid-settings="true"][active-type="tiled"] .preview-data-container .preview-caption {
+  width: 292px;
+}
+.grid-settings[vertical-grid-settings="true"][active-type="tiled"] .preview-data-container .grid {
+  width: 300px;
+}
+.grid-settings .type-select-config {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: row-reverse;
+}
+.grid-settings .type-select-config .t-btn-text {
+  border-color: #7d97cf;
+  color: #6380c0;
+  font-size: 14px;
+  border-radius: 2px;
+  width: 210px;
+  height: 25px;
+  min-height: 0;
+  text-transform: none;
+}
+.grid-settings .type-select-config .t-btn-text[active="true"] {
+  color: #fff;
+  background-color: #7d97cf;
+}
+.grid-settings .type-select-config .t-btn-text:first-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.grid-settings .type-select-config .t-btn-text:last-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.grid-settings .type-select-config .grid-setting-preview-button-wrap {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  width: auto;
+  flex-grow: 1;
+}
+.grid-settings .type-select-config .grid-setting-preview-button-wrap .label-wrap {
+  width: auto;
+  max-width: none;
+  min-width: 0;
+}
+.grid-settings .type-select-config .grid-setting-preview-button-wrap .label-wrap .t-label {
+  padding: 0;
+  color: #444;
+  margin-top: 1px;
+}
+.grid-settings .type-select-config .grid-setting-preview-button-wrap .control-wrap {
+  width: auto;
+  padding: 0;
+  margin-right: 9px;
+  margin-left: 0;
+}
+.grid-settings[schema-name="VwProcessLib"] .grid .grid-icon-fixed-32x32 {
+  max-width: 64px;
+  width: 64px !important;
+  position: inherit;
+}
+.grid-settings[schema-name="VwProcessLib"] .grid .icon-spacer-32x32 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  align-items: stretch;
+}
+.grid-settings[schema-name="VwProcessLib"] .grid .icon-spacer-32x32 > a:first-child {
+  order: 1;
+  margin-left: auto;
+  position: relative !important;
+}
+.grid-settings[schema-name="VwProcessLib"] .grid .icon-spacer-32x32 > a:last-child {
+  order: 0;
+  flex-grow: 1;
+  max-width: fit-content;
+}
+.draggable-item-grabbed.grid-layout-table-edit-item-wrap[item-state="transforming"] {
+  z-index: 25;
+  background: rgba(228, 234, 249, 0.6);
+  border-color: #7d97cf;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.draggable-item-grabbed.grid-layout-table-edit-item-wrap .grid-layout-table-edit-item-content-text-wrap {
+  font-size: 14px;
+  white-space: nowrap;
+  text-align: left;
+  padding-left: 17px;
+}
+.preview-data-container [class*='grid-cols-'] {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.preview-data-container {
+  font-size: inherit;
+  height: 100%;
+  position: relative;
+  overflow: auto;
+  padding-top: 35px;
+  overflow-y: hidden;
+}
+.preview-data-container .listed-grid-wrap {
+  height: calc(100% - 35px);
+  background-color: #fff;
+}
+.preview-data-container .grid-scroll,
+.preview-data-container .grid {
+  height: 100%;
+}
+.preview-data-container .grid.inner {
+  color: #444;
+  background-color: #fff;
+  overflow: hidden;
+}
+.preview-data-container .grid.inner .grid-scroll {
+  overflow-y: hidden !important;
+  margin-bottom: -17px;
+  padding-bottom: 17px;
+}
+.preview-data-container .grid::-webkit-scrollbar {
+  display: none;
+}
+.preview-data-container .listed-grid-line {
+  display: flex;
+}
+.preview-data-container .data-grid-wrapper {
+  overflow: hidden;
+}
+html[dir="rtl"] body .center-panel .grid-column-settings-container .card-content-container {
+  left: 0;
+}

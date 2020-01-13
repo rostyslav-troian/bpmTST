@@ -1,0 +1,164 @@
+﻿body {
+  overflow: hidden;
+}
+.main-content-wrapper .schema-designer .diagram {
+  width: 0;
+  min-width: 0;
+}
+.schema-designer {
+  background-color: #ebeeef;
+}
+.schema-designer .header {
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #e6e6e6;
+  margin: 7px;
+}
+.schema-designer .properties-ct {
+  background-color: white;
+}
+.schema-designer .properties-ct.properties-ct-collapsed {
+  border-right: none;
+  box-shadow: none;
+}
+.schema-designer .properties-ct .empty-properties-container {
+  min-width: 356px;
+  padding-top: 25px;
+}
+.schema-designer .properties-ct .empty-properties-container .tools-container-wrapClass {
+  height: 16px;
+}
+.schema-designer .properties-ct .empty-properties-container .tools-container-wrapClass .t-btn-wrapper {
+  float: left;
+  padding-left: 25px;
+}
+.schema-designer .properties-ct .empty-properties-container .description-label {
+  margin-right: 52px;
+  width: 256px;
+}
+.schema-designer .properties-ct .empty-properties-container .academy-message-container {
+  margin: 35px 28px 0px 0px;
+  padding: 11px 24px 13px 0px;
+  box-shadow: -3px 0 0 0 #54b8df;
+}
+.schema-designer .properties-ct .empty-properties-container .t-label {
+  font-size: 17px;
+  color: #999999;
+}
+.schema-designer .properties-ct .empty-properties-container .image-container {
+  padding-top: 20px;
+  padding-bottom: 65px;
+  margin-right: 110px;
+  width: 135px;
+}
+.schema-designer .toolbar {
+  min-height: 65px;
+}
+.schema-designer .load-storage-panel {
+  top: 75px;
+}
+.schema-designer .diagram > .control-width-15 {
+  padding-top: 8px;
+  padding-right: 0;
+}
+.schema-designer .diagram > .toolbar {
+  padding-right: 0;
+}
+.schema-designer .diagram > .load-storage-panel {
+  margin-right: 0;
+  top: 75px;
+}
+.dcm-stage-container.reorderable-container {
+  padding-top: 20px;
+  padding-right: 25px;
+  flex-basis: 100%;
+  height: auto;
+  overflow: auto;
+  margin: 0px 7px 7px 7px;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+}
+.dcm-stage-container.reorderable-container.horizontal-align > .reorderable-inner-container {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+.dcm-stage-container.reorderable-container.horizontal-align > .reorderable-inner-container > .reorderable {
+  height: auto;
+}
+.dcm-stage-container .dcm-stage {
+  align-self: stretch;
+  height: auto;
+}
+.dcm-stage-container .dcm-stage > .stage-inner-container .add-dcm-stage-element {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 17px;
+  margin-bottom: 70px;
+}
+.dcm-stage-container .dcm-stage > .stage-inner-container .add-dcm-stage-element .t-btn-wrapper {
+  margin-left: 9px;
+  padding-right: 0.65em;
+}
+.dcm-stage-container .dcm-stage > .stage-inner-container .add-dcm-stage-element .t-btn-wrapper .t-btn-image {
+  background-repeat: no-repeat;
+  min-width: auto;
+  min-height: auto;
+  margin-top: 0;
+  width: 16px;
+  height: 16px;
+}
+.dcm-stage-container .dcm-stage > .stage-inner-container .add-dcm-stage-element .t-btn-wrapper .t-btn-menu {
+  left: 0.6em;
+  bottom: 0.2em;
+}
+.dcm-stage-container .dcm-stage > .stage-inner-container .add-dcm-stage-element .t-btn-wrapper .t-btn-menu .t-btn-marker {
+  border-top-color: #ababab;
+}
+.dcm-stage-container .dcm-stage > .stage-inner-container .add-dcm-stage-element .base-edit {
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+  margin-top: -4px;
+  max-width: 173px;
+}
+.dcm-stage-container .dcm-stage > .stage-inner-container .add-dcm-stage-element .base-edit:not(.base-edit-focus):hover {
+  border-bottom-style: solid;
+}
+.dcm-stage-container .dcm-stage > .stage-inner-container .add-dcm-stage-element .base-edit.base-edit-focus {
+  outline: none;
+  border-color: #fff;
+  border-bottom: 1px solid #00aeef;
+  box-shadow: none;
+}
+.add-dcm-stage-item-type-menu.menu-wrap.menu .menu-item .menu-item-image {
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+.draggable-item-grabbed.dcm-stage.x-dd-drag-current.invalid-drag {
+  cursor: no-drop;
+}
+.draggable-item-grabbed.dcm-stage.x-dd-drag-current.invalid-drag .dcm-stage .draggable-item-move {
+  cursor: no-drop;
+}
+.dcm-schema-properties-button {
+  padding-left: 0px;
+}
+.dcm-schema-properties-button .t-btn-image:hover {
+  background-position: 0px -39px;
+}
+.dcm-help-button {
+  padding-left: 0px;
+}
+.dcm-help-button .t-btn-image:hover {
+  background-position: 0px -39px;
+}
+.dcm-feed-button {
+  padding-left: 3px;
+}
+.dcm-feed-button .t-btn-image:hover {
+  background-position: 0px -40px;
+}

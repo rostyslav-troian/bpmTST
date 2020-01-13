@@ -1,0 +1,13 @@
+<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+	<path d="m9 4v8.4l-.78.6h-5.47l-.75-.59v-8.41zm1-1h-9v9.9l1.41 1.1h6.15l1.44-1.1z" fill="#54657d" transform="translate(7 5)"/>
+	<g shape-rendering="crispEdges">
+		<path d="m0 0h24v24h-24z" fill="none"/>
+		<g fill="none" stroke="#54657d">
+			<path d="m10.5 10v7" stroke-miterlimit="10"/>
+			<path d="m14.5 10v7" stroke-miterlimit="10"/>
+			<path d="m12.5 10v7" stroke-miterlimit="10"/>
+			<path d="m0 0h11" transform="translate(7 8.5)"/>
+			<path d="m10.5 6.4h4v2h-4z" stroke-miterlimit="10"/>
+		</g>
+	</g>
+</svg>

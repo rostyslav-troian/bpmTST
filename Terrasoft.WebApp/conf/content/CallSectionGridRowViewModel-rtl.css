@@ -1,0 +1,12 @@
+﻿.grid-row-actions .audio-player-button {
+  line-height: 1.15em;
+}
+.grid-row-selected > .grid-row-actions .audio-player-button {
+  line-height: 1.45em;
+}
+.grid-row-selected > .grid-row-actions audio {
+  vertical-align: bottom;
+  margin-left: 9px;
+  margin-bottom: 1px;
+  height: 31px;
+}

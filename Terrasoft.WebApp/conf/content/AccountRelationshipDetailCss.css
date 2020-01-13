@@ -1,0 +1,16 @@
+﻿.account-relationship.detail .relationship-mode-button {
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+}
+.account-relationship.detail .datagrid-mode-button {
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+}
+.account-relationship.detail .relationship-mode-button,
+.account-relationship.detail .datagrid-mode-button {
+  padding-left: 0.308em;
+  padding-right: 0.462em;
+}
+.account-relationship.detail .mode-button-pressed {
+  background: #e4eaf9;
+}

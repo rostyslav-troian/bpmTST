@@ -1,0 +1,11 @@
+﻿.read-only-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  position: fixed;
+  bottom: 0px;
+}
+.read-only-button {
+  cursor: default;
+}

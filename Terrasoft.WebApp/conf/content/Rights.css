@@ -1,0 +1,54 @@
+﻿.rights-page .grid-listed-row > .grid-row-actions .t-btn-wrapper {
+  line-height: 1.15em;
+}
+.rights-title-lbl {
+  color: #444444;
+  font-size: 35px;
+  font-family: 'Segoe UI Light';
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+.rights-service-btn {
+  margin-right: 9px;
+}
+.rights-add-btn {
+  float: left;
+}
+.rights-move-btn {
+  float: right;
+}
+.rights-service-cntnr {
+  margin-bottom: 30px;
+}
+.rights-unit-cntnr {
+  padding-top: 0px;
+  padding-bottom: 18px;
+}
+.rights-unit-cntnr .grid-captions {
+  display: none;
+}
+.grid.grid-empty {
+  padding-bottom: 21px;
+}
+.rights-access-btn {
+  float: left;
+  top: 10px !important;
+}
+.rights-active-row-btn {
+  margin-top: 10px;
+}
+#rights-header-label-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 95%;
+  padding-right: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  overflow: hidden;
+}
+#rights-context-help-container {
+  display: inline-block;
+  width: 5%;
+  height: 42px;
+}

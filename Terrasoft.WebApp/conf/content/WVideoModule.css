@@ -1,0 +1,246 @@
+﻿.x-resizable-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 200000;
+  background-color: #fff;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+.x-resizable-handle {
+  position: absolute;
+  z-index: 100;
+  font-size: 1px;
+  line-height: 6px;
+  overflow: hidden;
+  zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+.x-collapsed .x-resizable-handle {
+  display: none;
+}
+/* line 18, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-collapsed .x-resizable-handle {
+  display: none;
+}
+/* line 23, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-north {
+  cursor: n-resize;
+}
+/* line 26, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-south {
+  cursor: s-resize;
+}
+/* line 29, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-east {
+  cursor: e-resize;
+}
+/* line 32, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-west {
+  cursor: w-resize;
+}
+/* line 35, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-southeast {
+  cursor: se-resize;
+}
+/* line 38, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-northwest {
+  cursor: nw-resize;
+}
+/* line 41, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-northeast {
+  cursor: ne-resize;
+}
+/* line 44, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-southwest {
+  cursor: sw-resize;
+}
+/* line 49, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-handle-east {
+  width: 6px;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+/* line 56, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-handle-south {
+  width: 100%;
+  height: 6px;
+  left: 0;
+  bottom: 0;
+}
+/* line 63, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-handle-west {
+  width: 6px;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+/* line 70, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-handle-north {
+  width: 100%;
+  height: 6px;
+  left: 0;
+  top: 0;
+}
+/* line 77, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-handle-southeast {
+  width: 6px;
+  height: 6px;
+  right: 0;
+  bottom: 0;
+  z-index: 101;
+}
+/* line 85, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-handle-northwest {
+  width: 6px;
+  height: 6px;
+  left: 0;
+  top: 0;
+  z-index: 101;
+}
+/* line 93, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-handle-northeast {
+  width: 6px;
+  height: 6px;
+  right: 0;
+  top: 0;
+  z-index: 101;
+}
+/* line 101, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-handle-southwest {
+  width: 6px;
+  height: 6px;
+  left: 0;
+  bottom: 0;
+  z-index: 101;
+}
+/*IE rounding error*/
+
+/* line 112, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-ie .x-resizable-handle-east {
+  margin-right: -1px;
+  /*IE rounding error*/
+
+}
+/* line 116, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-ie .x-resizable-handle-south {
+  margin-bottom: -1px;
+}
+/* line 124, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-pinned .x-resizable-handle,
+.x-resizable-over .x-resizable-handle {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+/* line 138, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-proxy {
+  border: 1px dashed #3b5a82;
+  position: absolute;
+  overflow: hidden;
+  z-index: 50000;
+}
+/* line 150, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+/* line 156, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+/* line 161, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-southeast,
+.x-resizable-pinned .x-resizable-handle-southeast {
+  background-position: top left;
+}
+/* line 166, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-northwest,
+.x-resizable-pinned .x-resizable-handle-northwest {
+  background-position: bottom right;
+}
+/* line 171, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-northeast,
+.x-resizable-pinned .x-resizable-handle-northeast {
+  background-position: bottom left;
+}
+/* line 176, ../../../ext-theme-neutral/sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-southwest,
+.x-resizable-pinned .x-resizable-handle-southwest {
+  background-position: top right;
+}
+/* line 1, ../../sass/src/resizer/Resizer.scss */
+
+.x-resizable-handle {
+  background-color: #157fcc;
+  background-repeat: no-repeat;
+}
+/* line 10, ../../sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-east,
+.x-resizable-over .x-resizable-handle-west,
+.x-resizable-pinned .x-resizable-handle-east,
+.x-resizable-pinned .x-resizable-handle-west {
+  background-position: center;
+}
+/* line 15, ../../sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-south,
+.x-resizable-over .x-resizable-handle-north,
+.x-resizable-pinned .x-resizable-handle-south,
+.x-resizable-pinned .x-resizable-handle-north {
+  background-position: center;
+}
+/* line 19, ../../sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-southeast,
+.x-resizable-pinned .x-resizable-handle-southeast {
+  background-position: -2px -2px;
+}
+/* line 23, ../../sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-northwest,
+.x-resizable-pinned .x-resizable-handle-northwest {
+  background-position: 2px 2px;
+}
+/* line 27, ../../sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-northeast,
+.x-resizable-pinned .x-resizable-handle-northeast {
+  background-position: -2px 2px;
+}
+/* line 31, ../../sass/src/resizer/Resizer.scss */
+
+.x-resizable-over .x-resizable-handle-southwest,
+.x-resizable-pinned .x-resizable-handle-southwest {
+  background-position: 2px -2px;
+}

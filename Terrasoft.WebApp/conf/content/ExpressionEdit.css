@@ -1,0 +1,86 @@
+﻿.expression-edit-inner-wrap {
+  min-height: 1.6em;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.expression-edit-inner-wrap .expression-inner-type {
+  margin-right: 0;
+  padding-right: 0;
+  position: relative;
+  flex-basis: auto;
+  flex-grow: 1;
+}
+.expression-edit-inner-wrap .expression-inner-type .t-btn-text {
+  white-space: nowrap;
+}
+.expression-edit-inner-wrap .expression-inner-type:empty,
+.expression-edit-inner-wrap .expression-inner-value:empty,
+.expression-edit-inner-wrap .expression-inner-reference-schema:empty {
+  display: none;
+}
+.expression-edit-inner-wrap .expression-inner-reference-schema {
+  margin-right: 0.5em;
+}
+.expression-edit-inner-wrap .expression-inner-value,
+.expression-edit-inner-wrap .expression-inner-reference-schema {
+  flex-basis: auto;
+  flex-grow: 4;
+}
+.expression-edit-inner-wrap .expression-inner-value > div,
+.expression-edit-inner-wrap .expression-inner-reference-schema > div {
+  flex-basis: 100%;
+}
+.expression-edit-inner-wrap .expression-inner-value .base-edit:not(.base-edit-focus),
+.expression-edit-inner-wrap .expression-inner-reference-schema .base-edit:not(.base-edit-focus) {
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.expression-edit-inner-wrap .expression-inner-value .base-edit:not(.base-edit-focus):hover,
+.expression-edit-inner-wrap .expression-inner-reference-schema .base-edit:not(.base-edit-focus):hover {
+  border-bottom: 1px solid #c8c8c8;
+}
+.expression-edit-inner-wrap .expression-inner-value .base-edit.base-edit-focus .base-edit-right-icon,
+.expression-edit-inner-wrap .expression-inner-reference-schema .base-edit.base-edit-focus .base-edit-right-icon {
+  display: block;
+}
+.expression-edit-inner-wrap .expression-inner-value .base-edit.base-edit-focus .base-edit-input,
+.expression-edit-inner-wrap .expression-inner-reference-schema .base-edit.base-edit-focus .base-edit-input {
+  cursor: text;
+}
+.expression-edit-inner-wrap .expression-inner-value .base-edit:not(.base-edit-disabled):hover .base-edit-right-icon,
+.expression-edit-inner-wrap .expression-inner-reference-schema .base-edit:not(.base-edit-disabled):hover .base-edit-right-icon {
+  display: block;
+}
+.expression-edit-inner-wrap .expression-inner-value .base-edit.base-edit-disabled,
+.expression-edit-inner-wrap .expression-inner-reference-schema .base-edit.base-edit-disabled {
+  background-color: white;
+}
+.expression-edit-inner-wrap .expression-inner-value .base-edit.base-edit-disabled .base-edit-input,
+.expression-edit-inner-wrap .expression-inner-reference-schema .base-edit.base-edit-disabled .base-edit-input {
+  background-color: white;
+}
+.expression-edit-inner-wrap .expression-inner-value .base-edit.base-edit-error,
+.expression-edit-inner-wrap .expression-inner-reference-schema .base-edit.base-edit-error {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.expression-edit-inner-wrap .expression-inner-value .base-edit:hover,
+.expression-edit-inner-wrap .expression-inner-reference-schema .base-edit:hover {
+  cursor: text;
+}
+.expression-edit-inner-wrap .expression-inner-value .base-edit:hover.base-edit-disabled,
+.expression-edit-inner-wrap .expression-inner-reference-schema .base-edit:hover.base-edit-disabled {
+  cursor: default;
+}
+.expression-edit-inner-wrap .expression-inner-value .base-edit-with-clear-icon:not(.clear-icon-not-visible):hover .base-edit-input,
+.expression-edit-inner-wrap .expression-inner-reference-schema .base-edit-with-clear-icon:not(.clear-icon-not-visible):hover .base-edit-input {
+  padding-right: 0;
+}
+.expression-edit-inner-wrap .expression-inner-value .base-edit-with-clear-icon:not(.clear-icon-not-visible):hover .base-edit-clear-icon,
+.expression-edit-inner-wrap .expression-inner-reference-schema .base-edit-with-clear-icon:not(.clear-icon-not-visible):hover .base-edit-clear-icon {
+  background-color: #fff;
+}

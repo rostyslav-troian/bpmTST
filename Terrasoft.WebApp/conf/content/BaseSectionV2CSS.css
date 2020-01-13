@@ -1,0 +1,270 @@
+﻿body[OldUI=true] .grid-dataview-container-wrapClass > .grid .grid-pad:after {
+  display: none;
+}
+body[custom-mask="visible"]:not([maskstate="visible"]) .section-wrap * {
+  max-height: 90vh;
+}
+body[custom-mask="visible"]:not([maskstate="visible"]) .right-section-container * {
+  max-height: 80vh;
+}
+body[custom-mask="visible"]:not([maskstate="visible"]) .grid-dataview-container-wrapClass.grid-dataview-container-mask[maskstate="visible"] {
+  min-height: 80vh;
+}
+body[custom-mask="visible"]:not([maskstate="visible"]) .section.left-el * {
+  max-height: 90vh;
+}
+body[custom-mask="visible"]:not([maskstate="visible"]) .schema-wrap.two-el .left-el .right-section-container:hover {
+  overflow-y: hidden;
+}
+.proc-btn-img {
+  width: 1.1em !important;
+}
+.proc-btn-img-top {
+  margin-top: 2px;
+}
+body[OldUI=false].x-ie .center-panel .schema-wrap.two-el .left-el {
+  width: 300px;
+}
+body[OldUI=false].x-ie .center-panel .schema-wrap.two-el .utils-container-wrapClass {
+  min-width: 298px;
+  width: 298px;
+}
+body[OldUI=false].x-ie .center-panel .schema-wrap.two-el .section-wrap .content-container-wrapClass > .section .utils-container-wrapClass {
+  top: 9.4em;
+  padding-bottom: 3px;
+}
+body[OldUI=false].x-ie .center-panel .schema-wrap.two-el .section-wrap .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .utils-container-wrapClass {
+  border-right: none;
+}
+body[OldUI=false][is-card-opened=true] .schema-wrap .toggle-section-button {
+  display: block;
+}
+body[OldUI=false][sysadmin-section=true] .schema-wrap .toggle-section-button {
+  display: none;
+}
+body[OldUI=false] .schema-wrap .toggle-section-button {
+  display: none;
+  position: absolute;
+  width: 25px;
+  height: 36px;
+  border-left: 2px solid #ff4013;
+  background-color: rgba(11, 46, 78, 0.5);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin: -6px 0 0 299px;
+  padding: 0;
+}
+body[OldUI=false] .schema-wrap .toggle-section-button > span {
+  display: block;
+  float: none;
+  padding: 0;
+  margin: 10px 0 0 3px;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+body[OldUI=false] .schema-wrap .close-open-section-btn {
+  display: none;
+  position: fixed;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  margin-top: 0;
+  padding: 0;
+  width: 23px;
+  height: 35px;
+  border: 1px solid #e6e6e6;
+  border-left: 2px solid #f8902d;
+  background-image: linear-gradient(-90deg, #9ab2e8, #87a2e1);
+  background-image: -ms-linear-gradient(-90deg, #9ab2e8, #87a2e1);
+  background-image: -o-linear-gradient(-90deg, #9ab2e8, #87a2e1);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+body[OldUI=false] .schema-wrap.one-el .toggle-section-button {
+  margin: 36px 0 0 -28px;
+}
+body[OldUI=false] .schema-wrap.one-el .toggle-section-button > span {
+  -moz-transform: none;
+  -ms-transform: none;
+  -webkit-transform: none;
+  -o-transform: none;
+  transform: none;
+  margin-left: 4px;
+  background-position: -2px center;
+}
+body[OldUI=false] .schema-wrap.one-el .grid-tiled .grid-pad:before {
+  margin-top: -1px;
+}
+body[OldUI=false] .schema-wrap.one-el .grid-tiled .grid-pad:after {
+  margin-bottom: -1px;
+  margin-top: 0;
+}
+body[OldUI=false] .schema-wrap.one-el .grid-tiled .grid-pad:after,
+body[OldUI=false] .schema-wrap.one-el .grid-tiled .grid-pad:before {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #E0E0E0;
+}
+body[OldUI=false] .schema-wrap.one-el .grid-tiled.grid .grid-pad.grid-row-selected:before,
+body[OldUI=false] .schema-wrap.one-el .grid-tiled.grid .grid-pad.grid-row-selected:after {
+  margin-left: -6px;
+  margin-right: -6px;
+}
+body[OldUI=false] .schema-wrap.one-el .grid-tiled .grid-pad.grid-active-selectable {
+  border: none;
+}
+body[OldUI=false] .schema-wrap.one-el .ts-controlgroup-container .grid.grid-tiled .grid-pad.grid-row-selected:before,
+body[OldUI=false] .schema-wrap.one-el .ts-controlgroup-container .grid.grid-tiled .grid-pad.grid-row-selected:after {
+  margin-left: 0px;
+  margin-right: -6px;
+}
+body[OldUI=false] .schema-wrap.one-el .ts-controlgroup-container .grid.grid-tiled .grid-pad:before,
+body[OldUI=false] .schema-wrap.one-el .ts-controlgroup-container .grid.grid-tiled .grid-pad:after {
+  margin-left: 6px;
+}
+body[OldUI=false] .schema-wrap.one-el div:not(.ts-controlgroup-container) > .grid-tiled .grid-pad:after,
+body[OldUI=false] .schema-wrap.one-el div:not(.ts-controlgroup-container) > .grid-tiled .grid-pad:before {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+body[OldUI=false] .schema-wrap.one-el .action-buttons-container-wrapClass .card-back-button {
+  display: none;
+  position: fixed;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  margin-top: 0;
+  padding: 0;
+  width: 23px;
+  height: 35px;
+  border: 1px solid #e6e6e6;
+  border-left: 2px solid #f8902d;
+  background-image: linear-gradient(-90deg, #9ab2e8, #87a2e1);
+  background-image: -ms-linear-gradient(-90deg, #9ab2e8, #87a2e1);
+  background-image: -o-linear-gradient(-90deg, #9ab2e8, #87a2e1);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-left: -27px;
+  margin-top: 37px;
+}
+body[OldUI=false] .schema-wrap.one-el .action-buttons-container-wrapClass .card-back-button > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+body[OldUI=false] .schema-wrap.two-el .action-buttons-container-wrapClass {
+  border-left: 1px solid #e6e6e6;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el {
+  z-index: 1001;
+  overflow-x: hidden;
+  bottom: auto;
+  top: 115px;
+  background-color: #fff;
+  max-height: calc(100vh - 115px);
+  border-right: 1px solid #e6e6e6;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass {
+  border-right: 0;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .utils-container-wrapClass {
+  border-bottom: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .utils-container-wrapClass .wrapper-with-centered-right-menu {
+  margin-left: 0;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .utils-container-wrapClass .close-button-container-wrapClass {
+  display: none;
+  position: fixed;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  margin-top: 0;
+  padding: 0;
+  width: 23px;
+  height: 35px;
+  border: 1px solid #e6e6e6;
+  border-left: 2px solid #f8902d;
+  background-image: linear-gradient(-90deg, #9ab2e8, #87a2e1);
+  background-image: -ms-linear-gradient(-90deg, #9ab2e8, #87a2e1);
+  background-image: -o-linear-gradient(-90deg, #9ab2e8, #87a2e1);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-left: 27.9em;
+  margin-top: -1px;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .utils-container-wrapClass .close-button-container-wrapClass > span {
+  display: block;
+  position: relative;
+  width: 23px;
+  height: 33px;
+  padding: 0;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .utils-container-wrapClass .close-button-container-wrapClass > span > span {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .grid-dataview-container-wrapClass > .grid .grid-pad {
+  padding-top: 1px;
+  position: relative;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .grid-dataview-container-wrapClass > .grid .grid-pad:first-child:after,
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .grid-dataview-container-wrapClass > .grid .grid-pad:first-child:before {
+  display: none;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .grid-dataview-container-wrapClass > .grid .grid-pad:after {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  left: -22px;
+  top: -1px;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .grid-dataview-container-wrapClass > .grid .grid-pad:first-child {
+  border-top: 1px solid #e6e6e6;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .grid-dataview-container-wrapClass > .grid .grid-pad.grid-row-selected {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .grid-dataview-container-wrapClass > .grid .grid-pad.grid-row-selected + .grid-pad:after {
+  display: none;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .grid-dataview-container-wrapClass > .grid .grid-pad.grid-row-selected:last-of-type {
+  border-bottom: 1px solid #e6e6e6;
+}
+body[OldUI=false] .schema-wrap.two-el .content-container-wrapClass > .section.left-el .section-inner-wrap .data-views-container-wrapClass .grid-dataview-container-wrapClass > .grid .grid-pad:last-of-type {
+  padding-bottom: 15px;
+  border-bottom: 1px solid transparent;
+}
+body[OldUI=false].x-safari .data-views-container-wrapClass .utils-container-wrapClass {
+  margin: -0.1px;
+}
+body[OldUI=false].x-safari.left-panel-collapsed .data-views-container-wrapClass .utils-container-wrapClass {
+  margin: -0.2px;
+}

@@ -1,0 +1,9 @@
+﻿.customer-access-container {
+  width: 98%;
+  margin-top: 10px;
+  overflow-y: scroll;
+  max-height: 260px;
+}
+.customer-access-page-modal-box {
+  overflow-y: hidden;
+}

@@ -1,0 +1,1473 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Core.Process</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Core.Process.ActiveProcessDataStore">
+            <summary>
+            Repository for active processes.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ActiveProcessDataStore.#ctor(Terrasoft.Core.Process.IProcessReferenceStore)">
+            <summary>
+            Creates a new instance of the <see cref="T:Terrasoft.Core.Process.ActiveProcessDataStore"/> type.
+            </summary>
+            <param name="dataStore">Data store.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ActiveProcessDataStore.Terrasoft#Core#Process#IActiveProcessDataStore#Set(Terrasoft.Core.Process.Process)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.ActiveProcessDataStore.Terrasoft#Core#Process#IActiveProcessDataStore#GetEmbeddedProcesses(System.Collections.Generic.HashSet{System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.ActiveProcessDataStore.Terrasoft#Core#Process#IActiveProcessDataStore#Remove(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.ActiveProcessDataStore.Terrasoft#Core#Process#IActiveProcessDataStore#TryGetValue(System.String,Terrasoft.Core.Process.Process@)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.Process.CancelProcessMessage">
+            <summary>
+            Message for canceling the process.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.CancelProcessMessage.#ctor(System.Guid)">
+            <summary>
+            Creates a new instance of the <see cref="T:Terrasoft.Core.Process.CancelProcessMessage"/> type.
+            </summary>
+            <param name="processUId">Unique identifier of the process.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.CancelProcessMessage.ProcessUId">
+            <summary>
+            Gets unique identifier of the process.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.ContinueProcessOptions">
+            <summary>
+            The information about the process to be continued.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.Process.ContinueProcessOptions.ProcessUId">
+            <summary>
+            The unique identifier of the process to be continued.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.Process.ContinueProcessOptions.ProcessElementUId">
+            <summary>
+            The unique identifier of the process element to be continued.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.Process.ContinueProcessOptions.EntitySchemaUId">
+            <summary>
+            The entity schema unique identifier.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.Process.ContinueProcessOptions.EntityId">
+            <summary>
+            The entity primary key.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.Process.ContinueProcessOptions.ParameterValues">
+            <summary>
+            Serialized values of the user task parameters.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.Process.ContinueProcessOptions.ProcessLockKey">
+            <summary>
+            The process distributed lock key.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.ContinueProcessMessage">
+            <summary>
+            Message for continue the process.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ContinueProcessMessage.#ctor(Terrasoft.Core.Process.ContinueProcessOptions)">
+            <summary>
+            Creates a new instance of the <see cref="T:Terrasoft.Core.Process.ContinueProcessMessage" /> type.
+            </summary>
+            <param name="continueProcessOptions">The information about the process to be continued.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ContinueProcessMessage.#ctor(System.Guid,System.Guid,System.Guid,System.Guid,System.Byte[],System.String)">
+            <summary>
+            Creates a new instance of the <see cref="T:Terrasoft.Core.Process.ContinueProcessMessage" /> type.
+            </summary>
+            <param name="processUId">The unique identifier of the process to be continued.</param>
+            <param name="processElementUId">The unique identifier of the process element to be continued.</param>
+            <param name="entitySchemaUId">The entity schema unique identifier.</param>
+            <param name="entityId">The entity primary key.</param>
+            <param name="parameterValues">Serialized values of the user task parameters.</param>
+            <param name="processLockKey">The process distributed lock key.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ContinueProcessMessage.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Core.Process.ContinueProcessMessage.MessageId">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Core.Process.ContinueProcessMessage.ProcessUId">
+            <summary>
+            Gets the unique identifier of the process to be continued.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ContinueProcessMessage.ProcessLockKey">
+            <summary>
+            Gets the distributed lock key for current process.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ContinueProcessMessage.ProcessElementUId">
+            <summary>
+            Gets the unique identifier of the process element to be continued.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ContinueProcessMessage.EntitySchemaUId">
+            <summary>
+            Gets the entity schema unique identifier.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ContinueProcessMessage.EntityId">
+            <summary>
+            Gets the entity primary key.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ContinueProcessMessage.ParameterValues">
+            <summary>
+            Gets the serialized user task parameter values.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ContinueProcessMessage.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.Process.HttpContextDataStoreAdapter">
+            <summary>
+            Stores references to process instances in provided <see cref="T:Terrasoft.Core.Store.IDataStore"/> when
+            <see cref="P:Terrasoft.Web.Http.Abstractions.HttpContext.Current"/> is defined.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.Process.IProcessReferenceStore" />
+        </member>
+        <member name="M:Terrasoft.Core.Process.HttpContextDataStoreAdapter.#ctor(Terrasoft.Core.Store.IDataStore)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.HttpContextDataStoreAdapter"/> class.
+            </summary>
+            <param name="dataStore">The data store.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.HttpContextDataStoreAdapter.Item(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Core.Process.HttpContextDataStoreAdapter.Keys">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.HttpContextDataStoreAdapter.Remove(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.Process.IActiveProcessDataStore">
+            <summary>
+            Type helps to work with process data repository.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.IActiveProcessDataStore.Set(Terrasoft.Core.Process.Process)">
+            <summary>
+            Sets a process to repository.
+            </summary>
+            <param name="process">Process instance.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.IActiveProcessDataStore.Remove(System.String)">
+            <summary>
+            Removes a process from the repository.
+            </summary>
+            <param name="key">A unique identifier for the process to remove.</param>
+            <returns>
+            <c>true</c>, if process is successfully removed; otherwise - <c>false</c>.
+            This method also returns <c>false</c> if process was not found in the repository.
+            </returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.IActiveProcessDataStore.TryGetValue(System.String,Terrasoft.Core.Process.Process@)">
+            <summary>
+            Tries to get the process by the specified key.
+            </summary>
+            <param name="key">The key of the process to get.</param>
+            <param name="value">The current process.</param>
+            <returns>
+            <c>true</c>, if the repository contains the process on the generated key; otherwise - <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.IActiveProcessDataStore.GetEmbeddedProcesses(System.Collections.Generic.HashSet{System.String})">
+            <summary>
+            Retuns active embedded processes.
+            </summary>
+            <param name="excludeKeySet">Set of keys to be ignored.</param>
+            <returns>Instances of active processes.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.Process.IProcessActors">
+            <summary>
+            Root actors of processes
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.IProcessActors.ProcessEngineActor">
+            <summary>
+            Gets actor of the process engine.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.IProcessActors.TraceActor">
+            <summary>
+            Trace logger actor.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.IProcessActors.MessageStoreActor">
+            <summary>
+            Message store actor.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.IProcessReferenceStore">
+            <summary>
+            Used to store references to process instances.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.IProcessReferenceStore.Item(System.String)">
+            <summary>
+            Gets or sets the process with the specified key.
+            </summary>
+            <value>
+            The process instance.
+            </value>
+            <param name="key">The key.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.IProcessReferenceStore.Keys">
+            <summary>
+            Returns the keys of all processes that have been stored.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.IProcessReferenceStore.Remove(System.String)">
+            <summary>
+            Removes the process with specified key.
+            </summary>
+            <param name="key">The key.</param>
+        </member>
+        <member name="T:Terrasoft.Core.Process.IProcessRunner">
+            <summary>
+            Used to run process from specified signal element.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.IProcessRunner.Run(Terrasoft.Core.Process.IBaseProcessSchemaManagerItem,Terrasoft.Core.Process.StartSignalOptions)">
+            <summary>Runs the specified process.</summary>
+            <param name="schemaManagerItem">The schema manager item to run.</param>
+            <param name="startOptions">The start options.</param>
+            <returns>Process instance.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.IProcessRunner.RunSync(Terrasoft.Core.Process.IBaseProcessSchemaManagerItem,Terrasoft.Core.Process.StartSignalOptions)">
+            <summary>Runs the specified process and wait for execution complete.</summary>
+            <param name="schemaManagerItem">The schema manager item to run.</param>
+            <param name="startOptions">The start options.</param>
+            <returns>Process instance.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.Process.ProcessDataStorage">
+            <inheritdoc cref="T:Terrasoft.Core.Process.IProcessDataStorage"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.#ctor(Terrasoft.Core.DB.DBExecutorFactory,Terrasoft.Core.UserConnection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.ProcessDataStorage"/> class.
+            </summary>
+            <param name="dbExecutorFactory">The <see cref="T:Terrasoft.Core.DB.DBExecutor"/> factory.</param>
+            <param name="systemUserConnection">The system user connection.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.Register(Terrasoft.Core.Process.ProcessElementData)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.Update(Terrasoft.Core.Process.ProcessElementData)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.GetProcessElementsData(System.Guid)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.IProcessDataStorage.GetProcessElementsData(System.Guid)"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.Register(Terrasoft.Core.Process.ProcessData)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.Register(Terrasoft.Core.Process.ProcessListenerData)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.Register(Terrasoft.Core.Process.ProcessListenerData,System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.Update(Terrasoft.Core.Process.ProcessData,Terrasoft.Core.DB.DBExecutor)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.GetProcessData(System.Guid)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.IProcessDataStorage.GetProcessData(System.Guid)"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.GetElementCompletionInfo(System.Guid)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.IProcessDataStorage.GetElementCompletionInfo(System.Guid)"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.GetProcessIntermediateEvents(System.String)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.IProcessDataStorage.GetProcessIntermediateEvents(System.String)"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.GetProcessElementsToDo(System.Collections.Generic.IList{System.Guid})">
+            <inheritdoc cref="M:Terrasoft.Core.Process.IProcessDataStorage.GetProcessElementsToDo(System.Collections.Generic.IList{System.Guid})"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.GetProcessId(System.Guid)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.IProcessDataStorage.GetProcessId(System.Guid)"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessDataStorage.RemoveProcessListener(System.String,System.String,System.Guid,System.Guid,Terrasoft.Core.Entities.EntityChangeType,Terrasoft.Core.DB.DBExecutor)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.IProcessDataStorage.RemoveProcessListener(System.String,System.String,System.Guid,System.Guid,Terrasoft.Core.Entities.EntityChangeType,Terrasoft.Core.DB.DBExecutor)"/>
+        </member>
+        <member name="T:Terrasoft.Core.Process.ProcessElementStatusDescriptor">
+            <summary>
+            Represents the status of process element.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessElementStatusDescriptor.UId">
+            <summary>
+            Unique identifier of the process element.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessElementStatusDescriptor.Status">
+            <summary>
+            Contains information about the process element status.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.#ctor(Terrasoft.Core.Process.IActiveProcessDataStore)">
+            <summary>
+            Initializes an instance of <see cref="T:Terrasoft.Core.Process.ProcessEngineImpl"/>.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.#ctor(Terrasoft.Core.Process.ProcessEngineStrategy)">
+            <summary>
+            Initializes an instance of <see cref="T:Terrasoft.Core.Process.ProcessEngineImpl"/> type of a given behavior.
+            </summary>
+            <param name="processEngineStrategy">The list of algorithms that determine the behavior of an instance
+            <see cref="T:Terrasoft.Core.Process.ProcessEngineImpl"/>.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.#ctor(Terrasoft.Core.UserConnection,Terrasoft.Core.Process.ProcessEngineStrategy)">
+            <summary>
+            Initializes an instance of <see cref="T:Terrasoft.Core.Process.ProcessEngineImpl"/> type of a given behavior.
+            </summary>
+            <param name="userConnection">User connection.</param>
+            <param name="processEngineStrategy">The list of algorithms that determine the behavior of an instance
+            <see cref="T:Terrasoft.Core.Process.ProcessEngineImpl"/>.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.#ctor(Terrasoft.Core.UserConnection,Terrasoft.Core.Process.ProcessEngineStrategy,Common.Logging.ILog)">
+            <summary>
+            Initializes an instance of <see cref="T:Terrasoft.Core.Process.ProcessEngineImpl"/> type with given user connection and logger.
+            </summary>
+            <param name="userConnection">The user connection.</param>
+            <param name="processEngineStrategy">The list of algorithms that determine
+            the behavior of an instance<see cref="T:Terrasoft.Core.Process.ProcessEngineImpl"/>.</param>
+            <param name="log">Logger.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.#ctor(Terrasoft.Core.UserConnection)">
+            <summary>
+            Initializes an instance of <see cref="T:Terrasoft.Core.Process.ProcessEngineImpl"/> type with given user connection.
+            </summary>
+            <param name="userConnection">The user connection.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.Log">
+            <summary>
+            Gets or sets the global logger instance for this type.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.DataStorage">
+            <summary>Gets or sets the data storage.</summary>
+            <value>The data storage.</value>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.DistributedLock">
+            <summary>
+            Gets or sets the distributed lock provider.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.ActiveProcessDataStore">
+            <summary>
+            Gets or sets the active process data store.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.UserConnection">
+            <summary>
+            Gets or sets the user connection.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.ProcessSchemaManager">
+            <summary>
+            Gets the schema manager, that works with <see cref="T:Terrasoft.Core.Process.ProcessSchema"/> items.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.DcmSchemaManager">
+            <summary>
+            Gets the schema manager, that works with <see cref="T:Terrasoft.Core.DcmProcess.DcmSchema"/> items.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.EntitySchemaManager">
+            <summary>
+            Gets the schema manager, that works with <see cref="T:Terrasoft.Core.Entities.EntitySchema"/> items.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.MaxLoopCount">
+            <summary>
+            Gets maximum number of process item repetitions.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.ProcessActivityStatus">
+            <summary>
+            Gets a list of key/value pairs, where key is the state of activity,
+            and the value is the state Id.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.SysEntityPrcStartEvents">
+            <summary>
+            Gets a list of key/value pairs, where key is the entity schema Id
+            and value is the list of process schema listeners for entity schema.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.Configuration.ProcessSchemaListener" />
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.ProcessExecutor">
+            <summary>
+            Gets the process executor <see cref="T:Terrasoft.Core.Process.IProcessExecutor"/>.
+            </summary>
+            <value>
+            The process executor.
+            </value>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.ProcessListenersColumnName">
+            <inheritdoc cref="P:Terrasoft.Core.ProcessEngine.ProcessListenersColumnName"/>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineImpl.Terrasoft#Core#IInternalProcessEngine#InteractionManager">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.GetMaxLoopCount(Terrasoft.Core.UserConnection)">
+            <summary>
+            Returns maximum number of repetitions for process item.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.ActualizeProcessSchemaListeners(Terrasoft.Core.Entities.Entity,System.Collections.ObjectModel.Collection{Terrasoft.Core.Configuration.ProcessSchemaListener})">
+            <summary>
+            Actualizes the list of process signals.
+            </summary>
+            <param name="entity">Instance of the <see cref="T:Terrasoft.Core.Entities.Entity"/> type.</param>
+            <param name="listeners">List of process listeners.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.Initialize(Terrasoft.Core.UserConnection)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.FindProcessPropertiesDataByUId(System.String)">
+            <summary>
+            Finds the process properties data by process unique identifier.
+            </summary>
+            <param name="processUId">The process unique identifier.</param>
+            <returns>The list of key/value pairs, where key is the process property name
+            and value is the process property value. Returns <c>null</c> if properties not found.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.SetProcess(Terrasoft.Core.Process.Process)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.RemoveCurrentProcess(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.ThrowSignal(Terrasoft.Core.Process.ProcessExecutingContext,System.String)">
+            <summary>
+            Throws the signal.
+            </summary>
+            <param name="context">The execution context.</param>
+            <param name="signal">The signal.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.ThrowMessage(System.String,System.String)">
+            <summary>
+            Throws the message.
+            </summary>
+            <param name="processUId">Unique identifier of the process.</param>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.GetProcessFromDBByUId(System.Guid)">
+            <inheritdoc cref="M:Terrasoft.Core.ProcessEngine.GetProcessFromDBByUId(System.Guid)"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.FindProcessByUId(System.String,System.Boolean)">
+            <summary>
+            Finds the process instance by unique identifier.
+            </summary>
+            <param name="processUId">The process unique identifier.</param>
+            <param name="findInDB">if set to <c>true</c> also find process instance in DB.</param>
+            <returns>The process instance or <c>null</c> if not found.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.FindProcessByUId(System.String)">
+            <summary>
+            Finds the process instance by unique identifier in memory cache only.
+            </summary>
+            <param name="processUId">The process unique identifier.</param>
+            <returns>The process instance or <c>null</c> if not found.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.GetProcessByUId(System.String,System.Boolean)">
+            <summary>
+            Gets the process by unique identifier.
+            </summary>
+            <param name="processUId">The process unique identifier.</param>
+            <param name="findInDB">if set to <c>true</c> also find process instance in DB.</param>
+            <returns>The process instance.</returns>
+            <exception cref="T:Terrasoft.Common.ItemNotFoundException">If the process instance not found.</exception>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.GetProcessByUId(System.String)">
+            <summary>
+            Gets the process by unique identifier in memory cache only.
+            </summary>
+            <param name="processUId">The process unique identifier.</param>
+            <returns>The process instance.</returns>
+            <exception cref="T:Terrasoft.Common.ItemNotFoundException">If the process instance not found.</exception>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.RemoveProcessListener(System.Guid,System.Guid,System.Guid,Terrasoft.Core.Entities.EntityChangeType,System.Nullable{System.Guid})">
+            <inheritdoc cref="M:Terrasoft.Core.ProcessEngine.RemoveProcessListener(System.Guid,System.Guid,System.Guid,Terrasoft.Core.Entities.EntityChangeType,System.Nullable{System.Guid})"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.RemoveActivityProcessListener(System.Guid,System.Guid,System.Guid)">
+            <inheritdoc cref="M:Terrasoft.Core.ProcessEngine.RemoveActivityProcessListener(System.Guid,System.Guid,System.Guid)"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.CompleteExecuting(System.Guid,System.Object[])">
+            <inheritdoc cref="M:Terrasoft.Core.ProcessEngine.CompleteExecuting(System.Guid,System.Object[])"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.ExecuteProcessElementByUId(System.Guid,System.Object[])">
+            <inheritdoc cref="M:Terrasoft.Core.ProcessEngine.ExecuteProcessElementByUId(System.Guid,System.Object[])"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.TryGetSysProcessId(System.Guid,System.Guid@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.FindProcessElementByUId(System.Guid)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.FindProcessFlowElementByUId(System.Guid)">
+            <summary>
+            Finds the process flow element by it's unique identifier.
+            </summary>
+            <param name="processElementUId">The process element unique identifier.</param>
+            <returns>Found process flow element.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.FindProcessByProcessElementUId(System.Guid)">
+            <summary>
+            Finds the process by UId of the process element.
+            </summary>
+            <param name="processElementUId">The UId of the process element.</param>
+            <returns>Found process.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.GetProcessByElementUId(System.Guid)">
+            <summary>
+            Gets the process by the process element identifier.
+            </summary>
+            <param name="elementUId">The identifier of the process element.</param>
+            <returns>Found process.</returns>
+            <exception cref="T:Terrasoft.Common.ItemNotFoundException"></exception>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.LinkProcessToEntity(Terrasoft.Core.Process.Process,System.Guid,System.Guid)">
+            <summary>
+            Connects the entity to the specified process.
+            </summary>
+            <param name="process">The process.</param>
+            <param name="entitySchemaUId">The UId of the entity schema.</param>
+            <param name="entityId">The Id of the entity.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.GetIsProcessLinkedToEntity(Terrasoft.Core.Process.Process,System.Guid,System.Guid)">
+            <summary>
+            Determines whether the specified process is connected to entity.
+            </summary>
+            <param name="process">Process instance.</param>
+            <param name="entitySchemaUId">The entity schema unique identifier.</param>
+            <param name="entityId">The entity primary column value.</param>
+            <returns><c>true</c> if process is connected to entity, otherwise - <c>false</c>.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.GetProcessListeners(Terrasoft.Core.UserConnection,Terrasoft.Core.Entities.Entity,Terrasoft.Core.Entities.EntityChangeType)">
+            <summary>
+            Gets list of process listeners.
+            </summary>
+            <param name="userConnection">User connection.</param>
+            <param name="entity">Instance of the <see cref="T:Terrasoft.Core.Entities.Entity"/> type.</param>
+            <param name="changeType">Type of entity modification.</param>
+            <returns>List of instances of the <see cref="T:Terrasoft.Core.Configuration.ProcessListener"/> type.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.GetProcessSchemaListeners(Terrasoft.Core.Entities.Entity,Terrasoft.Core.Entities.EntityChangeType)">
+            <summary>
+            Gets list of process signals.
+            </summary>
+            <param name="entity">Instance of the <see cref="T:Terrasoft.Core.Entities.Entity"/> type.</param>
+            <param name="changeType">Type of entity modification.</param>
+            <returns>List of instances of the <see cref="T:Terrasoft.Core.Configuration.ProcessListener"/> type.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.ContinueExecuting(Terrasoft.Core.UserConnection,Terrasoft.Core.Entities.Entity,System.Collections.ObjectModel.Collection{Terrasoft.Core.Configuration.ProcessListener})">
+            <summary>
+            Continues executing process elements.
+            </summary>
+            <param name="userConnection">User connection.</param>
+            <param name="entity">Instance of the <see cref="T:Terrasoft.Core.Entities.Entity"/> type.</param>
+            <param name="processListeners">List of process listeners.</param>
+            <returns>List of instances of the <see cref="T:Terrasoft.Core.Process.ProcessDescriptor"/> type.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.RunProcesses(Terrasoft.Core.UserConnection,Terrasoft.Core.Entities.Entity,System.Collections.ObjectModel.Collection{Terrasoft.Core.Configuration.ProcessSchemaListener})">
+            <summary>
+            Runs processes by signal event.
+            </summary>
+            <param name="userConnection">User connection.</param>
+            <param name="entity">Instance of the <see cref="T:Terrasoft.Core.Entities.Entity"/> type.</param>
+            <param name="listeners">List of process listeners.</param>
+            <returns>List of instances of the <see cref="T:Terrasoft.Core.Process.ProcessDescriptor"/> type.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.RunProcessByStartTimerEvent(System.Guid,System.Guid)">
+            <summary>
+            Runs process by start timer event.
+            </summary>
+            <param name="processSchemaId"></param>
+            <param name="processSchemaElementUId"></param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.RunDcmProcess(System.Guid,Terrasoft.Core.DcmProcess.DcmSchema)">
+            <summary>
+            Runs the DCM process.
+            </summary>
+            <param name="entityPrimaryColumnValue">The entity primary column value.</param>
+            <param name="dcmSchema">The DCM schema.</param>
+            <returns>The executed process.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.CancelNotEnabledDcmProcess(System.Guid,System.Guid)">
+            <summary>
+            Cancel the DCM process which is disabled, but enabled DCM process for the given entity exists.
+            </summary>
+            <param name="entitySchemaUId">The entity schema unique identifier.</param>
+            <param name="entityId">The entity primary column value.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.RunDcmProcesses(Terrasoft.Core.Entities.Entity,System.Collections.Generic.IList{Terrasoft.Core.Configuration.ProcessListener})">
+            <summary>
+            Runs the DCM processes if it was not ran by signal.
+            </summary>
+            <param name="entity">The changed entity.</param>
+            <param name="listeners">The process listeners of the changed entity.</param>
+            <returns>The executed process or <c>null</c> if process was already executed by signal or if there is no
+            enabled <see cref="T:Terrasoft.Core.DcmProcess.DcmSchema"/> for the current entity.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.SynchronizeProcessNotification(Terrasoft.Core.Entities.IEntity,Terrasoft.Core.Process.ProcessExecutingContext)">
+            <summary>
+            Synchronizes the process element notification for current activity.
+            </summary>
+            <param name="activity">The activity.</param>
+            <param name="savingContext">The activity update execution context.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.GetProcessListeners(Terrasoft.Core.UserConnection,Terrasoft.Core.Entities.Entity,System.Guid,Terrasoft.Core.Entities.EntityChangeType,System.Boolean)">
+            <summary>
+            Gets list of process listeners.
+            </summary>
+            <param name="userConnection">User connection.</param>
+            <param name="entity">Instance of the <see cref="T:Terrasoft.Core.Entities.Entity"/> type.</param>
+            <param name="entityId">Entity identifier.</param>
+            <param name="changeType">Entity change type.</param>
+            <param name="checkIsColumnChanged">Flag,
+            that indicates when to check changed columns condition.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.CompleteExecuting(Terrasoft.Core.Process.ProcessActivity,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object},System.Object[])">
+            <summary>
+            Completes executing the process element.
+            </summary>
+            <param name="processElement">Process element.</param>
+            <param name="parameterValues">Parameter values, where key is name of the parameter and value is
+            parameter value.</param>
+            <param name="arguments">Array of the arguments.</param>
+            <returns>Instance of the <see cref="T:Terrasoft.Core.Process.ProcessDescriptor"/> type.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.CompleteExecuting(System.Guid,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object},System.Object[])">
+            <inheritdoc cref="M:Terrasoft.Core.ProcessEngine.CompleteExecuting(System.Guid,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Object},System.Object[])"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessEngineImpl.GetSchemaElement(System.Guid)">
+            <inheritdoc cref="M:Terrasoft.Core.ProcessEngine.GetSchemaElement(System.Guid)"/>
+        </member>
+        <member name="T:Terrasoft.Core.Process.ProcessEngineStrategy">
+            <summary>
+            It is a family of algorithms that determine the behavior of a <see cref="T:Terrasoft.Core.Process.ProcessEngineImpl"/> instance.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineStrategy.GetProcessActivityStatus">
+            <summary>
+            Algorithm returns a list of key/value pairs, where key is the state of activity,
+            and the value is the state Id.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineStrategy.CompleteExecuting">
+            <summary>
+            Algorithm continues executing process elements.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineStrategy.RemoveProcessListener">
+            <summary>
+            Algorithm removes process listener.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineStrategy.AddProcessListener">
+            <summary>
+            Algorithm adds process listener.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineStrategy.CreateProcessExecutor">
+            <summary>
+            Delegate that creates the process executor.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineStrategy.GetProcessServiceProvider">
+            <summary>
+            Delegate that gets the process service provider.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineStrategy.CreateProcessNotificationManager">
+            <summary>
+            Delegate that creates the process notification manager.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineStrategy.ProcessRunnerFactory">
+            <summary>Delegate that creates the process runner.</summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessEngineStrategy.CreateSysEntityPrcStartEventsHelper">
+            <summary>Delegate that creates the start signals helper.</summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.ProcessExecutionDataCollector">
+            <summary>
+            <see cref="T:Terrasoft.Core.IProcessExecutionDataCollector"/> implementation.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutionDataCollector.#ctor(System.Guid)">
+            <summary>
+            Initializes new instance of <see cref="T:Terrasoft.Core.Process.ProcessExecutionDataCollector"/> type.
+            </summary>
+            <param name="userId">User identifier.</param>
+        </member>
+        <member name="E:Terrasoft.Core.Process.ProcessExecutionDataCollector.OnDisposed">
+            <summary>
+            Invoked when <see cref="M:Terrasoft.Core.Process.ProcessExecutionDataCollector.Dispose"/> method called.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutionDataCollector.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutionDataCollector.GetExecutionData">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutionDataCollector.TryAdd(System.Guid,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="userId"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Terrasoft.Core.Process.ProcessExecutor">
+            <summary>
+            Class that executes some process.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutor.#ctor(Terrasoft.Core.UserConnection,Terrasoft.Core.Process.ProcessExecutorOptions,Terrasoft.Core.Process.IProcessLogStorage)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.ProcessExecutor"/> class.
+            </summary>
+            <param name="userConnection">The user connection.</param>
+            <param name="options">The options.</param>
+            <param name="logStorage">The log storage.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutor.#ctor(Terrasoft.Core.UserConnection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.ProcessExecutor"/> class.
+            </summary>
+            <param name="userConnection">The user connection.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutor.#ctor(Terrasoft.Core.UserConnection,Terrasoft.Core.Process.ProcessExecutorOptions)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.ProcessExecutor"/> class.
+            </summary>
+            <param name="userConnection">Connection to initialize with.</param>
+            <param name="options">The execution options.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessExecutor.UserConnection">
+            <summary>
+            Gets the user connection.
+            </summary>
+            <value>
+            The user connection.
+            </value>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutor.CreateFlowEngine">
+            <summary>
+            Creates the flow engine.
+            </summary>
+            <returns>The flow engine instance.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutor.CancelExecution(System.Guid)">
+            <summary>
+            Cancels process execution.
+            </summary>
+            <param name="processId">Identifier of the process.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutor.Execute(System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Executes process with corresponding schema name.
+            </summary>
+            <param name="processSchemaName">Name of process schema.</param>
+            <param name="parameterValues">Initial parameter values, where key is process parameter name and value is
+            serialized parameter value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutor.Execute``1(System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Executes process with corresponding schema name and returns process parameter value.
+            </summary>
+            <typeparam name="TResult">Result parameter value type.</typeparam>
+            <param name="processSchemaName">Name of process schema.</param>
+            <param name="resultParameterName">Name of parameter to read result from.</param>
+            <param name="parameterValues">Initial parameter values, where key is process parameter name and value is
+            serialized parameter value.</param>
+            <returns>
+            Result parameter value.
+            </returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutor.ExecuteByCaption(System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Executes process with corresponding schema caption.
+            </summary>
+            <param name="processSchemaCaption">Caption of process schema.</param>
+            <param name="parameterValues">Initial parameter values, where key is process parameter name and value is
+            serialized parameter value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutor.ExecuteByCaption``1(System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Executes process with corresponding schema caption and returns process parameter value.
+            </summary>
+            <typeparam name="TResult">Result parameter value type.</typeparam>
+            <param name="processSchemaCaption">Caption of process schema.</param>
+            <param name="resultParameterName">Name of parameter to read result from.</param>
+            <param name="parameterValues">Initial parameter values, where key is process parameter name and value is
+            serialized parameter value.</param>
+            <returns>
+            Result parameter value.
+            </returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutor.Execute(System.Guid,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Executes process with corresponding schema UId.
+            </summary>
+            <param name="processSchemaUId">UId of process schema.</param>
+            <param name="parameterValues">Initial parameter values, where key is process parameter name and value is
+            serialized parameter value.</param>
+            <returns>Process descriptor.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutor.Execute``1(System.Guid,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Executes process with corresponding schema UId and returns process parameter value.
+            </summary>
+            <typeparam name="TResult">Result parameter value type.</typeparam>
+            <param name="processSchemaUId">UId of process schema.</param>
+            <param name="resultParameterName">Name of parameter to read result from.</param>
+            <param name="parameterValues">Initial parameter values. Where Key is process parameter name and value is
+            serialized parameter value.</param>
+            <returns>
+            Result parameter value.
+            </returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessExecutor.CancelExecutionAsync(System.Guid)">
+            <summary>
+            Asynchronously canceles process execution.
+            </summary>
+            <param name="processId">Identifier of the process.</param>
+        </member>
+        <member name="T:Terrasoft.Core.Process.ProcessExecutorFactoryImpl">
+            <summary>
+            Provides a factory for instantiating <see cref="T:Terrasoft.Core.Process.IProcessExecutor"/> instance.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessExecutorFactoryImpl.Factory">
+            <summary>
+            Returns delegate used to instantiate <see cref="T:Terrasoft.Core.Process.IProcessExecutor"/> instance.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.ProcessFailoverExecutorJob">
+            <summary>
+            Provides methods for starting of failed processes.
+            </summary>	
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessFailoverExecutorJob.Register(Terrasoft.Core.UserConnection)">
+            <summary>
+            Registers self in AppScheduler.
+            </summary>
+            <param name="userConnection"><see cref="T:Terrasoft.Core.UserConnection"/> instance to use.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessFailoverExecutorJob.Execute(Terrasoft.Core.UserConnection,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.Process.ProcessInteractionManager">
+            <summary>
+            <see cref="T:Terrasoft.Core.IProcessInteractionManager"/> implementation.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessInteractionManager.#ctor(System.Guid,Terrasoft.Messaging.Common.IMsgChannelManager)">
+            <summary>
+            Initializes new instance of <see cref="T:Terrasoft.Core.Process.ProcessInteractionManager"/> type.
+            </summary>
+            <param name="userId">User identifier.</param>
+            <param name="msgChannelManager">Message channel manager.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessInteractionManager.#ctor(System.Guid)">
+            <summary>
+            Initializes new instance of <see cref="T:Terrasoft.Core.Process.ProcessInteractionManager"/> type.
+            </summary>
+            <param name="userId">User identifier.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessInteractionManager.UserId">
+            <summary>
+            User identifier of interaction target.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessInteractionManager.SendExecutionData(System.Guid,System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessInteractionManager.ProcessElementCompleted(Terrasoft.Core.Process.ProcessFlowElement)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessInteractionManager.CollectExecutionData">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.Process.ProcessLogStorage">
+            <inheritdoc cref="T:Terrasoft.Core.Process.IProcessLogStorage"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessLogStorage.#ctor(Terrasoft.Core.UserConnection,Terrasoft.Core.DB.DBExecutorFactory,Terrasoft.Core.IDateTimeProvider,Common.Logging.ILog)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.ProcessLogStorage"/> type.
+            </summary>
+            <param name="dbExecutorFactory">The <see cref="T:Terrasoft.Core.DB.DBExecutor"/> factory.</param>
+            <param name="systemUserConnection">The system user connection.</param>
+            <param name="dateTimeProvider">Instance of <see cref="T:Terrasoft.Core.IDateTimeProvider"/>.</param>
+            <param name="processStartLog">Log.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessLogStorage.#ctor(Terrasoft.Core.UserConnection,Terrasoft.Core.DB.DBExecutorFactory,Terrasoft.Core.IDateTimeProvider)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.ProcessLogStorage"/> type.
+            </summary>
+            <param name="dbExecutorFactory">The <see cref="T:Terrasoft.Core.DB.DBExecutor"/> factory.</param>
+            <param name="systemUserConnection">The system user connection.</param>
+            <param name="dateTimeProvider">Instance of <see cref="T:Terrasoft.Core.IDateTimeProvider"/>.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessLogStorage.GetNodeIdentifier">
+            <summary>
+            Returns server's IP address.
+            </summary>
+            <returns>String that contains server's IP address.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessLogStorage.UpdateProcessStatusBySchemaId(System.Guid,Terrasoft.Core.Process.ProcessStatus)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.IProcessLogStorage.UpdateProcessStatusBySchemaId(System.Guid,Terrasoft.Core.Process.ProcessStatus)"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessLogStorage.UpdateProcessStatusById(System.Guid,Terrasoft.Core.Process.ProcessStatus)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.IProcessLogStorage.UpdateProcessStatusById(System.Guid,Terrasoft.Core.Process.ProcessStatus)"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessLogStorage.Register(Terrasoft.Core.Process.ProcessElementLog)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.IProcessLogStorage.Register(Terrasoft.Core.Process.ProcessElementLog)"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessLogStorage.Register(Terrasoft.Core.Process.ProcessLog)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessLogStorage.Update(Terrasoft.Core.Process.ProcessElementLog)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.IProcessLogStorage.Update(Terrasoft.Core.Process.ProcessElementLog)"/>
+        </member>
+        <member name="T:Terrasoft.Core.Process.ProcessReferenceStore">
+            <summary>
+            <see cref="T:Terrasoft.Core.Process.IProcessReferenceStore"/> that stores references to process instances.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.Process.IProcessReferenceStore" />
+            <seealso cref="T:System.IDisposable" />
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessReferenceStore.Item(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Core.Process.ProcessReferenceStore.Keys">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessReferenceStore.Remove(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessReferenceStore.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.Process.ProcessRunner">
+            <inheritdoc cref="T:Terrasoft.Core.Process.IProcessRunner"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessRunner.#ctor(Terrasoft.Core.UserConnection,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.ProcessRunner"/> class.
+            </summary>
+            <param name="userConnection">The user connection.</param>
+            <param name="useLockAcquireTimeout">If defined as <c>true</c> get distributed lock operation will have
+            timeout.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessRunner.Run(Terrasoft.Core.Process.IBaseProcessSchemaManagerItem,Terrasoft.Core.Process.StartSignalOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.ProcessRunner.RunSync(Terrasoft.Core.Process.IBaseProcessSchemaManagerItem,Terrasoft.Core.Process.StartSignalOptions)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Terrasoft.Core.Process.RemoveFromStoreMessage">
+            <summary>
+            Message for removal of message from store.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.RemoveFromStoreMessage.#ctor(Terrasoft.Core.IProcessMessage)">
+            <summary>
+            Creates an instance of the <see cref="T:Terrasoft.Core.Process.RemoveFromStoreMessage"/> type.
+            </summary>
+            <param name="message"><see cref="T:Terrasoft.Core.IProcessMessage"/> instance.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.RemoveFromStoreMessage.MessageId">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.Process.RightsAwareProcessExecutor">
+            <inheritdoc />
+            <summary>
+            Provides a set of methods for execution of business processes with respect of execution rights.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.RightsAwareProcessExecutor.#ctor(Terrasoft.Core.Process.IProcessExecutor,Terrasoft.Core.UserConnection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.RightsAwareProcessExecutor"/>.
+            </summary>
+            <param name="innerExecutor">Instance of the <see cref="T:Terrasoft.Core.Process.IProcessExecutor"/> to use.</param>
+            <param name="userConnection">Instance of the <see cref="T:Terrasoft.Core.UserConnection"/> to determine execution
+            rights with.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.RightsAwareProcessExecutor.Execute(System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.RightsAwareProcessExecutor.Execute``1(System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.RightsAwareProcessExecutor.ExecuteByCaption(System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.RightsAwareProcessExecutor.ExecuteByCaption``1(System.String,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.RightsAwareProcessExecutor.Execute(System.Guid,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.RightsAwareProcessExecutor.Execute``1(System.Guid,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.Process.RightsAwareProcessExecutor.CancelExecutionAsync(System.Guid)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.Process.SchemaItemSelector`1">
+            <summary>
+            Represents selector of the schema item.
+            </summary>
+            <typeparam name="TSchema">Type that inherites the <see cref="T:Terrasoft.Core.Process.BaseProcessSchema"/></typeparam>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SchemaItemSelector`1.#ctor(Terrasoft.Core.Process.BaseProcessSchemaManager{`0},System.Predicate{Terrasoft.Core.ISchemaManagerItem{`0}},System.Boolean)">
+            <summary>
+            Creates a new instance of the <see cref="T:Terrasoft.Core.Process.SchemaItemSelector`1"/> type.
+            </summary>
+            <param name="manager">Schema manager.</param>
+            <param name="predicate">Method that defines a set of criteria.</param>
+            <param name="useSpecifiedVersion">Use specified version.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.SchemaItemSelector`1.ErrorMessage">
+            <summary>
+            Gets text of the error message. It is needed when item is not found.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SchemaItemSelector`1.GetItem">
+            <summary>
+            Returns the manager item.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.SchemaItemSelectorByCaption`1">
+            <summary>
+            Represents selector of the schema item with corresponding caption.
+            </summary>
+            <typeparam name="TSchema">Type that inherites the <see cref="T:Terrasoft.Core.Process.BaseProcessSchema"/></typeparam>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SchemaItemSelectorByCaption`1.#ctor(Terrasoft.Core.Process.BaseProcessSchemaManager{`0},System.String,System.Boolean)">
+            <summary>
+            Creates a new instance of the <see cref="T:Terrasoft.Core.Process.SchemaItemSelectorByCaption`1"/> type.
+            </summary>
+            <param name="manager">Schema manager.</param>
+            <param name="caption">Caption of the schema.</param>
+            <param name="useSpecifiedVersion">Use specified version.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.SchemaItemSelectorByCaption`1.ErrorMessage">
+            <summary>
+            Gets text of the error message.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.SchemaItemSelectorByName`1">
+            <summary>
+            Represents selector of the schema item with corresponding name.
+            </summary>
+            <typeparam name="TSchema">Type that inherites the <see cref="T:Terrasoft.Core.Process.BaseProcessSchema"/></typeparam>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SchemaItemSelectorByName`1.#ctor(Terrasoft.Core.Process.BaseProcessSchemaManager{`0},System.String,System.Boolean)">
+            <summary>
+            Creates a new instance of the <see cref="T:Terrasoft.Core.Process.SchemaItemSelectorByName`1"/> type.
+            </summary>
+            <param name="manager">Schema manager.</param>
+            <param name="name">Name of the schema.</param>
+            <param name="useSpecifiedVersion">Use specified version.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.SchemaItemSelectorByName`1.ErrorMessage">
+            <summary>
+            Gets text of the error message.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.SchemaItemSelectorByUId`1">
+            <summary>
+            Represents selector of the schema item with corresponding unique identifier.
+            </summary>
+            <typeparam name="TSchema">Type that inherites the <see cref="T:Terrasoft.Core.Process.BaseProcessSchema"/></typeparam>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SchemaItemSelectorByUId`1.#ctor(Terrasoft.Core.Process.BaseProcessSchemaManager{`0},System.Guid,System.Boolean)">
+            <summary>
+            Creates a new instance of the <see cref="T:Terrasoft.Core.Process.SchemaItemSelectorByUId`1"/> type.
+            </summary>
+            <param name="manager">Schema manager.</param>
+            <param name="uId">Unique identifier.</param>
+            <param name="useSpecifiedVersion">Use specified version.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.SchemaItemSelectorByUId`1.ErrorMessage">
+            <summary>
+            Gets text of the error message.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.StartBySignalMessage">
+            <summary>
+            Message for the start signal event.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.StartBySignalMessage.#ctor(Terrasoft.Core.Process.IBaseProcessSchemaManagerItem,Terrasoft.Core.Process.StartSignalOptions)">
+            <summary>
+            Creates a new instance of the <see cref="T:Terrasoft.Core.Process.StartBySignalMessage"/> type.
+            </summary>
+            <param name="managerItem">Process schema manager item to run.</param>
+            <param name="startInfo">Options that are used to run process from specific start signal.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.StartBySignalMessage.ManagerName">
+            <summary>
+            Gets name of the schema manager.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.StartBySignalMessage.SchemaId">
+            <summary>
+            Gets identifier of the schema.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.StartBySignalMessage.SchemaElementUId">
+            <summary>
+            Gets unique identifier of the schema element.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.StartBySignalMessage.EntityId">
+            <summary>
+            Gets identifier of the entity.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.StartProcessMessage">
+            <summary>
+            Message for the start process event.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.StartProcessMessage.#ctor(System.Guid,System.Collections.Generic.IReadOnlyDictionary{System.String,System.String})">
+            <summary>
+            Creates a new instance of the <see cref="T:Terrasoft.Core.Process.StartProcessMessage"/> type.
+            </summary>
+            <param name="schemaUId">Unique identifier of the process schema.</param>
+            <param name="parameterValues">Serialized values of the process parameters.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.StartProcessMessage.SchemaUId">
+            <summary>
+            Gets unique identifier of the process shema.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.StartProcessMessage.ParameterValues">
+            <summary>
+            Gets the process parameter values.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.SysEntityPrcStartEventsHelper">
+            <inheritdoc cref="T:Terrasoft.Core.Process.ISysEntityPrcStartEventsHelper"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SysEntityPrcStartEventsHelper.#ctor(Terrasoft.Core.Store.ISynchronizedLocalCache,Terrasoft.Core.AppConnection,System.Guid)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.SysEntityPrcStartEventsHelper"/> type.
+            </summary>
+            <param name="localCache"></param>
+            <param name="appConnection">The application connection.</param>
+            <param name="sysWorkspaceId"></param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SysEntityPrcStartEventsHelper.#ctor(Terrasoft.Core.AppConnection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.SysEntityPrcStartEventsHelper"/> type.
+            </summary>
+            <param name="appConnection">The application connection.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.SysEntityPrcStartEventsHelper.Terrasoft#Core#Process#ISysEntityPrcStartEventsHelper#SysEntityPrcStartEvents">
+            <inheritdoc cref="P:Terrasoft.Core.Process.ISysEntityPrcStartEventsHelper.SysEntityPrcStartEvents"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SysEntityPrcStartEventsHelper.GetCache">
+            <summary>
+            Returns synchronized local cache with the specified group name.
+            </summary>
+            <returns>Instance that implements the <see cref="T:Terrasoft.Core.Store.ISynchronizedLocalCache"/> interface.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SysEntityPrcStartEventsHelper.Terrasoft#Core#Process#ISysEntityPrcStartEventsHelper#ClearCache">
+            <inheritdoc cref="M:Terrasoft.Core.Process.ISysEntityPrcStartEventsHelper.ClearCache"/>
+        </member>
+        <member name="T:Terrasoft.Core.Process.SysPrcPersistentStoreHelper">
+            <inheritdoc cref="T:Terrasoft.Core.Process.ISysPrcPersistentStoreHelper"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SysPrcPersistentStoreHelper.#ctor(Terrasoft.Core.UserConnection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.SysPrcPersistentStoreHelper"/> type.
+            </summary>
+            <param name="userConnection"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SysPrcPersistentStoreHelper.Terrasoft#Core#Process#ISysPrcPersistentStoreHelper#DeleteByProcessSchemaId(System.Guid)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.ISysPrcPersistentStoreHelper.DeleteByProcessSchemaId(System.Guid)"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SysPrcPersistentStoreHelper.Terrasoft#Core#Process#ISysPrcPersistentStoreHelper#DeleteByProcessId(System.Guid)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.ISysPrcPersistentStoreHelper.DeleteByProcessId(System.Guid)"/>
+        </member>
+        <member name="T:Terrasoft.Core.Process.SysProcessElementToDoHelper">
+            <inheritdoc cref="T:Terrasoft.Core.Process.ISysProcessElementToDoHelper"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SysProcessElementToDoHelper.#ctor(Terrasoft.Core.UserConnection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.Process.SysProcessElementToDoHelper"/> type.
+            </summary>
+            <param name="userConnection"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SysProcessElementToDoHelper.Terrasoft#Core#Process#ISysProcessElementToDoHelper#DeleteByProcessSchemaId(System.Guid)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.ISysProcessElementToDoHelper.DeleteByProcessSchemaId(System.Guid)"/>
+        </member>
+        <member name="M:Terrasoft.Core.Process.SysProcessElementToDoHelper.Terrasoft#Core#Process#ISysProcessElementToDoHelper#DeleteByProcessId(System.Guid)">
+            <inheritdoc cref="M:Terrasoft.Core.Process.ISysProcessElementToDoHelper.DeleteByProcessId(System.Guid)"/>
+        </member>
+        <member name="T:Terrasoft.Core.Process.Tracing.DBProcessTraceWriteMessage">
+            <summary>
+            Represents trace write message.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.DBProcessTraceWriteMessage.ProcessElementLogId">
+            <summary>
+            Process element log id.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.DBProcessTraceWriteMessage.TraceEvent">
+            <summary>
+            Trace event flag.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.DBProcessTraceWriteMessage.ElementData">
+            <summary>
+            Process element data.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.DBProcessTraceWriteMessage.ProcessData">
+            <summary>
+            Process data.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.Tracing.DBProcessTraceWriter">
+            <summary>
+            Represents data base process trace writer.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.Process.Tracing.DBProcessTraceWriter._formatter">
+            <summary>
+            Process trace formater.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.DBProcessTraceWriter.#ctor(Terrasoft.Core.Process.Tracing.IProcessTraceFormater)">
+            <summary>
+            Base process trace writer constructor.
+            </summary>
+            <param name="formatter">Injected process trace formater.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.DBProcessTraceWriter.PrepareMessage(Terrasoft.Core.Process.Tracing.ProcessTraceData)">
+            <summary>
+            Converts process trace data to (ColumnName, Value) writable content.
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.DBProcessTraceWriter.Write(Terrasoft.Core.Process.Tracing.ProcessTraceData)">
+            <summary>
+            Writes process trace data into DB, using tracing actor.
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="T:Terrasoft.Core.Process.Tracing.IProcessTraceFormater">
+            <summary>
+            Represents formater that transforms process parameters and its values into required format.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.IProcessTraceFormater.Format(System.Collections.Generic.IReadOnlyDictionary{Terrasoft.Core.Process.ProcessSchemaParameter,System.Object})">
+            <summary>
+            Transforms process parameters and its values into required format.
+            </summary>
+            <param name="parameterValues">Parametes and its values.</param>
+            <returns>Formatted parameter values.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.Process.Tracing.IProcessTraceWriter">
+            <summary>
+            Represents process trace writer that will receive tracing data from process tracer and writes it to 
+            required storage.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.IProcessTraceWriter.Write(Terrasoft.Core.Process.Tracing.ProcessTraceData)">
+            <summary>
+            Writes process trace data to required storage.
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="T:Terrasoft.Core.Process.Tracing.JsonProcessTraceFormater">
+            <summary>
+            Formats process parameters trace to json format.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.JsonProcessTraceFormater.JsonProcessParameterTraceFormat.UId">
+            <summary>
+            Process parameter uId.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.JsonProcessTraceFormater.JsonProcessParameterTraceFormat.Name">
+            <summary>
+            Process parameter name.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.JsonProcessTraceFormater.JsonProcessParameterTraceFormat.Caption">
+            <summary>
+            Process parameter caption.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.JsonProcessTraceFormater.JsonProcessTraceFormat.Parameter">
+            <summary>
+            Process parameter formatted data.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.JsonProcessTraceFormater.JsonProcessTraceFormat.Value">
+            <summary>
+            Process parameter value.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.JsonProcessTraceFormater.Log">
+            <summary>
+            Gets the logger.
+            </summary>
+            <value>
+            The logger.
+            </value>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.JsonProcessTraceFormater.FormatProcessParameter(Terrasoft.Core.Process.ProcessSchemaParameter,System.Object)">
+            <summary>
+            Transforms parameter and value pair into formatted process parameter data.
+            </summary>
+            <param name="parameter">Process parameter.</param>
+            <param name="value">Process parameter value.</param>
+            <returns>Formatted process parameter data.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.JsonProcessTraceFormater.FormatParameterValue(System.Object)">
+            <summary>
+            Formats process parameter value into string on success or returns formatting error message on failure.
+            </summary>
+            <param name="parameterValue">Process parameter value.</param>
+            <returns>Formatted process parameter value.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.JsonProcessTraceFormater.Format(System.Collections.Generic.IReadOnlyDictionary{Terrasoft.Core.Process.ProcessSchemaParameter,System.Object})">
+            <summary>
+            Formats process parameters values dictionary.
+            </summary>
+            <param name="parameterValues">Process parameters values dictionary.</param>
+            <returns>Process parameters values in Json format.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.Process.Tracing.ProcessParametersTracer">
+            <summary>
+            Process parameters tracer that subscribes to process activity events and passes tracing data to trace writer.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.Process.Tracing.ProcessParametersTracer._traceWriter">
+            <summary>
+            Process trace writer.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.ProcessParametersTracer.#ctor(Terrasoft.Core.Process.Tracing.IProcessTraceWriter)">
+            <summary>
+            Base tracer constructor with injected writer.
+            </summary>
+            <param name="traceWriter">Injected process trace writer.</param>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.ProcessParametersTracer.Log">
+            <summary>
+            Gets the logger.
+            </summary>
+            <value>
+            The logger.
+            </value>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.ProcessParametersTracer.IsActivitySuitableForTrace(Terrasoft.Core.Process.ProcessActivity)">
+            <summary>
+            Returns if activity is suitable for trace.
+            </summary>
+            <param name="activity">Process activity to check.</param>
+            <returns>Is activity suitable for trace.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.ProcessParametersTracer.Trace(Terrasoft.Core.Process.ProcessActivity,Terrasoft.Core.Process.Tracing.ProcessTracingEvent)">
+            <summary>
+            Traces given process activity and passes trace results to process trace writer.
+            </summary>
+            <param name="processActivity">Process activity to trace.</param>
+            <param name="tracingEvent">Process tracing event.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.ProcessParametersTracer.TraceExecuting(Terrasoft.Core.Process.ProcessActivity)">
+            <summary>
+            Traces process activity executing event.
+            </summary>
+            <param name="processActivity">Process activity to trace.</param>
+        </member>
+        <member name="M:Terrasoft.Core.Process.Tracing.ProcessParametersTracer.TraceExecuted(Terrasoft.Core.Process.ProcessActivity)">
+            <summary>
+            Traces process activity executed event.
+            </summary>
+            <param name="processActivity">Process activity to trace.</param>
+        </member>
+        <member name="T:Terrasoft.Core.Process.Tracing.ProcessTraceData">
+            <summary>
+            Process tracing data format.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.ProcessTraceData.ProcessElementUId">
+            <summary>
+            Process element uId.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.ProcessTraceData.TracingEvent">
+            <summary>
+            Process tracing event.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.ProcessTraceData.ElementParameterValues">
+            <summary>
+            Elements parameters values.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.Process.Tracing.ProcessTraceData.OwnerParameterValues">
+            <summary>
+            Process parameters values.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.Process.Tracing.ProcessTracingEvent">
+            <summary>
+            Represents moment in process activity execution when trace was created.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.Process.Tracing.ProcessTracingEvent.Executing">
+            <summary>
+            Before execute event.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.Process.Tracing.ProcessTracingEvent.Executed">
+            <summary>
+            After execute or completion event.
+            </summary>
+        </member>
+    </members>
+</doc>

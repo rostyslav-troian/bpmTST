@@ -1,0 +1,108 @@
+﻿.button-reordable-container {
+  margin-right: 14px;
+  margin-left: -4px;
+  height: 33px;
+}
+.button-reordable-item {
+  margin-right: 4px;
+  margin-left: 4px;
+  display: inline-block;
+  position: relative;
+  z-index: 100;
+}
+.button-reordable-item .tools-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  transition: right 0.2s, top 0.2s, opacity 0.2s;
+}
+.button-reordable-item .tools-container .t-btn-wrapper {
+  padding: 0;
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border: 1px solid #00aeef;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  transition: width 0.2s, height 0.2s;
+}
+.button-reordable-item .tools-container .t-btn-wrapper .t-btn-image {
+  width: 0;
+  height: 0;
+  background-repeat: no-repeat;
+  transition: width 0.2s, height 0.2s;
+}
+.button-reordable-item .page-designer-btn-wrapper {
+  padding: 1px;
+  border-radius: 2px;
+  border: 1px dashed #c7c4c4;
+  filter: contrast(0.5) brightness(1.4);
+}
+.button-reordable-item.button-selected .page-designer-btn-wrapper {
+  filter: none;
+}
+.button-reordable-item .page-designer-btn-wrapper .t-btn-wrapper {
+  padding: 3.5px 9.5px 4.5px 9.5px;
+}
+.button-reordable-item .page-designer-btn-wrapper .t-btn-style-default {
+  min-height: inherit;
+  background-color: white;
+}
+.button-reordable-item.button-selected .page-designer-btn-wrapper {
+  border: 1px solid #00aeef;
+}
+.button-reordable-container .button-reordable-item.button-selected .tools-container {
+  display: block;
+  opacity: 1;
+}
+.button-reordable-item.button-selected .tools-container {
+  right: -7px;
+  top: -5px;
+  z-index: 20;
+}
+.button-reordable-item.button-selected .tools-container .t-btn-wrapper {
+  width: 15px;
+  height: 15px;
+}
+.button-reordable-item.button-selected .tools-container .t-btn-wrapper .t-btn-image {
+  width: 13px;
+  height: 13px;
+}
+.page-designer-button-reorderable-position {
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.page-designer-button-reorderable-position:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -5px;
+  top: 0;
+  border: 3px solid transparent;
+  border-right-color: #00aeef;
+  border-top-color: #00aeef;
+}
+.page-designer-button-reorderable-position:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0;
+  top: 0;
+  border: 3px solid transparent;
+  border-left-color: #00aeef;
+  border-top-color: #00aeef;
+}
+.page-designer-button-reorderable-zero-element {
+  position: absolute;
+  width: 19px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: none;
+}

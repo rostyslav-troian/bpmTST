@@ -1,0 +1,416 @@
+.filteredit {
+	font-size: 1.4em;
+	color: #444444;
+}
+
+.filteredit a {
+	text-decoration: none;
+}
+
+.filteredit-rule:hover:not(.filteredit-selected) {
+	background-color: #e4eaf9;
+}
+
+.filteredit-selected .filteredit-rule:hover,
+.filteredit-selected {
+	background-color: #00aeef;
+}
+
+.filteredit-group {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: table;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin-bottom: 4px;
+}
+
+.filteredit-group .filteredit-group.filteredit-aggregative-group > .filteredit-group-type {
+	padding-left: 26px;
+	width: 64px;
+}
+
+.filteredit-group .filteredit-group .filteredit-group-type {
+	padding-left: 35px;
+	width: 73px;
+}
+
+.filteredit > .filteredit-group > .filteredit-group-type {
+	padding-left: 38px;
+	width: 76px;
+}
+
+.filteredit > .filteredit-group > .filteredit-group-type.filteredit-group-type-hidden {
+	display: none;
+}
+
+.filteredit-disabled .filteredit-group-type {
+	border-right: 1px solid #999999;
+}
+
+.filteredit-selected .filteredit-group-type {
+	border-right: 1px solid #ffffff;
+}
+
+.filteredit .filteredit-group-type.filteredit-group-type-hidden {
+	width: 49px;
+}
+
+.filteredit-group-type {
+	display: table-cell;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Segoe UI Light", serif;
+	text-align: left;
+	border-right: 1px solid #00aeef;
+	padding-right: 9px;
+	width: 1px;
+}
+
+.filteredit-aggregative-rule > .filteredit-rule-aggregation {
+	padding-left: 36px;
+}
+
+.filteredit-aggregative-rule > .filteredit-rule-right-wrapper {
+	padding-left: 8px;
+}
+
+.filteredit-aggregative-rule > .filteredit-rule-left:after {
+	content: "";
+	display: block;
+}
+
+.filteredit-group > .t-checkboxedit-wrap {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	margin-top: -8px;
+}
+
+.filteredit-aggregative-rule {
+	padding-left: 0px;
+	padding-right: 25px;
+}
+
+.filteredit-aggregative-group {
+	padding-top: 5px;
+}
+
+.filteredit-aggregative-group,
+.filteredit-group-rules-add,
+.filteredit-rule {
+	padding-left: 9px;
+}
+
+.filteredit-group-rules-add,
+.filteredit-aggregative-rule,
+.filteredit-rule {
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	min-height: 37px;
+	margin-bottom: 4px;
+	padding-top: 6px;
+}
+
+.filteredit-group .filteredit-group .filteredit-group-type + .filteredit-group-delete,
+.filteredit-rule-delete {
+	display: none;
+}
+
+.filteredit-group .filteredit-group.filteredit-selected .filteredit-group-type:hover + .filteredit-group-delete,
+.filteredit-group.filteredit-selected .filteredit-group .filteredit-group-type + .filteredit-group-delete:hover,
+.filteredit-group.filteredit-selected .filteredit-group .filteredit-group-type:hover + .filteredit-group-delete,
+.filteredit-group .filteredit-group.filteredit-selected .filteredit-group-type + .filteredit-group-delete:hover,
+.filteredit-selected .filteredit-group .filteredit-group-type + .filteredit-group-delete,
+.filteredit-group .filteredit-selected .filteredit-group-type + .filteredit-group-delete {
+	background: url(images/delete-button.svg) no-repeat;
+}
+
+.filteredit-group .filteredit-group .filteredit-group-type:hover + .filteredit-group-delete,
+.filteredit-group .filteredit-group  .filteredit-group-type + .filteredit-group-delete:hover {
+	background: url(images/delete-button-onhover.svg) no-repeat;
+}
+
+.filteredit-group .filteredit-group .filteredit-group-type:hover + .filteredit-group-delete,
+.filteredit-group .filteredit-group  .filteredit-group-type + .filteredit-group-delete:hover,
+.filteredit-selected .filteredit-group .filteredit-group-type + .filteredit-group-delete,
+.filteredit-group .filteredit-selected .filteredit-group-type + .filteredit-group-delete {
+	position: absolute;
+	top: 8px;
+	margin-left: -25px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+
+.filteredit-selected .filteredit-aggregative-rule:hover > .filteredit-rule-delete,
+.filteredit-selected .filteredit-rule:hover > .filteredit-rule-delete,
+.filteredit-selected.filteredit-aggregative-rule:hover > .filteredit-rule-delete,
+.filteredit-selected.filteredit-rule:hover > .filteredit-rule-delete,
+.filteredit-selected .filteredit-rule-delete {
+	background: url(images/delete-button.svg) no-repeat;
+}
+
+.filteredit-aggregative-rule:hover > .filteredit-rule-delete,
+.filteredit-rule:hover > .filteredit-rule-delete {
+	background: url(images/delete-button-onhover.svg) no-repeat;
+}
+
+.filteredit-aggregative-rule:hover > .filteredit-rule-delete,
+.filteredit-rule:hover > .filteredit-rule-delete,
+.filteredit-selected .filteredit-rule-delete {
+	display: block;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.filteredit-rule-left {
+	font-size: 13px;
+}
+
+.filteredit-rule-left,
+.filteredit-rule-aggregation,
+.filteredit-rule-comparison,
+.filteredit-rule-right-wrapper {
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+}
+
+.filteredit-rule-left-disabled.filteredit-rule-left,
+.filteredit-rule-left-disabled.filteredit-rule-aggregation,
+.filteredit-rule-comparison-disabled.filteredit-rule-comparison,
+.filteredit-rule-right-disabled.filteredit-rule-right-wrapper {
+	cursor: default;
+}
+
+.filteredit-group-type span,
+.filteredit-rule-delete,
+.filteredit-group-rules-add {
+	cursor: pointer;
+}
+
+.filteredit-group-type-disabled.filteredit-group-type span {
+	cursor: default;
+}
+
+.filteredit-rule-right-wrapper {
+	margin-right: 5px;
+	margin-left: 26px;
+	display: block;
+}
+
+.filteredit-disabled .filteredit-rule-right,
+.filteredit-disabled .filteredit-rule-macros,
+.filteredit-disabled .filteredit-rule-macros-parameter,
+.filteredit-rule-left,
+.filteredit-group-type span,
+.filteredit-group-rules-add,
+.filteredit-rule-right-welcomeinput {
+	color: #999999;
+}
+
+.filteredit-rule-left {
+	margin-left: 26px;
+}
+
+.filteredit-aggregative-rule > .filteredit-rule-left {
+	margin-left: 36px;
+}
+
+.filteredit-selected .filteredit-rule-right input:hover,
+.filteredit-selected .filteredit-rule-right input,
+.filteredit-rule-right,
+.filteredit-rule-macros,
+.filteredit-rule-macros-parameter {
+	color: #444444;
+}
+
+.filteredit-selected .filteredit-group-rules-add,
+.filteredit-selected .filteredit-rule-aggregation,
+.filteredit-selected .filteredit-rule-comparison,
+.filteredit-selected .filteredit-group-type span:hover,
+.filteredit-selected .filteredit-rule-left:hover,
+.filteredit-selected .filteredit-rule-right:hover,
+.filteredit-selected .filteredit-group-rules-add:hover,
+.filteredit-selected .filteredit-rule-macros:hover,
+.filteredit-selected .filteredit-rule-macros-parameter:hover,
+.filteredit-selected .filteredit-group-type span,
+.filteredit-selected .filteredit-rule-left,
+.filteredit-selected .filteredit-rule-right,
+.filteredit-selected .filteredit-rule-macros,
+.filteredit-selected .filteredit-rule-macros-parameter {
+	color: #ffffff;
+}
+
+.filteredit-rule-right-wrapper .base-edit {
+	text-align: inherit;
+	margin-right: 5px;
+	vertical-align: middle;
+	width: 200px;
+	background-color: #ffffff;
+	height: 28px;
+	margin-bottom: 5px;
+}
+
+.filteredit-rule-right-wrapper .base-edit-input {
+	position: absolute;
+	width: 90%;
+}
+
+.filteredit-rule-right-wrapper .t-btn-wrapper,
+.filteredit-rule-right-wrapper .base-edit-input {
+	font-size: 1em;
+}
+
+.filteredit-rule-right-wrapper .t-btn-wrapper {
+	vertical-align: middle;
+}
+
+.filteredit-rule-right-wrapper .t-btn-wrapper:last-of-type {
+	margin-right: 0;
+	display: none;
+}
+
+.filteredit-rule-right-wrapper .t-btn-no-text-padding {
+	padding: 0.37em 0.64em 0.37em 0.54em;
+	height: 28px;
+	margin-bottom: 5px;
+}
+
+.filteredit-group-type:not(.filteredit-group-type-disabled) span:hover,
+.filteredit-group-rules-add:hover:not(.filteredit-group-rules-add-disabled),
+.filteredit-rule-left:hover:not(.filteredit-rule-left-disabled),
+.filteredit-rule-right:hover:not(.filteredit-rule-right-disabled),
+.filteredit-rule-macros:hover:not(.filteredit-rule-rule-macros-disabled),
+.filteredit-rule-macros-parameter:hover:not(.filteredit-rule-macros-parameter-disabled) {
+	color: #10a0e3;
+}
+
+.filteredit-selected .filteredit-rule-aggregation span,
+.filteredit-selected .filteredit-rule-comparison span {
+	background: url(images/triangle-selected.svg) no-repeat;
+}
+
+.filteredit-rule-aggregation span,
+.filteredit-rule-comparison span {
+	display: inline-block;
+	visibility: hidden;
+	width: 7px;
+	height: 4px;
+	background: url(images/triangle.svg) no-repeat;
+	vertical-align: middle;
+	margin-left: 6px;
+}
+
+.filteredit-group .filteredit-group-rules {
+	padding-bottom: 4px;
+}
+
+.filteredit-rule-macros-parameter {
+	margin-left: 12px;
+}
+
+.filteredit-rule-aggregation:hover span,
+.filteredit-rule-comparison:hover span {
+	visibility: visible;
+}
+
+.filteredit-rule-comparison-disabled.filteredit-rule-aggregation:hover span,
+.filteredit-rule-comparison-disabled.filteredit-rule-comparison:hover span {
+	visibility: hidden;
+}
+
+.filteredit-rule-aggregation:hover span.unselectable,
+.filteredit-rule-comparison:hover span.unselectable {
+	visibility: visible;
+	background-image: none;
+}
+
+.filteredit-rule-aggregation,
+.filteredit-rule-comparison {
+	color: #999999;
+	margin-right: 4px;
+	padding-left: 24px;
+}
+
+.filteredit-aggregative-rule > .t-checkboxedit-wrap,
+.filteredit-rule .t-checkboxedit-wrap {
+	margin-right: 8px;
+	vertical-align: middle;
+	margin-bottom: 1px;
+	position: absolute;
+	left: 10px;
+}
+
+.filteredit-disabled .t-checkboxedit-wrap.t-checkboxedit-checked {
+	background: url(images/Checkbox_disabled_checked_focused.svg) no-repeat;
+}
+
+.filteredit-disabled .t-checkboxedit-wrap {
+	background: url(images/Checkbox_disabled_empty_focused.svg) no-repeat;
+}
+
+.filteredit-selected .t-checkboxedit-wrap.t-checkboxedit-checked {
+	background: url(images/checkbox-checked-inversed.svg) no-repeat;
+}
+
+.filteredit-selected .t-checkboxedit-wrap {
+	background: url(images/checkbox-empty-inversed.svg) no-repeat;
+}
+
+.filteredit-group .filteredit-group .filteredit-group-rules-add {
+	color: transparent;
+	width: 20px;
+	line-height: inherit;
+	padding-left: 20px;
+	padding-top: 0px;
+}
+
+.filteredit-selected .filteredit-group-rules-add {
+	background: url(images/add-button-inversed.svg) no-repeat;
+	background-size: 16px;
+	background-position-y: 12px;
+}
+
+.filteredit-group-rules-add {
+	background: url(images/add-button.svg) no-repeat left center;
+	background-size: 16px 16px;
+	background-position-y: 12px;
+}
+
+.filteredit-rule {
+	margin-bottom: 10px;
+	overflow: auto;
+	padding-right: 26px;
+	padding-top: 1px;
+}
+
+.filteredit-group-rules-add {
+	margin: 0 8px;
+	display: inline-block;
+	padding-left: 26px;
+	padding-top: 10px;
+}
+
+.filteredit-hidden {
+	display: none;
+}
+
+/*rtl:begin:ignore*/
+html[dir="rtl"] {
+	.filteredit-group-rules-add {
+		background-position-x: 100%;
+	}
+}
+/*rtl:end:ignore*/

@@ -1,0 +1,70 @@
+﻿#general-items-delay-all-button-wrapperEl {
+  margin-left: 50px;
+  vertical-align: top;
+}
+#general-items-cancel-all-button-textEl {
+  margin-left: 9px;
+}
+.grid a {
+  color: #0e84cf;
+}
+.t-btn-pressed#general-items-reminding-button-textEl,
+.t-btn-pressed#general-items-visa-button-textEl,
+.t-btn-pressed#general-items-email-button-textEl {
+  background-color: #4da3d1;
+  color: white;
+}
+#general-items-visa-button-textEl,
+#general-items-reminding-button-textEl {
+  margin-left: 9px;
+}
+.current-button-type {
+  background-color: transparent;
+  border: 1px solid green;
+  color: black;
+}
+#general-items-container,
+#custom-items-container {
+  display: inline;
+}
+#leftContainer {
+  margin-bottom: 10px;
+}
+#general-items-read-all-button-textEl {
+  margin-left: 50px;
+}
+.header {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.header-name-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  padding-right: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.module-command-line {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding-left: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.module-help-container {
+  display: inline-block;
+  width: 5%;
+  height: 42px;
+}
+.header-name-container .t-label {
+  font-family: "Segoe UI Light";
+  font-size: 35px;
+  color: #4d5a75;
+  letter-spacing: -0.01em;
+  margin-bottom: 30px;
+}

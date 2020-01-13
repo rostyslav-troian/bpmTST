@@ -1,0 +1,115 @@
+﻿.html-editor,
+.html-edit-toolbar,
+.html-edit-textarea,
+.html-edit-toolbar-buttongroup,
+.html-edit-toolbar-top {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: relative;
+  background: none;
+}
+.html-editor {
+  display: table;
+}
+.html-editor .base-edit.memo-edit-core {
+  overflow: hidden;
+}
+.html-editor .cke_top {
+  display: none;
+}
+.html-edit-toolbar {
+  padding-bottom: 10px;
+  display: table-cell;
+}
+.html-edit-toolbar .t-btn-wrapper[data-tag="maximized"] {
+  padding-right: 0.77em;
+}
+.html-edit-toolbar-top {
+  padding-bottom: 6px;
+  display: table-cell;
+}
+.html-edit-toolbar-buttongroup {
+  padding-right: 6px;
+  padding-top: 6px;
+  display: inline-block;
+}
+.html-edit-textarea {
+  border: 1px solid #cbcbcb;
+  overflow: hidden;
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+}
+.html-edit-textarea .virtual {
+  min-height: 304px;
+}
+.x-ie8 .html-edit-textarea {
+  padding-right: 1px;
+}
+.html-edit-validation {
+  display: none;
+  background-color: #58aeda;
+  color: #ffffff;
+  font-size: 1.3em;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  position: absolute;
+  left: -1px;
+  z-index: 10;
+  word-wrap: break-word;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.html-edit-error {
+  outline: none;
+  border-color: rgba(86, 180, 239, 0.7);
+  border-color: #56b4ef;
+  -webkit-box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+  -moz-box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+  box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+}
+.html-edit-textarea .cke_reset {
+  height: 100%;
+}
+.html-edit-textarea .cke_chrome {
+  border: none;
+}
+.html-edit-toolbar .base-edit {
+  border: 1px solid #c8c8c8;
+}
+html[dir="rtl"] .listview li {
+  text-align: left;
+}
+.html-edit-toolbar-maximized {
+  position: absolute;
+  top: 0;
+  z-index: 1999;
+  padding: 5px 10px;
+}
+.cke_maximized {
+  z-index: 1998 !important;
+}
+.html-link-popup {
+  height: 300px;
+}
+.html-link-popup .ts-inpupbox-control {
+  height: 140px;
+}
+.html-link-popup label:nth-of-type(2),
+.html-link-popup [data-item-marker*="linktextedit"] {
+  width: 80%;
+  float: left;
+}
+.html-link-popup label:last-of-type,
+.html-link-popup [data-item-marker*="linkcoloredit"] {
+  width: 20%;
+  float: right;
+}
+.html-link-popup label:last-of-type {
+  width: 17%;
+  margin-top: -24px;
+}

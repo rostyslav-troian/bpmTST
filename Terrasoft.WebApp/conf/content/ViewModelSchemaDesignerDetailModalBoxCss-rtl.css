@@ -1,0 +1,13 @@
+﻿.modal-box-schema-module-content.schema-wrap .detail-modal-box {
+  max-height: 210px;
+  height: 100%;
+}
+.modal-box-schema-module-content.schema-wrap .detail-modal-box .tap-panel-box {
+  margin-top: 1.5em;
+}
+.modal-box-schema-module-content.schema-wrap .detail-modal-box .tap-panel-box + .tap-panel-box {
+  margin-right: 1em;
+}
+.ts-mask-container {
+  z-index: 2010;
+}

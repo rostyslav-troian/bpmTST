@@ -1,0 +1,29 @@
+﻿.ts-iconized-progress-bar-wrap {
+  position: relative;
+  height: 50px;
+  min-height: 50px;
+}
+.ts-iconized-progress-bar-wrap .overlay {
+  width: 100%;
+  text-align: right;
+  font-size: 28px;
+  font-family: "Bpmonline Open Sans Light";
+  color: #8ecb60;
+}
+.ts-iconized-progress-bar-wrap .overlay .caption-suffix {
+  font-size: 28px;
+}
+.iconized-progress-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.iconized-progress-bar ul li {
+  float: left;
+  padding: 2px;
+  margin-right: 20px;
+}
+.progress-point-icon {
+  height: 30px;
+  width: 30px;
+}

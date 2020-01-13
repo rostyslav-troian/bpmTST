@@ -1,0 +1,56 @@
+﻿.historyMessageWrap.historyPortalMessageWrap .messageContent {
+  background-color: #f0f6fd;
+}
+.historyMessageWrap.historyPortalMessageWrap .messageContent .messageHeader {
+  min-height: 20px;
+}
+.historyMessageWrap.historyPortalMessageWrap .messageContent .portalMessageVisibilityContainer .portalMessageVisibilityLabel {
+  font-size: 12px;
+  color: #4e7bd8;
+  cursor: pointer;
+}
+.historyMessageWrap.historyPortalMessageWrap .messageContent .portalMessageVisibilityContainer .portalMessageVisibilityLabel:hover {
+  text-decoration: underline;
+}
+.historyMessageWrap.historyPortalMessageWrap .messageContent.speech-bubble::after {
+  border-color: transparent #f0f6fd;
+}
+.historyPortalMessageWrap[data-item-marker="IncomingPortalHistoryMessageWrapContainer"] .createdByImage {
+  float: left;
+}
+.historyPortalMessageWrap[data-item-marker="IncomingPortalHistoryMessageWrapContainer"] .messageContent {
+  margin: 0 85px 0 54px;
+}
+.historyPortalMessageWrap[data-item-marker="IncomingPortalHistoryMessageWrapContainer"] .messageContent::after {
+  right: auto;
+  left: -16px;
+  border-width: 0 16px 16px 0;
+}
+.historyV2-message-footer-container .portalMessage-visibility-container {
+  margin-right: 0;
+  margin-left: auto;
+  width: max-content;
+  padding-top: 10px;
+  float: right;
+  display: inline-block;
+}
+.historyV2-message-footer-container .portalMessage-visibility-container .visibilityIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: bottom;
+  display: inline-block;
+}
+.historyV2-message-footer-container .portalMessage-visibility-container .visibilityIcon img {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+.historyV2-message-footer-container .portalMessage-visibility-container .portalMessageVisibilityLabel {
+  font-size: 12px;
+  color: #4e7bd8;
+  cursor: pointer;
+}
+.historyV2-message-footer-container .portalMessage-visibility-container .portalMessageVisibilityLabel:hover {
+  text-decoration: underline;
+}

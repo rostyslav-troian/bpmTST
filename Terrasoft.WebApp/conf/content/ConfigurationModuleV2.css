@@ -1,0 +1,65 @@
+﻿.chart-designer-series-tab-panel {
+  margin-top: 10px;
+}
+.schema-wrap .ts-tabpanel {
+  padding-right: 5em;
+}
+.schema-wrap .ts-tabpanel-tools {
+  padding-right: 0em;
+}
+#FilterProperties .extended-filter-button-right {
+  display: none;
+}
+.control-width-15 .t-label.indicator-format-value {
+  width: auto;
+  color: #000000;
+  float: left;
+}
+.indicator-format-value:hover {
+  border-bottom: 1px solid #999999;
+}
+#HeaderContainer {
+  position: fixed;
+  background-color: #fff;
+  z-index: 1000;
+  width: 100%;
+}
+#ChartContainer {
+  position: fixed;
+  margin-top: 10px;
+  height: 80%;
+}
+.widget-module-container {
+  position: fixed;
+  margin-top: 10px;
+}
+@media (min-width: 1920px) {
+  .widget-module-container {
+    width: 54%;
+  }
+}
+@media (max-width: 1919px) and (min-width: 1600px) {
+  .widget-module-container {
+    width: 48%;
+  }
+}
+@media (max-width: 1599px) and (min-width: 1280px) {
+  .widget-module-container {
+    width: 45%;
+  }
+}
+@media (max-width: 1279px) and (min-width: 1024px) {
+  .widget-module-container {
+    width: 42%;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .widget-module-container {
+    width: 37%;
+  }
+}
+@media (max-width: 767px) {
+  .widget-module-container {
+    width: 32%;
+  }
+}

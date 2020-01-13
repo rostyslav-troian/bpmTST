@@ -1,0 +1,10 @@
+﻿.systemMessageVisibilityLabel {
+  font-size: 13px;
+  color: #999;
+  cursor: pointer;
+  float: right;
+  padding: 4px 5px 0 0;
+}
+.systemMessageVisibilityLabel:hover {
+  text-decoration: underline;
+}

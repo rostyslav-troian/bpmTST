@@ -1,0 +1,13 @@
+﻿.delay-execution-container {
+  position: relative;
+  z-index: 1000;
+  min-width: 560px;
+  max-width: 1084px;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 10px #999;
+}
+.button-margin {
+  margin-left: 9px;
+}

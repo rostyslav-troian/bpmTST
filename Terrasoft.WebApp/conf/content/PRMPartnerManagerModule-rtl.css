@@ -1,0 +1,44 @@
+﻿.manager-widget-metrics-container {
+  background-color: #4ca6a3;
+  color: #ffffff;
+  display: table;
+  font-family: "Bpmonline Open Sans", serif;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+.manager-main-widget-metrics-container {
+  background-color: #4ca6a3;
+  display: table-cell;
+  vertical-align: middle;
+}
+#PRMPartnerManagerSchemaContainer.schema-wrap.one-el {
+  display: table;
+  min-width: 0px;
+  height: 100%;
+  width: 100%;
+}
+.manager-profile-margin {
+  display: table-cell;
+  vertical-align: middle;
+}
+.manager-profile-margin .photo-icon {
+  background-position: center;
+  height: 48px;
+  width: 48px;
+}
+.manager-name-label {
+  font-size: 15px;
+}
+.manager-name-caption-label {
+  font-size: 20px;
+  margin-top: 0px;
+  max-width: 200px;
+}
+.mail-to-btn span {
+  background-size: 18px 16px;
+  height: 16px;
+  width: 18px;
+}

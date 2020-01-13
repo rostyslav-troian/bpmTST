@@ -1,0 +1,677 @@
+﻿.centerContainer {
+  position: absolute;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  left: 50%;
+  white-space: nowrap;
+}
+.singleLineItem {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.subscriberPhotoImage {
+  width: 43px;
+  height: 43px;
+  border-radius: 43px;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+}
+.listItemContainer {
+  position: relative;
+  left: -10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #E1E8F2;
+}
+html[dir="rtl"] .ctiPanelMain .empty-search-result-container .image-container {
+  transform: translateX(50%);
+}
+.ctiPanelMain .no-connection-msg {
+  background-color: #ffeae7;
+  box-sizing: border-box;
+  margin: 10px 0 5px 0;
+  padding: 10px;
+}
+.ctiPanelMain .label-caption {
+  vertical-align: top;
+  width: 107px;
+  margin: 0 8px 0 17px;
+  padding: 0;
+  color: #999;
+  font-family: "Segoe UI", serif;
+  font-size: 12px;
+  text-align: left;
+}
+.ctiPanelMain .call-duration-container .call-duration {
+  width: 141px;
+  margin: 0;
+  padding: 0;
+  color: #0E84CF;
+  font-family: "Segoe UI", serif;
+  font-size: 12px;
+  text-align: left;
+}
+.ctiPanelMain .control-no-label .base-edit:not(.base-edit-focus) {
+  border: 1px solid #C8C8C8;
+}
+.ctiPanelMain .ts-mask-container {
+  width: 16px;
+  right: 30px;
+  top: -2px;
+  left: auto;
+}
+.ctiPanelMain .phone-number-edit {
+  border: 1px solid #C8C8C8;
+  padding: 0 33px 0 10px;
+}
+.ctiPanelMain .phone-number-edit .base-edit-input {
+  cursor: text !important;
+}
+.ctiPanelMain .phone-number-edit .base-edit-right-icon .ts-mask-container .ts-mask-spinner-wrap {
+  padding-bottom: 20px;
+  left: -24px;
+}
+.ctiPanelMain .buttons-panel {
+  height: 32px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+}
+.ctiPanelMain .buttons-panel .t-btn-wrapper {
+  width: 32px;
+  margin-right: 9px;
+  padding: 0;
+}
+.ctiPanelMain .buttons-panel .t-btn-wrapper .t-btn-image {
+  height: 32px;
+  width: 100%;
+}
+.ctiPanelMain .buttons-panel .call-drop-button {
+  margin-right: 0;
+}
+.ctiPanelMain .buttons-panel .t-btn-style-call-button-short {
+  width: 32px;
+}
+.ctiPanelMain .buttons-panel .t-btn-style-call-button-middle {
+  width: 61px;
+}
+.ctiPanelMain .buttons-panel .t-btn-style-call-button-long {
+  width: 128px;
+}
+.ctiPanelMain .buttons-panel .ts-component-tooltip:hover:before {
+  left: 16px;
+  width: 17px;
+}
+.ctiPanelMain .buttons-panel .ts-component-tooltip:hover:after {
+  left: -7px;
+  width: 104px;
+}
+.ctiPanelMain .dtmf-buttons-container {
+  position: absolute;
+  width: 140px;
+  height: 198px;
+  margin-top: 36px;
+  padding: 2px 3px 0 3px;
+  left: 75px;
+  border: 1px solid #E5E5E5;
+  background-color: #FAFAFA;
+  z-index: 1;
+}
+.ctiPanelMain .dtmf-buttons-container .t-btn-text {
+  width: 32px;
+  height: 32px;
+  border: 1px solid;
+  border-radius: 32px;
+  padding: 0;
+  margin: 9px 0 0 9px;
+  background-color: #FFF;
+  font-size: 17px;
+  color: #999;
+  text-align: center;
+  line-height: 28px;
+}
+.ctiPanelMain .dtmf-buttons-container .dtmf-digits-label {
+  width: 100%;
+  margin: 8px 0 0 0;
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+}
+.ctiPanelMain .identification-panel {
+  position: relative;
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+}
+.ctiPanelMain .identification-panel .identification-panel-left {
+  width: 43px;
+  float: left;
+}
+.ctiPanelMain .identification-panel .identification-panel-right {
+  float: left;
+  width: 273px;
+}
+.ctiPanelMain .identification-panel .subsciber-menu-button {
+  width: 257px;
+  margin: 0 0 0 17px;
+  padding: 0;
+  color: #0E84CF;
+  font-family: "Segoe UI", serif;
+  font-size: 18px;
+  text-align: left;
+  height: 30px;
+  padding: 4px 0 0 0;
+}
+.ctiPanelMain .identification-panel .subsciber-menu-button .t-btn-text {
+  overflow: hidden;
+  width: 227px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ctiPanelMain .identification-panel .subsciber-menu-button .t-btn-menuWrap {
+  width: 30px;
+  height: 30px;
+}
+.ctiPanelMain .identification-panel .subsciber-menu-button .t-btn-menu {
+  width: 30px;
+  height: 30px;
+  right: 0;
+}
+.ctiPanelMain .identification-panel .subsciber-menu-button .t-btn-menu .t-btn-marker {
+  right: 10px;
+}
+.ctiPanelMain .identification-panel .subsciber-menu-button:hover {
+  text-decoration: underline;
+}
+.ctiPanelMain .identification-panel .subscriber-info {
+  width: 141px;
+  margin: 0;
+  padding: 0;
+  color: #444;
+  font-family: "Segoe UI", serif;
+  font-size: 12px;
+  text-align: left;
+}
+.ctiPanelMain .identification-panel .subscriber-photo {
+  padding: 0;
+  cursor: auto;
+  z-index: 2;
+}
+.ctiPanelMain .identification-panel .subscriber-photo .t-btn-image {
+  width: 43px;
+  height: 43px;
+  border-radius: 43px;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+}
+.ctiPanelMain .identification-panel .subscriber-job-container,
+.ctiPanelMain .identification-panel .account-city-container {
+  margin-top: 2px;
+}
+.ctiPanelMain .identification-panel .t-label {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ctiPanelMain .primary-call-info {
+  width: 220px;
+  margin: 8px 8px 8px 17px;
+  padding: 0;
+  color: #444;
+  font-family: "Segoe UI", serif;
+  font-size: 18px;
+  text-align: left;
+}
+.ctiPanelMain .ts-controlgroup {
+  margin-top: 15px;
+  overflow: visible;
+}
+.ctiPanelMain .ts-controlgroup .ts-controlgroup-container {
+  padding-bottom: 1.2em;
+}
+.ctiPanelMain .identification-items-list-container .list-item-container {
+  position: relative;
+  left: -10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #e1e8f2;
+}
+.ctiPanelMain .identification-items-list-container .list-item-container .subscriber-data-container {
+  height: 37px;
+}
+.ctiPanelMain .identification-items-list-container .list-item-container .subscriber-number-container {
+  margin-top: 19px;
+  padding-bottom: 12px;
+}
+.ctiPanelMain .identification-items-list-container .list-item-container .subscriber-name {
+  width: intrinsic;
+  margin: 0px 8px 0px 11px;
+  padding: 0;
+  color: #444;
+  font-family: "Segoe UI", serif;
+  font-size: 14px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  padding-left: 10px;
+  width: auto;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+}
+.ctiPanelMain .identification-items-list-container .list-item-container .subscriber-number {
+  width: 120px;
+  margin: 3px 5px 0px 26px;
+  padding: 0;
+  color: #444;
+  font-family: "Segoe UI", serif;
+  font-size: 12px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: bold;
+}
+.ctiPanelMain .identification-items-list-container .list-item-container .subscriber-communication-type-name {
+  width: 140px;
+  margin: 3px 6px 0px 11px;
+  padding: 0;
+  color: #999;
+  font-family: "Segoe UI", serif;
+  font-size: 12px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ctiPanelMain .identification-items-list-container .list-item-container .subscriber-data {
+  width: 115px;
+  margin: 3px 6px 0px 11px;
+  padding: 0;
+  color: #999;
+  font-family: "Segoe UI", serif;
+  font-size: 12px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ctiPanelMain .identification-items-list-container .list-item-container .subscriber-photo {
+  padding: 0;
+  cursor: auto;
+  z-index: 2;
+  float: left;
+}
+.ctiPanelMain .identification-items-list-container .list-item-container .subscriber-photo .t-btn-image {
+  width: 43px;
+  height: 43px;
+  border-radius: 43px;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+}
+.ctiPanelMain .identification-items-list-container .list-item-container:last-child {
+  border: none;
+}
+.ctiPanelMain .identification-items-list-container .list-item-container:hover {
+  background-color: #EEE;
+}
+.ctiPanelMain .consult-identification-panel {
+  margin-top: 30px;
+}
+.ctiPanelMain .transferring-arrows {
+  position: absolute;
+  top: calc(21.5px);
+  left: 0;
+  height: calc(130%);
+  padding: 0;
+  cursor: auto;
+  background-color: #edf1f8;
+  z-index: 1;
+}
+.ctiPanelMain .transferring-arrows .t-btn-image {
+  width: 43px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center calc(54.25%);
+}
+.ctiPanelMain .communication-history-items-list-container > .list-item-container {
+  padding: 20px 0 20px 0;
+  border-top: 1px solid #C5C5C5;
+}
+.ctiPanelMain .communication-history-items-list-container > .list-item-container:first-child {
+  border: none;
+}
+.ctiPanelMain .communication-history-items-list-container > .list-item-container:hover .call-button,
+.ctiPanelMain .communication-history-items-list-container > .list-item-container:hover .create-link-button {
+  display: inline-block;
+}
+.ctiPanelMain .communication-history-items-list-container .call-button,
+.ctiPanelMain .communication-history-items-list-container .create-link-button {
+  display: none;
+  float: right;
+}
+.ctiPanelMain .communication-history-items-list-container .call-button {
+  padding: 0;
+}
+.ctiPanelMain .communication-history-items-list-container .create-link-button {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  margin-right: -10px;
+}
+.ctiPanelMain .communication-history-items-list-container .photo {
+  float: left;
+  padding: 0;
+  cursor: auto;
+  margin-bottom: 10px;
+}
+.ctiPanelMain .communication-history-items-list-container .photo .t-btn-image {
+  width: 43px;
+  height: 43px;
+  border-radius: 43px;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+}
+.ctiPanelMain .communication-history-items-list-container .communication-history-name-container {
+  width: auto;
+  margin: 0 0 0 11px;
+  display: inline-block;
+}
+.ctiPanelMain .communication-history-items-list-container .communication-history-name-container .communication-history-name {
+  width: auto;
+  margin: -4px 0 0 0;
+  padding: 0;
+  color: #4e7bd8;
+  font-family: "Segoe UI", serif;
+  font-size: 13px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 178px;
+}
+.ctiPanelMain .communication-history-items-list-container .data-container {
+  padding: 0 0 0 43px;
+}
+.ctiPanelMain .communication-history-items-list-container .data {
+  width: 100%;
+  margin: 0 0 -2px 11px;
+  padding: 0;
+  color: #999;
+  font-family: "Segoe UI", serif;
+  font-size: 13px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ctiPanelMain .communication-history-items-list-container .number-container {
+  padding: 0 32px 0 43px;
+}
+.ctiPanelMain .communication-history-items-list-container .number-container .call-type {
+  padding: 0;
+  height: 9px;
+  width: 9px;
+  top: 5px;
+  margin-left: 12px;
+  cursor: auto;
+}
+.ctiPanelMain .communication-history-items-list-container .number-container .call-date {
+  width: 100%;
+  margin: 0 0 0 3px;
+  padding: 0;
+  color: #999;
+  font-family: "Segoe UI", serif;
+  font-size: 13px;
+  text-align: left;
+  display: inline;
+}
+.ctiPanelMain .communication-history-items-list-container .number-container .call-number {
+  width: auto;
+  margin: 0 0 0 8px;
+  padding: 0;
+  color: #4e7bd8;
+  font-family: "Segoe UI", serif;
+  font-size: 13px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 18px;
+  vertical-align: top;
+  cursor: pointer;
+}
+.ctiPanelMain .communication-history-items-list-container .entity-relation-container {
+  display: block;
+  margin-top: 20px;
+}
+.ctiPanelMain .communication-history-items-list-container .entity-relation-container .control-wrap {
+  float: none;
+  width: 82%;
+}
+.ctiPanelMain .communication-history-items-list-container .entity-relation-container .control-wrap .base-edit {
+  padding-left: 8px;
+}
+.ctiPanelMain .communication-history-items-list-container .entity-relation-container .entity-relation-button-wrapper {
+  width: 46px;
+}
+.ctiPanelMain .communication-history-items-list-container .entity-relation-container .wrapper-with-centered-right-menu {
+  width: 46px;
+}
+.ctiPanelMain .communication-history-items-list-container .entity-item-relation-container:nth-last-child(1) .control-wrap .base-edit {
+  margin-left: 8px;
+}
+.ctiPanelMain .communication-history-items-list-container .entity-item-relation-container:nth-last-child(1) .base-edit-right-icon {
+  display: block;
+}
+.ctiPanelMain .communication-history-items-list-container .communication-history-item-container {
+  min-height: 43px;
+}
+.ctiPanelMain .search-result-items-list-container {
+  padding-top: 10px;
+  width: 328px;
+}
+.ctiPanelMain .search-result-items-list-container > .list-item-container:hover {
+  background-color: #EEE;
+}
+.ctiPanelMain .search-result-items-list-container > .list-item-container:last-child {
+  border: none;
+}
+.ctiPanelMain .search-result-items-list-container > .list-item-container {
+  position: relative;
+  left: -10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #e1e8f2;
+}
+.ctiPanelMain .search-result-items-list-container .subscriber-photo {
+  padding: 0;
+  cursor: auto;
+  z-index: 2;
+  float: left;
+}
+.ctiPanelMain .search-result-items-list-container .subscriber-photo .t-btn-image {
+  width: 43px;
+  height: 43px;
+  border-radius: 43px;
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+}
+.ctiPanelMain .search-result-items-list-container .subscriber-data-container {
+  height: 37px;
+}
+.ctiPanelMain .search-result-items-list-container .subscriber-name {
+  width: intrinsic;
+  margin: 0px 8px 0px 11px;
+  padding: 0;
+  color: #0E84CF;
+  font-family: "Segoe UI", serif;
+  font-size: 14px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  display: block;
+  padding-left: 10px;
+  width: 248px;
+}
+.ctiPanelMain .search-result-items-list-container .subscriber-data {
+  width: 115px;
+  margin: 3px 6px 0px 11px;
+  padding: 0;
+  color: #999;
+  font-family: "Segoe UI", serif;
+  font-size: 12px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ctiPanelMain .search-result-items-list-container .communications-control-group {
+  margin-top: 19px;
+  padding-bottom: 9px;
+}
+.ctiPanelMain .search-result-items-list-container .communications-control-group .list-item-container .label-caption {
+  width: 125px;
+  margin: 2px 9px 0px 0px;
+  padding: 0;
+  color: #999;
+  font-family: "Segoe UI", serif;
+  font-size: 12px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ctiPanelMain .search-result-items-list-container .communications-control-group .list-item-container .communication-number {
+  width: 143px;
+  margin: 2px 0px 0px 9px;
+  padding: 0;
+  color: #444;
+  font-family: "Segoe UI", serif;
+  font-size: 12px;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ctiPanelMain .search-result-items-list-container .communications-control-group .list-item-container .communication-call-button {
+  padding: 0;
+  margin: 0 10px 0 0;
+  float: right;
+}
+.ctiPanelMain .empty-search-result-container {
+  font-family: "Segoe UI Light";
+  font-size: 17px;
+  color: #999;
+  margin-top: 30px;
+}
+.ctiPanelMain .empty-search-result-container .image-container {
+  transform: translateX(-50%);
+  left: 50%;
+  width: 135px;
+  height: 139px;
+}
+.ctiPanelMain .empty-search-result-container .description-label {
+  box-shadow: -2px 0 0 0 #64b8df;
+  width: auto;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-left: 20px;
+}
+.ctiPanelMain .empty-grid-message {
+  display: none;
+}
+.ctiPanelMain .container-list-empty,
+.ctiPanelMain .academy-message-container {
+  font-family: "Segoe UI Light";
+  font-size: 17px;
+  color: #999;
+  margin-top: 30px;
+}
+.ctiPanelMain .container-list-empty .empty-grid-message,
+.ctiPanelMain .academy-message-container .empty-grid-message,
+.ctiPanelMain .container-list-empty .academy-grid-message,
+.ctiPanelMain .academy-message-container .academy-grid-message {
+  display: block;
+  font-family: "Segoe UI Light";
+  font-size: 17px;
+  color: #999;
+  width: 318px;
+}
+.ctiPanelMain .container-list-empty .empty-grid-message .image-container,
+.ctiPanelMain .academy-message-container .empty-grid-message .image-container,
+.ctiPanelMain .container-list-empty .academy-grid-message .image-container,
+.ctiPanelMain .academy-message-container .academy-grid-message .image-container {
+  transform: translateX(-50%);
+  left: 50%;
+  width: 135px;
+  height: 139px;
+  margin-left: 0;
+  margin-right: 37px;
+}
+.ctiPanelMain .container-list-empty .empty-grid-message .title,
+.ctiPanelMain .academy-message-container .empty-grid-message .title,
+.ctiPanelMain .container-list-empty .academy-grid-message .title,
+.ctiPanelMain .academy-message-container .academy-grid-message .title {
+  width: auto;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-left: 20px;
+  font-size: 17px;
+}
+.ctiPanelMain .container-list-empty .empty-grid-message .title .t-label,
+.ctiPanelMain .academy-message-container .empty-grid-message .title .t-label,
+.ctiPanelMain .container-list-empty .academy-grid-message .title .t-label,
+.ctiPanelMain .academy-message-container .academy-grid-message .title .t-label {
+  font-size: 17px;
+}
+.ctiPanelMain .container-list-empty .empty-grid-message .description,
+.ctiPanelMain .academy-message-container .empty-grid-message .description,
+.ctiPanelMain .container-list-empty .academy-grid-message .description,
+.ctiPanelMain .academy-message-container .academy-grid-message .description {
+  box-shadow: -2px 0 0 0 #64b8df;
+  width: auto;
+  margin-top: 30px;
+  margin-left: 50px;
+  padding-left: 20px;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.ctiPanelMain .academy-message-container .academy-grid-message .description {
+  border-left: 2px solid #64b8df;
+  margin: 0 auto auto 50px;
+  padding: 15px 50px 15px 20px;
+}
+.ctiPanelMain .academy-message-container .academy-grid-message a {
+  cursor: pointer;
+  color: #4e7bd8;
+}
+.ctiPanelMain .ctiPanelVideo video {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.ctiPanelMain .ctiPanelVideo video:not([class|="useVideo"]) {
+  display: none !important;
+}
+.ctiPanelMain .video-hidden {
+  display: none;
+}
+.demo-no-connection-message-link {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  display: inline;
+}

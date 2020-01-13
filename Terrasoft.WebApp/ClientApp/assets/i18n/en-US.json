@@ -1,0 +1,219 @@
+{
+	"ConfirmationDialog": {
+		"YES": "YES",
+		"NO": "NO"
+	},
+	"InfoDialog": {
+		"OK": "OK"
+	},
+	"AddRecordRightsDialog": {
+		"Add": "Add",
+		"Cancel": "Cancel",
+		"RecordAuthor": "Record author",
+		"RightsRecipient": "User or role who obtains permissions",
+		"Title": "Add permissions based on the record author"
+	},
+	"AdministratedObjectPage": {
+		"AccessPermissions": "PERMISSIONS",
+		"Actions": "Actions",
+		"Apply": "Apply",
+		"Cancel": "Cancel",
+		"Close": "Close",
+		"InfoBlockText": "System operations \"Add any data\", \"View any data\", \"Edit any data\", \"Delete any data\" granted to roles or users have higher priority than permissions that you configure in this section.",
+		"InfoBlockTitle": "Note",
+		"InfoBlockLink1": "How permission priorities work",
+		"InfoBlockLink2": "How permissions are inherited",
+		"InfoBlockLink3": "How to set up permissions for details",
+		"InfoBlockLink4": "How to apply new record permission setting to all existing records",
+		"InfoBlockLink5": "Access permission setup examples",
+		"NameFieldName": "Name",
+		"RightsByColumnDetail": "Use column permissions",
+		"RightsByColumnDetailTooltip": "Permission settings for specific columns (fields) of the object",
+		"RightsByOperationDetail": "Use operation permissions",
+		"RightsByOperationDetailTooltip": "Permission settings for create, read, edit and delete operations",
+		"RightsByRecordDetail": "Use record permissions",
+		"RightsByRecordDetailTooltip": "Permission settings for reading, editing and deleting specific records",
+		"TitleFieldName": "Title",
+		"TitleFormat": "{0} object permissions",
+		"UpdatePermissions": "Update record permissions",
+		"OneEmptyRecordDefRightMessageTemplate": "Rule “{0}” contains no access permissions other than “Not set” and will not affect actual access settings in any way. When applying the new permissions, bpm’online will delete this rule. Do you wish to proceed?",
+		"SeveralEmptyRecordDefRightsMessageTemplate": "Rules “{0}” contain no access permissions other than “Not set” and will not affect actual access settings in any way. When applying the new permissions, bpm’online will delete these rules. Do you wish to proceed?",
+		"ProposalActualizationRights": "Record permission settings have been modified. Current permissions for existing {0} records must be updated. This may affect system performance for all users. \n Do you wish to update record permissions now?"
+	},
+	"AdministratedObjectSection": {
+		"Actions": "Actions",
+		"BlankslateTitle": "There are no records matching current search criteria.",
+		"BlankslateDescription": "Clear or modify search parameters",
+		"BusinessLogicPermissions": "Record permissions enabled",
+		"Close": "Close",
+		"ColumnPermissions": "Column permissions enabled",
+		"Name": "Name",
+		"ObjectPermissions": "Operation permissions enabled",
+		"Search": "Search",
+		"Title": "Object permissions",
+		"TitleColumn": "Title",
+		"UpdatePermissions": "Update record permissions"
+	},
+	"BasePageComponent": {
+		"Close": "Close",
+		"Apply": "Apply",
+		"Cancel": "Cancel"
+	},
+	"ClearChangeLogSettingsDialog": {
+		"AllObjects": "All objects",
+		"AllPeriod": "All available data",
+		"Cancel": "Cancel",
+		"ChooseDate": "Choose date",
+		"ChooseObject": "Choose object",
+		"Clear": "Clear",
+		"ObjectSettingsTitle": "Clear log data for the following objects",
+		"OnlySelectedObject": "Specific object",
+		"PeriodSettingsTitle": "Clear log data for the following period",
+		"Title": "Clear the change log",
+		"ToDatePeriod": "Only data older than"
+	},
+	"ChangeLogCleanerService": {
+		"SuccessLaunch": "System has begun clearing change log. You will receive a notification in the Communication panel when the process is complete"
+	},
+	"ChangeLogPage": {
+		"Close": "Close",
+		"TitleFormat": "{0} change log",
+		"ViewLog": "VIEW LOG"
+	},
+	"ChangeLogSection": {
+		"BlankslateTitle": "There are no records matching current search criteria.",
+		"BlankslateDescription": "Clear or modify search parameters",
+		"Title": "Change log",
+		"TitleColumn": "Title",
+		"NameColumn": "Name",
+		"LoggingEnabledColumn": "Logging enabled",
+		"Actions": "Actions",
+		"ClearChangeLog": "Clear log"
+	},
+	"ChangeLogComponent": {
+		"Blankslate": "There are no records for this object in the Change log",
+		"InsertedTooltip": "Record added",
+		"UpdatedTooltip": "Record modified",
+		"DeletedTooltip": "Record deleted",
+		"ShowMore": "Show more",
+		"ShowLess": "Show less",
+		"ChangeType": "Change type",
+		"ChangeTrackedOn": "Change made on",
+		"ChangeTrackedBy": "Change made by",
+		"ChangeTracked": "Record",
+		"ColumnName": "Column",
+		"ColumnOldValue": "Old value",
+		"ColumnNewValue": "New value",
+		"Yes": "Yes",
+		"No": "No"
+	},
+	"ObjectRecordRightsActualizationService": {
+		"SuccessLaunch": "System has begun updating record permissions based on the current settings. You will receive a notification in the Communication panel when the process is complete"
+	},
+	"ObjectChangeLogPage": {
+		"TitleFormat": "Change log for the {0} object",
+		"SettingsTabCaption": "Log settings",
+		"ViewChangeLogTabCaption": "Log data",
+		"EnableObjectTracking": "Enable logging"
+	},
+	"ObjectTypeFilter": {
+		"AllObjects": "All objects",
+		"Lookups": "Lookups",
+		"Sections": "Sections"
+	},
+	"SearchInput": {
+		"Placeholder": "Search"
+	},
+	"RightLevelSelect": {
+		"Granted": "Granted",
+		"GrantedDelegate": "Granted with right to delegate",
+		"NotSet": "Not set"
+	},
+	"RightsByColumnDetail": {
+		"Add": "Add",
+		"Blankslate": "Access to all columns is not restricted",
+		"Column": "Column",
+		"ColumnBlankslate": "Add roles or users to manage their access to this column",
+		"DenyReadEdit": "Deny reading and editing",
+		"Drag": "Drag to change priority",
+		"PermitRead": "Permit reading",
+		"PermitReadEdit": "Permit reading and editing",
+		"Priority": "Priority",
+		"Remove": "Remove",
+		"RightLevel": "Access level",
+		"User": "User or role",
+		"ValidationMessage": "A rule for selected role already exists. Please choose another role to proceed",
+		"WarningDowngradingRights": "The permission restrictions in this rule can override other rules that are lower in the list"
+	},
+	"RightsByRecordDetail": {
+		"Add": "Add",
+		"Blankslate": "Author-based permission rules are not set",
+		"Delete": "Delete",
+		"Edit": "Edit",
+		"Read": "Read",
+		"RecordAuthor": "Record author",
+		"Remove": "Remove",
+		"RightsRecipient": "User or role who obtains permissions",
+		"Title": "Grant permissions based on the record author",
+		"TitleTooltip": "Permissions will be granted based on the record author, whenever a new record is created",
+		"ValidationMessage": "A rule for selected roles already exists. Please choose other roles to proceed"
+	},
+	"RightsByOperationsDetail": {
+		"Drag": "Drag to change priority",
+		"Priority": "Priority",
+		"User": "User or role",
+		"Create": "Create",
+		"Read": "Read",
+		"Edit": "Edit",
+		"Delete": "Delete",
+		"Remove": "Remove",
+		"Add": "Add",
+		"Blankslate": "Add users or roles to grant them access to object data",
+		"ValidationMessage": "A rule for selected role already exists. Please choose another role to proceed",
+		"WarningDowngradingRights": "The permission restrictions in this rule can override other rules that are lower in the list",
+		"Allowed": "Granted",
+		"Denied": "Denied"
+	},
+	"SelectEntitySchemaColumnDialog": {
+		"Cancel": "Cancel",
+		"Select": "Select",
+		"SelectFieldPlaceholder": "Select column",
+		"Title": "Select column"
+	},
+	"SelectSysAdminUnitDialog": {
+		"Cancel": "Cancel",
+		"FunctionalRoles": "Functional roles",
+		"OrganizationalRoles": "Organizational roles",
+		"Search": "Search",
+		"Select": "Select",
+		"Title": "Select user or role",
+		"Users": "Users"
+	},
+	"SysAdminUnitTree": {},
+	"TrackedColumns": {
+		"TitleTooltip": "Set up the list of columns whose values will be recorded when a record is modified",
+		"Title": "Logged columns",
+		"CaptionColumn": "Title",
+		"NameColumn": "Name",
+		"Add": "Add",
+		"Remove": "Remove",
+		"Blankslate": "Logged columns are not selected"
+	},
+	"Printables": {
+		"Caption": "Title",
+		"ModuleName": "Section",
+		"TypeName": "Type",
+		"AbsentDataErrorMessage": "Record has been deleted or you do not have access rights to it",
+		"DeleteRecordMessage": "Are you sure that you want to delete '{0}' printable?",
+		"Section": {
+			"Title": "Reports",
+			"BlankslateTitle": "There are no records matching current search criteria.",
+			"BlankslateDescription": "Clear or modify search parameters",
+			"Delete": "Delete",
+			"Add": "Add"
+		}
+	},
+	"DateRange": {
+		"To": "to"
+	}
+}

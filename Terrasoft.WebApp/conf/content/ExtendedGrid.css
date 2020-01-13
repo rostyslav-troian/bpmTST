@@ -1,0 +1,13 @@
+﻿.active-row-removed [class*='grid-cols-'] {
+  display: none;
+}
+.active-row-removed .base-edit-input {
+  font-size: inherit;
+  text-align: left !important;
+}
+.grid-layout {
+  padding-bottom: 3px;
+}
+[class*='grid-cols-'] span {
+  text-align: left !important;
+}

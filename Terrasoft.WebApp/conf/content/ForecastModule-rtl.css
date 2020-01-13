@@ -1,0 +1,47 @@
+﻿html[dir="rtl"] #ForecastModuleContainer div [class*='grid-cols-'] {
+  padding-left: inherit;
+}
+#ForecastModuleContainer {
+  margin-top: 16px;
+}
+#ForecastModuleContainer div [class*='grid-cols-'] {
+  word-wrap: normal;
+  padding-left: 32px;
+}
+.button-margin {
+  margin-left: 10px;
+}
+.button-options {
+  float: left;
+}
+.configuration-grid-action-button {
+  display: inline-block;
+  position: absolute;
+  padding: 0 !important;
+  height: 23px;
+  margin-left: 10px !important;
+  margin-top: 7px;
+  margin-right: 7px;
+  bottom: 4px;
+}
+.configuration-grid-action-button .t-btn-image {
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+}
+.configuration-grid-action-button .t-btn-menu {
+  display: none;
+}
+.rows-captions-wrap .grid-row-controls {
+  float: left;
+  display: inline-block;
+}
+.actions-button-margin-right {
+  margin-left: 0.65em;
+}
+.right-tools-buttons-container-wrapClass {
+  display: inline-block;
+  float: left;
+  position: relative;
+  z-index: 1;
+}

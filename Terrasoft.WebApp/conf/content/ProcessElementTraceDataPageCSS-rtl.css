@@ -1,0 +1,18 @@
+﻿.process-element-trace-data-editor {
+  overflow-y: hidden;
+}
+.close-btn-trace-data-page {
+  position: absolute;
+  top: 6px;
+  left: 2px;
+}
+.process-element-trace-data-page-container {
+  height: 100%;
+  padding-top: 11px;
+}
+#ProcessElementTraceDataPageContainer {
+  overflow-y: hidden !important;
+}
+#SimpleSourceCodeEditPageContainer {
+  overflow-y: hidden !important;
+}

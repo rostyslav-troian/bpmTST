@@ -1,0 +1,72 @@
+﻿.hl-modal-box .ts-modalbox-innerbox {
+  width: 100%;
+  height: 100%;
+}
+.hl-modal-box .ts-modalbox-innerbox .schema-wrap {
+  height: 100%;
+}
+.bulkemail-hyperlink-lookup-container {
+  height: 100%;
+  padding-right: 24px;
+  padding-bottom: 18px;
+}
+.bulkemail-hyperlink-lookup-container .hyperlink-lookup-header {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.bulkemail-hyperlink-lookup-container .hyperlink-lookup-header .t-label {
+  font-family: "Segoe UI Light";
+  color: #64b8df;
+  font-size: 2.2em;
+  letter-spacing: -0.01em;
+  padding-right: 5px;
+}
+.bulkemail-hyperlink-lookup-container .hyperlink-lookup-header .close-btn-user-class {
+  top: 0;
+  left: 0;
+}
+.bulkemail-hyperlink-lookup-container .hyperlink-lookup-buttons-container {
+  padding: 15px 0 5px 24px;
+}
+.bulkemail-hyperlink-lookup-container .hyperlink-lookup-buttons-container .t-count-label,
+.bulkemail-hyperlink-lookup-container .hyperlink-lookup-buttons-container .t-records-label {
+  float: left;
+  width: auto;
+  margin-left: 5px;
+}
+.bulkemail-hyperlink-lookup-container .hyperlink-lookup-buttons-container .t-records-label {
+  font-size: 16px;
+  color: #999999;
+  padding-top: 6px;
+}
+.bulkemail-hyperlink-lookup-container .hyperlink-lookup-buttons-container .t-count-label {
+  font-size: 22px;
+  color: #88c658;
+}
+.bulkemail-hyperlink-lookup-container > .grid-layout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.bulkemail-hyperlink-lookup-container > .grid-layout > .grid-layout-row {
+  display: flex;
+  flex-direction: column;
+}
+.bulkemail-hyperlink-lookup-container > .grid-layout > .grid-layout-row > .grid-layout-column {
+  display: flex;
+  flex-direction: column;
+}
+.bulkemail-hyperlink-lookup-container > .grid-layout > .grid-layout-row:nth-child(3) {
+  flex: 1;
+}
+.bulkemail-hyperlink-lookup-container .hyperlink-grid-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin-left: 24px;
+  overflow: auto;
+}
+.bulkemail-hyperlink-lookup-container .hyperlink-grid-container > .grid {
+  padding-left: 4px;
+}

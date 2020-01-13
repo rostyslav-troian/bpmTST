@@ -1,0 +1,13 @@
+﻿.ts-sidebar-list {
+  padding: 0px;
+  width: 100%;
+}
+.ts-sidebar-item-text {
+  max-width: 117px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ts-sidebar-list a {
+  color: white;
+  text-decoration: none;
+}

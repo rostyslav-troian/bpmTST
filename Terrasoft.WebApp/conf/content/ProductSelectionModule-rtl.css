@@ -1,0 +1,225 @@
+﻿.productSelectionContainer-class {
+  min-width: 950px;
+  height: 100%;
+}
+.utilsContainer-class {
+  position: fixed;
+  min-width: 950px;
+  background-color: white;
+  z-index: 1;
+  padding-bottom: 15px;
+}
+.utilsContainer-width-class {
+  width: 80%;
+  min-width: 1050px;
+}
+.center-panel-content #utilsContainer {
+  width: calc(85% * 0.98 - 345px);
+  min-width: 1030px;
+}
+.left-panel-collapsed .utilsContainer-width-class {
+  width: 87%;
+}
+.left-panel-collapsed .center-panel-content #utilsContainer {
+  width: calc(91.5% * 0.98 - 345px);
+}
+.actionButtonsContainer-class {
+  display: inline-block;
+  float: right;
+  min-width: 184px;
+}
+.actionButtonsContainer-class > .t-btn-wrapper {
+  margin-left: 10px;
+}
+.summaryContainer-class {
+  display: inline-block;
+  float: left;
+}
+.workingAreaContainer-class {
+  position: relative;
+}
+.leftModulesContainer-class {
+  position: fixed;
+  top: 10.4em;
+  bottom: 0;
+  overflow-y: hidden;
+  width: 320px;
+  border-left: solid 1px #e1e8f2;
+  z-index: 1;
+  background-color: white;
+}
+.leftModulesContainer-class:hover {
+  overflow-y: auto;
+  width: 320px;
+}
+.rightModulesContainer-class {
+  position: absolute;
+  top: 3.2em;
+  bottom: 0;
+  right: 320px;
+  left: 0;
+}
+.searchContainer-class {
+  display: inline-block;
+  margin-right: 17em;
+  float: right;
+  padding-left: 0.9em;
+  background-color: white;
+}
+.folder-manager-button-right {
+  left: 12px;
+}
+.folder-manager-left-container .grid-row-actions {
+  right: 250px !important;
+}
+div#quickSearchModuleButtons-container {
+  float: right;
+}
+div#quickSearchModuleSearchTextEdit-container {
+  float: right;
+  min-width: 27em;
+  width: auto;
+}
+div#summaryStringContainer {
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  margin-left: 6em;
+}
+/*
+ ContainerList columns classes
+*/
+
+.gridContainer-class {
+  padding-top: 0.7em;
+  margin-right: 2.2em;
+  min-width: 48em;
+}
+.productsList {
+  margin-right: 6px;
+}
+.gridCaption-container {
+  background-color: #fff;
+  margin-right: 2.5em;
+  min-width: 80em;
+  border-bottom: 1px solid #E0E0E0;
+  top: 14em;
+  height: 4em;
+  vertical-align: middle;
+  padding-top: 1.3em;
+  color: #999999;
+}
+.rowContainer {
+  vertical-align: middle;
+  display: block;
+  margin: 0;
+  padding: 0 0 0 6px;
+}
+.rowContainer label,
+.gridRowCheckBoxCheckBoxEdit {
+  margin-top: 0.5em;
+}
+.rowContainer .base-edit > input {
+  font-size: 1.35em !important;
+}
+.gridRowLabel {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.gridRowTextEdit {
+  margin-left: 10px;
+}
+.gridRowComboBoxEdit {
+  margin-left: 10px;
+}
+.gridRowPriceLabelCaption,
+.gridRowAvailableLabelCaption,
+.gridRowPriceLabel {
+  text-align: left;
+}
+.gridRowAvailableLabel,
+.gridRowAvailableLabelLabel {
+  text-align: left;
+  padding-left: 10px !important;
+}
+.gridRowAvailableLabelLabel {
+  text-overflow: ellipsis;
+}
+.gridRowAvailableInImageImageView {
+  margin-top: 0.5em;
+}
+.gridRowAvailableInImageImageView img {
+  width: 1.4em;
+}
+.gridRowAvailableInLabelLabel {
+  width: auto;
+}
+.summary-label-class {
+  color: #999999;
+  font-size: 1.4em;
+  margin: 0.15em 0 -0.25em 0;
+}
+.summary-highlight-label-class {
+  color: #8ecb60;
+  font-size: 1.6em;
+}
+.summary-label-container-class {
+  padding-left: 0.5em;
+  margin: 0.1em 0 -0.25em 0;
+  float: right;
+  /* overflow: visible; */
+
+}
+.grid-listed-row [class*='grid-cols-'].base-edit {
+  font-size: 0.75em;
+  height: 30px;
+  margin-left: 6px;
+  padding-right: 6px;
+  border: 1px solid transparent;
+  border-bottom: 1px dotted #c8c8c8;
+  clear: none;
+}
+.grid-listed-row [class*='grid-cols-'].base-edit:hover {
+  border: 1px solid #c8c8c8;
+}
+.grid.grid-listed [class*='grid-cols-'].data-label {
+  color: #444444;
+}
+.extend-catalogue-filter-container {
+  margin-top: 1em;
+  margin-right: 0px !important;
+}
+.extended-filter-attributes-button-container {
+  margin-right: 0px !important;
+}
+.no-folders > .leftModulesContainer-class {
+  display: none;
+}
+.no-folders > .rightModulesContainer-class {
+  right: -3em;
+}
+.gridRowUnitEnumListComboBoxEdit .base-edit-right-icon-wrapper {
+  background-color: white;
+}
+.gridRowCountLabelCaption {
+  text-align: left;
+  padding-left: 10px;
+}
+.specification-filter-container .grid-listed-row {
+  padding-right: 30px;
+}
+.grid-listed-icon-16x16 {
+  margin-top: 0.175em;
+  height: 16px;
+  width: 16px;
+  min-height: 16px;
+  min-width: 16px;
+}
+.t-btn-wrapper.folder-catalogue-actions-icon {
+  padding: 0;
+}
+.t-btn-wrapper.folder-catalogue-actions-icon .t-btn-image {
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+}

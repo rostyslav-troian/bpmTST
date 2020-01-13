@@ -1,0 +1,251 @@
+﻿.base-edit {
+	position: relative;
+	display: inline-block;
+	clear: both;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 100%;
+	border: 1px solid #c8c8c8;
+	vertical-align: top;
+	min-height: 28px;
+}
+
+.base-edit:hover {
+	cursor: text;
+}
+
+.base-edit-disabled.base-edit:hover {
+	cursor: default;
+}
+
+.base-edit.base-edit-with-left-icon {
+	padding-left: 34px;
+}
+
+.base-edit.base-edit-with-right-icon {
+	padding-right: 34px;
+}
+
+.base-edit-focus.base-edit-big.base-edit-with-right-icon,
+.base-edit-big.base-edit-with-right-icon {
+	padding-right: 42px;
+}
+
+.base-edit-left-icon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto 9px;
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+}
+
+.base-edit-right-icon {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto 8px;
+}
+
+.base-edit-right-icon-wrapper {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 32px;
+	height: 100%;
+	cursor: pointer;
+}
+
+.base-edit-big .base-edit-right-icon-wrapper {
+	width: 42px;
+	height: 100%;
+}
+
+.base-edit-input {
+	min-height: 1.855em;
+	width: 100%;
+	outline: none;
+	border: 0px;
+	font-size: 1.4em;
+	padding: 0;
+}
+
+.x-ie8 .base-edit-input {
+	line-height: 2.2em;
+}
+
+.x-ie8 .base-edit-big .base-edit-input {
+	line-height: 2.7em;
+}
+
+.base-edit-input[disabled="disabled"], .base-edit-disabled {
+	background-color: #f9f9f9;
+	color: #444444;
+	cursor: default;
+}
+
+.base-edit-disabled-el-icon {
+	position: absolute;
+	top: 4px;
+	bottom: 0;
+	right: 0;
+	width: 24px;
+	height: 20px;
+	background: url(read-only_icon.png) 50% 50% no-repeat;
+	display: none;
+}
+
+.base-edit-disabled .base-edit-right-icon,
+.base-edit-disabled .base-edit-right-icon-wrapper {
+	display: none;
+}
+
+.base-edit-focus.base-edit-with-right-icon {
+	padding-right: 34px;
+}
+
+.base-edit .base-edit-input-not-visible {
+	display: none;
+}
+
+.base-edit:hover.base-edit-disabled .base-edit-disabled-el-icon {
+	display: block;
+}
+
+.base-edit-input[readonly="readonly"], .base-edit-readonly {
+	background-color: #f9f9f9;
+	color: #444444;
+}
+
+::-webkit-input-placeholder {
+	color: #8a8a8a;
+}
+
+:-moz-placeholder {
+	color: #8a8a8a;
+}
+
+::-moz-placeholder {
+	color: #8a8a8a;
+}
+
+:-ms-input-placeholder {
+	color: #8a8a8a;
+}
+
+.base-edit-placeholder {
+	color: #8a8a8a;
+}
+
+.control-width-15 .base-edit-focus,
+.control-width-15 .base-edit-error.base-edit-focus {
+	outline: none;
+	border: 1px solid #fff;
+	border-bottom: 1px solid #00aeef;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+.control-width-15 .base-edit-error {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+.base-edit-focus, .base-edit-error.base-edit-focus {
+	outline: none;
+	border-color: rgba(86, 180, 239, 0.7);
+	border-color: #56b4ef;
+	-webkit-box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+	-moz-box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+	box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+}
+
+.base-edit-error {
+	outline: none;
+	border-color: rgba(86, 180, 239, 0.7);
+	border-color: #56b4ef;
+	-webkit-box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+	-moz-box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+	box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+}
+
+.base-edit.base-edit-big {
+	min-height: 4.4em;
+}
+
+.base-edit-big {
+	padding-right: 16px;
+	padding-left: 10px;
+}
+
+.base-edit-big .base-edit-input {
+	min-height: 42px;
+	font-size: 1.6em;
+}
+
+.base-edit-validation {
+	display: none;
+	background-color: #58aeda;
+	color: #ffffff;
+	font-size: 1.3em;
+	padding-left: 5px; padding-right: 5px; padding-top: 0px; padding-bottom: 2px;
+	position: absolute;
+	left: -1px;
+	bottom: -2px;
+	transform: translateY(100%);
+	z-index: 11;
+	word-wrap: break-word;
+	white-space: normal;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 2px;
+}
+
+.base-edit-link {
+	text-decoration: none;
+	color: #4e7bd8;
+	outline: none;
+	overflow: hidden;
+	font-size: 1.4em;
+	line-height: 1.85em;
+}
+
+.base-edit-link:hover {
+	text-decoration: underline;
+}
+
+.base-edit-link-wrap {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: top;
+	position: absolute;
+	width: calc(~'100% - 20px');
+}
+
+.base-edit-link-wrap:hover {
+	cursor: text;
+}
+
+.base-edit-input:hover {
+	cursor: text;
+}
+
+.base-edit-disabled .base-edit-right-icon-wrapper:hover,
+.base-edit-disabled .base-edit-left-icon-wrapper:hover {
+	cursor: default;
+}
+
+.detail-edit-user-class {
+	width: calc(~'100% - 190px') !important;
+}

@@ -1,0 +1,89 @@
+﻿.caseLinkButton {
+  color: #4e7bd8;
+}
+.assignToButton {
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 17px;
+  float: right;
+}
+.caseProfileInfoContainer {
+  text-align: right;
+  margin-right: 10px;
+  font-size: 9px;
+  color: #999;
+}
+.resolutionContainer {
+  margin-top: 15px;
+}
+#SolutionDateProfileDateTimeContainer > .datetime-datecontrol {
+  margin-right: 0px;
+  padding-right: 0px;
+  width: 60%;
+}
+#SolutionDateProfileDateTimeContainer > .datetime-timecontrol {
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 35%;
+}
+#SolutionDateProfileDateTimeContainer .control-wrap .base-edit {
+  margin-left: -10px;
+}
+#SolutionDateProfileDateTimeContainer .time-edit.datetime-timecontrol {
+  margin-left: -5px;
+  width: 40%;
+}
+#ResponseDateProfileDateTimeContainer > .datetime-datecontrol {
+  margin-right: 0px;
+  padding-right: 0px;
+  width: 60%;
+}
+#ResponseDateProfileDateTimeContainer > .datetime-timecontrol {
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 35%;
+}
+#ResponseDateProfileDateTimeContainer .control-wrap .base-edit {
+  margin-left: -10px;
+}
+#ResponseDateProfileDateTimeContainer .time-edit.datetime-timecontrol {
+  margin-left: -5px;
+  width: 40%;
+}
+.profile-estimate-caption-container > label {
+  color: #f60000;
+  font-size: 12px;
+  font-family: "Segoe UI";
+  float: right;
+}
+.profile-estimate-caption-container {
+  margin: 24px 9px 0px -10px;
+  padding-top: 6px;
+}
+.resolved-button-padding-border-right {
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
+.resolved-button-pos-left {
+  left: 2px;
+}
+.solution-field-container {
+  margin: 10px 0px 10px 0px;
+}
+.registeredOn-wrapClass p {
+  margin: 0;
+}
+.registeredOn-wrapClass ol {
+  margin: 0;
+  display: table;
+}
+.tip-content {
+  white-space: normal;
+}
+#CasePageSymptomsContainer .html-edit-textarea {
+  border: none;
+  border-bottom: 1px dotted #cbcbcb;
+}
+.complain-button {
+  color: #fc5555;
+}

@@ -1,0 +1,55 @@
+﻿.content-container {
+	height: 100%;
+	width: auto;
+}
+
+.header-container {
+	background: #539da0;
+	padding: 6px 0px 6px 6px;
+	height: auto;
+	width: auto;
+}
+
+.tests-container {
+	border-color: #539da0;
+	border-style : solid ;
+	border-left-width: 5px;
+	border-bottom-width: 5px;
+	border-right-width: 5px;
+	border-top-width: 0px;
+	background: #E8F5E9;
+}
+
+.margin-right {
+	margin-right: 12px
+}
+
+.margin-left {
+	margin-left: 12px
+}
+
+.grid-layout-row, .grid-layout-column {
+	height: 100%;
+}
+
+.caption {
+	font-size: large;
+	font-family: sans-serif;
+	word-wrap: break-word;
+}
+
+.caption[data-item-marker="success"] {
+	background-color: #c0efc0;
+}
+
+.caption[data-item-marker="failure"] {
+	background-color: #efc0c0;
+}
+
+.caption[data-item-marker="unknown"] {
+	background-color: #e3e9ef;
+}
+
+.grid-cols-3 span {
+	float: right;
+}

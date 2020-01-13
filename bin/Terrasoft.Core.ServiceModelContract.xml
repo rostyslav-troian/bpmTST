@@ -1,0 +1,969 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Core.ServiceModelContract</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Core.ServiceModelContract.Attributes.CoreServiceRouteAttribute">
+            <summary>
+            Provides a way to specify custom route for core service.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.Attributes.CoreServiceRouteAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Attribute" /> class.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.Attributes.CoreServiceRouteAttribute.Route">
+            <summary>
+            Custom route string.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.BaseResponse">
+            <summary>
+            Base class for service operation response.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.BaseResponse.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.ServiceModelContract.BaseResponse"/> class.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.BaseResponse.Success">
+            <summary>
+            The service response status.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.BaseResponse.ErrorInfo">
+            <summary>
+            Error object.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ErrorInfo">
+            <summary>
+            Base class for error response.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ErrorInfo.ErrorCode">
+            <summary>
+            Error code.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ErrorInfo.Message">
+            <summary>
+            Error message.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ErrorInfo.StackTrace">
+            <summary>
+            Stack trace.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.BoolResponse">
+            <summary>
+            Response with boolean value.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.BoolResponse.Value">
+            <summary>
+            Boolean value.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ObjectChangeLogSettings">
+            <summary>
+            Data contract for ObjectChangeLogSettings.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.TrackedColumn">
+            <summary>
+            Data contract for TrackedColumn.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.LookupValue">
+            <summary>
+            Data contract for LookupValue.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ChangeLogRecord">
+            <summary>
+            Data contract for ChangeLogRecord.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ChangedColumn">
+            <summary>
+            Data contract for ChangedColumn.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ChangeLogPagingOptions">
+            <summary>
+            Data contract for ChangeLogPagingOptions.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ChangeLogFilters">
+            <summary>
+            Data contract for ChangeLogFilters.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ObjectChangeLogResponse">
+            <summary>
+            Data contract for ObjectChangeLogResponse.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.RecordChangeLogResponse">
+            <summary>
+            Data contract for RecordChangeLogResponse.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ObjectChangeLogSettingsResponse">
+            <summary>
+            Data contract for ObjectChangeLogSettingsResponse.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ChangeLogObjectsResponse">
+            <summary>
+            Data contract for ChangeLogObjectsResponse.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ModificationForbidLevel">
+            <summary>
+            Modification forbid level.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.ServiceModelContract.ModificationForbidLevel.None">
+            <summary>
+            There is no prohibition of modification.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.ServiceModelContract.ModificationForbidLevel.Package">
+            <summary>
+            There is a package that was created by third party.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.ServiceModelContract.ModificationForbidLevel.Element">
+            <summary>
+            There is a lock by another user.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.EntitySchemaResponse">
+            <summary>
+            Data contract for EntitySchemaResponse.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.IAppInstallerService">
+            <summary>
+            Provides operation contract for application installation web service.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAppInstallerService.GetAppMetaInfoServiceUrl">
+            <summary>
+            Returns marketplace application meta info service url.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAppInstallerService.DownloadApp(System.String)">
+            <summary>
+            Downloads application by URI to current temporary storage.
+            </summary>
+            <param name="uri">Download URI.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAppInstallerService.InstallAppFromFile(Terrasoft.Core.ServiceModelContract.InstalledAppInfo)">
+            <summary>
+            Installs application from zip-file.
+            </summary>
+            <param name="appInfo">Installing application information.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAppInstallerService.OrderAppLicense(Terrasoft.Core.ServiceModelContract.InstalledAppInfo)">
+            <summary>
+            Orders and adds application licenses if needed.
+            </summary>
+            <param name="appInfo">Installing application information.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAppInstallerService.UninstallApp(System.Guid)">
+            <summary>
+            Uninstalls application.
+            </summary>
+            <param name="appId">Application identifier.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAppInstallerService.DeletePackage(System.String)">
+            <summary>
+            Deletes package.
+            </summary>
+            <param name="packageName">Package name.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAppInstallerService.GetIsDemoMode">
+            <summary>
+            Returns <c>true</c> if demo mode is on. Otherwise returns false.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAppInstallerService.ExecuteScript(Terrasoft.Core.ServiceModelContract.ExecuteLibraryInfo)">
+            <summary>
+            Executing script.
+            </summary>
+            <param name="info">Library info.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAppInstallerService.UnloadAppDomain">
+            <summary>
+            Unload application domain.
+            </summary>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAppInstallerService.LoadPackagesToFileSystem(System.Collections.Generic.IList{System.String})">
+            <summary>
+            Load packages to file system.
+            </summary>
+            <param name="packageNames"></param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAppInstallerService.LoadPackagesToDB(System.Collections.Generic.IList{System.String})">
+            <summary>
+            Load packages to DB.
+            </summary>
+            <param name="packageNames"></param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAppInstallerService.ClearRedisDb">
+            <summary>
+            Clear redis database.
+            </summary>
+            <returns>Response.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.AppInstallerResponse">
+            <summary>
+            AppInstaller service response.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.AppInstallerResponse.NeedRestartApp">
+            <summary>
+            Returns <b>true</b> if need web application restarting.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IAuthService.OAuthTokenLogin(System.Int32)">
+            <summary>
+            Authorizes user using OAuth access token.
+            </summary>
+            <param name="timeZoneOffset">User's time zone offset.</param>
+            <returns>Result of login.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.IDcmSchemaManagerService">
+            <summary>
+            Interface of the DCM schema manager web service.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.IPackageInstallerService">
+            <summary>
+            Provides operation contract for package installation web service.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IPackageInstallerService.UploadPackage(System.IO.Stream)">
+            <summary>
+            Uploads archive of packages to current application temporary storage.
+            </summary>
+            <param name="packageData">Instance of <see cref="T:System.IO.Stream"/> that contains package archive data.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IPackageInstallerService.InstallPackage(System.String)">
+            <summary>
+            Installs archive of packages to current application persistence storage.
+            </summary>
+            <param name="zipPackageName">Name of archive to install.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IPackageInstallerService.CreateBackup(Terrasoft.Core.ServiceModelContract.InstalledAppInfo)">
+            <summary>
+            Creates backup that contains difference in data between system packages and archive of packages 
+            provided by <paramref name="appInfo"/>.
+            </summary>
+            <param name="appInfo">Application info.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IPackageInstallerService.GetLogFile">
+            <summary>
+            Returns installation log.
+            </summary>
+            <returns><see cref="T:System.IO.Stream"/> that contains installation log file data.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IPackageInstallerService.RestoreFromBackup(System.String)">
+            <summary>
+            Restores configuration from backup.
+            </summary>
+            <param name="appCode">Application code.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IPackageInstallerService.Validate(Terrasoft.Core.ServiceModelContract.InstalledAppInfo)">
+            <summary>
+            Installing application validation.
+            </summary>
+            <param name="appInfo">Installing application info.</param>
+            <returns>Returns <c>true</c> if validation success. Otherwise returns <c>false</c>.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IPackageInstallerService.GetZipPackages(System.Collections.Generic.IList{System.String})">
+            <summary>
+            Get zip packages.
+            </summary>
+            <param name="packageNames">Package names.</param>
+            <returns><see cref="T:System.IO.Stream"/> that contains zip packages.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IProcessEngineService.CompleteExecuting(Terrasoft.Core.ServiceModelContract.CompleteExecutingRequest)">
+            <summary>
+            Completes executing of specified process element.
+            </summary>
+            <param name="request">Instance of the <see cref="T:Terrasoft.Core.ServiceModelContract.CompleteExecutingRequest"/>.</param>
+            <returns>Instance of the <see cref="T:Terrasoft.Core.ServiceModelContract.CompleteExecutingResponse"/>.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IProcessEngineService.RunSpecifiedProcessVersion(Terrasoft.Core.ServiceModelContract.RunSpecifiedProcessVersionRequest)">
+            <summary>
+            Runs the specified process version.
+            </summary>
+            <param name="request">The request.</param>
+            <returns>The result of running process.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IProcessEngineService.GetRunningProcessCount(Terrasoft.Core.ServiceModelContract.GetRunningProcessCountRequest)">
+            <summary>
+            Gets running process count for all process schema versions.
+            </summary>
+            <param name="request">The request with some schema version UId.</param>
+            <returns>The number of running processes for all process schema versions.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IProcessEngineService.GetExecutionData(Terrasoft.Core.ServiceModelContract.ProcessExecutionDataRequest)">
+            <summary>
+            Returns data for the opening page by the specified elements.
+            </summary>
+            <param name="request">Request.</param>
+            <returns>Additional batch data for the opening page.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IProcessEngineService.GetDcmExecutionData(Terrasoft.Core.ServiceModelContract.DcmExecutionDataRequest)">
+            <summary>
+            Returns data for the opening page by the specified dcm elements.
+            </summary>
+            <param name="request">Request.</param>
+            <returns>Additional batch data for the opening page.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IProcessEngineService.GetProcessElementStatus(Terrasoft.Core.ServiceModelContract.ProcessElementStatusRequest)">
+            <summary>
+            Gets the specified process element running status.
+            </summary>
+            <param name="request">Request.</param>
+            <returns>Status of the specified process element.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.IProcessEngineService.GetTimerEventsInfo(System.Guid)">
+            <summary>
+            Gets timer events information.
+            </summary>
+            <param name="processSchemaUId">UId of process schema.</param>
+            <returns>Information about timer events.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.IProcessSchemaManagerService">
+            <summary>
+            Interface of the process schema manager web service.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.JsonRaw">
+            <summary>
+            Used to serialize json values without encoding.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.JsonRaw.Value">
+            <summary>
+            Json value.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.JsonRaw.Create(System.String)">
+            <summary>
+            Returns new instance of <see cref="T:Terrasoft.Core.ServiceModelContract.JsonRaw"/> value initialized with <paramref name="value"/>.
+            </summary>
+            <param name="value">Raw json value.</param>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.SchemaVersionInfoResponse">
+            <summary>
+            The service response for the schema version info request.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.SchemaVersionInfoResponse.MaxVersionInPackage">
+            <summary>
+            Maximum version of the given schema in the package.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.SchemaVersionInfoResponse.ParentSchemaName">
+            <summary>
+            Parent schema name.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ProcessParameterValue">
+            <summary>
+            Serialized to string process parameter value.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ProcessParameterValue.Name">
+            <summary>
+            Gets or sets the parameter name.
+            </summary>
+            <value>
+            The parameter name.
+            </value>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ProcessParameterValue.Value">
+            <summary>
+            Gets or sets the parameter value.
+            </summary>
+            <value>
+            The parameter value.
+            </value>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ProcessParameterValueCollection">
+            <summary>
+            Collection of serialized to string process parameter values.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.ProcessParameterValue" />
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.BaseProcessRequest.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.ServiceModelContract.BaseProcessRequest"/> class.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.BaseProcessRequest.CollectExecutionData">
+            <summary>
+            Indicates whether to collect execution data or not.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.BaseRunProcessRequest">
+            <summary>
+            Data need to run process with initial parameter values.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.BaseRunProcessRequest.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.ServiceModelContract.BaseRunProcessRequest"/> class.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.BaseRunProcessRequest.ParameterValues">
+            <summary>
+            Gets or sets the initial parameter values.
+            </summary>
+            <value>
+            The initial parameter values.
+            </value>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.RunSpecifiedProcessVersionRequest">
+            <summary>
+            Data need to run specified process version.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.BaseRunProcessRequest" />
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.RunSpecifiedProcessVersionRequest.SchemaUId">
+            <summary>
+            Gets or sets the process schema UId.
+            </summary>
+            <value>
+            The schema UId.
+            </value>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.RunProcessRequest">
+            <summary>
+            Data need to run process.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.BaseRunProcessRequest" />
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.RunProcessRequest.SchemaUId">
+            <summary>
+            Gets or sets the process schema UId.
+            </summary>
+            <value>
+            The process schema UId.
+            </value>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.RunProcessRequest.SchemaName">
+            <summary>
+            Gets or sets the name of the process schema.
+            </summary>
+            <value>
+            The name of the process schema.
+            </value>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.GetRunningProcessCountRequest">
+            <summary>
+            Data need to identify schema.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.GetRunningProcessCountRequest.SchemaId">
+            <summary>
+            Gets or sets the process schema UId.
+            </summary>
+            <value>
+            The process schema Id.
+            </value>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.EnableProcessResponse">
+            <summary>
+            Result of enabling process.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.BaseResponse" />
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.DisableProcessResponse">
+            <summary>
+            Result of disabling process.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.BaseResponse" />
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.RunProcessResponse">
+            <summary>
+            Result of running process.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.BaseResponse" />
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.RunProcessResponse.ProcessId">
+            <summary>
+            Gets or sets the process instance identifier.
+            </summary>
+            <value>
+            The process instance identifier.
+            </value>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.RunProcessResponse.ProcessStatus">
+            <summary>
+            Gets or sets the process status.
+            </summary>
+            <value>
+            The process status.
+            </value>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.RunProcessResponse.ExecutionData">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.CompleteExecutingRequest">
+            <summary>
+            Represents a request for complete element execution.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.CompleteExecutingRequest.ProcessElementUId">
+            <summary>
+            Process element UId to complete.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.CompleteExecutingRequest.ParameterValues">
+            <summary>
+            Parameter values to complete element with.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.CompleteParameter">
+            <summary>
+            Complete parameter.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.CompleteParameter.Name">
+            <summary>
+            Parameter name.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.CompleteParameter.Value">
+            <summary>
+            Parameter value.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.IProcessResponseWithExecutionData">
+            <summary>
+            Represents process engine service response object that contain process execution data.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.IProcessResponseWithExecutionData.ExecutionData">
+            <summary>
+            Gets or sets next process element execution data.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.CompleteExecutingResponse">
+            <summary>
+            Complete executing response.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.CompleteExecutingResponse.WaitingUserTaskCount">
+            <summary>
+            Returns count of user tasks that are pending to open.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.CompleteExecutingResponse.ExecutionData">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ForeignLockResponse">
+            <summary>
+            The service response represents that the specified schema has foreign lock.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ForeignLockResponse.ModificationForbidLevel">
+            <summary>
+            Gets or sets modification forbid level.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ForeignLockResponse.Message">
+            <summary>
+            Gets or sets description information.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ActualVersionSchemaInfoResponse">
+            <summary>
+            The service response for the schema's actual version info request.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ActualVersionSchemaInfoResponse.ActualVersionSchemaUId">
+            <summary>
+            The unique identifier of the actual version schema.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ProcessElementExecutionDataResponse">
+            <summary>
+            Process element execution data response.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ProcessElementExecutionDataResponse.ElementUId">
+            <summary>
+            Process element identifier.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ProcessElementExecutionDataResponse.Message">
+            <summary>
+            Serialized process element execution data.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ProcessElementExecutionDataResponse.ManagerName">
+            <summary>
+            Process schema manager name.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ProcessElementExecutionDataResponse.Element">
+            <summary>
+            Process element instance.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.DcmElementExecutionDataResponse">
+            <summary>
+            Dcm element execution data response.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.ProcessElementExecutionDataResponse" />
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.DcmElementExecutionDataResponse.RequiredType">
+            <summary>
+            Dcm element required type.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ProcessExecutionDataResponse">
+            <summary>
+            Process elements execution data batch response.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.BaseResponse" />
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.ProcessExecutionDataResponse.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.ServiceModelContract.ProcessExecutionDataResponse"/> class.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ProcessExecutionDataResponse.Batch">
+            <summary>
+            Process elements execution data batch response.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ProcessExecutionDataRequest">
+            <summary>
+            Process elements execution data batch request.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.ProcessExecutionDataRequest.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.ServiceModelContract.ProcessExecutionDataRequest"/> class.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ProcessExecutionDataRequest.ElementUIds">
+            <summary>
+            Process elements identifiers.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.DcmExecutionDataRequest">
+            <summary>
+            DCM elements execution data batch request.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.ProcessExecutionDataRequest" />
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ActualProcessSchemasByFilterRequest">
+            <summary>
+            List of actual version process schemas service request.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.ActualProcessSchemasByFilterRequest.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.ServiceModelContract.ActualProcessSchemasByFilterRequest"/> class.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ActualProcessSchemasByFilterRequest.PackageUId">
+            <summary>
+            The process package unique identifier.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ActualProcessSchemasByFilterRequest.EnabledOnly">
+            <summary>
+            Requests enabled actual version process schemas only.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ActualProcessSchemasByFilterRequest.ExcludedSchemas">
+            <summary>
+            List of the process schemas unique identifiers that must be excluded from the result.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ActualProcessSchemasByFilterResponse">
+            <summary>
+            List of actual version process schemas service response.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.BaseResponse" />
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.ActualProcessSchemasByFilterResponse.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.ServiceModelContract.ActualProcessSchemasByFilterResponse"/> class.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ActualProcessSchemasByFilterResponse.Schemas">
+            <summary>
+            Serializable object of the actual version process schemas list.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ProcessElementStatusRequest">
+            <summary>
+            Process element running status request.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ProcessElementStatusRequest.ProcessElementUId">
+            <summary>
+            Gets or sets unique identifier of the process element.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ProcessElementStatusResponse">
+            <summary>
+            Process element running status response.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.BaseResponse" />
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.ProcessElementStatusResponse.Status">
+            <summary>
+            Gets or sets status of the process element.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.Process.ProcessStatus" />
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.TimerEventsInfoResponse">
+            <summary>
+            Timer events info response.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.BaseResponse" />
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.TimerEventsInfoResponse.TimerEventsInfo">
+            <summary>
+            Timer events info.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.RawMessageFormatter">
+            <summary>
+            Used to support raw programing model for operation in WCF service that uses data contracts.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.RawMessageFormatter.#ctor(System.ServiceModel.Dispatcher.IDispatchMessageFormatter)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.ServiceModelContract.RawMessageFormatter"/> class.
+            </summary>
+            <param name="originalFormatter">Instance that will be decorated.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.RawMessageFormatter.DeserializeRequest(System.ServiceModel.Channels.Message,System.Object[])">
+            <summary>Deserializes a message into an array of parameters.</summary>
+            <param name="message">The incoming message.</param>
+            <param name="parameters">The objects that are passed to the operation as parameters.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.RawMessageFormatter.SerializeReply(System.ServiceModel.Channels.MessageVersion,System.Object[],System.Object)">
+            <summary>Serializes a reply message from a specified message version, array of parameters,
+            and a return value.</summary>
+            <returns>The serialized reply message.</returns>
+            <param name="messageVersion">The SOAP message version.</param>
+            <param name="parameters">The out parameters.</param>
+            <param name="result">The return value.</param>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.RawMessageFormatterAttribute">
+            <summary>
+            WCF supports two body processing modes: first is using data contracts and second is reading raw body as Stream.
+            Data contracts is not supported in services that has at least one method with parameter of type Stream.
+            To support both modes, every method with parameter of type Stream should be marked with this attribute.
+            </summary>
+            <seealso cref="T:System.Attribute" />
+            <seealso cref="T:System.ServiceModel.Description.IOperationBehavior" />
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.RawMessageFormatterAttribute.Validate(System.ServiceModel.Description.OperationDescription)">
+            <summary>Implement to confirm that the operation meets some intended criteria.</summary>
+            <param name="operationDescription">The operation being examined. Use for examination only. If the operation 
+            description is modified, the results are undefined.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.RawMessageFormatterAttribute.ApplyDispatchBehavior(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Dispatcher.DispatchOperation)">
+            <summary>Implements a modification or extension of the service across an operation.</summary>
+            <param name="operationDescription">The operation being examined. Use for examination only. If the operation 
+            description is modified, the results are undefined.</param>
+            <param name="dispatchOperation">The run-time object that exposes customization properties for the operation 
+            described by <paramref name="operationDescription" />.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.RawMessageFormatterAttribute.ApplyClientBehavior(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Dispatcher.ClientOperation)">
+            <summary>Implements a modification or extension of the client across an operation.</summary>
+            <param name="operationDescription">The operation being examined. Use for examination only. If the operation 
+            description is modified, the results are undefined.</param>
+            <param name="clientOperation">The run-time object that exposes customization properties for the operation 
+            described by <paramref name="operationDescription" />.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.RawMessageFormatterAttribute.AddBindingParameters(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Channels.BindingParameterCollection)">
+            <summary>Implement to pass data at runtime to bindings to support custom behavior.</summary>
+            <param name="operationDescription">The operation being examined. Use for examination only. If the operation 
+            description is modified, the results are undefined.</param>
+            <param name="bindingParameters">The collection of objects that binding elements require to support the
+            behavior.</param>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ResponseJsonFormatter">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.ResponseJsonFormatter.DeserializeRequest(System.ServiceModel.Channels.Message,System.Object[])">
+            <summary>Deserializes a message into an array of parameters.</summary>
+            <param name="message">The incoming message.</param>
+            <param name="parameters">The objects that are passed to the operation as parameters.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.ResponseJsonFormatter.SerializeReply(System.ServiceModel.Channels.MessageVersion,System.Object[],System.Object)">
+            <summary>Serializes a reply message from a specified message version, array of parameters,
+            and a return value.</summary>
+            <param name="messageVersion">The SOAP message version.</param>
+            <param name="parameters">The out parameters.</param>
+            <param name="result">The return value.</param>
+            <returns>The serialized reply message.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ResponseJsonFormatterAttribute">
+            <summary>
+            WCF supports two body processing modes: first is using data contracts and second is reading raw body as Stream.
+            Data contracts is not supported in services that has at least one method with parameter of type Stream.
+            To support both modes, every method with parameter of type Stream should be marked with this attribute.
+            </summary>
+            <seealso cref="T:System.Attribute" />
+            <seealso cref="T:System.ServiceModel.Description.IOperationBehavior" />
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.ResponseJsonFormatterAttribute.Validate(System.ServiceModel.Description.OperationDescription)">
+            <summary>Implement to confirm that the operation meets some intended criteria.</summary>
+            <param name="operationDescription">The operation being examined. Use for examination only. If the operation 
+            description is modified, the results are undefined.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.ResponseJsonFormatterAttribute.ApplyDispatchBehavior(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Dispatcher.DispatchOperation)">
+            <summary>Implements a modification or extension of the service across an operation.</summary>
+            <param name="operationDescription">The operation being examined. Use for examination only. If the operation 
+            description is modified, the results are undefined.</param>
+            <param name="dispatchOperation">The run-time object that exposes customization properties for the operation 
+            described by <paramref name="operationDescription" />.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.ResponseJsonFormatterAttribute.ApplyClientBehavior(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Dispatcher.ClientOperation)">
+            <summary>Implements a modification or extension of the client across an operation.</summary>
+            <param name="operationDescription">The operation being examined. Use for examination only. If the operation 
+            description is modified, the results are undefined.</param>
+            <param name="clientOperation">The run-time object that exposes customization properties for the operation 
+            described by <paramref name="operationDescription" />.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.ResponseJsonFormatterAttribute.AddBindingParameters(System.ServiceModel.Description.OperationDescription,System.ServiceModel.Channels.BindingParameterCollection)">
+            <summary>Implement to pass data at runtime to bindings to support custom behavior.</summary>
+            <param name="operationDescription">The operation being examined. Use for examination only. If the operation 
+            description is modified, the results are undefined.</param>
+            <param name="bindingParameters">The collection of objects that binding elements require to support the
+            behavior.</param>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.ResponseUtils">
+            <summary>
+            Provides utility methods for working with <see cref="T:Terrasoft.Core.ServiceModelContract.BaseResponse"/> in context of WCF service.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.ResponseUtils.SetDesingTimeException``1(``0,System.Exception)">
+            <summary>
+            Initializes response instance with desing time exception.
+            </summary>
+            <typeparam name="TResponse">The type of the response.</typeparam>
+            <param name="source">The response instance.</param>
+            <param name="exception">The exception.</param>
+            <remarks>This method adds call stack data to <paramref name="source"/> only when assembly is compiled in 
+            debug mode.</remarks>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.ResponseUtils.SetRunTimeException``1(``0,System.Exception)">
+            <summary>
+            Initializes response instance with run time exception.
+            </summary>
+            <typeparam name="TResponse">The type of the response.</typeparam>
+            <param name="source">The source.</param>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.EntitySchemaRecordDefRight">
+            <summary>
+            Data contract for EntitySchemaRecordDefRight.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.EntitySchemaColumnRight">
+            <summary>
+            Data contract for EntitySchemaColumnRight.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.EntitySchemaColumnRights">
+            <summary>
+            Data contract for EntitySchemaColumnRights.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.EntitySchemaOperationsRights">
+            <summary>
+            Data contract for EntitySchemaOperationsRights.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.AdministratedObject">
+            <summary>
+            Data contract for AdministratedObject.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.SysAdminUnit">
+            <summary>
+            Data contract for SysAdminUnit.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.AdministratedObjectsResponse">
+            <summary>
+            Data contract for AdministratedObjectsResponse.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.AdministratedObjectResponse">
+            <summary>
+            Data contract for AdministratedObjectResponse.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.SysAdminUnitsResponse">
+            <summary>
+            Data contract for SysAdminUnitsResponse.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.SysAdminUnitResponse">
+            <summary>
+            Data contract for SysAdminUnitResponse.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.UrlBaseResponse">
+            <summary>
+            Base class for service operation url response.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModelContract.UrlBaseResponse.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.ServiceModelContract.UrlBaseResponse"/> class.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModelContract.UrlBaseResponse.Url">
+            <summary>
+            The service response url.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.UserInfo">
+            <summary>
+            Data contract for UserInfo.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModelContract.UserInfoResponse">
+            <summary>
+            Data contract for UserInfoResponse.
+            </summary>
+        </member>
+    </members>
+</doc>

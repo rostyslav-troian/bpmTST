@@ -1,0 +1,8 @@
+﻿body[OldUI=false] .center-main-container .email-page-tab-container .ts-controlgroup {
+  max-width: 100%;
+}
+body[OldUI=false] .center-main-container .email-page-tab-container .ts-controlgroup .email-dispaly-iframe {
+  border: 1px solid #cbcbcb;
+  width: 100%;
+  box-sizing: border-box;
+}

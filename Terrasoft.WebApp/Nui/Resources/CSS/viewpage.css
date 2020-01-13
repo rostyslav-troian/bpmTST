@@ -1,0 +1,86 @@
+﻿html {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	height: 100%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box-sizing {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.select {
+	border: 1px solid black;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.leftPanel {
+	background-color: #375C84;
+	position: absolute;
+	padding-top: 10px;
+	height: 100%;
+	width: 100px;
+	bottom: 0px;
+}
+
+.rightPanel {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 100px;
+	margin: 10px;
+}
+
+.topPanel {
+	position: absolute;
+	height: 30px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+}
+
+.schema-content {
+	position: absolute;
+	left: 0px;
+	top: 30px;
+	bottom: 0px;
+	right: 0px;
+	margin-top: 10px;
+}
+
+.leftItem {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.g, .gc {
+	zoom: 1;
+}
+.g:after, .gc:after {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.gc {
+	float: left;
+	clear: right;
+}

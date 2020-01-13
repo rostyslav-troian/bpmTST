@@ -1,0 +1,200 @@
+﻿.communication-panel {
+  width: 4.8em;
+  height: 100%;
+  left: 0;
+  z-index: 1000;
+  top: 0;
+  overflow: hidden;
+}
+.communication-panel .all {
+  height: inherit;
+  background-color: #FFFFFF;
+}
+.communication-panel #CommunicationPanelContainer {
+  height: inherit;
+}
+.communication-panel .schema-wrap.one-el {
+  min-width: 0;
+}
+.communication-panel .content {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  z-index: 1;
+}
+.communication-panel .content .t-btn-wrapper {
+  padding: inherit;
+  height: 48px;
+}
+.communication-panel .content .wrapper-with-centered-left-image {
+  padding: 0;
+  position: static;
+}
+.communication-panel .content .t-btn-wrapper {
+  text-align: right;
+  cursor: pointer;
+}
+.communication-panel .content .t-btn-text {
+  position: relative;
+  line-height: normal;
+  margin: 9px 9px 0 0;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  font-family: "Segoe UI";
+  font-size: 12px;
+}
+.communication-panel .content .t-btn-style-with-call-duration .t-btn-text {
+  margin: 9px 15px 0 0;
+  color: #FFFFFF;
+}
+.communication-panel .content .t-btn-style-transparent {
+  color: #FFFFFF;
+}
+.communication-panel .content .t-btn-down.t-btn-style-transparent:hover,
+.communication-panel .content .t-btn-pressed.t-btn-style-transparent,
+.communication-panel .content .t-btn-style-transparent:hover {
+  color: #FFFFFF;
+}
+.communication-panel .content .t-btn-style-transparent:not(.t-btn-disabled):hover {
+  color: #FFFFFF;
+}
+.communication-panel-menu-images-class {
+  width: 48px;
+  height: 48px;
+}
+#rightPanelCloseButton-wrapperEl {
+  position: absolute;
+  top: 100px;
+  left: 12px;
+  padding: 0;
+}
+#rightPanelCloseButton-imageEl {
+  width: 15px;
+  height: 15px;
+}
+body[OldUI=false]:not(.x-ie)[is-card-opened="true"] .communication-panel:after {
+  display: none;
+}
+body[OldUI=false]:not(.x-ie) .communication-panel:after {
+  content: "";
+  width: 1px;
+  height: 100vh;
+  background-color: #e6e6e6;
+  top: 10px;
+  left: 56px;
+  position: fixed;
+}
+body[OldUI=false]:not(.x-ie) .communication-panel.opened-right-panel:after {
+  display: none;
+}
+body[OldUI=false] .communication-panel {
+  top: 112px;
+}
+body[OldUI=false] .communication-panel .content {
+  margin-top: -112px;
+}
+body[OldUI=false] .communication-panel .content .t-btn-wrapper {
+  margin-bottom: 4px;
+}
+body[OldUI=false] .communication-panel .content .t-btn-wrapper .wrapper-with-centered-left-image {
+  right: 6px;
+}
+body[OldUI=false] .communication-panel .content .t-btn-wrapper > span:not(.wrapper-with-centered-left-image) {
+  margin-top: 4px;
+  margin-left: 1px;
+}
+body[OldUI=false] .communication-panel .content .t-btn-image {
+  background-color: #9bb3e8;
+  border-radius: 50%;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+body[OldUI=false] .communication-panel .content [data-item-marker*="email errors"] .t-btn-image {
+  background-color: #FF7A64;
+}
+body[OldUI=false] .communication-panel .content .t-btn-pressed[data-item-marker*="email errors"] .t-btn-image {
+  background-color: #FF7A64;
+}
+body[OldUI=false] .communication-panel .content .t-btn-pressed .t-btn-image {
+  background-color: #ff9100;
+}
+body[OldUI=false] .communication-panel .content .wrapper-with-centered-left-image .t-btn-image.t-btn-image-left {
+  right: 4px;
+}
+body[OldUI=false] .communication-panel .content .wrapper-with-centered-left-image .t-btn-text.t-btn-left {
+  background-color: #ff4013;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+}
+body[OldUI=false] .communication-panel .content .communication-panel-menu-images-class {
+  width: 40px;
+  height: 40px;
+}
+body[OldUI=false] .communication-panel .content [data-item-marker="ctiPanel"] .wrapper-with-centered-left-image .t-btn-text.t-btn-left {
+  width: 32px;
+  border-radius: 9px;
+  margin-right: 16px;
+}
+body[OldUI=false] .communication-panel.opened-right-panel .content .t-btn-wrapper > span:not(.wrapper-with-centered-left-image) {
+  margin-left: 2px;
+}
+body[OldUI=false] .right-panel {
+  top: 0em;
+  z-index: 1002;
+  border: 7px solid #ebeeef;
+  width: 37em;
+  border-bottom: 0;
+  border-left: 0;
+  border-top-right-radius: 10px;
+}
+body[OldUI=false] .right-panel .right-panel-modules-container > div[id*="EmailModule"],
+body[OldUI=false] .right-panel .right-panel-modules-container > div[id*="ESNFeedModule"] {
+  padding-top: 3px;
+}
+@media screen and (max-width: 1439px) {
+  body[OldUI=false] .right-panel {
+    border-right: 0;
+    margin-top: 7px;
+    border-top: 0;
+    border-top-right-radius: 3px;
+  }
+}
+body[OldUI=false] .right-side-bar-container {
+  margin-top: 9px;
+}
+body[OldUI=false] .communication-panel:not(.opened-right-panel) {
+  border: 1px solid #ebeeef;
+  width: 56px;
+}
+body[OldUI=false] .communication-panel {
+  width: 55px;
+}
+body[OldUI=false] .communication-panel .fixed {
+  padding-bottom: 0;
+}
+body[OldUI=false] .communication-panel.opened-right-panel {
+  z-index: 1001;
+}
+body[OldUI=false] .communication-panel.opened-right-panel .schema-wrap {
+  background-color: #ebeeef;
+}
+body[OldUI=false] .communication-panel.opened-right-panel .all {
+  background-color: #fff;
+  margin-left: 6px;
+  padding-left: 0;
+  border-top-left-radius: 3px;
+}
+body[OldUI=false] .communication-panel.opened-right-panel [data-item-marker=rightPanelCloseButton] {
+  display: none;
+}
+body[OldUI=false] .communication-panel .all {
+  background-color: #ebeeef;
+  padding-left: 6px;
+  margin-top: 7px;
+  padding-right: 3px;
+}

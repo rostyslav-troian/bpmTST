@@ -1,0 +1,87 @@
+﻿.ts-designer-tab-label-container {
+  margin-right: 3em;
+  margin-left: 3em;
+  overflow: hidden;
+  height: 3.1em;
+  padding: 0.5em 0.5em 0.5em 8.6em;
+}
+.ts-designer-tab-label-container > div {
+  overflow: hidden;
+  height: 2.6em;
+  position: relative;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+.ts-designer-tab-label-container .t-label {
+  display: inline-block;
+  position: relative;
+  color: #999;
+  border-bottom: 3px solid #fff;
+  /*rgb(244, 157, 87)*/
+
+}
+.tab-label-panel-draggable-item-grabbed {
+  z-index: 99999;
+  position: absolute;
+  background: lightgrey;
+  max-width: 100px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ts-designer-tab-label-container .t-label,
+.tab-label-panel-draggable-item-grabbed {
+  font-family: "Segoe UI";
+  font-size: 1.4em;
+  overflow: hidden;
+  width: auto;
+  padding: 1px 10px 3px;
+  text-transform: uppercase;
+}
+.ts-designer-tab-label-container .t-label.ts-tabpanel-active-item {
+  color: #444;
+  border-bottom: 3px solid #F49D57;
+}
+.ts-designer-tab-label-container .tab-label-panel-reorderable-zero-element {
+  width: 10px;
+  height: 100%;
+  background: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.x-safari .ts-designer-tab-label-container .tab-label-panel-reorderable-position {
+  height: 16px;
+}
+.ts-designer-tab-label-container .tab-label-panel-reorderable-position {
+  display: inline-block;
+  width: 0px;
+  height: 100%;
+  position: relative;
+}
+.ts-designer-tab-label-container .tab-label-panel-reorderable-position:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 0.3em solid transparent;
+  border-right: 0.3em solid #007BFF;
+  border-top: 0.3em solid #007BFF;
+  right: 0em;
+  top: 0em;
+}
+.ts-designer-tab-label-container .tab-label-panel-reorderable-position:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 0.3em solid transparent;
+  border-left: 0.3em solid #007BFF;
+  border-top: 0.3em solid #007BFF;
+  right: -0.6em;
+  top: 0em;
+}
+.ts-tabpanel-wrap .ts-tabpanel-scroll-right {
+  background-position: 0 !important;
+}

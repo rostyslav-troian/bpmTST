@@ -1,0 +1,53 @@
+.t-radio {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	outline: none;
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+	border: 0px;
+}
+
+.t-radio.ie {
+	width: 0px;
+	height: 0px;
+}
+
+.t-radio-wrap {
+	height: 24px;
+	width: 24px;
+	display: inline-block;
+	overflow: hidden;
+	border: none;
+	background: url(images/radiobutton.png) no-repeat;
+	background-position: 0px 0px;
+}
+
+input[type='radio']:hover {}
+.t-radio:focus {}
+
+.t-radio-checked {
+	background-position: 0px -24px;
+}
+
+.t-radio-checked.t-radio-disabled {
+	background-position: 0px -48px;
+}
+
+.t-radio-disabled {
+	background-position: 0px -72px;
+}
+
+.t-radio-focus {
+	background-position: 0px -96px;
+}
+
+.t-radio-focus.t-radio-checked {
+	background-position: 0px -120px;
+}
+
+html[dir="rtl"] {
+	.t-radio-wrap + .t-label {
+		text-align: left;
+	}
+}

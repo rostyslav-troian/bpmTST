@@ -1,0 +1,185 @@
+﻿.multi-currency-control-wrap {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  align-items: center;
+}
+.multi-currency-control-wrap.base-edit-error {
+  outline: initial;
+  border-color: initial;
+  -webkit-box-shadow: initial;
+  -moz-box-shadow: initial;
+  box-shadow: initial;
+}
+.multi-currency-control-wrap.base-edit-error .base-edit {
+  outline: none;
+  border-color: rgba(86, 180, 239, 0.7);
+  border-color: #56b4ef;
+  -webkit-box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+  -moz-box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+  box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+}
+.multi-currency-button-wrap .t-btn-wrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: right;
+  color: #999;
+}
+.multi-currency-button-wrap .t-btn-style-transparent:not(.t-btn-disabled):hover {
+  color: #999;
+}
+.multi-currency-edit-expandable {
+  padding: 10px 10px 10px 10px;
+}
+.multi-currency-edit-expandable .data-container > div {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.multi-currency-edit-expandable .data-container > div .item-label {
+  width: 67px;
+  min-width: 67px;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: right;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.multi-currency-edit-expandable .data-container > div .item-label .t-label {
+  color: #999;
+  margin-bottom: 2px;
+}
+.multi-currency-edit-expandable .data-container > div .item-control {
+  width: 100%;
+  min-width: 0;
+}
+.multi-currency-edit-expandable .data-container > div .item-control .base-edit:not(.base-edit-focus) {
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.multi-currency-edit-expandable .data-container > div .item-control .base-edit:not(.base-edit-focus) .base-edit-right-icon {
+  display: none;
+}
+.multi-currency-edit-expandable .data-container > div .item-control .base-edit:not(.base-edit-focus):hover {
+  border: 1px solid #c8c8c8;
+}
+.multi-currency-edit-expandable .data-container > div .item-control .base-edit:not(.base-edit-focus):hover .base-edit-right-icon {
+  display: block;
+}
+.multi-currency-edit-expandable .data-container > div .item-control .base-edit.base-edit-disabled .base-edit-input,
+.multi-currency-edit-expandable .data-container > div .item-control .base-edit.base-edit-disabled {
+  background-color: white;
+}
+.multi-currency-edit-expandable .data-container > div .item-control .base-edit.base-edit-disabled:hover .base-edit-right-icon {
+  display: none;
+}
+.multi-currency-edit-expandable .data-container > div .item-control .number-edit-input-align {
+  text-align: left;
+}
+.multi-currency-edit-expandable .data-container > div .item-control-rate {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.multi-currency-edit-expandable .data-container > div .item-control-rate .item-label {
+  width: 100%;
+  min-width: 0;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.multi-currency-edit-expandable .data-container > div .item-control-rate .item-label .t-label {
+  color: #999;
+  margin-bottom: 2px;
+}
+.multi-currency-edit-expandable .data-container > div .item-control-rate .item-control {
+  width: 70px;
+  min-width: 70px;
+}
+.multi-currency-edit-expandable .data-container > div .item-control-rate .item-control .base-edit:not(.base-edit-focus) {
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.multi-currency-edit-expandable .data-container > div .item-control-rate .item-control .base-edit:not(.base-edit-focus) .base-edit-right-icon {
+  display: none;
+}
+.multi-currency-edit-expandable .data-container > div .item-control-rate .item-control .base-edit:not(.base-edit-focus):hover {
+  border: 1px solid #c8c8c8;
+}
+.multi-currency-edit-expandable .data-container > div .item-control-rate .item-control .base-edit:not(.base-edit-focus):hover .base-edit-right-icon {
+  display: block;
+}
+.multi-currency-edit-expandable .data-container > div .item-control-rate .item-control .base-edit.base-edit-disabled .base-edit-input,
+.multi-currency-edit-expandable .data-container > div .item-control-rate .item-control .base-edit.base-edit-disabled {
+  background-color: white;
+}
+.multi-currency-edit-expandable .data-container > div .item-control-rate .item-control .base-edit.base-edit-disabled:hover .base-edit-right-icon {
+  display: none;
+}
+.multi-currency-edit-expandable .data-container > div .item-control-rate .item-control .number-edit-input-align {
+  text-align: left;
+}
+.multi-currency-edit-expandable .footer-container {
+  text-align: right;
+  padding-top: 10px;
+}
+.multi-currency-edit-expandable .footer-container .t-btn-wrapper {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #b4c1d2;
+  border-radius: 2px;
+  color: #4e7bd8;
+  font-size: 13px;
+  height: 1.923em;
+  padding-top: 0.231em;
+  padding-bottom: 0;
+  padding-left: 0.769em;
+}
+.multi-currency-edit-expandable .footer-container:not(:first-child) > span {
+  margin-left: 0.692em;
+}
+.currency-button {
+  color: #999;
+  text-align: right;
+}
+.currency-button .t-btn-left {
+  float: right;
+}
+.currency-button .t-btn-wrapper {
+  padding-left: 0;
+  padding-right: 0.9em;
+}
+.currency-button .wrapper-with-centered-right-menu .t-btn-menu {
+  right: 0;
+}
+.multi-currency-edit-disabled:hover .base-edit-disabled-el-icon {
+  display: block;
+}
+.multi-currency-edit-disabled.base-edit-with-right-icon .base-edit-disabled-el-icon {
+  right: 32px;
+}
+.multi-currency-edit-disabled .base-edit-right-icon-wrapper {
+  cursor: pointer;
+}
+.multi-currency-edit-disabled .base-edit-input {
+  background-color: white;
+  cursor: default;
+}

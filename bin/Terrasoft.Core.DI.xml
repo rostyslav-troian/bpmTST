@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Core.DI</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Core.DI.CoreApiContainer">
+            <summary>
+            Provides methods for obtaining core API classes.
+            IF YOU THINK THAT THIS CLASS NEEDS RESOLVE WITH CONSTRUCTOR ARGUMENTS, INCREMENT THIS COUNTER: 4.
+            Please, use a factory instead. When in doubt - refer to previous committers.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.CoreApiContainer.Populate(System.Collections.Generic.IEnumerable{Microsoft.Extensions.DependencyInjection.ServiceDescriptor})">
+            <summary>
+            Loads modules into the super-factory.
+            </summary>
+            <param name="descriptors">Loading modules descriptors.</param>
+        </member>
+        <member name="M:Terrasoft.Core.DI.CoreApiContainer.GetServiceProvider">
+            <summary>
+            Returns core API classes service provider.
+            </summary>
+            <returns>Super-factory that can create objects of all kinds.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.DI.CoreApiContainer.Resolve``1">
+            <summary>
+            Resolves implementation for provided type <typeparamref name="T"/>.
+            </summary>
+            <typeparam name="T">Type to resolve.</typeparam>
+            <returns>Concrete implementation of type <typeparamref name="T"/>.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.DI.CoreApiContainer.Resolve(System.Type)">
+            <summary>
+            Gets an instance of the specified type.
+            </summary>
+            <param name="type">The resolution type.</param>
+            <returns>An instance of the type.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.DI.CoreApiContainer.Resolve``1(System.String)">
+            <summary>
+            Gets an instance of the specified type by using the first binding with the specified name.
+            </summary>
+            <typeparam name="T">The type to resolve.</typeparam>
+            <param name="name">The name of the binding.</param>
+            <returns>An instance of the type.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.DI.CoreApiContainer.ResolveAll``1">
+            <summary>
+            Resolves instances for the specified type.
+            </summary>
+            <typeparam name="T">The type to resolve.</typeparam>
+            <returns>An enumerator of instances that match the request.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.DI.CoreApiContainer.Bind``1">
+            <summary>
+            Declares a binding for the specified service.
+            </summary>
+            <typeparam name="T">The service to bind.</typeparam>
+        </member>
+        <member name="M:Terrasoft.Core.DI.CoreApiContainer.Unbind``1">
+            <summary>
+            Unregisters all bindings for the specified service.
+            </summary>
+            <typeparam name="T">The service to unbind.</typeparam>
+        </member>
+        <member name="M:Terrasoft.Core.DI.CoreApiContainer.Load(Ninject.Modules.INinjectModule[])">
+            <summary>
+            Loads the module(s) into the kernel if it has not been already loaded.
+            </summary>
+            <param name="modules">The modules to load.</param>
+        </member>
+        <member name="M:Terrasoft.Core.DI.CoreApiContainer.CanResolve``1">
+            <summary>
+            Evaluates if an instance of the specified type can be resolved.
+            </summary>
+            <returns><c>True</c> if the request can be resolved; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.DI.CoreApiContainer.CanResolve``1(System.String)">
+            <summary>
+            Evaluates if an instance of the specified type by using the first binding
+            with the specified name can be resolved.
+            </summary>
+            <typeparam name="T">The type to resolve.</typeparam>
+            <param name="name">The name of the binding.</param>
+            <returns><c>True</c> if the request can be resolved; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.DI.CoreApiContainer.CreateScope">
+            <summary>
+            Creates the scope that can be used to resolve scoped services.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.DI.IDIInitializer">
+            <summary>
+            Provides methods for dependency injection initialization.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.IDIInitializer.InitializeDIBeforeConfigurationAssemblyLoad">
+            <summary>
+            Initializes dependency injection bindings before loading a configuration assembly.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.IDIInitializer.InitializeDIAfterConfigurationAssemblyLoad">
+            <summary>
+            Initializes dependency injection bindings after loading a configuration assembly.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.DI.RequestScopeExtensionMethod">
+            <summary>
+            Defines extension methods the specify InRequestScope.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.RequestScopeExtensionMethod.InRequestScope``1(Ninject.Syntax.IBindingInSyntax{``0})">
+            <summary>
+            Sets the scope to request scope.
+            </summary>
+            <typeparam name="T">The type of the service.</typeparam>
+            <param name="source">The syntax.</param>
+            <returns>The syntax to define more information.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.DI.RequestScopeExtensionMethod.WithFallbackToTransientScope``1(Ninject.Syntax.IBindingNamedWithOrOnSyntax{``0})">
+            <summary>
+            Creates new scope callback that calls current callback and in case of failure uses
+            <see cref="F:Ninject.Infrastructure.StandardScopeCallbacks.Transient"/> callback.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+        </member>
+        <member name="M:Terrasoft.Core.DI.RequestScopeExtensionMethod.AndWhen``1(Ninject.Syntax.IBindingInSyntax{``0},System.Boolean,System.Action{Ninject.Syntax.IBindingInSyntax{``0}})">
+            <summary>
+            Executes <paramref name="action"/> only when <paramref name="condition"/> is <code>true</code>.
+            </summary>
+            <typeparam name="T"><see cref="T:Ninject.Syntax.IBindingInSyntax`1"/> type parameter.</typeparam>
+            <param name="source">Source binding syntax.</param>
+            <param name="condition">Condition to check.</param>
+            <param name="action">Action to invoke.</param>
+        </member>
+        <member name="T:Terrasoft.Core.DI.ScopedLifetime.ActivationScope">
+            <summary>
+            Used as scope object to resolve scoped services.
+            </summary>
+            <seealso cref="T:Ninject.Infrastructure.Disposal.INotifyWhenDisposed" />
+        </member>
+        <member name="P:Terrasoft.Core.DI.ScopedLifetime.ActivationScope.IsDisposed">
+            <inheritdoc />
+        </member>
+        <member name="E:Terrasoft.Core.DI.ScopedLifetime.ActivationScope.Disposed">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.DI.ScopedLifetime.ActivationScope.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.ScopedLifetime.AmbientScopeProvider">
+            <summary>
+            Provides way to setup and resolve current scope object.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.DI.ScopedLifetime.IScopeProvider" />
+        </member>
+        <member name="P:Terrasoft.Core.DI.ScopedLifetime.AmbientScopeProvider.Settings">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.DI.ScopedLifetime.AmbientScopeProvider.SetCurrentScope(Terrasoft.Core.DI.ScopedLifetime.ActivationScope)">
+            <summary>
+            Sets the current scope.
+            </summary>
+            <param name="scope">Instance of <see cref="T:Terrasoft.Core.DI.ScopedLifetime.ActivationScope"/> to set.</param>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ScopedLifetime.AmbientScopeProvider.GetScope(Ninject.Activation.IContext)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.DI.ScopedLifetime.AmbientScopeProvider.CreateScope">
+            <summary>
+            Creates the for current execution context.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ScopedLifetime.AmbientScopeProvider.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.ScopedLifetime.IScopeProvider">
+            <summary>
+            Provides scope used to resolve scoped services.
+            </summary>
+            <seealso cref="T:Ninject.Components.INinjectComponent" />
+        </member>
+        <member name="M:Terrasoft.Core.DI.ScopedLifetime.IScopeProvider.GetScope(Ninject.Activation.IContext)">
+            <summary>
+            Returns the scope for current activation context.
+            </summary>
+            <param name="context">The context.</param>
+        </member>
+        <member name="T:Terrasoft.Core.DI.ServiceProvider.ContainerBuilder">
+            <summary>
+            Builds <see cref="T:System.IServiceProvider"/> instance using <see cref="T:Terrasoft.Core.DI.CoreApiContainer"/>. This instance should
+            be used to setup <see cref="T:Terrasoft.Core.DI.CoreApiContainer"/> kernel.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.ContainerBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Creates a new instance of the <see cref="T:Terrasoft.Core.DI.ServiceProvider.ContainerBuilder"/> class.
+            </summary>
+            <param name="services">Service descriptions.</param>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.ContainerBuilder.Build">
+            <summary>
+            Returns an instance that implements the <see cref="T:System.IServiceProvider"/> interface.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.DI.ServiceProvider.ContextParameterScopeProvider">
+            <summary>
+            Used to locate scope object from current resolving context parameters. Such parameters are provided by
+            <see cref="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceProvider"/> and <see cref="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScope"/>.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.DI.ServiceProvider.ContextParameterScopeProvider.Settings">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.ContextParameterScopeProvider.GetScope(Ninject.Activation.IContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceProvider">
+            <summary>
+            <see cref="T:System.IServiceProvider"/> implementation that delegates services resolution to provided
+            <see cref="T:Ninject.Syntax.IResolutionRoot"/>.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.NinjectServiceProvider.#ctor(Ninject.Syntax.IResolutionRoot,System.Collections.Generic.IList{Ninject.Parameters.IParameter})">
+            <summary>
+            Creates new instance of <see cref="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceProvider"/>.
+            </summary>
+            <param name="resolutionRoot">Service resolution root.</param>
+            <param name="parameters">Service resolution parameters.</param>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.NinjectServiceProvider.GetService(System.Type)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceProviderResolver">
+            <summary>
+            Creates instances of <see cref="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceProvider"/>.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.NinjectServiceProviderResolver.CreateInstance(Ninject.Activation.IContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScope">
+            <summary>
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceScope"/> implementation that use <see cref="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceProvider"/> for current context's
+            <see cref="T:Ninject.Syntax.IResolutionRoot"/> with own <see cref="T:Terrasoft.Core.DI.ServiceProvider.ScopeParameter"/>.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScope.#ctor(Ninject.Activation.IContext)">
+            <summary>
+            Creates new instance of <see cref="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScope"/>.
+            </summary>
+            <param name="context">Resolution context.</param>
+        </member>
+        <member name="P:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScope.ServiceProvider">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScope.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScopeFactory">
+            <summary>
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceScopeFactory"/> that creates <see cref="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScope"/> instances.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScopeFactory.#ctor(Ninject.Activation.IContext)">
+            <summary>
+            Creates instance of <see cref="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScopeFactory"/>.
+            </summary>
+            <param name="context">Resolution context.</param>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScopeFactory.CreateScope">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScopeFactoryResolver">
+            <summary>
+            Creates instances of <see cref="T:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScopeFactory"/>.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.NinjectServiceScopeFactoryResolver.CreateInstance(Ninject.Activation.IContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.ServiceProvider.ScopeParameter">
+            <summary>
+            Used to provide scope information during service resolving context as Ninject parameter.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.DI.ServiceProvider.ScopeParameter.Name">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.Core.DI.ServiceProvider.ScopeParameter.ShouldInherit">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.ScopeParameter.CreateNewScope(System.Collections.Generic.IEnumerable{Ninject.Parameters.IParameter},Terrasoft.Core.DI.ServiceProvider.ScopeParameter@)">
+            <summary>
+            Returns <paramref name="source"/> enumeration with new <see cref="T:Terrasoft.Core.DI.ServiceProvider.ScopeParameter"/> instance.
+            </summary>
+            <param name="source">Source parameters enumeration.</param>
+            <param name="scope">Created scope.</param>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.ScopeParameter.Equals(Ninject.Parameters.IParameter)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.ScopeParameter.GetValue(Ninject.Activation.IContext,Ninject.Planning.Targets.ITarget)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.ServiceProvider.ServiceCollectionExtensions">
+            <summary>
+            Used to set custom <see cref="T:System.IServiceProvider"/> implementation using <see cref="T:Terrasoft.Core.DI.ServiceProvider.ContainerBuilder"/> instance.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.ServiceCollectionExtensions.AddCoreApiContainer(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds custom <see cref="T:System.IServiceProvider"/> implementation using <see cref="T:Terrasoft.Core.DI.ServiceProvider.ContainerBuilder"/> builder.
+            </summary>
+            <param name="source"><see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/> used by WebHostBuilder.</param>
+            <returns><paramref name="source"/>.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.DI.ServiceProvider.ServiceProviderFactory">
+            <summary>
+            <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceProviderFactory`1" /> implementation for <see cref="T:Terrasoft.Core.DI.CoreApiContainer"/>.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.ServiceProviderFactory.CreateBuilder(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.ServiceProviderFactory.CreateServiceProvider(Terrasoft.Core.DI.ServiceProvider.ContainerBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.ServiceProvider.ServiceProviderNinjectModule">
+            <summary>
+            Used to register bindings provided by <see cref="T:System.Collections.Generic.IEnumerable`1"/> for Microsoft dependency
+            injection interoperability.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.ServiceProviderNinjectModule.#ctor(System.Collections.Generic.IEnumerable{Microsoft.Extensions.DependencyInjection.ServiceDescriptor})">
+            <summary>
+            Creates instance of <see cref="T:Terrasoft.Core.DI.ServiceProvider.ServiceProviderNinjectModule"/>.
+            </summary>
+            <param name="serviceDescriptors">Service descriptors.</param>
+        </member>
+        <member name="M:Terrasoft.Core.DI.ServiceProvider.ServiceProviderNinjectModule.Load">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.TerrasoftKernel">
+            <summary>
+            Implementation of a kernel.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.DI.TerrasoftKernel.TerrasoftAssemblyNameRetriever">
+            <summary>
+            Retrieves assembly names from file names.
+            </summary> 
+        </member>
+        <member name="M:Terrasoft.Core.DI.TerrasoftKernel.TerrasoftAssemblyNameRetriever.GetAssemblyNames(System.Collections.Generic.IEnumerable{System.String},System.Predicate{System.Reflection.Assembly})">
+            <summary>
+            Gets all assembly names of the assemblies in the given files that match the filter.
+            </summary>
+            <param name="filenames">The filenames.</param>
+            <param name="filter">The filter.</param>
+            <returns>All assembly names of the assemblies in the given files that match the filter.</returns> 
+        </member>
+        <member name="M:Terrasoft.Core.DI.TerrasoftKernel.#ctor(Ninject.Modules.INinjectModule[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.DI.TerrasoftKernel"/> class.
+            </summary>
+            <param name="modules">The modules to load into the kernel.</param>
+        </member>
+        <member name="M:Terrasoft.Core.DI.TerrasoftKernel.#ctor(Ninject.INinjectSettings,Ninject.Modules.INinjectModule[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.Core.DI.TerrasoftKernel"/> class.
+            </summary>
+            <param name="settings">The configuration to use.</param>
+            <param name="modules">The modules to load into the kernel.</param>
+        </member>
+    </members>
+</doc>

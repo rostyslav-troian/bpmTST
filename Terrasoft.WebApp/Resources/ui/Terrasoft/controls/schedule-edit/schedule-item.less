@@ -1,0 +1,252 @@
+.scheduleritem,
+.multi-day-item {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family: "segoe ui";
+	position: absolute;
+	padding-bottom: 1px;
+	display: inline-block;
+	z-index: 10;
+	margin-left: -1px;
+	background: none;
+	outline: none;
+}
+
+.scheduleritem-new,
+.scheduleritem-done,
+.scheduleritem-overdue,
+.scheduleritem-selected  {
+	font-family: "Bpmonline Open Sans";
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #ffffff;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	padding: 3px 5px 3px 8px;
+	cursor: move;
+	text-align: left;
+	line-height: 15px;
+}
+
+.scheduleritem-new {
+	border-left: 3px solid #00a7ff;
+	color: #0e6193;
+	background-color: #d6f1fd;
+}
+
+.scheduleritem-new.scheduleritem-selected:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background-color: #00a7ff;
+}
+.scheduleritem-new.scheduleritem-selected:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background-color: #00a7ff;
+}
+
+.scheduleritem-new .scheduleritem-caption {
+	color: #00a7ff;
+}
+
+.scheduleritem-done {
+	border-left: 3px solid #aaaaaa;
+	color: #909090;
+	background-color: #f0f0f0;
+}
+
+.scheduleritem-done.scheduleritem-selected:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background-color: #aaaaaa;
+}
+.scheduleritem-done.scheduleritem-selected:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background-color: #aaaaaa;
+}
+
+.scheduleritem-done .scheduleritem-caption {
+	color: #aaaaaa;
+}
+
+.scheduleritem-done .scheduleritem-title,
+.scheduleritem-done .multi-day-item-title {
+	color: #909090;
+}
+
+.scheduleritem-overdue {
+	border-left: 3px solid #ff5d00;
+	color: #db5823;
+	background-color: #fedfcf;
+}
+
+.scheduleritem-overdue.scheduleritem-selected:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background-color: #ff5d00;
+}
+.scheduleritem-overdue.scheduleritem-selected:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background-color: #ff5d00;
+}
+
+.scheduleritem-overdue .scheduleritem-caption {
+	color: #ff5d00;
+	margin-right: 5px;
+}
+
+.scheduleritem-caption {
+	font-size: 1.2em;
+	white-space: nowrap;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.scheduleritem-caption:empty {
+	display: none;
+}
+
+.scheduleritem-title:hover {
+	cursor: pointer;
+}
+
+.multi-day-item-title:hover {
+	cursor: pointer;
+}
+
+.two-el .scheduleritem-title:hover {
+	cursor: move;
+}
+
+.two-el .multi-day-item-title:hover {
+	cursor: move;
+}
+
+.scheduleritem-title {
+	font-size: 1.3em;
+	display: inline-block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.scheduleritem-resize-top,
+.scheduleritem-resize-bottom {
+	width: 100%;
+	height: 6px;
+	left: 0;
+	position: absolute;
+}
+
+.scheduleritem-resize-top {
+	cursor: n-resize;
+	top: 0;
+}
+
+.scheduleritem-resize-bottom {
+	cursor: s-resize;
+	bottom: 0;
+}
+
+.multi-day-item {
+	height: 21px;
+	padding-bottom: 0;
+}
+
+.x-gecko .multi-day-item .scheduleritem-new,
+.x-ie10 .multi-day-item .scheduleritem-new,
+.x-gecko .multi-day-item .scheduleritem-done,
+.x-ie10 .multi-day-item .scheduleritem-done,
+.x-gecko .multi-day-item .scheduleritem-overdue,
+.x-ie10 .multi-day-item .scheduleritem-overdue,
+.x-gecko .multi-day-item .scheduleritem-selected,
+.x-ie10 .multi-day-item .scheduleritem-selected {
+	padding-top: 2px;
+}
+
+.multi-day-item-resize-right,
+.multi-day-item-resize-left {
+	height: 100%;
+	width: 6px;
+	top: 0;
+	position: absolute;
+}
+
+.multi-day-item-resize-left {
+	cursor: w-resize;
+	left: 0;
+	margin-left: -1px;
+}
+
+.multi-day-item-resize-right {
+	cursor: e-resize;
+	right: 2px;
+	margin-right: -1px;
+}
+
+.multi-day-item-caption,
+.multi-day-item-left-caption {
+	font-size: 1.1em;
+	white-space: nowrap;
+	display: inline-block;
+	float: right;
+}
+
+.multi-day-item-left-caption {
+	float: left;
+	margin-right: 10px;
+}
+
+.multi-day-item-done {
+	border-color: #b7b7b7;
+	color: #b7b7b7;
+}
+
+.multi-day-item-title {
+	font-size: 1.3em;
+	text-align: left;
+	line-height: 0.9em;;
+	padding: 2px 0;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.x-gecko .multi-day-item-title {
+	padding-top: 2px;
+}
+
+.multi-day-item-area .multi-day-item {
+	position: absolute;
+}
+
+.multi-day-item {
+	padding-right: 2px;
+}

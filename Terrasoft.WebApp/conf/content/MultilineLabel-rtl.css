@@ -1,0 +1,50 @@
+﻿.multiline-label-wrap {
+  font-size: 1.4em;
+}
+.multiline-label-wrap .label-content-container {
+  overflow: hidden;
+  position: relative;
+  max-height: 152px;
+}
+.multiline-label-wrap .label-content-container p {
+  margin: 0;
+}
+.multiline-label-wrap .read-more {
+  display: none;
+  color: #8aa0cf;
+  cursor: pointer;
+}
+.multiline-label-wrap .read-more:hover {
+  color: #10a0e3;
+}
+.multiline-label-wrap:after {
+  display: none;
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1.2em;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff 7%);
+}
+.multiline-label-wrap.content-visble .label-content-container.content-visble {
+  max-height: none;
+}
+.multiline-label-wrap.read-more-button-visible .label-content-container:after {
+  display: block;
+}
+.multiline-label-wrap.read-more-button-visible .read-more {
+  display: inline;
+}
+.multiline-label-wrap a {
+  color: #4e7bd8;
+  text-decoration: none;
+}
+.multiline-label-wrap a:hover {
+  text-decoration: underline;
+}
+.multiline-label-wrap iframe {
+  width: 100%;
+  border: none;
+}

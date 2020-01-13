@@ -1,0 +1,56 @@
+.memo-edit-core {
+
+}
+
+.memo-edit-core.is-ie textarea {
+	padding-bottom: 20px;
+}
+
+.memo-edit-scroll {
+	overflow-y: hidden;
+	position: relative;
+	height: auto;
+	min-height: inherit;
+}
+
+.memo-edit-scroll > textarea {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.memo-edit-scroll > textarea.virtual {
+	visibility: hidden;
+	height: 1px;
+}
+
+.memo-edit-core.is-scrolling .memo-edit-scroll {
+	overflow-y: hidden; 
+}
+
+.memo-edit-core.is-scrolling .memo-edit-scroll textarea {
+	position: initial;
+	overflow-y: scroll; 
+}
+
+.memo-edit-core[data-resize="true"] .memo-edit-scroll > textarea {
+	position: initial;
+	max-width: 100%;
+}
+
+.memo-edit-core[data-resize="true"] .memo-edit-scroll > textarea.virtual,
+.memo-edit-core.is-scrolling .memo-edit-scroll > textarea.virtual {
+	display: none;
+}
+
+.memo-edit-area {
+	overflow-y: hidden;
+}
+
+.memo-edit-height {
+	height: 100%;
+}

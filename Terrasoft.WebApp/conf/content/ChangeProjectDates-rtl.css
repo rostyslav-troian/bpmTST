@@ -1,0 +1,46 @@
+﻿#changeDatesContentContainer,
+#changeDatesHeaderContainer {
+  display: inline-block;
+  height: 100%;
+  min-width: 600px;
+  padding-right: 24px;
+}
+.change-dates-header {
+  font-family: "Segoe UI Light";
+  color: #64b8df;
+  font-size: 2.2em;
+  letter-spacing: -0.01em;
+}
+.save {
+  margin-left: 9px;
+}
+.service {
+  margin: 24px 0 24px 0;
+}
+.caption {
+  width: auto;
+  vertical-align: top;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+.text {
+  margin-bottom: 24px;
+}
+.forward {
+  margin-bottom: 5px;
+}
+.daysControlContainer {
+  margin-top: 20px;
+  height: 30px;
+  line-height: 30px;
+}
+.daysControlCaption {
+  display: inline;
+  width: 25%;
+}
+.value {
+  width: 22%;
+  margin-right: 20px;
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+}

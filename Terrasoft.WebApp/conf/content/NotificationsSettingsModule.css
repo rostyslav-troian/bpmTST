@@ -1,0 +1,32 @@
+﻿.top-settings-container {
+  margin-bottom: 15px;
+}
+.cancel-button {
+  margin-left: 10px;
+  vertical-align: bottom;
+}
+.check-box-container .control-wrap {
+  padding-left: 0px;
+}
+.check-box-container .t-checkboxedit-wrap {
+  margin-left: 0px;
+}
+.check-box-container .t-label {
+  margin-left: -20px;
+  padding-top: 7px;
+  color: #444444;
+  font-size: 1.6em;
+}
+.stateflag-container .label-wrap {
+  max-width: none;
+}
+.stateflag-container .t-label {
+  text-align: left;
+  margin-left: 10px;
+}
+.stateflag-container .control-wrap {
+  width: 2em;
+  margin-left: 0px;
+  float: left;
+  padding-left: 0px;
+}

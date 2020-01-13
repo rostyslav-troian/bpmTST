@@ -1,0 +1,120 @@
+﻿.highchart-tools {
+  position: absolute;
+  top: 0.4em;
+  right: 0;
+  padding-right: 0em;
+  padding-left: 0.8em;
+}
+.load-more-button-class {
+  margin-left: 40%;
+}
+.chart-grid-wrapper {
+  width: 100%;
+  overflow-y: auto;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  border-bottom: 55px solid transparent;
+}
+.funnel-chart-grid-wrapper {
+  height: 90%;
+}
+.highchart-tools .t-btn-marker {
+  border-top: 0.32em solid #fff;
+}
+.highcharts-data-labels text,
+.highcharts-axis-labels text.highcharts-drilldown-axis-label {
+  text-decoration: none !important;
+}
+.highcharts-data-labels text:hover,
+.highcharts-axis-labels text.highcharts-drilldown-axis-label:hover {
+  color: #10a0e3 !important;
+  fill: #10a0e3 !important;
+  cursor: pointer !important;
+}
+.breadcrumbs-module-container {
+  height: auto;
+  position: relative;
+  padding-top: 5px;
+  background-color: #fff;
+}
+.breadcrumbs-module-container div {
+  display: inline-block;
+  margin-left: 5px;
+}
+.breadcrumbs-module-container div:nth-child(odd) {
+  color: #999999;
+}
+.breadcrumbs-module-container:not([style*="none"]) + .chart-grid-wrapper {
+  border-bottom: 90px solid transparent;
+}
+.funnel-buttons-settings-container {
+  text-align: center;
+  background-color: white;
+}
+.funnel-buttons-settings {
+  margin-left: 0.071em;
+  margin-top: 1.071em;
+  font-family: 'Segoe UI';
+  font-size: 13px;
+}
+.funnel-main-container {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.main-filter-container {
+  display: table;
+  width: 100%;
+}
+.row-filter-container {
+  display: table-row;
+  width: 100%;
+  height: 2.857em;
+}
+.filter-cell-filter-container {
+  display: table-cell;
+  text-align: center;
+  line-height: 2.886em;
+  padding-top: 1.071em;
+}
+.funnel-filter-inner-container label {
+  width: initial;
+  margin-right: 0.143em;
+  vertical-align: top;
+  top: 0.2em;
+  position: relative;
+}
+.period-fixed-filter-image-class {
+  width: 1.43em;
+  height: 1.44em;
+}
+.fixed-period-filter-element-container-wrap .t-btn-wrapper.wrapper-with-centered-right-menu {
+  padding-top: 0.4em;
+}
+.funnel-buttons-settings-container .t-btn-pressed {
+  background-color: #8095b3;
+  font-family: 'Segoe UI';
+  font-size: 13px;
+  color: white;
+}
+.funnel-buttons-settings-container .t-btn-pressed:hover {
+  background-color: #8095b3 !important;
+}
+.highcharts-container {
+  height: 100% !important;
+}
+.filter-value-label,
+.filter-caption-label {
+  display: inline;
+}
+.funnel-filter-remove-button {
+  padding: 0.35em;
+  padding-bottom: 0.3em;
+  position: relative;
+  top: 4px;
+  margin-right: 19px;
+}
+#OpportunityFunnelDesignerContainer .module-container {
+  height: 90% !important;
+}

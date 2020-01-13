@@ -1,0 +1,66 @@
+﻿.help-button {
+  padding: 0;
+}
+.help-button-image {
+  display: inline;
+  background-position: 0px -46px;
+  width: 26px;
+  height: 26px;
+}
+.help-button-image:hover {
+  background-position: 0 -7px;
+}
+.context-help-class .schema-wrap.one-el {
+  min-width: 0;
+}
+.context-help-menu.menu-wrap {
+  padding: 0;
+  position: fixed !important;
+}
+.context-help-menu {
+  text-align: right;
+}
+.context-help-menu .menu-item-image {
+  right: 0px;
+  background-color: #8ecb60;
+  left: inherit;
+  top: 0;
+  bottom: 0;
+  width: 32px;
+  height: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.context-help-menu .menu-item {
+  padding: 0 50px 0 20px;
+}
+ul.context-help-menu li.menu-item:first-of-type {
+  padding-top: 5px;
+}
+ul.context-help-menu li.menu-item:first-of-type .menu-item-image:first-of-type {
+  background-position-y: 10px;
+}
+ul.context-help-menu li.menu-item:last-of-type {
+  padding-bottom: 5px;
+}
+ul.context-help-menu li.menu-item:last-child .menu-item-image:first-of-type {
+  background-position-y: 5px;
+}
+.context-help-menu:before {
+  position: absolute;
+  top: -12px;
+  right: 10px;
+  display: block;
+  content: '▲';
+  color: #8ecb60;
+}
+.context-tips-mode-container .context-tips-mode-tools .context-tips-mode-tool .t-btn-image {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+}
+.context-tips-mode-container .context-tips-mode-tools .context-tips-mode-tool .t-btn-image:hover {
+  background-color: #80b756;
+}

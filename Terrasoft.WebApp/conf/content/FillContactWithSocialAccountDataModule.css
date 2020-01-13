@@ -1,0 +1,68 @@
+﻿.container-spacing {
+  margin: 5px 3px;
+  display: inline-block;
+}
+#topButtons .t-btn-wrapper {
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+.table-container {
+  display: table;
+}
+.table-row {
+  display: table-row;
+}
+.table-cell {
+  display: table-cell;
+}
+.search-edit {
+  width: 300px;
+  margin-right: 10px;
+}
+.filter-social-networks {
+  width: 300px;
+}
+.page-caption-label {
+  color: #444;
+  font-size: 3.5em;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  font-family: "Segoe UI Light";
+  letter-spacing: -0.01em;
+}
+.div-caption-label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.left-container {
+  float: left;
+  width: 40%;
+}
+.right-container {
+  float: right;
+  width: 40%;
+}
+.custom-inline,
+.custom-inline div {
+  clear: left;
+  margin-bottom: 1em;
+}
+.custom-inline .t-checkboxedit-wrap,
+.custom-inline .t-radio-wrap {
+  float: left;
+}
+.custom-inline .t-label {
+  margin-left: 1em;
+  width: auto;
+}
+.radiobutton-left {
+  width: 15%;
+  float: left;
+  padding-top: 0.5em;
+}
+.textedit-right {
+  width: 85%;
+  float: left;
+  margin-bottom: 5px;
+}

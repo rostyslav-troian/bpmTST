@@ -1,0 +1,55 @@
+﻿#MobilePhoneCallLogPage {
+  background-color: #fafafa;
+}
+#MobilePhoneCallLogPage .x-navigation-panel .x-title {
+  width: 100%;
+}
+#MobilePhoneCallLogPageButtonsContainer .x-inner.x-layout-box {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  margin-top: 7px;
+}
+.x-callphonelogpage-button {
+  width: 130px;
+}
+#MobilePhoneCallLogPage_saveButton.x-callphonelogpage-button {
+  margin-left: 10px;
+}
+.x-callphonelogpage-detailed-result {
+  height: 74px;
+  margin-top: 7px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.x-callphonelogpage-detailed-result textarea {
+  max-height: 44px;
+}
+#MobilePhoneCallLogPagePlanActivityToggle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 14px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+#MobilePhoneCallLogPageCallInfo {
+  font-size: 12px;
+  color: #ccc;
+}
+#MobilePhoneCallLogPageUserInfo {
+  font-size: 16px;
+}
+#MobilePhoneCallLogPageReceipientInfo {
+  font-size: 16px;
+  margin-top: 14px;
+}
+.x-callphonelogpage-info-container {
+  margin: 7px;
+  padding: 14px;
+  background-color: white;
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}

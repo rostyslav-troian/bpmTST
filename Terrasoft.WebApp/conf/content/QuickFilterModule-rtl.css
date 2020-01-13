@@ -1,0 +1,48 @@
+﻿.filter-inner-container .t-btn-wrapper {
+  vertical-align: bottom;
+}
+.filter-inner-container .t-btn-style-transparent {
+  margin-right: -12px;
+}
+.filter-inner-container .t-btn-style-transparent.filter-remove-button {
+  margin-right: -5px;
+  padding-right: 5px;
+}
+.filter-remove-button {
+  margin-right: -5px;
+  padding-right: 5px;
+}
+.filter-inner-container {
+  height: 34px;
+  padding-bottom: 11px;
+  float: right;
+  padding-left: 16px;
+}
+.filter-main-container {
+  overflow: auto;
+}
+.filter-inner-container .t-label {
+  vertical-align: bottom;
+  padding-top: 6px;
+  padding-bottom: 9px;
+  width: auto;
+}
+.filter-value-label {
+  color: #4b7fc7;
+}
+.filter-caption-label {
+  color: #999;
+}
+.filter-element-with-right-space {
+  margin-left: 9px;
+}
+.filter-simple-filter-edit {
+  margin-left: 9px;
+  width: 156px;
+}
+.filter-inner-container:first-child {
+  padding-left: 0px;
+}
+.filter-inner-container:last-child {
+  padding-left: 16px;
+}

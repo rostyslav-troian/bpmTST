@@ -1,0 +1,54 @@
+﻿#SocialMessageGridPage {
+  background-color: #FAFAFA;
+}
+#SocialMessageGridPage .x-filters-panel {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.24);
+}
+#SocialMessageGridPage .x-field-search .x-field-input .x-form-field {
+  padding-left: 68px;
+  height: 55px;
+}
+#SocialMessageGridPage .x-field-search .x-field-input {
+  border-bottom: 1px solid #CFCFCF;
+  height: 55px;
+}
+.x-button.cf-social-message-grid-owner-button {
+  margin-left: 14px;
+}
+.x-button.cf-social-message-grid-owner-button {
+  height: 55px;
+  width: 46px;
+}
+.x-button.cf-social-message-grid-owner-button > .x-button-icon {
+  width: 46px;
+  min-width: 46px;
+  height: 46px;
+}
+.x-button.cf-social-message-grid-owner-button.cf-social-message-owner-default-image .x-button-icon {
+  background-size: 46px;
+}
+.cf-social-message-grid-owner-button .x-button-icon {
+  background-size: cover;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+#SocialMessageGridPage .x-list-paging,
+#SocialMessageGridPage .x-list {
+  background-color: transparent;
+}
+#SocialMessageGridPage .cf-feed-list.x-list .x-list-item.x-list-item-tpl {
+  padding-top: 7px;
+  padding-right: 0;
+  padding-left: 0;
+}
+#SocialMessageGridPage .cf-feed-list.x-list .x-list-item.x-list-item-tpl .x-innerhtml {
+  padding: 0;
+  border-bottom: 0;
+}
+#SocialMessageGridPage .x-list-pullrefresh {
+  margin-top: 7px;
+}
+.x-android #SocialMessageGridPage .x-field-search .x-field-input {
+  padding-right: 0 !important;
+}

@@ -1,0 +1,17 @@
+﻿#settings-section-panel #settings-section-buttons-container {
+  margin-bottom: 30px;
+}
+#settings-section-panel #settings-section-buttons-container span {
+  margin-right: 9px;
+}
+#settings-section-panel .t-label {
+  text-align: right;
+  color: #999999;
+  text-overflow: ellipsis;
+}
+#settings-section-panel label[id^="settings-section-panel"] {
+  min-height: 40px;
+}
+#settings-section-panel div[id$="picker-color-button"] {
+  margin-left: 5px;
+}

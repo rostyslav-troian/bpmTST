@@ -1,0 +1,61 @@
+﻿#StatusFilterContainer .label-wrap {
+  width: 100%;
+}
+#StatusFilterContainer span.t-checkboxedit-wrap {
+  margin-top: 4px;
+}
+#SectionFiltersContainer {
+  padding-left: 2px;
+}
+#StatusFilterContainer {
+  display: inline-block;
+  float: left;
+  position: relative;
+  padding-right: 12px;
+}
+#StatusFilterContainer .control-wrap {
+  float: left;
+  width: 40px;
+  z-index: 999;
+}
+#StatusFilterContainer .t-label {
+  width: 144px;
+  margin-left: 24px;
+  padding-top: 4px;
+  color: #444;
+  cursor: pointer;
+  text-align: left;
+}
+#StatusFilterContainer .t-label:hover {
+  color: #10a0e3;
+}
+#StatusFilterContainer input.t-checkboxedit {
+  cursor: pointer;
+}
+#StatusFilterContainer span.t-checkboxedit-wrap {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-position: 0 -20px;
+}
+#StatusFilterContainer span.t-checkboxedit-focus {
+  box-shadow: none;
+}
+#StatusFilterContainer span.t-checkboxedit-checked {
+  background-position: 0 0;
+}
+.schema-wrap.two-el .left-utils-container-wrapClass #StatusFilterContainer {
+  float: none;
+}
+.isActive-filter-container-wrapClass {
+  float: left;
+}
+.isActive-filter-container-wrapClass .label-wrap {
+  float: right;
+  min-width: 0;
+  width: auto;
+  margin: 0.2em 1em;
+}
+.isActive-filter-container-wrapClass .label-wrap .t-label {
+  color: #333;
+}

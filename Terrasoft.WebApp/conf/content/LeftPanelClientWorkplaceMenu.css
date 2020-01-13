@@ -1,0 +1,50 @@
+﻿#menu-workplace-button-textEl {
+  color: white;
+  padding-right: 5px;
+  font-size: 1.15em;
+  font-family: "bpmonline UI", serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  padding-left: 9px;
+  width: 160px;
+}
+#menu-workplace-button-markerEl {
+  border-top: 0.3em solid #FFFFFF;
+  font-size: 18px;
+  margin-top: 6px;
+}
+#menu-workplace-button-wrapperEl {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: left;
+  border: 0.1em solid transparent;
+  border-bottom: 0.1em solid #717B91;
+  border-top: 0.1em solid #717B91;
+}
+body.left-panel-collapsed #leftPanelClientWorkplaceMenu {
+  display: none;
+}
+.top-menu-workplace-button-container-wrapEl {
+  margin-right: 12px;
+  margin-left: 6px;
+}
+#menu-workplace-button-menuEl {
+  right: 10px;
+}
+.t-btn-style-highlighted {
+  border: 0.1em solid #9aa1b1 !important;
+}
+ul[data-item-marker="TopWorkplaceMenu"] {
+  width: 190px;
+}
+ul[data-item-marker="TopWorkplaceMenu"] .menu-item {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px 10px 5px 15px;
+  height: 35px;
+}

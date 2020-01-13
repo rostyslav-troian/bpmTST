@@ -1,0 +1,14 @@
+﻿.base-grid-dataview-container-wrapClass {
+  background-color: #fff;
+  padding: 0;
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  top: 132px;
+  min-height: calc(100vh - 138px);
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+}
+.base-grid-dataview-container-wrapClass .base-grid-tools-container-wrapClass {
+  padding: 20px;
+}

@@ -1,0 +1,40 @@
+﻿.indicator-module-wraper {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family: 'Segoe UI';
+  word-wrap: break-word;
+  overflow-y: auto;
+}
+/* ------------------------------ MARKETING STYLES ------------------------------------*/
+
+.indicator-container {
+  min-width: 129px;
+  max-width: 30%;
+  width: 20%;
+  float: left;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+.campaign-indicator-container {
+  min-width: 149px;
+  max-width: 40%;
+  width: 33.3%;
+  float: left;
+  padding: 5px;
+}
+.widget-dark-orange {
+  color: #ffffff;
+  background: #f49d57;
+}
+.widget-gray {
+  color: #d7d7d7;
+  background: #f0f0f0;
+}
+.indicator-image-container {
+  position: relative;
+  margin-top: 5px;
+  margin-right: 0px;
+}

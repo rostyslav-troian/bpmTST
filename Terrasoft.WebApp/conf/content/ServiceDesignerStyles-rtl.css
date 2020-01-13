@@ -1,0 +1,286 @@
+﻿#ServiceParameterGridContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-flow: column;
+}
+.service-parameter-grid-main-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.service-parameter-grid-main-container > .grid.grid-listed {
+  width: calc(100% - 523px);
+  max-width: calc(100% - 523px);
+  padding-right: 0px;
+  padding-top: 8px;
+  height: 100%;
+  overflow-y: auto;
+  min-height: 300px;
+}
+.service-method-builder-parameters .service-parameter-grid-main-container > .grid.grid-listed {
+  min-height: initial;
+}
+.service-parameter-grid-page {
+  min-height: 300px;
+  border-right: 1px solid #e0e0e0;
+  width: 523px;
+  max-width: 65%;
+  padding: 0px 10px 0px 0px;
+  margin-left: 20px;
+  z-index: 1021;
+}
+.parameter-grid-column-with-icon {
+  display: flex;
+  align-items: start;
+  word-break: break-all;
+  -ms-flex-align: start;
+}
+.parameter-grid-column-with-icon img {
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+}
+.service-parameter-grid-page > .schema-wrap.one-el {
+  min-width: 35%;
+}
+#WebServiceMethodPageTabsContainerContainer .ts-tabpanel.ts-tabpanel-scroll-visible {
+  padding-left: 0px;
+}
+.parameter-edit-container {
+  padding: 10px;
+}
+.web-service-method-card-content-container {
+  margin-top: 15px !important;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+}
+.method-page-container {
+  width: 100% !important;
+  height: 100% !important;
+  position: fixed !important;
+  display: block;
+  top: 0 !important;
+  right: 0 !important;
+  background: rgba(128, 128, 128, 0.5);
+  z-index: 1040;
+  margin: 0px !important;
+  padding-right: 80px !important;
+  padding-top: 30px !important;
+  padding-left: 50px !important;
+  padding-bottom: 30px !important;
+}
+.parameter-actions-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+#ServiceParameterValuePageInputContainerContainer {
+  display: flex;
+  align-items: center;
+}
+#ServiceParameterValuePageValuesContainer {
+  flex-grow: 2;
+}
+#ValueCaption {
+  width: auto;
+  color: #999;
+}
+body[hide-scroll=true] {
+  overflow: hidden !important;
+}
+.detail-tools-button-menu {
+  display: none;
+}
+.service-method-builder-caption {
+  font-size: 21px;
+  color: #00aeef;
+  font-family: "Bpmonline Open Sans Light";
+}
+.service-method-builder-caption-16 {
+  font-size: 16px;
+  color: #00aeef;
+  padding-top: 2px;
+  width: auto;
+}
+.bubble-image-panel {
+  padding-top: 10px;
+  margin-right: 350px;
+  margin-left: 350px;
+}
+.border-container {
+  border-right: 3px solid #ff7a64;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  color: #999;
+  margin-right: 100px;
+  margin-top: 50px;
+  font-family: "Bpmonline Open Sans Light";
+  font-size: 18px;
+  max-width: 620px;
+}
+.border-container .t-label {
+  margin-right: 5px;
+}
+.result {
+  font-size: 18px;
+}
+.result-message {
+  padding-top: 10px;
+}
+.service-builder-input-container {
+  height: 100%;
+}
+.webservice-auth-container {
+  display: flex;
+}
+.webservice-auth-container .webservice-auth-setting {
+  width: 22px;
+  height: 22px;
+}
+.webservice-auth-container .t-btn-no-text-padding {
+  padding: 0.36em 0.4em 0.1em 0.5em !important;
+}
+.service-builder-action-buttons-wrapper > .t-btn-wrapper {
+  margin-left: 10px;
+}
+#grid-ServiceBuilderParameterGridDataGridControlGrid-wrap {
+  min-width: 100%;
+}
+#grid-ServiceBuilderResponseParameterGridDataGridControlGrid-wrap {
+  min-width: 100%;
+}
+.service-parameter-value-source {
+  display: flex;
+  align-items: center;
+}
+.service-parameter-value-source .t-btn-menu {
+  margin-top: 9px;
+}
+.service-parameter-value-source .t-btn-style-default:not(.t-btn-disabled):hover {
+  background: none;
+}
+.service-parameter-value-source .t-btn-style-default {
+  text-transform: none;
+  border: 0px;
+}
+.service-parameter-value-source .t-btn-style-transparent {
+  padding-right: 0;
+  display: table;
+}
+.service-parameter-value-source .t-btn-text {
+  padding-top: 3px;
+  font-size: 14px;
+}
+.service-parameter-value-source .service-parameter-value-wrap {
+  text-align: left;
+  width: 1px;
+}
+.service-parameter-value-source .base-edit-readonly {
+  background-color: white;
+}
+.service-parameter-value-source .base-edit-input[readonly="readonly"] {
+  background-color: white;
+}
+.service-parameter-value-caption {
+  width: auto;
+  color: #999;
+}
+.service-parameter-value-input {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.service-parameter-value-values {
+  flex-grow: 2;
+}
+.service-parameter-value-values .base-edit-focus {
+  outline: none;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #00aeef;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+.service-parameter-value-values .base-edit.ts-box-sizing.base-edit-with-right-icon.date-edit.datetime-datecontrol {
+  width: calc(100% - 92px);
+}
+.auth-info-setup-container {
+  display: flex;
+  width: 54.55%;
+  flex-direction: column;
+}
+.auth-info-setup-container .label-wrap {
+  min-width: 150px;
+}
+.auth-info-setup-container .control-wrap {
+  min-height: 32px;
+}
+.auth-info-setup-container .t-label {
+  font-size: 1.3em;
+}
+.auth-info-setup-container .schema-wrap.one-el {
+  min-width: initial;
+}
+.auth-info-setup-container .label-wrap + .control-wrap {
+  margin-right: -150px;
+  padding-right: 150px;
+}
+.auth-info-setup-container .service-parameter-value-source {
+  width: 92%;
+  max-width: 700px;
+}
+.auth-info-setup-container .grid-layout-column {
+  max-width: 700px;
+}
+.auth-info-setup-container .app-select {
+  width: 100%;
+}
+.auth-info-setup-container .t-no-padding {
+  padding: 0;
+}
+.auth-info-setup-container .t-action-btn-image {
+  width: 32px;
+  height: 32px;
+}
+.auth-info-setup-container div[id*="AppButtonsGroup"] .ts-controlgroup {
+  min-width: 72px;
+}
+#WebServiceV2PageContainer .service-parameter-value-source .t-btn-marker {
+  top: -3px !important;
+}
+.service-quick-setup-header-wrap .service-method-builder-caption {
+  display: initial;
+}
+.service-mini-card-uri {
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-top-width: 0px;
+}
+.app-select .base-edit-left-icon {
+  background-size: 16px 16px !important;
+}
+.app-select .base-edit-input {
+  padding-right: 0;
+}
+.grid-listed-row .grid-primary-column img {
+  width: 16px;
+  height: 16px;
+  max-width: 16px;
+  max-height: 16px;
+}
+.grid-listed-row .icon-spacer-32x32 {
+  padding-right: 24px !important;
+  min-height: 20px;
+}
+.label-top {
+  align-items: end;
+}
+.label-top .t-label {
+  margin-top: 4px;
+}
+.web-service-card-content-container .ts-tabpanel {
+  padding-left: 0em !important;
+}

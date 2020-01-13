@@ -1,0 +1,80 @@
+﻿.display-flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.case-condition-container-wrap {
+  padding-top: 12px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.case-condition-container-wrap .case-condition-item-wrap {
+  border-left: 1px solid #00aeef;
+  padding-left: 20px;
+  flex-basis: auto;
+  align-self: center;
+}
+.case-condition-container-wrap .case-condition-item-wrap > div {
+  padding-right: 1.8em;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.case-condition-container-wrap .case-condition-item-wrap > div .expression-edit-inner-wrap .expression-inner-type {
+  text-align: right;
+}
+.case-condition-container-wrap .case-condition-item-wrap > div > div:first-child {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex-basis: auto;
+  align-self: center;
+}
+.case-condition-container-wrap .case-condition-item-wrap > div > div:last-child {
+  position: absolute;
+  right: 0;
+  top: 6px;
+  display: block;
+  padding: 0;
+  width: 1.45em;
+  height: 1.45em;
+}
+.case-condition-container-wrap .case-condition-item-wrap > div .case-condition-remove-button {
+  display: none;
+  padding: 0;
+  width: 1.15em;
+  height: 1.15em;
+}
+.case-condition-container-wrap .case-condition-item-wrap > div:hover .case-condition-remove-button {
+  display: block;
+}
+.case-condition-container-wrap .case-condition-operation-type-wrap {
+  font-family: "Bpmonline Open Sans", serif;
+  font-size: 1.4em;
+  color: #999;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.case-condition-container-wrap .case-condition-operation-type-wrap .case-condition-operation-type {
+  display: inline-block;
+  width: 35px;
+  margin-left: 43px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.case-condition-container-wrap .case-condition-operation-type-wrap .case-condition-operation-type:hover {
+  color: #10a0e3;
+}

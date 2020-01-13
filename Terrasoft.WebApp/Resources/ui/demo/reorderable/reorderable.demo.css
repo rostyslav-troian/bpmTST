@@ -1,0 +1,29 @@
+.t-label {
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	width: 98%;
+	font-size: 1.4em;
+	height: 50px;
+	border: 1px dotted silver;
+	font-family: "arial";
+	padding-top: 7px;
+}
+
+.draggable-item-grabbed {
+	z-index: 99999;
+	position: absolute;
+	width: 500px;
+	height: 50px;
+	overflow: hidden;
+	background: grey;
+}
+
+.reorderable {
+	width:100%;
+	height:1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: #9ce269;
+	box-shadow: 0 0 5px #9ce269;
+}

@@ -1,0 +1,26 @@
+﻿.portalMessageModalBox-headerCaption {
+  font-size: 22px;
+  font-family: "Bpmonline Open Sans Light";
+  color: #00aeef;
+  margin-bottom: 5px;
+}
+.portalMessageModalBox-mainContainer {
+  text-align: center;
+  padding: 25px;
+}
+.portalMessageModalBox-messageTextLabel {
+  text-align: right;
+}
+.portalMessageModalBox-text-container {
+  height: 100%;
+}
+.portalMessageModalBox-button-container {
+  padding-top: 30px;
+  text-align: left;
+}
+.ts-modalbox-innerbox {
+  width: 100%;
+}
+#PortalMessageModalBoxModuleSchemaMessageTextTextEdit-el {
+  height: 98px !important;
+}

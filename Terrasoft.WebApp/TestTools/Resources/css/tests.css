@@ -1,0 +1,25 @@
+.siesta-assertion-grid .assertion-text
+{
+	white-space: pre-wrap;
+}
+
+.tr-assert-row-annontation
+{
+	overflow: auto;
+}
+
+.copy-bdd-assertion {
+	position: absolute;
+	right: 80px;
+	bottom: 25px;
+	animation: blinker 1s linear infinite;
+	font-weight: bold;
+}
+
+@keyframes blinker {
+	50% { opacity: 0; }
+}
+
+.copy-bdd-assertion.hidden {
+	visibility: hidden;
+}

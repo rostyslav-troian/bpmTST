@@ -1,0 +1,310 @@
+.menu-scroll-wrap {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.menu-focus-el {
+	position: absolute;
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+	width: 0px;
+	height: 0px;
+	border: none;
+	outline: none;
+}
+
+.menu-scrollbar {
+	width: 100%;
+	position: absolute;
+	height: 18px;
+	border: 2px solid #fafafa;
+	background: #fafafa;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.menu-scrollbar-pressed {
+	background: #dbdbdb;
+}
+
+.menu-scrollbar.menu-scrollbar-visible:hover {
+	background: #e5e5e5;
+}
+
+.menu-scrollbar-top {
+	top: 0px;
+}
+
+.menu-scrollbar-bottom {
+	bottom: 0px;
+}
+
+.menu-scrollbar.menu-scrollbar-visible .menu-scroll-marker {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 50%;
+	margin: auto 0;
+	width: 0;
+	height: 0;
+	content: "";
+}
+
+.menu-scrollbar.menu-scrollbar-visible .menu-scroll-marker-top {
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 4px solid #6d6d6d;
+}
+
+.menu-scrollbar.menu-scrollbar-visible .menu-scroll-marker-bottom {
+	border-left: 4px solid transparent;
+	border-top: 4px solid #6d6d6d;
+	border-right: 4px solid transparent;
+}
+
+.menu-check-item-checked .menu-item-image {
+	background-image: url(images/menuCheckItem-checked.png);
+}
+
+.menu {
+	font-size: 14px;
+	position: absolute !important;
+	border: 1px solid transparent;
+	background: #fff;
+	border-radius: 2px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .24);
+	white-space: nowrap;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-user-select: none;
+	cursor: default;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	z-index: 3000;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	will-change: opacity;
+}
+
+.menu.position-fixed {
+	position: fixed !important;
+}
+
+.menu-wrap {
+	display: inline-block;
+	position: relative;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+}
+
+.menu-item {
+	font-size: 14px;
+	position: relative;
+	height: 2.3em;
+	line-height: 2.3em;
+	padding: 0px 35px 0px 35px;
+	margin: 0px 0px 0px 0px;
+}
+
+.menu-item .animation-spinner {
+	margin-top: -5px;
+}
+
+.menu-item-focus {
+	outline: none;
+}
+
+.menu-item-focus.menu-item-enabled {
+	background: #e5e5e5;
+}
+
+.menu-radio .menu-item-image {
+	width: 24px;
+	height: 24px;
+	left: 7px;
+	top: 0.3em;
+	background: url(images/radiomenuitem.png) no-repeat;
+	background-position: 0px 0px;
+}
+.menu-item-disabled {
+	color: #BABABA;
+}
+
+.menu-radio.menu-radio-selected .menu-item-image {
+	background-position: 0px -24px;
+}
+
+.menu-radio.menu-radio-selected.menu-item-disabled .menu-item-image {
+	background-position: 0px -48px;
+}
+
+.menu-radio.menu-item-disabled .menu-item-image {
+	background-position: 0px -72px;
+}
+
+.menu-radio.menu-item-selected .menu-item-image {
+	background-position: 0px -96px;
+}
+
+.menu-radio.menu-item-selected.menu-radio-selected .menu-item-image {
+	background-position: 0px -120px;
+}
+
+.menu-separator {
+	position: relative;
+	font-size: 14px;
+	color: #4b7fc7;
+}
+
+.menu-separator-first-image {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: -26px;
+	top: 2px;
+}
+
+.menu-separator-image {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 10px;
+	top: 19px;
+}
+
+.menu-separator-header {
+	border-top: 1px solid #EBEBEB;
+	padding: 12px 26px 0px 26px;
+	margin: 5px 7px 5px 7px;
+}
+
+.menu-separator-no-caption {
+	padding: 0px 26px 0px 26px;
+	margin: 5px 7px 5px 7px
+}
+
+.menu-separator-first{
+	position: relative;
+	margin: 7px 35px 8px 35px;
+}
+
+.menu-item-arrow {
+	position: absolute;
+	right: 0.6em;
+	top: 0.6em;
+	width: 16px;
+	height: 16px;
+}
+
+.menu-marker {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 6px;
+	margin: auto 0;
+	width: 0;
+	height: 0;
+	border-left: 4px solid #6d6d6d;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	content: "";
+}
+
+.menu-item-image {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 9px;
+	top: 0.5em;
+	overflow: hidden;
+}
+
+.menu-item-image-size-16 .menu-item-image {
+	width: 16px;
+	height: 16px;
+	top: 0.6em;
+	left: 11px;
+}
+
+.menu-progress {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 35px;
+	top: 9px;
+}
+
+.menu-item-progress {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right: 9px;
+	top: 8px;
+}
+
+.menu-loading {
+	position: relative;
+	padding: 0px 35px 0px 60px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	color: #999999;
+}
+
+.menu-item-selected {
+	background: #e4ebfa;
+}
+
+.ts-menu-color-item {
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+
+.ts-menu-color-container {
+	width: 165px;
+	height: 165px;
+	padding: 3px 3px 12px 12px;
+	background-color: #fff;
+}
+
+.ts-menu-color-palette {
+	width: 41px;
+	height: 41px;
+	margin: 9px 9px 0px 0px;
+	float: left;
+}
+
+.ts-menu-color-color {
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+
+.ts-menu-color {
+	padding: 0px;
+}
+
+.ts-menu-color-cell-I {
+	margin: 0px 1px 0px 0px;
+}
+.ts-menu-color-cell-II {
+	margin: 0px 0px 0px 0px;
+}
+.ts-menu-color-cell-III {
+	margin: 1px 1px 0px 0px;
+}
+.ts-menu-color-cell-IV {
+	margin: 1px 0px 0px 0px;
+}
+
+.ts-menu-color-cell-IV-white {
+	border: 1px solid #f0f0f0;
+	box-sizing: border-box;
+}

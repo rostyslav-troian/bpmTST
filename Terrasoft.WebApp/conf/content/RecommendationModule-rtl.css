@@ -1,0 +1,23 @@
+﻿.recommendation {
+  color: #999999;
+  margin-left: 10px;
+  display: inline;
+  /*white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;*/
+
+}
+.informationOnStep-button {
+  padding-top: 5px;
+  padding-right: 0px;
+}
+.informationOnStep-button-image {
+  display: inline;
+  background-position: -2px 1px;
+  width: 23px;
+  height: 23px;
+}
+.informationOnStep-button-image:hover {
+  display: inline;
+  background-position: -2px -24px;
+}

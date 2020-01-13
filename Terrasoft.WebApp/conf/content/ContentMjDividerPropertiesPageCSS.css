@@ -1,0 +1,13 @@
+﻿.right-panel-container *[data-item-type="mjdivider"] .properties-header,
+.right-panel-container *[data-item-type="mjdivider"] .properties-content .ts-tabpanel {
+  background-color: #ff943e;
+}
+.right-panel-container *[data-item-type="mjdivider"] .ts-controlgroup-caption-wrap > span {
+  color: #ff943e;
+}
+.right-panel-container *[data-item-type="mjdivider"] .background-label-wrapper > label {
+  color: #ff943e;
+}
+.right-panel-container *[data-item-type="mjdivider"] .divider-width-wrap {
+  padding-bottom: 16px;
+}

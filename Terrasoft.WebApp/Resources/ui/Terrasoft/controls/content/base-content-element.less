@@ -1,0 +1,81 @@
+.content-element-wrap.t-content-focus {
+	position: relative;
+	outline: 2px solid #64b8df;
+	z-index: 3;
+}
+
+.t-content-focus {
+	outline: 2px solid #64b8df;
+	z-index: 3;
+}
+
+.t-content-focus .content-element-tools-wrap {
+	display: flex;
+}
+
+.content-element-tools-wrap {
+	background: #ffffff;
+	z-index: 15;
+	display: none;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	box-sizing: border-box;
+	position: absolute;
+	top: -1px;
+	right: -28px;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	border-radius: 0 4px 4px 0;
+	
+	.t-btn-wrapper {
+		padding: 4px;
+		border-width: 0;
+		width: 28px;
+		height: 28px;
+
+		span {
+			width: 20px !important;
+			height: 20px !important;
+		}
+	}
+
+	.t-btn-no-text-padding {
+		border-radius: 0 !important;
+	}
+
+	.content-block-copy-button {
+		background-color: #3caff2;
+
+		&:not(.t-btn-disabled):not(.t-btn-loading):hover {
+			background-color: #3b93d5;
+		}
+	}
+
+	.content-block-move-button {
+		background-color: #94cb59;
+
+		&:not(.t-btn-disabled):not(.t-btn-loading):hover {
+			background-color: #7dad52;
+		}
+	}
+
+	.content-block-remove-button {
+		background-color: #e77d5f;
+
+		&:not(.t-btn-disabled):not(.t-btn-loading):hover {
+			background-color: #c9655d;
+		}
+	}
+}
+
+.content-element-tools-wrap > div {
+	width: 100px;
+}
+
+.content-element-tools-wrap > div,
+.content-element-tools-wrap > span {
+	padding: 0.1em 0.3em 0.1em 0.3em;
+}

@@ -1,0 +1,36 @@
+﻿.empty-container-list-message {
+  font-family: "Segoe UI Light";
+  color: #999;
+}
+.empty-container-list-message .image-container,
+.empty-container-list-message .ts-image-edit-inner-container {
+  width: 95px;
+  height: 95px;
+  margin: auto;
+}
+.empty-container-list-message .image-container .image-control {
+  width: 95px !important;
+  height: 95px !important;
+}
+.empty-container-list-message .ts-image-edit-inner-container .ts-image-edit-full-size-element {
+  margin: 0px;
+}
+.empty-container-list-message .title {
+  margin-top: 15px;
+  text-align: center;
+}
+.empty-container-list-message .description {
+  margin-top: 5px;
+  text-align: center;
+}
+.empty-container-list-message .border {
+  width: 70px;
+  height: 2px;
+  background-color: #54b8df;
+  clear: both;
+  margin: 12px auto 10px;
+}
+.empty-container-list-message .t-label {
+  font-size: 1em;
+  display: inline;
+}

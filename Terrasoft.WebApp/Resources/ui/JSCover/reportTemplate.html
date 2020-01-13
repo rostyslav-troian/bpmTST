@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>UI javascript Coverage report</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<style>
+		html {
+			height: 100%;
+		}
+		body {
+			color: #444;
+			padding: 10px;
+			height: 100%;
+			margin: 0px;
+		}
+		table {
+			width: 100%;
+			height: 100%
+		}
+		td {
+			padding: 0px 5px;
+		}
+		div {
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		}
+		#header {
+			width: 100%;
+			border: 1px solid black;
+			margin-bottom: 10px;
+			padding: 5px;
+			height: 100px;
+		}
+		#content-container {
+			width: 100%;
+			border: 1px solid black;
+			padding: 5px;
+		}
+		.build-data {
+			float: left;
+			width: 300px;
+			height: 100%;
+		}
+		.total-data-container {
+			margin-left: 300px;
+			height: 100%;
+		}
+		.total-data {
+			float: right;
+			width: 400px;
+		}
+		.data {
+			background-color: #dae7fe;
+			text-align: right;
+			width: 25%;
+		}
+		.data.rate {
+			font-weight: bold;
+		}
+		.data-header td {
+			text-align: center;
+		}
+		.data-header .metric {
+			text-align: left;
+		}
+		.content-header {
+			background-color: #6688d4;
+			color: #ffffff;
+			font-weight: bold;
+		}
+		.content-header.content-header-top .data {
+			background-color: #6688d4;
+			vertical-align: text-top;
+			text-align: center;
+		}
+		.content-header.content-header-bottom .data {
+			background-color: #6688d4;
+			text-align: center;
+			width: 8%;
+		}
+		.data .filename {
+			text-align: left;
+		}
+		.fail {
+			background-color: #ffbfbf;
+		}
+		.filter-edit {
+			width: 300px;
+			margin: 10px;
+		}
+	</style>
+
+	<script type="text/javascript">
+		report = {coverageJsonData};
+		coverageLimitValue = {coverageLimitValue};
+		reportDate = new Date({reportDate});
+	</script>
+
+	<script type="text/javascript">
+
+		function addEvent(element, event, handler) {
+			if (element.addEventListener) {
+				element.addEventListener(event, handler);
+			} else if (element.attachEvent) {
+				element.attachEvent('on' + event, handler);
+			}
+		}
+
+		addEvent(window, 'load', onLoad);
+
+		function formatString(string, params) {
+			var formattedString = string;
+			for (var propertyName in params) {
+				if (!params.hasOwnProperty(propertyName)) {
+					continue;
+				}
+				formattedString = formattedString.replace('{' + propertyName + '}', params[propertyName]);
+			}
+			return formattedString;
+		}
+
+		metricHeaderHtml = [
+			'<tr class="content-header content-header-top">',
+				'<td rowspan="2">',
+					'Файл',
+				'</td>',
+				'<td colspan="3" class="data">',
+					'Lines Coverage',
+				'</td>',
+				'<td colspan="3" class="data">',
+					'Functions Coverage',
+				'</td>',
+				'<td colspan="3" class="data">',
+					'Branches Coverage',
+				'</td>',
+			'</tr>',
+			'<tr class="content-header content-header-bottom">',
+				'<td class="data">',
+					'count',
+				'</td>',
+				'<td class="data">',
+					'hits',
+				'</td>',
+				'<td class="data">',
+					'%',
+				'</td>',
+				'<td class="data">',
+					'count',
+				'</td>',
+				'<td class="data">',
+						'hits',
+				'</td>',
+				'<td class="data">',
+					'%',
+				'</td>',
+				'<td class="data">',
+					'count',
+				'</td>',
+				'<td class="data">',
+					'hits',
+				'</td>',
+				'<td class="data">',
+					'%',
+				'</td>',
+			'</tr>'
+		];
+
+		metricHtmlTemplate = [
+			'<td class="{metricType} {metric} {fail}">',
+				'{metricValue}',
+			'</td>'
+		];
+
+		rowHtmlTemplate = [
+			'<tr class="data">',
+				'<td class="filename">',
+					'{fileName}',
+				'</td>',
+				'{lineData-metrics}',
+				'{functionData-metrics}',
+				'{branchData-metrics}',
+			'</tr>'
+		];
+
+		function onLoad() {
+			setReportDate();
+			renderTotalCoverageData();
+			renderFilesCoverageData();
+			createFilter();
+		}
+
+		function setReportDate() {
+			var reportDateEl = document.getElementById('report-date');
+			var year = reportDate.getFullYear();
+			var month = reportDate.getMonth() + 1;
+			var day = reportDate.getDate();
+			var dateString = [
+				year,
+				(month < 10) ? ('0' + month) : month,
+				(day < 10) ? ('0' + day) : day
+			];
+			reportDateEl.innerHTML = dateString.join('-');
+		}
+
+		function renderTotalCoverageData() {
+			var totalCoverageData = report.total;
+			var selectorTemplate = '.{metricType} .data.{metric}';
+			for (var metricTypeName in totalCoverageData) {
+				if (!totalCoverageData.hasOwnProperty(metricTypeName)) {
+					continue;
+				}
+				var coverageData = totalCoverageData[metricTypeName];
+				for (var metricName in coverageData) {
+					if (!coverageData.hasOwnProperty(metricName)) {
+						continue;
+					}
+					var metricValue = coverageData[metricName];
+					var failCss = '';
+					if (metricName === 'rate') {
+						failCss = (metricValue < coverageLimitValue) ? 'fail' : '';
+						metricValue = metricValue.toFixed(4) * 100 + '%';
+					}
+					var el = document.querySelector(formatString(selectorTemplate, {
+						metricType: metricTypeName,
+						metric: metricName
+					}));
+					if (el) {
+						el.innerHTML = metricValue;
+						el.className += ' ' + failCss;
+					}
+				}
+			}
+		}
+
+		function renderFilesCoverageData(filter) {
+			var tableHtml = [];
+			var filesCoverageData = report.files;
+			var filefilter = filter || '';
+			for (var fileName in filesCoverageData) {
+				if (!filesCoverageData.hasOwnProperty(fileName)) {
+					continue;
+				}
+				if (fileName.indexOf(filefilter) === -1) {
+					continue;
+				}
+				var fileCoverage = filesCoverageData[fileName];
+				var fileRowHtml = formatString(rowHtmlTemplate.join(''), {
+					fileName: fileName
+				});
+				for (var fileMetricTypeName in fileCoverage) {
+					if (!fileCoverage.hasOwnProperty(fileMetricTypeName)) {
+						continue;
+					}
+					var fileMetricData = fileCoverage[fileMetricTypeName];
+					var metricsHtml = [];
+					for (var fileMetricName in fileMetricData) {
+						if (!fileMetricData.hasOwnProperty(fileMetricName)) {
+							continue;
+						}
+						var fileMetricValue = fileMetricData[fileMetricName];
+						var failCss = '';
+						if (fileMetricName === 'rate') {
+							failCss = (fileMetricValue < coverageLimitValue) ? 'fail' : '';
+							fileMetricValue = fileMetricValue.toFixed(4) * 100 + '%';
+						}
+						var metricHtml = formatString(metricHtmlTemplate.join(''), {
+							metricType: fileMetricTypeName,
+							metric: fileMetricName,
+							metricValue: fileMetricValue,
+							fail: failCss
+						});
+						metricsHtml.push(metricHtml);
+					}
+					var tplData = {};
+					tplData[fileMetricTypeName + '-metrics'] = metricsHtml.join('');
+					fileRowHtml = formatString(fileRowHtml, tplData);
+				}
+				tableHtml.push(fileRowHtml);
+			}
+
+			var el = document.querySelector('.content-table-body');
+			if (!el) {
+				return;
+			}
+			el.innerHTML = metricHeaderHtml.concat(tableHtml).join('');
+		}
+
+		function createFilter() {
+			var filterEl = document.querySelector('#filterEdit');
+			if (!filterEl) {
+				return;
+			}
+			addEvent(filterEl, 'keydown', onFilter);
+		}
+
+		function onFilter(e) {
+			setTimeout(function() {
+				var filterEl = document.querySelector('#filterEdit');
+				renderFilesCoverageData(filterEl.value);
+			}, 50);
+		}
+
+	</script>
+</head>
+<body class="box-sizing">
+	<div id="header">
+		<div id="build-information" class="build-data">
+			<table>
+				<tbody>
+					<tr>
+						<td colspan="2">
+							Покрытие кода ядра тестами
+						</td>
+					</tr>
+					<tr>
+						<td style="width: 150px;">
+							Пороговое значение:
+						</td>
+						<td>
+							90%
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Дата формирования:
+						</td>
+						<td id="report-date">
+							2013-08-16
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="total-data" class="total-data-container">
+			<table class="total-data">
+				<tbody>
+				<tr class="data-header">
+					<td class="metric">
+						Показатель
+					</td>
+					<td>
+						Количество
+					</td>
+					<td>
+						Покрыто
+					</td>
+					<td>
+						% покрытия
+					</td>
+				</tr>
+				<tr class="lineData">
+					<td class="metric">
+						Lines:
+					</td>
+					<td class="data count" >
+					</td>
+					<td class="data hits">
+					</td>
+					<td class="data rate">
+					</td>
+				</tr>
+				<tr class="functionData">
+					<td class="metric">
+						Functions:
+					</td>
+					<td class="data count">
+					</td>
+					<td class="data hits">
+					</td>
+					<td class="data rate">
+					</td>
+				</tr>
+				<tr class="branchData">
+					<td class="metric">
+						Branches:
+					</td>
+					<td class="data count">
+					</td>
+					<td class="data hits">
+					</td>
+					<td class="data rate">
+					</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div id="content-container">
+		<div id="filter-container">
+			<label for="filterEdit">Фильтр:</label>
+			<input type="text" id="filterEdit" class="filter-edit"/>
+		</div>
+		<table>
+			<tbody class="content-table-body">
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

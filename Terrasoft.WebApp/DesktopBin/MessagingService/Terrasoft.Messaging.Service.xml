@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Messaging.Service</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Messaging.Service.Logging.CommonLoggingLogFactory">
+            <summary>
+            Provides a bridge between SuperSocket's log factory and Common.Logging abstraction.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogFactory.GetLog(System.String)">
+            <summary>
+            Gets the log by name.
+            </summary>
+            <param name="name">The name.</param>
+            <returns>Instance of the <see cref="T:SuperSocket.SocketBase.Logging.ILog"/></returns>
+        </member>
+        <member name="T:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper">
+            <summary>
+            Provides the wrapper for SuperSocket's ILog.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.IsDebugEnabled">
+            <summary>
+            Gets a value indicating whether this instance is debug enabled.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is debug enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.IsErrorEnabled">
+            <summary>
+            Gets a value indicating whether this instance is error enabled.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is error enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.IsFatalEnabled">
+            <summary>
+            Gets a value indicating whether this instance is fatal enabled.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is fatal enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.IsInfoEnabled">
+            <summary>
+            Gets a value indicating whether this instance is info enabled.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is info enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.IsWarnEnabled">
+            <summary>
+            Gets a value indicating whether this instance is warn enabled.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is warn enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.Debug(System.Object)">
+            <summary>
+            Logs the debug message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.Debug(System.Object,System.Exception)">
+            <summary>
+            Logs the debug message.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.DebugFormat(System.String,System.Object)">
+            <summary>
+            Logs the debug message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.DebugFormat(System.String,System.Object[])">
+            <summary>
+            Logs the debug message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.DebugFormat(System.IFormatProvider,System.String,System.Object[])">
+            <summary>
+            Logs the debug message.
+            </summary>
+            <param name="provider">The provider.</param>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.DebugFormat(System.String,System.Object,System.Object)">
+            <summary>
+            Logs the debug message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+            <param name="arg1">The arg1.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.DebugFormat(System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            Logs the debug message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+            <param name="arg1">The arg1.</param>
+            <param name="arg2">The arg2.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.Error(System.Object)">
+            <summary>
+            Logs the error message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.Error(System.Object,System.Exception)">
+            <summary>
+            Logs the error message.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.ErrorFormat(System.String,System.Object)">
+            <summary>
+            Logs the error message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.ErrorFormat(System.String,System.Object[])">
+            <summary>
+            Logs the error message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.ErrorFormat(System.IFormatProvider,System.String,System.Object[])">
+            <summary>
+            Logs the error message.
+            </summary>
+            <param name="provider">The provider.</param>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.ErrorFormat(System.String,System.Object,System.Object)">
+            <summary>
+            Logs the error message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+            <param name="arg1">The arg1.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.ErrorFormat(System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            Logs the error message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+            <param name="arg1">The arg1.</param>
+            <param name="arg2">The arg2.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.Fatal(System.Object)">
+            <summary>
+            Logs the fatal error message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.Fatal(System.Object,System.Exception)">
+            <summary>
+            Logs the fatal error message.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.FatalFormat(System.String,System.Object)">
+            <summary>
+            Logs the fatal error message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.FatalFormat(System.String,System.Object[])">
+            <summary>
+            Logs the fatal error message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.FatalFormat(System.IFormatProvider,System.String,System.Object[])">
+            <summary>
+            Logs the fatal error message.
+            </summary>
+            <param name="provider">The provider.</param>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.FatalFormat(System.String,System.Object,System.Object)">
+            <summary>
+            Logs the fatal error message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+            <param name="arg1">The arg1.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.FatalFormat(System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            Logs the fatal error message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+            <param name="arg1">The arg1.</param>
+            <param name="arg2">The arg2.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.Info(System.Object)">
+            <summary>
+            Logs the info message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.Info(System.Object,System.Exception)">
+            <summary>
+            Logs the info message.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.InfoFormat(System.String,System.Object)">
+            <summary>
+            Logs the info message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.InfoFormat(System.String,System.Object[])">
+            <summary>
+            Logs the info message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.InfoFormat(System.IFormatProvider,System.String,System.Object[])">
+            <summary>
+            Logs the info message.
+            </summary>
+            <param name="provider">The provider.</param>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.InfoFormat(System.String,System.Object,System.Object)">
+            <summary>
+            Logs the info message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+            <param name="arg1">The arg1.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.InfoFormat(System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            Logs the info message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+            <param name="arg1">The arg1.</param>
+            <param name="arg2">The arg2.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.Warn(System.Object)">
+            <summary>
+            Logs the warning message.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.Warn(System.Object,System.Exception)">
+            <summary>
+            Logs the warning message.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="exception">The exception.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.WarnFormat(System.String,System.Object)">
+            <summary>
+            Logs the warning message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.WarnFormat(System.String,System.Object[])">
+            <summary>
+            Logs the warning message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.WarnFormat(System.IFormatProvider,System.String,System.Object[])">
+            <summary>
+            Logs the warning message.
+            </summary>
+            <param name="provider">The provider.</param>
+            <param name="format">The format.</param>
+            <param name="args">The args.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.WarnFormat(System.String,System.Object,System.Object)">
+            <summary>
+            Logs the warning message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+            <param name="arg1">The arg1.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.Logging.CommonLoggingLogWrapper.WarnFormat(System.String,System.Object,System.Object,System.Object)">
+            <summary>
+            Logs the warning message.
+            </summary>
+            <param name="format">The format.</param>
+            <param name="arg0">The arg0.</param>
+            <param name="arg1">The arg1.</param>
+            <param name="arg2">The arg2.</param>
+        </member>
+        <member name="F:Terrasoft.Messaging.Service.MessagingServiceInstaller.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.MessagingServiceInstaller.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.MessagingServiceInstaller.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Service.ServiceHost.Bootstrap">
+            <summary>
+            ###### ######### ######## # ########## ######### SuperSocket ########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Service.ServiceHost.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.ServiceHost.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Service.ServiceHost.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

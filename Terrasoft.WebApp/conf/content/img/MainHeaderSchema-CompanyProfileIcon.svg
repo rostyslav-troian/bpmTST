@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="16" height="16" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_account_organization" clip-path="url(#clip-path)">
+    <g id="Group_640" data-name="Group 640" transform="translate(284 -503.292)">
+      <rect id="Rectangle_466" data-name="Rectangle 466" width="8" height="12" transform="translate(-282.498 505.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_831" data-name="Path 831" d="M-274,517.792h4.5v-9H-274" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_54" data-name="Line 54" x1="2.873" transform="translate(-273.998 514.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_55" data-name="Line 55" x1="2.873" transform="translate(-273.998 512.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_56" data-name="Line 56" x1="2.873" transform="translate(-273.998 510.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_57" data-name="Line 57" x2="1.914" transform="translate(-280.998 508.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_58" data-name="Line 58" x2="1.914" transform="translate(-280.998 510.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_59" data-name="Line 59" x2="1.917" transform="translate(-277.998 508.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_60" data-name="Line 60" x2="1.917" transform="translate(-277.998 510.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_61" data-name="Line 61" x2="1.914" transform="translate(-280.998 512.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_62" data-name="Line 62" x2="1.917" transform="translate(-277.998 512.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_63" data-name="Line 63" x2="1.914" transform="translate(-280.998 514.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_64" data-name="Line 64" x2="1.917" transform="translate(-277.998 514.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <rect id="Rectangle_467" data-name="Rectangle 467" width="16" height="16" fill="none"/>
+  </g>
+</svg>

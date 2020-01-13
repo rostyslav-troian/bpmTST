@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.ServiceBus</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.ServiceBus.AppContext">
+            <summary>
+            Represents application context.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.AppContext.#ctor">
+            <summary>
+            Creates a new instance of the application context.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.AppContext.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.ServiceBus.AppContext"/> class by serializer.
+            </summary>
+            <param name="info"><see cref="T:System.Runtime.Serialization.SerializationInfo"/> instance.</param>
+            <param name="context"><see cref="T:System.Runtime.Serialization.StreamingContext"/> instance.</param>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.AppContext.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.ServiceBus.AppContextMessage">
+            <summary>
+            Base class for message that needs <see cref="T:Terrasoft.ServiceBus.UserContext"/> to handle it.
+            </summary>
+            <seealso cref="T:Terrasoft.ServiceBus.IAppContextContainer" />
+        </member>
+        <member name="M:Terrasoft.ServiceBus.AppContextMessage.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.ServiceBus.AppContextMessage"/> class.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.AppContextMessage.#ctor(Terrasoft.ServiceBus.IAppContextContainer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.ServiceBus.AppContextMessage"/> class. Initializes
+            <see cref="P:Terrasoft.ServiceBus.AppContextMessage.AppContext"/> from <paramref name="contextContainer"/> and freezes current instance.
+            </summary>
+            <param name="contextContainer">The context container.</param>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.AppContextMessage.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.ServiceBus.AppContextMessage"/> class by serializer.
+            </summary>
+            <param name="info"><see cref="T:System.Runtime.Serialization.SerializationInfo"/> instance.</param>
+            <param name="context"><see cref="T:System.Runtime.Serialization.StreamingContext"/> instance.</param>
+        </member>
+        <member name="P:Terrasoft.ServiceBus.AppContextMessage.AppContext">
+            <inheritdoc />
+        </member>
+        <member name="P:Terrasoft.ServiceBus.AppContextMessage.IsFrozen">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.ServiceBus.AppContextMessage.Terrasoft#ServiceBus#IMutableAppContextContainer#Set(Terrasoft.ServiceBus.AppContext)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.ServiceBus.AppContextMessage.Freeze">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.ServiceBus.AppContextMessage.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.ServiceBus.AppContextProvider">
+            <summary>
+            Provides methods for obtaining the application context.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.AppContextProvider.#ctor">
+            <summary>
+            Creates a new instance of the <see cref="T:Terrasoft.ServiceBus.AppContextProvider"/> type.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.AppContextProvider.GetAppContext">
+            <summary>
+            Returns application context.
+            </summary>
+            <returns>Instance of the <see cref="T:Terrasoft.ServiceBus.AppContext"/> type.</returns>
+        </member>
+        <member name="T:Terrasoft.ServiceBus.FreezableExtensions">
+            <summary>
+            Extension methods for <see cref="T:Terrasoft.ServiceBus.IFreezable"/>.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.FreezableExtensions.CheckNotFrozen(Terrasoft.ServiceBus.IFreezable)">
+            <summary>Ensures the <paramref name="source"/> is not in frozen state.</summary>
+            <param name="source">The <see cref="T:Terrasoft.ServiceBus.IFreezable"/> instance to check.</param>
+            <exception cref="T:System.InvalidOperationException">If <paramref name="source"/> is in frozen state.</exception>
+        </member>
+        <member name="T:Terrasoft.ServiceBus.IAppContextContainer">
+            <summary>
+            Represents properties for getting application context.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.ServiceBus.IAppContextContainer.AppContext">
+            <summary>
+            Gets or sets value that is an instance of the <see cref="P:Terrasoft.ServiceBus.IAppContextContainer.AppContext"/> type.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.ServiceBus.IAppContextProvider">
+            <summary>
+            Represents methods for getting application context.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.IAppContextProvider.GetAppContext">
+            <summary>
+            Returns application context.
+            </summary>
+            <returns>Instance of the <see cref="T:Terrasoft.ServiceBus.AppContext"/> type.</returns>
+        </member>
+        <member name="T:Terrasoft.ServiceBus.IFreezable">
+            <summary>
+            Defines an object that has a modificable state and a read-only (frozen) state.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.ServiceBus.IFreezable.IsFrozen">
+            <summary>Returns a value indicating whether this instance is frozen.</summary>
+            <value><c>true</c> if this instance is in read-only (frozen) state; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.IFreezable.Freeze">
+            <summary>Freezes this instance.</summary>
+        </member>
+        <member name="T:Terrasoft.ServiceBus.IMutableAppContextContainer">
+            <summary>
+            Used to provide way to modify <see cref="T:Terrasoft.ServiceBus.AppContext"/> on <see cref="T:Terrasoft.ServiceBus.IAppContextContainer"/> instance.
+            </summary>
+            <seealso cref="T:Terrasoft.ServiceBus.IFreezable" />
+        </member>
+        <member name="M:Terrasoft.ServiceBus.IMutableAppContextContainer.Set(Terrasoft.ServiceBus.AppContext)">
+            <summary>Sets the specified application context.</summary>
+            <param name="appContext">The application context.</param>
+        </member>
+        <member name="T:Terrasoft.ServiceBus.IMutableUserContextContainer">
+            <summary>
+            Used to provide way to modify <see cref="T:Terrasoft.ServiceBus.UserContext"/> on <see cref="T:Terrasoft.ServiceBus.IUserContextContainer"/> instance.
+            </summary>
+            <seealso cref="T:Terrasoft.ServiceBus.IMutableAppContextContainer" />
+        </member>
+        <member name="M:Terrasoft.ServiceBus.IMutableUserContextContainer.Set(Terrasoft.ServiceBus.UserContext)">
+            <summary>Sets the specified user context.</summary>
+            <param name="userContext">The user context.</param>
+        </member>
+        <member name="T:Terrasoft.ServiceBus.IUserContextContainer">
+            <summary>
+            Represents properties for getting user context.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.ServiceBus.IUserContextContainer.UserContext">
+            <summary>
+            Gets or sets value that is an instance of the <see cref="P:Terrasoft.ServiceBus.IUserContextContainer.UserContext"/> type.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.ServiceBus.IUserContextProvider">
+            <summary>
+            Represents methods for getting user context.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.IUserContextProvider.GetUserContext">
+            <summary>
+            Returns user context.
+            </summary>
+            <returns>Instance of the <see cref="T:Terrasoft.ServiceBus.UserContext"/> type.</returns>
+        </member>
+        <member name="T:Terrasoft.ServiceBus.UserContext">
+            <summary>
+            Represents user context.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.UserContext.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Creates a new instance of the user context.
+            </summary>
+            <param name="userName">Name of the user.</param>
+            <param name="sessionId">Identifier of the session.</param>
+            <param name="cultureName">Culture name.</param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="userName"/> or <paramref name="sessionId"/> is null or empty.
+            </exception>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.UserContext.#ctor(System.String,System.String,System.String,System.Guid)">
+            <summary>
+            Creates a new instance of the user context.
+            </summary>
+            <param name="userName">Name of the user.</param>
+            <param name="sessionId">Identifier of the session.</param>
+            <param name="cultureName">Culture name.</param>
+            <param name="externalAccessId">The external access.</param>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="userName" /> or <paramref name="sessionId" /> is null or empty.</exception>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.UserContext.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.ServiceBus.UserContext"/> class by serializer.
+            </summary>
+            <param name="info"><see cref="T:System.Runtime.Serialization.SerializationInfo"/> instance.</param>
+            <param name="context"><see cref="T:System.Runtime.Serialization.StreamingContext"/> instance.</param>
+        </member>
+        <member name="P:Terrasoft.ServiceBus.UserContext.Nobody">
+            <summary>
+            Empty User, nobody.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.ServiceBus.UserContext.UserName">
+            <summary>
+            Gets name of the user.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.ServiceBus.UserContext.SessionId">
+            <summary>
+            Gets identifier of the session.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.ServiceBus.UserContext.IsNobody">
+            <summary>
+            Gets value that indicates the current user context is nobody.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.ServiceBus.UserContext.CultureName">
+            <summary>
+            Gets or sets the name of the culture.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.ServiceBus.UserContext.ExternalAccessId">
+            <summary>
+            Gets the external access identifier.
+            </summary>
+            <value>
+            The external access identifier.
+            </value>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.UserContext.CreateUserContext(System.String,System.String,System.Guid)">
+            <summary>
+            Creates a new instance of the user context.
+            </summary>
+            <param name="userName">Name of the user.</param>
+            <param name="sessionId">Identifier of the session.</param>
+            <param name="externalAccessId">The external access identifier.</param>
+            <exception cref="T:System.InvalidOperationException">
+            <paramref name="userName"/> is null or empty and the
+            <see cref="P:Terrasoft.Core.GlobalAppSettings.FeatureUseSystemUserForBackgroundExecution"/> feature state is not enabled.
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+            <paramref name="userName"/> or <paramref name="sessionId"/> is null or empty.
+            </exception>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.UserContext.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.ServiceBus.UserContextMessage">
+            <summary>
+            Base class for message that needs <see cref="T:Terrasoft.ServiceBus.AppContext"/> to handle it.
+            </summary>
+            <seealso cref="T:Terrasoft.ServiceBus.AppContextMessage" />
+            <seealso cref="T:Terrasoft.ServiceBus.IUserContextContainer" />
+            <seealso cref="T:Terrasoft.ServiceBus.IMutableUserContextContainer" />
+        </member>
+        <member name="M:Terrasoft.ServiceBus.UserContextMessage.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.ServiceBus.UserContextMessage"/> class.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.UserContextMessage.#ctor(Terrasoft.ServiceBus.IUserContextContainer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.ServiceBus.UserContextMessage"/> class. Initializes
+            <see cref="P:Terrasoft.ServiceBus.UserContextMessage.UserContext"/> and <see cref="T:Terrasoft.ServiceBus.AppContext"/> from <paramref name="userContextContainer"/> and
+            freezes current instance.
+            </summary>
+            <param name="userContextContainer">The user context container.</param>
+        </member>
+        <member name="M:Terrasoft.ServiceBus.UserContextMessage.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Terrasoft.ServiceBus.UserContextMessage"/> class by serializer.
+            </summary>
+            <param name="info"><see cref="T:System.Runtime.Serialization.SerializationInfo"/> instance.</param>
+            <param name="context"><see cref="T:System.Runtime.Serialization.StreamingContext"/> instance.</param>
+        </member>
+        <member name="P:Terrasoft.ServiceBus.UserContextMessage.UserContext">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.ServiceBus.UserContextMessage.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.ServiceBus.UserContextMessage.Terrasoft#ServiceBus#IMutableUserContextContainer#Set(Terrasoft.ServiceBus.UserContext)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

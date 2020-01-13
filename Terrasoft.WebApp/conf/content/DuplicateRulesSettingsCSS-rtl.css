@@ -1,0 +1,37 @@
+﻿.duplicate-rules-settings {
+  padding-top: 47px;
+  position: relative;
+}
+.duplicate-rules-settings .button-tools {
+  margin-bottom: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.duplicate-rules-settings .button-tools .t-btn-wrapper {
+  padding: 0;
+  margin-right: 10px;
+}
+.duplicate-rules-settings .button-tools .t-btn-wrapper.t-information-btn {
+  margin: 0;
+}
+.duplicate-rules-settings .button-tools .t-btn-wrapper.menu-button {
+  margin-top: 3px;
+}
+.duplicate-rules-settings .button-tools .t-btn-wrapper.add-button {
+  margin-top: 5px;
+}
+.duplicate-rules-settings .button-tools .grid-caption {
+  display: inline-block;
+  width: auto;
+  line-height: 24px;
+  font-size: 1.5em;
+  color: #4e7bd8;
+  padding-left: 0.75em;
+}
+.duplicate-rules-settings .button-tools .t-btn-marker {
+  display: none;
+}
+.duplicate-rules-settings .grid-listed-row .grid-fixed-col {
+  margin-right: 5px;
+}

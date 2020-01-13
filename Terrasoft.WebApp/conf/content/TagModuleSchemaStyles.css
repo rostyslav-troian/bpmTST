@@ -1,0 +1,84 @@
+﻿.tag-selection-control .base-edit:not(.base-edit-focus) {
+  border: 1px solid #c8c8c8;
+  border-bottom: 1px solid #c8c8c8;
+}
+.tag-image-close {
+  display: none;
+}
+.tag-button:hover .tag-image-close {
+  display: inline-block;
+  background-color: white;
+}
+.tag-button {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.tag-button .t-btn-text {
+  text-align: center;
+  min-width: 46px;
+  color: #4d7ad7;
+  margin-top: -3px;
+}
+.tag-button span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 450px;
+}
+.tag-button .tag-image-close {
+  right: 5px;
+  top: -4px;
+}
+.general-tag-content-container {
+  min-width: 500px;
+  max-width: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.entity-tags-container-list {
+  width: 100%;
+  max-height: 600px;
+  overflow-y: scroll;
+  margin-top: 20px;
+}
+.private-tag {
+  border: 1px solid #6CB039;
+}
+.public-tag {
+  border: 1px solid #EF7E63;
+}
+.corporate-tag {
+  border: 1px solid #5BC8C4;
+}
+.entity-tags-container-list div {
+  display: inline-block;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 4px;
+  margin-bottom: 3px;
+  min-width: 66px;
+  height: 26px;
+}
+.close-tag-button {
+  float: right;
+  margin-bottom: 20px;
+  margin-top: -15px;
+  margin-right: -10px;
+}
+.menu-separator-create-new-tag {
+  border-top: 1px solid #EBEBEB;
+}
+.tags-header-label {
+  width: 80%;
+  color: #64b8df;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  margin-top: -15px;
+}

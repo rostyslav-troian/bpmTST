@@ -1,0 +1,82 @@
+﻿.completeness-parameter-detail .ts-controlgroup-tools {
+  width: 100%;
+  position: relative;
+}
+.completeness-parameter-detail .total-container {
+  float: left;
+  margin: auto auto auto 0;
+  font-family: "Segoe UI", serif;
+  background-color: white;
+}
+.completeness-parameter-detail .total-caption {
+  color: #999;
+  font-size: 1.4em;
+  font-family: "Segoe UI";
+  overflow: visible;
+  margin: 0.1em 0 -0.25em 0 !important;
+  padding: 0 1em 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  width: auto;
+}
+.completeness-parameter-detail .total-value {
+  color: #8ecb60;
+  font-size: 1.6em;
+  font-family: "Segoe UI Semibold";
+  overflow: visible;
+  padding-right: 0.5em;
+  width: auto;
+}
+.completeness-container {
+  min-width: 80px;
+}
+.completeness-label {
+  font-size: 10px;
+  color: #999;
+}
+.scale-indicator-container {
+  width: 280px;
+}
+.scale-container {
+  width: auto;
+  height: 32px;
+  display: inline-block;
+  float: right;
+}
+.scale-container .label-wrap {
+  min-width: 5em;
+}
+.scale-container .control-no-label {
+  display: inline-block;
+  width: 70px;
+}
+.scale-container .control-no-label .base-edit:not(:hover) {
+  border-bottom: 1px solid white;
+}
+.scale-container .control-no-label .base-edit:not(.base-edit-focus) {
+  border-bottom: 1px solid white;
+}
+.scale-container .control-no-label .base-edit:focus {
+  border-bottom: 1px solid #56b4ef;
+}
+.scale-container .control-no-label .base-edit:not(.base-edit-focus):hover {
+  border-bottom: 1px solid #c8c8c8;
+}
+.scale-container .control-no-label .base-edit-validation {
+  display: none;
+  text-align: left;
+}
+.scale-icon {
+  float: right;
+  clear: both;
+  width: 280px;
+  height: 5px;
+  padding: 0;
+  cursor: auto;
+}
+.scale-icon .t-btn-image {
+  width: 100%;
+  background-size: 100% 100%;
+}

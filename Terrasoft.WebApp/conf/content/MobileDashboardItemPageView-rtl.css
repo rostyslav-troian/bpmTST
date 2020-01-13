@@ -1,0 +1,12 @@
+﻿.cf-dashboard-item-page-item-container {
+  padding-top: 7px;
+}
+.cf-dashboard-item-page-item-container .x-chart-container {
+  height: 250px;
+}
+.cf-dashboard-item-page .ts-grid {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin: 14px 7px 7px;
+}

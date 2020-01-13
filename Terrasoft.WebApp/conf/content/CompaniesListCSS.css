@@ -1,0 +1,65 @@
+﻿.listview[data-item-marker*="Name"] {
+  border-width: 1px;
+  border-color: #e2e2e2;
+  border-style: solid;
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.listview li[data-item-marker="companies-list-item"] {
+  height: 56px;
+  border-width: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.listview li[data-item-marker="companies-list-item"].listview-selected {
+  height: 56px;
+  border-width: 0px;
+  background-color: #f7f7f7;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.listview div[data-item-marker="companies-list-group-header"] {
+  height: 30px;
+  border-width: 1px;
+  margin-top: 6px;
+  margin-bottom: -12px;
+  padding-top: 0px;
+  padding-left: 14px;
+  padding-right: 0px;
+  font-size: 13px;
+  text-align: left;
+  color: #999999;
+}
+.listview-item.company-info {
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 20px;
+}
+.listview-item.company-info:hover {
+  height: 56px;
+  border-width: 0px;
+  background-color: #f7f7f7;
+}
+.listview-item-image.company-info img {
+  width: 32px;
+  height: 32px;
+}
+.listview-item-info.company-info {
+  margin-top: -3px;
+  margin-left: 12px;
+  line-height: initial;
+  max-width: 230px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.listview-item-secondaryInfo.company-info {
+  margin-top: -1px;
+  font-size: 13px;
+  max-width: 180px;
+  color: #999999;
+}

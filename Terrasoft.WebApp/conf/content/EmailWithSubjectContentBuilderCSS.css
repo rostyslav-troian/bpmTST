@@ -1,0 +1,243 @@
+﻿.subject-page-content-builder-caption-label {
+  font-size: 26px;
+  font-family: "Bpmonline Open Sans Light";
+  display: inline-block;
+  color: #444;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 50%;
+}
+html[culture="ar-SA"] body[OldUI=false] .content-builder-container .subject-page-content-builder-caption-label {
+  font-size: 20px;
+}
+.button-header-container {
+  border-bottom: 1px solid #e8e8e8;
+  box-shadow: 0px 3px 3px #efefef;
+  padding: 10px 0 10px 20px;
+  position: fixed;
+  display: flex;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-color: white;
+  z-index: 100;
+}
+.subject-page-left-control-group {
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+  position: fixed;
+  width: 265px;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 100;
+  background-color: white;
+  margin-left: 5px;
+  top: 64px;
+  left: 0px;
+}
+.left-container {
+  margin-top: 60px;
+  height: calc(100% - 60px);
+}
+.subject-container-wrap {
+  min-height: 76px;
+  background-color: #f4f4f4;
+  box-shadow: 4px 4px 6px #cdcdcd;
+  outline: 1px solid #efefef;
+  display: flex;
+}
+.left-subject-container {
+  flex-grow: 1;
+}
+.right-subject-container {
+  min-width: 12em;
+  position: relative;
+}
+.subject-component-container {
+  max-height: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+.email-icon-image32 {
+  width: 32px;
+  height: 32px;
+}
+.email-icon-display {
+  margin-right: 16px;
+}
+.subject-edit-container {
+  flex-grow: 1;
+}
+.subject-edit-container .inlinetextedit-expandable .item-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #c8c8c8;
+}
+.subject-edit-container .inlinetextedit-expandable .item-control .inline-text-edit-el {
+  min-height: inherit;
+  padding: 0px 7px 5px 0px;
+  max-height: 24px;
+  white-space: nowrap;
+  max-width: 562px;
+  overflow: hidden;
+}
+.subject-edit-container .inlinetextedit-expandable .item-control .cke_focus {
+  outline: none;
+}
+.subject-label {
+  font-size: 13px;
+  color: #999;
+  margin-top: -5px;
+}
+.subject-component-container .inlinetextedit-expandable .item-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #c8c8c8;
+}
+.right-header-container-class {
+  width: auto;
+  position: absolute;
+  right: 22px;
+  margin-top: 7px;
+}
+.sheet-tools-image {
+  background-position: 0px -18px;
+  background-size: 100%;
+  width: 18px;
+  height: 18px;
+}
+.sheet-tools-image:hover {
+  background-position: 0px 0px;
+}
+.language-setup-image > .t-btn-image {
+  background-position: 0px -16px;
+  background-size: 100%;
+  width: 16px;
+  height: 16px;
+}
+.language-setup-image > .t-btn-image:hover {
+  background-position: 0px 0px;
+}
+.mlang-content-builder-settings-container {
+  margin-top: 20px;
+  margin-right: 0px;
+  border: none;
+}
+.sheet-container-tools {
+  padding: 0px 14px 0px 0px;
+}
+.button-group-container {
+  position: absolute;
+  padding-top: 5px;
+}
+.caption-container {
+  text-align: center;
+  width: 100%;
+}
+.footer-container-display {
+  margin-top: 10px;
+  height: calc(90%);
+}
+.right-container.right-container-display {
+  margin-top: 60px;
+  width: auto;
+}
+#ContentItemPanelModule.content-item-panel-wrapper {
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  top: 60px;
+  right: 0;
+}
+.right-container {
+  margin-left: 27em;
+}
+.right-container[data-item-marker*='MjmlRightContainer'] {
+  margin-left: 0;
+}
+.end-button-container {
+  margin-top: 20px;
+  padding: 0;
+}
+.content-builder-container .right-container {
+  min-width: 640px;
+}
+.settings-button-group {
+  position: absolute;
+  left: -130px;
+  top: 38px;
+  box-sizing: border-box;
+  border: 1px solid #e2e2e2;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.07);
+  padding: 20px;
+  width: 208px;
+  height: 158px;
+  z-index: 2000;
+}
+.sheet-position-label-display,
+.content-sheet-width-label-display,
+.fill-setting-label {
+  width: auto;
+  font-size: 13px;
+  font-family: "Bpmonline Open Sans", serif;
+  color: #999999;
+}
+.sheet-position-label-display {
+  margin: 0px;
+  padding-right: 8px;
+}
+.content-sheet-width-label-display {
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow: initial;
+  margin-right: 34px;
+}
+.background-settings-container {
+  display: flex;
+  align-items: center;
+}
+.content-builder-align-container:after,
+.content-sheet-width-container:after {
+  content: none;
+}
+.content-builder-align-container-display,
+.content-sheet-width-container-display,
+.background-settings-container {
+  position: relative;
+  margin-bottom: 30px;
+}
+.sheet-position-control-group-container-display,
+.background-settings-container .settings-color-button,
+.content-sheet-width-container-display .content-settings-width-wrap {
+  position: absolute;
+  left: 70px;
+  top: -6px;
+}
+.background-settings-container .settings-color-button .t-btn-wrapper {
+  padding-left: 1px;
+}
+.pxLabel-display {
+  position: absolute;
+  top: 0px;
+  left: 130px;
+  width: auto;
+}
+.content-sheet-width-container .content-settings-width-wrap {
+  width: 50px;
+}
+.settings-color-button .ts-color-button-viewer {
+  box-sizing: border-box;
+}
+#header-logo-container > img {
+  max-width: 127px;
+  max-height: 27px;
+}
+#cke_email-subject-edit-inline-text-edit-el .cke_inner .cke_top {
+  padding-left: 0px;
+}
+#cke_email-subject-edit-inline-text-edit-el .cke_inner .cke_top .cke_toolbar .cke_toolgroup .cke_button .cke_button_icon {
+  margin-left: 5px;
+}

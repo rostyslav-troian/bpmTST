@@ -1,0 +1,9 @@
+﻿.operator-status-icon-wrapper {
+  margin-left: 0.5em;
+}
+.operator-status-icon-wrapper .operator-status-icon {
+  background-size: inherit;
+  height: 0.5em;
+  width: 0.5em;
+  cursor: default;
+}

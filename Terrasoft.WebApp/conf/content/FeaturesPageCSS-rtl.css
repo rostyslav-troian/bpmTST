@@ -1,0 +1,98 @@
+﻿.feature-item-label {
+  font-size: 2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: break-word;
+  height: 100%;
+  font-family: "Bpmonline Open Sans Light", serif;
+  color: #444167;
+  float: right;
+  line-height: 40px;
+  width: 380px;
+}
+.feature-item-label.feature-description {
+  font-size: 1.8em;
+  white-space: normal;
+  width: 520px;
+  color: #8a8a8a;
+  line-height: 25px;
+}
+.feature-item-label-wrap {
+  margin-bottom: 5px;
+  width: 100%;
+  max-width: 100%;
+  display: inline-block;
+}
+.feature-item-label-wrap .feature-state-switch-wrap {
+  width: 15%;
+  margin-top: 6px;
+}
+.feature-item-label-wrap .feature-hint-button {
+  float: left;
+}
+.feature-item-label-wrap .feature-hint-image {
+  float: left;
+}
+.feature-state-switch-wrap {
+  margin-top: 10px;
+  float: left;
+  display: flex;
+}
+.feature-item-wrap {
+  flex: 1 0 950px;
+  align-self: stretch;
+  max-width: 600px;
+  padding-bottom: 15px;
+  margin: 5px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.feature-item-wrap:hover {
+  border-bottom: 1px solid #e6e6e6;
+}
+.features-container-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  overflow-y: scroll;
+  margin-top: 225px;
+}
+.add-feature-container {
+  position: fixed;
+  top: 64px;
+  padding-left: calc(100% - 850px);
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e6e6e6;
+  margin-left: 280px;
+  background-color: white;
+  z-index: 15;
+}
+.add-feature-container .t-btn-wrapper {
+  margin-right: 20px;
+}
+.add-feature-container label {
+  margin-left: 5px;
+}
+.forall-wrap-class {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+.forall-wrap-class .label-wrap {
+  display: flex;
+  width: 80%;
+  max-width: 80%;
+  align-items: center;
+}
+.forall-wrap-class .label-wrap .t-label {
+  text-align: right;
+  padding: 5px 10px 0 0;
+}
+.forall-wrap-class .control-wrap {
+  margin-right: 0;
+  padding-right: 0;
+  width: 35px;
+  height: 30px;
+  display: flex;
+}

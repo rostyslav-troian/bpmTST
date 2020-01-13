@@ -1,0 +1,12 @@
+﻿.messageHistoryV2-button-label {
+  font-size: 13px;
+  color: #999;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  margin-bottom: 0px;
+}
+.messageHistoryV2-button-label:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,92 @@
+﻿/* Find TODO: #CC-1040 */
+
+.entity-relation-container {
+  display: none;
+}
+.entity-linked-icons-container {
+  display: flex;
+  align-items: center;
+}
+.entity-relation-button-wrapper {
+  padding: 7.8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.entity-relation-button-wrapper .t-btn-image {
+  width: 14px;
+  height: 14px;
+}
+.linked-relation-button {
+  width: 14px;
+  height: 14px;
+}
+.linked-relation-button-wrapper {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.entity-item-relation-container {
+  display: inline-block;
+  width: 100%;
+  padding-left: 5px;
+}
+.entity-item-relation-container .base-edit {
+  padding-right: 0px;
+}
+.connection-caption-label {
+  font-size: 10px;
+  color: #999999;
+  margin-left: 2px;
+}
+ul[data-item-marker*="relationMenuItems"] .menu-item-image {
+  width: 16px;
+  height: 16px;
+}
+.entity-relation-container .label-link {
+  cursor: pointer;
+  color: #4e7bd8;
+}
+.entity-relation-container .label-link:hover {
+  text-decoration: underline;
+}
+.entity-relation-container .control-wrap {
+  width: 82%;
+  float: left;
+}
+.entity-relation-container .control-wrap ::-webkit-input-placeholder {
+  opacity: 100;
+}
+.entity-relation-container .control-wrap :-moz-placeholder {
+  opacity: 100;
+}
+.entity-relation-container .control-wrap ::-moz-placeholder {
+  opacity: 100;
+}
+.entity-relation-container .control-wrap :-ms-input-placeholder {
+  opacity: 100;
+}
+.entity-relation-container .control-wrap :focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.entity-relation-container .control-wrap :focus::-moz-placeholderr {
+  color: transparent;
+}
+.entity-relation-container .control-wrap :focus:-moz-placeholder {
+  color: transparent;
+}
+.entity-relation-container .control-wrap :focus:-ms-input-placeholder {
+  color: transparent;
+}
+.entity-relation-container .base-edit-right-icon {
+  display: none;
+}
+.entity-relation-container .base-edit:not(.base-edit-disabled):hover .base-edit-right-icon,
+.entity-relation-container .base-edit-focus .base-edit-right-icon {
+  display: block;
+}
+.entity-relation-container .base-edit:not(.base-edit-focus) {
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.entity-relation-container .base-edit:not(.base-edit-focus):hover {
+  border: 1px solid #c8c8c8;
+}

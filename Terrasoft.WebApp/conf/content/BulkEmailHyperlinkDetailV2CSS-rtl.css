@@ -1,0 +1,30 @@
+﻿#BulkEmailHyperlinkDetailV2Container .simple-filter-edit-container:last-child {
+  margin-left: 10px;
+}
+.replica-filter-container .custom-filter-button-container .t-btn-image:not(:only-child) {
+  margin-top: 2px;
+}
+.replica-filter-container .custom-filter-button-container .t-btn-text {
+  margin-top: 2px;
+}
+.replica-filter-container .simple-filter-edit-container .base-edit-input:first-child {
+  width: 100% !important;
+}
+#BulkEmailHyperlinkDetailV2DetailControlGroup-tools {
+  flex: auto;
+}
+.grouping-ckeckbox-label {
+  width: auto;
+  padding-right: 5px;
+  line-height: 2em;
+  font-size: 13px;
+  border-left: 1px solid lightgray;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.checkbox-control-item {
+  width: auto;
+  margin-left: 4px;
+  margin-top: 3px;
+  margin-right: 4px;
+}

@@ -1,0 +1,41 @@
+﻿.business-rule-designer-container-wrapClass {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1002;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass {
+  min-height: calc(100vh - 138px);
+  left: 6px;
+  right: 6px;
+  top: 132px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass .grid-listed-row {
+  padding: 5px 30px;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass .grid.grid-listed .grid-row-actions {
+  padding-left: 0;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass .grid-captions {
+  padding: 2px 30px;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass .grid-captions:after {
+  content: "";
+  display: block;
+  margin-top: 25px;
+  margin-bottom: -30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass .ts-image-edit-container img {
+  background-color: #fff;
+}
+.schema-wrap .base-grid-dataview-container-wrapClass .empty-grid-message > .description:last-child {
+  margin-top: 0;
+}

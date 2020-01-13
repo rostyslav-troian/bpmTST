@@ -1,0 +1,42 @@
+﻿.header-name {
+  color: #444444;
+  font-size: 35px;
+  font-family: 'Segoe UI Light';
+  letter-spacing: -0.01em;
+  margin-bottom: 25px;
+}
+.extended-filter-button-container {
+  margin-top: 5px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+.extended-filter-button-container .t-btn-wrapper {
+  margin-right: 9px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  vertical-align: bottom;
+  border-right: 1px solid lightgrey;
+  padding-left: 0;
+}
+.extended-filter-btn-actions-wrapper {
+  margin-right: 9px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  vertical-align: bottom;
+}
+.extended-filter-caption {
+  width: auto;
+}
+.extended-filter-button-right {
+  width: 10px;
+  height: 11px;
+  padding: 0em;
+  margin-right: 10px;
+  float: right;
+}
+.filteredit {
+  margin-top: 24px;
+}
+#extendedFilterEdit {
+  width: 280px;
+}

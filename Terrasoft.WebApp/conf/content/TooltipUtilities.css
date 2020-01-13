@@ -1,0 +1,19 @@
+﻿.tip-content a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #4e7bd8;
+}
+.tip-content a:hover {
+  text-decoration: underline;
+}
+.tip-content .tip-header {
+  font-size: 1.4em;
+  display: block;
+  height: 0.6em;
+}
+.tip-green .tip-content .tip-header {
+  color: #8ecb60;
+}
+.tip-red .tip-content .tip-header {
+  color: #ff7a64;
+}

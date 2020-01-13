@@ -1,0 +1,85 @@
+﻿body {
+  background-color: #ebeeef;
+}
+.page-wizard .wizard-header {
+  border: none;
+  right: 0px;
+  left: 0px;
+  border-radius: 0px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.page-wizard .wizard-header-container {
+  border: none;
+  height: 40px;
+}
+.page-wizard .wizard-header-container .wizard-container .header {
+  display: none;
+}
+.page-wizard .wizard-header-container .wizard-header {
+  padding: 7px 16px;
+  height: 40px;
+}
+.page-wizard .schema-wrap .base-grid-dataview-container-wrapClass {
+  top: 46px;
+  min-height: calc(100vh - 52px);
+}
+.page-wizard .utils {
+  display: flex;
+  justify-content: space-between;
+}
+.page-wizard .utils .utils-left {
+  right: 16px;
+}
+.page-wizard .utils .utils-left [data-item-marker="CancelButton"] {
+  margin-left: 0;
+}
+.page-wizard .utils .utils-left .t-btn-style-default {
+  min-height: auto;
+}
+.page-wizard .utils .utils-left .t-btn-text {
+  line-height: 16px;
+}
+.page-wizard .utils .utils-left .t-btn-wrapper {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.page-wizard .utils .utils-right {
+  margin-right: 0;
+}
+.page-wizard .utils .utils-right .t-btn-style-default {
+  border-bottom: 3px solid transparent;
+}
+.page-wizard .utils .utils-right .t-btn-style-default.t-btn-pressed {
+  background: transparent;
+  border-bottom: 3px solid #f49d56 !important;
+  color: #444444;
+}
+.page-wizard .utils .utils-right .t-btn-style-default:not(.t-btn-disabled):hover {
+  background: transparent;
+  border-bottom: 3px solid rgba(244, 157, 86, 0.19);
+}
+.page-wizard .utils .t-btn-wrapper {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.page-wizard .utils span[data-item-marker="PreviousButton"],
+.page-wizard .utils span[data-item-marker="NextButton"] {
+  display: none;
+}
+.page-wizard .utils span[data-item-marker="StepButton"] {
+  padding-bottom: 8px;
+}
+.page-wizard .utils .schema-properties-button {
+  width: 26px;
+  height: 26px;
+  -moz-user-select: none;
+  padding: 0;
+}
+.page-wizard .utils .schema-properties-button .t-btn-image {
+  width: 26px;
+  height: 26px;
+  background-position-y: -46px;
+}
+.page-wizard .utils .schema-properties-button .t-btn-image:hover {
+  background-position-y: -7px;
+}

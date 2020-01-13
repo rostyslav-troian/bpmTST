@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="16" height="16" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_account_profile" clip-path="url(#clip-path)">
+    <path id="Path_835" data-name="Path 835" d="M-376.5,485.792h-13a6.381,6.381,0,0,1,6.5-5A6.4,6.4,0,0,1-376.5,485.792Z" transform="translate(391 -471.292)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="Ellipse_144" data-name="Ellipse 144" cx="3" cy="3" r="3" transform="translate(5 1.517)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectangle_471" data-name="Rectangle 471" width="16" height="16" fill="none"/>
+  </g>
+</svg>

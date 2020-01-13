@@ -1,0 +1,334 @@
+﻿.filter-simple-filter-edit {
+  width: 150px;
+  margin-left: 9px;
+  vertical-align: bottom;
+}
+.filter-simple-filter-edit .base-edit-input {
+  display: block;
+}
+.filter-simple-filter-edit-combo {
+  width: 150px;
+  margin-left: 9px;
+  vertical-align: bottom;
+}
+.filter-simple-filter-edit-combo .base-edit-input {
+  display: block;
+}
+.filter-simple-filter-edit-combo .base-edit-right-icon-wrapper {
+  display: none;
+}
+.simple-filter-edit-container .t-btn-wrapper {
+  margin-left: 9px;
+  vertical-align: bottom;
+  width: 28px;
+  padding-top: 5px;
+  padding-right: 5px;
+  min-height: 28px;
+}
+.simple-filter-edit-container .t-btn-style-blue {
+  height: 28px;
+}
+.fixed-filter-container,
+.custom-filter-button-container,
+.simple-filter-edit-container,
+.custom-filter-container {
+  float: right;
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: top;
+  max-width: 100%;
+}
+.fixed-filter-container:empty {
+  display: none;
+}
+.fixed-filter-container .wrapper-with-centered-right-menu {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 0;
+  padding-top: 0.175em;
+}
+.fixed-filter-container .filter-remove-button {
+  margin-left: 22px;
+}
+.custom-filter-container .t-btn-text {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  line-height: 1.075em;
+}
+.simple-filter-edit-container {
+  margin: 1px 18px 0 0;
+  background-color: transparent;
+  z-index: 100;
+  position: relative;
+}
+.filter-remove-button {
+  padding: 0.35em;
+  padding-bottom: 0.3em;
+  position: relative;
+  top: 3px;
+  margin-left: 15px;
+}
+.customFilterContainer .filter-inner-container {
+  padding-top: 7px;
+}
+.filter-value-label,
+.filter-caption-label {
+  display: inline;
+}
+.fixed-filter-element-container-wrap,
+.filter-element-container-wrap {
+  display: inline-block;
+  vertical-align: top;
+  height: 30px;
+  float: right;
+  max-width: 100%;
+}
+.filter-inner-container label {
+  margin-left: 2px;
+  vertical-align: inherit;
+  top: 0;
+  position: relative;
+}
+.custom-filter-button-container .wrapper-with-centered-right-menu {
+  display: inline-flex;
+  padding-right: 0;
+  padding-bottom: 0.45em;
+  padding-top: 0.45em;
+  margin-right: 10px;
+}
+.custom-filter-button-container .t-btn-image {
+  width: 16px;
+  height: 16px;
+  margin-left: 0.5em;
+  margin-top: 0.1em;
+}
+.detail .custom-filter-button-container .t-btn-image {
+  margin-top: 0;
+}
+.fixed-period-filter-element-container-wrap .wrapper-with-centered-right-menu .t-btn-menu {
+  top: -0.3em !important;
+}
+.fixed-period-filter-element-container-wrap .t-btn-wrapper.wrapper-with-centered-right-menu {
+  padding-top: 0.4em;
+}
+.filter-inner-container .wrapper-with-centered-right-menu .t-btn-menu {
+  top: 0.2em !important;
+}
+.dashboard-container .filters-container-wrapClass {
+  margin-top: 0.5em !important;
+}
+.section-inner-wrap.two-el .utils-container-wrapClass {
+  padding-top: 0.1em;
+  padding-right: 10px;
+  min-width: 0;
+}
+.section-inner-wrap.two-el .grid-dataview-container-wrapClass,
+.section-inner-wrap.two-el .analytics-gridLayout-container {
+  margin-top: 0.1em;
+  margin-right: -1px;
+}
+.filter-caption-label {
+  color: #999999;
+  padding-left: 3px;
+}
+.period-fixed-filter-image-class {
+  width: 20px;
+  height: 20px;
+}
+.schema-wrap.two-el .left-utils-container-wrapClass .day-period-fixed-filter-wrapper-class {
+  display: none;
+}
+.day-period-fixed-filter-wrapper-class {
+  padding-top: 0.4em;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 1.7143em;
+}
+.week-period-fixed-filter-wrapper-class {
+  padding-left: 1.3em;
+}
+.folder-icon-button {
+  padding: 0 !important;
+  vertical-align: bottom;
+  height: 20px;
+}
+.folder-icon-button .t-btn-image {
+  width: 16px;
+  height: 16px;
+  margin-top: -1px;
+}
+.folder-icon-button .t-btn-text {
+  margin-right: 5px;
+}
+.folder-icon-button .t-btn-menu,
+.folder-icon-button .t-btn-menuWrap {
+  display: none;
+}
+.owner-fixed-filter-container-class {
+  vertical-align: top;
+}
+.owner-fixed-filter-container-class .wrapper-with-centered-right-menu {
+  padding-top: 0.5em;
+}
+.owner-fixed-filter-container-class .t-btn-image {
+  width: 1.4em;
+  height: 1.4em;
+  margin-top: -0.2em;
+  margin-left: 0.5em;
+}
+.folder-filter-container {
+  line-height: 27px;
+  float: right;
+  height: 34px;
+}
+.folder-filter-container .folder-filter-inner-container .filter-caption-value-container .folder-icon-button {
+  width: 100%;
+}
+.folder-filter-container .folder-filter-inner-container .filter-caption-value-container .folder-icon-button .t-btn-text {
+  max-width: 88%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.folder-filter-container .folder-filter-inner-container .filter-remove-button {
+  top: 2px;
+}
+.x-ie .folder-filter-inner-container {
+  max-width: 240px;
+}
+.x-ie .folder-filter-inner-container .filter-caption-value-container {
+  width: auto;
+  max-width: 200px;
+}
+.x-ie .folder-filter-inner-container .filter-caption-value-container .folder-icon-button {
+  width: auto;
+}
+.x-ie .folder-filter-inner-container .filter-caption-value-container .folder-icon-button .t-btn-text {
+  width: auto;
+  max-width: 160px;
+}
+.filter-caption-value-container {
+  display: inline-block;
+  max-width: 240px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-top: 0;
+  text-overflow: ellipsis;
+}
+.tag-filters-container {
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: top;
+  float: right;
+}
+.tag-filters-container .x-ie .tag-filters-container .tag-filters-add-button-text {
+  width: auto;
+}
+.tag-filters-container .tag-filters-add-button-container {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+.tag-filters-container .tag-filters-add-button {
+  padding: 9px 3px 9px 8px;
+}
+.tag-filters-container .tag-filters-add-button .tag-filters-icon {
+  height: 16px;
+  width: 16px;
+}
+.tag-filters-container .tag-filters-add-button-text {
+  width: initial;
+  padding-left: 3px;
+}
+.tag-filters-container .tag-filters-add-button-text:hover {
+  cursor: pointer;
+  color: #10a0e3;
+}
+.tag-filters-container .tag-filter-edit-container {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  float: right;
+}
+.tag-filters-container .tag-filter-edit-container .t-btn-image {
+  margin: 0;
+}
+.tag-filters-container .tag-filter-edit-container .t-btn-wrapper {
+  margin-left: 9px;
+  vertical-align: bottom;
+  width: 28px;
+  padding-right: 5px;
+  padding-top: 5px;
+  min-height: 28px;
+}
+.tag-filters-container .tag-filter-edit-container .base-edit-right-icon-wrapper {
+  display: none;
+}
+.tag-filters-container .tag-filter-edit-container .base-edit-with-right-icon {
+  padding-left: 10px;
+  height: 28px;
+  vertical-align: bottom;
+}
+.tag-filters-container .tag-filter-edit-container .base-edit-with-right-icon .base-edit-input {
+  display: block;
+}
+.tag-filters-container .tags-container-list {
+  display: inline-block;
+}
+.tag-filters-container .tag-filter-item {
+  display: inline-block;
+  border-radius: 7px;
+  height: 25px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.tag-filters-container .tag-filter-item .tag-filter-item-label {
+  margin-top: -4px;
+}
+.tag-filters-container .tag-filter-item .filter-remove-button {
+  display: none;
+}
+.tag-filters-container .tag-filter-item:hover .filter-remove-button {
+  display: inline-block;
+  left: 2px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.tag-filters-container .tag-filter-item-container {
+  display: inline-block;
+  float: right;
+}
+.schema-wrap.two-el .left-utils-container-wrapClass .folder-filter-container {
+  float: none;
+}
+.schema-wrap.two-el .left-utils-container-wrapClass .tag-filters-container .tag-filters-add-button-container {
+  width: 280px;
+  display: block;
+  float: none;
+}
+.schema-wrap.two-el .left-utils-container-wrapClass .tag-filters-container .tag-filters-add-button-container .tag-filters-add-button-text {
+  top: 0;
+}
+.schema-wrap.two-el .left-utils-container-wrapClass .tag-filters-container .tag-filters-add-button-container .tag-filters-add-button {
+  padding-top: 6px;
+  margin-right: -3px;
+}
+.schema-wrap.two-el .left-utils-container-wrapClass .tag-filters-container .tags-container-list {
+  width: 280px;
+  display: block;
+}
+.schema-wrap.two-el .left-utils-container-wrapClass .tag-filters-container .tag-filter-item-container {
+  display: block;
+  height: 29px;
+}
+.schema-wrap.two-el .left-utils-container-wrapClass .tag-filters-container .tag-filter-item {
+  margin-top: 1px;
+}
+.schema-wrap.two-el .left-utils-container-wrapClass .tag-filters-container .tag-filter-edit-container .filter-simple-filter-edit {
+  width: 229px;
+}
+.schema-wrap.two-el .left-utils-container-wrapClass .tag-filters-container .tag-filter-item-label {
+  max-width: 258px;
+}

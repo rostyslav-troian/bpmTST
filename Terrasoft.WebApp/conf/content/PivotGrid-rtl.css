@@ -1,0 +1,92 @@
+﻿html[dir="rtl"] .grid-listed [grid-cell-type~="number"] [grid-data-type="number"] {
+  text-align: right;
+}
+html[dir="rtl"] .configuration-grid .content-row-wrap .grid-listed-row .grid-cell-selected .base-edit-input {
+  text-align: right;
+}
+.border-left {
+  border-right: 1px solid #E0E0E0;
+}
+.border-right {
+  border-left: 1px solid #E0E0E0;
+}
+.grid-listed [grid-cell-type~="number"] [grid-data-type="number"] {
+  display: block;
+  text-align: left;
+}
+.configuration-grid .content-row-wrap {
+  padding-top: 2px;
+  padding-right: 2px;
+  overflow: auto;
+  clear: none;
+  display: block;
+}
+.configuration-grid .content-row-wrap [class*='grid-cols-'] {
+  padding: 0 0 0 0px !important;
+}
+.configuration-grid .content-row-wrap .grid-cell .grid-row-controls {
+  width: inherit;
+}
+.configuration-grid .content-row-wrap .grid-listed-row .grid-cell-selected {
+  line-height: 1.5em !important;
+}
+.configuration-grid .content-row-wrap .grid-listed-row .grid-cell-selected span[grid-data-type="number"] {
+  display: none;
+}
+.configuration-grid .content-row-wrap .grid-listed-row .grid-cell-selected .base-edit {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  line-height: inherit !important;
+}
+.configuration-grid .content-row-wrap .grid-listed-row .grid-cell-selected .base-edit-input {
+  line-height: 2.3em;
+  text-align: left;
+  font-size: 1em;
+  padding-left: 0.2em;
+}
+.columns-captions-wrap {
+  padding-top: 2px;
+  display: block;
+  overflow: hidden;
+  clear: none;
+  padding-right: 2px;
+  border-bottom: 1px solid #E0E0E0;
+}
+.captions-empty {
+  border-bottom: 1px solid #E0E0E0;
+}
+.rows-captions-wrap,
+.captions-empty {
+  padding-top: 2px;
+  padding-left: 2px;
+  height: 1px;
+  display: inline-block;
+  float: right;
+  overflow: hidden;
+  clear: both;
+}
+.grid-listed-row {
+  padding: 7px 6px 0;
+}
+.grid-listed-caption-row {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 0 0px;
+  padding: 0px 0px 0;
+  min-height: 35px;
+  width: 100%;
+  text-align: left;
+}
+.grid-listed-caption-row [class*='grid-cols-'] {
+  line-height: 2.43em !important;
+  padding: 0 0 0 0px;
+}
+.grid-listed-caption-row [class*='grid-cols-'] label {
+  margin-left: 0px;
+}
+.captions-wrapper-block {
+  width: 100%;
+  display: inline-block;
+}

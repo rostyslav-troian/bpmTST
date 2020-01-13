@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Mobile</name>
+    </assembly>
+    <members>
+        <member name="M:Terrasoft.Mobile.MobileManifest.ParseApplicationRequiredModels(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Reads application required models and appends it to model schema list.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Mobile.MobileManifest.ParseRequiredModelsSection(Newtonsoft.Json.Linq.JToken)">
+            <summary>
+            Reads required models and appends it to model schema list.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Mobile.MobileManifest.ParseCustomSchemasSection(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Reads custom schemas and appends it to source code schema list.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Mobile.MobileManifest.ParseSyncExtensionsSection(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Reads 'SyncExtensions' schemas and appends it to source code schema list.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Mobile.MobileManifest.ParsePagesExtensionsSection(Newtonsoft.Json.Linq.JToken)">
+            <summary>
+            Reads page extension schemas and appends it to source code schema list.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Mobile.MobileManifest.ParseModelExtensionsSection(Newtonsoft.Json.Linq.JToken)">
+            <summary>
+            Reads model extension schemas and appends it to source code schema list.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Mobile.MobileUtilities.ClearMobileManifests">
+            <summary>
+            Clears mobile manifest.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Mobile.MobileUtilities.ClearMobileClientUnitSchemaBodiesCache">
+            <summary>
+            Clears mobile client unit schema bodies cache.
+            </summary>
+        </member>
+    </members>
+</doc>

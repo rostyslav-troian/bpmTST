@@ -1,0 +1,182 @@
+﻿#CasePageV2TabsContainerContainer {
+  margin-top: -5px;
+}
+#CasePageV2RightTabsTabPanel-wrap {
+  display: none;
+}
+#CasePageV2OpenCasesDetailContainer .ts-controlgroup-caption-wrap {
+  display: none;
+}
+#CasePageV2OpenCasesDetailContainer .tab-panel-margin-bottom {
+  margin-bottom: 1em;
+}
+#CasePageV2OpenCasesTabsTabPanel-scroll-left,
+#CasePageV2OpenCasesTabsTabPanel-scroll-right {
+  display: none;
+}
+#CommunicationInCaseDetailContainer .detail-edit-container-user-class,
+#CommunicationInCaseDetailContainer .restrictions-container-class {
+  width: 90%;
+}
+#MessagePublishers {
+  margin-top: 10px;
+}
+.caseCreatedOnLabel {
+  text-align: left;
+  font-size: 11.5px;
+  color: #999;
+}
+.owner-group-require-label {
+  padding-right: 7em;
+}
+.case-origin-image-class {
+  float: right;
+  margin-left: 6px;
+}
+.case-priority-image-container {
+  float: left;
+  margin-left: 2px;
+}
+.caseNumberContainer {
+  float: left;
+  color: #444;
+  background-color: #D5EFEB;
+  padding-right: 7px;
+  padding-left: 7px;
+  padding-top: 2px;
+  margin-right: 5px;
+}
+.caseLinkButton {
+  color: #4e7bd8;
+}
+.assignToButton {
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 17px;
+  float: left;
+}
+.caseCreatedOnContainer {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 9px;
+  color: #999;
+}
+#RightContainerTab {
+  width: 270px;
+  margin-right: -20px;
+  background-color: #f6f6f6;
+  font-family: "Segoe UI";
+  padding-bottom: 10px;
+}
+#RightContainerTab div {
+  background-color: transparent;
+}
+#RightContainerTab span :not(.base-edit-validation) {
+  background-color: transparent;
+}
+#RightContainerTab li {
+  background-color: transparent;
+}
+#RightContainerTab input {
+  background-color: transparent;
+}
+.caseParametersContainer {
+  margin-top: 15px;
+}
+.CaseProcessingContainer {
+  margin-bottom: 14px;
+}
+#ParametersTab .base-edit {
+  height: auto;
+}
+.resolutionContainer {
+  margin-top: 15px;
+}
+.grid-mini-wrap .grid-layout-column {
+  min-height: 0px;
+}
+.grid-mini-wrap .grid-layout-row {
+  min-height: 0px;
+}
+.grid-layout-column > .caseNumberContainer > label {
+  font-size: 14px;
+  font-family: "Segoe UI";
+  float: left;
+  padding-top: 10px;
+}
+.grid-layout-column > .caseStatusContainer > label {
+  font-size: 12px;
+  font-family: "Segoe UI";
+  float: right;
+  padding-top: 10px;
+  margin-right: -15px;
+}
+.priority-edit-class > .control-mini-wrap > .base-edit.base-edit-with-right-icon {
+  padding: 0px 0px 0px 0px;
+  border: none;
+}
+.priority-edit-class > .control-mini-wrap > .base-edit.base-edit-with-right-icon input {
+  display: none;
+}
+.profile-estimate-caption-container > label {
+  color: #f60000;
+  font-size: 12px;
+  font-family: "Segoe UI";
+  float: left;
+}
+#SolutionDateDateTimeContainer > .datetime-datecontrol {
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 60%;
+}
+#SolutionDateDateTimeContainer > .datetime-timecontrol {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 35%;
+}
+.profile-estimate-caption-container {
+  margin: 30px -10px 0px 9px;
+}
+#RightContainerTab .control-wrap.control-mini-wrap .base-edit {
+  margin-right: -10px;
+}
+#RightContainerTab .control-mini-wrap .time-edit.datetime-timecontrol {
+  margin-right: -5px;
+  width: 40%;
+}
+#CasePageV2PriorityContainer {
+  padding-top: 4px;
+  padding-right: 4px;
+}
+#RightContainerTab .container-mini-wrap {
+  padding-top: 4px;
+}
+.control-mini-wrap .base-edit-validation {
+  left: 0px;
+  right: auto;
+}
+#ProcessingTab .label-wrap {
+  min-width: 7em;
+  max-width: 7em;
+}
+#CasePageV2TabsTabPanel-wrap,
+#ModulePageBaseContainer,
+.publisherButtonsContainer {
+  margin-bottom: 18px;
+}
+#ProcessingTab .html-editor,
+#EmailMessagePublisherPageEmailPageMessageBlockGridLayout {
+  margin-top: 18px;
+}
+#CasePageV2ResolutionContainer_gridLayoutGridLayout,
+#CasePageV2CaseParameters_gridLayoutGridLayout {
+  margin-bottom: 50px;
+}
+#ProcessingTab #CasePageV2SubjectContainer_Label {
+  min-width: 0em;
+}
+#ProcessingTab #CasePageV2SubjectContainer_Label .t-label {
+  width: 100%;
+  display: flex;
+  padding-left: 5px;
+}

@@ -1,0 +1,69 @@
+﻿#CampaignDiagramPropertyModule {
+  display: block;
+}
+.filters-grid-row {
+  padding: 2px 0;
+}
+.filter-control-wrap {
+  display: inline-block;
+  width: 40px;
+}
+.filter-label-wrap {
+  display: inline-block;
+  color: #999999;
+}
+.campaign-diagram-property-container .description-container {
+  padding-top: 11px;
+  padding-bottom: 13px;
+  padding-left: 24px;
+  box-shadow: -3px 0 0 0 #54b8df;
+  margin-left: 3px;
+  color: #999999;
+  font-size: 1.2em;
+}
+.campaign-diagram-property-container .header {
+  display: table;
+  width: 100%;
+}
+.campaign-diagram-property-container .header > div {
+  display: table-cell;
+  vertical-align: top;
+}
+.campaign-diagram-property-container .header > .column-1 {
+  min-width: 80px;
+  width: 80px;
+}
+.campaign-diagram-property-container .header > .column-2 {
+  width: 100%;
+}
+.campaign-diagram-property-container .not-selected-image {
+  width: 100%;
+  text-align: center;
+  margin-right: 0px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.campaign-diagram-property-container .header .page-icon-wrap {
+  margin-right: 0px;
+}
+.campaign-diagram-property-container .header .page-icon-wrap img {
+  width: 54px;
+  height: 54px;
+}
+.campaign-diagram-property-container .header .label-type {
+  color: #999999;
+}
+.campaign-diagram-property-container .main {
+  margin-top: 22px;
+}
+.campaign-diagram-property-container .main .label-wrap {
+  max-width: 11.7em;
+}
+.campaign-diagram-property-container .main .label-wrap + .control-wrap {
+  margin-left: -12.7em;
+  padding-left: 12.7em;
+}
+.campaign-diagram-property-container .main.fields-container {
+  margin-top: 35px;
+  margin-left: -26px;
+}

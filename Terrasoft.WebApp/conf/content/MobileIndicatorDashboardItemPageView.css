@@ -1,0 +1,10 @@
+﻿.cf-indicator-dashboard-item-page .cf-dashboard-item-page-item-container {
+  height: 150px;
+}
+.cf-indicator-dashboard-item-page .cf-indicator-dashboard-component {
+  overflow: hidden;
+}
+.cf-indicator-dashboard-item-page .cf-indicator-dashboard-component .x-innerhtml {
+  line-height: normal;
+  font-size: 36px;
+}

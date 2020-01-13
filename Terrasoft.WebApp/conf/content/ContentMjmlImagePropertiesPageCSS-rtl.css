@@ -1,0 +1,18 @@
+﻿.right-panel-container *[data-item-type="mjimage"] .properties-header,
+.right-panel-container *[data-item-type="mjimage"] .properties-content .ts-tabpanel {
+  background-color: #9779c7;
+}
+.right-panel-container *[data-item-type="mjimage"] .ts-controlgroup-caption-wrap > span {
+  color: #9779c7;
+}
+.right-panel-container *[data-item-type="mjimage"] .background-label-wrapper > label {
+  color: #9779c7;
+}
+.right-panel-container *[data-item-type="mjimage"] .base-edit-with-clear-icon[data-item-marker="Image"]:not(.clear-icon-not-visible):hover .base-edit-input,
+.right-panel-container *[data-item-type="mjimage"] .base-edit-with-clear-icon[data-item-marker="BackgroundImage"]:not(.clear-icon-not-visible):hover .base-edit-input {
+  padding-left: 0;
+}
+.right-panel-container *[data-item-type="mjimage"] .base-edit-with-clear-icon[data-item-marker="Image"] .base-edit-clear-icon,
+.right-panel-container *[data-item-type="mjimage"] .base-edit-with-clear-icon[data-item-marker="BackgroundImage"] .base-edit-clear-icon {
+  left: 0;
+}

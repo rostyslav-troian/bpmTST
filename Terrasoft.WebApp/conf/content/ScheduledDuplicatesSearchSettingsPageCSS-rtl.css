@@ -1,0 +1,61 @@
+﻿.search-settings-wrap .t-btn-wrapper {
+  margin-left: 10px;
+}
+.search-settings-wrap .search-settings-time-caption {
+  font-size: 18px;
+}
+.search-settings-wrap .search-settings-days {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 125px;
+  max-height: 125px;
+}
+.search-settings-wrap .search-settings-days .checkbox-control-item {
+  width: 50%;
+}
+.search-settings-wrap .search-settings-days .checkbox-control-item .control-wrap {
+  float: right;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+.search-settings-wrap .search-settings-days .checkbox-control-item .checkbox-label-wrap {
+  min-width: 0;
+  max-width: none;
+  width: auto;
+  margin-right: 10px;
+}
+.search-settings-wrap .search-settings-grid-wrap {
+  margin-top: 20px;
+  display: flex;
+}
+.search-settings-wrap .search-settings-grid-wrap > div {
+  width: 50%;
+}
+.search-settings-wrap .search-settings-grid-wrap > div:first-child {
+  margin-left: 20px;
+}
+.search-settings-wrap .search-settings-grid-wrap .t-label {
+  color: #444;
+}
+.search-settings-wrap .search-settings-grid-wrap .search-settings-time {
+  display: flex;
+}
+.search-settings-wrap .search-settings-grid-wrap .search-settings-time .control-width-15 {
+  width: 180px;
+}
+.search-settings-wrap .search-settings-grid-wrap .search-settings-time .control-width-15 .label-wrap {
+  min-width: auto;
+  width: 15px;
+}
+.search-settings-wrap .search-settings-grid-wrap .search-settings-time .control-width-15 .label-wrap .t-label {
+  text-align: right;
+}
+.search-settings-wrap .search-settings-grid-wrap .search-settings-time .control-width-15 .label-wrap + .control-wrap {
+  margin-right: -30px;
+  padding-right: 30px;
+}
+.search-settings-wrap .search-settings-grid-wrap .search-settings-time .control-width-15 + .t-label {
+  margin-top: 5px;
+}

@@ -1,0 +1,82 @@
+﻿.invitation-modal-box {
+  border-top: none;
+  padding: 32px 40px 22px 40px;
+}
+.invitation-modal-box .ts-modalbox-innerbox {
+  display: block;
+}
+.invitation-modal-box .ts-modalbox-innerbox .schema-wrap.one-el {
+  min-width: 0;
+}
+.portal-user-invitation-form-control-caption {
+  font-size: 21px;
+  font-family: "Bpmonline Open Sans Light", serif;
+  color: #00aeef;
+}
+.portal-user-invitation-form-control-caption-message {
+  font-size: 14px;
+  font-family: "Bpmonline Open Sans", serif;
+  color: #999;
+  margin-top: 13px;
+  width: 465px;
+}
+.portal-user-invitation-form-email-label {
+  font-size: 14px;
+  font-family: "Bpmonline Open Sans", serif;
+  color: #999;
+}
+.portal-user-invitation-form-email-label-container .tip-label-wrap {
+  text-align: left;
+  margin-top: 8px;
+}
+.portal-user-invitation-emails-wrap {
+  margin-right: 45px;
+  margin-top: 14px;
+  height: 82px;
+}
+.portal-user-invitation-emails-input {
+  width: 470px;
+  height: 75px;
+}
+.portal-user-invitation-form-button-container {
+  float: right;
+  margin-top: 25px;
+  margin-right: 52px;
+  margin-bottom: 28px;
+}
+.portal-user-invitation-form-button-container .t-btn-style-blue {
+  margin-right: 10px;
+}
+.func-roles-control-wrap {
+  overflow: visible;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-right: 8px;
+}
+.optional-roles-item-container {
+  margin-top: 8px;
+}
+.invite-alignable-container {
+  max-height: 500px;
+  overflow-y: auto;
+}
+.invite-alignable-container-background {
+  background: white;
+}
+.invite-module-container {
+  margin-left: 40px;
+  margin-top: 32px;
+}
+.invite-module-container .schema-wrap.one-el {
+  min-width: 450px;
+}
+.invite-alignable-container {
+  padding: 0;
+  max-width: 550px;
+  width: 550px;
+}
+.func-roles-label-wrap.label-wrap {
+  max-width: 450px;
+  width: auto;
+}

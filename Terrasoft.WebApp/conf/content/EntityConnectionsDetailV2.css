@@ -1,0 +1,68 @@
+﻿/* Find TODO: #CC-1040 */
+
+.entity-relation-container {
+  display: none;
+}
+.entity-relation-button-wrapper {
+  padding: 7.8px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.entity-item-relation-container {
+  display: inline-block;
+  width: 100%;
+  padding-right: 5px;
+}
+ul[data-item-marker*="relationMenuItems"] .menu-item-image {
+  width: 16px;
+  height: 16px;
+}
+.entity-relation-container .label-link {
+  cursor: pointer;
+  color: #4e7bd8;
+}
+.entity-relation-container .label-link:hover {
+  text-decoration: underline;
+}
+.entity-relation-container .control-wrap {
+  width: 80%;
+  float: right;
+}
+.entity-relation-container .control-wrap ::-webkit-input-placeholder {
+  opacity: 100;
+}
+.entity-relation-container .control-wrap :-moz-placeholder {
+  opacity: 100;
+}
+.entity-relation-container .control-wrap ::-moz-placeholder {
+  opacity: 100;
+}
+.entity-relation-container .control-wrap :-ms-input-placeholder {
+  opacity: 100;
+}
+.entity-relation-container .control-wrap :focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.entity-relation-container .control-wrap :focus::-moz-placeholderr {
+  color: transparent;
+}
+.entity-relation-container .control-wrap :focus:-moz-placeholder {
+  color: transparent;
+}
+.entity-relation-container .control-wrap :focus:-ms-input-placeholder {
+  color: transparent;
+}
+.entity-relation-container .base-edit-right-icon {
+  display: none;
+}
+.entity-relation-container .base-edit:not(.base-edit-disabled):hover .base-edit-right-icon,
+.entity-relation-container .base-edit-focus .base-edit-right-icon {
+  display: block;
+}
+.entity-relation-container .base-edit:not(.base-edit-focus) {
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.entity-relation-container .base-edit:not(.base-edit-focus):hover {
+  border: 1px solid #c8c8c8;
+}

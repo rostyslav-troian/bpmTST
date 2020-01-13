@@ -1,0 +1,6 @@
+.content-html-element-wrap {
+	border: 1px dotted #ffbfbf;
+}
+.content-html-element-wrap .content-html-element-tools-wrap > span {
+	margin: 5px;
+}

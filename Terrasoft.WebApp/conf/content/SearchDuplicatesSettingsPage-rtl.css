@@ -1,0 +1,90 @@
+﻿.captionContainerSearchDuplicatesSettings .t-label {
+  font-family: "Segoe UI Light";
+  font-size: 3.5em;
+  letter-spacing: -0.01em;
+  margin-bottom: 34px;
+}
+#SearchDuplicatesSettingsRecommendationModuleContainer {
+  margin-bottom: 2em;
+}
+.search-duplicate-recommendation {
+  color: #999999;
+}
+#SearchDuplicatesSettingsButtonsContainer {
+  margin-bottom: 2em;
+}
+#acceptButton-textEl {
+  margin-left: 0.5em;
+}
+.custom-inline,
+.custom-inline div {
+  clear: left;
+  margin-bottom: 1em;
+}
+#byPeriodSettingsWeekContainer {
+  margin-top: 1em;
+}
+#byPeriodSettingsWeekLeftContainer {
+  width: 30%;
+  min-width: 200px;
+  display: inline-block;
+}
+#byPeriodSettingsWeekRightContainer {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+#byPeriodSettingsControlGroup {
+  padding-top: 16px;
+  padding-bottom: 3px;
+}
+#onSaveSettingsControlGroup {
+  padding-top: 18px;
+  padding-bottom: 14px;
+}
+#byPeriodSettingsOnTimeContainer .t-label {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+#byPeriodSettingsOnTimeContainer .base-edit {
+  width: 10.5em;
+  top: -0.5em;
+  display: inline-block;
+  margin: 0em 1em 0em 1em;
+}
+#byPeriodSettingsForAllContainer,
+#byPeriodSettingsForChangedContainer {
+  margin-right: 3em;
+}
+.custom-inline .t-checkboxedit-wrap,
+.custom-inline .t-radio-wrap {
+  float: right;
+}
+.custom-inline .t-label {
+  margin-right: 1em;
+  width: auto;
+}
+.header-name-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding-left: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.command-line {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding-right: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.dulpicates-settings-label {
+  color: #999999;
+  font-size: 22px;
+  padding-left: 12px;
+}

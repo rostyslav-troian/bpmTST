@@ -1,0 +1,75 @@
+﻿.cloudintegration-control-group .ts-controlgroup-container {
+  padding-left: 20px;
+}
+.cloudintegration-label-small {
+  min-width: 8em !important;
+}
+.cloudintegration-code {
+  color: #999999;
+}
+.cloudintegration-regular-text {
+  margin: 0 0 5px 0;
+}
+.cloudintegration-footnote-label {
+  margin: 5px 0 5px 0;
+}
+.cloudintegration-script-text-box {
+  font: 10px "Courier New", monospace;
+}
+.cloudintegration-script-text-box [id$="-scroll"] {
+  border: 1px solid #c8c8c8 !important;
+}
+.cloudintegration-refresh-button {
+  border: 1px solid #b4c1d2;
+  border-radius: 2px;
+  color: #4e7bd8;
+  font-size: 13px;
+  height: 1.923em;
+  padding-top: 0.231em;
+  padding-bottom: 0;
+  padding-left: 0.769em;
+  margin-right: 0.231em;
+  flex-shrink: 0;
+  webkit-flex-shrink: 0;
+}
+.cloudintegration-status-label:before,
+.system-email-status:before {
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  content: "";
+  border-radius: 6px;
+  margin-right: 7px;
+  margin-top: 10px;
+}
+[check-email-status="checked"].system-email-status:before,
+[data-connection-status="connected"].cloudintegration-status-label:before {
+  background: #8ecb60;
+}
+[check-email-status="check-failed"].system-email-status:before,
+[data-connection-status="disconnected"].cloudintegration-status-label:before {
+  background: #ff7043;
+}
+[check-email-status="waiting-for-verification"].system-email-status:before {
+  background: #ffc107;
+}
+.base-edit.ts-box-sizing.cloudintegration-status-label,
+.base-edit.ts-box-sizing.cloudintegration-status-label:hover,
+.base-edit.ts-box-sizing.system-email-status,
+.base-edit.ts-box-sizing.system-email-status:hover {
+  display: flex;
+  border: none;
+  background: #ffffff;
+}
+.base-edit.ts-box-sizing.cloudintegration-status-label > input,
+.base-edit.ts-box-sizing.system-email-status > input {
+  background: #ffffff;
+}
+.info-area-label {
+  background-color: #f9f9f9;
+  color: #444444;
+  font: 14px "Courier New", monospace;
+  border: 1px solid #c8c8c8 !important;
+  padding: 6px;
+  word-wrap: break-word;
+}

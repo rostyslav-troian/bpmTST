@@ -1,0 +1,22 @@
+<svg id="icon_change-log" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_4766" data-name="Group 4766" transform="translate(-1781.808 -240.683)">
+    <rect id="Rectangle_5023" data-name="Rectangle 5023" width="20" height="20" transform="translate(1781.808 240.683)" fill="none"/>
+  </g>
+  <g id="Group_4769" data-name="Group 4769" transform="translate(-1781.808 -240.683)">
+    <g id="Group_4767" data-name="Group 4767">
+      <path id="Path_4304" data-name="Path 4304" d="M1796.979,247.223l1.415,1.414-8.108,8.108a3.889,3.889,0,0,0-.439-.025,3.941,3.941,0,0,0-1.11.159,3.922,3.922,0,0,0,.139-1.553l8.1-8.1m0-1.414L1787.787,255a2.959,2.959,0,0,1-.854,2.975c.3.3.42.42.707.707a3.066,3.066,0,0,1,2.207-.963,2.474,2.474,0,0,1,.768.11l9.193-9.193-2.829-2.828Z" fill="#8395b4"/>
+    </g>
+    <g id="Group_4768" data-name="Group 4768">
+      <rect id="Rectangle_5024" data-name="Rectangle 5024" width="1" height="1.533" transform="matrix(0.707, -0.707, 0.707, 0.707, 1795.08, 249.453)" fill="#8395b4"/>
+    </g>
+  </g>
+  <g id="Group_4770" data-name="Group 4770" transform="translate(-1781.808 -240.683)">
+    <path id="Path_4305" data-name="Path 4305" d="M1783.839,242.671v4h10.718v-1h-9.718v-2h13.969v1.394l1,1v-3.394Z" fill="#8395b4"/>
+  </g>
+  <g id="Group_4771" data-name="Group 4771" transform="translate(-1781.808 -240.683)">
+    <path id="Path_4306" data-name="Path 4306" d="M1784.839,257.683v-2h1.26v-1h-2.26v4h1.048Z" fill="#8395b4"/>
+  </g>
+  <g id="Group_4772" data-name="Group 4772" transform="translate(-1781.808 -240.683)">
+    <path id="Path_4307" data-name="Path 4307" d="M1788.4,251.677h-3.562v-2h6.624v-1h-7.624v4h4.562Z" fill="#8395b4"/>
+  </g>
+</svg>

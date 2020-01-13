@@ -1,0 +1,14 @@
+{
+	"harness": {
+		"runCore": "sequential",
+		"title": "Core Integration tests",
+		"forceDOMVisible": false,
+		"failOnExclusiveSpecsWhenAutomated": true,
+		"warnOnNotBDD": false
+	},
+	"cmd": {
+		"filter": "ui.tests.js",
+		"max-workers": 1,
+		"no-color": false
+	}
+}

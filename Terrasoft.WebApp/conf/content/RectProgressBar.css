@@ -1,0 +1,49 @@
+﻿.ts-rect-progress-bar-wrap {
+  float: left;
+  position: relative;
+  width: 8px;
+  height: 83px;
+  min-height: 50px;
+  border: 1px solid #f2f2f2;
+}
+.ts-rect-progress-bar-wrap.horizontal-progress-bar {
+  width: 100%;
+  height: 8px;
+  min-height: 8px;
+  padding-bottom: 0;
+}
+.ts-rect-progress-bar-wrap.horizontal-progress-bar .rect {
+  height: 100%;
+  width: auto;
+}
+.ts-rect-progress-bar-wrap.horizontal-progress-bar .overlay {
+  margin-top: 6px;
+  margin-left: 0;
+}
+.ts-rect-progress-bar-wrap .rect {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  background-color: #8ecb60;
+}
+.ts-rect-progress-bar-wrap .overlay {
+  position: absolute;
+  margin-left: 12px;
+  text-align: center;
+  font-size: 16px;
+  color: #8ecb60;
+}
+.ts-rect-progress-bar-wrap .overlay .caption-suffix {
+  font-size: 14px;
+}
+.completeness-caption {
+  padding-left: 1px;
+  font-size: 1.3em;
+  color: #999999;
+  padding-top: 1px;
+  text-overflow: ellipsis;
+  padding-bottom: 1px;
+}
+.completeness-container {
+  height: 47px;
+}

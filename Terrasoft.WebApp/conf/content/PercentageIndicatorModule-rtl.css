@@ -1,0 +1,10 @@
+﻿/* ------------------------------ MARKETING STYLES ------------------------------------*/
+
+.indicator-container {
+  min-width: 129px;
+  max-width: 30%;
+  width: 16.6%;
+  float: right;
+  padding: 5px;
+  margin-bottom: 3px;
+}

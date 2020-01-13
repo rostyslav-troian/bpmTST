@@ -1,0 +1,14 @@
+﻿.localMessageBody {
+  padding: 8px 15px;
+  margin: 0 32px 0 60px;
+}
+.localMessageBody .multiline-label {
+  font-size: 12px;
+  color: #999;
+  text-align: justify;
+}
+.historyContainer .localMessageImage {
+  width: 32px;
+  height: 32px;
+  float: right;
+}

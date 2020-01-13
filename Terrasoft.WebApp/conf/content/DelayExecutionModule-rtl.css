@@ -1,0 +1,61 @@
+﻿#delayExecutionContainer {
+  display: inline-block;
+  width: 100%;
+}
+#date-edit-DelayStartDate-wrap {
+  width: 70%;
+  margin-left: 9px;
+}
+#time-edit-DelayStartDate-wrap {
+  width: 27%;
+}
+#delayExecutionLeftPart {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 28.5px;
+  -webkit-box-sizing: border-box;
+}
+#delayExecutionRightPart {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 28.5px;
+  -webkit-box-sizing: border-box;
+}
+#delayExecutionButtons > span:first-child {
+  vertical-align: top;
+  margin-left: 9px;
+}
+#DelayShowInSchedulercontainer {
+  margin-top: 36px;
+  margin-bottom: 18px;
+}
+#delayTitle-wrap {
+  height: 77px;
+}
+#durationContainer {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 14px;
+  -webkit-box-sizing: border-box;
+}
+#remindContainer {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 14px;
+  -webkit-box-sizing: border-box;
+}
+.delay-check-box-container {
+  margin: 28px 0 21px 0;
+}
+.delay-check-box-label-container {
+  padding-right: 12px;
+  margin-top: 0px;
+  width: auto;
+}
+.delay-check-box-value-container {
+  float: right;
+}

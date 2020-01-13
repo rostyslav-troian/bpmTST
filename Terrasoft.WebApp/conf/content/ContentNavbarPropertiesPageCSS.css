@@ -1,0 +1,13 @@
+﻿.right-panel-container *[data-item-type="navbar"] .properties-header,
+.right-panel-container *[data-item-type="navbar"] .properties-content .ts-tabpanel {
+  background-color: #3ed685;
+}
+.right-panel-container *[data-item-type="navbar"] .content-styles-editor-wrapper .ts-controlgroup {
+  margin-top: 10px;
+}
+.right-panel-container *[data-item-type="navbar"] .content-styles-editor-wrapper .navbar-styles-container .t-properties-label {
+  margin-top: 10px;
+}
+.right-panel-container *[data-item-type="navbar"] .content-navbar-properties .main-checkbox-wrap {
+  margin-top: 10px;
+}

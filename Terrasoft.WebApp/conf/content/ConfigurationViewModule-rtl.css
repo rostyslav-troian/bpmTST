@@ -1,0 +1,42 @@
+﻿.t-btn-wrapper.demo-btn {
+  cursor: pointer;
+  z-index: 10000;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding: 0px;
+}
+.t-btn-wrapper.demo-btn.hidden-demo-btn {
+  display: none;
+}
+.t-btn-wrapper.demo-btn .buy-now-btn-img-ru {
+  width: 185px;
+  height: 32px;
+}
+.t-btn-wrapper.demo-btn .buy-now-btn-img-en {
+  width: 144px;
+  height: 32px;
+}
+.t-btn-wrapper.demo-btn .online-help-btn-img-ru {
+  width: 207px;
+  height: 32px;
+}
+.t-btn-wrapper.demo-btn .online-help-btn-img-en {
+  width: 110px;
+  height: 32px;
+}
+.t-btn-wrapper.demo-btn .trial-btn-img-ru {
+  width: 241px;
+  height: 32px;
+}
+.t-btn-wrapper.demo-btn .trial-btn-img-en {
+  width: 83px;
+  height: 32px;
+}
+body div#jivo-iframe-container.jivo-iframe-container-bottom.jivo-opening,
+body div#jivo-iframe-container.jivo-iframe-container-bottom.jivo-expanded {
+  display: block !important;
+}
+body div#jivo-iframe-container.jivo-iframe-container-bottom {
+  display: none !important;
+}

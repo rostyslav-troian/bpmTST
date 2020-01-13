@@ -1,0 +1,31 @@
+﻿.schema-viewer-filters-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: auto;
+}
+.schema-viewer-filters-container .show-complete-badge .t-checkboxedit-wrap.t-checkboxedit-checked {
+  background-image: url(../../img/source-code/hash/CampaignSchemaViewerFiltersCSS/checkbox_checked_svg);
+}
+.schema-viewer-filters-container .show-processing-badge .t-checkboxedit-wrap.t-checkboxedit-checked {
+  background-image: url(../../img/source-code/hash/CampaignSchemaViewerFiltersCSS/checkbox_processing_checked);
+}
+.schema-viewer-filters-container .show-error-badge .t-checkboxedit-wrap.t-checkboxedit-checked {
+  background-image: url(../../img/source-code/hash/CampaignSchemaViewerFiltersCSS/checkbox_error_checked);
+}
+.schema-viewer-filters-container .show-suspended-badge .t-checkboxedit-wrap.t-checkboxedit-checked {
+  background-image: url(../../img/source-code/hash/CampaignSchemaViewerFiltersCSS/checkbox_suspended_checked);
+}
+.schema-viewer-filters-container .show-badge,
+.schema-viewer-filters-container .show-complete-badge,
+.schema-viewer-filters-container .show-processing-badge,
+.schema-viewer-filters-container .show-error-badge,
+.schema-viewer-filters-container .show-suspended-badge {
+  margin-right: 4px;
+  margin-top: 7px;
+}
+.schema-viewer-filters-container .show-badge-label {
+  width: auto;
+  margin-right: 10px;
+  margin-top: 7px;
+}

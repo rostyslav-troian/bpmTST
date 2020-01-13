@@ -1,0 +1,12 @@
+﻿.report-caption {
+  font-family: 'Segoe UI Light';
+  font-size: 22px;
+  color: #0e84cf;
+  margin-bottom: 13px;
+}
+.report-btn-wrapper {
+  margin-bottom: 28px;
+}
+#report_container .t-btn-wrapper {
+  margin-left: 0.65em;
+}

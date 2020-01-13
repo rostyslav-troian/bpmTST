@@ -1,0 +1,107 @@
+﻿.action-buttons-container-wrapClass {
+  position: fixed;
+  z-index: 1000;
+  background-color: #fff;
+  left: 6.8em;
+  min-width: 59em;
+  margin-right: -3em;
+  padding-right: 3em;
+  height: 34px;
+}
+.section-wrap > .actions-container {
+  right: 24.2em;
+}
+.left-panel-collapsed .section-wrap > .actions-container {
+  right: 10.25em;
+}
+.card-content-container > .actions-container {
+  margin-bottom: 1.6em;
+  z-index: 1000;
+}
+.schema-wrap.one-el .section-wrap,
+.schema-wrap.one-el .content-container {
+  min-width: 560px;
+  max-width: 1084px;
+}
+.content-container {
+  position: relative;
+  padding-top: 5.5em;
+}
+.social-search-query-container {
+  overflow: visible;
+}
+.social-search-query-container .info-button {
+  padding: 0;
+  margin-top: 3px;
+  margin-left: 14px;
+  margin-bottom: 5px;
+  margin-right: -7px;
+}
+.social-search-query-input-container {
+  margin-left: 17px;
+  display: inline-block;
+  min-width: 100px;
+  width: 350px;
+  max-width: 350px;
+}
+.ts-controlgroup-container {
+  padding-bottom: 1.7em;
+}
+.social-search-result-container-wrapClass {
+  margin-top: 1em;
+}
+.social-communication-detail-container .detail-edit-container-user-class {
+  width: 51%;
+}
+.social-communication-detail-container .detail-edit-container-user-class .detail-icon-type-btn-user-class {
+  vertical-align: middle;
+}
+.social-communication-detail-container .detail-edit-container-user-class .t-checkboxedit-wrap {
+  margin-top: 0;
+  vertical-align: middle;
+}
+.images-list-item-container {
+  display: inline-block;
+  width: 72px;
+  margin-left: 14px;
+}
+.images-list-item-container .t-btn-no-text-padding .t-btn-image {
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  display: block;
+}
+.images-list-item-container .image-preview.t-btn-no-text-padding {
+  margin-bottom: 4px;
+  padding: 0;
+  display: block;
+}
+.images-list-item-container .image-preview.t-btn-no-text-padding .t-btn-image {
+  width: 72px;
+  height: 72px;
+  border-radius: 36px;
+}
+.images-list-item-container .logo-image.t-btn-no-text-padding {
+  float: left;
+  margin: -20px 0 0;
+  padding: 0;
+}
+.images-list-item-container .logo-image.t-btn-no-text-padding .t-btn-image {
+  background-color: #FFF;
+  height: 16px;
+  width: 16px;
+}
+.images-list-item-container .t-radio-wrap {
+  margin-right: 26px;
+}
+*[data-item-marker="HeaderMessage"] {
+  font-size: 2.6em;
+  font-family: 'Segoe UI Light', 'Segoe UI';
+  margin-bottom: 0.6em;
+}
+*[data-item-marker="SocialContactPageContainer"] .grid-layout .label-wrap {
+  min-width: 5em;
+}
+.t-btn-style-red-communication-type .t-btn-text {
+  color: red;
+}

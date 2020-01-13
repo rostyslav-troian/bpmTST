@@ -1,0 +1,28 @@
+<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+ <style type="text/css">.st0{fill:#FFFFFF;}
+	.st1{fill:none;}</style>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="22" width="22" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <g id="Group_5086">
+    <g id="Group_5083">
+     <path d="m14,15.6l-0.9,0l0,-4.6l-5.1,0l0,4.6l-0.9,0l0,-5.6l6.9,0l0,5.6z" class="st0" id="Path_5617"/>
+    </g>
+    <g id="Group_5084">
+     <path d="m13,7l-5.9,0l0,-3.4l0.9,0l0,2.5l5,0l0,0.9z" class="st0" id="Path_5618"/>
+    </g>
+    <g id="Group_5085">
+     <path d="m17,16l-13,0l0,-13l9.4,0l3.6,3.6l0,9.4zm-12,-1l11,0l0,-8l-3,-3.1l-8,0l0,11.1z" class="st0" id="Path_5619"/>
+    </g>
+   </g>
+   <g id="Group_5087">
+    <rect height="16" width="16" class="st1" y="2" x="2" id="Rectangle_1940"/>
+   </g>
+  </g>
+ </g>
+</svg>

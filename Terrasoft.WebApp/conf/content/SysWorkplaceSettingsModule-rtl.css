@@ -1,0 +1,15 @@
+﻿.controlGroupLabel {
+  font-family: "Segoe UI Light";
+  font-size: 16px;
+  color: #4b7fc7;
+  margin-bottom: 30px;
+}
+#addModulesButton-textEl {
+  margin-top: -53px;
+}
+#addRolesButton-textEl {
+  margin-top: -53px;
+}
+.headerContainer {
+  height: 22px;
+}

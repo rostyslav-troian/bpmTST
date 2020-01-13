@@ -1,0 +1,154 @@
+﻿@font-face {
+	font-family: 'Segoe UI';
+	src: url('./BpmonlineOpenSans/BpmonlineOpenSans.woff') format('woff'),
+	local('Bpmonline Open Sans'),
+	url('./BpmonlineOpenSans/BpmonlineOpenSans.ttf') format('truetype'),
+	url('./BpmonlineOpenSans/BpmonlineOpenSans.svg#BpmonlineOpenSans') format('svg');
+}
+
+@font-face {
+	font-family: 'Segoe UI Light';
+	src: url('./BpmonlineOpenSans Light/BpmonlineOpenSans-Light.woff') format('woff'),
+	local('Bpmonline Open Sans Light'),
+	url('./BpmonlineOpenSans Light/BpmonlineOpenSans-Light.ttf') format('truetype'),
+	url('./BpmonlineOpenSans Light/BpmonlineOpenSans-Light.svg#BpmonlineOpenSans-Light') format('svg');
+}
+
+@font-face {
+	font-family: 'bpmonline UI';
+	src: url('./BpmonlineOpenSans/BpmonlineOpenSans.woff') format('woff'),
+	local('Bpmonline Open Sans'),
+	url('./BpmonlineOpenSans/BpmonlineOpenSans.ttf') format('truetype'),
+	url('./BpmonlineOpenSans/BpmonlineOpenSans.svg#BpmonlineOpenSans') format('svg');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./Open Sans/OpenSans-Regular-webfont.woff') format('woff'),
+	local('Open Sans'),
+	url('./Open Sans/OpenSans-Regular-webfont.ttf') format('truetype'),
+	url('./Open Sans/OpenSans-Regular-webfont.svg#OpenSans') format('svg');
+}
+
+@font-face {
+	font-family: 'Open Sans Light';
+	src: url('./Open Sans Light/OpenSans-Light.woff') format('woff'),
+	local('Open Sans Light'),
+	url('./Open Sans Light/OpenSans-Light.ttf') format('truetype'),
+	url('./Open Sans Light/OpenSans-Light.svg#OpenSans-Light') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Open Sans';
+	src: url('./BpmonlineOpenSans/BpmonlineOpenSans.woff') format('woff'),
+	local('Bpmonline Open Sans'),
+	url('./BpmonlineOpenSans/BpmonlineOpenSans.ttf') format('truetype'),
+	url('./BpmonlineOpenSans/BpmonlineOpenSans.svg#BpmonlineOpenSans') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Open Sans Bold';
+	src: url('./BpmonlineOpenSans Bold/BpmonlineOpenSans-Bold.woff') format('woff'),
+	local('Bpmonline Open Sans Bold'),
+	url('./BpmonlineOpenSans Bold/BpmonlineOpenSans-Bold.ttf') format('truetype'),
+	url('./BpmonlineOpenSans Bold/BpmonlineOpenSans-Bold.svg#BpmonlineOpenSansBold') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Open Sans Light';
+	src: url('./BpmonlineOpenSans Light/BpmonlineOpenSans-Light.woff') format('woff'),
+	local('Bpmonline Open Sans Light'),
+	url('./BpmonlineOpenSans Light/BpmonlineOpenSans-Light.ttf') format('truetype'),
+	url('./BpmonlineOpenSans Light/BpmonlineOpenSans-Light.svg#BpmonlineOpenSans-Light') format('svg');
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr Ultra Light';
+	src: url('./HelveticaNeueCyr/HelveticaNeueCyr-Thin.otf') format('opentype'),
+	url('./HelveticaNeueCyr/HelveticaNeueCyr-Thin-webfont.woff') format('woff'),
+	local('HelveticaNeueCyr'),
+	url('./HelveticaNeueCyr/HelveticaNeueCyr-Thin-webfont.ttf') format('truetype'),
+	url('./HelveticaNeueCyr/HelveticaNeueCyr-Thin-webfont.svg#helveticaneuecyrthin') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Cairo';
+	src: url('./Bpmonline Cairo/BpmonlineCairo-Regular.woff') format('woff'),
+	local('Bpmonline Cairo'),
+	url('./Bpmonline Cairo/BpmonlineCairo-Regular.woff2') format('woff2'),
+	url('./Bpmonline Cairo/BpmonlineCairo-Regular.ttf') format('truetype'),
+	url('./Bpmonline Cairo/BpmonlineCairo-Regular.svg#BpmonlineCairo-Regular') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Cairo Bold';
+	src: url('./Bpmonline Cairo Bold/BpmonlineCairo-Bold.woff') format('woff'),
+	local('Bpmonline Cairo Bold'),
+	url('./Bpmonline Cairo Bold/BpmonlineCairo-Bold.woff2') format('woff2'),
+	url('./Bpmonline Cairo Bold/BpmonlineCairo-Bold.ttf') format('truetype'),
+	url('./Bpmonline Cairo Bold/BpmonlineCairo-Bold.svg#BpmonlineCairo-Bold') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Cairo Light';
+	src: url('./Bpmonline Cairo Light/BpmonlineCairo-Light.woff') format('woff'),
+	local('Bpmonline Cairo Light'),
+	url('./Bpmonline Cairo Light/BpmonlineCairo-Light.woff2') format('woff2'),
+	url('./Bpmonline Cairo Light/BpmonlineCairo-Light.ttf') format('truetype'),
+	url('./Bpmonline Cairo Light/BpmonlineCairo-Light.svg#BpmonlineCairo-Light') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Rubik';
+	src: url('./Bpmonline Rubik/BpmonlineRubik-Regular.woff') format('woff'),
+	local('Bpmonline Rubik'),
+	url('./Bpmonline Rubik/BpmonlineRubik-Regular.woff2') format('woff2'),
+	url('./Bpmonline Rubik/BpmonlineRubik-Regular.ttf') format('truetype'),
+	url('./Bpmonline Rubik/BpmonlineRubik-Regular.svg#BpmonlineRubik-Regular') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Rubik Bold';
+	src: url('./Bpmonline Rubik Bold/BpmonlineRubik-Bold.woff') format('woff'),
+	local('Bpmonline Rubik Bold'),
+	url('./Bpmonline Rubik Bold/BpmonlineRubik-Bold.woff2') format('woff2'),
+	url('./Bpmonline Rubik Bold/BpmonlineRubik-Bold.ttf') format('truetype'),
+	url('./Bpmonline Rubik Bold/BpmonlineRubik-Bold.svg#BpmonlineRubik-Bold') format('svg');
+}
+
+@font-face {
+	font-family: 'Bpmonline Rubik Light';
+	src: url('./Bpmonline Rubik Light/BpmonlineRubik-Light.woff') format('woff'),
+	local('Bpmonline Rubik Light'),
+	url('./Bpmonline Rubik Light/BpmonlineRubik-Light.woff2') format('woff2'),
+	url('./Bpmonline Rubik Light/BpmonlineRubik-Light.ttf') format('truetype'),
+	url('./Bpmonline Rubik Light/BpmonlineRubik-Light.svg#BpmonlineRubik-Light') format('svg');
+}
+
+/* 
+	IRAN Sans-serif fonts are considered a proprietary software. 
+	To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+	---------------------------------------------------------------------
+	This set of fonts are used in this project under the license: LAXSN
+	---------------------------------------------------------------------
+*/
+@font-face {
+	font-family: 'IranSans';
+	src: url('./IRANSans/woff/IRANSansWeb.woff') format('woff'),
+	url('./IRANSans/woff2/IRANSansWeb.woff2') format('woff2'),
+	url('./IRANSans/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'IranSans Light';
+	src: url('./IRANSans/woff/IRANSansWeb_Light.woff') format('woff'),
+	url('./IRANSans/woff2/IRANSansWeb_Light.woff2') format('woff2'),
+	url('./IRANSans/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'IranSans Bold';
+	src: url('./IRANSans/woff/IRANSansWeb_Bold.woff') format('woff'),
+	url('./IRANSans/woff2/IRANSansWeb_Bold.woff2') format('woff2'),
+	url('./IRANSans/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}

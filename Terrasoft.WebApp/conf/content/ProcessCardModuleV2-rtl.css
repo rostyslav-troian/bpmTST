@@ -1,0 +1,167 @@
+﻿.actions-container {
+  margin-bottom: 1.6em;
+}
+.header-container-margin-bottom {
+  margin-bottom: 3em;
+}
+.tab-panel-margin-bottom {
+  margin-bottom: 1.5em;
+}
+.control-group-margin-bottom {
+  margin-bottom: 1px;
+}
+.new-record-header-caption-label {
+  color: #444444;
+  font-size: 22px;
+  font-family: "Segoe UI Light";
+}
+.card-content-container {
+  position: relative;
+  margin-top: 5.5em;
+}
+.card > .one-el > .card-content-container {
+  margin-top: 0;
+}
+.card-content-container > .actions-container {
+  background-color: #fff;
+  position: fixed;
+  z-index: 30;
+  min-width: 560px;
+  max-width: 1084px;
+  margin-top: -5em;
+  right: 22.7em;
+  left: 3em;
+}
+.left-panel-collapsed .card-content-container > .actions-container {
+  right: 10.25em;
+}
+.header-caption-container-margin {
+  margin-bottom: 24px;
+}
+.header-caption-container-margin:empty {
+  display: none;
+}
+.schema-wrap.one-el .section-wrap,
+.schema-wrap.one-el .card-content-container {
+  min-width: 560px;
+  max-width: 1084px;
+}
+.display-none {
+  display: none;
+}
+.left-container-wrapClass {
+  display: inline-block;
+  float: right;
+}
+html[dir="rtl"] .process-action-buttons {
+  padding-right: 20px;
+}
+.process-action-buttons .t-btn-wrapper {
+  margin-left: 0.65em;
+}
+.right-container-wrapClass {
+  display: inline-block;
+  float: left;
+}
+.page-header-label-wrap {
+  min-width: 40px;
+  max-width: 75px;
+}
+.control-wrap.page-header-control-wrap {
+  margin-right: -84px;
+  padding-right: 84px;
+}
+.contact-page-header-container {
+  position: relative;
+}
+.contact-page-header-container .grid-layout {
+  margin-right: 90px;
+  padding-left: 90px;
+}
+.control-width-15.control-left.control-right > .label-wrap {
+  width: 20%;
+}
+.recommendation-container {
+  margin-bottom: 10px;
+}
+.recommendation-container:empty {
+  display: none;
+}
+#UserQuestionProcessPageV2UserQuestionContentContainerContainer .control-wrap {
+  margin-right: 0;
+  padding-right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#UserQuestionProcessPageV2UserQuestionContentContainerContainer .label-wrap {
+  max-width: 100%;
+  margin-right: 43px;
+  width: 100%;
+}
+#UserQuestionProcessPageV2UserQuestionContentContainerContainer .control-width-15 .t-label {
+  text-align: right;
+  padding-top: 7px;
+}
+#ActivityPageV2ResultControlGroupControlGroup .t-btn-image {
+  width: 32px;
+  height: 32px;
+}
+#ActivityPageV2ResultControlGroupControlGroup .t-btn-text {
+  margin-right: 1.4em;
+}
+#ActivityPageV2CustomResultControlBlockGridLayout .grid-layout-row {
+  margin-bottom: 9px;
+  min-height: 0px;
+}
+#ActivityPageV2CustomResultControlBlockGridLayout .grid-layout-column {
+  min-height: 0px;
+}
+#ActivityPageV2CustomResultControlBlockGridLayout .grid-layout-spacer {
+  height: 0px;
+}
+#ActivityPageV2CustomResultControlBlockGridLayout .t-btn-text {
+  margin-right: 20px;
+}
+#ActivityPageV2CustomActionSelectedResultControlBlockGridLayout-item-ActivityPageV2ResultSaveButtonButton {
+  margin-left: 13px;
+}
+#ActivityPageV2CustomSelectedResultControlBlockGridLayout-item-ActivityPageV2CustomDetailedResultContainer {
+  margin-bottom: 10px;
+}
+#ActivityPageV2CustomDetailedResultLabelLabel .control-width-15 .t-label {
+  text-align: center;
+}
+#ActivityPageV2CustomDetailedResultContainer_Control {
+  padding-right: 13px;
+}
+#ActivityPageV2CustomDetailedResultLabelContainer_Control {
+  display: none;
+}
+.activityInformationOnStep-button {
+  padding-top: 3px;
+  padding-right: 0.65em;
+}
+.activityInformationOnStep-button-image {
+  display: inline;
+  background-position: -2px 1px;
+  width: 23px;
+  height: 23px;
+}
+.activityInformationOnStep-button-image:hover {
+  display: inline;
+  background-position: -2px -24px;
+}
+.custom-activity-result {
+  display: flex;
+  flex-direction: column;
+}
+.custom-activity-result .t-btn-wrapper span {
+  border-radius: 4px;
+}
+.custom-activity-result .t-btn-wrapper {
+  margin-bottom: 4px;
+  margin-top: 4px;
+  padding-top: 6px;
+  padding-bottom: 8px;
+}

@@ -1,0 +1,79 @@
+﻿html[dir="rtl"] [class$="icon-wrapper"] [class*="icon"] {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .ts-image-edit-button > span {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .ts-tab-image {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .t-btn-image,
+html[dir="rtl"] .predictable-icon {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .system-designer img {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .profile-module-container .ts-image-edit-wrap img {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .menu-item-image {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .image-panel {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .ts-menu-color-picker-hue-pointer:after,
+html[dir="rtl"] .ts-menu-color-picker-hue-pointer:before {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .ts-datepicker-arrow {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .related-profile-img {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .img-action-dashboard {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .schema-designer-left-panel .t-btn-wrapper:before {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .schema-designer-left-panel .toolbar-item svg {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .ej-d-node image {
+  transform: rotateY(180deg);
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+html[dir="rtl"] .ej-d-label {
+  direction: rtl;
+}
+html[dir="rtl"] .grid-layout-edit-item-content-image[src$="LookupEditImage"] {
+  transform: rotateY(180deg);
+}
+html[dir="rtl"] .view-model-schema-designer-item-content-image[src$="LookupEditImage"] {
+  transform: scaleX(-1);
+}
+html[dir="rtl"] .left-panel .ts-sidebar-item-image[module-name="BulkEmail"],
+html[dir="rtl"] .left-panel .ts-sidebar-item-image[module-name="Forecast"] {
+  transform: rotateY(0);
+}
+html[dir="rtl"] .image-panel[src$="SimpleIntro/AnalyticsIcon"],
+html[dir="rtl"] .menu-item-image[style*="SummariesIcon"] {
+  transform: rotateY(0);
+}
+html[dir="rtl"] .filters-container-wrapClass .t-btn-wrapper[data-item-marker="day"] .t-btn-image,
+html[dir="rtl"] .filters-container-wrapClass .t-btn-wrapper[data-item-marker="week"] .t-btn-image {
+  transform: rotateY(0);
+}
+html[dir="rtl"] .social-networks-container .t-btn-image {
+  transform: rotateY(0);
+}
+html[culture="he-IL"] .help-button-image,
+html[culture="he-IL"] .dcm-help-button .t-btn-image,
+html[culture="he-IL"] .help-button[data-item-marker="HelpButton"],
+html[culture="he-IL"] .photo .t-btn-image[style*="ContactAnonymousPhoto"] {
+  transform: rotateY(0);
+}

@@ -1,0 +1,24 @@
+﻿.page-type-settings-page-modal-box .schema-wrap.one-el {
+  min-width: 0;
+}
+.page-type-settings-page-modal-box .page-type-settings-page .grid-layout .control-width-15 {
+  flex-direction: column;
+}
+.page-type-settings-page-modal-box .page-type-settings-page .label-wrap {
+  max-width: none;
+}
+.page-type-settings-page-modal-box .page-type-settings-page .label-wrap .t-label {
+  color: #4e7bd8;
+  font-size: 14px;
+}
+.page-type-settings-page-modal-box .page-type-settings-page .bottom-buttons-wrapper {
+  margin-top: 16px;
+}
+.page-type-settings-page-modal-box .page-type-settings-page .bottom-buttons-wrapper .right-button {
+  margin-left: 9px;
+}
+_:-ms-input-placeholder,
+:root .page-type-settings-page-modal-box .page-type-settings-page .grid-layout .control-width-15 {
+  /* for IE 11 */
+  height: 65px;
+}

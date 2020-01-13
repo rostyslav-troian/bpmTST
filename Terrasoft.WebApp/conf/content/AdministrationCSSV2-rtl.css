@@ -1,0 +1,181 @@
+﻿.UserPageV2 #UserPageV2AuthLDAPContainer {
+  display: inline-block;
+  margin-right: 29px;
+}
+#UserPageV2SessionTimeoutContainer_Label {
+  margin-left: 38px;
+  padding-right: 24px;
+}
+#UserPageV2SessionTimeoutLabel {
+  vertical-align: middle;
+  max-width: 400px;
+  min-width: 150px;
+  white-space: normal;
+  line-height: 14px !important;
+  padding-top: 10px;
+}
+#UserPageV2SessionTimeoutTextEdit-wrap {
+  width: 60px;
+  margin-top: 12px;
+}
+#UserPageV2SessionTimeoutContainer_Control {
+  width: 90%;
+}
+#SysAdminUnitPageV2SessionTimeoutTextEdit-wrap {
+  width: 60px;
+  margin-top: 12px;
+}
+#SysAdminUnitPageV2SessionTimeoutContainer_Label {
+  margin-left: 38px;
+  padding-right: 24px;
+}
+#SysAdminUnitPageV2SessionTimeoutLabel {
+  vertical-align: middle;
+  max-width: 400px;
+  min-width: 150px;
+  white-space: normal;
+  line-height: 14px !important;
+  padding-top: 10px;
+}
+#SysAdminUnitPageV2SessionTimeoutContainer_Control {
+  width: 90%;
+}
+.UserPageV2 #UserPageV2AuthFormContainer {
+  display: inline-block;
+  margin-right: 29px;
+}
+.UserPageV2 .license-label {
+  width: 37% !important;
+  height: 41px;
+  vertical-align: middle;
+  max-width: 400px;
+  min-width: 80px;
+  white-space: normal;
+  line-height: 14px !important;
+  padding-top: 10px;
+}
+.UserPageV2 .count-label {
+  max-width: 600px;
+  float: left;
+}
+.UserPageV2 .disabled-label {
+  color: #999999;
+}
+.UserPageV2 .license-t-btn-wrapper {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #b4c1d2;
+  border-radius: 2px;
+  color: #0e84cf;
+  font-size: 13px;
+  height: 1.923em;
+  padding-top: 0.231em;
+  padding-bottom: 0;
+  padding-right: 0.769em;
+}
+.UserPageV2 .license-t-btn-wrapper[data-item-marker="ToolsButton"] {
+  border: none;
+  padding: 0;
+  height: 16px;
+  margin-top: 5px;
+}
+.UserPageV2 .license-t-btn-wrapper[data-item-marker="ToolsButton"]:hover {
+  background: #fff;
+}
+.UserPageV2 .license-t-btn-wrapper[data-item-marker="ToolsButton"]:hover .t-btn-image {
+  background-position: 0 -2px;
+}
+.UserPageV2 .license-t-btn-wrapper[data-item-marker="ToolsButton"] .t-btn-image {
+  width: 16px;
+  height: 16px;
+  background-position: 0 14px;
+}
+.UserPageV2 .license-tools-button-wrapper {
+  padding-left: 0.462em;
+  padding-right: 0.385em;
+}
+.UserPageV2 .license-tools-button-menu {
+  display: none;
+}
+.SysAdminUnitSectionV2 .custom-t-btn-wrapper {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #b4c1d2;
+  border-radius: 2px;
+  color: #0e84cf;
+  font-size: 13px;
+  height: 30px;
+  padding-top: 6px;
+  padding-bottom: 0;
+  padding-right: 0.769em;
+}
+.SysAdminUnitSectionV2 .custom-tools-button-wrapper {
+  padding-left: 10px;
+  padding-right: 8px;
+}
+.SysAdminUnitSectionV2 .custom-tools-button-menu {
+  display: none;
+}
+.schema-wrap.two-el .SysAdminUnitSectionV2 .combined-action-buttons-card-container-wrapClass {
+  position: absolute;
+  top: 0;
+  right: 48em;
+  left: 1.5em;
+  padding-right: 3em;
+  display: block;
+  min-width: 0;
+}
+.schema-wrap.two-el .SysAdminUnitSectionV2 .left-el {
+  position: fixed;
+  right: 24em;
+  top: 10.5em;
+  bottom: 0;
+  overflow-y: auto;
+  width: 51em;
+  border-left: solid 1px #e1e8f2;
+  z-index: 11;
+  background-color: white;
+}
+body div.schema-wrap.two-el div.SysAdminUnitSectionV2 div.right-el {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 510px;
+  left: 0;
+}
+.SysAdminUnitSectionV2 .data-views-container-wrapClass {
+  padding-top: 2.6em !important;
+}
+.SysAdminUnitSectionV2 .data-views-container-wrapClass .grid-captions {
+  display: none;
+}
+/* Info Button Styles */
+
+.SysAdminUnitSectionV2 .info-button,
+.UsersSectionV2 .info-button {
+  padding: 0;
+  margin: 5px;
+}
+.SysAdminUnitSectionV2 .info-button-image,
+.UsersSectionV2 .info-button-image {
+  display: inline;
+  background-position: 0px -24px;
+  width: 24px;
+  height: 24px;
+}
+.SysAdminUnitSectionV2 .ts-component-tooltip:hover:after,
+.UsersSectionV2 .ts-component-tooltip:hover:after {
+  right: -140px;
+  width: 130px;
+}
+.UsersSectionV2 .utils-container-wrapClass {
+  z-index: 97;
+}
+#ChiefsTab .label-wrap {
+  max-width: 25em;
+}
+#ChiefsTab .label-wrap + .control-wrap {
+  margin-right: -25.9em;
+  padding-right: 25.9em;
+}
+#ChiefsTab .control-width-15 .t-checkboxedit-wrap {
+  margin-right: 0;
+}

@@ -1,0 +1,16 @@
+{
+	"harness": {
+		"runCore": "parallel",
+		"defaultTimeout": 20000,
+		"waitForTimeout": 20000,
+		"isReadyTimeout": 20000,
+		"title": "Core JS Unit tests",
+		"failOnExclusiveSpecsWhenAutomated": true,
+		"warnOnNotBDD": false
+	},
+	"cmd": {
+		"filter": "unit.tests.js",
+		"max-workers": 1,
+		"no-color": false
+	}
+}

@@ -1,0 +1,78 @@
+﻿.social-message-module {
+  padding: 14px;
+}
+.social-message-module .header-container-margin-bottom {
+  margin-bottom: 14px;
+}
+.social-message-module .publisherBottomContainer {
+  height: 30px;
+}
+.social-message-module .postMessage[data-item-marker="SocialMessagePublisherEdit"] .html-edit-textarea {
+  border-color: #fbd271;
+}
+.social-message-module .postMessage[data-item-marker="SocialMessagePublisherEdit"] .html-edit-textarea .cke_reset {
+  height: 100px !important;
+}
+.social-message-module .body-container {
+  background-color: #fffefa;
+}
+.social-message-module .cke_editable {
+  font-size: 14px !important;
+  margin: 10px !important;
+}
+.social-message-content {
+  height: 20px;
+}
+.listview[data-item-marker='SocialMessagePublisherEdit'] {
+  min-width: 300px !important;
+  max-width: 600px;
+}
+.listview[data-item-marker='SocialMessagePublisherEdit'] ul {
+  padding: 2px;
+}
+.listview[data-item-marker='SocialMessagePublisherEdit'] li {
+  padding-left: 0;
+  padding-right: 0;
+  border-width: 2px;
+}
+.listview[data-item-marker='SocialMessagePublisherEdit'] li.listview-selected {
+  background-color: #f4f7f8;
+  border-color: #ffffff;
+}
+.listview[data-item-marker='SocialMessagePublisherEdit'] li img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.listview[data-item-marker='SocialMessagePublisherEdit'] .listview-item {
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+}
+.listview[data-item-marker='SocialMessagePublisherEdit'] .listview-item:hover {
+  background-color: #f4f7f8;
+}
+.listview[data-item-marker='SocialMessagePublisherEdit'] .listview-item .listview-item-image {
+  margin-left: 16px;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+.listview[data-item-marker='SocialMessagePublisherEdit'] .listview-item label:hover {
+  cursor: pointer;
+}
+.listview[data-item-marker='SocialMessagePublisherEdit'] .listview-item .listview-item-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: inline-block;
+  margin-left: 12px;
+  vertical-align: middle;
+  height: 42px;
+  line-height: 40px;
+}
+.listview[data-item-marker='SocialMessagePublisherEdit'] .listview-item .listview-item-info .listview-item-secondaryInfo {
+  color: #999999;
+  display: block;
+  line-height: 16px;
+}

@@ -1,0 +1,29 @@
+﻿.main-content-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.dcm-stage.stage-selected .btn-remove-stage-wrap {
+  display: inline-block;
+}
+.dcm-stage.stage-selected .stage-header .stage-tools .t-label {
+  width: 90%;
+}
+.dcm-stage .btn-remove-stage-wrap {
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 9px;
+  left: 0;
+  padding-left: 15px;
+  padding-right: 0;
+  margin-left: 5px;
+  display: none;
+  cursor: pointer;
+}
+.dcm-stage .remove-stage-image {
+  min-width: 11px;
+  min-height: 11px;
+  background-position: center;
+  margin-top: -1px;
+  background-repeat: no-repeat;
+  width: 11px;
+}

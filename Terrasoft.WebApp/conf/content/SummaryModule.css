@@ -1,0 +1,26 @@
+﻿.summary-delete-button-image-size {
+  width: 7px;
+  height: 8px;
+}
+.summary-delete-button-wrapperEl {
+  vertical-align: bottom;
+}
+.summary-main-container {
+  display: inline-block;
+  vertical-align: top;
+}
+.summary-item-container {
+  margin: 0px 8px;
+  float: right;
+}
+.summary-item-caption {
+  color: #999;
+  font-size: 1.6em;
+  overflow: visible;
+}
+.summary-item-value {
+  color: #88C658;
+  font-size: 2.2em;
+  overflow: visible;
+  padding-left: 5px;
+}

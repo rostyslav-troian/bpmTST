@@ -1,0 +1,36 @@
+﻿body {
+	font-size: 62.5%;
+	font-family: "bpmonline UI", serif;
+	color: #444;
+}
+
+input, textarea, select {
+	color: inherit;
+}
+
+.ts-box-sizing {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*
+ * Remove X at input fields in IE 10.
+ */
+input::-ms-clear {
+	display: none;
+}
+/*
+ * Remove reveal at password fields in IE 10.
+ */
+input::-ms-reveal {
+	display: none;
+}
+
+.x-unselectable {
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	cursor: default;
+}

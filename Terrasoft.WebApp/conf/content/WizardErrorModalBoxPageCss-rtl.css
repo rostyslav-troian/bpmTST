@@ -1,0 +1,19 @@
+﻿.modal-box-schema-module-content.schema-wrap {
+  height: 100%;
+}
+.modal-box-schema-module-content.schema-wrap.one-el {
+  position: relative;
+  padding: 2em;
+  left: 0;
+  right: 0;
+  overflow-y: inherit;
+  height: 100%;
+  max-width: 60em;
+  word-wrap: break-word;
+}
+.error-modal-box-btn-container {
+  margin: 2em 0 0 0;
+}
+.error-modal-box-btn-container .t-btn-wrapper {
+  margin: 0 0 0 0.5em;
+}

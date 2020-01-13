@@ -1,0 +1,95 @@
+﻿.ml-feature-container-wrapper {
+  color: #999999;
+  margin-top: 10px;
+  width: 100%;
+  box-shadow: 0 0 0;
+  background-color: white;
+  min-height: 200px;
+  z-index: 1019;
+  padding: 0 0 10px 10px;
+}
+.ml-feature-container-wrapper .ml-feature-header-container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.ml-feature-container-wrapper .ml-feature-header-container .ml-record-description {
+  font-size: 2em;
+  margin-right: 8px;
+  width: auto;
+  margin-bottom: 17px;
+  max-width: 525px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ml-feature-container-wrapper .ml-feature-header-container > .ml-feature-close-button {
+  top: -14px;
+  margin-left: auto;
+}
+.ml-feature-container-wrapper .ml-feature-header-container > .ml-feature-close-button:hover {
+  background: none;
+}
+.ml-feature-container-wrapper .ml-feature-container {
+  position: relative;
+  min-width: 580px;
+}
+.ml-feature-container-wrapper .ml-feature-container .ml-predicted-value-container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 13px;
+  margin-bottom: 17px;
+}
+.ml-feature-container-wrapper .ml-feature-container .ml-predicted-value-container label {
+  text-align: left;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid {
+  max-height: 265px;
+  overflow: auto;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid div [class*='grid-cols-'] {
+  word-wrap: normal;
+  white-space: nowrap;
+  overflow-wrap: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 25px;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid div [class*='grid-cols-'] .control-wrap {
+  min-height: 25px;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid .horizontal-progress-bar {
+  border-style: none;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid .horizontal-progress-bar .rect {
+  top: 18px;
+  border: 1px solid #f2f2f2;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid .horizontal-progress-bar .overlay {
+  top: -5px;
+  left: 0 !important;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid .horizontal-progress-bar .caption-suffix {
+  display: none;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid .horizontal-progress-bar[data-item-marker="positive-feature-weight"] .rect {
+  background-color: #8DCB60;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid .horizontal-progress-bar[data-item-marker="positive-feature-weight"] .overlay {
+  color: #8DCB60;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid .horizontal-progress-bar[data-item-marker="negative-feature-weight"] .rect {
+  background-color: #EF7E63;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid .horizontal-progress-bar[data-item-marker="negative-feature-weight"] .overlay {
+  color: #EF7E63;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid .horizontal-progress-bar[data-item-marker="near-zero-feature-weight"] .rect {
+  background-color: #999999;
+}
+.ml-feature-container-wrapper .ml-feature-container > .grid .horizontal-progress-bar[data-item-marker="near-zero-feature-weight"] .overlay {
+  color: #999999;
+}
+.ts-modalbox-innerbox .ml-feature-container > .grid {
+  max-height: 265px;
+}

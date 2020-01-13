@@ -1,0 +1,18 @@
+﻿#ViewModelSchemaDesignerDetailModalBoxContainer {
+  overflow-y: hidden;
+  max-height: 19em;
+}
+#SchemaModelItemDesignerContainer {
+  overflow-y: auto;
+}
+.modal-box-schema-module-content.schema-wrap {
+  height: auto;
+  min-height: 90px;
+  max-height: 39em;
+}
+.modal-box-card-content-wrap.tab-modal-box .tap-panel-box {
+  margin-top: 1.5em;
+}
+.modal-box-card-content-wrap.tab-modal-box .tap-panel-box + .tap-panel-box {
+  margin-left: 1em;
+}

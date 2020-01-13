@@ -1,0 +1,32 @@
+﻿.captionContainer .t-label {
+  font-family: "Segoe UI Light";
+  font-size: 3.5em;
+  letter-spacing: -0.01em;
+  margin-bottom: 34px;
+}
+#buttonsContainer {
+  margin-bottom: 2em;
+}
+#acceptButton-textEl {
+  margin-right: 0.5em;
+}
+.custom-inline,
+.custom-inline div {
+  clear: left;
+  margin-bottom: 1em;
+}
+.custom-inline .t-checkboxedit-wrap,
+.custom-inline .t-radio-wrap {
+  float: left;
+}
+.custom-inline .t-label {
+  margin-left: 1em;
+  width: auto;
+}
+#isNotDuplicateCheckboxContainer {
+  margin-top: 1em;
+  border-top: 1px solid #E0E0E0;
+}
+.no-duplicate .grid-row span {
+  color: #999 !important;
+}

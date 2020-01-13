@@ -1,0 +1,50 @@
+﻿.base-element-properties-page .ts-modalbox-innerbox {
+  height: 100%;
+  width: 100%;
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.base-element-properties-page .schema-wrap.one-el {
+  min-width: 0;
+}
+.base-element-properties-page .modal-box-title {
+  color: #64b8df;
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+.base-element-properties-page .buttons-container {
+  margin-bottom: 25px;
+}
+.base-element-properties-page .main-grid-container .label-wrap label {
+  text-align: left;
+}
+.base-element-properties-page .main-grid-container .label-wrap .t-label-disabled {
+  color: #bbbbbb !important;
+}
+.base-element-properties-page.button-properties-page .buttons-container {
+  margin-bottom: 10px;
+}
+.base-element-properties-page.button-properties-page .grid-layout .control-width-15 {
+  flex-direction: column;
+}
+.base-element-properties-page.button-properties-page .grid-layout .control-width-15.control-left.control-right > .label-wrap {
+  margin-top: 14px;
+}
+.base-element-properties-page.button-properties-page .grid-layout .control-width-15.control-left.control-right .control-wrap {
+  min-height: 28px;
+}
+.base-element-properties-page.button-properties-page .grid-layout .control-width-15.control-left.control-right.checkbox-left-position {
+  flex-direction: row;
+  margin-top: 10px;
+}
+.base-element-properties-page.button-properties-page .grid-layout .control-width-15.control-left.control-right.checkbox-left-position .control-wrap {
+  order: 1;
+  flex-basis: 32px;
+}
+.base-element-properties-page.button-properties-page .grid-layout .control-width-15.control-left.control-right.checkbox-left-position .label-wrap {
+  order: 2;
+  margin-top: 6px;
+  width: 100%;
+  max-width: 100%;
+}

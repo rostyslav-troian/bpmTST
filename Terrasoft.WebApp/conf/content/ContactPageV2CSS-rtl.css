@@ -1,0 +1,38 @@
+﻿.profile-container .photo-timezone-container.enrichment {
+  display: flex;
+}
+.profile-container .photo-timezone-container.enrichment .timezone-enrichment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 100%;
+  margin-right: 45px;
+}
+.profile-container .photo-timezone-container.enrichment .timezone-enrichment-container .enrich-contact-cloud {
+  padding: 0;
+  height: 16px;
+  min-height: 16px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+.profile-container .photo-timezone-container.enrichment .timezone-enrichment-container .enrich-contact-cloud .t-btn-image {
+  width: 24px;
+  background-repeat: no-repeat;
+}
+.profile-container .photo-timezone-container.enrichment .timezone-enrichment-container .enrich-contact-cloud-caption {
+  font-size: 13px;
+  color: #4e7bd8;
+}
+.profile-container .photo-timezone-container.enrichment .timezone-enrichment-container .timezone-container {
+  justify-content: center;
+  width: 100%;
+}
+.profile-container .photo-timezone-container.enrichment .timezone-enrichment-container .timezone-container .timezone-label.timezone-city {
+  font-size: 13px;
+  line-height: 1.1;
+}
+body[OldUI=false] .left-modules-container .profile-container .grid-layout-row .photo-timezone-container.enrichment .timezone-container {
+  margin: 0;
+}

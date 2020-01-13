@@ -1,0 +1,19 @@
+.button-inline-example {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.button-inline-example > span, .button-inline-example > div {
+	vertical-align: bottom;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.interface-caption {
+	padding: 5px;
+	margin-right: 6px;
+	text-align: right;
+}
+.interface-butttons {
+	padding: 5px;
+}

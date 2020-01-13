@@ -1,0 +1,86 @@
+.label {
+    color: #999;
+    padding: 16px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    font-size: 13px;
+}
+.wrap {
+    width: 235px;
+    height: 80px;
+    font-family: "Bpmonline Open Sans", Corbel, serif;
+    /*box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);*/
+}
+.button {
+    border-radius: 2px;
+    background-color: #00aeef;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid transparent;
+    vertical-align: top;
+    margin: 16px;
+    margin-right: 10px;
+    margin-top: 12px;
+    padding:5px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.cancel-button {
+    color: #4e7bd8;
+    background-color: #fff;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 12px;
+}
+
+.button:hover {
+    background-color: #10a0e3;
+}
+
+.cancel-button:hover {
+    background-color: #e3e9f9;
+}
+
+.text-input {
+    color: #444;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #c8c8c8;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: 16px;
+    margin-bottom: 3px;
+    margin-right: 6px;
+    display: inline-block;
+    width: 212px;
+}
+
+.text-input::placeholder {
+    opacity: 0.8;
+}
+
+.text-input:hover {
+    border-bottom: 1px solid #c8c8c8;
+}
+.text-input:focus {
+    border-bottom: 1px solid #00aeef;
+}
+
+.cke_panel_block {
+    outline: none;
+}
+.cke_panel_block:focus {
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+html {
+    -ms-overflow-style: none;
+}

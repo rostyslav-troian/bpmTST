@@ -1,0 +1,313 @@
+﻿/* KnowledgeBase */
+
+#buttonContainer {
+  clear: left;
+}
+#edit-button-knowbase-imageEl {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position-y: 4px;
+  left: -1px;
+  margin-top: 8px;
+}
+#code-button-knowbase-textEl,
+#author-button-knowbase-textEl {
+  cursor: default;
+  color: #808080;
+}
+#code-button-knowbase-textEl:hover,
+#author-button-knowbase-textEl:hover {
+  color: #808080;
+}
+#edit-button-knowbase-imageEl {
+  background-position-y: 0px;
+  left: 0px;
+}
+#comments-button-knowbase-textEl {
+  float: left;
+  margin-right: 12px;
+}
+#favorite-button-knowbase-textEl,
+#edit-button-knowbase-texteEl,
+#subscribe-button-knowbase-textEl,
+#like-it-button-knowbase-textEl,
+#file-button-knowbase-textEl,
+#view-count-button-knowbase-textEl,
+#tag-button-knowbase-textEl {
+  margin-right: 12px;
+}
+#email-body-html-knowbase-view {
+  font-size: 14px;
+}
+#favorite-button-knowbase-wrapperEl.t-btn-no-text-padding {
+  padding: 0px;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  float: left;
+  margin-right: 0px;
+}
+#favorite-button-knowbase-imageEl {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position-y: 3px;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+#edit-button-knowbase-wrapperEl.t-btn-no-text-padding,
+#comments-button-knowbase-wrapperEl.t-btn-no-text-padding,
+#subscribe-button-knowbase-wrapperEl.t-btn-no-text-padding,
+#like-it-button-knowbase-wrapperEl.t-btn-no-text-padding,
+#file-button-knowbase-wrapperEl.t-btn-no-text-padding,
+#view-count-button-knowbase-wrapperEl.t-btn-no-text-padding,
+#tag-button-knowbase-wrapperEl.t-btn-no-text-padding {
+  padding: 0px;
+  padding-right: 12px;
+  padding-bottom: 3px;
+}
+#favorite-button-knowbase-wrapperEl,
+#edit-button-knowbase-wrapperEl,
+#comments-button-knowbase-wrapperEl,
+#subscribe-button-knowbase-wrapperEl,
+#like-it-button-knowbase-wrapperEl,
+#file-button-knowbase-wrapperEl,
+#view-count-button-knowbase-wrapperEl,
+#tag-button-knowbase-wrapperEl {
+  margin-right: 12px;
+}
+#author-button-knowbase-wrapEl {
+  margin-left: -25px;
+  margin-top: 2px;
+}
+#left-utils-knowledgebase {
+  float: left;
+  width: 90%;
+}
+#buttonTopContainer-knowledgebase {
+  float: left;
+}
+#left-utils-knowledgebase > span {
+  vertical-align: middle;
+  margin-right: 0px;
+}
+#general-items-photo-button-imageEl {
+  margin: 0px;
+  padding: 0px;
+  width: 32px;
+  height: 32px;
+}
+#general-items-photo-button-wrapperEl {
+  margin: 0px;
+  padding: 0px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 10px;
+  float: left;
+}
+#general-items-text-button-wrap {
+  width: 93%;
+  vertical-align: middle;
+  background-color: white;
+}
+.KnowledgeBaseLeftPanelWrapClass {
+  width: 50% !important;
+  float: left;
+}
+.KnowledgeBaseRightPanelWrapClass {
+  margin-left: 0px !important;
+  overflow: auto;
+  float: right;
+  width: 45%;
+}
+.KnowledgeBaseCustomBottomPanelWrapClass {
+  clear: left;
+  padding-left: 0px;
+  overflow: auto;
+}
+#bottomUtils {
+  clear: left;
+  padding-top: 20px;
+}
+#email-body-html-knowbase-view-html-edit-htmltext {
+  background-color: transparent !important;
+  border: 0px;
+}
+#knowledgebase-name-code-container {
+  width: 100%;
+}
+.control-info-button {
+  position: absolute;
+  right: 0px;
+  top: -25px;
+  margin: 0px;
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+}
+.control-info-button-view {
+  margin: 0px;
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+  margin-top: 22px;
+  float: right;
+}
+.control-info-button-view > span,
+.control-info-button > span {
+  width: 20px;
+  height: 20px;
+  background-position-y: 0px;
+}
+.control-info-button-view > span:hover,
+.control-info-button > span:hover {
+  background-position-y: 20px;
+}
+.control-info-container,
+.control-info-container-checkbox {
+  position: relative;
+}
+.control-info-container-checkbox > .control-info-button {
+  top: 0px;
+}
+.t-label.right-label-left-panel {
+  width: 48%;
+}
+/*
+#Name-wrap, #NameControlLabel {
+width: 80.5%;
+margin-right: 6px;
+}
+#Code-wrap, #CodeControlLabel {
+width: 18%;
+}
+*/
+
+/* End KnowledgeBase*/
+
+[id*='grid-knowBaseCommentsGrid'] > div .grid-header span {
+  margin-left: 55px;
+  font-size: 0.72em;
+  color: #0c0c0c;
+  display: inline-block;
+}
+[id*='grid-knowBaseCommentsGrid'] > div .icon-spacer-22x22 {
+  font-size: 0.72em;
+}
+[id*='knowBaseCommentsGrid'].grid-row {
+  padding: 5px;
+}
+[id*='grid-knowBaseCommentsGrid'] > div .grid-row.grid-module {
+  padding-bottom: 5px;
+}
+[id*='grid-knowBaseCommentsGrid'] img {
+  left: 10px;
+  top: 6px;
+  margin-top: 5px;
+  max-width: 32px;
+  max-height: 32px;
+  display: block;
+  position: absolute;
+}
+[id*='knowBaseCommentsGrid'].grid-row span {
+  font-size: 0.8em;
+  margin-left: 15px;
+  color: #777;
+  margin-left: 55px;
+}
+[id*='grid-knowBaseCommentsGrid'] {
+  padding-bottom: 0px !important;
+}
+[id*='general-items-container'] {
+  height: 44px;
+  position: relative;
+}
+[id*='general-items-photo-button'].t-btn-image {
+  margin: 0px;
+  padding: 0px;
+  width: 32px;
+  height: 32px;
+}
+[id*='general-items-photo-button'].t-btn-wrapper {
+  margin: 0px;
+  padding: 0px;
+  height: 32px;
+  margin-right: 10px;
+  position: absolute;
+  left: -45px;
+}
+[id*='general-items-text-button'].base-edit {
+  width: 100%;
+  vertical-align: middle;
+  background-color: white;
+}
+[id*='general-items-text-button'].base-edit-input {
+  background-color: white;
+  width: 100%;
+}
+[id*='grid-knowBaseCommentsGrid'] .grid-bottom-spinner-space {
+  height: auto;
+}
+.comment-selcted-image {
+  position: absolute;
+  top: -9px;
+  left: 67px;
+}
+.grid-pad {
+  padding: 22px 0px 0px;
+}
+.grid-module {
+  padding: 0px 6px 0px;
+}
+[id*='KnowledgeBaseCustomSectionContainer'] {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.like-it-container,
+.tags-button-container {
+  width: auto;
+  float: left;
+  position: relative;
+}
+[id*='like-it-'],
+[id*='tags-button-'] {
+  padding: 0px;
+  padding-left: 0px !important;
+  margin: 0px;
+  top: 0px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-position: 3px;
+  background-repeat: no-repeat;
+  height: 26px;
+}
+[id*='like-it-'] .t-btn-wrapper,
+[id*='tags-button-'] .t-btn-wrapper {
+  padding-left: 32px !important;
+}
+[id*='like-it-'] .t-btn-image,
+[id*='tags-button-'] .t-btn-image {
+  left: 0px;
+  width: 26px;
+  height: 26px;
+  top: 0px;
+}
+[id*='like-it-'] .t-btn-text,
+[id*='tags-button-'] .t-btn-text {
+  padding-left: 32px !important;
+  font-size: 14px;
+  padding-top: 0.2em;
+}
+[id*="like-it-"].t-btn-wrapper.t-btn-no-text-padding,
+[id*="tags-button-"].t-btn-wrapper.t-btn-no-text-padding {
+  margin-right: 34px;
+}
+[id*='tags-button-'] .t-btn-text {
+  font-size: 14px;
+  font-family: "Segoe UI Light", serif;
+  color: #444 !important;
+}

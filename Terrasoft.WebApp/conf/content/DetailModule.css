@@ -1,0 +1,115 @@
+﻿.editDetailAddButton {
+  width: 100%;
+}
+.editDetailAddButtonContainer {
+  margin-top: 24px;
+  margin-bottom: -6px;
+  width: 280px;
+}
+.edit-detail-custom-add-btn {
+  margin-top: 24px;
+  margin-bottom: -4px;
+  width: 280px;
+}
+.listDetailContainer {
+  margin-top: -33px;
+  height: 21px;
+}
+.detail-type-btn-user-class {
+  /*float: left;*/
+  padding-top: 0em !important;
+  padding-bottom: 0em;
+  padding-left: 0em;
+}
+.edit-detail-type-label {
+  margin-bottom: 0px;
+}
+.grid-detail-container {
+  margin-top: 13px;
+  margin-bottom: -11px;
+}
+.detail-delete-btn-user-class {
+  padding-top: 0em;
+  padding-bottom: 0em;
+  float: right;
+}
+/*buttons-classes*/
+.grid-utils-text-button-wrapperEl {
+  font-size: 13px;
+  padding: 3px 10px 0px 10px !important;
+  float: right;
+  margin-right: 9px;
+  height: 22px;
+  background-color: #f0f0f0;
+  vertical-align: middle;
+}
+.grid-settings-button-image-size,
+.grid-add-button-image-size,
+.grid-utils-button-image-size {
+  width: 21px;
+  height: 21px;
+}
+.grid-settings-button-wrapperEl,
+.grid-add-button-wrapperEl,
+.grid-utils-button-wrapperEl {
+  float: right;
+  margin-right: 9px;
+  padding: 0 !important;
+}
+.grid-add-button-wrapperEl {
+  right: 45px;
+}
+.grid-utils-text-button-wrapperEl {
+  font-size: 13px;
+  padding: 3px 10px 0px 10px !important;
+  float: right;
+  margin-right: 9px;
+  height: 22px;
+  background-color: #f0f0f0;
+  vertical-align: middle;
+}
+.grid-utils-button-wrapperEl {
+  margin-right: 1px;
+  font-size: 13px;
+  height: 21px;
+  padding: 0px 0px 0px 0px !important;
+}
+.grid-settings-button-markerEl,
+.grid-add-button-markerEl,
+.grid-utils-button-markerEl {
+  display: none;
+}
+.grid-utils-button-wrapperEl .grid-utils-text-button-wrapperEl {
+  padding: 3px 10px 0px 10px !important;
+  height: 18px;
+}
+.detail-buttons-container {
+  margin-bottom: 19px;
+}
+.detail-buttons-container > span {
+  vertical-align: top;
+  margin-right: 9px;
+}
+.detail-buttons-container > span:last-child {
+  margin-right: 0;
+}
+.detail-load-utils-container {
+  text-align: center;
+}
+.clear-both {
+  clear: both;
+}
+.grid-utils-text-button-wrapperEl:hover {
+  background: #e5e5e5 !important;
+  color: black !important;
+}
+/*
+.grid-utils-button-wrapperEl:hover {
+	color: black !important;
+}*/
+
+.drag-drop-zone {
+  width: 99%;
+  min-height: 35px;
+  border: 1px dashed #bbbbbb;
+}

@@ -1,0 +1,67 @@
+﻿.widget-designer-container .chart-full-screen-btn {
+  display: none;
+}
+.widget-designer-container .funnel-main-container .highchart-tools {
+  display: none;
+}
+.load-more-button-class {
+  margin-left: 40%;
+}
+.default-chart-wrapper .chart-grid-wrapper {
+  margin-top: 35px;
+}
+.default-chart-wrapper.breadCrumbsExist .chart-grid-wrapper {
+  margin-top: 0;
+}
+.chart-grid-wrapper {
+  width: 100%;
+  overflow-y: auto;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  border-bottom: 62px solid transparent;
+}
+.highchart-tools .t-btn-marker {
+  border-top: 0.32em solid #fff;
+}
+.highcharts-data-labels text,
+.highcharts-axis-labels text.highcharts-drilldown-axis-label,
+.highcharts-axis-labels > span {
+  text-decoration: none !important;
+}
+.highcharts-data-labels text:hover,
+.highcharts-axis-labels text.highcharts-drilldown-axis-label:hover {
+  color: #10a0e3 !important;
+  fill: #10a0e3 !important;
+  cursor: pointer !important;
+}
+.funnel-main-container .breadcrumbs-module-container {
+  margin-top: 5px;
+}
+.breadcrumbs-module-container {
+  height: auto;
+  position: relative;
+  margin-top: 40px;
+  background-color: #fff;
+}
+.breadcrumbs-module-container div {
+  display: inline-block;
+  margin-left: 5px;
+}
+.breadcrumbs-module-container div:nth-child(odd) {
+  color: #999999;
+}
+.breadcrumbs-module-container:not([style*="none"]) + .chart-grid-wrapper {
+  border-bottom: 90px solid transparent;
+}
+.query-data-limit-button {
+  padding-left: 0px;
+}
+.query-data-limit-button-image {
+  width: 16px;
+}
+body[OldUI=false] .schema-wrap.one-el .section-inner-wrap.one-el .chart-grid-wrapper .grid.grid-tiled:not(.grid-empty):before {
+  content: '';
+  position: static;
+  margin-top: 0;
+}

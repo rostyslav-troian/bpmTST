@@ -1,0 +1,166 @@
+﻿::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #DADCE1;
+}
+.close-btn-user-class {
+  position: absolute;
+  left: 0.5em;
+  top: 11px;
+}
+.container-lookup-page-grid {
+  position: absolute;
+  max-height: 373px;
+  overflow-y: auto;
+  margin-top: 17px;
+  left: 30px;
+  right: 27px;
+  padding-left: 3px;
+}
+.container-lookup-page-fixed {
+  padding-right: 24px;
+}
+.header {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.header-name-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  padding-left: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.header-name-container-full {
+  padding-top: 4px;
+}
+.module-command-line {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding-right: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.module-help-container {
+  display: inline-block;
+  width: 5%;
+  height: 42px;
+}
+.header-name-container .t-label {
+  font-family: "Segoe UI Light";
+  color: #64b8df;
+  font-size: 2.2em;
+  letter-spacing: -0.01em;
+}
+.main-buttons {
+  float: right;
+  margin: 0 0 0 9px;
+}
+.t-btn-wrapper .main-buttons {
+  margin-left: 0;
+}
+.action-buttons {
+  margin: 0 0 0 9px;
+}
+.option-buttons {
+  float: left;
+  padding-left: 0px;
+  padding-right: 28px;
+  padding-top: 0.5em;
+}
+.open-button-image-size {
+  width: 21px;
+  height: 21px;
+}
+.open-button-markerEl {
+  display: none;
+}
+.containerLookupPage {
+  display: inline-block;
+  height: 100%;
+  min-width: 600px;
+}
+.controlsContainerLookupPage {
+  float: right;
+  padding-top: 24px;
+}
+.optionsContainerLookupPage {
+  float: right;
+  width: 230px;
+  margin-left: 0px;
+  padding-right: 70px;
+}
+.filteringContainerLookupPage {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  padding-top: 21px;
+  padding-bottom: 3px;
+}
+.columnEdit {
+  width: 196px;
+  margin: 0 0 0 9px;
+}
+.searchEdit {
+  width: 196px;
+  margin: 0 0 0 9px;
+}
+.labelEdit {
+  width: auto;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #999999;
+  padding-bottom: 2px;
+}
+.selectedRowsCountLabel {
+  width: auto;
+  font-size: 22px;
+  color: #88c658;
+}
+.vertical-align-top {
+  vertical-align: top;
+}
+div.grid-listed-row {
+  cursor: default;
+}
+.lookuppage-loadbutton-pos {
+  width: 175px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: -13px;
+  margin-bottom: 30px;
+}
+.lookuppage-loadspiner-pos {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  margin-bottom: 39px;
+}
+.lookup-grid-settings-button-wrapperEl {
+  float: left;
+  margin-left: 15px;
+}
+.grid-settings-button-image-size {
+  width: 21px;
+  height: 21px;
+  margin-top: 1px;
+}
+.right-container-lookup-page {
+  float: left;
+  display: inline-block;
+  width: 250px;
+}
+.rightContainerLookupPage {
+  display: inline-block;
+  float: left;
+  width: 320px;
+  padding-top: 25px;
+}

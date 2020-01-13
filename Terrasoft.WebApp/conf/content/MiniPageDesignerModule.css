@@ -1,0 +1,58 @@
+﻿.wizard-container .design-container-wrapClass .alignable-container {
+  position: static !important;
+  min-height: calc(100vh - 138px);
+  padding: calc(68px) 0 0 calc(50% - 210px);
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 0;
+}
+.wizard-container .design-container-wrapClass .alignable-container .minipage-content-container {
+  width: 420px;
+  padding: 40px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
+}
+.wizard-container .design-container-wrapClass .alignable-container .minipage-content-container .grid-layout-edit-wrap {
+  padding: 2px 1px 2px 2px;
+}
+.wizard-container .design-container-wrapClass .mode-switch-container {
+  position: absolute;
+  top: 20px;
+  left: calc(50% + 150px);
+  transform: translate(-50%, 0);
+  border: 1px solid #7d97cf;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.wizard-container .design-container-wrapClass .mode-switch-container .t-btn-wrapper {
+  color: #6380c0;
+  padding: 5px 20px;
+  transition: background-color 0.2s linear;
+}
+.wizard-container .design-container-wrapClass .mode-switch-container .t-btn-wrapper:hover {
+  background-color: #f2f5ff;
+}
+.wizard-container .design-container-wrapClass .mode-switch-container .t-btn-wrapper.t-btn-pressed:hover {
+  background-color: #738bbf;
+}
+.wizard-container .design-container-wrapClass .mode-switch-container .t-btn-wrapper.t-btn-pressed {
+  color: white;
+  background-color: #7d97cf;
+}
+.wizard-container .design-container-wrapClass .mode-switch-container .t-btn-wrapper:not(:first-child):not(:last-child) {
+  border-right: 1px solid #7d97cf;
+  border-left: 1px solid #7d97cf;
+}
+@-moz-document url-prefix() {
+  .wizard-container .mode-switch-container .t-btn-wrapper {
+    transition: none;
+  }
+  .wizard-container .mode-switch-container .t-btn-wrapper:hover {
+    transform: translate3d(0, 0, 0);
+  }
+}
+html[dir="rtl"] .wizard-container .design-container-wrapClass .mode-switch-container {
+  left: calc(50% - 150px);
+}

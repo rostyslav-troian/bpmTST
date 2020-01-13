@@ -1,0 +1,32 @@
+.examples {
+	margin: 10px;
+	padding: 10px;
+	float: left;
+}
+.example {
+	margin: 10px;
+	width: 300px;
+	display: block;
+}
+.input-label {
+	display: block;
+	margin-bottom: 6px;
+}
+.obligatory {
+	color: red;
+}
+.notification-label {
+	background-color: #d6492c;
+	color: white;
+	margin: 0px;
+	padding: 3px;
+}
+.sprite { background-image: url('data:image/gif;base64,R0lGODlhEADZAfAAAE1NTwAAACH5BAEAAAEALAAAAAAQANkBAAL+DI4Yy+nH1ntxumpVy3BzA0ifFoFQgoUn6nmkmaWxO5WwjXf4zvf+DwwKh8Si8YhMKpfMpvMJjUqn1Kr1is1qt0Zdj8Wj7GogmYZF5pDUIfPFZgm/5V45947P6/f8vv8PGCg4SFiYJQY3Q0MG89EY48jW9rgyOWPpKKKmeSHZ5rmIyCnqZmh6ipqqusra6voKq1o39uImymY71zhKY7ZbktmrO/c2vBlqHCwDNBvr/AwdLT1NXW3tGpeTDTx5w+2LUbohLkIbrn2emP49jt6u/s5e7j7KSKl7na+/z9/v/w+QUDEwoDwZPIiw0rF7YOo1REanVqJm3CjKC4gxo8ZNjRw7erxmcdkXfLm0beMk0tuyhy7mwXN5kaIXHTS71Yx3EyYuZCw/+vwJNKjQoURp9XTYjWdShkuVMa14cifTmpkUKZ1IEqlRieRwFAAAOw=='); }
+.sprite-chat_alt_fill_16x16 { background-position: 0px 0px; }
+.sprite-check_16x13 { background-position: 0px -63px; }
+.sprite-check_alt_16x16 { background-position: 0px -129px; }
+.sprite-cog_16x16 { background-position: 0px -195px; }
+.sprite-document_alt_stroke_12x16 { background-position: 0px -261px; }
+.sprite-heart_fill_16x14 { background-position: 0px -327px; }
+.sprite-home_16x16 { background-position: 0px -391px; }
+.sprite-key_fill_16x16 { background-position: 0px -457px; }

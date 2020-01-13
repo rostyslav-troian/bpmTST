@@ -1,0 +1,32 @@
+﻿.source-code-edit-container {
+  position: absolute;
+  right: 6px;
+  left: 6px;
+  top: 46px;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  height: calc(100vh - 52px);
+  padding: 8px 25px 70px 25px;
+}
+.source-code-edit-container .source-code-edit-tools-container {
+  padding-bottom: 5px;
+}
+.source-code-edit-container .source-code-edit-tools-container .source-code-edit-tool-button.t-btn-wrapper {
+  padding: 0;
+}
+.source-code-edit-container .source-code-edit-tools-container .source-code-edit-tool-button.t-btn-wrapper .t-btn-image {
+  width: 32px;
+  height: 32px;
+}
+.source-code-edit-container .source-code-edit-tools-container .source-code-edit-tool-button.t-btn-wrapper.find-button {
+  padding-right: 1px;
+  padding-left: 2px;
+  padding-top: 1px;
+}
+.source-code-edit-container .source-code-edit-control-wrap-container {
+  height: 100%;
+}
+.source-code-edit-container .source-code-edit-control-wrap-container .source-code-edit {
+  padding-right: 0;
+}

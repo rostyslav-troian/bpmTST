@@ -1,0 +1,53 @@
+﻿::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #DADCE1;
+}
+.modal-area {
+  display: inline-block;
+  height: 100%;
+  min-width: 600px;
+}
+.modal-fixed-area {
+  padding-left: 24px;
+}
+.modal-grid-area {
+  position: absolute;
+  max-height: 373px;
+  overflow-y: scroll;
+  margin-top: 17px;
+  right: 30px;
+  left: 27px;
+  padding-right: 3px;
+}
+.modal-close-button {
+  position: absolute;
+  right: 0.5em;
+  top: 11px;
+}
+.modal-header {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.modal-header-inline {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  padding-right: 15px;
+}
+.modal-header-inline .t-label {
+  font-family: "Segoe UI Light";
+  color: #64b8df;
+  font-size: 2.2em;
+  letter-spacing: -0.01em;
+}
+.modal-header-buttons {
+  float: left;
+  padding-top: 24px;
+}
+div.grid-listed-row {
+  cursor: default;
+}

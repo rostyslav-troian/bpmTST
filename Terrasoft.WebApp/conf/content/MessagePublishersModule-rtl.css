@@ -1,0 +1,50 @@
+﻿#MessagePublishers {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#MessagePublishers .schema-wrap.one-el {
+  min-width: 0;
+}
+#MessagePublishers .publisherBottomContainer > span {
+  margin-left: 5px;
+}
+#MessagePublishers .publishButton {
+  float: left;
+}
+#MessagePublishers .html-edit-textarea .base-edit:not(.base-edit-focus) {
+  border: 1px solid #cbcbcb;
+}
+#MessagePublishers .attachmentWrap {
+  height: 20px;
+  margin: 5px 0px;
+}
+#MessagePublishers .attachmentWrap .attachmentLink {
+  float: right;
+}
+#MessagePublishers .attachmentWrap .attachmentDeleteImage {
+  margin-right: 10px;
+  float: right;
+  cursor: pointer;
+}
+#MessagePublishers .attachmentWrap .attachmentDeleteImage img {
+  padding-top: 3px;
+}
+#MessagePublishers .toolbarVisibilityButtonImage,
+#MessagePublishers .attachFileButtonImage {
+  height: 1.4em;
+  width: 1.4em;
+}
+.publisherButtonsContainer {
+  margin-bottom: 1.5em;
+}
+.publisherButtonsContainer .publisherButton {
+  border-right: 0px;
+  border-radius: 0px;
+}
+.publisherButtonsContainer .publisherButton .publisherButtonImage {
+  width: 1.4em;
+  height: 1.4em;
+}
+.publisherButtonsContainer .publisherButton .publisherButtonLabel {
+  margin-right: 0.5em;
+}

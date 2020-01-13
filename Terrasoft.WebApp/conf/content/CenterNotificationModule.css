@@ -1,0 +1,412 @@
+﻿.communication-panel-item-container {
+  padding: 0 auto auto 0;
+}
+.communication-panel-item-container .module-container {
+  padding: 0 auto auto 0;
+}
+.communication-panel-item-container .message-container {
+  height: auto;
+}
+.communication-panel-item-container .ctiPanelMain {
+  width: 336px;
+}
+.communication-panel-item-container .schema-wrap.one-el {
+  width: 363px;
+}
+.communication-panel-item-container .schema-wrap.one-el ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 6px;
+  height: 6px;
+}
+.communication-panel-item-container .schema-wrap.one-el ::-webkit-scrollbar-thumb {
+  background-color: #DBDBDB;
+}
+.communication-panel-item-container .schema-wrap.one-el > .ts-tabpanel.ts-imagetabpanel {
+  height: 42px;
+  margin-left: -27px;
+  padding-right: 0;
+}
+.communication-panel-item-container .schema-wrap.one-el > .ts-tabpanel.ts-imagetabpanel .ts-tabpanel-items {
+  padding-top: 3px;
+  width: inherit;
+}
+.communication-panel-item-container .schema-wrap.one-el > .ts-tabpanel.ts-imagetabpanel .ts-tabpanel-items > li {
+  border-bottom: none;
+  width: 52px;
+  height: 42px;
+  display: inline-block;
+  margin-right: 12px;
+  background-size: cover;
+}
+.communication-panel-item-container .schema-wrap.one-el > .ts-tabpanel.ts-imagetabpanel .ts-tabpanel-items > li > span {
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 9px;
+  position: absolute;
+  top: 1px;
+  left: 100%;
+  line-height: normal;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  margin-left: -18px;
+}
+.communication-panel-item-container .schema-wrap.one-el > .ts-tabpanel.ts-imagetabpanel .ts-tabpanel-items > li:first-child {
+  margin-left: 15px;
+}
+.communication-panel-item-container .schema-wrap.one-el > .ts-tabpanel.ts-imagetabpanel .ts-tabpanel-items > li.ts-tabpanel-active-item {
+  border-bottom: 3px solid #FF4013;
+}
+.communication-panel-item-container .schema-wrap.one-el > .ts-tabpanel.ts-imagetabpanel .ts-tabpanel-items > .ts-imagetabpanel-required:after {
+  content: "";
+}
+.communication-panel-item-container .schema-wrap.one-el > .ts-notifications-container {
+  position: absolute;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100% - 47px);
+  width: 100%;
+  margin-left: -27px;
+}
+.communication-panel-item-container .empty-grid-message {
+  display: block;
+  font-size: 17px;
+  color: #999999;
+  padding-top: 60px;
+  width: 100%;
+  margin-top: 0px;
+  overflow: auto;
+}
+.communication-panel-item-container .empty-grid-message > .image-container {
+  transform: translateX(-50%);
+  left: 50%;
+  width: 135px;
+  height: 139px;
+  margin: auto 37px 0 0;
+}
+.communication-panel-item-container .empty-grid-message > .title {
+  width: auto;
+  margin: 50px auto auto 50px;
+  padding-left: 20px;
+  font-size: 17px;
+}
+.communication-panel-item-container .empty-grid-message > .title > .t-label {
+  font-size: 17px;
+}
+.communication-panel-item-container .empty-grid-message > .description {
+  box-shadow: none;
+  border-left: 2px solid #64b8df;
+  width: auto;
+  margin: 30px auto auto 50px;
+  padding: 15px 50px 15px 20px;
+  font-size: 18px;
+}
+.communication-panel-item-container .empty-grid-message > .description > a {
+  cursor: pointer;
+  color: #4e7bd8;
+}
+.ts-notifications-container .button-caption-labelClass,
+.ts-anniversarynotificationsmodule-container .button-caption-labelClass {
+  width: auto;
+  padding-right: auto 12px auto 10px;
+  color: #999999;
+}
+.ts-notifications-container .visaActionButtonWrap-class,
+.ts-anniversarynotificationsmodule-container .visaActionButtonWrap-class {
+  position: absolute;
+  right: -35px;
+}
+.ts-notifications-container .notificationActionButtonWrap-class,
+.ts-anniversarynotificationsmodule-container .notificationActionButtonWrap-class {
+  position: absolute;
+  left: 100%;
+  top: 17px;
+  margin-left: -33px;
+  padding: 2px 12px;
+  border-left: 1px solid #e1e8f2;
+}
+.ts-notifications-container .visaActionButtonWrap-class,
+.ts-anniversarynotificationsmodule-container .visaActionButtonWrap-class {
+  top: -5px;
+  color: #4e7bd8;
+  visibility: hidden;
+  opacity: 0;
+}
+.ts-notifications-container .selected-item-class .visaActionButtonWrap-class,
+.ts-anniversarynotificationsmodule-container .selected-item-class .visaActionButtonWrap-class {
+  opacity: 1;
+  visibility: visible;
+}
+.ts-notifications-container .visa-notification-item-selected .visaActionButtonWrap-class,
+.ts-anniversarynotificationsmodule-container .visa-notification-item-selected .visaActionButtonWrap-class {
+  opacity: 1;
+  visibility: visible;
+}
+.ts-notifications-container .visa-notification-item-container:hover .visaActionButtonWrap-class,
+.ts-anniversarynotificationsmodule-container .visa-notification-item-container:hover .visaActionButtonWrap-class {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s 0.1s ease;
+}
+.ts-notifications-container .visa-notification-item-middle-container,
+.ts-anniversarynotificationsmodule-container .visa-notification-item-middle-container {
+  margin: auto auto 5px 45px;
+}
+.ts-notifications-container .visa-notification-item-middle-container .visa-notification-item-middle,
+.ts-anniversarynotificationsmodule-container .visa-notification-item-middle-container .visa-notification-item-middle {
+  margin-right: 5px;
+}
+.ts-notifications-container .reminder-notification-item-container,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-container,
+.ts-notifications-container .visa-notification-item-container,
+.ts-anniversarynotificationsmodule-container .visa-notification-item-container,
+.ts-notifications-container .system-notification-item-container,
+.ts-anniversarynotificationsmodule-container .system-notification-item-container,
+.ts-notifications-container .anniversary-notification-item-container,
+.ts-anniversarynotificationsmodule-container .anniversary-notification-item-container {
+  padding: 15px 38px 17px 10px;
+  margin-left: 15px;
+  border-bottom: 1px solid #e1e8f2;
+  position: relative;
+}
+.ts-notifications-container .notifications-main-container,
+.ts-anniversarynotificationsmodule-container .notifications-main-container,
+.ts-notifications-container .visa-notifications-main-container,
+.ts-anniversarynotificationsmodule-container .visa-notifications-main-container,
+.ts-notifications-container .system-notifications-main-container,
+.ts-anniversarynotificationsmodule-container .system-notifications-main-container,
+.ts-notifications-container .anniversary-notifications-main-container,
+.ts-anniversarynotificationsmodule-container .anniversary-notifications-main-container {
+  width: 100%;
+  height: 100%;
+}
+.ts-notifications-container .reminder-notification-item-top-container,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-top-container,
+.ts-notifications-container .anniversary-notification-item-top-container,
+.ts-anniversarynotificationsmodule-container .anniversary-notification-item-top-container {
+  position: relative;
+}
+.ts-notifications-container .reminder-notification-item-top-container a.t-label,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-top-container a.t-label,
+.ts-notifications-container .anniversary-notification-item-top-container a.t-label,
+.ts-anniversarynotificationsmodule-container .anniversary-notification-item-top-container a.t-label,
+.ts-notifications-container .reminder-notification-item-top-container label.t-label,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-top-container label.t-label,
+.ts-notifications-container .anniversary-notification-item-top-container label.t-label,
+.ts-anniversarynotificationsmodule-container .anniversary-notification-item-top-container label.t-label {
+  line-height: 18px;
+  margin-right: 6px;
+  display: inline;
+}
+.ts-notifications-container .reminder-notification-item-top-container a.t-label,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-top-container a.t-label,
+.ts-notifications-container .anniversary-notification-item-top-container a.t-label,
+.ts-anniversarynotificationsmodule-container .anniversary-notification-item-top-container a.t-label {
+  margin-right: 0;
+}
+.ts-notifications-container .reminder-notification-item-top-container a.ts-notification-Invoice-caption,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-top-container a.ts-notification-Invoice-caption,
+.ts-notifications-container .anniversary-notification-item-top-container a.ts-notification-Invoice-caption,
+.ts-anniversarynotificationsmodule-container .anniversary-notification-item-top-container a.ts-notification-Invoice-caption {
+  margin-right: 6px;
+}
+.ts-notifications-container .reminder-notification-item-top-container img,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-top-container img,
+.ts-notifications-container .anniversary-notification-item-top-container img,
+.ts-anniversarynotificationsmodule-container .anniversary-notification-item-top-container img {
+  margin-right: 6px;
+  width: 16px;
+}
+.ts-notifications-container .reminder-notification-item-bottom-container .t-label,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-bottom-container .t-label,
+.ts-notifications-container .visa-notification-item-bottom-container .t-label,
+.ts-anniversarynotificationsmodule-container .visa-notification-item-bottom-container .t-label,
+.ts-notifications-container .system-notification-item-bottom-container .t-label,
+.ts-anniversarynotificationsmodule-container .system-notification-item-bottom-container .t-label,
+.ts-notifications-container .anniversary-notification-item-bottom-container .t-label,
+.ts-anniversarynotificationsmodule-container .anniversary-notification-item-bottom-container .t-label {
+  display: inline;
+  line-height: 17px;
+  margin-right: 6px;
+}
+.ts-notifications-container .reminder-notification-item-bottom-container .t-label[activelink="false"],
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-bottom-container .t-label[activelink="false"],
+.ts-notifications-container .visa-notification-item-bottom-container .t-label[activelink="false"],
+.ts-anniversarynotificationsmodule-container .visa-notification-item-bottom-container .t-label[activelink="false"],
+.ts-notifications-container .system-notification-item-bottom-container .t-label[activelink="false"],
+.ts-anniversarynotificationsmodule-container .system-notification-item-bottom-container .t-label[activelink="false"],
+.ts-notifications-container .anniversary-notification-item-bottom-container .t-label[activelink="false"],
+.ts-anniversarynotificationsmodule-container .anniversary-notification-item-bottom-container .t-label[activelink="false"] {
+  text-decoration: none;
+  cursor: default;
+  color: #444;
+}
+.ts-notifications-container .reminder-notification-item-bottom-container .reminder-notification-icon-class,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-bottom-container .reminder-notification-icon-class,
+.ts-notifications-container .visa-notification-item-bottom-container .reminder-notification-icon-class,
+.ts-anniversarynotificationsmodule-container .visa-notification-item-bottom-container .reminder-notification-icon-class,
+.ts-notifications-container .system-notification-item-bottom-container .reminder-notification-icon-class,
+.ts-anniversarynotificationsmodule-container .system-notification-item-bottom-container .reminder-notification-icon-class,
+.ts-notifications-container .anniversary-notification-item-bottom-container .reminder-notification-icon-class,
+.ts-anniversarynotificationsmodule-container .anniversary-notification-item-bottom-container .reminder-notification-icon-class,
+.ts-notifications-container .reminder-notification-item-bottom-container .visa-notification-icon-class,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-bottom-container .visa-notification-icon-class,
+.ts-notifications-container .visa-notification-item-bottom-container .visa-notification-icon-class,
+.ts-anniversarynotificationsmodule-container .visa-notification-item-bottom-container .visa-notification-icon-class,
+.ts-notifications-container .system-notification-item-bottom-container .visa-notification-icon-class,
+.ts-anniversarynotificationsmodule-container .system-notification-item-bottom-container .visa-notification-icon-class,
+.ts-notifications-container .anniversary-notification-item-bottom-container .visa-notification-icon-class,
+.ts-anniversarynotificationsmodule-container .anniversary-notification-item-bottom-container .visa-notification-icon-class,
+.ts-notifications-container .reminder-notification-item-bottom-container .notification-icon-class,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-bottom-container .notification-icon-class,
+.ts-notifications-container .visa-notification-item-bottom-container .notification-icon-class,
+.ts-anniversarynotificationsmodule-container .visa-notification-item-bottom-container .notification-icon-class,
+.ts-notifications-container .system-notification-item-bottom-container .notification-icon-class,
+.ts-anniversarynotificationsmodule-container .system-notification-item-bottom-container .notification-icon-class,
+.ts-notifications-container .anniversary-notification-item-bottom-container .notification-icon-class,
+.ts-anniversarynotificationsmodule-container .anniversary-notification-item-bottom-container .notification-icon-class {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 3px;
+}
+.ts-notifications-container .reminder-notification-item-top-container,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-top-container {
+  padding: 7px 10px 15px 43px;
+}
+.ts-notifications-container .reminder-notification-item-top-container > img,
+.ts-anniversarynotificationsmodule-container .reminder-notification-item-top-container > img {
+  margin-right: 12px;
+  width: 32px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ts-notifications-container .system-notification-item-bottom-container,
+.ts-anniversarynotificationsmodule-container .system-notification-item-bottom-container {
+  margin-top: 15px;
+}
+.ts-notifications-container div.default-notification-items-container-class img [src=""],
+.ts-anniversarynotificationsmodule-container div.default-notification-items-container-class img [src=""] {
+  margin-right: -10px;
+}
+.ts-notifications-container .message-container,
+.ts-anniversarynotificationsmodule-container .message-container {
+  height: auto;
+}
+.ts-notifications-container .right-panel-modules-container,
+.ts-anniversarynotificationsmodule-container .right-panel-modules-container {
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+.ts-notifications-container .offset-notification-items-container-class,
+.ts-anniversarynotificationsmodule-container .offset-notification-items-container-class,
+.ts-notifications-container .system-notification-items-container-class,
+.ts-anniversarynotificationsmodule-container .system-notification-items-container-class {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  bottom: 2px;
+  top: 0px;
+  left: 0px;
+}
+.ts-notifications-container .offset-notification-items-container-class::-webkit-scrollbar,
+.ts-anniversarynotificationsmodule-container .offset-notification-items-container-class::-webkit-scrollbar {
+  width: 5px;
+}
+.ts-notifications-container .offset-notification-items-container-class:hover,
+.ts-anniversarynotificationsmodule-container .offset-notification-items-container-class:hover {
+  overflow: auto;
+}
+.ts-notifications-container .subject-text-labelClass,
+.ts-anniversarynotificationsmodule-container .subject-text-labelClass {
+  width: auto;
+}
+.ts-notifications-container .selected-item-class,
+.ts-anniversarynotificationsmodule-container .selected-item-class {
+  background-color: #edf1f8;
+}
+.ts-notifications-container .main-actions-button-container,
+.ts-anniversarynotificationsmodule-container .main-actions-button-container {
+  position: relative;
+  height: 41px;
+  border-bottom: 1px solid #e1e8f2;
+  left: 14px;
+}
+.ts-notifications-container .main-actions-button-container > .postpone-all-class,
+.ts-anniversarynotificationsmodule-container .main-actions-button-container > .postpone-all-class {
+  padding-top: 4px !important;
+  padding-bottom: 5px;
+  float: left;
+  border-right: 1px solid #e1e8f2;
+  margin: 8px auto;
+}
+.ts-notifications-container .main-actions-button-container > .postpone-all-class > .postpone-all-menuClass,
+.ts-anniversarynotificationsmodule-container .main-actions-button-container > .postpone-all-class > .postpone-all-menuClass {
+  margin-top: 5px;
+}
+.ts-notifications-container .main-actions-button-container > .cancel-all-class,
+.ts-anniversarynotificationsmodule-container .main-actions-button-container > .cancel-all-class {
+  float: left;
+  border-right: 1px solid #e1e8f2;
+  margin: 8px auto;
+  padding: 4px 11px 5px 11px;
+}
+.ts-anniversarynotificationsmodule-container .offset-notification-items-container-class {
+  top: 123px;
+}
+.visa-notification-item-top-container,
+.system-notification-item-top-container {
+  position: relative;
+  padding-right: 10px;
+  color: #999999;
+}
+.visa-notification-item-top-container img,
+.system-notification-item-top-container img {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 4px;
+}
+.visa-notification-item-top-container > .t-label,
+.system-notification-item-top-container > .t-label {
+  line-height: 16px;
+  margin: auto auto 5px 45px;
+  display: block;
+  text-align: left;
+}
+.visa-notification-item-top-container img {
+  box-sizing: border-box;
+  padding: 2px;
+  width: 33px;
+  height: 33px;
+  border-radius: 3px;
+}
+html[dir="rtl"] .communication-panel-item-container .empty-grid-message > .image-container {
+  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+}
+html[dir="rtl"] .communication-panel-item-container .schema-wrap.one-el > .ts-tabpanel.ts-imagetabpanel .ts-tabpanel-items > li {
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+}
+html[dir="rtl"] .communication-panel-item-container .schema-wrap.one-el > .ts-tabpanel.ts-imagetabpanel .ts-tabpanel-items > li > span {
+  left: auto;
+  padding-right: 0.02px;
+  transform: scaleX(-1);
+  top: 0.25px;
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+}
+html[dir="rtl"] .communication-panel .content .t-btn-text {
+  transform: translate(50%, -50%);
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+}

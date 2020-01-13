@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Terrasoft.Messaging.Common.MsgUtilService" Factory="System.ServiceModel.Activation.WebServiceHostFactory" %>

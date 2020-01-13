@@ -1,0 +1,61 @@
+.base-edit-with-clear-icon {
+	white-space: nowrap;
+}
+
+.base-edit-clear-icon {
+	background: url('icon-clear-delete.png') 50% 50% no-repeat;
+	width: 32px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+	display: none;
+}
+
+.base-edit-clear-icon:hover {
+	background: url('icon-clear-delete-hover.png') 50% 50% no-repeat;
+}
+
+.base-edit:hover .base-edit-clear-icon {
+	display: inline-block;
+}
+
+.base-edit-disabled.base-edit:hover .base-edit-clear-icon,
+.base-edit:hover.clear-icon-not-visible .base-edit-clear-icon,
+.base-edit-disabled.base-edit-with-clear-icon .base-edit-clear-icon,
+.card-content-container .base-edit-clear-icon {
+	display: none;
+}
+
+.base-edit-readonly:hover .base-edit-clear-icon {
+	display: none;
+}
+
+.base-edit-with-clear-icon:hover .base-edit-link-wrap {
+	padding-right: 14px;
+}
+
+.base-edit-with-clear-icon.base-edit-with-right-icon:hover .base-edit-link-wrap {
+	padding-right: 35px;
+}
+
+.base-edit-disabled.base-edit-with-clear-icon .base-edit-input,
+.base-edit-disabled.base-edit-with-clear-icon:hover .base-edit-input,
+.base-edit-disabled.base-edit-with-clear-icon:hover .base-edit-link-wrap {
+	padding-right: 0;
+	cursor: default;
+}
+
+.base-edit-with-clear-icon .base-edit-link-wrap,
+.base-edit-with-clear-icon .base-edit-input {
+	padding-right: 0;
+}
+
+.base-edit-with-clear-icon:not(.clear-icon-not-visible):hover .base-edit-input {
+	padding-right: 14px;
+}
+
+.base-edit-with-right-icon .base-edit-clear-icon {
+	right: 22px;
+}

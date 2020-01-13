@@ -1,0 +1,48 @@
+.predictable-icon {
+	width: 22px;
+	height: 15px;
+	float: right;
+	margin-left: 3px;
+	margin-top: 10px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	&[state="0"] {
+		display: none;
+	}
+	&[state="1"] {
+		background-image: url(icons/prediction_exact.svg);
+	}
+	&[state="2"] {
+		background-image: url(icons/prediction_notexact.svg);
+	}
+	&[state="3"] {
+		background-image: url(icons/prediction_notfound.svg);
+	}
+}
+.base-edit.predictable-edit {
+	width: calc(~'100% - 25px');
+	float: left;
+}
+.predictable-value {
+	float: right;
+	margin-right: -15px;
+}
+.predictableFont(@font-family) {
+	.cignificance-high,
+	.cignificance-medium {
+		font-family: @font-family;
+		+ .predictable-value {
+			font-family: @font-family;
+		}
+	}
+}
+.predictableFont("Bpmonline Open Sans Bold");
+html[culture="ar-SA"] {
+	.predictableFont("Bpmonline Cairo Bold");
+}
+html[culture="he-IL"] {
+	.predictableFont("Bpmonline Rubik Bold");
+}
+html[culture="fa-IR"] {
+	.predictableFont("IranSans Bold");
+}

@@ -1,0 +1,71 @@
+﻿.tag-inner-container .t-btn-wrapper {
+  vertical-align: bottom;
+}
+.tag-inner-container .t-btn-style-transparent {
+  margin-left: -12px;
+}
+.tag-inner-container .t-btn-style-transparent.tag-remove-button {
+  margin-left: -5px;
+  padding-left: 5px;
+}
+.tag-remove-button {
+  margin-left: -5px;
+  padding-left: 5px;
+}
+.tag-inner-container {
+  height: 34px;
+  padding-bottom: 11px;
+  float: left;
+  padding-right: 16px;
+}
+.tag-inner-container:first-child {
+  padding-right: 0px;
+}
+.tag-inner-container:last-child {
+  padding-right: 16px;
+}
+.tag-inner-container .t-label {
+  vertical-align: bottom;
+  padding-top: 6px;
+  padding-bottom: 9px;
+  width: auto;
+}
+.tag-main-container {
+  overflow: auto;
+}
+.tag-value-label {
+  color: #4b7fc7;
+}
+.tag-caption-label {
+  color: #999;
+}
+/*.tag-view label:after {
+content: ',';
+}*/
+
+.tag-view .t-label {
+  cursor: pointer;
+}
+.image-container {
+  padding-left: 8px;
+  padding-top: 0px;
+  width: 33px;
+  height: 24px;
+  float: left;
+  margin-top: 6px;
+  margin-right: 4px;
+  cursor: default;
+}
+.image-container span {
+  width: 22px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position-y: 2px;
+}
+.tag-element-with-right-space {
+  margin-right: 9px;
+}
+.tag-simple-tag-edit {
+  margin-right: 9px;
+  width: 156px;
+}

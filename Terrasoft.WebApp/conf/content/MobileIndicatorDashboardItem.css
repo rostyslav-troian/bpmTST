@@ -1,0 +1,14 @@
+﻿.x-phone .cf-dashboard-item-indicator {
+  height: 114px;
+}
+.cf-dashboard-item.cf-dashboard-item-indicator .cf-dashboard-item-title {
+  overflow: hidden;
+  height: 48px;
+  background-color: transparent;
+  line-height: 20px;
+  padding-right: 30px;
+  padding-top: 4px;
+}
+.cf-dashboard-item.cf-dashboard-item-indicator .cf-dashboard-item-inner {
+  padding-top: 34px;
+}

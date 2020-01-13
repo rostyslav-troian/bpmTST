@@ -1,0 +1,11 @@
+﻿#MobileDesignerViewContainer {
+  padding: 20px 0;
+}
+#MobileDesignerViewContainer .grid-layout-edit-wrap {
+  margin-bottom: 1.2em;
+  min-width: 360px;
+  width: 50%;
+}
+#MobileDesignerViewContainer .recommendation {
+  color: #999999;
+}

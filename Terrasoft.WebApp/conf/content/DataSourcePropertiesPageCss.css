@@ -1,0 +1,18 @@
+﻿.datasource-properties-page {
+  max-width: 294px;
+}
+.datasource-properties-page .grid-layout .control-width-15 {
+  flex-direction: column;
+}
+.datasource-properties-page .grid-layout .control-width-15 .control-wrap {
+  min-height: 28px;
+}
+.datasource-properties-page .label-wrap {
+  max-width: none;
+}
+.datasource-properties-page .bottom-buttons-wrapper {
+  margin-top: 16px;
+}
+.datasource-properties-page .bottom-buttons-wrapper .right-button {
+  margin-right: 9px;
+}

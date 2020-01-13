@@ -1,0 +1,46 @@
+﻿.grid-layout-table-edit-columns-header-row[id^="MarketingCalendarId"] {
+  margin-top: -1px;
+}
+.grid-layout-table-edit-grid-row[id^="MarketingCalendarId"][has-rows-captions="0"] {
+  border-right: none;
+}
+.grid-layout-table-edit-grid-row[id^="MarketingCalendarId"][category="1"] {
+  background-color: #f7f7f7;
+}
+.grid-layout-table-edit-grid-row[id^="MarketingCalendarId"][data-row-index="0"][has-columns-captions="0"] {
+  border-top: 1px solid #e2e2e2;
+}
+.grid-layout-table-edit-grid-row[id^="MarketingCalendarId"] {
+  position: static;
+  display: flex;
+  height: 35px;
+}
+.grid-layout-table-edit-right-wrap[id^="MarketingCalendarId"] {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 20px);
+  height: inherit;
+}
+.marketing-calendar-item-wrap {
+  background-color: #c6f0ff;
+  overflow: hidden;
+}
+/*.marketing-calendar-grid-cell {
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px solid #bababa;
+    text-align: center;
+    position: relative;
+    cursor: default;
+    height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    line-height: 33px;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -user-select: none;
+    overflow: hidden;
+}*/
+

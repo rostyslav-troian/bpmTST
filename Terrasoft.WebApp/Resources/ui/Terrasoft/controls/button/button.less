@@ -1,0 +1,411 @@
+﻿.t-btn-wrapper {
+	overflow: hidden;
+	vertical-align: top;
+	display: inline-block;
+	padding: 0.33em 0.7em 0.39em 0.86em;
+	cursor: pointer;
+	font-size: 1.4em;
+	-webkit-user-select: none;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.addbutton-buttonClass .t-btn-image.addbutton-imageClass{
+	margin: 5px 8px;
+	width: 16px;
+	height: 16px;
+}
+
+.t-btn-no-text-padding {
+	padding: 0.38em 0.86em 0.38em 0.86em;
+}
+
+.t-btn-style-green .t-btn-menu .t-btn-marker,
+.t-btn-style-blue .t-btn-menu .t-btn-marker {
+	border-top: 0.32em solid #fff;
+}
+.x-ie8 .t-btn-style-green .t-btn-menu .t-btn-marker,
+.x-ie8 .t-btn-style-blue .t-btn-menu .t-btn-marker,
+.x-ie9 .t-btn-style-green .t-btn-menu .t-btn-marker,
+.x-ie9 .t-btn-style-blue .t-btn-menu .t-btn-marker {
+	border-top: 4px solid #fff;
+}
+
+.t-btn-innerWrapper {
+	display: inline-block;
+	border: none;
+	outline: none;
+	margin: 0px;
+}
+
+.cell {
+	display: table-cell; vertical-align: middle;
+	height: auto;
+}
+
+.inner {
+	display: inline-block;
+	vertical-align: middle;
+}
+.t-btn-wrapper.before-block:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.t-btn-image {
+	border: none;
+	width: 1.14em;
+	height: 1.14em;
+}
+
+.t-btn-image-left {
+	float: left;
+	margin-right: 0.42em;
+}
+.t-btn-image-left-width {
+	display: block;margin: 0 auto;float: none;
+}
+
+.t-btn-image-right {
+	float: right;
+}
+
+.t-btn-image-top {
+	display: block;
+	position: relative;
+	left: 50%;
+	margin-left: -0.57em;
+	margin-bottom: 0.42em;
+}
+
+.t-btn-left {
+	float: left;
+}
+
+.t-btn-text {
+	border: none;
+	line-height: 1.2em;
+}
+
+.t-btn-menu {
+	border: none;
+	float: left;
+	position: relative;
+	width: 0.57em;
+	height: 1.14em;
+	margin-left: 0.42em;
+	margin-bottom: 0px;
+}
+
+.wrapper-with-centered-right-menu {
+	position: relative;
+	padding-right: 1.66em;
+}
+
+.wrapper-with-centered-right-menu  .t-btn-menu {
+	float: none;
+	position: absolute;
+	right: 0.7em;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+
+.wrapper-with-centered-left-image {
+	position: relative;
+	padding-left: 1.57em;
+}
+
+.wrapper-with-centered-left-image  .t-btn-image {
+	float: none;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+.wrapper-with-centered-right-image {
+	position: relative;
+	padding-right: 34px;
+}
+
+.wrapper-with-centered-right-image  .t-btn-image {
+	float: none;
+	position: absolute;
+	right: 12px;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+
+.absolute-vertical-centered {
+	position: relative;
+}
+
+.absolute-vertical-centered  .t-btn-image{
+	float: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+
+.t-btn-marker {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto 0;
+	width: 0;
+	height: 0;
+	border-top: 0.32em solid #4d6a98;
+	border-right: 0.32em solid transparent;
+	border-left: 0.32em solid transparent;
+	content: "";
+}
+.x-ie8 .t-btn-marker, .x-ie9 .t-btn-marker {
+	border-top-width: 4px;
+	border-right-width: 4px;
+	border-left-width: 4px;
+}
+.t-btn-down { }
+.t-btn-pressed { }
+.t-btn-enabled { }
+.t-btn-disabled {
+	color: #aeaeae !important;
+	cursor: default;
+}
+.t-btn-focus,
+.t-btn-focus:not(.t-btn-disabled){
+	outline: none;
+}
+
+.t-btn-menuWrap {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 1.6em;
+	z-index: 10;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	background-color: #fff;
+
+}
+
+.t-btn-style-default .t-btn-image, .t-btn-style-green .t-btn-image {
+	width: 1.067em;
+	height: 1.067em;
+}
+
+/* Start Default Style */
+.t-btn-style-default {
+	color: #006CE0;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	font-size: 1.5em;
+	min-height: 30px;
+	text-transform: uppercase;
+	padding-left: 0.7em;
+	padding-bottom: 0.3em;
+	padding-top: 0.3em;
+}
+.t-btn-style-default:not(.t-btn-disabled):not(.t-btn-loading):hover {
+	background: #F2F5FF;
+}
+.x-ie8 .t-btn-style-default:hover {
+	background: #F2F5FF;
+}
+.t-btn-down.t-btn-style-default:hover,
+.t-btn-pressed.t-btn-style-default {
+	background: #E3E9F9;
+}
+/* End Default Style */
+
+/* Start Transparent Style */
+.t-btn-style-transparent {
+	color: #444;
+}
+.t-btn-style-transparent:not(.t-btn-disabled):not(.t-btn-loading):hover {
+	color: #10a0e3;
+}
+.x-ie8 .t-btn-style-transparent:hover {
+	color: #10a0e3;
+}
+.t-btn-disabled.t-btn-style-transparent {
+	background: none;
+}
+.t-btn-down.t-btn-style-transparent:hover,
+.t-btn-pressed.t-btn-style-transparent {
+	color: #0096dc;
+}
+/* End Transparent Style */
+
+/* Start Green Style */
+.t-btn-style-green {
+	background: #22ac14;
+	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding-left: 0.7em;
+	padding-bottom: 0.367em;
+	padding-top: 0.3em;
+}
+.t-btn-style-green:not(.t-btn-disabled):not(.t-btn-loading):hover {
+	background: #1c9110;
+}
+.x-ie8 .t-btn-style-green:hover {
+	background: #1c9110;
+}
+.t-btn-down.t-btn-style-green:hover,
+.t-btn-pressed.t-btn-style-green {
+	background: #22ac14;
+}
+/* End Green Style*/
+
+/* Start Blue Style */
+.t-btn-style-blue {
+	background-color: #006CE0;
+	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding-left: 0.7em;
+	padding-bottom: 0.367em;
+	padding-top: 0.3em;
+}
+.t-btn-style-blue:not(.t-btn-disabled):not(.t-btn-loading):hover {
+	background-color: #0258B5;
+}
+.x-ie8 .t-btn-style-blue:hover {
+	background: #0258B5;
+}
+.t-btn-down.t-btn-style-blue:hover,
+.t-btn-pressed.t-btn-style-blue {
+	background: #006CE0;
+}
+/* End Blue Style */
+
+/* Start Red Style */
+.t-btn-style-red {
+	background-color: #FF4013;
+	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding-left: 0.7em;
+	padding-bottom: 0.367em;
+	padding-top: 0.3em;
+}
+.t-btn-style-red:not(.t-btn-disabled):not(.t-btn-loading):hover {
+	background-color: #DF1F26;
+}
+.x-ie8 .t-btn-style-red:hover {
+	background: #DF1F26;
+}
+.t-btn-down.t-btn-style-red:hover,
+.t-btn-pressed.t-btn-style-red {
+	background: #FF4013;
+}
+/* End Red Style */
+
+/* Start Grey Style */
+.t-btn-style-grey {
+	color: #4e7bd8;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	font-size: 1.5em;
+	min-height: 30px;
+	text-transform: uppercase;
+	padding-left: 0.7em;
+	padding-bottom: 0.3em;
+	padding-top: 0.3em;
+}
+.t-btn-style-grey:not(.t-btn-disabled):not(.t-btn-loading):hover {
+	background-color: #f2f5ff;
+}
+.x-ie8 .t-btn-style-grey:hover {
+	background: #f2f5ff;
+}
+.t-btn-down.t-btn-style-grey:hover,
+.t-btn-pressed.t-btn-style-grey {
+	background: #e3e9f9;
+}
+/* End Grey Style */
+
+.t-btn-disabled.t-btn-style-green:not(.t-btn-loading),
+.t-btn-disabled.t-btn-style-red:not(.t-btn-loading) {
+	background: #f0f0f0;
+}
+
+.t-btn-disabled.t-btn-style-blue:not(.t-btn-loading) {
+	background: #ccc;
+	color: #fff !important;
+}
+
+.t-btn-disabled .t-btn-text:not(.t-btn-loading) {
+	color: #bababa !important;
+}
+.t-btn-disabled .t-btn-marker {
+	border-top: 0.29em solid #bababa;
+}
+.x-ie8 .t-btn-disabled .t-btn-marker,
+.x-ie9 .t-btn-disabled .t-btn-marker {
+	border-top: 4px solid #bababa;
+}
+
+.t-btn-wrapper.wrapper-with-centered-right-menu.main-buttons {
+	vertical-align: top;
+}
+
+.float-left { float: left; }
+.float-right { float: right; }
+.float-none { float: none; }
+.position-relative { position: relative; }
+.position-absolute { position: absolute; }
+.margin-left-0px { margin-left: 0px !important;}
+.margin-right-0px { margin-right: 0px !important;}
+.padding-left-12px { padding-left: 0.86em !important;}
+.padding-left-14px { padding-left: 1em !important;}
+.padding-left-22px { padding-left: 1.57em !important;}
+.padding-left-34px { padding-left: 2.43em !important;}
+.padding-right-12px { padding-right: 0.86em !important;}
+.padding-right-14px { padding-right: 1em !important;}
+.padding-right-22px { padding-right: 1.57em !important;}
+.padding-right-34px { padding-right: 2.43em !important;}
+.left-0px { left: 0px; }
+.left-12px { left: 0.86em; }
+.right-0px { right: 0px; }
+.right-12px { right: 0.86em; }
+
+
+.t-btn-text .ts-mask-spinner {
+	display: inline-block;
+	width: 16px;
+	float: right;
+	height: 16px;
+}
+
+.t-btn-style-green,
+.t-btn-style-blue,
+.t-btn-style-red {
+	.ts-mask-spinner {
+		filter: brightness(1.2);
+	}
+}
+
+.t-btn-loading {
+	cursor: progress !important;
+}

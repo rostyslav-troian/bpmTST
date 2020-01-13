@@ -1,0 +1,40 @@
+<svg width="42" height="42" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.a{fill:#fff;}.b{clip-path:url(#a);}.c{clip-path:url(#b);}.c{fill:#fecd66;}</style>
+  <clipPath id="a">
+   <rect id="svg_1" height="42" width="42" class="a"/>
+  </clipPath>
+  <clipPath id="b">
+   <rect id="svg_2" x="-3064.499023" y="335.533997" height="21.517" width="21.517" class="a"/>
+  </clipPath>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="44" width="44" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="null" id="svg_3" d="m37.77383,42l-33.797638,0a3.988121,3.988119 0 0 1 -3.976193,-3.97619l0,-33.797615a3.988121,3.988119 0 0 1 3.976193,-3.97619l33.797638,0a3.988121,3.988119 0 0 1 3.976193,3.97619l0,33.797615a3.988121,3.988119 0 0 1 -3.976193,3.97619" class="a"/>
+  <g id="svg_4" class="b">
+   <g id="svg_5">
+    <g id="svg_6" class="c">
+     <rect fill="#fecd66" id="svg_7" x="10.2415" y="10.2415" height="21.517" width="21.517" class="a"/>
+     <rect fill="#fecd66" id="svg_8" x="15.487594" y="18.983504" height="4.034" width="11.024" class="d"/>
+    </g>
+   </g>
+   <g id="svg_9">
+    <path fill="#fecd66" id="svg_10" d="m14.258523,18.477503l-2,0l0,-5.546l5.25,0l0,2l-3.25,0l0,3.546z" class="d"/>
+   </g>
+   <g id="svg_11">
+    <path fill="#fecd66" id="svg_12" d="m27.740523,18.477503l2,0l0,-5.546l-5.25,0l0,2l3.25,0l0,3.546z" class="d"/>
+   </g>
+   <g id="svg_13">
+    <path fill="#fecd66" id="svg_14" d="m14.258523,23.522503l-2,0l0,5.546l5.25,0l0,-2l-3.25,0l0,-3.546z" class="d"/>
+   </g>
+   <g id="svg_15">
+    <path fill="#fecd66" id="svg_16" d="m27.740523,23.522503l2,0l0,5.546l-5.25,0l0,-2l3.25,0l0,-3.546z" class="d"/>
+   </g>
+  </g>
+  <rect id="svg_17" height="3.874957" width="10.999879" y="18.92971" x="15.437559" stroke-opacity="null" stroke-width="null" stroke="null" fill="#fecd66"/>
+ </g>
+</svg>

@@ -1,0 +1,14 @@
+﻿.tab-item-content-draggable-item-grabbed .ts-controlgroup-caption-wrap {
+  background-color: lightgrey;
+}
+.tab-item-content-draggable-item-grabbed .ts-controlgroup-container {
+  display: none;
+}
+.tab-item-content-reorderable-zero-element {
+  width: 100%;
+  height: 10px;
+  background: none;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}

@@ -1,0 +1,23 @@
+﻿.ts-tabpanel {
+  margin-left: -30px;
+}
+.left-container {
+  margin-top: 28px;
+  float: left;
+  width: 45%;
+  margin-bottom: 40px;
+}
+.right-container {
+  margin-top: 28px;
+  float: right;
+  width: 45%;
+  margin-bottom: 40px;
+}
+.graph-header-name {
+  font-size: 16px;
+  font-family: "Segoe UI Light";
+  color: #058dc7;
+  letter-spacing: -0.01em;
+  width: 100%;
+  margin-bottom: 28px;
+}

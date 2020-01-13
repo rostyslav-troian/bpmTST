@@ -1,0 +1,12 @@
+﻿.close-btn-user-class {
+  position: absolute;
+  left: 0px;
+  top: 12px;
+}
+.head-label-user-class {
+  color: #0e84cf;
+  font-size: 1.6em;
+  display: block;
+  padding-bottom: 15px;
+  height: 1.6em;
+}

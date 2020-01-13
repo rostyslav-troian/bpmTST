@@ -1,0 +1,11 @@
+﻿#MiniPageContainer .column-designer-container .grid-layout.use-in-summary-container {
+  padding: 15px 0 0 0;
+}
+#MiniPageContainer .column-designer-container .grid-layout.use-in-summary-container .tip-label-wrap {
+  text-align: inherit;
+}
+#MiniPageContainer .column-designer-container .grid-layout.use-in-summary-container .use-in-summary-label {
+  font-size: 13px;
+  color: #999999;
+  margin-top: 2px;
+}

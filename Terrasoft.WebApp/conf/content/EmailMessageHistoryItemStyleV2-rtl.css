@@ -1,0 +1,41 @@
+﻿.historyV2-container-wrap .email-link-image {
+  width: 16px;
+  min-width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: text-bottom;
+}
+.historyV2-container-wrap .email-subject {
+  font-size: 14px;
+  opacity: 0.5;
+  overflow: hidden;
+  display: inline-block;
+  max-width: calc(100% - 200px);
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+.historyV2-container-wrap .draft-label {
+  font-size: 14px;
+  color: #444444;
+}
+.historyV2-container-wrap .draft-content-container {
+  margin-bottom: 12px;
+}
+.historyV2-container-wrap .multiline-label-wrap iframe {
+  height: 30px;
+}
+.historyV2-container-wrap .historyV2-message-header-container .email-message-actions-button-menu {
+  display: none;
+}
+.historyV2-container-wrap .historyV2-message-header-container .email-message-actions-button-wrapper {
+  padding-top: 0;
+  padding-right: 0;
+  margin-right: 10px;
+  margin-top: 12px;
+}
+.historyV2-container-wrap .historyV2-message-header-container .email-message-actions-button-wrapper .t-btn-image {
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

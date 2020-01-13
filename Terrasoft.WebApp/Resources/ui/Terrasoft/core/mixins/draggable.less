@@ -1,0 +1,121 @@
+.draggable-item-resize-top, .draggable-item-resize-bottom, .draggable-item-resize-left,
+.draggable-item-resize-right, .draggable-item-resize-top-left, .draggable-item-resize-top-right,
+.draggable-item-resize-bottom-left, .draggable-item-resize-bottom-right, .draggable-item-move {
+	box-sizing: border-box;
+	display: block;
+	position: absolute;
+}
+
+.draggable-item-move {
+	height: 100%;
+	width: 100%;
+	cursor: move;
+	top: 0px;
+	left: 0px;
+	z-index: 12;
+}
+
+.draggable-item-grabbed {
+	z-index: 99999;
+	position: absolute;
+}
+
+.draggable-item-resize-top, .draggable-item-resize-bottom,
+.draggable-item-resize-left, .draggable-item-resize-right {
+	z-index: 15;
+}
+
+.draggable-item-resize-top, .draggable-item-resize-bottom {
+	cursor: ns-resize;
+	height: 4px;
+	width: 100%;
+}
+
+.draggable-item-resize-top {
+	top: 0px;
+}
+
+.draggable-item-resize-bottom {
+	bottom: 0px;
+}
+
+.draggable-item-resize-left, .draggable-item-resize-right {
+	cursor: ew-resize;
+	height: 100%;
+	width: 4px;
+	top: 0px;
+}
+
+.draggable-item-resize-top:hover, .draggable-item-resize-bottom:hover,
+.draggable-item-resize-left:hover, .draggable-item-resize-right:hover {
+	background: #9ce269;
+	opacity: 0.5;
+}
+
+.draggable-item-resize-left {
+	left: 0px;
+}
+
+.draggable-item-resize-right {
+	right: 0px;
+}
+
+.draggable-item-resize-top-left, .draggable-item-resize-top-right,
+.draggable-item-resize-bottom-left, .draggable-item-resize-bottom-right {
+	width: 10px;
+	height: 10px;
+	z-index: 16;
+}
+
+.draggable-item-resize-top-left:hover, .draggable-item-resize-top-right:hover,
+.draggable-item-resize-bottom-left:hover, .draggable-item-resize-bottom-right:hover {
+	opacity: 0.5;
+}
+
+.draggable-item-resize-top-left {
+	cursor: nw-resize;
+	top: 0px;
+	left: 0px;
+}
+
+.draggable-item-resize-top-left:hover {
+	border-top: 10px solid #9ce269;
+	border-right: 10px solid transparent;
+}
+
+.draggable-item-resize-top-right {
+	cursor: sw-resize;
+	top: 0px;
+	right: 0px;
+}
+
+.draggable-item-resize-top-right:hover {
+	border-top: 10px solid #9ce269;
+	border-left: 10px solid transparent;
+}
+
+.draggable-item-resize-bottom-left {
+	cursor: sw-resize;
+	bottom: 0px;
+	left: 0px;
+}
+
+.draggable-item-resize-bottom-left:hover {
+	border-bottom: 10px solid #9ce269;
+	border-right: 10px solid transparent;
+}
+
+.draggable-item-resize-bottom-right {
+	cursor: nw-resize;
+	bottom: 0px;
+	right: 0px;
+}
+
+.draggable-item-resize-bottom-right:hover {
+	border-bottom: 10px solid #9ce269;
+	border-left: 10px solid transparent;
+}
+
+.drop-zone-hint {
+	box-shadow: 0 0 10px #9ce269;
+}

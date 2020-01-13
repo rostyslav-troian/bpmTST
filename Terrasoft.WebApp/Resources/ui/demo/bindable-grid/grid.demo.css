@@ -1,0 +1,65 @@
+.example {
+	font-size: 1.4em;
+}
+
+
+
+
+
+.grid-header {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+.grid-text {
+	font-size: 1.1em;
+	line-height: 1.1em;
+}
+
+.grid-caption {
+	font-size: .9em;
+	color: #999999;
+	display: block;
+}
+
+.grid-icon {
+	padding-right: 7px;
+	float: left;
+}
+
+.grid-photo {
+	padding-right: 7px;
+	float: left;
+}
+
+.grid-priority {
+	display: inline-block;
+	width: 6px;
+	height: 10px;
+	background-color: #8ECB60;
+	margin-right: 6px;
+}
+
+/*
+.row {
+	margin-bottom: 30px;
+	margin: 10px;
+	vertical-align: top;
+}*/
+
+.grid {
+	font-size: 1.1em;
+	line-height: 1.1em;
+}
+
+.row-selected {
+	background-color: #F4F7F8;
+}
+
+/*
+.grid > .row:nth-child(even) {
+	border-top: 1px solid #E0E0E0;
+	background-color: #F4F7F8;
+	border-bottom: 1px solid #E0E0E0;
+}
+*/

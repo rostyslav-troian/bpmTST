@@ -1,0 +1,42 @@
+﻿.title-lbl {
+  color: #444444;
+  font-size: 35px;
+  font-family: 'Segoe UI Light';
+  letter-spacing: -0.01em;
+  text-align: right;
+  line-height: 1.072em;
+  margin-bottom: 24px;
+}
+.top-button {
+  margin-left: 9px;
+}
+.top-buttons {
+  margin-bottom: 24px;
+}
+.search-edit {
+  width: 300px;
+  margin-left: 10px;
+}
+.filter-social-networks {
+  width: 300px;
+}
+.columnEdit {
+  width: 156px;
+  margin-left: 9px;
+}
+.searchEdit {
+  width: 156px;
+  margin-left: 9px;
+}
+.page-caption-label {
+  color: #444;
+  font-size: 3.5em;
+  margin-bottom: 30px;
+  margin-right: 5px;
+  font-family: "Segoe UI Light";
+  letter-spacing: -0.01em;
+}
+.find-button {
+  display: inline-block;
+  vertical-align: top;
+}

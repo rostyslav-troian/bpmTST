@@ -1,0 +1,80 @@
+﻿.editable-grid-button .t-btn-text {
+  color: #4e7bd8;
+  font-size: 1em;
+  line-height: 25px;
+  padding: 0;
+}
+.editable-grid-button .t-btn-text:hover {
+  color: #4e7bd8;
+  text-decoration: underline;
+}
+.supply-payment-products-modal-box {
+  -moz-transition: height 0.1s ease-in;
+  -ms-transition: height 0.1s ease-in;
+  -o-transition: height 0.1s ease-in;
+  -webkit-transition: height 0.1s ease-in;
+  transition: height 0.1s ease-in;
+}
+.supply-payment-products-modal-box .t-btn-text {
+  line-height: 1.2em;
+  margin-right: 0.8em;
+  width: 85px;
+}
+.supply-payment-products-modal-box .fixed-area-container {
+  display: inline-block;
+  height: 100%;
+  padding: 0 40px 0 24px;
+  width: 100%;
+}
+.supply-payment-products-modal-box .summary-item-container {
+  margin-top: 0;
+}
+.supply-payment-products-modal-box .t-label {
+  width: auto;
+}
+.supply-payment-products-modal-box .header {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.supply-payment-products-modal-box .header-name-container-full {
+  padding-top: 4px;
+}
+.supply-payment-products-modal-box .header-name-container {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  padding-right: 15px;
+  vertical-align: top;
+  width: 45%;
+}
+.supply-payment-products-modal-box .header-name-container .t-label {
+  color: #64b8df;
+  font-family: "Segoe UI Light";
+  font-size: 2.2em;
+  letter-spacing: -0.01em;
+}
+.supply-payment-products-modal-box .modal-box-schema-module-content {
+  margin-top: 0;
+  overflow: auto;
+}
+.supply-payment-products-modal-box .modal-box-schema-module-content.schema-wrap.one-el {
+  height: auto;
+}
+.supply-payment-products-modal-box .close-btn-user-class {
+  position: absolute;
+  right: 0.5em;
+  top: 11px;
+}
+.product-buttons-container .editable-grid-button {
+  float: left;
+}
+.editable-grid-button.clear-products {
+  margin: 0.7em 0 0 0.5em;
+}
+.editable-grid-button.clear-products span {
+  height: 16px;
+  padding: 0;
+  width: 16px;
+}

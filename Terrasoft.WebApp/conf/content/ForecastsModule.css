@@ -1,0 +1,130 @@
+﻿.schema-wrap.one-el .section-wrap.forecast-section-wrap .data-views-container-wrapClass {
+  padding-top: 0;
+}
+.schema-wrap .ts-tabpanel {
+  padding-right: 13em;
+}
+.schema-wrap .ts-tabpanel-tools {
+  padding-right: 0em;
+}
+.center-panel-content {
+  margin-right: 1em;
+}
+#DashboardsModuleContainer {
+  background-color: inherit;
+  margin-top: 8px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+}
+#centerPanelContainer {
+  height: 98.3%;
+}
+#centerPanel,
+#Container {
+  height: 100%;
+}
+.module-container {
+  height: 100%;
+  width: 100%;
+  padding-left: 14px;
+}
+.dashboard-message-empty {
+  color: #999999;
+  text-align: center;
+  width: 100%;
+  height: 21px;
+  display: block;
+}
+.empty-grid-message label {
+  color: #999999;
+  font-size: 1em;
+}
+.empty-grid-message {
+  font-family: "Segoe UI Light";
+  color: #999;
+  width: 477px;
+  margin-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+}
+.empty-grid-message .ts-controlgroup-container {
+  padding-bottom: 0;
+}
+.empty-grid-message .image-container {
+  width: 135px;
+  height: 139px;
+  margin-top: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.empty-grid-message .title {
+  font-size: 24px;
+  margin-top: 52px;
+  margin-left: 29px;
+}
+.empty-grid-message .description {
+  font-size: 28px;
+  margin-top: 29px;
+  padding-top: 11px;
+  padding-bottom: 13px;
+  padding-left: 30px;
+  box-shadow: -3px 0 0 0 #54b8df;
+}
+.empty-grid-message a:hover {
+  text-decoration: underline;
+}
+.empty-grid-message a {
+  color: #4e7bd8;
+  text-decoration: none;
+}
+.configuration-grid .grid-listed-row {
+  width: 101%;
+}
+.captions-wrapper-block div [class*='grid-cols-'] {
+  padding-right: 0px;
+}
+.forecast-section-wrap {
+  margin-top: 7px;
+}
+.forecast-section-wrap #TabsDataView {
+  margin-left: -30px;
+}
+.forecast-section-wrap .wrapper-with-centered-right-menu {
+  margin-right: 1em;
+}
+.forecast-section-wrap .forecast-button-container {
+  margin-left: 30px;
+}
+.forecast-section-wrap .tab-action-buttons {
+  display: inline-block;
+  margin-top: 5px;
+}
+.forecast-section-wrap .tab-action-buttons .t-btn-image {
+  padding: 0;
+  margin: 0;
+}
+.forecast-section-wrap .tab-action-buttons .t-btn-wrapper {
+  margin-left: 12px;
+  padding: 0;
+}
+.forecast-section-wrap .tab-action-buttons .t-btn-wrapper.t-btn-disabled {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+.blank-slate-wrap .blank-slate-icon {
+  width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.blank-slate-wrap .blank-slate-description {
+  display: inline-block;
+  white-space: pre-wrap;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 2em;
+  color: #999999;
+}

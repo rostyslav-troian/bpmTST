@@ -1,0 +1,90 @@
+﻿.ts-metrics-container {
+  align-items: flex-start;
+  color: #999999;
+  display: flex;
+  overflow: hidden;
+  padding-bottom: 16px !important;
+}
+.ts-metrics-container .ts-metric-item {
+  flex: 1;
+  text-align: center;
+}
+.ts-metrics-container .ts-round-progress-bar-wrap {
+  display: inline-block;
+}
+.ts-metric-item {
+  cursor: default;
+}
+.ts-metric-item label {
+  display: block;
+  font-size: 11px;
+  margin-top: 4px;
+}
+.ts-metric-item .ts-round-progress-bar-wrap {
+  clear: both;
+  float: none;
+}
+.ts-metric-item .ts-round-progress-bar-wrap .overlay {
+  font-size: 33px;
+}
+.ts-metric-item .ts-round-progress-bar-wrap .caption-suffix {
+  font-size: 16px;
+  position: absolute;
+  top: -4px;
+}
+.ts-metric-item.ts-probability-container .ts-round-progress-bar-wrap .overlay .caption {
+  margin-right: -8px;
+  letter-spacing: -1px;
+}
+.ts-metric-item.ts-mood-container {
+  cursor: pointer;
+}
+.ts-metric-item.ts-mood-container img {
+  height: 7.8em;
+  width: 7.8em;
+}
+.left-modules-container .label-wrap {
+  justify-content: flex-start;
+}
+.left-modules-container .period-items-container {
+  text-align: left;
+}
+.left-modules-container .period-items-container label {
+  width: auto;
+}
+.left-modules-container .period-item-caption {
+  font-size: 1.3em;
+}
+.left-modules-container .period-item-value {
+  font-size: 1.6em;
+  margin-right: 5px;
+  line-height: 1.2em;
+}
+.left-modules-container .profile-container .client-edit-field .base-edit.base-edit-with-right-icon {
+  padding-left: 34px;
+}
+.left-modules-container .profile-container .client-edit-field .base-edit.base-edit-with-left-icon {
+  padding-right: 34px;
+}
+.left-modules-container .profile-container .client-edit-field .base-edit .base-edit-link {
+  width: calc(88%);
+  display: inline-block;
+  text-overflow: ellipsis;
+}
+.bant-header-caption {
+  font-size: 2em;
+  letter-spacing: 5px;
+  color: #9AD99F;
+}
+.bant-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #9AD99F;
+  border-radius: 2em;
+}
+.bant-icon img {
+  margin-top: -2px;
+}
+html[dir="rtl"] body.x-ie:not(.x-edge) .ts-metric-item .ts-round-progress-bar-wrap .caption-suffix {
+  left: 18px;
+}

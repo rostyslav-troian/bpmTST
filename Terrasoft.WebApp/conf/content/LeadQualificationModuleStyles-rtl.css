@@ -1,0 +1,74 @@
+﻿.search-deatail {
+  margin-top: 5px;
+}
+.search-deatail .ts-controlgroup-tools {
+  width: 100%;
+}
+.search-container {
+  float: right;
+}
+.search-tools-container {
+  float: left;
+}
+.ts-label-found {
+  width: inherit;
+  line-height: 2.4em;
+  margin-left: 5px;
+}
+.ts-label-bold {
+  font-weight: bold;
+}
+.ts-label-green {
+  color: #74bc48;
+}
+.search-option {
+  margin-top: 7px;
+}
+div#LeadQualificationSearchSimilarPageV2AccountRelationshipContainer .radio-button-container {
+  float: right;
+  margin-left: 30px;
+}
+div#LeadQualificationSearchSimilarPageV2AccountSearchSettingGridLayout {
+  clear: both;
+}
+#ContactsSearchResultDetailV2Container #ContactsSearchResultDetailV2DetailControlGroup-caption,
+#ContactsSearchResultDetailV2Container #ContactsSearchResultDetailV2DetailControlGroup-wrap-marker,
+#AccountsSearchResultDetailV2Container #AccountsSearchResultDetailV2DetailControlGroup-caption,
+#AccountsSearchResultDetailV2Container #AccountsSearchResultDetailV2DetailControlGroup-wrap-marker {
+  display: none;
+}
+.grid-listed-row .ts-grid-image-action {
+  line-height: 1.45em;
+}
+.search-narrow-label {
+  min-width: 7em;
+  max-width: 7em;
+}
+.search-narrow-control {
+  margin-right: -7.9em !important;
+  padding-right: 7.9em !important;
+}
+.grid.grid-listed .control-cell {
+  top: -5px;
+}
+.control-cell .control-wrap {
+  vertical-align: top;
+}
+.info-button-lead-group {
+  border: 0px !important;
+  width: 24px;
+  padding-top: 1px !important;
+  padding-right: 0px !important;
+  margin-right: -4px !important;
+}
+.info-button-lead-group-image {
+  display: inline;
+  background-position: 0px 0px;
+  width: 24px;
+  height: 24px;
+}
+.info-button-lead-group-image:hover,
+.info-button-lead-group:hover .info-button-lead-group-image {
+  display: inline;
+  background-position: 0px -24px;
+}

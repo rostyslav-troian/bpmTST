@@ -1,0 +1,32 @@
+﻿.timeline-filter-menu {
+  min-width: 200px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+.timeline-filter-menu .menu-separator {
+  display: none;
+}
+.timeline-filter-menu .timeline-filter-all-menu-item {
+  padding: 0;
+  margin-top: 9px;
+}
+.timeline-filter-menu .timeline-filter-all-menu-item span {
+  margin-left: 16px;
+}
+.timeline-filter-menu .timeline-filter-menu-tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 13px 0 18px 18px;
+}
+.timeline-filter-menu .timeline-filter-menu-tools span {
+  font-size: 15px;
+  height: 30px;
+}
+.timeline-filter-menu .items-column-container {
+  display: flex;
+  flex-direction: row;
+}
+.timeline-filter-menu .items-column-container-list {
+  padding: 0;
+}

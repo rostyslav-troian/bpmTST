@@ -1,0 +1,44 @@
+﻿.singleLineItem {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.imageProcessAction {
+  background-repeat: no-repeat;
+  left: 3px;
+  width: 315px;
+  height: 34px;
+}
+.cti-process-action-container:not(:last-of-type) {
+  margin-bottom: 9px;
+  margin-top: 6px;
+}
+.cti-process-action-container .cti-process-action-button {
+  padding-right: 0 !important;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.cti-process-action-container .cti-process-action-button-text {
+  font-family: "Segoe UI";
+  font-size: 14px;
+  color: #0e84cf;
+  text-indent: 10px;
+  text-align: left;
+  max-width: 284px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.cti-process-action-container .cti-process-action-button-image {
+  background-repeat: no-repeat;
+  left: 3px;
+  width: 315px;
+  height: 34px;
+}
+.cti-process-action-container .cti-process-action-button-image:hover {
+  background-position: 0 -34px;
+  background-repeat: no-repeat;
+  left: 3px;
+  width: 315px;
+  height: 34px;
+}

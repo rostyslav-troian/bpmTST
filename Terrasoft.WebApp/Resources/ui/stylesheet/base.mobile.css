@@ -1,0 +1,91 @@
+﻿.x-size-monitored {
+	position: relative;
+}
+.x-size-monitors {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	overflow: hidden;
+}
+.x-size-monitors > * {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.x-size-monitors.scroll > *.shrink::after {
+	content: '';
+	display: block;
+	width: 200%;
+	height: 200%;
+	min-width: 1px;
+	min-height: 1px;
+}
+.x-size-monitors.scroll > *.expand::after {
+	content: '';
+	display: block;
+	width: 100000px;
+	height: 100000px;
+}
+.x-size-monitors.overflowchanged > *.shrink > * {
+	width: 100%;
+	height: 100%;
+}
+.x-size-monitors.overflowchanged > *.expand > * {
+	width: 200%;
+	height: 200%;
+}
+
+@-webkit-keyframes x-paint-monitor-helper {
+	from {
+		zoom: 1;
+	}
+	to {
+		zoom: 1;
+	}
+}
+
+@keyframes x-paint-monitor-helper {
+	from {
+		zoom: 1;
+	}
+
+	to {
+		zoom: 1;
+	}
+}
+.x-paint-monitored {
+	position: relative;
+}
+.x-paint-monitor {
+	width: 0 !important;
+	height: 0 !important;
+	visibility: hidden;
+}
+.x-paint-monitor.cssanimation {
+	-webkit-animation-duration: 0.0001ms;
+	-webkit-animation-name: x-paint-monitor-helper;
+	animation-duration: 0.0001ms;
+	animation-name: x-paint-monitor-helper;
+}
+.x-paint-monitor.overflowchange {
+	overflow: hidden;
+}
+.x-paint-monitor.overflowchange::after {
+	content: '';
+	display: block;
+	width: 1px !important;
+	height: 1px !important;
+}
+.ts-layout-card {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute !important;
+}
+.scroll-wrap {
+	height: 100%;
+}

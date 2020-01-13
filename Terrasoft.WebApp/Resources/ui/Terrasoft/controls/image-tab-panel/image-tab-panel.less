@@ -1,0 +1,61 @@
+﻿.ts-imagetabpanel.ts-tabpanel {
+	height: 6.5em;
+}
+.ts-imagetabpanel .ts-tabpanel-items {
+	margin: 0;
+	width: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: start;
+	-moz-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+.ts-imagetabpanel .ts-tabpanel-items > li {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 2.438em;
+	height: 2.438em;
+	background-repeat: no-repeat;
+	-webkit-align-self: stretch;
+	-ms-flex-item-align: stretch;
+	align-self: center;
+	margin-top: 0.625em;
+	margin-right: 1.875em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	padding: 0;
+}
+.ts-imagetabpanel .ts-tabpanel-items > li:first-child {
+	margin-left: 1.875em;
+}
+.ts-imagetabpanel .ts-tabpanel-items > li:last-child {
+	margin-right: 1.875em;
+}
+.ts-imagetabpanel-required:after {
+	content: "*";
+	color: #f15440;
+	font-size: medium;
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: -0.44em;
+	left: 2em;
+}
+.ts-tabpanel-active-item:before {
+	content: "";
+	width: 2.438em;
+	height: 0.188em;
+	background-color: #f39c55;
+	top: 3.188em;
+	left: 0;
+	position: absolute;
+}
+.ts-imagetabpanel .ts-tabpanel-items .ts-tabpanel-active-item {
+	box-shadow: none;
+}

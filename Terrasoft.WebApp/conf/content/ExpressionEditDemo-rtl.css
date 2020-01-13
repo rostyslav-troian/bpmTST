@@ -1,0 +1,12 @@
+﻿#container {
+  width: 40em;
+}
+#container .h3 {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #333;
+  margin-top: 0.5em;
+}
+#container .expression-edit-wrap {
+  margin-top: 0.5em;
+}

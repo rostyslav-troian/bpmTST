@@ -1,0 +1,96 @@
+﻿.label-page-caption {
+  font-size: 35px;
+  margin-bottom: 28px;
+  font-family: "Segoe UI Light";
+  display: inline-block;
+  color: #4d5a75;
+  letter-spacing: -0.01em;
+}
+.buttons-container {
+  /*margin-top: 20px;*/
+  margin-bottom: 20px;
+}
+.btnOk-container {
+  margin-right: 9px;
+  margin-bottom: 2px;
+}
+.left-container {
+  width: 280px;
+  float: left;
+}
+.right-container {
+  margin-left: 327px;
+  padding-left: 20px;
+}
+.inline-container {
+  display: inline-block;
+}
+.control-margin-bottom-container {
+  margin-bottom: 20px;
+}
+.control-margin-bottom10-container {
+  margin-bottom: 10px;
+}
+.control-margin-bottom30-container {
+  margin-bottom: 30px;
+}
+.label-above-control-container {
+  margin-bottom: 5px;
+}
+.radio-bottom-container {
+  margin-bottom: 10px;
+}
+.smallcontrol-container {
+  margin-right: 10px;
+}
+.radio-vertical-align {
+  vertical-align: top;
+}
+.checkbox-vertical-align {
+  vertical-align: top;
+}
+.label-before-control-container {
+  margin-right: 15px;
+}
+.padding-left40-container {
+  padding-left: 40px;
+}
+.padding-left60-container {
+  padding-left: 60px;
+}
+.padding-left80-container {
+  padding-left: 80px;
+}
+.padding-left100-container {
+  padding-left: 100px;
+}
+.label-maxwidth150-container {
+  max-width: 150px;
+}
+.label-maxwidth400-container {
+  max-width: 400px;
+  margin-top: 2px;
+}
+.label-maxwidth200-container {
+  max-width: 200px;
+}
+.label-maxwidth250-container {
+  max-width: 250px;
+}
+.dateedit-startWithDate-container {
+  width: 200px;
+}
+.textedit-minutes-container {
+  width: 50px;
+  margin-right: 15px;
+}
+.bind-account-combo-box-edit {
+  width: 45%;
+  margin-left: 20px;
+}
+.width50-container {
+  width: 50%;
+}
+.button-container-margin-left12 {
+  margin-left: -14px;
+}

@@ -1,0 +1,20 @@
+﻿.button32x32 {
+  width: 32px;
+  height: 32px;
+}
+.noPadding {
+  padding: 0px;
+}
+.control-cell .t-btn-wrapper {
+  margin-right: 10px;
+}
+.control-cell {
+  text-align: left;
+  margin-top: -5px;
+}
+.newLine-vertical-indent {
+  padding-top: 15px;
+}
+div#OpportunityManagementEndOfStagePreconfiguredPageExtraActivitiesBlockContainer span.t-btn-image:hover {
+  background-position-y: 32px;
+}

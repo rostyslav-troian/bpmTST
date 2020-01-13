@@ -1,0 +1,77 @@
+﻿#SendTestEmailContentSchemaContainer {
+  min-width: auto;
+}
+.send-test-email-content-schema-header .header-name-container {
+  width: 100%;
+}
+.send-test-email-content-schema-body .template-settings-block-label {
+  color: #999999;
+  font-size: 14px;
+  margin: 13px 0 11px 0;
+}
+.send-test-email-content-schema-body .radio-button-container {
+  margin-bottom: 12px;
+}
+.send-test-email-content-schema-body .radio-button-container label {
+  display: inline-block;
+  padding: 2px 11px 0 0;
+  margin: 0;
+}
+.send-test-email-content-schema-body .vertical-field-label {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 5px 0;
+}
+.send-test-email-content-schema-body .vertical-field-label .control-wrap {
+  margin: 0;
+  padding: 0;
+}
+.send-test-email-content-schema-body .vertical-field-label .label-wrap {
+  width: 100%;
+  max-width: none;
+}
+.send-test-email-content-schema-body .vertical-field-label .label-wrap .t-label {
+  white-space: nowrap;
+}
+.send-test-email-content-schema-body .vertical-field-label .tip-label-wrap {
+  text-align: right;
+}
+.send-test-email-content-schema-body .vertical-field-label .email-memo-edit .memo-edit-scroll {
+  max-height: 38px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.send-test-email-content-schema-body .vertical-field-label .email-memo-edit .base-edit-input {
+  height: 38px;
+}
+.send-test-email-content-schema-body .vertical-field-without-label {
+  display: flex;
+  flex-direction: column;
+  margin: -5px 0 12px 0;
+}
+.send-test-email-content-schema-body .vertical-field-without-label .control-wrap {
+  margin: 0;
+  padding: 0;
+}
+.send-test-email-content-schema-body .vertical-field-without-label .label-wrap {
+  font-size: 0px;
+  width: 100%;
+  max-width: none;
+}
+.send-test-email-content-schema-body .vertical-field-without-label .label-wrap .t-label {
+  white-space: nowrap;
+}
+.send-test-email-content-schema-body .tip-label-wrap.template-settings-block-label {
+  text-align: right;
+}
+.send-test-email-content-schema-body .radio-button-container {
+  margin-right: 0;
+}
+.send-test-email-content-schema-body .buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px 0 0 0;
+}
+.send-test-email-content-schema-body .buttons-container .t-btn-wrapper {
+  margin: 0 0 0 10px;
+}

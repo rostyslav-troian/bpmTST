@@ -1,0 +1,9 @@
+﻿.bindable-action-wrap .business-rule-case-action-header-container > div,
+.bindable-action-wrap .business-rule-case-action-content-container > div {
+  flex-basis: 40%;
+  min-width: 35%;
+}
+.bindable-action-wrap .business-rule-case-action-header-container > div:first-child,
+.bindable-action-wrap .business-rule-case-action-content-container > div:first-child {
+  flex-basis: 60%;
+}

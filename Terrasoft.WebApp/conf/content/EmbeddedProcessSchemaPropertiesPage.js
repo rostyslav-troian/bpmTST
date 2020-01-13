@@ -1,0 +1,1342 @@
+﻿Terrasoft.configuration.Structures["EmbeddedProcessSchemaPropertiesPage"] = {innerHierarchyStack: ["EmbeddedProcessSchemaPropertiesPage"], structureParent: "BaseProcessSchemaPropertiesPage"};
+define('EmbeddedProcessSchemaPropertiesPageStructure', ['EmbeddedProcessSchemaPropertiesPageResources'], function(resources) {return {schemaUId:'ccefb123-dd19-4383-8e86-27d70b36039b',schemaCaption: "Embedded process properties page", parentSchemaName: "BaseProcessSchemaPropertiesPage", schemaName:'EmbeddedProcessSchemaPropertiesPage',parentSchemaUId:'e3c8b7af-2c99-4da9-8a53-dc40df1911a8',extendParent:false,type:Terrasoft.SchemaType.EDIT_VIEW_MODEL_SCHEMA,entitySchema:'',name:'',extend:'Terrasoft.model.BaseViewModel',schema:{leftPanel:[],rightPanel:[],actions:[],analytics:[]},methods:{},controlsConfig:{},customBindings:{},bindings:{},schemaDifferences:function(){
+
+}};});
+/**
+ * Page schema for process properties.
+ * Parent: BaseProcessSchemaPropertiesPage => ProcessFlowElementPropertiesPage => BaseProcessSchemaElementPropertiesPage
+ */
+define("EmbeddedProcessSchemaPropertiesPage", ["terrasoft", "EmbeddedProcessSchemaPropertiesPageResources",
+		"SourceCodeEditEnums", "ProcessSchemaUsingViewModel", "ProcessSchemaLocalizableStringViewModel",
+		"ProcessMiniEditPageMixin", "ProcessModuleUtilities"],
+	function(Terrasoft, resources, sourceCodeEditEnums) {
+		return {
+			messages: {
+				/**
+				 * @message GetValue
+				 * Receive source code edit value.
+				 */
+				"GetValue": {
+					"direction": Terrasoft.MessageDirectionType.PUBLISH,
+					"mode": Terrasoft.MessageMode.PTP
+				},
+
+				/**
+				 * @message GetSourceCodeData
+				 * Returns source code edit data. Such as source code value, caption, language etc. For more
+				 * information see GetSourceCodeData message in SourceCodeEditPage schema.
+				 */
+				"GetSourceCodeData": {
+					"direction": Terrasoft.MessageDirectionType.SUBSCRIBE,
+					"mode": Terrasoft.MessageMode.PTP
+				},
+
+				/**
+				 * @message SourceCodeChanged
+				 * Receive current source code edit value.
+				 */
+				"SourceCodeChanged": {
+					"direction": Terrasoft.MessageDirectionType.SUBSCRIBE,
+					"mode": Terrasoft.MessageMode.PTP
+				},
+
+				/**
+				 * @message SaveItem
+				 * Save minipage item.
+				 */
+				"SaveItem": {
+					"mode": Terrasoft.MessageMode.PTP,
+					"direction": Terrasoft.MessageDirectionType.PUBLISH
+				},
+
+				/**
+				 * @message DiscardItem
+				 * Discard minipage item.
+				 */
+				"DiscardItem": {
+					"mode": Terrasoft.MessageMode.PTP,
+					"direction": Terrasoft.MessageDirectionType.PUBLISH
+				}
+			},
+			attributes: {
+
+				/**
+				 * AddButton menu items collection.
+				 */
+				"AddButtonMenu": {
+					dataValueType: Terrasoft.DataValueType.COLLECTION,
+					value: Ext.create("Terrasoft.BaseViewModelCollection")
+				},
+
+				/**
+				 * Flag that indicates when enable Add parameter button.
+				 */
+				"AddParameterButtonEnabled": {
+					dataValueType: Terrasoft.DataValueType.BOOLEAN,
+					type: Terrasoft.ViewModelColumnType.VIRTUAL_COLUMN,
+					value: true
+				},
+
+				/**
+				 * Using view models.
+				 */
+				"UsingViewModels": {
+					dataValueType: Terrasoft.DataValueType.COLLECTION,
+					type: Terrasoft.ViewModelColumnType.VIRTUAL_COLUMN,
+					isCollection: true,
+					value: this.Ext.create("Terrasoft.ObjectCollection")
+				},
+
+				/**
+				 * LocalizableString view models.
+				 */
+				"LocalizableStringViewModels": {
+					dataValueType: Terrasoft.DataValueType.COLLECTION,
+					type: Terrasoft.ViewModelColumnType.VIRTUAL_COLUMN,
+					isCollection: true,
+					value: this.Ext.create("Terrasoft.ObjectCollection")
+				},
+
+				/**
+				 * Compiled process schema methods.
+				 */
+				"userDefinedCode": {
+					dataValueType: Terrasoft.DataValueType.TEXT,
+					type: Terrasoft.ViewModelColumnType.VIRTUAL_COLUMN
+				},
+
+				/**
+				 * Indicates whether add using button is visible or not.
+				 */
+				"IsAddUsingsButtonVisible": {
+					dataValueType: Terrasoft.DataValueType.BOOLEAN,
+					value: false
+				},
+
+				/**
+				 * Indicates whether add using button is enabled.
+				 */
+				"IsAddUsingsButtonEnabled": {
+					dataValueType: Terrasoft.DataValueType.BOOLEAN,
+					value: true
+				},
+
+				/**
+				 * Indicates whether add localizable string button is enabled.
+				 */
+				"IsAddLocalizableStringButtonEnabled": {
+					dataValueType: Terrasoft.DataValueType.BOOLEAN,
+					value: true
+				},
+
+				/**
+				 * Current active localizable string item id.
+				 */
+				"ActiveLocalizableStringItemId": {
+					dataValueType: Terrasoft.DataValueType.GUID
+				},
+
+				/**
+				 * Current active using item id.
+				 */
+				"ActiveUsingItemId": {
+					dataValueType: Terrasoft.DataValueType.GUID
+				}
+			},
+			modules: {
+				"CompiledProcessSchemaMethods": {
+					"config": {
+						"schemaName": "SourceCodeEditPage",
+						"isSchemaConfigInitialized": true,
+						"useHistoryState": false,
+						"showMask": true,
+						"autoGeneratedContainerSuffix": "-compile-process-schema-methods",
+						"parameters": {
+							"viewModelConfig": {
+								"Tag": "userDefinedCode",
+								"IsTooltipInfoButtonVisible": false
+							}
+						}
+					}
+				}
+			},
+			methods: {
+
+				/**
+				 * @inheritdoc BaseProcessSchemaElementPropertiesPage#getIsEditPageDefault.
+				 * @overridden
+				 */
+				getIsEditPageDefault: function() {
+					return true;
+				},
+
+				/**
+				 * @inheritdoc ProcessSchemaElementEditable#onElementDataLoad.
+				 * @overridden
+				 */
+				onElementDataLoad: function(process, callback, scope) {
+					const defaultTabName = "ParametersTab";
+					this.set("DefaultTabName", defaultTabName);
+					this.setActiveTab(defaultTabName);
+					this.set(defaultTabName, true);
+					this.set("IsExtendedMode", true);
+					this.callParent([process, function() {
+						this.set("ProcessSchema", process);
+						this.set("userDefinedCode", process.userDefinedCode);
+						this.initMethods();
+						this.initLocalizableStrings(process);
+						this.initUsings(process);
+						this.initAddButtonMenu();
+						callback.call(scope);
+					}, this]);
+				},
+
+				/**
+				 * Subscribes for source code edit page module events.
+				 * @protected
+				 */
+				initMethods: function() {
+					Terrasoft.each(this.modules, this.subscribeModuleEvents, this);
+				},
+
+				/**
+				 * Subscribes for module events.
+				 * @protected
+				 * @param {Object} moduleConfig Module configuration.
+				 * @param {String} moduleName Module name.
+				 */
+				subscribeModuleEvents: function(moduleConfig, moduleName) {
+					const moduleId = this.getModuleId(moduleName);
+					this.sandbox.subscribe("GetSourceCodeData", this.onGetSourceCodeData, this, [moduleId]);
+					this.sandbox.subscribe("SourceCodeChanged", this.onSourceCodeChanged, this, [moduleId]);
+				},
+
+				/**
+				 * GetSourceCodeData message handler. Returns source code data.
+				 * @param {String} tag Source code edit page tag.
+				 * @protected
+				 * @virtual
+				 * @return {Object} Source code edit data.
+				 * @return {String} return.sourceCode Source code value.
+				 * @return {String} return.dataItemMarker Source code edit marker value.
+				 * @return {String} return.name Source code edit name.
+				 * @return {String} return.caption Source code edit caption to display in expand mode.
+				 * @return {Boolean} return.showCaptionInCollapsedMode Flag to show caption.
+				 * @return {String} return.language Source code edit language.
+				 */
+				onGetSourceCodeData: function(tag) {
+					const processSchema = this.get("ProcessElement");
+					const caption = this.get("Resources.Strings.CompiledProcessMethodsCaption");
+					return {
+						sourceCode: this.get(tag),
+						dataItemMarker: tag,
+						name: processSchema.name,
+						showCaptionInCollapsedMode: true,
+						caption: caption,
+						language: sourceCodeEditEnums.Language.CSHARP
+					};
+				},
+
+				/**
+				 * SourceCodeChanged message handler. Sets methods source value by tag.
+				 * @param {Object} data Current source code value.
+				 * @param {String} data.tag Source code edit page tag.
+				 * @param {String} data.sourceCode Source code value.
+				 */
+				onSourceCodeChanged: function(data) {
+					this.set(data.tag, data.sourceCode);
+				},
+
+				/**
+				 * @inheritdoc ProcessFlowElementPropertiesPage#createParameterViewModel
+				 * @overridden
+				 */
+				createParameterViewModel: function(parameter) {
+					const viewModel = this.callParent(arguments);
+					const toolsButtonMenu = viewModel.get("ParameterEditToolsButtonMenu");
+					const deleteMenuItem = this.getParameterEditToolsButtonDeleteMenuItem(parameter.name);
+					toolsButtonMenu.add(deleteMenuItem);
+					viewModel.set("Enabled", true);
+					viewModel.onParameterDeleteClick = this.onParameterDeleteClick;
+					return viewModel;
+				},
+
+				/**
+				 * Restores process name value if name is not valid
+				 * @private
+				 */
+				restoreNameValueIfNameNotValid: function() {
+					if (this.getIsNewProcess()) {
+						return;
+					}
+					const process = this.get("ProcessElement");
+					const attributes = this.validationInfo.attributes;
+					if (!attributes.name.isValid) {
+						this.set("name", process.name);
+					}
+				},
+
+				/**
+				 * @inheritdoc BaseProcessSchemaElementPropertiesPage#saveValues.
+				 * @overridden
+				 */
+				saveValues: function() {
+					this.callParent(arguments);
+					const process = this.get("ProcessElement");
+					Terrasoft.each(this.modules, function(moduleConfig, moduleName) {
+						const moduleId = this.getModuleId(moduleName);
+						const sandbox = this.sandbox;
+						const sourceCodeData = sandbox.publish("GetValue", null, [moduleId]);
+						if (sourceCodeData) {
+							this.set(sourceCodeData.tag, sourceCodeData.value);
+						}
+					}, this);
+					process.setPropertyValue("userDefinedCode", this.get("userDefinedCode"));
+					this.saveOpenEditPages();
+					this.saveUsings(process);
+					this.saveLocalizableStrings(process);
+				},
+
+				/**
+				 * Returns type menu item.
+				 * @param {Object} type Type config.
+				 * @param {Terrasoft.DataValueType} type.value Data type.
+				 * @param {String} type.displayValue Data type caption.
+				 * @return {Terrasoft.BaseViewModel}
+				 */
+				getTypeMenuItem: function(type) {
+					return this.getButtonMenuItem({
+						caption: type.displayValue,
+						tag: Ext.encode(type.value),
+						click: {"bindTo": "addParameterButtonClick"},
+						imageConfig: this.getTypeImageConfig(type.value)
+					});
+				},
+
+				/**
+				 * Returns other type menu item.
+				 * @param {Terrasoft.BaseViewModelCollection} items Sub menu items.
+				 * @return {Terrasoft.BaseViewModel}
+				 */
+				getOtherTypeMenuItem: function(items) {
+					return this.getButtonMenuItem({
+						caption: resources.localizableStrings.OtherMenuItemCaption,
+						imageConfig: this.getTypeImageConfig(),
+						items: items
+					});
+				},
+
+				/**
+				 * Returns type image config.
+				 * @param {Terrasoft.DataValueType} [dataValueType] Data type.
+				 * @return {Object}
+				 */
+				getTypeImageConfig: function(dataValueType) {
+					const url = Terrasoft.ProcessSchemaDesignerUtilities.getDataValueTypeImageUrl(dataValueType);
+					return {
+						source: Terrasoft.ImageSources.URL,
+						url: url
+					};
+				},
+
+				/**
+				 * Initializes AddButton menu.
+				 * @private
+				 */
+				initAddButtonMenu: function() {
+					const menu = this.get("AddButtonMenu");
+					menu.clear();
+					const types = Terrasoft.data.constants.DataValueTypeConfig;
+					menu.add(this.getTypeMenuItem({
+						value: types.LONG_TEXT.value,
+						displayValue: Terrasoft.Resources.DataValueType.TEXT
+					}));
+					menu.add(this.getTypeMenuItem({
+						value: types.FLOAT2.value,
+						displayValue: Terrasoft.Resources.DataValueType.FLOAT
+					}));
+					menu.add(this.getTypeMenuItem(types.INTEGER));
+					menu.add(this.getTypeMenuItem(types.BOOLEAN));
+					menu.add(this.getTypeMenuItem(types.LOOKUP));
+					menu.add(this.getTypeMenuItem(types.DATE_TIME));
+					const otherSubMenu = Ext.create("Terrasoft.BaseViewModelCollection", {
+						items: [
+							this.getTypeMenuItem(types.MONEY),
+							this.getTypeMenuItem(types.DATE),
+							this.getTypeMenuItem(types.TIME),
+							this.getTypeMenuItem(types.ENTITY),
+							this.getTypeMenuItem(types.ENTITY_COLLECTION),
+							this.getTypeMenuItem(types.GUID)
+						]
+					});
+					menu.add(this.getOtherTypeMenuItem(otherSubMenu));
+				},
+
+				/**
+				 * Hides previous parameter before add new parameter.
+				 * @private
+				 */
+				hidePreviousParameterBeforeAddNewParameter: function() {
+					const previousParameterEditUId = this.get("ActiveParameterEditUId");
+					if (previousParameterEditUId) {
+						const parameters = this.get("Parameters");
+						const parameter = parameters.get(previousParameterEditUId);
+						parameter.set("Visible", true);
+					}
+					this.set("ActiveParameterEditUId", null);
+				},
+
+				/**
+				 * Opens parameter edit page for new parameter.
+				 * @private
+				 * @param {Terrasoft.DataValueType} dataValueType Data type.
+				 */
+				addParameterButtonClick: function(dataValueType) {
+					this.set("AddParameterButtonEnabled", false);
+					this.set("IsEmptyParameters", false);
+					this.hidePreviousParameterBeforeAddNewParameter();
+					const sandbox = this.sandbox;
+					const pageId = this.getParameterEditPageId();
+					const parameterEditInfo = this.getNewParameterEditInfo(dataValueType);
+					this.set("ActiveParameterEditUId", parameterEditInfo.parameters.UId);
+					const tags = [pageId];
+					sandbox.subscribe("GetParameterEditInfo", function() {
+						return parameterEditInfo;
+					}, this, tags);
+					sandbox.subscribe("SaveParameterInfo", this.saveNewParameterInfo, this, tags);
+					sandbox.subscribe("DiscardParameterInfoChanges", this.discardNewParameterInfoChanges, this, tags);
+					const renderTo = "AddParameterContainer";
+					const maskId = Terrasoft.Mask.show({
+						selector: "#" + renderTo,
+						timeout: 100,
+						clearMasks: true
+					});
+					const config = {
+						renderTo: renderTo,
+						id: pageId,
+						instanceConfig: {
+							maskId: maskId
+						}
+					};
+					sandbox.loadModule("ProcessSchemaParameterEditModule", config);
+				},
+
+				/**
+				 * Discards new parameter info changes.
+				 * @private
+				 */
+				discardNewParameterInfoChanges: function() {
+					this.set("IsEmptyParameters", !this.getHasParameters());
+					this.set("ActiveParameterEditUId", null);
+					this.set("AddParameterButtonEnabled", true);
+					const pageId = this.getParameterEditPageId();
+					this.sandbox.unloadModule(pageId);
+				},
+
+				/**
+				 * Determines whether the functionality of the process reminders is enabled.
+				 * @private
+				 * @return {Boolean} True, if functionality is enabled; otherwise - False.
+				 */
+				_getCanUseProcessRemindings: function() {
+					return Terrasoft.Features.getIsEnabled("UseProcessRemindings");
+				},
+
+				/**
+				 * @inheritdoc BaseProcessSchemaElementPropertiesPage#saveActiveParameterEdit.
+				 * @overridden
+				 */
+				saveActiveParameterEdit: function() {
+					if (this.get("ActiveParameterEditUId")) {
+						const pageId = this.getParameterEditPageId();
+						const parameterSaved = this.sandbox.publish("SaveParameter", this, [pageId]);
+						if (!parameterSaved) {
+							this.discardNewParameterInfoChanges();
+						}
+					}
+				},
+
+				/**
+				 * Generates unique parameter name or caption by prefix.
+				 * @param {String} property Property name.
+				 * @param {String} prefix Prefix name.
+				 * @param {Terrasoft.core.collections.Collection} items Parameters collection.
+				 * @return {String}
+				 */
+				generateParameterUniqueNameOrCaption: function(property, prefix, items) {
+					let name = prefix + "1";
+					let counter = 1;
+					const filterFn = function (item) {
+						return item.get(property) === name;
+					};
+					do {
+						const filteredItems = items.filterByFn(filterFn, this);
+						if (filteredItems.getCount() === 0) {
+							return name;
+						}
+						counter++;
+						name = prefix + counter;
+					} while (true);
+				},
+
+				/**
+				 * Returns new parameter info into edit page.
+				 * @param {Terrasoft.DataValueType} dataValueType Data type.
+				 * @return {Object}
+				 */
+				getNewParameterEditInfo: function(dataValueType) {
+					dataValueType = Ext.decode(dataValueType);
+					const parameters = this.get("Parameters");
+					const namePrefix = Terrasoft.ProcessSchemaParameter.prototype.name;
+					const name = this.generateParameterUniqueNameOrCaption("Name", namePrefix, parameters);
+					const captionPrefix = Terrasoft.Resources.ProcessSchemaDesigner.Elements.ParameterCaption + " ";
+					const caption = this.generateParameterUniqueNameOrCaption("Caption", captionPrefix, parameters);
+					return {
+						parameters: {
+							UId: Terrasoft.generateGUID(),
+							Name: name,
+							Caption: caption,
+							ParameterDataValueTypeConfig: {value: dataValueType},
+							ShowSaveButton: true,
+							IsEnabled: true,
+							Parameters: parameters,
+							packageUId: this.get("packageUId"),
+							ProcessElement: this.getProcessElement(),
+							Value: {
+								value: "",
+								displayValue: "",
+								source: Terrasoft.ProcessSchemaParameterValueSource.None,
+								dataValueType: dataValueType
+							}
+						}
+					};
+				},
+
+				/**
+				 * Saves new parameter info.
+				 * @param {Object} parameterInfo Parameter info.
+				 */
+				saveNewParameterInfo: function(parameterInfo) {
+					const process = this.get("ProcessElement");
+					const parameters = this.get("Parameters");
+					const name = parameterInfo.Name;
+					const uId = Terrasoft.generateGUID();
+					let referenceSchema = parameterInfo.ReferenceSchema;
+					if (referenceSchema) {
+						referenceSchema = referenceSchema.value;
+					}
+					const parameter = Ext.create("Terrasoft.ProcessSchemaParameter", {
+						uId: uId,
+						name: name,
+						caption: new Terrasoft.LocalizableString(parameterInfo.Caption),
+						dataValueType: parameterInfo.DataValueType.value,
+						isRequired: parameterInfo.IsRequired,
+						processFlowElementSchema: process,
+						sourceValue: {
+							modifiedInSchemaUId: process.uId,
+							displayValue: Ext.create("Terrasoft.LocalizableString")
+						},
+						createdInSchemaUId: process.uId
+					});
+					const value = parameterInfo.Value;
+					value.referenceSchemaUId = referenceSchema;
+					parameter.setMappingValue(value);
+					const viewModel = this.createParameterViewModel(parameter);
+					parameters.add(uId, viewModel);
+					process.parameters.add(uId, parameter);
+					this.set("ActiveParameterEditUId", null);
+					this.set("AddParameterButtonEnabled", true);
+					const pageId = this.getParameterEditPageId();
+					this.sandbox.unloadModule(pageId);
+				},
+
+				/**
+				 * Deletes selected parameter.
+				 * @private
+				 */
+				onParameterDeleteClick: function() {
+					const utils = Terrasoft.ProcessSchemaDesignerUtilities;
+					const uId = this.get("UId");
+					const process = this.get("ProcessElement");
+					const parameter = process.parameters.get(uId);
+					utils.validateAllLazyPropertiesAreLoaded(process, function(areLoaded) {
+						if (areLoaded) {
+							utils.validateParameterRemoval(process, parameter, function(canRemove) {
+								if (canRemove) {
+									this.parentCollection.removeByKey(uId);
+									process.parameters.removeByKey(uId);
+									this.fireEvent("change", {
+										parameterName: "IsEmptyParameters",
+										parameterValue: (process.parameters.getCount() === 0)
+									});
+								}
+							}, this);
+						}
+					}, this);
+				},
+
+				_getToolButtonConfig: function(canDelete) {
+					return {
+						canDelete: canDelete
+					};
+				},
+
+				initLocalizableStrings: function(schema) {
+					const viewModels = Ext.create("Terrasoft.Collection");
+					Terrasoft.each(schema.localizableStrings, function(localizableString) {
+						const localizableStringViewModel = this.createLocalizableStringViewModel({
+							id: localizableString.uId,
+							name: localizableString.name,
+							caption: localizableString.caption,
+							value: localizableString.value,
+							isEditable: localizableString.createdInSchemaUId === schema.uId
+						});
+						viewModels.add(localizableString.uId, localizableStringViewModel);
+					}, this);
+					const localizableStringsViewModels = this.get("LocalizableStringViewModels");
+					localizableStringsViewModels.clear();
+					localizableStringsViewModels.loadAll(viewModels);
+				},
+
+				createLocalizableStringViewModel: function(config) {
+					const caption = config.caption || Ext.create("Terrasoft.LocalizableString");
+					const value = config.value || Ext.create("Terrasoft.LocalizableString");
+					const toolButtonConfig = this._getToolButtonConfig(config.isEditable);
+					const viewModel = Ext.create("Terrasoft.ProcessSchemaLocalizableStringViewModel", {
+						values: {
+							Id: config.id,
+							Name: config.name,
+							Caption: caption,
+							Value: value,
+							IsNew: config.isNew,
+							IsEditable: config.isEditable,
+							MarkerValue: config.name,
+							ParameterEditToolsButtonMenu: this.getToolButtonMenuList(config.id, toolButtonConfig),
+							ProcessElement: "ProcessElement",
+							ParentModule: this
+						}
+					});
+					viewModel.sandbox = this.sandbox;
+					viewModel.on("change", this.onChildViewModelChange, this);
+					return viewModel;
+				},
+
+				/**
+				 * Init 'Usings'.
+				 * @private
+				 * @param {Terrasoft.manager.EmbeddedProcessSchema} schema to init usings from.
+				 */
+				initUsings: function(schema) {
+					const viewModels = Ext.create("Terrasoft.Collection");
+					Terrasoft.each(schema.usings, function(using) {
+						const usingViewModel = this.createUsingViewModel({
+							id: using.uId,
+							name: using.name,
+							alias: using.alias,
+							isEditable: using.createdInSchemaUId === schema.uId
+						});
+						viewModels.add(using.uId, usingViewModel);
+					}, this);
+					const usingViewModels = this.get("UsingViewModels");
+					usingViewModels.clear();
+					usingViewModels.loadAll(viewModels);
+				},
+
+				/**
+				 * Creates 'Using' ViewModel.
+				 * @private
+				 * @param {Object} config Config for create view model.
+				 * @param {String} config.id Unique identifier.
+				 * @param {String} config.name Name.
+				 * @param {String} [config.alias] Alias.
+				 * @param {Boolean} [config.isNew] Flag of new element.
+				 * @return {Terrasoft.ProcessSchemaUsingViewModel}
+				 */
+				createUsingViewModel: function(config) {
+					const id = config.id;
+					let alias = config.alias;
+					if (alias === "null") {
+						alias = "";
+					}
+					const name = config.name || "";
+					const toolButtonConfig = this._getToolButtonConfig(config.isEditable);
+					const viewModel = Ext.create("Terrasoft.ProcessSchemaUsingViewModel", {
+						values: {
+							Id: id,
+							Name: name,
+							Alias: alias || "",
+							IsNew: config.isNew,
+							IsEditable: config.isEditable,
+							MarkerValue: name,
+							ParameterEditToolsButtonMenu: this.getToolButtonMenuList(id, toolButtonConfig),
+							ProcessElement: "ProcessElement",
+							ParentModule: this
+						}
+					});
+					viewModel.sandbox = this.sandbox;
+					viewModel.on("change", this.onChildViewModelChange, this);
+					return viewModel;
+				},
+
+				/**
+				 * Generates a configuration 'using' representation element.
+				 * @private
+				 * @param {Object} viewConfig Link to the configuration element in the Container List.
+				 */
+				getUsingViewConfig: function(viewConfig) {
+					const usingViewConfig = this.get("UsingViewConfig");
+					if (usingViewConfig) {
+						viewConfig.config = usingViewConfig;
+						return;
+					}
+					viewConfig.config = this.generateUsingViewConfig();
+					this.set("UsingViewConfig", viewConfig.config);
+				},
+
+				getLocalizableStringViewConfig: function(viewConfig) {
+					const localizableStringViewConfig = this.get("LocalizableStringViewConfig");
+					if (localizableStringViewConfig) {
+						viewConfig.config = localizableStringViewConfig;
+						return;
+					}
+					viewConfig.config = this.generateLocalizableStringViewConfig();
+					this.set("LocalizableStringViewConfig", viewConfig.config);
+				},
+
+				/**
+				 * Determines whether UsingsGroup container should be visible or not.
+				 * @private
+				 * @param items {Collection} usingViewModels items.
+				 * @returns {boolean}
+				 */
+				_getIsUsingsGroupVisible: function(items) {
+					return items.getCount() !== 0;
+				},
+
+				/**
+				 * Generates a button representation element.
+				 * @protected
+				 * @return {Object} configuration element in the Container List.
+				 */
+				generateUsingViewConfig: function() {
+					const parameterToolsButtonConfig = this.getParameterToolsButtonConfig("UsingsEditToolsButton");
+					parameterToolsButtonConfig.markerValue = {
+						bindTo: "MarkerValue"
+					};
+					return this.getContainerConfig("item", [], [
+						this.getContainerConfig("item-view", ["parameter-ct", "t-button-container-proc"], [
+							this.getContainerConfig("ParameterValueContainer", ["t-button-name-container-proc",
+								"placeholderOpacity"
+							], [
+								this.getContainerConfig("ToolsContainer",
+									["parameter-value-ct", "tools-container-wrapClass"], [
+										this.getContainerConfig("LabelWrap", ["label-container-wrapClass"], [{
+											id: "Caption",
+											className: "Terrasoft.Label",
+											caption: {
+												bindTo: "Name"
+											},
+											classes: {
+												labelClass: ["t-label-proc", "t-label-proc-param", "label-link"]
+											},
+											click: {
+												bindTo: "onLoadMinEditPageClick"
+											}
+										}]),
+										this.getContainerConfig("ToolsButtonWrap", ["tools-button-container-wrapClass"],
+											[parameterToolsButtonConfig])
+									])
+							])
+						], {
+							bindTo: "Visible"
+						}), this.getContainerConfig("item-edit", ["parameter-edit-ct"], [], {
+							bindTo: "Visible",
+							bindConfig: {
+								converter: this.invertBooleanValue
+							}
+						})
+					]);
+				},
+
+				/**
+				 * Generates a button representation element.
+				 * @protected
+				 * @return {Object} configuration element in the Container List.
+				 */
+				generateLocalizableStringViewConfig: function() {
+					const parameterToolsButtonConfig = this.getParameterToolsButtonConfig("UsingsEditToolsButton");
+					parameterToolsButtonConfig.markerValue = {
+						bindTo: "MarkerValue"
+					};
+					return this.getContainerConfig("item", ["hierarchical-container-list-item"], [
+						this.getContainerConfig("item-view", ["parameter-ct", "t-button-container-proc"], [
+							this.getContainerConfig("ParameterValueContainer", ["t-button-name-container-proc",
+								"placeholderOpacity"
+							], [
+								this.getContainerConfig("ToolsContainer",
+									["parameter-value-ct", "tools-container-wrapClass"], [
+										this.getContainerConfig("LabelWrap", ["label-container-wrapClass"], [{
+											id: "Caption",
+											className: "Terrasoft.Label",
+											caption: {
+												bindTo: "Name"
+											},
+											classes: {
+												labelClass: ["t-label-proc", "t-label-proc-param", "label-link"]
+											},
+											click: {
+												bindTo: "onLoadMinEditPageClick"
+											}
+										}]),
+										this.getContainerConfig("ToolsButtonWrap", ["tools-button-container-wrapClass"],
+											[parameterToolsButtonConfig])
+									])
+							])
+						], {
+							bindTo: "Visible"
+						}), this.getContainerConfig("item-edit", ["parameter-edit-ct"], [], {
+							bindTo: "Visible",
+							bindConfig: {
+								converter: this.invertBooleanValue
+							}
+						})
+					]);
+				},
+
+				/**
+				 * @inheritdoc BaseProcessSchemaElementPropertiesPage#getTabs
+				 * @overridden
+				 */
+				getTabs: function() {
+					const tabs = this.callParent();
+					tabs.push(
+						{
+							Name: "MethodsTab",
+							Caption: this.get("Resources.Strings.MethodsTabCaption"),
+							MarkerValue: "MethodsTab"
+						}
+					);
+					tabs.push(
+						{
+							Name: "ResourcesTab",
+							Caption: this.get("Resources.Strings.ResourcesTabCaption"),
+							MarkerValue: "ResourcesTab"
+						}
+					);
+					return tabs;
+				},
+
+				/**
+				 * Event handler Add Using button click.
+				 * @private
+				 */
+				onAddUsingButtonClick: function() {
+					const usingViewModels = this.get("UsingViewModels");
+					const id = Terrasoft.generateGUID();
+					const usingViewModel = this.createUsingViewModel({
+						id: id,
+						isNew: true,
+						isEditable: true
+					});
+					usingViewModels.add(id, usingViewModel);
+					usingViewModel.onLoadMinEditPageClick();
+				},
+
+				/**
+				 * Event handler Add Localizable String button click.
+				 * @private
+				 */
+				onAddLocalizableStringButtonClick: function() {
+					const localizableStringViewModels = this.get("LocalizableStringViewModels");
+					const id = Terrasoft.generateGUID();
+					const localizableStringViewModel = this.createLocalizableStringViewModel({
+						id: id,
+						isNew: true,
+						isEditable: true
+					});
+					localizableStringViewModels.add(id, localizableStringViewModel);
+					localizableStringViewModel.onLoadMinEditPageClick();
+				},
+
+				/**
+				 * Gets menu list for selected item.
+				 * @protected
+				 * @param {String} itemId Item identifier.
+				 * @param {Object} config Item configuration
+				 * @return {Terrasoft.Collection}
+				 */
+				getToolButtonMenuList: function(itemId, config) {
+					const mergedConfig = Ext.apply({canEdit: true, canDelete: true}, config);
+					const toolsButtonMenu = Ext.create("Terrasoft.Collection");
+					if (mergedConfig.canEdit) {
+						toolsButtonMenu.add(
+							this.getButtonMenuItem({
+								"id": "EditMenu",
+								"tag": itemId,
+								"caption": this.get("Resources.Strings.EditMenuItemCaption"),
+								"click": {"bindTo": "onLoadMinEditPageClick"}
+							})
+						);
+					}
+					if (mergedConfig.canDelete) {
+						toolsButtonMenu.add(
+							this.getButtonMenuItem({
+								"id": "DeleteMenu",
+								"tag": itemId,
+								"caption": this.get("Resources.Strings.DeleteMenuItemCaption"),
+								"click": {"bindTo": "onItemDeleteClick"}
+							})
+						);
+					}
+					return toolsButtonMenu;
+				},
+
+				/**
+				 * Saves using edit page if it is still visible.
+				 * @private
+				 * @param {Terrasoft.model.ProcessSchemaUsingViewModel} usingViewModel Using view model.
+				 * @param {Boolean} force Send DiscardItem message if not saved successfully.
+				 */
+				saveUsingEditPage: function(usingViewModel, force) {
+					const isEditPageVisible = !usingViewModel.get("Visible");
+					if (isEditPageVisible) {
+						const pageId = usingViewModel.getProcessMiniEditPageId();
+						const success = this.sandbox.publish("SaveItem", this, [pageId]);
+						if (!success && force) {
+							this.sandbox.publish("DiscardItem", this, [pageId]);
+						}
+						return success;
+					}
+					return true;
+				},
+
+				/**
+				 * Saves localizable string edit page if it is still visible.
+				 * @private
+				 * @param {Terrasoft.model.ProcessSchemaLocalizableStringViewModel} localizableStringViewModel
+				 * localizable string view model.
+				 * @param {boolean} force Send DiscardItem message if not saved successfully.
+				 */
+				saveLocalizableStringEditPage: function(localizableStringViewModel, force) {
+					const isEditPageVisible = !localizableStringViewModel.get("Visible");
+					if (isEditPageVisible) {
+						const pageId = localizableStringViewModel.getProcessMiniEditPageId();
+						const success = this.sandbox.publish("SaveItem", this, [pageId]);
+						if (!success && force) {
+							this.sandbox.publish("DiscardItem", this, [pageId]);
+						}
+						return success;
+					}
+					return true;
+				},
+
+				/**
+				 * Processes tab change event.
+				 * @override
+				 * @param {Terrasoft.BaseViewModel} activeTab Selected tab.
+				 */
+				onActiveTabChange: function(activeTab) {
+					this.callParent(arguments);
+					this.saveOpenEditPages();
+				},
+
+				/**
+				 * Saves opened edit pages: Usings and LocalizableStrings.
+				 */
+				saveOpenEditPages: function() {
+					const schema = this.get("ProcessElement");
+					this._saveOpenEditPage(schema, "Using");
+					this._saveOpenEditPage(schema, "LocalizableString");
+				},
+
+				/**
+				 * Saves opened edit page.
+				 * @private
+				 * @param name {string} name of the page view model.
+				 */
+				_saveOpenEditPage: function(schema, subject) {
+					const activeItemId = this.get("Active" + subject + "ItemId");
+					if (activeItemId) {
+						const viewModels = this.get(subject + "ViewModels");
+						const activeViewModel = viewModels.get(activeItemId);
+						const result = this["save" + subject + "EditPage"](activeViewModel, true);
+						if (result) {
+							this["update" + subject + "ByViewModel"](activeViewModel, schema);
+						}
+					}
+				},
+
+				/**
+				 * Updates schema using by view model.
+				 * @private
+				 * @param {Terrasoft.model.ProcessSchemaUsingViewModel} usingViewModel Using view model.
+				 * @param {Terrasoft.manager.ProcessSchema} schema Process schema.
+				 * @return {Boolean} Returns true if schema using was changed, false otherwise.
+				 */
+				updateUsingByViewModel: function(usingViewModel, schema) {
+					const name = usingViewModel.get("Name");
+					if (!usingViewModel.changedValues || Ext.isEmpty(name)) {
+						return false;
+					}
+					const usings = schema.usings;
+					const id = usingViewModel.get("Id");
+					const config = {
+						name: name,
+						alias: usingViewModel.get("Alias")
+					};
+					if (usings.contains(id)) {
+						const using = usings.get(id);
+						config.modifiedInSchemaUId = schema.uId;
+						using.setValue(config);
+					} else {
+						config.uId = id;
+						schema.addUsing(config);
+					}
+					return true;
+				},
+
+				/**
+				 * Updates schema using by view model.
+				 * @private
+				 * @param {Terrasoft.model.ProcessSchemaUsingViewModel} usingViewModel Using view model.
+				 * @param {Terrasoft.manager.ProcessSchema} schema Process schema.
+				 * @return {Boolean} Returns true if schema using was changed, false otherwise.
+				 */
+				updateLocalizableStringByViewModel: function(localizableStringViewModel, schema) {
+					const name = localizableStringViewModel.get("Name");
+					if (!localizableStringViewModel.changedValues || Ext.isEmpty(name)) {
+						return false;
+					}
+					const localizableStrings = schema.localizableStrings;
+					const id = localizableStringViewModel.get("Id");
+					const config = {
+						uId: id,
+						name: name,
+						caption: localizableStringViewModel.get("Caption"),
+						value: localizableStringViewModel.get("Value")
+					};
+					const localizableString = localizableStrings.findByFn(function (localizableString) {
+						return localizableString.uId === id;
+					}, this);
+					if (localizableString) {
+						config.modifiedInSchemaUId = schema.uId;
+						localizableString.setValue(config);
+					} else {
+						config.uId = id;
+						schema.addLocalizableString(config);
+					}
+					return true;
+				},
+
+				/**
+				 * Updates schema usings.
+				 * @private
+				 * @param {Terrasoft.manager.ProcessSchema} schema Process schema.
+				 * @return {Boolean} Returns true if at least one schema usings was changed, false otherwise.
+				 */
+				updateUsings: function(schema) {
+					const usingViewModels = this.get("UsingViewModels");
+					let isChanged = false;
+					Terrasoft.each(usingViewModels, function(usingViewModel) {
+						if (this.saveUsingEditPage(usingViewModel)) {
+							isChanged = this.updateUsingByViewModel(usingViewModel, schema);
+						}
+					}, this);
+					return isChanged;
+				},
+
+				updateLocalizableStrings: function(schema) {
+					const localizableStringViewModels = this.get("LocalizableStringViewModels");
+					let isChanged = false;
+					Terrasoft.each(localizableStringViewModels, function(viewModel) {
+						if (this.saveLocalizableStringEditPage(viewModel)) {
+							isChanged = this.updateLocalizableStringByViewModel(viewModel, schema);
+						}
+					}, this);
+					return isChanged;
+				},
+
+				/**
+				 * Removes 'Using' from collection Usings.
+				 * @private
+				 * @param {Terrasoft.manager.ProcessSchema} schema Process schema.
+				 * @return {Boolean} Returns true if at least one schema usings was removed, false otherwise.
+				 */
+				removeUsings: function(schema) {
+					let isRemoved = false;
+					const usingViewModels = this.get("UsingViewModels");
+					const usings = schema.usings;
+					Terrasoft.each(usings, function(using) {
+						const key = using.uId;
+						if (!usingViewModels.contains(key)) {
+							usings.removeByKey(key);
+							isRemoved = true;
+						}
+					}, this);
+					return isRemoved;
+				},
+
+				/**
+				 * Removes 'Using' from collection Usings.
+				 * @private
+				 * @param {Terrasoft.manager.ProcessSchema} schema Process schema.
+				 * @return {Boolean} Returns true if at least one schema usings was removed, false otherwise.
+				 */
+				removeLocalizableStrings: function(schema) {
+					let isRemoved = false;
+					const localizableStringViewModels = this.get("LocalizableStringViewModels");
+					const localizableStrings = schema.localizableStrings;
+					Terrasoft.each(localizableStrings, function(localizableString) {
+						const key = localizableString.uId;
+						if (!localizableStringViewModels.contains(key)) {
+							localizableStrings.removeByKey(key);
+							isRemoved = true;
+						}
+					}, this);
+					return isRemoved;
+				},
+
+				/**
+				 * Saves schema usings.
+				 * @private
+				 * @param {Terrasoft.manager.ProcessSchema} schema Process schema.
+				 */
+				saveUsings: function(schema) {
+					const isUsingsRemoved = this.removeUsings(schema);
+					const isUsingsChanged = this.updateUsings(schema);
+					if (isUsingsChanged || isUsingsRemoved) {
+						schema.fireEvent("changed", {
+							usings: schema.usings
+						}, this);
+					}
+				},
+
+				/**
+				 * Saves schema localizable strings.
+				 * @private
+				 * @param {Terrasoft.manager.ProcessSchema} schema Process schema.
+				 */
+				saveLocalizableStrings: function(schema) {
+					const isLocalizableStringsRemoved = this.removeLocalizableStrings(schema);
+					const isLocalizableStringsChanged = this.updateLocalizableStrings(schema);
+					if (isLocalizableStringsChanged || isLocalizableStringsRemoved) {
+						schema.fireEvent("changed", {
+							localizableStrings: schema.localizableStrings
+						}, this);
+					}
+				}
+			},
+			diff: /**SCHEMA_DIFF*/[
+				{
+					"operation": "merge",
+					"name": "ParameterEdit",
+					"values": {
+						"visible": true
+					}
+				},
+				{
+					"operation": "merge",
+					"parentName": "ControlGroup",
+					"propertyName": "items",
+					"name": "name",
+					"values": {
+						"enabled": false
+					}
+				},
+				{
+					"operation": "insert",
+					"parentName": "ControlGroup",
+					"propertyName": "items",
+					"name": "description",
+					"values": {
+						"contentType": Terrasoft.ContentType.LONG_TEXT,
+						"wrapClass": ["top-caption-control"],
+						"caption": {"bindTo": "Resources.Strings.DescriptionCaption"},
+						"layout": {
+							"column": 0,
+							"row": 1,
+							"colSpan": 24,
+							"rowSpan": 1
+						}
+					}
+				},
+				{
+					"operation": "insert",
+					"parentName": "ControlGroup",
+					"propertyName": "items",
+					"name": "SysPackage",
+					"values": {
+						"enabled": false,
+						"controlConfig": {
+							"prepareList": {
+								"bindTo": "onPrepareSysPackageList"
+							}
+						},
+						"wrapClass": ["top-caption-control"],
+						"layout": {
+							"column": 0,
+							"row": 2,
+							"colSpan": 24,
+							"rowSpan": 1
+						}
+					}
+				},
+				{
+					"operation": "insert",
+					"parentName": "ControlGroup",
+					"propertyName": "items",
+					"name": "maxLoopCount",
+					"values": {
+						"wrapClass": ["top-caption-control"],
+						"layout": {
+							"column": 0,
+							"row": 3,
+							"colSpan": 24,
+							"rowSpan": 1
+						}
+					}
+				},
+				{
+					"operation": "remove",
+					"name": "isLogging"
+				},
+				{
+					"operation": "remove",
+					"name": "serializeToDB"
+				},
+				{
+					"operation": "insert",
+					"name": "MethodsTab",
+					"parentName": "Tabs",
+					"propertyName": "tabs",
+					"values": {
+						"wrapClass": ["tabs", "methods-tab"],
+						"items": []
+					}
+				},
+				{
+					"operation": "insert",
+					"parentName": "MethodsTab",
+					"propertyName": "items",
+					"name": "UsingsGroup",
+					"values": {
+						"itemType": Terrasoft.ViewItemType.CONTROL_GROUP,
+						"classes": {
+							"wrapClass": ["using-container"]
+						},
+						"caption": {
+							"bindTo": "Resources.Strings.UsingsGroupCaption"
+						},
+						"collapsed": true,
+						"visible": {
+							"bindTo": "UsingViewModels",
+							"bindConfig": {
+								"converter": "_getIsUsingsGroupVisible"
+							}
+						},
+						"items": [],
+						"tools": []
+					}
+				},
+				{
+					"operation": "insert",
+					"name": "UsingsButton",
+					"parentName": "UsingsGroup",
+					"propertyName": "tools",
+					"values": {
+						"itemType": Terrasoft.ViewItemType.BUTTON,
+						"classes": {
+							"imageClass": ["button-background-no-repeat"],
+							"wrapperClass": ["detail-tools-button-wrapper t-addbutton-proc"]
+						},
+						"imageConfig": {"bindTo": "Resources.Images.AddButtonImage"},
+						"click": {"bindTo": "onAddUsingButtonClick"},
+						"visible": {"bindTo": "IsAddUsingsButtonVisible"},
+						"enabled": {"bindTo": "IsAddUsingsButtonEnabled"},
+						"style": Terrasoft.controls.ButtonEnums.style.TRANSPARENT
+					}
+				},
+				{
+					"operation": "insert",
+					"name": "UsingContainerList",
+					"parentName": "UsingsGroup",
+					"propertyName": "items",
+					"values": {
+						"generator": "ConfigurationItemGenerator.generateContainerList",
+						"idProperty": "Id",
+						"onItemClick": {
+							"bindTo": "onItemClick"
+						},
+						"collection": "UsingViewModels",
+						"onGetItemConfig": "getUsingViewConfig",
+						"rowCssSelector": ".usingContainer",
+						"classes": {
+							"wrapClassName": ["t-items-list-proc"]
+						}
+					}
+				},
+				{
+					"operation": "insert",
+					"parentName": "MethodsTab",
+					"propertyName": "items",
+					"name": "CompiledProcessSchemaMethods",
+					"values": {
+						"itemType": Terrasoft.ViewItemType.MODULE,
+						"visible": true,
+						"classes": {
+							"wrapClassName": "process-methods compiled-process-methods-container"
+						},
+						"items": []
+					}
+				},
+				{
+					"operation": "insert",
+					"name": "ResourcesTab",
+					"parentName": "Tabs",
+					"propertyName": "tabs",
+					"values": {
+						"wrapClass": ["tabs", "resources-tab"],
+						"items": []
+					}
+				},
+				{
+					"operation": "insert",
+					"name": "AddLocalizableStringButton",
+					"parentName": "ResourcesTab",
+					"propertyName": "items",
+					"values": {
+						"itemType": Terrasoft.ViewItemType.BUTTON,
+						"caption": {"bindTo": "Resources.Strings.AddLocalizableStringButtonCaption"},
+						"click": {"bindTo": "onAddLocalizableStringButtonClick"},
+						"enabled": {"bindTo": "IsAddLocalizableStringButtonEnabled"},
+						"style": Terrasoft.controls.ButtonEnums.style.BLUE,
+					}
+				},
+				{
+					"operation": "insert",
+					"name": "LocalizableStringsContainerList",
+					"parentName": "ResourcesTab",
+					"propertyName": "items",
+					"values": {
+						"generator": "ConfigurationItemGenerator.generateContainerList",
+						"idProperty": "Id",
+						"onItemClick": {
+							"bindTo": "onItemClick"
+						},
+						"collection": "LocalizableStringViewModels",
+						"onGetItemConfig": "getLocalizableStringViewConfig",
+						"rowCssSelector": ".usingContainer",
+						"classes": {
+							"wrapClassName": ["t-items-list-proc", "localizable-srting-list"]
+						}
+					}
+				},
+				{
+					"operation": "remove",
+					"name": "EditorsContainer"
+				}
+			]/**SCHEMA_DIFF*/
+		};
+	});
+
+

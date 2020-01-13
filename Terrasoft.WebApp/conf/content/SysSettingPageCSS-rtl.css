@@ -1,0 +1,71 @@
+﻿.sys-settings-edit-page .sys-settings-attributes-container {
+  padding-bottom: 2.6em;
+}
+.sys-settings-edit-page .sys-settings-attributes-container .sys-settings-attributes-panels {
+  display: flex;
+  flex-direction: row;
+}
+.sys-settings-edit-page .sys-settings-attributes-container .sys-settings-attributes-panels .sys-settings-attributes-panel {
+  flex-basis: 50%;
+}
+.sys-settings-edit-page .sys-settings-attributes-container .sys-settings-attributes-panels .sys-settings-attributes-panel.sys-settings-attributes-left-panel .left-panel-item {
+  padding-left: 3.6em;
+}
+.sys-settings-edit-page .sys-settings-attributes-container .sys-settings-attributes-panels .sys-settings-attributes-panel.sys-settings-attributes-left-panel .left-panel-item.sys-setting-type-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0;
+}
+.sys-settings-edit-page .sys-settings-attributes-container .sys-settings-attributes-panels .sys-settings-attributes-panel.sys-settings-attributes-left-panel .left-panel-item.sys-setting-type-container .sys-setting-type {
+  flex-basis: 100%;
+}
+.sys-settings-edit-page .sys-settings-attributes-container .sys-settings-attributes-panels .sys-settings-attributes-panel.sys-settings-attributes-left-panel .left-panel-item.sys-setting-type-container .sys-setting-type-info-button-container {
+  flex-shrink: 0;
+  margin: 0 8px 0 5px;
+  width: 2.4em;
+  height: 100%;
+}
+.sys-settings-edit-page .sys-settings-attributes-container .sys-settings-attributes-panels .sys-settings-attributes-panel.sys-settings-attributes-left-panel .left-panel-item.sys-setting-type-container .sys-setting-type-info-button-container .sys-setting-type-info-button {
+  margin: 0;
+}
+.sys-settings-edit-page .sys-settings-attributes-container .sys-settings-description {
+  height: auto;
+}
+.sys-settings-edit-page .sys-settings-attributes-container .header-container-margin-bottom .label-wrap,
+.sys-settings-edit-page .sys-settings-attributes-container .grid-layout .label-wrap {
+  max-width: 15em;
+}
+.sys-settings-edit-page .sys-settings-rights-container .t-information-btn.t-btn-wrapper {
+  margin: 0;
+}
+.sys-settings-edit-page .sys-settings-rights-container .radio-button-container {
+  margin-right: 2.5em;
+}
+.sys-settings-edit-page .sys-settings-rights-container .sys-settings-rights-admin-operation {
+  margin-right: 6.3em;
+}
+.sys-settings-edit-page .sys-settings-rights-container .sys-settings-rights-admin-operation .base-edit {
+  padding: 0;
+}
+.sys-settings-edit-page .sys-settings-rights-container .sys-settings-rights-admin-operation .base-edit.sys-settings-rights-admin-operation-focus {
+  border: none;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.sys-settings-edit-page .sys-settings-rights-container .sys-settings-rights-ssp-available-checkbox.checkbox-control-item.control-left.control-right {
+  margin-right: 2.8em;
+}
+.sys-settings-edit-page .sys-settings-rights-container .sys-settings-rights-ssp-available-checkbox.checkbox-control-item.control-left.control-right .label-wrap {
+  order: 2;
+  margin-right: 1.5em;
+}
+.sys-settings-edit-page .sys-settings-rights-container .sys-settings-rights-ssp-available-checkbox.checkbox-control-item.control-left.control-right .t-label {
+  font-size: 1.4em;
+  color: #444;
+}
+.sys-settings-edit-page .sys-settings-rights-container .sys-settings-rights-ssp-available-checkbox.checkbox-control-item.control-left.control-right .control-wrap {
+  flex-basis: 2em;
+}
+.sys-settings-edit-page .sys-settings-rights-container .sys-settings-rights-ssp-available-checkbox.checkbox-control-item.control-left.control-right .checkbox-label-wrap {
+  max-width: 100%;
+}

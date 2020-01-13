@@ -1,0 +1,25 @@
+﻿.schema-wrap.one-el .section-wrap,
+.schema-wrap.one-el .card-content-container.card-content-container-with-right-detail {
+  min-width: 886px;
+  max-width: 1410px;
+}
+.card-content-container.card-content-container-with-right-detail > .actions-container {
+  min-width: 88.6em;
+  max-width: 141em;
+}
+.card-content-container-with-right-detail .left-card-content-container {
+  margin-left: 366px;
+}
+.card-content-container-with-right-detail .right-card-content-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 336px;
+  padding-right: 20px;
+}
+.card-content-container-with-right-detail .right-card-content-container .ts-controlgroup-container .grid-layout {
+  padding-right: 1em;
+}
+.card-content-container-with-right-detail .right-card-content-container .schema-wrap.one-el {
+  min-width: 0;
+}

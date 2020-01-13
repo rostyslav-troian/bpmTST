@@ -1,0 +1,42 @@
+﻿.system-designer-tile-caption {
+  font-size: 22px;
+  line-height: 22px;
+  display: inline-block;
+  color: #0e84cf;
+  padding-bottom: 14px;
+}
+.system-designer-tile-caption:hover {
+  cursor: pointer;
+}
+.system-designer-tile-hint {
+  font-size: 14px;
+  line-height: 14px;
+  color: #444;
+  display: inline-block;
+  padding-bottom: 25px;
+}
+.system-designer-tile-module-wraper {
+  border-right: 4px solid red;
+  padding-right: 20px;
+}
+.green-tile {
+  border-color: #8ecb60;
+}
+.orange-tile {
+  border-color: #eeaf4b;
+}
+.purple-tile {
+  border-color: #8e8eb7;
+}
+.red-tile {
+  border-color: #ef7e63;
+}
+.blue-tile {
+  border-color: #64b8df;
+}
+.turquoise-tile {
+  border-color: #5bc8c4;
+}
+.dark-blue-tile {
+  border-color: #6483c3;
+}

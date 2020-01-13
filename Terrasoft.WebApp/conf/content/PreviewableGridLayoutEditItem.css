@@ -1,0 +1,83 @@
+﻿.previewable-grid-layout-edit-item-module {
+  height: 100%;
+  width: 100%;
+  background: white;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+.grid-layout-edit-table [data-selected-item=true] .previewable-grid-layout-edit-item-module {
+  filter: blur(5px);
+}
+.grid-layout-edit-item-el {
+  display: none;
+  height: 35px;
+}
+.grid-layout-edit-table .grid-layout-edit-item-el {
+  display: none;
+}
+.grid-layout-edit-table [data-selected-item=true] .grid-layout-edit-item-el {
+  display: flex;
+}
+.previewable-grid-layout-edit-item-el {
+  background: #e4eaf9 !important;
+  height: 100%;
+  display: none;
+  background: rgba(55, 70, 100, 0.65) !important;
+}
+.grid-layout-edit-table [data-selected-item=true] .grid-layout-edit-item-content-text-wrap {
+  background: none !important;
+}
+.grid-layout-edit-item-el {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: center !important;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+.grid-layout-edit-item-wrap .t-btn-image {
+  border: none;
+  margin: 2px;
+  height: 32px;
+  width: 32px;
+}
+.grid-layout-edit-item-actions-wrap {
+  float: right;
+  display: none;
+  z-index: 15;
+  background: none !important;
+  padding: 4px;
+}
+.tip-border {
+  width: 250px;
+  padding: 1.5em;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 0.6em 0.02em;
+}
+.tip-anchor {
+  display: none;
+}

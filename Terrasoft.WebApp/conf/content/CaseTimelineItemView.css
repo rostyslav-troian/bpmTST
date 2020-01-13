@@ -1,0 +1,11 @@
+﻿.timeline-item-body-container .timeline-case-description-container {
+  margin-top: 14px;
+}
+.timeline-item-body-container .timeline-tile-info-container .timeline-text-with-label-container .timeline-text-with-icon-container {
+  display: flex;
+  align-items: center;
+}
+.timeline-item-body-container .timeline-tile-info-container .timeline-text-with-label-container .timeline-text-with-icon-container .timeline-item-priority-icon {
+  margin-right: 2px;
+  height: 16px;
+}

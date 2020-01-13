@@ -1,0 +1,66 @@
+﻿.duplicates-label {
+  color: #999999;
+  text-align: justify;
+  font-size: 21px;
+}
+.duplicates-header-label {
+  color: #999999;
+  text-align: justify;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+.detail .duplicates-header-label {
+  color: #999999;
+  text-align: justify;
+  font-size: 21px;
+  margin-bottom: 0;
+  font-size: 17px;
+}
+.detail .duplicates-header-label a {
+  font-size: 12px;
+  vertical-align: baseline;
+  cursor: pointer;
+  margin-right: 5px;
+  white-space: nowrap;
+}
+.duplicates-detail-buttons {
+  position: relative;
+}
+.duplicates-detail {
+  margin-bottom: 15px;
+}
+.duplicates-controls-container {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e1e8d2;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container {
+  max-width: 100%;
+  margin-right: -8px;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message {
+  margin-bottom: 0;
+  padding-top: 45px;
+  width: 100%;
+  height: 100%;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .t-label,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .t-label {
+  font-size: 1em;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .title,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .title {
+  padding-right: 30px;
+}
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .title,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .title,
+.default-center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .description,
+.center-panel-content .schema-wrap.one-el .duplicates-card-content-container .empty-grid-message .description {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.duplicates-content-wrap .actions-container {
+  z-index: 1000;
+}

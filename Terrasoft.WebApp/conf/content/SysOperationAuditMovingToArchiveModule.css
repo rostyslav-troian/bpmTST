@@ -1,0 +1,48 @@
+﻿#generalContainer {
+  width: 60%;
+  min-height: 300px;
+  height: 100%;
+}
+.buttons-container {
+  margin-bottom: 20px;
+}
+.caption-label-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  overflow: hidden;
+}
+.caption-dateTo-label-container {
+  margin-left: 3%;
+  display: inline-block;
+  vertical-align: top;
+  width: 17%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  overflow: hidden;
+}
+.period-container {
+  margin-bottom: 20px;
+}
+.operation-type-container {
+  margin-bottom: 20px;
+}
+.btnOk-container {
+  display: inline-block;
+  margin-right: 15px;
+}
+.btnCancel-container {
+  display: inline-block;
+}
+.page-caption-label {
+  color: #444;
+  font-size: 3.5em;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  font-family: "Segoe UI Light";
+  letter-spacing: -0.01em;
+}

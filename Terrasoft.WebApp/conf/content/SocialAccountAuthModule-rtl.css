@@ -1,0 +1,13 @@
+﻿.container-spacing {
+  margin: 10px 0 10px;
+}
+#topButtons span {
+  margin-left: 10px;
+}
+.search-edit {
+  width: 300px;
+  margin-left: 10px;
+}
+.filter-social-networks {
+  width: 300px;
+}

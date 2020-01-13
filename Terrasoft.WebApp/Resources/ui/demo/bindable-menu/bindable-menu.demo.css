@@ -1,0 +1,12 @@
+#content {
+	width: 100%;
+	display: inline-block;
+}
+#content-left {
+	width: 400px;
+	float: left;
+}
+#content-right {
+	display: block;
+	margin-left: 600px;
+}

@@ -1,0 +1,202 @@
+.grid-layout-table-edit-wrap {
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.grid-layout-table-edit-rows-captions-wrap {
+	width: 12em;
+	height: inherit;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: inline-block;
+	vertical-align: top;
+	border-right: 1px solid #bababa;
+}
+
+.grid-layout-table-edit-rows-captions-header {
+	font-size: 1.4em;
+	height: 3.5em;
+	width: 100%;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.grid-layout-table-edit-rows-captions-header-cell {
+	width:100%;
+	display: inline-block;
+	text-align: center;
+	color: #aeaeae;
+
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding-top: 13px;
+}
+
+.grid-layout-table-edit-rows-captions {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: calc(~'100% - 3.5em - 30px');
+}
+
+.grid-layout-table-edit-rows-captions-row {
+	font-size: 1.4em;
+	display: flex;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 7px 6px 0;
+	height: 3.5em;
+	width: 100%;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.grid-layout-table-edit-rows-captions-cell {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	color: #aeaeae;
+	height: 3.5em;
+	padding-top: 6px;
+
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.grid-layout-table-edit-right-wrap {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: inline-block;
+	vertical-align: top;
+	width: calc(~'100% - 12em - 20px');
+	height: inherit;
+}
+
+.grid-layout-table-edit-grid {
+	overflow-x: auto;
+	overflow-y: auto;
+	display: block;
+	width: 100%;
+	height: calc(~'100% - 3.5em - 20px');
+	position: relative;
+	font-size: 14px;
+}
+
+.grid-layout-table-edit-columns-header, .grid-layout-table-edit-rows-captions-header {
+	display: block;
+	overflow: hidden;
+	clear: none;
+}
+
+.grid-layout-table-edit-columns-header {
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.grid-layout-table-edit-columns-header-row {
+	line-height: 2.43em !important;
+	font-size: 1.4em;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	min-height: 35px;
+	width: 100%;
+
+}
+
+.grid-layout-table-edit-columns-header-cell {
+	display: inline-block;
+	text-align: center;
+	color: #aeaeae;
+	height: 3.5em;
+	padding-top: 13px;
+
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+	line-height: 1.2em;
+	overflow: hidden;
+	float: left;
+}
+
+.grid-layout-table-edit-grid-row {
+	position: static;
+	display: flex;
+	font-size: 1.4em;
+}
+
+.grid-layout-table-edit-grid-cell {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	border-right: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+	color: white;
+	height: 3.5em;
+
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.grid-layout-table-edit-grid-cell[data-row-index="0"]{
+	border-top: none;
+}
+
+.grid-layout-table-edit-grid-cell[data-column-index="0"]{
+	border-left: none;
+}
+
+.grid-layout-table-edit-cell[data-column-index="0"].grid-layout-edit-selection-border-left {
+	border-left: 1px solid #b0b0b0;
+}
+
+.grid-layout-table-edit-cell[data-row-index="0"].grid-layout-edit-selection-border-top {
+	border-top: 1px solid #b0b0b0;
+}
+
+.grid-layout-table-edit-grid-row[data-row-index="0"][has-columns-captions="0"] {
+	border-top: 1px solid #eeeeee;
+}
+
+.grid-layout-table-edit-grid-row[has-rows-captions="0"] {
+	border-left: 1px solid #b0b0b0;
+}
+
+.grid-layout-table-edit-selection-border-top {
+	border-top: 1px solid #b0b0b0;
+}
+
+.grid-layout-table-edit-selection-border-bottom {
+	border-bottom: 1px solid #b0b0b0;
+}
+
+.grid-layout-table-edit-selection-border-left {
+	border-left: 1px solid #b0b0b0;
+}
+
+.grid-layout-table-edit-selection-border-right {
+	border-right: 1px solid #b0b0b0;
+}
+
+.grid-layout-table-edit-grid-cell[data-selected="1"] {
+	background: rgba(226, 226, 226, 0.50);
+	color: rgba(226, 226, 226, 0.50);
+}

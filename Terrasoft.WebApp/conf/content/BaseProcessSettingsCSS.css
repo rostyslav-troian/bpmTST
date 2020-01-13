@@ -1,0 +1,13 @@
+﻿.process-settings-container {
+  position: absolute;
+  top: 132px;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background-color: white;
+}
+.process-settings-container > div {
+  padding: 20px;
+}

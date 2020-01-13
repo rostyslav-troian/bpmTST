@@ -1,0 +1,45 @@
+﻿.order-product-detail .ts-controlgroup-tools {
+  position: relative;
+  width: 100%;
+}
+.order-product-detail .summary-item-container {
+  margin: auto 0 auto auto;
+}
+.address-item-label {
+  padding: 0 0 0.25em 0.55em;
+}
+.address-item-container {
+  margin-left: 0.6em;
+}
+.address-item-container .t-radio-wrap {
+  line-height: 2.4em;
+}
+.add-address-schema-container.expandable {
+  z-index: 2000;
+}
+.address-item-container.new-address {
+  color: #999999;
+}
+body .add-address-schema-container .schema-wrap.one-el .card-content-container {
+  margin-top: 0;
+}
+body .add-address-schema-container .card-content-container .center-main-container {
+  padding-right: 0;
+  width: 100%;
+}
+body .add-address-schema-container .card-content-container .header-container-margin-bottom {
+  margin-bottom: 0;
+}
+body .add-address-schema-container .card-content-container .header-container-margin-bottom .grid-layout {
+  border: 0;
+  padding: 2em 0 0 0;
+}
+.add-address-schema-container .schema-wrap.one-el .buttons-container {
+  border: 0px;
+  float: right;
+  margin: 1.2em 1.5em 1.2em 0;
+  padding: 5px;
+}
+.order-tabs-container .ts-tabpanel.ts-tabpanel-scroll-visible {
+  padding-right: 0;
+}

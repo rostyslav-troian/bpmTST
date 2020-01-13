@@ -1,0 +1,331 @@
+.x-loading-spinner.ie {
+	/*
+	TODO: 199780
+	background-image: url("./progressSpinner-ie.gif");
+	*/
+	background-repeat: no-repeat;
+}
+
+.x-loading-spinner {
+	font-size: 16px;
+	height: 1em;
+	width: 1em;
+	position: absolute;
+	-webkit-transform-origin: 0.5em 0.5em;
+	-moz-transform-origin: 0.5em 0.5em;
+	transform-origin: 0.5em 0.5em;
+}
+
+.x-loading-spinner > span, .x-loading-spinner > span:before, .x-loading-spinner > span:after {
+	display: block;
+	position: absolute;
+	width: 0.1em;
+	height: 0.25em;
+	top: 0;
+	-webkit-transform-origin: 0.05em 0.5em;
+	-moz-transform-origin: 0.05em 0.5em;
+	-ms-transform-origin: 0.05em 0.5em;
+	-webkit-border-radius: 0.05em;
+	-moz-border-radius: 0.05em;
+	-ms-border-radius: 0.05em;
+	transform-origin: 0.05em 0.5em;
+	border-radius: 0.05em;
+	content: " ";
+}
+
+.x-loading-spinner > span.x-loading-top {
+	background-color: rgba(170, 170, 170, 0.99);
+}
+.x-loading-spinner > span.x-loading-top::after {
+	background-color: rgba(170, 170, 170, 0.9);
+}
+.x-loading-spinner > span.x-loading-left::before {
+	background-color: rgba(170, 170, 170, 0.8);
+}
+.x-loading-spinner > span.x-loading-left {
+	background-color: rgba(170, 170, 170, 0.7);
+}
+.x-loading-spinner > span.x-loading-left::after {
+	background-color: rgba(170, 170, 170, 0.6);
+}
+.x-loading-spinner > span.x-loading-bottom::before {
+	background-color: rgba(170, 170, 170, 0.5);
+}
+.x-loading-spinner > span.x-loading-bottom {
+	background-color: rgba(170, 170, 170, 0.4);
+}
+.x-loading-spinner > span.x-loading-bottom::after {
+	background-color: rgba(170, 170, 170, 0.35);
+}
+.x-loading-spinner > span.x-loading-right::before {
+	background-color: rgba(170, 170, 170, 0.3);
+}
+.x-loading-spinner > span.x-loading-right {
+	background-color: rgba(170, 170, 170, 0.25);
+}
+.x-loading-spinner > span.x-loading-right::after {
+	background-color: rgba(170, 170, 170, 0.2);
+}
+.x-loading-spinner > span.x-loading-top::before {
+	background-color: rgba(170, 170, 170, 0.15);
+}
+
+.x-loading-spinner > span {
+	left: 50%;
+	margin-left: -0.05em;
+}
+
+.x-loading-spinner > span.x-loading-top {
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+.x-loading-spinner > span.x-loading-right {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.x-loading-spinner > span.x-loading-bottom {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.x-loading-spinner > span.x-loading-left {
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+
+.x-loading-spinner > span::before {
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+
+.x-loading-spinner > span::after {
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	transform: rotate(-30deg);
+}
+
+.x-loading-spinner {
+	-webkit-animation-name: x-loading-spinner-rotate;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: x-loading-spinner-rotate;
+	-moz-animation-duration: 1s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	animation-name: x-loading-spinner-rotate;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	z-index: 3000;
+}
+
+@-webkit-keyframes x-loading-spinner-rotate
+ {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+
+	8.32% {
+		-webkit-transform: rotate(0deg);
+	}
+
+	8.33% {
+		-webkit-transform: rotate(30deg);
+	}
+
+	16.65% {
+		-webkit-transform: rotate(30deg);
+	}
+
+	16.66% {
+		-webkit-transform: rotate(60deg);
+	}
+
+	24.99% {
+		-webkit-transform: rotate(60deg);
+	}
+
+	25% {
+		-webkit-transform: rotate(90deg);
+	}
+
+	33.32% {
+		-webkit-transform: rotate(90deg);
+	}
+
+	33.33% {
+		-webkit-transform: rotate(120deg);
+	}
+
+	41.65% {
+		-webkit-transform: rotate(120deg);
+	}
+
+	41.66% {
+		-webkit-transform: rotate(150deg);
+	}
+
+	49.99% {
+		-webkit-transform: rotate(150deg);
+	}
+
+	50% {
+		-webkit-transform: rotate(180deg);
+	}
+
+	58.32% {
+		-webkit-transform: rotate(180deg);
+	}
+
+	58.33% {
+		-webkit-transform: rotate(210deg);
+	}
+
+	66.65% {
+		-webkit-transform: rotate(210deg);
+	}
+
+	66.66% {
+		-webkit-transform: rotate(240deg);
+	}
+
+	74.99% {
+		-webkit-transform: rotate(240deg);
+	}
+
+	75% {
+		-webkit-transform: rotate(270deg);
+	}
+
+	83.32% {
+		-webkit-transform: rotate(270deg);
+	}
+
+	83.33% {
+		-webkit-transform: rotate(300deg);
+	}
+
+	91.65% {
+		-webkit-transform: rotate(300deg);
+	}
+
+	91.66% {
+		-webkit-transform: rotate(330deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(330deg);
+	}
+}
+
+@-moz-keyframes x-loading-spinner-rotate {
+	0% {
+		-moz-transform: rotate(0deg);
+	}
+
+	8.32% {
+		-moz-transform: rotate(0deg);
+	}
+
+	8.33% {
+		-moz-transform: rotate(30deg);
+	}
+
+	16.65% {
+		-moz-transform: rotate(30deg);
+	}
+
+	16.66% {
+		-moz-transform: rotate(60deg);
+	}
+
+	24.99% {
+		-moz-transform: rotate(60deg);
+	}
+
+	25% {
+		-moz-transform: rotate(90deg);
+	}
+
+	33.32% {
+		-moz-transform: rotate(90deg);
+	}
+
+	33.33% {
+		-moz-transform: rotate(120deg);
+	}
+
+	41.65% {
+		-moz-transform: rotate(120deg);
+	}
+
+	41.66% {
+		-moz-transform: rotate(150deg);
+	}
+
+	49.99% {
+		-moz-transform: rotate(150deg);
+	}
+
+	50% {
+		-moz-transform: rotate(180deg);
+	}
+
+	58.32% {
+		-moz-transform: rotate(180deg);
+	}
+
+	58.33% {
+		-moz-transform: rotate(210deg);
+	}
+
+	66.65% {
+		-moz-transform: rotate(210deg);
+	}
+
+	66.66% {
+		-moz-transform: rotate(240deg);
+	}
+
+	74.99% {
+		-moz-transform: rotate(240deg);
+	}
+
+	75% {
+		-moz-transform: rotate(270deg);
+	}
+
+	83.32% {
+		-moz-transform: rotate(270deg);
+	}
+
+	83.33% {
+		-moz-transform: rotate(300deg);
+	}
+
+	91.65% {
+		-moz-transform: rotate(300deg);
+	}
+
+	91.66% {
+		-moz-transform: rotate(330deg);
+	}
+
+	100% {
+		-moz-transform: rotate(330deg);
+	}
+}

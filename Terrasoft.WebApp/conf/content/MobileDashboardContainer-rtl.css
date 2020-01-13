@@ -1,0 +1,12 @@
+﻿.cf-dashboard-container .x-scroll-scroller > .x-innerhtml {
+  padding-left: 7px;
+  padding-bottom: 7px;
+}
+.cf-dashboard-container .cf-dashboard-item {
+  overflow: hidden;
+  position: relative;
+}
+.cf-dashboard-container .ts-pullrefresh-wrap {
+  position: absolute;
+  top: 0;
+}

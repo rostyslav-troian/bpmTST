@@ -1,0 +1,1956 @@
+﻿body[OldUI=false] {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .font-preload-open-sans {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .font-preload-open-sans-light {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .font-preload-open-sans-bold {
+  font-family: "Bpmonline Open Sans Bold";
+}
+body[OldUI=false] .grid-settings .preview-data-container .preview-caption {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .view-model-schema-designer-item-content-text-wrap {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .main-header .page-header-container {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .grid {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .grid-header {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .grid-layout .control-width-15 .t-label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .ts-messagebox-caption,
+body[OldUI=false] .ts-inputbox-caption {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .ts-component-tooltip:hover:after {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .scheduleritem,
+body[OldUI=false] .multi-day-item {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .ts-tabpanel-items > li {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .drag-element {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .t-btn-style-default,
+body[OldUI=false] .t-btn-style-green,
+body[OldUI=false] .t-btn-style-blue,
+body[OldUI=false] .t-btn-style-red,
+body[OldUI=false] .t-btn-style-grey {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .ts-controlgroup-caption-wrap > span {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .ts-datepicker-container {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .filteredit-group-type {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .center-panel .card-content-container .page-header-container {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .empty-grid-message {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .wizard-container .header > .header-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .top-control-group-label {
+  font-family: "Bpmonline Open Sans Light", "Bpmonline Open Sans";
+}
+body[OldUI=false] #header-name {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .ts-controlDetail-wrap > label,
+body[OldUI=false] .ts-controlgroup-wrap > label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] #usertask-recommendation-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .user-question-text {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .new-record-header-caption-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .schema-wrap.two-el .section.left-el .grid .grid-module span {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .section-header-container-wrapClass {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .tile .tile-caption {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .items-container .tile-item {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .items-container .tile-item .t-label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .mobile-apps-container .t-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .links-container .menu-link label,
+body[OldUI=false] .links-container .menu-link span {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .links-container .menu-caption {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .video-container .video-link {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .sdk-container .sdk-caption.t-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .sdk-container .sdk-hint.t-label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .image-list-header-caption-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .graph-header-name {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .email-settings-main-container .server-container-list .server-list-item-label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .communication-panel .content .t-btn-text {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] #CenterNotificationModule_WrapContainer .empty-grid-message {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] #CenterNotificationModule_WrapContainer .ts-tabpanel li span {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] *[data-item-marker="HeaderMessage"] {
+  font-family: "Bpmonline Open Sans Light", "Bpmonline Open Sans";
+}
+body[OldUI=false] .change-dates-header {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .formula-modal-box .header .header-name-container .t-label {
+  font-family: "Open Sans Light";
+}
+body[OldUI=false] .modal-page-fixed-container.process-lookup-page .header-name-container .t-label {
+  font-family: "Open Sans Light";
+}
+body[OldUI=false] .modal-header-inline .t-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .header-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] #caption-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] #itemEditInnerButtonsContainer .page-type-button {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .dashboard-grid-container {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .dashboard-grid-container .dashboard-grid-list .grid-layout-column .t-label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .supply-payment-products-modal-box .header-name-container .t-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .funnel-buttons-settings {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .funnel-buttons-settings-container .t-btn-pressed {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .ts-visamodule-container .showNewVisaButton-class {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] #head-score-digit {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .t-label.account-name {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .controlGroupLabel {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .page-caption-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .summary-item-container {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .summary-item-caption {
+  color: #999;
+  font-size: 1.3em;
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .summary-item-value {
+  color: #8ecb60;
+  font-size: 1.6em;
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .header-name {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .object-name {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .schema-wrap.two-el .section.left-el .grid .grid-module span {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .section-tab-list .t-btn-text {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .captionContainerSearchDuplicatesSettings .t-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .rights-title-lbl {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .report-caption {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .ts-rect-progress-bar-wrap .overlay {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .custom-filter-container .t-btn-text {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .graph-header-name {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .header-button-text {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] #reminderContainer #stepsCaption-caption {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .commentary {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .ts-notifications-container .showNewNotificationButton-class {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] #MultiDeleteResultPageV2ByConstraintsContainerContainer .container-multi-delete-caption-labelClass,
+body[OldUI=false] #MultiDeleteResultPageV2ByRightsContainerContainer .container-multi-delete-caption-labelClass {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .modal-box-schema-module-header .modal-box-title {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .modal-box-schema-module-content .lookup-view-label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .grid-mini-wrap .base-minipage-save-button-wrapper,
+body[OldUI=false] .grid-mini-wrap .base-minipage-cancel-button-wrapper {
+  font-family: "Open Sans";
+}
+body[OldUI=false] #captionLabel {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] #descriptionLabel {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .btn-user-class {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .btn-lbl-user-class {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .lbl-user-class {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .settings-btn-wrapperClass {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .caption-class {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .label-page-caption {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .header-name-container .t-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .captionContainer .t-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] #menu-workplace-button-textEl {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] [id*='tags-button-'] .t-btn-text {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .folder-manager-header-name {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .title-lbl {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .feature-item-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .header-button-text .t-btn-text {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .invalid-dashboard-manager-item-title,
+body[OldUI=false] .invalid-dashboard-manager-item-hint {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .default-widget-header {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] span.highcharts-title {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .control-width-15 .t-label.text-size-caption {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .information {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .file-list-item-container {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .new-record-header-caption-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .ts-progress-bar-caption {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .center-panel .card-content-container .page-header-container {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .ts-designer-tab-label-container .t-label,
+body[OldUI=false] .tab-label-panel-draggable-item-grabbed {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .empty-container-list-message {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .dashboard-grid-container {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .dashboard-grid-container .dashboard-grid-list .grid-layout-column .t-label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .graph-header-name {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .header-button-text {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .topinfolabel-header {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .inlinetextedit-expandable .item-control .inline-text-edit-placeholder:after {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .default-widget-caption,
+body[OldUI=false] .chart-caption {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] span.highcharts-title {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .indicator-module-wraper {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .indicator-value,
+body[OldUI=false] .default-indicator-font-size,
+body[OldUI=false] .big-indicator-font-size {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .wizard-steps .step-item {
+  font-family: 'Open Sans';
+}
+body[OldUI=false] .main-container .head-label-user-class {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .bubble:after {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .bulk-email-blank-slates-container .label-content-container {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .planning-container.schema-wrap.two-el .info-caption-label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .tracking-merge-container .header .header-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .setuptracking-merge-container .header .header-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .wizard-container .header > .header-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .cti-process-action-container .cti-process-action-button-text {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .estimate-caption-label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] #RightContainerTab {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .grid-layout-column > .caseNumberContainer > label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .grid-layout-column > .caseStatusContainer > label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .profile-estimate-caption-container > label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .tools-caption {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .tools-name {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .group-label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .main-container .header-container .header-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .main-container .header-container.results .description-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .main-container .center-container.results .description-wrapper .status-label {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .main-container .center-container.results .button {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .main-container .dropzone .excel-file-caption {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .main-container .dropzone .excel-file-name-wrapper .excel-file-name-caption {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .main-container .import-object-wrap .import-object-button {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .welcome-screen-modal-box .welcome-text-wrapper {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .welcome-screen-modal-box .academy-wrapper {
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .ts-font-light {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .global-search-wrapper .result-container-list .result-container b {
+  font-family: "Bpmonline Open Sans Bold", sans-serif;
+}
+body[OldUI=false] .global-search-wrapper > .left-container .global-search-filter-module .sections-group-container > a[selected="true"] {
+  font-weight: 600;
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .global-search-wrapper > .left-container .global-search-filter-module .sections-group-container .container-list .section-group-item[selected="true"] {
+  font-weight: 600;
+  font-family: "Bpmonline Open Sans";
+}
+body[OldUI=false] .page-wizard .page-header-container .base-edit-input {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .actions-dashboard-blankslate .actions-dashboard-blankslate-inner .description-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .page-settings-container .blank-slate-container .description-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .content-builder-container .content-builder-caption-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+body[OldUI=false] .content-builder-container .subject-page-content-builder-caption-label {
+  font-family: "Bpmonline Open Sans Light";
+}
+html[culture="ar-SA"] body[OldUI=false] {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .font-preload-open-sans {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .font-preload-open-sans-light {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .font-preload-open-sans-bold {
+  font-family: "Bpmonline Cairo Bold";
+}
+html[culture="ar-SA"] body[OldUI=false] .grid-settings .preview-data-container .preview-caption {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .view-model-schema-designer-item-content-text-wrap {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .main-header .page-header-container {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .grid {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .grid-header {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .grid-layout .control-width-15 .t-label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .ts-messagebox-caption,
+html[culture="ar-SA"] body[OldUI=false] .ts-inputbox-caption {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .ts-component-tooltip:hover:after {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .scheduleritem,
+html[culture="ar-SA"] body[OldUI=false] .multi-day-item {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .ts-tabpanel-items > li {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .drag-element {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .t-btn-style-default,
+html[culture="ar-SA"] body[OldUI=false] .t-btn-style-green,
+html[culture="ar-SA"] body[OldUI=false] .t-btn-style-blue,
+html[culture="ar-SA"] body[OldUI=false] .t-btn-style-red,
+html[culture="ar-SA"] body[OldUI=false] .t-btn-style-grey {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .ts-controlgroup-caption-wrap > span {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .ts-datepicker-container {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .filteredit-group-type {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .center-panel .card-content-container .page-header-container {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .empty-grid-message {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .wizard-container .header > .header-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .top-control-group-label {
+  font-family: "Bpmonline Cairo Light", "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] #header-name {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .ts-controlDetail-wrap > label,
+html[culture="ar-SA"] body[OldUI=false] .ts-controlgroup-wrap > label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] #usertask-recommendation-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .user-question-text {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .new-record-header-caption-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .schema-wrap.two-el .section.left-el .grid .grid-module span {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .section-header-container-wrapClass {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .tile .tile-caption {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .items-container .tile-item {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .items-container .tile-item .t-label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .mobile-apps-container .t-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .links-container .menu-link label,
+html[culture="ar-SA"] body[OldUI=false] .links-container .menu-link span {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .links-container .menu-caption {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .video-container .video-link {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .sdk-container .sdk-caption.t-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .sdk-container .sdk-hint.t-label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .image-list-header-caption-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .graph-header-name {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .email-settings-main-container .server-container-list .server-list-item-label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .communication-panel .content .t-btn-text {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] #CenterNotificationModule_WrapContainer .empty-grid-message {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] #CenterNotificationModule_WrapContainer .ts-tabpanel li span {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] *[data-item-marker="HeaderMessage"] {
+  font-family: "Bpmonline Cairo Light", "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .change-dates-header {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .formula-modal-box .header .header-name-container .t-label {
+  font-family: "Open Sans Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .modal-page-fixed-container.process-lookup-page .header-name-container .t-label {
+  font-family: "Open Sans Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .modal-header-inline .t-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .header-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] #caption-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] #itemEditInnerButtonsContainer .page-type-button {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .dashboard-grid-container {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .dashboard-grid-container .dashboard-grid-list .grid-layout-column .t-label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .supply-payment-products-modal-box .header-name-container .t-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .funnel-buttons-settings {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .funnel-buttons-settings-container .t-btn-pressed {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .ts-visamodule-container .showNewVisaButton-class {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] #head-score-digit {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .t-label.account-name {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .controlGroupLabel {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .page-caption-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .summary-item-container {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .summary-item-caption {
+  color: #999;
+  font-size: 1.3em;
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .summary-item-value {
+  color: #8ecb60;
+  font-size: 1.6em;
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .header-name {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .object-name {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .schema-wrap.two-el .section.left-el .grid .grid-module span {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .section-tab-list .t-btn-text {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .captionContainerSearchDuplicatesSettings .t-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .rights-title-lbl {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .report-caption {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .ts-rect-progress-bar-wrap .overlay {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .custom-filter-container .t-btn-text {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .graph-header-name {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .header-button-text {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] #reminderContainer #stepsCaption-caption {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .commentary {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .ts-notifications-container .showNewNotificationButton-class {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] #MultiDeleteResultPageV2ByConstraintsContainerContainer .container-multi-delete-caption-labelClass,
+html[culture="ar-SA"] body[OldUI=false] #MultiDeleteResultPageV2ByRightsContainerContainer .container-multi-delete-caption-labelClass {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .modal-box-schema-module-header .modal-box-title {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .modal-box-schema-module-content .lookup-view-label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .grid-mini-wrap .base-minipage-save-button-wrapper,
+html[culture="ar-SA"] body[OldUI=false] .grid-mini-wrap .base-minipage-cancel-button-wrapper {
+  font-family: "Open Sans";
+}
+html[culture="ar-SA"] body[OldUI=false] #captionLabel {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] #descriptionLabel {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .btn-user-class {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .btn-lbl-user-class {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .lbl-user-class {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .settings-btn-wrapperClass {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .caption-class {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .label-page-caption {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .header-name-container .t-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .captionContainer .t-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] #menu-workplace-button-textEl {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] [id*='tags-button-'] .t-btn-text {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .folder-manager-header-name {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .title-lbl {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .feature-item-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .header-button-text .t-btn-text {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .invalid-dashboard-manager-item-title,
+html[culture="ar-SA"] body[OldUI=false] .invalid-dashboard-manager-item-hint {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .default-widget-header {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] span.highcharts-title {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .control-width-15 .t-label.text-size-caption {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .information {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .file-list-item-container {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .new-record-header-caption-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .ts-progress-bar-caption {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .center-panel .card-content-container .page-header-container {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .ts-designer-tab-label-container .t-label,
+html[culture="ar-SA"] body[OldUI=false] .tab-label-panel-draggable-item-grabbed {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .empty-container-list-message {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .dashboard-grid-container {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .dashboard-grid-container .dashboard-grid-list .grid-layout-column .t-label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .graph-header-name {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .header-button-text {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .topinfolabel-header {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .inlinetextedit-expandable .item-control .inline-text-edit-placeholder:after {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .default-widget-caption,
+html[culture="ar-SA"] body[OldUI=false] .chart-caption {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] span.highcharts-title {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .indicator-module-wraper {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .indicator-value,
+html[culture="ar-SA"] body[OldUI=false] .default-indicator-font-size,
+html[culture="ar-SA"] body[OldUI=false] .big-indicator-font-size {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .wizard-steps .step-item {
+  font-family: 'Open Sans';
+}
+html[culture="ar-SA"] body[OldUI=false] .main-container .head-label-user-class {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .bubble:after {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .bulk-email-blank-slates-container .label-content-container {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .planning-container.schema-wrap.two-el .info-caption-label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .tracking-merge-container .header .header-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .setuptracking-merge-container .header .header-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .wizard-container .header > .header-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .cti-process-action-container .cti-process-action-button-text {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .estimate-caption-label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] #RightContainerTab {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .grid-layout-column > .caseNumberContainer > label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .grid-layout-column > .caseStatusContainer > label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .profile-estimate-caption-container > label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .tools-caption {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .tools-name {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .group-label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .main-container .header-container .header-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .main-container .header-container.results .description-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .main-container .center-container.results .description-wrapper .status-label {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .main-container .center-container.results .button {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .main-container .dropzone .excel-file-caption {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .main-container .dropzone .excel-file-name-wrapper .excel-file-name-caption {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .main-container .import-object-wrap .import-object-button {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .welcome-screen-modal-box .welcome-text-wrapper {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .welcome-screen-modal-box .academy-wrapper {
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .ts-font-light {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .global-search-wrapper .result-container-list .result-container b {
+  font-family: "Bpmonline Cairo Bold", sans-serif;
+}
+html[culture="ar-SA"] body[OldUI=false] .global-search-wrapper > .left-container .global-search-filter-module .sections-group-container > a[selected="true"] {
+  font-weight: 600;
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .global-search-wrapper > .left-container .global-search-filter-module .sections-group-container .container-list .section-group-item[selected="true"] {
+  font-weight: 600;
+  font-family: "Bpmonline Cairo";
+}
+html[culture="ar-SA"] body[OldUI=false] .page-wizard .page-header-container .base-edit-input {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .actions-dashboard-blankslate .actions-dashboard-blankslate-inner .description-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .page-settings-container .blank-slate-container .description-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .content-builder-container .content-builder-caption-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="ar-SA"] body[OldUI=false] .content-builder-container .subject-page-content-builder-caption-label {
+  font-family: "Bpmonline Cairo Light";
+}
+html[culture="he-IL"] body[OldUI=false] {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .font-preload-open-sans {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .font-preload-open-sans-light {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .font-preload-open-sans-bold {
+  font-family: "Bpmonline Rubik Bold";
+}
+html[culture="he-IL"] body[OldUI=false] .grid-settings .preview-data-container .preview-caption {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .view-model-schema-designer-item-content-text-wrap {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .main-header .page-header-container {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .grid {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .grid-header {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .grid-layout .control-width-15 .t-label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .ts-messagebox-caption,
+html[culture="he-IL"] body[OldUI=false] .ts-inputbox-caption {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .ts-component-tooltip:hover:after {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .scheduleritem,
+html[culture="he-IL"] body[OldUI=false] .multi-day-item {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .ts-tabpanel-items > li {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .drag-element {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .t-btn-style-default,
+html[culture="he-IL"] body[OldUI=false] .t-btn-style-green,
+html[culture="he-IL"] body[OldUI=false] .t-btn-style-blue,
+html[culture="he-IL"] body[OldUI=false] .t-btn-style-red,
+html[culture="he-IL"] body[OldUI=false] .t-btn-style-grey {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .ts-controlgroup-caption-wrap > span {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .ts-datepicker-container {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .filteredit-group-type {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .center-panel .card-content-container .page-header-container {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .empty-grid-message {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .wizard-container .header > .header-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .top-control-group-label {
+  font-family: "Bpmonline Rubik Light", "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] #header-name {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .ts-controlDetail-wrap > label,
+html[culture="he-IL"] body[OldUI=false] .ts-controlgroup-wrap > label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] #usertask-recommendation-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .user-question-text {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .new-record-header-caption-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .schema-wrap.two-el .section.left-el .grid .grid-module span {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .section-header-container-wrapClass {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .tile .tile-caption {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .items-container .tile-item {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .items-container .tile-item .t-label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .mobile-apps-container .t-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .links-container .menu-link label,
+html[culture="he-IL"] body[OldUI=false] .links-container .menu-link span {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .links-container .menu-caption {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .video-container .video-link {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .sdk-container .sdk-caption.t-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .sdk-container .sdk-hint.t-label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .image-list-header-caption-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .graph-header-name {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .email-settings-main-container .server-container-list .server-list-item-label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .communication-panel .content .t-btn-text {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] #CenterNotificationModule_WrapContainer .empty-grid-message {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] #CenterNotificationModule_WrapContainer .ts-tabpanel li span {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] *[data-item-marker="HeaderMessage"] {
+  font-family: "Bpmonline Rubik Light", "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .change-dates-header {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .formula-modal-box .header .header-name-container .t-label {
+  font-family: "Open Sans Light";
+}
+html[culture="he-IL"] body[OldUI=false] .modal-page-fixed-container.process-lookup-page .header-name-container .t-label {
+  font-family: "Open Sans Light";
+}
+html[culture="he-IL"] body[OldUI=false] .modal-header-inline .t-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .header-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] #caption-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] #itemEditInnerButtonsContainer .page-type-button {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .dashboard-grid-container {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .dashboard-grid-container .dashboard-grid-list .grid-layout-column .t-label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .supply-payment-products-modal-box .header-name-container .t-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .funnel-buttons-settings {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .funnel-buttons-settings-container .t-btn-pressed {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .ts-visamodule-container .showNewVisaButton-class {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] #head-score-digit {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .t-label.account-name {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .controlGroupLabel {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .page-caption-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .summary-item-container {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .summary-item-caption {
+  color: #999;
+  font-size: 1.3em;
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .summary-item-value {
+  color: #8ecb60;
+  font-size: 1.6em;
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .header-name {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .object-name {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .schema-wrap.two-el .section.left-el .grid .grid-module span {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .section-tab-list .t-btn-text {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .captionContainerSearchDuplicatesSettings .t-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .rights-title-lbl {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .report-caption {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .ts-rect-progress-bar-wrap .overlay {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .custom-filter-container .t-btn-text {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .graph-header-name {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .header-button-text {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] #reminderContainer #stepsCaption-caption {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .commentary {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .ts-notifications-container .showNewNotificationButton-class {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] #MultiDeleteResultPageV2ByConstraintsContainerContainer .container-multi-delete-caption-labelClass,
+html[culture="he-IL"] body[OldUI=false] #MultiDeleteResultPageV2ByRightsContainerContainer .container-multi-delete-caption-labelClass {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .modal-box-schema-module-header .modal-box-title {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .modal-box-schema-module-content .lookup-view-label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .grid-mini-wrap .base-minipage-save-button-wrapper,
+html[culture="he-IL"] body[OldUI=false] .grid-mini-wrap .base-minipage-cancel-button-wrapper {
+  font-family: "Open Sans";
+}
+html[culture="he-IL"] body[OldUI=false] #captionLabel {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] #descriptionLabel {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .btn-user-class {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .btn-lbl-user-class {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .lbl-user-class {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .settings-btn-wrapperClass {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .caption-class {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .label-page-caption {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .header-name-container .t-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .captionContainer .t-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] #menu-workplace-button-textEl {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] [id*='tags-button-'] .t-btn-text {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .folder-manager-header-name {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .title-lbl {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .feature-item-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .header-button-text .t-btn-text {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .invalid-dashboard-manager-item-title,
+html[culture="he-IL"] body[OldUI=false] .invalid-dashboard-manager-item-hint {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .default-widget-header {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] span.highcharts-title {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .control-width-15 .t-label.text-size-caption {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .information {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .file-list-item-container {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .new-record-header-caption-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .ts-progress-bar-caption {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .center-panel .card-content-container .page-header-container {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .ts-designer-tab-label-container .t-label,
+html[culture="he-IL"] body[OldUI=false] .tab-label-panel-draggable-item-grabbed {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .empty-container-list-message {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .dashboard-grid-container {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .dashboard-grid-container .dashboard-grid-list .grid-layout-column .t-label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .graph-header-name {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .header-button-text {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .topinfolabel-header {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .inlinetextedit-expandable .item-control .inline-text-edit-placeholder:after {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .default-widget-caption,
+html[culture="he-IL"] body[OldUI=false] .chart-caption {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] span.highcharts-title {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .indicator-module-wraper {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .indicator-value,
+html[culture="he-IL"] body[OldUI=false] .default-indicator-font-size,
+html[culture="he-IL"] body[OldUI=false] .big-indicator-font-size {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .wizard-steps .step-item {
+  font-family: 'Open Sans';
+}
+html[culture="he-IL"] body[OldUI=false] .main-container .head-label-user-class {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .bubble:after {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .bulk-email-blank-slates-container .label-content-container {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .planning-container.schema-wrap.two-el .info-caption-label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .tracking-merge-container .header .header-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .setuptracking-merge-container .header .header-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .wizard-container .header > .header-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .cti-process-action-container .cti-process-action-button-text {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .estimate-caption-label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] #RightContainerTab {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .grid-layout-column > .caseNumberContainer > label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .grid-layout-column > .caseStatusContainer > label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .profile-estimate-caption-container > label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .tools-caption {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .tools-name {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .group-label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .main-container .header-container .header-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .main-container .header-container.results .description-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .main-container .center-container.results .description-wrapper .status-label {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .main-container .center-container.results .button {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .main-container .dropzone .excel-file-caption {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .main-container .dropzone .excel-file-name-wrapper .excel-file-name-caption {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .main-container .import-object-wrap .import-object-button {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .welcome-screen-modal-box .welcome-text-wrapper {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .welcome-screen-modal-box .academy-wrapper {
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .ts-font-light {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .global-search-wrapper .result-container-list .result-container b {
+  font-family: "Bpmonline Rubik Bold", sans-serif;
+}
+html[culture="he-IL"] body[OldUI=false] .global-search-wrapper > .left-container .global-search-filter-module .sections-group-container > a[selected="true"] {
+  font-weight: 600;
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .global-search-wrapper > .left-container .global-search-filter-module .sections-group-container .container-list .section-group-item[selected="true"] {
+  font-weight: 600;
+  font-family: "Bpmonline Rubik";
+}
+html[culture="he-IL"] body[OldUI=false] .page-wizard .page-header-container .base-edit-input {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .actions-dashboard-blankslate .actions-dashboard-blankslate-inner .description-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .page-settings-container .blank-slate-container .description-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .content-builder-container .content-builder-caption-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="he-IL"] body[OldUI=false] .content-builder-container .subject-page-content-builder-caption-label {
+  font-family: "Bpmonline Rubik Light";
+}
+html[culture="fa-IR"] body[OldUI=false] {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .font-preload-open-sans {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .font-preload-open-sans-light {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .font-preload-open-sans-bold {
+  font-family: "IranSans Bold";
+}
+html[culture="fa-IR"] body[OldUI=false] .grid-settings .preview-data-container .preview-caption {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .view-model-schema-designer-item-content-text-wrap {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .main-header .page-header-container {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .grid {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .grid-header {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .grid-layout .control-width-15 .t-label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .ts-messagebox-caption,
+html[culture="fa-IR"] body[OldUI=false] .ts-inputbox-caption {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .ts-component-tooltip:hover:after {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .scheduleritem,
+html[culture="fa-IR"] body[OldUI=false] .multi-day-item {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .ts-tabpanel-items > li {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .drag-element {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .t-btn-style-default,
+html[culture="fa-IR"] body[OldUI=false] .t-btn-style-green,
+html[culture="fa-IR"] body[OldUI=false] .t-btn-style-blue,
+html[culture="fa-IR"] body[OldUI=false] .t-btn-style-red,
+html[culture="fa-IR"] body[OldUI=false] .t-btn-style-grey {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .ts-controlgroup-caption-wrap > span {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .ts-datepicker-container {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .filteredit-group-type {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .center-panel .card-content-container .page-header-container {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .empty-grid-message {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .wizard-container .header > .header-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .top-control-group-label {
+  font-family: "IranSans Light", "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] #header-name {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .ts-controlDetail-wrap > label,
+html[culture="fa-IR"] body[OldUI=false] .ts-controlgroup-wrap > label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] #usertask-recommendation-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .user-question-text {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .new-record-header-caption-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .schema-wrap.two-el .section.left-el .grid .grid-module span {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .section-header-container-wrapClass {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .tile .tile-caption {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .items-container .tile-item {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .items-container .tile-item .t-label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .mobile-apps-container .t-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .links-container .menu-link label,
+html[culture="fa-IR"] body[OldUI=false] .links-container .menu-link span {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .links-container .menu-caption {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .video-container .video-link {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .sdk-container .sdk-caption.t-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .sdk-container .sdk-hint.t-label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .image-list-header-caption-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .graph-header-name {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .email-settings-main-container .server-container-list .server-list-item-label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .communication-panel .content .t-btn-text {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] #CenterNotificationModule_WrapContainer .empty-grid-message {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] #CenterNotificationModule_WrapContainer .ts-tabpanel li span {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] *[data-item-marker="HeaderMessage"] {
+  font-family: "IranSans Light", "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .change-dates-header {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .formula-modal-box .header .header-name-container .t-label {
+  font-family: "Open Sans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .modal-page-fixed-container.process-lookup-page .header-name-container .t-label {
+  font-family: "Open Sans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .modal-header-inline .t-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .header-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] #caption-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] #itemEditInnerButtonsContainer .page-type-button {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .dashboard-grid-container {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .dashboard-grid-container .dashboard-grid-list .grid-layout-column .t-label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .supply-payment-products-modal-box .header-name-container .t-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .funnel-buttons-settings {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .funnel-buttons-settings-container .t-btn-pressed {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .ts-visamodule-container .showNewVisaButton-class {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] #head-score-digit {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .t-label.account-name {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .controlGroupLabel {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .page-caption-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .summary-item-container {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .summary-item-caption {
+  color: #999;
+  font-size: 1.3em;
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .summary-item-value {
+  color: #8ecb60;
+  font-size: 1.6em;
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .header-name {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .object-name {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .schema-wrap.two-el .section.left-el .grid .grid-module span {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .section-tab-list .t-btn-text {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .captionContainerSearchDuplicatesSettings .t-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .rights-title-lbl {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .report-caption {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .ts-rect-progress-bar-wrap .overlay {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .custom-filter-container .t-btn-text {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .graph-header-name {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .header-button-text {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] #reminderContainer #stepsCaption-caption {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .commentary {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .ts-notifications-container .showNewNotificationButton-class {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] #MultiDeleteResultPageV2ByConstraintsContainerContainer .container-multi-delete-caption-labelClass,
+html[culture="fa-IR"] body[OldUI=false] #MultiDeleteResultPageV2ByRightsContainerContainer .container-multi-delete-caption-labelClass {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .modal-box-schema-module-header .modal-box-title {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .modal-box-schema-module-content .lookup-view-label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .grid-mini-wrap .base-minipage-save-button-wrapper,
+html[culture="fa-IR"] body[OldUI=false] .grid-mini-wrap .base-minipage-cancel-button-wrapper {
+  font-family: "Open Sans";
+}
+html[culture="fa-IR"] body[OldUI=false] #captionLabel {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] #descriptionLabel {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .btn-user-class {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .btn-lbl-user-class {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .lbl-user-class {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .settings-btn-wrapperClass {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .caption-class {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .label-page-caption {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .header-name-container .t-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .captionContainer .t-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] #menu-workplace-button-textEl {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] [id*='tags-button-'] .t-btn-text {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .folder-manager-header-name {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .title-lbl {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .feature-item-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .header-button-text .t-btn-text {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .invalid-dashboard-manager-item-title,
+html[culture="fa-IR"] body[OldUI=false] .invalid-dashboard-manager-item-hint {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .default-widget-header {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] span.highcharts-title {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .control-width-15 .t-label.text-size-caption {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .information {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .file-list-item-container {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .new-record-header-caption-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .ts-progress-bar-caption {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .center-panel .card-content-container .page-header-container {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .ts-designer-tab-label-container .t-label,
+html[culture="fa-IR"] body[OldUI=false] .tab-label-panel-draggable-item-grabbed {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .empty-container-list-message {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .dashboard-grid-container {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .dashboard-grid-container .dashboard-grid-list .grid-layout-column .t-label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .graph-header-name {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .header-button-text {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .topinfolabel-header {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .inlinetextedit-expandable .item-control .inline-text-edit-placeholder:after {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .default-widget-caption,
+html[culture="fa-IR"] body[OldUI=false] .chart-caption {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] span.highcharts-title {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .indicator-module-wraper {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .indicator-value,
+html[culture="fa-IR"] body[OldUI=false] .default-indicator-font-size,
+html[culture="fa-IR"] body[OldUI=false] .big-indicator-font-size {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .wizard-steps .step-item {
+  font-family: 'Open Sans';
+}
+html[culture="fa-IR"] body[OldUI=false] .main-container .head-label-user-class {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .bubble:after {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .bulk-email-blank-slates-container .label-content-container {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .planning-container.schema-wrap.two-el .info-caption-label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .tracking-merge-container .header .header-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .setuptracking-merge-container .header .header-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .wizard-container .header > .header-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .cti-process-action-container .cti-process-action-button-text {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .estimate-caption-label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] #RightContainerTab {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .grid-layout-column > .caseNumberContainer > label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .grid-layout-column > .caseStatusContainer > label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .profile-estimate-caption-container > label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .tools-caption {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .tools-name {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .group-label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .main-container .header-container .header-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .main-container .header-container.results .description-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .main-container .center-container.results .description-wrapper .status-label {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .main-container .center-container.results .button {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .main-container .dropzone .excel-file-caption {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .main-container .dropzone .excel-file-name-wrapper .excel-file-name-caption {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .main-container .import-object-wrap .import-object-button {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .welcome-screen-modal-box .welcome-text-wrapper {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .welcome-screen-modal-box .academy-wrapper {
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .ts-font-light {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .global-search-wrapper .result-container-list .result-container b {
+  font-family: "IranSans Bold", sans-serif;
+}
+html[culture="fa-IR"] body[OldUI=false] .global-search-wrapper > .left-container .global-search-filter-module .sections-group-container > a[selected="true"] {
+  font-weight: 600;
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .global-search-wrapper > .left-container .global-search-filter-module .sections-group-container .container-list .section-group-item[selected="true"] {
+  font-weight: 600;
+  font-family: "IranSans";
+}
+html[culture="fa-IR"] body[OldUI=false] .page-wizard .page-header-container .base-edit-input {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .actions-dashboard-blankslate .actions-dashboard-blankslate-inner .description-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .page-settings-container .blank-slate-container .description-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .content-builder-container .content-builder-caption-label {
+  font-family: "IranSans Light";
+}
+html[culture="fa-IR"] body[OldUI=false] .content-builder-container .subject-page-content-builder-caption-label {
+  font-family: "IranSans Light";
+}

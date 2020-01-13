@@ -1,0 +1,546 @@
+﻿#Timeline .schema-wrap.one-el {
+  min-width: 0;
+}
+.timeline-container {
+  min-width: 430px;
+}
+.timeline-container .timeline-base-text {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
+.timeline-container .timeline-caption {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  font-size: 14px;
+  color: #4e7bd8;
+  white-space: nowrap;
+}
+.timeline-container .timeline-text-light {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  font-size: 13px;
+  color: #999999;
+}
+.timeline-container .timeline-text-gray {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  font-size: 13px;
+  color: #5e5e5e;
+}
+.timeline-container .timeline-text-normal {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 19px;
+  color: #444444;
+}
+.timeline-container .timeline-text-normal:empty {
+  display: none;
+}
+.timeline-container .timeline-text-with-label-container {
+  display: flex;
+  flex-direction: column;
+}
+.timeline-container .timeline-text-with-label-container > *:nth-child(2) {
+  margin-top: 3px;
+}
+.timeline-container .user-select-none {
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.timeline-container .timeline-filters-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.timeline-container .timeline-filters-container .timeline-search-control {
+  margin-right: 8px;
+  padding-left: 3px;
+  min-width: 100px;
+  max-width: 210px;
+  flex-basis: 100px;
+  flex-grow: 1;
+}
+.timeline-container .timeline-filters-container .timeline-search-control ::-webkit-input-placeholder {
+  opacity: 1;
+}
+.timeline-container .timeline-filters-container .timeline-search-control :-moz-placeholder {
+  opacity: 1;
+}
+.timeline-container .timeline-filters-container .timeline-search-control ::-moz-placeholder {
+  opacity: 1;
+}
+.timeline-container .timeline-filters-container .timeline-search-control :-ms-input-placeholder {
+  opacity: 1;
+}
+.timeline-container .timeline-filters-container .timeline-search-control .base-edit-with-clear-icon {
+  padding-right: 33px !important;
+}
+.timeline-container .timeline-filters-container .timeline-search-control .base-edit-right-icon {
+  display: block;
+}
+.timeline-container .timeline-filters-container .timeline-entity-filter-container {
+  position: relative;
+  flex-shrink: 0;
+  margin-right: 7px;
+  padding-top: 1px;
+}
+.timeline-container .timeline-filters-container .timeline-entity-filter-container .timeline-entity-filter-count-label {
+  width: 12px;
+  height: 12px;
+  font-size: 8px;
+  position: absolute;
+  text-align: center;
+  left: 8px;
+  top: 0;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  z-index: 1;
+  pointer-events: none;
+}
+.timeline-container .timeline-filters-container .timeline-entity-filter-container .timeline-entity-filter-image {
+  width: 1.43em;
+  height: 1.43em;
+  z-index: 0;
+}
+.timeline-container .timeline-filters-container .timeline-fixed-filter-module {
+  white-space: nowrap;
+  margin-right: 10px;
+}
+.timeline-container .timeline-filters-container .timeline-fixed-filter-module #fixedFilterPeriodFilterValuesContainer {
+  margin-right: 7px;
+}
+.timeline-container .timeline-filters-container .timeline-fixed-filter-module .filter-remove-button {
+  margin-right: 0;
+  padding-left: 0;
+}
+.timeline-container .timeline-tools-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.timeline-container .timeline-tools-container .timeline-tools-left-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.timeline-container .timeline-tools-container .timeline-tools-left-container #TimelineFilters {
+  width: 100%;
+}
+.timeline-container .timeline-tools-container .timeline-tools-right-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 31px;
+}
+.timeline-container .timeline-tools-container .timeline-tools-right-container .timeline-right-tools-button {
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding: 1px;
+  margin: auto 0;
+}
+.timeline-container .timeline-tools-container .timeline-tools-right-container .timeline-right-tools-button:hover .timeline-right-tools-label {
+  text-decoration: underline;
+}
+.timeline-container .timeline-tools-container .timeline-tools-right-container .timeline-right-tools-button .timeline-right-tools-icon {
+  right: 0;
+  height: 16px;
+  width: 16px;
+}
+.timeline-container .timeline-tools-container .timeline-tools-right-container .timeline-right-tools-button .timeline-right-tools-label {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  font-size: 14px;
+  color: #4e7bd8;
+  white-space: nowrap;
+}
+.timeline-container .timeline-tools-container .timeline-tools-right-container .timeline-order-direction-button {
+  padding-right: 18px;
+}
+.timeline-container .timeline-tools-container .timeline-tools-right-container .timeline-order-direction-button .timeline-right-tools-icon {
+  right: 0;
+}
+.timeline-container .timeline-container-list {
+  position: relative;
+  top: -6px;
+}
+.timeline-container .timeline-container-list[maskstate="visible"] {
+  min-height: 400px;
+}
+.timeline-container .timeline-container-list .animation-select-item {
+  animation: none;
+}
+.timeline-container .timeline-container-list .empty-grid-message {
+  font-family: "Segoe UI Light";
+  color: #999;
+  width: 477px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.timeline-container .timeline-container-list .empty-grid-message .image-container {
+  width: 135px;
+  height: 139px;
+  margin-top: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.timeline-container .timeline-container-list .empty-grid-message .ts-image-edit-inner-container {
+  height: 139px;
+  width: 135px;
+}
+.timeline-container .timeline-container-list .empty-grid-message .title {
+  margin-top: 52px;
+  margin-left: 29px;
+}
+.timeline-container .timeline-container-list .empty-grid-message .title label {
+  font-size: 24px;
+}
+.timeline-container .timeline-container-list .empty-grid-message .description {
+  margin-top: 29px;
+  padding-top: 11px;
+  padding-bottom: 13px;
+  padding-left: 30px;
+  box-shadow: -3px 0 0 0 #54b8df;
+}
+.timeline-container .timeline-container-list .empty-grid-message .description label {
+  font-size: 28px;
+}
+.timeline-container .timeline-container-list .empty-grid-message .description div {
+  padding-top: 11px;
+}
+.timeline-container .timeline-container-list .empty-grid-message .description div:first-of-type {
+  padding-top: 0;
+}
+.timeline-container .timeline-container-list .timeline-item-container:last-child .timeline-item-tile {
+  border-bottom: #e6e6e6 solid 1px;
+}
+.timeline-container .timeline-container-list .timeline-item-container a[href=''] {
+  pointer-events: none;
+  cursor: default;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-group-caption-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: #e6e6e6 solid 1px;
+  padding-bottom: 6px;
+  margin-top: 17px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-group-caption-container .timeline-item-group-caption {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  font-size: 16px;
+  color: #eb933d;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile {
+  display: flex;
+  flex-direction: column;
+  padding: 17px 0 16px 0;
+  background-color: #ffffff;
+  margin-left: 32px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile:nth-child(1) {
+  border-top: #e6e6e6 solid 1px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-entity-icon {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  position: absolute;
+  left: -32px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background-color: white;
+  z-index: 1;
+  overflow: hidden;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-entity-icon img {
+  width: 20px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  margin-right: 10%;
+  min-width: 10%;
+  flex-shrink: 100;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-caption {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  font-size: 14px;
+  color: #4e7bd8;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-author-caption {
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-author-icon-container {
+  height: 32px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-author-icon-container > *:last-child {
+  margin-right: 13px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-author-icon-container .timeline-item-author-photo {
+  width: 32px;
+  height: 32px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-author-icon-container .timeline-item-author-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: white;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-author-icon-container .timeline-item-author-initials {
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-family: "Bpmonline Open Sans";
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #9bb3e8;
+  color: white;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-recipient-caption {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  font-size: 14px;
+  color: #4e7bd8;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-to-label {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  font-size: 13px;
+  color: #999999;
+  margin: 0 5px 2px 5px;
+  flex-shrink: 0;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-go-to-page-container {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  margin-left: 10px;
+  min-height: auto;
+  flex-shrink: 0;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-go-to-page-container .timeline-item-go-to-page-link {
+  outline: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-go-to-page-container .timeline-item-go-to-page-icon-wrapper {
+  padding: 0;
+  z-index: 0;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-go-to-page-container .timeline-item-go-to-page-icon-wrapper .timeline-item-go-to-page-icon-image {
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-file-type-icon {
+  margin-right: 14px;
+  height: 24px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-item-file-type-icon img {
+  width: 24px;
+  height: 24px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-call-contacts-captions-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-left-header-container .timeline-call-contacts-captions-container[call-direction="incoming"] {
+  flex-direction: row-reverse;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-right-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  margin-left: auto;
+  padding-right: 2px;
+  min-width: 10%;
+  flex-shrink: 1;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-right-header-container .timeline-item-right-header-label {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  font-size: 13px;
+  color: #999999;
+  margin-right: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-right-header-container .timeline-item-date {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  font-size: 13px;
+  color: #999999;
+  margin-right: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  flex-shrink: 0;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-header-container .timeline-item-right-header-container .timeline-item-author {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  font-size: 13px;
+  color: #999999;
+  margin-right: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container {
+  margin-top: 8px;
+  position: relative;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .multiline-label-wrap .label-content-container .timeline-item-message {
+  overflow: hidden;
+  word-wrap: break-word;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .multiline-label-wrap .label-content-container .timeline-item-message pre {
+  margin: 0;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .multiline-label-wrap .label-content-container.content-visble {
+  max-height: none;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .multiline-label-wrap .label-content-container.content-visble .timeline-item-message iframe {
+  height: 0;
+  display: block;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .timeline-item-file-preview-image {
+  margin-top: 8px;
+  margin-left: 38px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .timeline-item-file-preview-image img {
+  max-width: 250px;
+  max-height: 140px;
+  border: 1px solid #e0e0e0;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .timeline-item-subject-container .timeline-item-subject-label {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 19px;
+  color: #444444;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 6px;
+  color: #4e7bd8;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .timeline-item-subject-container .timeline-item-subject-label:empty {
+  display: none;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .timeline-call-comment-container {
+  margin-top: 14px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .timeline-tile-info-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .timeline-tile-info-container .timeline-text-with-label-container {
+  margin-right: 45px;
+  width: 120px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .timeline-tile-info-container .timeline-text-with-label-container-130px {
+  width: 130px;
+  margin-right: 45px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .timeline-detailed-result-label {
+  font-family: "Bpmonline Open Sans";
+  width: auto;
+  max-width: 100%;
+  display: block;
+  font-size: 13px;
+  color: #999999;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .timeline-detailed-result-label:not(:nth-child(1)) {
+  margin-top: 8px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .link-preview-wrap {
+  margin-top: 5px;
+  padding: 0;
+  max-height: 112px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .link-preview-wrap .link-preview-image {
+  min-width: 216px;
+  min-height: 112px;
+  margin-right: 20px;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container .link-preview-wrap .link-preview-right-wrap .link-preview-description {
+  line-height: 16px;
+  max-height: 48px;
+  white-space: normal;
+  word-break: break-word;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.timeline-container .timeline-container-list .timeline-item-container .timeline-item-tile .timeline-item-body-container:empty {
+  margin-top: 0;
+}

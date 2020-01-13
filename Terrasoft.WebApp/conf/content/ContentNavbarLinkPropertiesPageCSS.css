@@ -1,0 +1,4 @@
+﻿.right-panel-container *[data-item-type="navbarlink"] .properties-header,
+.right-panel-container *[data-item-type="navbarlink"] .properties-content .ts-tabpanel {
+  background-color: #e86161;
+}

@@ -1,0 +1,28 @@
+﻿.cf-social-message-html-field,
+.cf-social-message-comment-input {
+  display: block;
+  border-bottom: 1px solid transparent;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-radius: 0 !important;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+.cf-social-message-html-field.x-field-focused {
+  border-bottom: 1px solid #03a9f4 !important;
+}
+.cf-social-message-html-field .x-tag,
+.cf-social-message-comment-input .x-tag {
+  color: #0091EA;
+  text-decoration: underline;
+}
+.cf-social-message-html-field.x-invalid {
+  border-bottom: 1px solid #03a9f4;
+}
+.cf-social-message-html-field.x-field-focused,
+.cf-social-message-html-field.x-field-focused > div {
+  -webkit-user-select: text;
+}

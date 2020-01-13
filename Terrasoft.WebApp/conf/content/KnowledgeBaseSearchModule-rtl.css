@@ -1,0 +1,15 @@
+﻿#knowledgeBaseSearchContainer {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+}
+.schema-wrap #knowledgeBaseSearchContainer ::-webkit-input-placeholder {
+  opacity: 1;
+}
+.schema-wrap #knowledgeBaseSearchContainer ::-moz-placeholder {
+  opacity: 1;
+}
+.schema-wrap #knowledgeBaseSearchContainer :-ms-input-placeholder {
+  opacity: 1;
+}

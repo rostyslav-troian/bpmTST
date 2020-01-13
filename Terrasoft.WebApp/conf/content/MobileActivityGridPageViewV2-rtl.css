@@ -1,0 +1,157 @@
+﻿.x-activity-grid-refresh-button {
+  margin-left: -4px;
+  margin-right: 3px;
+  width: 40px;
+}
+.x-ie .x-activity-grid-refresh-button {
+  height: 40px;
+}
+.x-activity-grid-refresh-button .x-button-icon {
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.x-navigation-panel .x-activity-grid-refresh-button .x-button-icon {
+  max-height: 20px;
+}
+#ActivityGridPage:not(.ts-grid-detail-page) .x-filters-panel {
+  position: relative;
+}
+#ActivityGridPage:not(.ts-grid-detail-page) .x-filters-panel .x-calendar {
+  background-position: 8px center;
+  padding-right: 0px;
+}
+#ActivityGridPage:not(.ts-grid-detail-page) .x-filters-panel .x-calendar.x-single-date .x-left-date {
+  padding-right: 27px;
+}
+#ActivityGridPage:not(.ts-grid-detail-page) .x-calendar-period-button {
+  padding-right: 7px;
+  margin-right: 0px;
+}
+#ActivityGridPage .x-navigation-panel .x-title.cf-multi-modes:after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 11px;
+  width: 26px;
+  height: 26px;
+}
+.x-navigation-panel.x-toolbar .x-button.x-activity-grid-owner-button,
+.x-select-picker .x-picker-toolbar .x-button.x-my-activities-button {
+  padding-left: 8px;
+}
+.x-navigation-panel.x-toolbar .x-button.x-activity-grid-owner-button.x-owner-default-image .x-button-icon,
+.x-select-picker .x-picker-toolbar .x-button.x-my-activities-button.x-owner-default-image .x-button-icon {
+  background-size: 32px;
+  border: 1px solid #C8C8C8;
+}
+.x-navigation-panel.x-toolbar .x-button.x-activity-grid-owner-button .x-button-icon,
+.x-select-picker .x-picker-toolbar .x-button.x-my-activities-button .x-button-icon {
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+}
+.x-select-picker .x-picker-toolbar .x-button.x-my-activities-button .x-button-icon {
+  max-height: 32px;
+}
+.x-activity-grid-owner-button.x-button {
+  width: 40px;
+}
+.x-activity-grid-owner-button.x-button > .x-button-icon.x-shown {
+  width: 29px;
+  height: 29px;
+}
+.x-activity-grid-owner-button.x-button > .x-button-icon.x-shown,
+.x-my-activities-button.x-button > .x-button-icon.x-shown {
+  background-size: cover;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+#ActivityGridPage .x-navigation-panel,
+#ActivityGridPage > .x-dock > .x-dock-body {
+  overflow: visible;
+}
+.x-activity-grid-edit-panel {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.x-activity-grid-status-button {
+  margin-left: 1px;
+  width: 100%;
+}
+.x-activity-grid-status-picker-button {
+  width: 36px;
+}
+.x-button-primary-blue .x-activity-grid-status-picker-button-icon,
+.x-button-primary-blue.x-button-pressing .x-activity-grid-status-picker-button-icon {
+  width: 0 !important;
+  height: 0 !important;
+  border: 5px solid transparent;
+  border-top-color: white;
+  margin-top: 5px !important;
+}
+.x-select-picker .x-list .x-list-item.x-picker-menu-group .x-list-title {
+  font-size: 19px;
+  font-weight: 600;
+  margin-right: -10px;
+}
+.cf-activity-period-segmented-button .x-button {
+  min-height: 32px;
+}
+.cf-activity-period-segmented-button {
+  padding: 9px 0;
+  height: 50px;
+}
+.cf-activity-period-segmented-button .x-button {
+  border: 1px solid #0DA9F2;
+  width: 60px;
+}
+.cf-activity-period-segmented-button .x-button .x-button-label {
+  color: #0DA9F2;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.cf-activity-period-segmented-button .x-button.x-button-pressed {
+  background-image: none;
+  background-color: #0DA9F2;
+}
+.cf-activity-period-segmented-button .x-button.x-button-pressed .x-button-label {
+  color: #FFFFFF;
+}
+.cf-activity-period-segmented-button .x-button-label {
+  margin: 0;
+}
+.cf-activity-period-segmented-button .x-button.x-first {
+  -webkit-border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.cf-activity-period-segmented-button .x-button.x-last {
+  -webkit-border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.x-refresh-icon {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNDAgNDAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQwIDQwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6bm9uZTtzdHJva2U6IzBEQTlGMjtzdHJva2Utd2lkdGg6Mi40O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO308L3N0eWxlPjxnPjxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjM0LjUsMS44IDM0LjUsOC4yIDI4LjEsOC4yICIvPjxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjYuMSwzNy41IDYuMSwzMS4xIDEyLjUsMzEuMSAiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNNi40LDMxLjZjMy40LDMuOSw4LjQsNi40LDEzLjksNi40YzEwLjEsMCwxOC4zLTguMiwxOC4zLTE4LjNjMC0yLjUtMC41LTQuOC0xLjQtNyIvPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0zNC4yLDcuN2MtMy40LTMuOS04LjMtNi40LTEzLjktNi40QzEwLjIsMS4zLDIsOS41LDIsMTkuN0MyLDIxLjksMi40LDI0LDMuMSwyNiIvPjwvZz48L3N2Zz4=);
+}
+#ActivityGridPage:not(.ts-grid-detail-page) .x-filters-panel + .ts-extended-filter-button .ts-extended-filter-icon {
+  height: 50px;
+  width: 44px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA4OCA4OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgODggODg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDA5MUVBO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1taXRlcmxpbWl0OjEwO308L3N0eWxlPjxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMjYsMjUgMjYsMjkgNDIsNDQuNCA0Miw2MyA0Nyw2MyA0Nyw0NC40IDYyLDI5IDYyLDI1ICIvPjwvc3ZnPg==);
+}
+#ActivityGridPage:not(.ts-grid-detail-page) .x-filters-panel .ts-filter-panel-buttons-container {
+  left: -5px;
+}
+.cf-export-error-details-button .x-button-label,
+.cf-information-panel-refresh-button .x-button-label {
+  color: #0DA9F2;
+}
+.ts-state-information-buttons .ts-refresh-blue-icon {
+  height: 18px;
+}
+.ts-state-information-buttons .ts-info-blue-icon {
+  height: 28px;
+}

@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Core.AppInstallation</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo">
+            <summary>
+            Installed application info.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.Id">
+            <summary>
+            Id.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.Code">
+            <summary>
+            Code.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.ZipPackageName">
+            <summary>
+            Zip package name.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.Maintainer">
+            <summary>
+            Maintainer.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.SupportEmail">
+            <summary>
+            Support email.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.LastUpdate">
+            <summary>
+            Last update.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.MarketplaceLink">
+            <summary>
+            Marketplace link.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.FileLink">
+            <summary>
+            File link.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.HelpLink">
+            <summary>
+            Help link.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.OrderLink">
+            <summary>
+            Order link.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.IsLicenseRequired">
+            <summary>
+            Is license required.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo.SysInstalledAppStatusId">
+            <summary>
+            Application status.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.AppInstaller.Install(System.String,System.String,Terrasoft.Core.Packages.PackageInstallOptions,Terrasoft.Core.Packages.IInstalledAppInfo)">
+            <summary>
+            Install application packages.
+            </summary>
+            <param name="sourcePath">Packages source path.</param>
+            <param name="destinationPath">Packages destination path.</param>
+            <param name="installOptions">Install options.</param>
+            <param name="installedAppInfo">Installed application info.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.AppInstaller.Uninstall(Terrasoft.Core.Packages.ISystemPackageManager,System.Guid,System.Collections.Generic.IList{System.String},Terrasoft.Core.Packages.PackageInstallOptions)">
+            <summary>
+            Uninstalls application packages.
+            </summary>
+            <param name="systemPackageManager">System package manager.</param>
+            <param name="appId">Application identifier.</param>
+            <param name="errorMessages">Error messages.</param>
+            <param name="installOptions">Installation options <see cref="T:Terrasoft.Core.Packages.PackageInstallOptions"/>.</param>
+            <returns>
+            Returns <c>true</c> if application have been uninstalled successfully. Otherwise returns <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.AppInstaller.DeletePackage(Terrasoft.Core.Packages.IPackageManager,System.String,System.Collections.Generic.IList{System.String},Terrasoft.Core.Packages.PackageInstallOptions)">
+            <summary>
+            Deletes package.
+            </summary>
+            <param name="packageManager">Package manager.</param>
+            <param name="packageName">Package name.</param>
+            <param name="errorMessages">Error messages.</param>
+            <param name="installOptions">Installation options <see cref="T:Terrasoft.Core.Packages.PackageInstallOptions"/>.</param>
+            <returns>
+            Returns <c>true</c> if package has been deleted successfully. Otherwise returns <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.AppInstaller.IsAppInstalledWithError(System.String,System.Guid@)">
+            <summary>
+            Checks whether application installed with errors.
+            </summary>
+            <param name="appCode">Application code.</param>
+            <param name="appId">Application id.</param>
+            <returns>
+            Returns <c>true</c> if application already installed with error. Otherwise returns <c>false</c>.
+            </returns>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Backup.IPackageBackupCreator">
+            <summary>
+            Defines methods for packages backup creation.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.Backup.IPackageBackupCreator.CreateBackup(System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates backup that contains difference in data between system packages and packages stored as .gz files 
+            in directory provided by <paramref name="sourcePackagesPath"/>.
+            </summary>
+            <param name="sourcePackagesPath">Directory that contains packages as .gz files.</param>
+            <param name="tempFilesPath">Directory for temporary files.</param>
+            <param name="backupPath">Directory to whitch backup will be saved.</param>
+            <param name="code">Application code.</param>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Backup.IPackageBackupManager">
+            <summary>
+            Provides high-level interface for creation and restoration from backup of packages.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Backup.IPackageBackupRepository">
+            <summary>
+            Defines methods for backup storage operations.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.Backup.IPackageBackupRepository.SaveBackup(System.Collections.Generic.IEnumerable{Terrasoft.Core.Packages.Package},System.Collections.Generic.IEnumerable{Terrasoft.Core.Packages.Package},System.String,Terrasoft.Core.AppInstallation.Packages.InstalledAppInfo,System.Collections.Generic.List{System.Guid})">
+            <summary>
+            Saves packages data to backup.
+            </summary>
+            <param name="changedPackages">Collection of changed packages.</param>
+            <param name="newPackages">Collection of new packages.</param>
+            <param name="backupPath">Path to which backup will be saved.</param>
+            <param name="installedApp">Installed application.</param>
+            <param name="dependentPackagesUIds">Application dependent packages UIds.</param>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.Backup.IPackageBackupRepository.GetBackup(System.String)">
+            <summary>
+            Gets data from backup.
+            </summary>
+            <param name="backupPath">Path to backup.</param>
+            <returns>Backup data.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Backup.IPackageBackupRestorer">
+            <summary>
+            Defines methods for packages backup restoration.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.Backup.IPackageBackupRestorer.RestoreFromBackup(System.String,System.String)">
+            <summary>
+            Restores system packages from backup stored in <paramref name="backupPath"/>.
+            </summary>
+            <param name="backupPath">Path to backup.</param>
+            <param name="appCode">Application code.</param>
+            <returns>
+            Returns <c>true</c> if configuration has been restored successfully.
+            Otherwise returns <c>false</c>.
+            </returns>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Composer.IPackageComposer">
+            <summary>
+            Provides two package collections composing method.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.Composer.IPackageComposer.Compose(System.Collections.Generic.IEnumerable{Terrasoft.Core.Packages.Package},System.Collections.Generic.IEnumerable{Terrasoft.Core.Packages.Package})">
+            <summary>
+            Compares two package collections and forms new one which contents depends on final method implementation.
+            </summary>
+            <param name="source">Source package collection.</param>
+            <param name="target">Target package collection.</param>
+            <returns>Resulting package collection. Depends on final method implementation.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Compression.IPackageArchiver">
+            <summary>
+            Provides methods for creation of package archive.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.Compression.IPackageArchiver.Compress(System.String,System.String)">
+            <summary>
+            Creates a zip archive that contains the files and directories from the specified directory.
+            </summary>
+            <param name="sourceDirectory">The path to the directory to be archived.</param>
+            <param name="archiveName">The path of the archive to be created.</param>
+            <exception cref="T:Terrasoft.Common.ArgumentNullOrEmptyException">If <paramref name="sourceDirectory"/> or
+            <paramref name="archiveName"/> is <c>null</c> or empty string.</exception>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Extraction.IPackageExtractor">
+            <summary>
+            Defines methods for packages extraction from archive file.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.Extraction.IPackageExtractor.Extract(System.String,System.String)">
+            <summary>
+            Extracts packages from archive file.
+            </summary>
+            <param name="archiveFilePath">Path to archive file.</param>
+            <param name="extractPath">Path to which extracted packages should be placed.</param>
+            <remarks>
+            In case when archive file represents package itself the file is just copied to 
+            <paramref name="extractPath"/> directory.
+            This method creates directory provided by <paramref name="extractPath"/> in case if it does not exist.
+            In case when directory provided by <paramref name="extractPath"/> already exists and contains files 
+            all files in this directory will be deleted before extraction.
+            </remarks>
+            <exception cref="T:System.IO.IOException">
+            The directory specified by <paramref name="extractPath"/> is read-only 
+            <para>-or-</para>
+            existing files in <paramref name="extractPath"/> are in use
+            <para>-or-</para>
+            an I/O error occurred while creating files.
+            </exception>
+            <exception cref="T:System.UnauthorizedAccessException">
+            The caller does not have the required permission.
+            </exception>
+            <exception cref="T:System.ArgumentException">
+            <paramref name="archiveFilePath"/> or <paramref name="extractPath"/> contains one or more invalid 
+            characters as defined by <see cref="F:System.IO.Path.InvalidPathChars"/> 
+            </exception>
+            <exception cref="T:System.IO.PathTooLongException">
+            The specified <paramref name="archiveFilePath"/>, <paramref name="extractPath"/>, or both 
+            exceed the system-defined maximum length.
+            </exception>
+            <exception cref="T:System.IO.DirectoryNotFoundException">
+            The specified <paramref name="extractPath"/> or <paramref name="archiveFilePath"/> is invalid, 
+            such as being on an unmapped drive.
+            </exception>
+            <exception cref="T:System.IO.FileNotFoundException">
+            <paramref name="archiveFilePath"/> was not found.
+            </exception>
+            <exception cref="T:Terrasoft.Common.ArgumentNullOrEmptyException">
+            <paramref name="archiveFilePath"/> or <paramref name="extractPath"/> is null or empty.
+            </exception>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Operations.IPackageLoader">
+            <summary>
+            Provides methods for package data loading from external sources.
+            </summary>
+            <remarks>
+            The primary use of this interface is to load packages data from external sources such as file system, 
+            version control system, web URI etc.
+            </remarks>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.Operations.IPackageLoader.Load">
+            <summary>
+            Loads packages from external source.
+            </summary>
+            <returns>Collection of loaded packages.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.Operations.IPackageLoader.Load(System.Func{Terrasoft.Core.Packages.Package,System.Boolean})">
+            <summary>
+            Loads packages that meet criteria specified by <paramref name="packageFilter"/> from external source.
+            </summary>
+            <param name="packageFilter">Specifies criteria for package loading.</param>
+            <returns>Collection of loaded packages.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Operations.IPackageLoaderCreator">
+            <summary>
+            Represents an abstract factory for <see cref="T:Terrasoft.Core.AppInstallation.Packages.Operations.IPackageLoader"/> creation.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.Operations.IPackageLoaderCreator.CreatePackageLoader(System.String,System.String)">
+            <summary>
+            Creates package loader depending on <paramref name="sourcePath"/>
+            using <paramref name="storageDirectoryPath"/> as a directory for temporary files.
+            </summary>
+            <param name="sourcePath">Path to packages location. 
+            This parameter can represent file path or web URI.</param>
+            <param name="storageDirectoryPath">Path for temporary files used by <see cref="T:Terrasoft.Core.AppInstallation.Packages.Operations.IPackageLoader"/>.</param>
+            <returns>Package loader.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Operations.PackageSavingResult">
+            <summary>
+            Package saving result enum.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.AppInstallation.Packages.Operations.PackageSavingResult.Success">
+            <summary>
+            Package has been saved successfully.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.AppInstallation.Packages.Operations.PackageSavingResult.Warning">
+            <summary>
+            Package has been saved with warnings.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.AppInstallation.Packages.Operations.PackageSavingResult.Error">
+            <summary>
+            Package has been saved with errors.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Operations.IPackageSaver">
+            <summary>
+            Provides methods for packages data saving.
+            </summary>
+            <remarks>
+            The primary use of this interface is to save packages data to different persistence storages 
+            such as file system, version control system, database etc.
+            </remarks>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.Operations.IPackageSaver.Save(System.Collections.Generic.IEnumerable{Terrasoft.Core.Packages.Package},Terrasoft.Core.Packages.PackageInstallOptions)">
+            <summary>
+            Saves collection of packages to persistence storage.
+            </summary>
+            <param name="packages">Collection of packages.</param>
+            <param name="options">Package saving options.</param>
+            <returns>Returns result of packages saving as <see cref="T:Terrasoft.Core.AppInstallation.Packages.Operations.PackageSavingResult"/> value.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Operations.IPackageZipSaver">
+            <summary>
+            Provides methods for saving packages data to zip files.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.AppInstallation.Packages.Operations.IPackageZipSaver.Save(System.Collections.Generic.IEnumerable{Terrasoft.Core.Packages.Package},System.String)">
+            <summary>
+            Saves collection of packages to zip files.
+            </summary>
+            <param name="packages">Collection of packages.</param>
+            <param name="path">Path to store zip files.</param>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Operations.ISystemPackageLoader">
+            <summary>
+            Provides methods for package data loading from system persistence storage.
+            </summary>
+            <remarks>
+            This interface loads package data from system persistence storage: DB, SVN or file system. 
+            Particular system persistence storage depends on current application settings.
+            </remarks>
+        </member>
+        <member name="T:Terrasoft.Core.AppInstallation.Packages.Operations.ISystemPackageSaver">
+            <summary>
+            Defines methods to save package data to system persistence storage.
+            </summary>
+            <remarks>
+            Defines methods to save package data to system persistence storage: DB, SVN or file system. 
+            Particular system persistence storage depends on current application settings.
+            </remarks>
+        </member>
+    </members>
+</doc>

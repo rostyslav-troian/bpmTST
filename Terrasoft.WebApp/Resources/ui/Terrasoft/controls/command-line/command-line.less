@@ -1,0 +1,24 @@
+.command-line-icon {
+	background: url('go.png') center top no-repeat;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	margin: 0 0 0 7px;
+}
+.command-line-icon:hover {
+	background-position: center -26px;
+}
+
+.command-line-icon:active {
+	background-position: center -52px;
+}
+
+/*rtl:begin:ignore*/
+html[dir="rtl"] {
+	.command-line-icon {
+		top: 20%;
+		transform: scaleX(-1);
+	}
+}
+/*rtl:end:ignore*/

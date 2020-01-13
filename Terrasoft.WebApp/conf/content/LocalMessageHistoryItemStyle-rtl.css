@@ -1,0 +1,14 @@
+﻿.historyMessageWrap.historyLocalMessageWrap .createdByImage {
+  width: 32px;
+  height: 32px;
+  float: right;
+}
+.historyMessageWrap.historyLocalMessageWrap .messageContent {
+  padding: 8px 15px;
+  margin: 0 32px 0 60px;
+}
+.historyMessageWrap.historyLocalMessageWrap .messageContent .messageText {
+  font-size: 12px;
+  color: #999;
+  text-align: justify;
+}

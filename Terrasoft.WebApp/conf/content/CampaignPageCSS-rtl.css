@@ -1,0 +1,55 @@
+﻿.ts-campaign-message-box {
+  width: 550px;
+}
+.ts-campaign-message-box .ts-inputbox-caption {
+  font-size: 22px;
+}
+.ts-campaign-message-box .memo-edit-core {
+  box-sizing: content-box;
+}
+.left-modules-container .island-block-container .control-width-15 {
+  display: inline-block;
+}
+.left-modules-container .island-block-container .label-wrap label {
+  text-align: right;
+  padding-right: 1px;
+}
+.left-modules-container .island-block-container .grid-layout .grid-layout-row .grid-layout-column > *:not(.grid-layout-spacer) {
+  padding-bottom: 8px;
+}
+.left-modules-container .island-block-container .grid-layout .grid-layout-row .grid-layout-column {
+  min-height: 1px;
+}
+.left-modules-container .island-block-container .grid-layout .grid-layout-row {
+  min-height: 1px;
+}
+#CampaignAnalyticsTab .open-designer-button {
+  float: left;
+}
+#CampaignAnalyticsTab .not-selected-image {
+  width: 100%;
+  text-align: center;
+  margin-left: 0px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+#CampaignAnalyticsTab .description-container {
+  width: 100%;
+  text-align: center;
+  color: #999999;
+  font-size: 1.2em;
+}
+#CampaignAnalyticsTab .description-container .description-label {
+  max-width: 420px;
+  box-shadow: -3px 0 0 0 #54b8df;
+}
+#CampaignViewer .schema-designer .diagram {
+  width: inherit;
+}
+#CampaignViewer .e-datavisualization-diagram svg {
+  position: inherit !important;
+}
+#CampaignViewer .diagram .ej-diagram {
+  flex-basis: auto;
+  -webkit-flex-basis: auto;
+}

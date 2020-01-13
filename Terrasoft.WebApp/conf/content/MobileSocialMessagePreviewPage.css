@@ -1,0 +1,76 @@
+﻿.landscape .x-desktop #SocialMessagePreviewPage,
+.landscape .x-tablet #SocialMessagePreviewPage {
+  border-left: 1px solid #e1e0e0;
+}
+.x-button.cf-social-message-preview-owner-image {
+  position: relative;
+  margin-left: 14px;
+  margin-top: 7px;
+}
+.x-button.cf-social-message-preview-owner-image,
+.x-button.cf-social-message-preview-owner-image > .x-button-icon {
+  min-height: 40px;
+  height: 40px;
+  width: 40px;
+}
+.x-button.cf-social-message-preview-owner-image.cf-social-message-owner-default-image .x-button-icon {
+  background-size: 40px;
+  border: 1px solid #C8C8C8;
+}
+.x-button.cf-social-message-preview-owner-image .x-button-icon {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+}
+.cf-social-message-preview-owner-image .x-button-icon {
+  background-size: cover;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.cf-social-message-comment-input {
+  position: relative;
+  width: 100%;
+  min-height: 54px;
+}
+.cf-social-message-comment-input.x-field.cf-social-message-html-field {
+  padding-right: 0;
+  padding-left: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.cf-social-message-comment-input.x-field.cf-social-message-html-field.x-field-focused {
+  border-bottom: 1px solid transparent !important;
+}
+.cf-social-message-comment-input-container {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+.cf-social-message-comment-input.x-empty .x-field-input .x-input-el.x-form-field {
+  height: 100% !important;
+}
+.cf-social-message-comment-input .x-input-el::-webkit-input-placeholder {
+  font-size: 15px !important;
+}
+.cf-social-message-comment-input .x-input-el {
+  font-size: 15px !important;
+}
+.x-ie .x-button.cf-social-message-save-comment-button {
+  height: 100%;
+}
+.x-ie .cf-social-message-save-comment-button-icon {
+  height: 55px;
+}
+#SocialMessagePreviewPage .x-list-pullrefresh {
+  margin-top: 5px;
+}
+.cf-social-message-save-comment-button .cf-social-message-save-comment-button-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NCA0NCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNDQgNDQiPjxwYXRoIGQ9Im0xMyAzMWwyMS05LTIxLTl2N2wxNSAyLTE1IDJ2NyIgZmlsbD0iIzAwOTFFQSIvPjwvc3ZnPg==);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 44px;
+}
+.cf-social-message-save-comment-button.x-item-disabled .cf-social-message-save-comment-button-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NCA0NCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNDQgNDQiPjxwYXRoIGQ9Im0xMyAzMWwyMS05LTIxLTl2N2wxNSAyLTE1IDJ2NyIgZmlsbD0iI0JFQkVCRSIvPjwvc3ZnPg==);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}

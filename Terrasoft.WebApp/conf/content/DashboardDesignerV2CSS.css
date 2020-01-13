@@ -1,0 +1,69 @@
+﻿.dashboard-designer-container {
+  width: 100%;
+  background: #EAEAEA;
+  padding: 0px;
+  margin-right: 7.2em;
+}
+.dashboard-designer-header {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+}
+.dashboard-designer-header-buttons {
+  width: 100%;
+  height: auto;
+  background: white;
+  padding: 0px;
+}
+.dashboard-designer-header-inputs {
+  width: 100%;
+  height: auto;
+  background: white;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.dashboard-designer-tools {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background: white;
+}
+.dashboard-designer-widgets {
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 0px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  content-align: flex-start;
+}
+.dashboard-designer-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+  position: relative;
+}
+.dashboard-designer-footer {
+  width: 100%;
+  min-height: calc(-100%);
+  background: #EAEAEA;
+  display: table-row;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.dashboard-designer-grid {
+  width: 100%;
+  background: white;
+  padding: 0px;
+}
+.dashboard-designer-grid .t-btn-style-default .t-btn-image {
+  width: 48px;
+  height: 48px;
+}
+.dashboard-designer-grid .grid-layout-edit-wrap {
+  overflow: none;
+}

@@ -1,0 +1,52 @@
+﻿.help-text-label {
+  color: #999999;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.template-script-text-box {
+  border: 1px solid #c8c8c8 !important;
+}
+.webform-island-header {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.label-green-color {
+  color: #8ecb60;
+}
+.t-btn-wrapper.webform-info-button-control-group {
+  border: 0px !important;
+  margin: -4px -4px 0px 0px;
+  padding: 1px 0px 0px 0px;
+}
+.t-btn-wrapper.faq-button {
+  padding: 0;
+  text-decoration: none;
+  color: #4e7bd8;
+  outline: none;
+  overflow: hidden;
+  font-size: 1.4em;
+  text-align: right;
+}
+.t-btn-wrapper.faq-button:hover {
+  text-decoration: underline;
+}
+.webform-info-button-image {
+  margin-right: -0.8em;
+}
+.faq-button-grid-layout {
+  margin: 0px 0px 3px 0px;
+  min-height: 20px;
+}
+#landing-script-template-iframe {
+  border: 1px solid #ccc !important;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  color: #444444;
+  overflow: auto;
+  height: 200px;
+  width: 100%;
+  white-space: nowrap;
+  direction: ltr;
+}

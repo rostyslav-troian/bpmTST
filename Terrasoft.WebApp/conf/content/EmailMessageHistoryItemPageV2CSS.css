@@ -1,0 +1,25 @@
+﻿.visibilityContainer {
+  margin-right: 0;
+  margin-left: auto;
+  width: max-content;
+  padding-top: 10px;
+  float: right;
+  display: inline-block;
+}
+.visibilityContainer .visibilityIcon,
+.visibilityContainer .delete-email-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: bottom;
+  display: inline-block;
+}
+.visibilityContainer .visibilityIcon img,
+.visibilityContainer .delete-email-icon img {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+.visibilityContainer .delete-email-icon {
+  cursor: pointer;
+}

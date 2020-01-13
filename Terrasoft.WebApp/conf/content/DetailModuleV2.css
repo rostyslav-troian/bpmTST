@@ -1,0 +1,201 @@
+﻿.detail .load-more-button-class {
+  margin-left: 35%;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #b4c1d2;
+  border-radius: 2px;
+  color: #4e7bd8;
+  font-size: 13px;
+  height: 1.923em;
+  padding-left: 0.769em;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper:first-child {
+  margin-left: 0.462em;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper:not(:first-child) {
+  margin-left: 0.692em;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper.wrapper-with-centered-right-menu .t-btn-menu {
+  right: 0.769em;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="ToolsButton"] {
+  border: none;
+  padding: 0;
+  height: 16px;
+  margin-top: 5px;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="ToolsButton"]:hover {
+  background: #fff;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="ToolsButton"]:hover .t-btn-image {
+  background-position: 0 -2px;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="ToolsButton"] .t-btn-image {
+  width: 16px;
+  height: 16px;
+  background-position: 0 14px;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="ProcessButton"],
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddTypedRecordButton"],
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddRecordButton"]:not(.padding-left-34px),
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddRecord"],
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="UpButton"],
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="DownButton"] {
+  border: none;
+  padding: 0;
+  height: 16px;
+  margin-top: 5px;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="ProcessButton"]:hover,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddTypedRecordButton"]:hover,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddRecordButton"]:not(.padding-left-34px):hover,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddRecord"]:hover,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="UpButton"]:hover,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="DownButton"]:hover {
+  background: #fff;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="ProcessButton"]:hover .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddTypedRecordButton"]:hover .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddRecordButton"]:not(.padding-left-34px):hover .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddRecord"]:hover .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="UpButton"]:hover .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="DownButton"]:hover .t-btn-image {
+  background-position: 0 0;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="ProcessButton"] .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddTypedRecordButton"] .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddRecordButton"]:not(.padding-left-34px) .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddRecord"] .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="UpButton"] .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="DownButton"] .t-btn-image {
+  width: 16px;
+  height: 16px;
+  background-position: 0 16px;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="ProcessButton"] .t-btn-menu,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddTypedRecordButton"] .t-btn-menu,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddRecordButton"]:not(.padding-left-34px) .t-btn-menu,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddRecord"] .t-btn-menu,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="UpButton"] .t-btn-menu,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="DownButton"] .t-btn-menu,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="ProcessButton"] .t-btn-menuWrap,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddTypedRecordButton"] .t-btn-menuWrap,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddRecordButton"]:not(.padding-left-34px) .t-btn-menuWrap,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="AddRecord"] .t-btn-menuWrap,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="UpButton"] .t-btn-menuWrap,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="DownButton"] .t-btn-menuWrap {
+  display: none;
+}
+.detail .ts-controlgroup-tools .t-btn-disabled.t-btn-wrapper[data-item-marker="UpButton"] .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-disabled.t-btn-wrapper[data-item-marker="DownButton"] .t-btn-image {
+  background-position: 0 32px;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="relationship"],
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="datagrid"],
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="tiled"],
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="listed"] {
+  border: none;
+  padding: 0;
+  height: 16px;
+  margin-top: 5px;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="relationship"].t-btn-pressed,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="datagrid"].t-btn-pressed,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="tiled"].t-btn-pressed,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="listed"].t-btn-pressed {
+  background: #fff;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="relationship"].t-btn-pressed .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="datagrid"].t-btn-pressed .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="tiled"].t-btn-pressed .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="listed"].t-btn-pressed .t-btn-image {
+  background-position: 0 16px;
+}
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="relationship"] .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="datagrid"] .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="tiled"] .t-btn-image,
+.detail .ts-controlgroup-tools .t-btn-wrapper[data-item-marker="listed"] .t-btn-image {
+  width: 16px;
+  height: 16px;
+  background-position: 0 0;
+}
+.detail .ts-controlgroup-tools .detail-tools-button-wrapper {
+  padding-right: 0.462em;
+  padding-left: 0.385em;
+}
+.detail .ts-controlgroup-tools .detail-tools-button-menu {
+  display: none;
+}
+.detail .ts-controlgroup-tools .detail-relationship-button-wrapper {
+  padding-right: 0.462em;
+  padding-left: 0.385em;
+}
+.detail .ts-controlgroup-tools .detail-relationship-button-wrapper .t-btn-image {
+  width: 1.16em;
+  height: 1.16em;
+}
+.detail .ts-controlgroup-tools .t-btn-pressed {
+  background: #e4eaf9;
+}
+.detail .ts-controlgroup-tools .t-btn-style-default {
+  min-height: auto;
+  text-transform: none;
+}
+.detail .ts-controlgroup-tools .t-btn-style-default .t-btn-image {
+  width: 1.235em;
+  height: 1.235em;
+}
+.ts-controlgroup-container {
+  padding-bottom: 2.6em;
+}
+.ts-controlgroup-container .grid.grid-tiled {
+  padding-left: 24px;
+}
+.ts-controlgroup-container .grid.grid-tiled .grid-pad {
+  padding-left: 0px;
+}
+.ts-controlgroup-container .grid.grid-tiled .grid-pad:first-child:before {
+  margin: 0;
+}
+.ts-controlgroup-container .grid.grid-tiled .grid-pad:after {
+  margin: 6px 0px 0px 0px;
+}
+.ts-controlgroup-container .grid.grid-tiled .grid-pad .grid-module {
+  padding-left: 6px;
+}
+.ts-controlgroup-container .grid.grid-tiled.grid-multiselect .grid-pad .grid-module {
+  padding-left: 32px;
+}
+.ts-controlgroup .grid-layout {
+  margin-bottom: 1px;
+}
+.detail-tools-filters-container {
+  display: flex;
+  padding-left: 15px;
+}
+.detail-tools-filters-container .control-width-15 .label-wrap + .control-wrap {
+  margin-left: 0;
+  padding-left: 0;
+}
+.detail-tools-filters-container .control-width-15 .control-wrap {
+  float: left;
+  width: auto;
+}
+.detail-tools-filters-container .control-width-15 .t-checkboxedit-wrap {
+  margin-top: 5px;
+}
+.detail-tools-filters-container .label-wrap {
+  width: 100%;
+  padding-left: 10px;
+}
+.detail-tools-filters-container .label-wrap .t-label {
+  white-space: nowrap;
+  color: #444444;
+  width: auto;
+}
+html[dir="rtl"] .detail-tools-filters-container .control-width-15 .label-wrap {
+  width: auto;
+}

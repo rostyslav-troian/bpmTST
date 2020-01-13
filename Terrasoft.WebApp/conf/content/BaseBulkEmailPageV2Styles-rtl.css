@@ -1,0 +1,105 @@
+﻿.bulk-email-template-plain-body:not(.base-edit-focus) {
+  border: 1px solid #ccc !important;
+}
+.bulk-email-template-control-group {
+  margin-top: 10px;
+}
+.clicks-map-container {
+  width: 100%;
+}
+.clicks-map-container #BulkEmailClicksMapModuleHtml {
+  border: 1px solid #ccc;
+}
+div#SendProcessDiagramContainer .highcharts-wrapper {
+  padding: 0;
+}
+.bulk-email-blank-slates-container {
+  width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.bulk-email-blank-slates-container .label-content-container {
+  padding-top: 11px;
+  padding-bottom: 13px;
+  padding-right: 24px;
+  box-shadow: -3px 0 0 0 #54b8df;
+  margin-right: 3px;
+  color: #999999;
+  font-family: "Segoe UI Light";
+  font-size: 2.6em;
+}
+div#BulkEmailPageV2AudienceBlankSlatesLabelLabel .read-more {
+  display: none;
+}
+div#TriggerEmailPageV2AudienceBlankSlatesLabelLabel .read-more {
+  display: none;
+}
+div#BulkEmailPageV2ClicksAnalysisBlankSlatesLabelLabel .read-more {
+  display: none;
+}
+div#TriggerEmailPageV2ClicksAnalysisBlankSlatesLabelLabel .read-more {
+  display: none;
+}
+div#BulkEmailPageV2AnalyticsBlankSlatesLabelLabel .read-more {
+  display: none;
+}
+div#TriggerEmailPageV2AnalyticsBlankSlatesLabelLabel .read-more {
+  display: none;
+}
+.bulk-email-blank-slates-container .not-selected-image {
+  width: 100%;
+  text-align: center;
+  margin-left: 0px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+#preview-content-iframe {
+  border: 1px solid #ccc !important;
+  box-sizing: border-box;
+}
+.bulk-email-info-header-container {
+  margin: 11px 27px 0px 0px;
+}
+#AnalyticsTab .highcharts-wrapper {
+  padding-top: 5px;
+}
+#AnalyticsTab .no-data-image {
+  margin: auto;
+  width: 200px;
+  padding-top: 80px;
+  text-align: center;
+}
+#AnalyticsTab .ts-image-edit-wrap {
+  margin-left: 0px !important;
+}
+.macro-input .inline-text-edit-wrap:hover {
+  outline: none;
+}
+.macro-input .inline-text-edit-el:focus {
+  outline: none;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #00aeef;
+}
+.macro-input .inline-text-edit-el:hover {
+  outline: none;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #c8c8c8;
+}
+.macro-input .inline-text-edit-el {
+  background-color: transparent;
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+  padding: 6px 1px 0px 15px;
+  font-size: 1.4em;
+  color: #444444;
+}
+.macro-input .inline-text-edit-el.cke_focus {
+  outline: none;
+}
+.cke_top {
+  padding-right: 0 !important;
+}
+#BulkEmailHyperlinkClicksChartContainer .highcharts-wrapper {
+  height: 100%;
+  padding-top: 0px;
+}

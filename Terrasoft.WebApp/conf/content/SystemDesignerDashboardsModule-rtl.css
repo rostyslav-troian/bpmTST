@@ -1,0 +1,6 @@
+﻿.system-designer-section-container-wrapClass #DashboardModuleContainer {
+  background: none;
+}
+.system-designer-section-container-wrapClass .module-container {
+  display: inline;
+}

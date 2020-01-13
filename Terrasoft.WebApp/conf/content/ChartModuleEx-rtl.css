@@ -1,0 +1,40 @@
+﻿.load-more-button-class {
+  margin-right: 40%;
+}
+.chart-grid-wrapper {
+  width: 100%;
+  overflow-y: auto;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  border-bottom: 55px solid transparent;
+}
+.highchart-tools .t-btn-marker {
+  border-top: 0.32em solid #fff;
+}
+.highcharts-data-labels text,
+.highcharts-axis-labels text.highcharts-drilldown-axis-label {
+  text-decoration: none !important;
+}
+.highcharts-data-labels text:hover,
+.highcharts-axis-labels text.highcharts-drilldown-axis-label:hover {
+  color: #10a0e3 !important;
+  fill: #10a0e3 !important;
+  cursor: pointer !important;
+}
+.breadcrumbs-module-container {
+  height: auto;
+  position: relative;
+  padding-top: 5px;
+  background-color: #fff;
+}
+.breadcrumbs-module-container div {
+  display: inline-block;
+  margin-right: 5px;
+}
+.breadcrumbs-module-container div:nth-child(odd) {
+  color: #999999;
+}
+.breadcrumbs-module-container:not([style*="none"]) + .chart-grid-wrapper {
+  border-bottom: 90px solid transparent;
+}

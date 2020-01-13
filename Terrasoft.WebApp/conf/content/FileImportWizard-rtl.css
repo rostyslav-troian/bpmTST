@@ -1,0 +1,12 @@
+﻿.file-import-wizard-wrap .wizard-header-container {
+  border: none;
+}
+.file-import-wizard-wrap .wizard-header {
+  border: none;
+  right: 0px;
+  left: 0px;
+  border-radius: 0px;
+}
+.file-import-wizard-wrap.wizard-container .center-panel {
+  padding-right: 30px;
+}

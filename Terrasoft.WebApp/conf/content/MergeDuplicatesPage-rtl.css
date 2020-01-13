@@ -1,0 +1,97 @@
+﻿.caption-label-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 95%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  overflow: hidden;
+}
+.merge-duplicate-context-container {
+  display: inline-block;
+  width: 5%;
+  height: 42px;
+}
+#captionLabel {
+  font-family: "Segoe UI Light";
+  font-size: 3.5em;
+  letter-spacing: -0.01em;
+  margin-bottom: 34px;
+}
+.custom-inline,
+.custom-inline div {
+  clear: left;
+  margin-bottom: 1em;
+}
+.custom-inline .t-checkboxedit-wrap,
+.custom-inline .t-radio-wrap {
+  float: right;
+}
+.custom-inline .t-label {
+  margin-right: 1em;
+  width: auto;
+}
+#buttonsContainer span {
+  margin-left: 0.5em;
+}
+#descriptionContainer {
+  margin-top: 2em;
+}
+#descriptionLabel {
+  font-family: "Segoe UI Light";
+  font-size: 16px;
+  color: #4b7fc7;
+  text-transform: uppercase;
+}
+#descriptionRadioAllContainer,
+#descriptionRadioChangeContainer {
+  margin-top: 2.5em;
+  clear: left;
+}
+.attributeContainer {
+  clear: both;
+  position: relative;
+  min-height: 7.5em;
+}
+.attributeContainer .leftContainer {
+  width: 280px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.attributeContainer .leftContainer .t-checkboxedit-wrap {
+  float: left;
+  margin-top: -1.9em;
+}
+.attributeContainer .leftContainer .t-label {
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+}
+.attributeContainer .rightContainer {
+  padding-top: 2.6em;
+  margin-right: 280px;
+  padding-right: 29px;
+}
+.rightItemContainer {
+  position: relative;
+  padding-right: 3.5em;
+  padding-bottom: 2em;
+}
+.rightItemContainer .t-radio-wrap {
+  position: absolute;
+  margin-top: 0.5em;
+  right: 0;
+}
+.ts-controlgroup-wrap {
+  width: 280px;
+  clear: both;
+}
+.detail-control-container-user-class {
+  margin-bottom: 18px;
+}
+.detail-view-container-user-class {
+  margin-bottom: 28px;
+}
+#attributesContainer {
+  margin-top: 2.5em;
+}

@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Messaging.Tapi</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Messaging.Tapi.MsgTapiCall">
+            <summary>
+            ##### ###### ########## ###### ########### c Tapi.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.MsgTapiCall.#ctor(System.String)">
+            <summary>
+            ############## ##### ######### <see cref="T:Terrasoft.Messaging.Tapi.MsgTapiCall"/>.
+            </summary>
+            <param name="id">############# ######.</param>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.MsgTapiCall.WaitingTransferNumber">
+            <summary>
+            ##### ################# ######.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.MsgTapiCall.GetTapiCall">
+            <summary>
+            ########## ######### ###### ###### ############## ########## Atapi.
+            </summary>
+            <returns>C######## ###### ###### ############## ########## Atapi.</returns>
+        </member>
+        <member name="T:Terrasoft.Messaging.Tapi.TapiConfig">
+            <summary>
+            ######### ###### # Tapi.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.TapiConfig.Settings">
+            <summary>
+            ######### ###### # Tapi.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.TapiConfig.UseNumberTranslation">
+            <summary>
+            ############ ########## ###### Tapi.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.TapiConfig.IgnoreCanMakeCallFeature">
+            <summary>
+            Sign that MakeCall action ignored CanMakeCall feature.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.TapiConfig.UseEmptySetupTransferParams">
+            <summary>
+            ############ ###### ######### ################# ########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.TapiConfig.UseTransferDialOnDialtoneEvent">
+            <summary>
+            ######## ##### ###### ################# ###### ##### ######### ####### ###### # ########## Dialtone.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.TapiConfig.UseDialFeatureFromTapiCall">
+            <summary>
+            ############ Dial Feature ### ########### ########### ####### ### ######## ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.TapiConfig.LineNameSearchPattern">
+            <summary>
+            ########## ######### ###### #####.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.TapiConfig.LineNameMacrosName">
+            <summary>
+            ######### ####### ##### ##### # ######### ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.TapiConfig.AddressForwardingSupported">
+            <summary>
+            ######### ############## ######## ####### # ###### DND.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.TapiConfig.SendCallInfoOnlyWithFullNumberInfo">
+            <summary>
+            Indicates that call message will be send only if CallerId and CalledId is not empty.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.TapiConfig.UseAlcatelLucentDialtoneEvent">
+            <summary>
+            Alcatel-Lucent Enterprise TAPI fix: use extended rules on Dialtone.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Tapi.TapiMessageConnection.IgnoreTryReconnection">
+            <summary>
+            Sign that do not need to try reconnecting to terrasoft messaging service.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiCallProvider.LogDebug(System.String)">
+            <summary>
+            ########## # ### ########## #########.
+            </summary>
+            <param name="value">########## #########.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiCallProvider.LogDebug(System.String,System.Object[])">
+            <summary>
+            ########## # ### ########## #########.
+            </summary>
+            <param name="value">###### ########## ####### # ########## ###########.</param>
+            <param name="args">######### ####### #########.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiCallProvider.BlindTransferCall(System.String)">
+            <summary>
+            ######### ########### (######) ####### ###### ## ######## #####.
+            </summary>
+            <param name="targetAddress">#####, ## ####### ########### ######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiTelephonyConnection.IsConferenceServiceCall(JulMar.Atapi.TapiCall,System.Text.StringBuilder)">
+            <summary>
+            Checks if current call is conferenced.
+            </summary>
+            <param name="call"><see cref="T:JulMar.Atapi.TapiCall"/> instance.</param>
+            <param name="sb"><see cref="T:System.Text.StringBuilder"/> instance.</param>
+            <returns><c>true</c>, if current call is not conferenced; otherwise - <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiTelephonyConnection.GetCallDirection(JulMar.Atapi.TapiCall)">
+            <summary>
+            Determines call direction.
+            </summary>
+            <param name="tapiCall"><see cref="T:JulMar.Atapi.TapiCall"/> instance.</param>
+            <returns><see cref="T:Terrasoft.Messaging.Common.CallDirection"/> instance.</returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiTelephonyConnection.IsMultipleCall(JulMar.Atapi.TapiCall)">
+            <summary>
+            #########, ### ### ###### # ##### ######## ###### # "##############" ######.
+            </summary>
+            <param name="call">######.</param>
+            <returns><c>true</c>, #### ### ## ######## # ## ################ ###### - <c>false</c>.
+            </returns>
+            <remarks>
+            1) ########### ########### ######. #### ######### ########### - ###### ################, ##########
+            <c>false</c>.
+            2) #### ###### - ### ####### ######## ###### - <c>false</c>. ####### ###### ################ #######.
+            3) ###########, ### ########### ####### ########, ###### # ########## ######### # ### ### # ###### 
+            ################ #######. ### ######## ######## - <c>false</c>. ####### ###### ################ #######.
+            4) #### ###### - ############ ###### ## ##### - ### ######## ######## ###### # ########## <c>false</c>.
+            5) #### ###### # ########## ######### - <c>true</c> # ####### ## ###### ################ #######.
+            6) #### ###### ########### # ###### ################ ####### - <c>true</c> # ######### # ######
+            ################ #######.
+            7) #### ######### #### ######## ############# # ###### # ###### ################, ########## <c>true</c>.
+            </remarks>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiTelephonyConnection.GetIfCallerIdOrCalledIdIsEmpty(Terrasoft.Messaging.Tapi.MsgTapiCall)">
+            <summary>
+            Returns if callerId or calledId is empty.
+            </summary>
+            <param name="callInfo">Call info.</param>
+            <returns>True, if callerId or calledId is empty, otherwise - false.</returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiTelephonyConnection.GetConferencePrimaryTapiCallId(JulMar.Atapi.TapiCall,JulMar.Atapi.CallState)">
+            <summary>
+            Returns tapi call in conference state identifier.
+            </summary>
+            <param name="tapiCall">Tapi call.</param>
+            <param name="newCallState">New state of tapi call.</param>
+            <returns>Returns the value of <see cref="F:System.Runtime.InteropServices.SafeHandle.handle"/> field of tapi
+            call if call in conference state; otherwise - empty string.</returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiTelephonyConnection.GetIfCallIncomingConsult(Terrasoft.Messaging.Tapi.MsgTapiCall,JulMar.Atapi.CallInfoChangeTypes)">
+            <summary>
+            Returns sign that call is incoming and consult.
+            </summary>
+            <param name="callInfo">Messaging service library Tapi call.</param>
+            <param name="change">Call info change type.</param>
+            <returns><c>true</c> if call is incoming and consult; otherwise - <c>false</c>.</returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiTelephonyConnection.AdjustCallPrivilege(JulMar.Atapi.TapiCall)">
+            <summary>
+            ############# ######## ### #######, ######## ########## <see cref="F:JulMar.Atapi.Privilege.Owner"/>.
+            </summary>
+            <param name="call">######.</param>
+            <remarks>Julmar ATAPI ########## ######## ###### https://atapi.codeplex.com/discussions/646573 ### 
+            ######### ######## <see cref="P:JulMar.Atapi.TapiCall.Privilege"/>.</remarks>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiTelephonyConnection.CloseConnection">
+            <summary>
+            Closes connection with telephony server and releases resources.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiTelephonyConnection.RemoveLineEventHandler">
+            <summary>
+            Removes event subscriptions (call state changing, call information changing, line address changing).
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiLineManager.AddEventHandlers">
+            <summary>
+            ############# ## ####### Tapi #########.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiLineManager.RemoveEventHandlers">
+            <summary>
+            ############ ## ####### Tapi #########.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiLineManager.OnLineChanged(System.Object,JulMar.Atapi.LineInfoChangeEventArgs)">
+            <summary>
+            ############ ####### ######### #####.
+            </summary>
+            <param name="sender">###########.</param>
+            <param name="eventData">###### #######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiLineManager.GetSearchLinePattern(System.String)">
+            <summary>
+            ########## ###### ### ###### #####.
+            </summary>
+            <param name="lineName">### #####.</param>
+            <returns>###### ### ###### #####.</returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiLineManager.LogConnection(System.String,System.String[])">
+            <summary>
+            ########## # ### ########## ######### ##########.
+            </summary>
+            <param name="resourceName">### ####### ########### #########.</param>
+            <param name="args">######### ####### #########.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Tapi.TapiLineManager.WriteAllLinesToLog">
+            <summary>
+            ####### # ### ### ####### ##### Tapi.
+            </summary>
+        </member>
+    </members>
+</doc>

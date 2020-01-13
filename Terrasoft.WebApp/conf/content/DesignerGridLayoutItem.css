@@ -1,0 +1,24 @@
+﻿.designerGridLayoutItem-wrap {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+  overflow: hidden;
+  vertical-align: top;
+  cursor: pointer;
+  font-size: 1.4em;
+  -webkit-user-select: none;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-direction: column;
+}
+.designerGridLayoutItem-text {
+  align-self: center;
+  margin: 0 auto;
+}
+.designerGridLayoutItem-pressed {
+  background-color: #FDF1C1;
+}

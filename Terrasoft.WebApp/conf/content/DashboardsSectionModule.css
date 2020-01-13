@@ -1,0 +1,36 @@
+﻿.schema-wrap .ts-tabpanel {
+  padding-right: 7em;
+}
+.schema-wrap .ts-tabpanel-tools {
+  padding-right: 0em;
+}
+.center-panel-content {
+  margin-right: 1em;
+}
+#DashboardsSectionModuleContainer {
+  background-color: inherit;
+  margin-top: 8px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+}
+#centerPanelContainer {
+  height: 98.3%;
+}
+#centerPanel,
+#Container {
+  height: 100%;
+  width: 100%;
+}
+.module-container {
+  height: 100%;
+  width: 100%;
+  padding-left: 14px;
+  padding-top: 14px;
+}
+.dashboard-message-empty {
+  color: #999999;
+  text-align: center;
+  width: 100%;
+  height: 21px;
+  display: block;
+}

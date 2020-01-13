@@ -1,0 +1,16 @@
+﻿[data-item-marker='LanguageSectionContainer'] .grid .grid-row [class*='grid-cols-']:nth-of-type(2n) {
+  padding: 0 10px 0 0;
+}
+[data-item-marker='LanguageSectionContainer'] .grid .grid-row [class*='grid-cols-']:nth-of-type(2n) img {
+  display: none;
+}
+[data-item-marker='TranslationSectionContainer'] .predefined-filters-container-wrapClass {
+  display: inline-block;
+  float: left;
+}
+[data-item-marker='TranslationSectionContainer'] .predefined-filters-container-wrapClass .schema-wrap.one-el {
+  min-width: initial;
+}
+[data-item-marker='TranslationSectionContainer'] .predefined-filters-container-wrapClass .schema-wrap.one-el .filter-container > * {
+  float: left;
+}

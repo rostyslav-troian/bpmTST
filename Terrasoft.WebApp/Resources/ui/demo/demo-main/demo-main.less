@@ -1,0 +1,30 @@
+@import "./main-container.less";
+
+.box-sizing(...) {
+	-moz-box-sizing: @arguments;
+	-ms-box-sizing: @arguments;
+	-webkit-box-sizing: @arguments;
+	box-sizing: @arguments;
+}
+
+body {
+	height: 100%;
+
+	&.centered {
+		text-align: center;
+	}
+}
+
+html {
+	height: 100%;
+}
+
+#demoContainer.docked {
+	.box-sizing(border-box);
+	width: 90%;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	height: 100%;
+	overflow-y: scroll;
+}

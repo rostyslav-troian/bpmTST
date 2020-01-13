@@ -1,0 +1,28 @@
+﻿.ts-controlgroup-tools .btn-details-tools-wrapp .t-btn-text {
+  display: none;
+}
+.ts-controlgroup-caption-wrap .btn-details-tools-wrapp {
+  display: none;
+  padding: 0px;
+}
+.ts-controlgroup-caption-wrap .btn-details-tools-wrapp .t-btn-image {
+  margin-bottom: 10px;
+}
+.ts-controlgroup-caption-wrap:hover .btn-details-tools-wrapp {
+  display: inline-block;
+}
+.ts-tabpanel-tools .btn-tabPanel-tools-wrapp {
+  margin-top: 2px;
+  padding-left: 0px;
+  padding-right: 0.6em;
+}
+.ts-tabpanel-tools .btn-tabPanel-tools-wrapp .t-btn-text {
+  display: none;
+}
+.ts-tabpanel-tools.design-time {
+  padding-right: 0px;
+  right: 4em;
+}
+.inherited-visibility .ts-controlgroup-caption-wrap > span {
+  color: #999;
+}

@@ -1,0 +1,12 @@
+﻿#EntityConnectionsDetailV2Container > .ts-controlgroup-collapsed {
+  margin-bottom: 25px;
+}
+.main-content-wrapper.section-designer-shown .connection-with-project-control-group {
+  margin-top: 0px;
+}
+.main-content-wrapper .connection-with-project-control-group {
+  margin-top: -25px;
+}
+#EntityConnectionsDetailV2Container [data-item-marker*='01bf0418-4803-4a83-86a1-0005b2b434d1'] {
+  display: none;
+}

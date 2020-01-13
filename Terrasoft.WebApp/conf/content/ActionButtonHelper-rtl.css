@@ -1,0 +1,16 @@
+﻿.action-btn-image {
+  width: 32px;
+  height: 32px;
+}
+.action-btn-wrapper {
+  margin-bottom: 9px;
+}
+.action-container-wrapper {
+  margin-top: 30px;
+}
+.action-container-wrapper .padding-left-34px {
+  padding-right: 3.1em !important;
+}
+.action-container-wrapper .left-12px {
+  right: 0em;
+}

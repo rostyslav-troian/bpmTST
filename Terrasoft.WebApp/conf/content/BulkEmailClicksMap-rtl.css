@@ -1,0 +1,96 @@
+﻿#BulkEmailClicksMapModuleHtml {
+  font-size: 1.4em;
+  padding: 10px;
+  position: relative;
+}
+#BulkEmailClicksMapModuleHtml #BulkEmailClicksMapModuleHtmlMask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 25;
+  background-color: white;
+  opacity: 0.5;
+}
+#BulkEmailClicksMapModuleHtml .bubble {
+  position: relative;
+}
+#BulkEmailClicksMapModuleHtml .bubble:after,
+#BulkEmailClicksMapModuleHtml .bubble:before {
+  position: absolute;
+  display: block;
+  font-size: 14px !important;
+  line-height: 21px !important;
+}
+#BulkEmailClicksMapModuleHtml .bubble:hover:after,
+#BulkEmailClicksMapModuleHtml .bubble:hover:before {
+  cursor: default;
+}
+#BulkEmailClicksMapModuleHtml .bubble:after {
+  border-radius: 0;
+  color: #fff;
+  content: attr(data-clicks-count);
+  font-family: "Segoe UI";
+  padding: 0.1em 0.5em;
+  white-space: nowrap;
+  z-index: 198;
+  min-width: 1.5em;
+  text-align: center;
+  right: calc(50% - 1.25em);
+}
+#BulkEmailClicksMapModuleHtml .bubble:before {
+  border: solid;
+  border-width: 0.4em 0.4em 0 0.4em;
+  content: "";
+  z-index: 199;
+  right: calc(50% - 0.4em);
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-text-position {
+  display: inline;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-text-position:after {
+  bottom: 1.35em;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-text-position:before {
+  bottom: 1em;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-image-position {
+  display: block;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-image-position:after {
+  bottom: calc(50% + 0.4em);
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-image-position:before {
+  bottom: 50%;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-stage-1:after {
+  background: #6483c3;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-stage-1:before {
+  border-color: #6483c3 transparent;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-stage-2:after {
+  background: #4cafde;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-stage-2:before {
+  border-color: #4cafde transparent;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-stage-3:after {
+  background: #6cb039;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-stage-3:before {
+  border-color: #6cb039 transparent;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-stage-4:after {
+  background: #e8a53a;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-stage-4:before {
+  border-color: #e8a53a transparent;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-stage-5:after {
+  background: #ea7356;
+}
+#BulkEmailClicksMapModuleHtml .bubble.bubble-stage-5:before {
+  border-color: #ea7356 transparent;
+}

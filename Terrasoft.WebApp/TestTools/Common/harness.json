@@ -1,0 +1,36 @@
+﻿{
+	"default": {
+		"runCore": "sequential",
+		"cachePreload": true,
+		"defaultTimeout": 30000,
+		"waitForTimeout": 30000,
+		"title": "Nui Tests",
+		"testClass": "Terrasoft.Test.Class",
+		"disableCaching": false,
+		"autoCheckGlobals": false,
+		"breakOnFail": false,
+		"isReadyTimeout": 60000,
+		"warnOnNotBDD": true,
+		"sandbox": true,
+		"enableCodeCoverage": false,
+		"coverageUnit": "extjs_class"
+	},
+	"coverage": {
+		"runCore": "sequential",
+		"cachePreload": true,
+		"defaultTimeout": 30000,
+		"waitForTimeout": 30000,
+		"title": "Nui Tests",
+		"testClass": "Terrasoft.Test.Class",
+		"disableCaching": true,
+		"autoCheckGlobals": false,
+		"warnOnNotBDD": true,
+		"breakOnFail": false,
+		"isReadyTimeout": 60000,
+		"sandbox": true,
+		"enableCodeCoverage": true,
+		"coverageUnit": "extjs_class",
+		"contentManagerClass": "Terrasoft.Tests.ContentManager"
+	},
+	noneJsonProps: ["contentManagerClass"]
+}

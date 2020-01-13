@@ -1,0 +1,122 @@
+﻿.configuration-grid {
+  padding-left: 1px;
+}
+.configuration-grid .grid-listed-row {
+  min-height: 36px;
+  padding: 0 5px;
+  margin: 0;
+}
+.configuration-grid.grid-listed-zebra .grid-listed-row:nth-child(odd) {
+  background-color: white;
+}
+.configuration-grid.grid-listed-zebra .grid-listed-row:nth-child(odd):not(.configuration-grid-row-active) {
+  background-color: #f7f7f7;
+}
+.configuration-grid .grid-active-selectable {
+  border: 1px solid white;
+}
+.configuration-grid .grid-active-selectable:not(.configuration-grid-row-active) div[class*="grid-cols-"] {
+  padding-right: 0;
+  line-height: 2.43em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.configuration-grid .grid-active-selectable:not(.configuration-grid-row-active) div[class*="grid-cols-"] > * {
+  white-space: nowrap;
+}
+.configuration-grid .configuration-grid-row-active {
+  border: 1px solid #64b8df;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  line-height: 32px;
+}
+.configuration-grid .configuration-grid-row-active div[class*="grid-cols-"] {
+  display: none;
+}
+.configuration-grid .configuration-grid-row-active .grid-row-controls input,
+.configuration-grid .configuration-grid-row-active .grid-row-controls .base-edit-validation {
+  font-size: 1em;
+}
+.configuration-grid .configuration-grid-row-active .grid-row-controls .base-edit-error {
+  -webkit-box-shadow: 0 0 0 0;
+  -moz-box-shadow: 0 0 0 0;
+  box-shadow: 0 0 0 0;
+}
+.configuration-grid .configuration-grid-row-active .grid-row-controls .base-edit {
+  border: 0;
+  border-bottom: 1px solid white;
+  padding-right: 0;
+}
+.configuration-grid .configuration-grid-row-active .grid-row-controls .base-edit:hover {
+  border-bottom: 1px dotted #64b8df;
+}
+.configuration-grid .configuration-grid-row-active .grid-row-controls .base-edit.base-edit-focus {
+  -webkit-box-shadow: 0 0 0 0;
+  -moz-box-shadow: 0 0 0 0;
+  box-shadow: 0 0 0 0;
+  border-bottom: 1px dotted #64b8df;
+}
+.configuration-grid .configuration-grid-row-active .grid-row-controls .number-edit-align .number-edit-input-align {
+  text-align: left;
+}
+.configuration-grid .configuration-grid-row-active .grid-row-controls .number-edit-align .base-edit-disabled-el-icon {
+  right: 0;
+}
+.configuration-grid .configuration-grid-row-active .grid-row-controls .grid-layout-row,
+.configuration-grid .configuration-grid-row-active .grid-row-controls .grid-layout-column {
+  min-height: 30px;
+}
+.configuration-grid .configuration-grid-row-active .grid-row-controls .grid-layout-row {
+  max-width: 100%;
+}
+.configuration-grid .configuration-grid-row-active .grid-row-controls .t-checkboxedit-wrap {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.configuration-grid .configuration-grid-row-active .grid-row-controls .base-edit-link {
+  font-size: 1em;
+  margin-top: 3px;
+}
+.configuration-grid .configuration-grid-row-active .grid-row-controls .base-edit-clear-icon {
+  left: 20px;
+}
+.configuration-grid .configuration-grid-row-active .configuration-grid-row-actions {
+  background-color: #64b8df;
+  position: absolute;
+  height: 26px;
+  bottom: -28px;
+  left: -1px;
+  z-index: 1001;
+}
+.configuration-grid .configuration-grid-row-active .configuration-grid-row-actions .configuration-grid-action-button {
+  padding: 0;
+  vertical-align: top;
+  margin: 3px 5px 0 5px;
+}
+.configuration-grid .configuration-grid-row-active .configuration-grid-row-actions .t-btn-image {
+  font-size: 0.8em;
+}
+.configuration-grid.grid-multiselect .configuration-grid-row-selected .grid-layout-column:first-child,
+.configuration-grid.grid-multiselect .grid-active-selectable div[class*="grid-cols-"]:nth-child(2),
+.configuration-grid.grid-multiselect .configuration-grid-row-active:not(.configuration-grid-row-selected) .grid-row-controls {
+  padding-right: 32px;
+}
+.configuration-grid.grid-multiselect .grid-listed-row .grid-fixed-col {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+}
+.configuration-grid.grid-multiselect .grid-listed-row .grid-fixed-col .grid-listed-row-control {
+  margin-top: 0px;
+}
+.ts-controlgroup .configuration-grid {
+  padding-bottom: 17px;
+}
+.configuration-grid .memo-edit-area {
+  font-size: 1em;
+}
+.configuration-grid .memo-edit-core {
+  overflow-y: auto;
+  max-height: 150px;
+  position: static;
+}

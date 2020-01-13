@@ -1,0 +1,88 @@
+﻿.timezone-image {
+  width: 1.7em !important;
+  height: 1.7em !important;
+}
+.timezone-container {
+  text-align: center;
+}
+.timezone-container .timezone-label {
+  font-size: 14px;
+  color: #999;
+  line-height: 1.7;
+  vertical-align: text-bottom;
+}
+body[OldUI=false] .left-modules-container .profile-container .grid-layout-row .photo-timezone-container .timezone-container {
+  margin: 32px 0px 0px 36px;
+}
+.profile-container .timezone-container {
+  width: 92px;
+  text-align: center;
+}
+.profile-container .timezone-container .timezone-image {
+  margin: auto;
+  padding-right: 5px;
+}
+.profile-container .timezone-container .timezone-city {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.profile-container .timezone-container .timezone-caption {
+  line-height: 1.7;
+}
+.contact-mini-page-container .timezone-container {
+  text-align: left;
+}
+.contact-mini-page-container .timezone-container .timezone-label {
+  padding-left: 5px;
+}
+.timezone-grid-layout {
+  width: 420px;
+}
+.timezone-grid-layout .base-edit-right-icon {
+  display: none;
+}
+.timezone-grid-layout .base-edit-right-icon:hover {
+  cursor: pointer;
+}
+.timezone-grid-layout .base-edit.base-edit-with-right-icon {
+  padding-right: 10px;
+}
+.timezone-grid-layout .base-edit {
+  min-height: 28px;
+  margin-top: -5px;
+  padding-left: 0;
+}
+.timezone-grid-layout .base-edit.base-edit-focus {
+  border: 0;
+  box-shadow: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+.timezone-grid-layout .timezone-label {
+  min-height: 20px;
+  font-size: 1.3em;
+  color: #999999;
+}
+.timezone-grid-layout .timezone-label-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.timezone-grid-layout .grid-layout-row,
+.timezone-grid-layout .grid-layout-column {
+  min-height: 26px;
+}
+.timezone-grid-layout .base-edit.datetime-datecontrol {
+  width: 110px;
+}
+.timezone-grid-layout .due-date-right {
+  padding-left: 11px;
+}
+.timezone-button-container {
+  text-align: right;
+  padding-top: 11px;
+}
+.timezone-button-container .t-btn-wrapper {
+  margin-left: 8px;
+}

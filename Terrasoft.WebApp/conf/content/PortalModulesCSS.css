@@ -1,0 +1,76 @@
+﻿.dashboard-grid-container {
+  height: 100%;
+}
+.dashboard-grid-container .empty-container-list-message {
+  font-size: 18px;
+}
+.dashboard-grid-container .dashboard-grid-list {
+  padding: 45px 14px 12px 14px;
+  background: white;
+  height: 100%;
+  overflow: auto;
+  margin-top: 5px;
+}
+.dashboard-grid-container .dashboard-grid-list .grid-layout-column {
+  min-height: 14px;
+}
+.dashboard-grid-container .dashboard-grid-list .grid-layout-column .t-label {
+  font-size: 16px;
+}
+.dashboard-grid-container .dashboard-grid-list .grid-layout-column .t-label.grid-number {
+  text-align: right;
+  font-weight: bold;
+}
+.dashboard-grid-container .dashboard-grid-list .grid-layout-column .t-label.grid-header {
+  font-size: 14px;
+  color: #444;
+}
+.dashboard-grid-container .dashboard-grid-list .grid-layout-row {
+  min-height: 34px;
+}
+.dashboard-grid-container.widget-green .dashboard-grid-list .grid-layout-column .t-label {
+  color: #6cb039;
+}
+.dashboard-grid-container.widget-green .dashboard-grid-list .grid-layout-column .t-label.grid-header {
+  color: #444;
+}
+.dashboard-grid-container.widget-turquoise .dashboard-grid-list .grid-layout-column .t-label {
+  color: #5bc8c4;
+}
+.dashboard-grid-container.widget-turquoise .dashboard-grid-list .grid-layout-column .t-label.grid-header {
+  color: #444;
+}
+.dashboard-grid-createbutton,
+.dashboard-grid-gotobutton {
+  float: right;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  margin: 1px 4px 0px 0px;
+  font-size: 18px;
+  color: #FFF;
+  padding-top: 0.1em;
+  padding-bottom: 0em;
+}
+.t-btn-style-default.dashboard-grid-createbutton {
+  background: #20c964;
+}
+.t-btn-style-default.dashboard-grid-createbutton:hover {
+  background: #20c964 !important;
+}
+.t-btn-style-default.dashboard-grid-gotobutton {
+  background: #00bfa5;
+}
+.t-btn-style-default.dashboard-grid-gotobutton:hover {
+  background: #00bfa5;
+}
+#PortalCasePageNumberLabel {
+  font-size: 1.5em;
+  text-align: right;
+}
+.default-widget-header {
+  z-index: 2000;
+}
+.portal-dashboard-grid-list {
+  padding: 45px 12px 14px 12px;
+  margin: 0.5em;
+}

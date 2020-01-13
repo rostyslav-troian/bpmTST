@@ -1,0 +1,720 @@
+﻿@keyframes animation-select-item {
+  0% {
+    background-color: rgba(238, 242, 250, 0);
+  }
+  5% {
+    background-color: #eef2fa;
+  }
+  75% {
+    background-color: #eef2fa;
+  }
+  100% {
+    background-color: rgba(238, 242, 250, 0);
+  }
+}
+[id$="_esnFeedHeader"] {
+  margin-bottom: 17px;
+}
+.feedWidth {
+  max-width: 77.8em;
+}
+.postContainer {
+  border-top: solid 1px #e0e0e0;
+  padding-top: 8px;
+  margin-bottom: 9px;
+}
+.postContainer:first-of-type {
+  border-top: 0;
+  padding-top: 0;
+}
+.parentPostContainer .actions-right .t-btn-wrapper,
+.commentsContainer .actions-right .t-btn-wrapper {
+  padding-right: 0.86em !important;
+  padding-left: 0;
+  padding-top: 0;
+}
+.parentPostContainer .actions-right .t-btn-image,
+.commentsContainer .actions-right .t-btn-image {
+  display: none;
+}
+.animation-select-item {
+  animation: animation-select-item 3s;
+}
+.right-panel .postContainer,
+.operator-window-center-container .postContainer {
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+.right-panel .postContainer:first-of-type,
+.operator-window-center-container .postContainer:first-of-type {
+  padding-top: 0;
+}
+.right-panel .parentPostContainer,
+.operator-window-center-container .parentPostContainer,
+.right-panel .commentsContainer,
+.operator-window-center-container .commentsContainer {
+  border-right-style: none;
+}
+.right-panel .parentPostContainer,
+.operator-window-center-container .parentPostContainer {
+  padding-top: 7px;
+  padding-right: 6px;
+}
+.right-panel .commentsContainer,
+.operator-window-center-container .commentsContainer {
+  padding-top: 6px;
+}
+.right-panel .commentContainer,
+.operator-window-center-container .commentContainer {
+  padding-top: 12px;
+}
+.right-panel .commentContainer:first-of-type,
+.operator-window-center-container .commentContainer:first-of-type {
+  padding-top: 6px;
+  border-top: 0;
+}
+.right-panel .commentContainer .createdByImage,
+.operator-window-center-container .commentContainer .createdByImage {
+  margin-top: 0;
+}
+.right-panel .commentContainer .createdBy,
+.operator-window-center-container .commentContainer .createdBy,
+.right-panel .commentContainer .multiline-label-wrap.message .label-content-container,
+.operator-window-center-container .commentContainer .multiline-label-wrap.message .label-content-container {
+  padding-right: 3px;
+}
+.right-panel .commentPublish .t-btn-wrapper,
+.operator-window-center-container .commentPublish .t-btn-wrapper {
+  margin-top: 6px;
+  margin-bottom: 7px;
+}
+.right-panel .feedWidth,
+.operator-window-center-container .feedWidth {
+  width: 31.9em;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  padding-bottom: 10px;
+}
+.right-panel .createdByImage,
+.operator-window-center-container .createdByImage {
+  margin-top: 5px;
+  margin-left: 9px;
+}
+.right-panel .message,
+.operator-window-center-container .message {
+  padding-top: 9px;
+}
+.right-panel .actions,
+.operator-window-center-container .actions {
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.right-panel .actions .createdByDate,
+.operator-window-center-container .actions .createdByDate {
+  margin-left: 19px;
+}
+.right-panel .comment-actions,
+.operator-window-center-container .comment-actions {
+  margin-bottom: 11px;
+}
+.right-panel .comment-actions .createdByDate,
+.operator-window-center-container .comment-actions .createdByDate {
+  margin-left: 17px;
+}
+.right-panel .actions-right .t-btn-wrapper,
+.operator-window-center-container .actions-right .t-btn-wrapper {
+  padding-right: 2.53em !important;
+  padding-top: 0.77em;
+}
+.right-panel .actions-right .t-btn-image,
+.operator-window-center-container .actions-right .t-btn-image {
+  display: inline-block;
+  margin: 0;
+}
+.right-panel .actions-right .t-btn-text,
+.operator-window-center-container .actions-right .t-btn-text {
+  display: none;
+}
+.right-panel .editedCommentMessage,
+.operator-window-center-container .editedCommentMessage {
+  padding-top: 2px;
+}
+.right-panel .actionsButtonWrap,
+.operator-window-center-container .actionsButtonWrap {
+  margin-left: 18px;
+}
+.right-panel .likeButtonImageConfig,
+.operator-window-center-container .likeButtonImageConfig {
+  margin-left: 4px;
+}
+.right-panel .commentRemainsWrap,
+.operator-window-center-container .commentRemainsWrap {
+  margin-bottom: 13px;
+  text-align: center;
+}
+.feedMaxWidth {
+  max-width: 72.4em;
+}
+.floatLeft {
+  float: right;
+}
+.floatRight {
+  float: left;
+}
+.wide {
+  width: 100%;
+}
+.flex {
+  display: flex;
+}
+.inlineBlock {
+  display: inline-block;
+}
+.inlineTable {
+  display: inline-table;
+}
+.noBorder {
+  border: none;
+}
+.image32 {
+  width: 32px !important;
+  height: 32px !important;
+}
+.unimportant {
+  color: #999999;
+}
+.label-link {
+  cursor: pointer;
+  color: #4e7bd8;
+}
+.label-link:hover {
+  text-decoration: underline;
+}
+.label-ulr {
+  word-break: break-all;
+}
+.actionsColor {
+  color: #8aa0cf;
+}
+[id^="commentsList-container"] .commentContainer:first-of-type {
+  border-top: 0;
+}
+.parentPostContainer {
+  padding: 14px 12px 1px 12px;
+  border-right: 3px solid #64B8DF;
+}
+.parentPostContainer:hover .postCommentEditDeleteOpacity {
+  opacity: 1;
+}
+.commentContainer {
+  margin-left: 12px;
+  padding-top: 9px;
+  border-top: solid 1px #d9d9d9;
+  position: relative;
+}
+.commentContainer:hover .actionsEditDelete {
+  opacity: 1;
+}
+.commentContainer .createdBy {
+  margin-left: 4px;
+}
+.commentContainer .createdByDate {
+  padding-right: 44px;
+}
+.commentContainer .message {
+  padding-top: 0;
+  display: inline;
+}
+.commentContainer .multiline-label-wrap .label-content-container:after {
+  background: linear-gradient(to right, rgba(247, 247, 247, 0), #f7f7f7 7%);
+}
+.postMessage .cke_inner,
+.editedCommentMessage .cke_inner {
+  position: relative;
+}
+.placeholderOpacity ::-webkit-input-placeholder {
+  opacity: 1;
+}
+.placeholderOpacity :-moz-placeholder {
+  opacity: 1;
+}
+.placeholderOpacity ::-moz-placeholder {
+  opacity: 1;
+}
+.placeholderOpacity :-ms-input-placeholder {
+  opacity: 1;
+}
+.postListSort {
+  padding-left: 0;
+}
+.postSort {
+  padding-bottom: 35px;
+}
+.postCommentEditDelete {
+  padding: 2px 0 0 0 !important;
+  margin-left: 20px;
+}
+.postPublish {
+  margin-top: 1px;
+}
+.postPublishActions {
+  margin-bottom: 9px;
+}
+.postPublish-container-margin {
+  margin-bottom: 9px;
+  white-space: nowrap;
+}
+.createdBy {
+  display: inline;
+  line-height: 18px;
+  margin-left: 5px;
+}
+.createdByImage {
+  margin-left: 11px;
+  border-radius: 50%;
+  float: right;
+}
+.createdByToEntity {
+  display: inline;
+  margin-left: 5px;
+}
+.createdByToEntity label {
+  display: inline;
+}
+.entity-container {
+  display: inline;
+  margin-left: 5px;
+}
+.entity {
+  display: inline;
+}
+.entityImage {
+  margin-right: 13px;
+}
+.message {
+  padding-top: 16px;
+}
+.x-gecko .message {
+  padding-top: 15px;
+}
+.multiline-label-wrap.message {
+  line-height: 18px;
+}
+.multiline-label-wrap.message .label-content-container {
+  max-height: 144px;
+}
+.multiline-label-wrap.message .label-content-container:after {
+  height: 18px;
+}
+.channelImage {
+  margin-top: 0 !important;
+  margin-left: 9px !important;
+}
+.channelButton {
+  padding-right: 0;
+  margin-top: 1px;
+  margin-right: -1px;
+  margin-bottom: -2px;
+}
+.channel {
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.channel:hover {
+  border: 1px solid #c8c8c8;
+}
+.messageHeader {
+  display: inline-block;
+  margin-left: 5px;
+}
+.messageHeader .createdByTo-wraper {
+  display: table;
+}
+.createdByDate {
+  display: inline;
+  margin-left: 20px;
+}
+.actions {
+  margin-top: 11px;
+  margin-bottom: 9px;
+  line-height: 18px;
+}
+.x-safari .actions {
+  margin-top: 12px;
+}
+.comment-actions {
+  margin-top: -1px;
+  margin-bottom: 10px;
+}
+.actions .t-label,
+.actions .t-btn-wrapper,
+.comment-actions .t-label,
+.comment-actions .t-btn-wrapper {
+  font-size: 1.3em;
+}
+.actions .t-btn-image,
+.comment-actions .t-btn-image {
+  width: 16px;
+  height: 16px;
+}
+.commentsContainer {
+  padding: 0 12px 0 12px;
+  background-color: #f7f7f7;
+  border-right: 3px solid #64B8DF;
+}
+.commentsContainer .link-preview-wrap {
+  margin-right: 40px;
+}
+.actionsButtonWrap {
+  padding: 0 !important;
+  margin-left: 18px;
+  margin-top: 1px;
+}
+.actionsButtonImage {
+  position: relative !important;
+  float: right !important;
+  right: 0;
+}
+.commentPublishContainer {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.commentPublish .t-btn-wrapper {
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+.postListSortContainer {
+  height: 30px;
+}
+.postListSortContainer-newMessage {
+  margin-top: 35px;
+}
+.likedUserConfig {
+  z-index: 1999;
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+  margin-bottom: 7px;
+}
+.image64 {
+  width: 64px !important;
+  height: 64px !important;
+  margin-left: 5px;
+}
+.likedUserNameLabel32 {
+  display: initial;
+  font-family: Segoe UI;
+  font-size: 16px;
+  height: 32px;
+  line-height: 32px;
+  width: 150px;
+  margin-right: 9px;
+}
+.likedUserNameLabel32:hover {
+  color: #4e7bd8 !important;
+  cursor: pointer;
+}
+.showLikedUsers {
+  margin: 1px 0 0 5px;
+  padding: 0;
+}
+.likeCaption {
+  margin: 0;
+  padding: 1px 0 0 0;
+}
+.actions-right {
+  display: inline;
+  float: left;
+}
+.editCaption {
+  margin: 0 0 0 12px;
+  padding: 0;
+}
+.deleteCaption {
+  margin: 0;
+  padding: 0;
+}
+#maskContainer {
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.closeModalWindow {
+  height: 100%;
+  width: 100%;
+}
+#closeModalWindowContainer .t-btn-image {
+  width: 1.5em;
+  height: 1.5em;
+}
+#closeModalWindowContainer {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.closeModalWindowContainer {
+  padding-left: 10px;
+  width: 1.5em;
+  height: 1.5em;
+}
+.closeModalWindowButton {
+  position: absolute;
+  left: 0;
+  top: 12px;
+}
+.likedUsersContainer {
+  width: 340px;
+  position: absolute;
+  height: 293px;
+  overflow-y: scroll;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+.likedUsersModalBoxTopContainerLabel {
+  font-family: Segoe UI Light;
+  font-size: 22px;
+  color: #64b8df;
+}
+.likedUsersModalBoxTopContainer {
+  margin-top: 7px;
+  margin-right: 25px;
+}
+.likedUsersModalBoxContainer {
+  margin-top: -10px;
+}
+.likeButtonImageConfig {
+  padding-left: 0 !important;
+  margin-top: 0;
+}
+.postCommentEditDeleteOpacity {
+  opacity: 0;
+}
+.actionsEditDelete {
+  opacity: 0;
+}
+.editedCommentMessage {
+  background-color: inherit;
+  padding-top: 12px;
+}
+.showNewMessageContainer {
+  position: relative;
+  margin-top: 10px;
+  right: 0;
+  top: 0;
+  margin-right: 0;
+  left: 0;
+  background: #edf1f8;
+  max-width: 724px;
+  height: 32px;
+  display: block;
+  text-align: center;
+}
+.showNewMessageContainerTop {
+  top: 14.1em;
+}
+.left-panel-collapsed .showNewMessageContainer-scroll {
+  right: 7.2em;
+}
+.showNewMessageContainer-scroll {
+  position: fixed;
+  top: 68px;
+  margin-right: 30px;
+  right: 19.7em;
+  z-index: 999;
+}
+.showNewMessageButton {
+  font-size: 14px;
+  font-family: Segoe UI;
+  color: #5c7faf;
+}
+.sortButtonMarker {
+  padding-right: 0.78em;
+  top: -2.63em;
+}
+.showNewMessagePadding {
+  margin-top: 0;
+}
+.showNewSocialMessagesContainer {
+  width: 240px;
+  margin: auto;
+}
+.showNewMessagePadding-scroll {
+  width: 72.4em;
+  margin-top: 0;
+  background-color: #ffffff;
+  position: fixed;
+  top: 68px;
+  margin-right: 30px;
+  right: 19.7em;
+  z-index: 999;
+  height: 52px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.esnFeedSection-container-margin {
+  margin-right: 3em;
+  margin-top: -3.851em;
+}
+.x-gecko .esnFeedSection-container-margin {
+  margin-right: 3em;
+  margin-top: -3em;
+}
+.relativePosition {
+  position: relative;
+}
+.absolutePosition {
+  position: absolute;
+}
+.comboBoxWrap {
+  margin-left: 15em;
+  position: relative;
+  margin-bottom: 2.2em;
+}
+.publishButtonWrap {
+  width: 11.5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.listview[data-item-marker='postMessageMemoEdit'],
+.listview[data-item-marker='commentToEditESNHtmlEdit'],
+.listview[data-item-marker='postToEditESNHtmlEdit'] {
+  min-width: 300px !important;
+  max-width: 600px;
+}
+.listview[data-item-marker='postMessageMemoEdit'] ul,
+.listview[data-item-marker='commentToEditESNHtmlEdit'] ul,
+.listview[data-item-marker='postToEditESNHtmlEdit'] ul {
+  padding: 2px;
+}
+.listview[data-item-marker='postMessageMemoEdit'] li,
+.listview[data-item-marker='commentToEditESNHtmlEdit'] li,
+.listview[data-item-marker='postToEditESNHtmlEdit'] li {
+  padding-right: 0;
+  padding-left: 0;
+  border-width: 2px;
+}
+.listview[data-item-marker='postMessageMemoEdit'] li.listview-selected,
+.listview[data-item-marker='commentToEditESNHtmlEdit'] li.listview-selected,
+.listview[data-item-marker='postToEditESNHtmlEdit'] li.listview-selected {
+  background-color: #f4f7f8;
+  border-color: #ffffff;
+}
+.listview[data-item-marker='postMessageMemoEdit'] li img,
+.listview[data-item-marker='commentToEditESNHtmlEdit'] li img,
+.listview[data-item-marker='postToEditESNHtmlEdit'] li img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.listview[data-item-marker='postMessageMemoEdit'] .listview-item,
+.listview[data-item-marker='commentToEditESNHtmlEdit'] .listview-item,
+.listview[data-item-marker='postToEditESNHtmlEdit'] .listview-item {
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+}
+.listview[data-item-marker='postMessageMemoEdit'] .listview-item:hover,
+.listview[data-item-marker='commentToEditESNHtmlEdit'] .listview-item:hover,
+.listview[data-item-marker='postToEditESNHtmlEdit'] .listview-item:hover {
+  background-color: #f4f7f8;
+}
+.listview[data-item-marker='postMessageMemoEdit'] .listview-item .listview-item-image,
+.listview[data-item-marker='commentToEditESNHtmlEdit'] .listview-item .listview-item-image,
+.listview[data-item-marker='postToEditESNHtmlEdit'] .listview-item .listview-item-image {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex-shrink: 0;
+}
+.listview[data-item-marker='postMessageMemoEdit'] .listview-item label:hover,
+.listview[data-item-marker='commentToEditESNHtmlEdit'] .listview-item label:hover,
+.listview[data-item-marker='postToEditESNHtmlEdit'] .listview-item label:hover {
+  cursor: pointer;
+}
+.listview[data-item-marker='postMessageMemoEdit'] .listview-item .listview-item-info,
+.listview[data-item-marker='commentToEditESNHtmlEdit'] .listview-item .listview-item-info,
+.listview[data-item-marker='postToEditESNHtmlEdit'] .listview-item .listview-item-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.listview[data-item-marker='postMessageMemoEdit'] .listview-item .listview-item-info > label,
+.listview[data-item-marker='commentToEditESNHtmlEdit'] .listview-item .listview-item-info > label,
+.listview[data-item-marker='postToEditESNHtmlEdit'] .listview-item .listview-item-info > label {
+  line-height: normal;
+}
+.listview[data-item-marker='postMessageMemoEdit'] .listview-item .listview-item-info .listview-item-secondaryInfo,
+.listview[data-item-marker='commentToEditESNHtmlEdit'] .listview-item .listview-item-info .listview-item-secondaryInfo,
+.listview[data-item-marker='postToEditESNHtmlEdit'] .listview-item .listview-item-info .listview-item-secondaryInfo {
+  color: #999999;
+}
+.html-edit-focus .html-edit-textarea {
+  outline: none;
+  border-color: rgba(86, 180, 239, 0.7);
+  border-color: #56b4ef;
+  -webkit-box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+  -moz-box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+  box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+}
+.social-feed .social-feed-sort-button-wrapper {
+  padding-right: 0.786em;
+}
+.social-feed .social-feed-sort-button-marker {
+  display: none;
+}
+.social-feed .social-feed-sort-button-image {
+  margin-top: 0.071em;
+}
+.social-feed .social-message-edit-container {
+  display: inline-block;
+  width: 100%;
+  max-width: 72.4em;
+}
+.social-feed .social-feed-messages {
+  width: 100%;
+}
+.social-feed .actionsButtonText {
+  padding-right: 5px;
+}
+.social-feed .link-preview-wrap {
+  margin-top: 5px;
+}
+.right-panel .social-message-edit-container {
+  max-width: 28.5em;
+}
+.right-panel .rightSideBarModulePostList {
+  width: 100%;
+  z-index: 712;
+}
+.right-panel .social-feed-header {
+  flex-shrink: 0;
+  z-index: 1000;
+  background-color: white;
+}
+.right-panel .social-feed-messages {
+  width: 33.9em;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.right-panel .social-feed-messages .label-content-container .multiline-label {
+  max-width: 22em;
+}
+.right-panel .likeCaption {
+  display: none;
+}
+.right-panel-modules-container > div[id*="ESNFeedModule"] {
+  overflow: hidden;
+  padding-right: 2px;
+  padding-top: 0;
+}
+.comment-like-actions-actions-right {
+  display: inline-block;
+}

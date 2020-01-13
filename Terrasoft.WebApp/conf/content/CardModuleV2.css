@@ -1,0 +1,101 @@
+﻿.actions-container {
+  margin-bottom: 1.6em;
+}
+.header-container-margin-bottom {
+  margin-bottom: 2.4em;
+}
+.tab-panel-margin-bottom {
+  margin-bottom: 15px;
+}
+.control-group-margin-bottom {
+  margin-bottom: 0px;
+}
+.new-record-header-caption-label {
+  color: #444444;
+  font-size: 22px;
+  font-family: "Segoe UI Light";
+}
+.card-content-container {
+  position: relative;
+  margin-top: 6.5em;
+}
+.card > .one-el > .card-content-container {
+  margin-top: 0;
+}
+body[OldUI=false] div.one-el > div.card-content-container {
+  margin-top: 3.6em;
+}
+body[OldUI=false] .card > div.one-el > div.card-content-container {
+  margin-top: 0;
+}
+#VwProcessLibSectionContainer.two-el .card-content-container {
+  padding-bottom: 2em;
+}
+.card-content-container > .actions-container {
+  background-color: #fff;
+  position: fixed;
+  z-index: 30;
+  min-width: 56em;
+  margin-top: -6.5em;
+  left: 21.2em;
+  right: 3em;
+  padding-left: 2em;
+  padding-bottom: 0.5em;
+  padding-top: 0.6em;
+}
+.center-panel-content .card-content-container > .actions-container {
+  margin-right: 38.7em;
+}
+.default-center-panel-content .card-content-container > .actions-container {
+  margin-right: 2.7em;
+}
+.left-panel-collapsed .default-center-panel-content .card-content-container > .actions-container {
+  margin-right: 2.7em;
+}
+.left-panel-collapsed .card-content-container > .actions-container {
+  left: 7.5em;
+}
+.header-caption-container-margin {
+  margin-bottom: 24px;
+}
+.schema-wrap.one-el .section-wrap,
+.schema-wrap.one-el .card-content-container {
+  min-width: 560px;
+  max-width: 1084px;
+}
+.schema-wrap.one-el .google-integration-card-container.card-content-container {
+  margin-top: 5em;
+}
+.schema-wrap.one-el .google-integration-card-container.card-content-container .actions-container {
+  margin-top: -5em;
+}
+.display-none {
+  display: none;
+}
+.left-container-wrapClass {
+  display: inline-block;
+  float: left;
+}
+.right-container-wrapClass {
+  display: inline-block;
+  float: right;
+}
+.ts-tabpanel {
+  margin-left: 0em;
+}
+.contact-page-header-container {
+  position: relative;
+}
+.contact-page-header-container .grid-layout {
+  margin-left: 90px;
+  padding-right: 90px;
+}
+.control-width-15.control-left.control-right > .label-wrap {
+  width: 20%;
+}
+.sys-process-card-container.right-el {
+  padding-top: 45px;
+}
+.sys-process-card-container .header-container-margin-bottom {
+  margin-bottom: 0;
+}

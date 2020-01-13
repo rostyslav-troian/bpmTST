@@ -1,0 +1,7 @@
+﻿.section-page-wizard #DesignedView .card-content-container {
+  padding-top: 0px !important;
+}
+.section-page-wizard .center-panel .design-container-wrapClass .draggable-items-list,
+.section-page-wizard .center-panel .data-model-item {
+  height: calc(100vh - 40px);
+}

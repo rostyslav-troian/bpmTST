@@ -1,0 +1,39 @@
+﻿#captionLabel {
+  font-family: "Segoe UI Light";
+  font-size: 3.5em;
+  letter-spacing: -0.01em;
+  margin-bottom: 34px;
+}
+.custom-inline,
+.custom-inline div {
+  clear: left;
+  margin-bottom: 1em;
+  position: relative;
+}
+.custom-inline .t-checkboxedit-wrap,
+.custom-inline .t-radio-wrap {
+  position: absolute;
+  top: 48%;
+  right: 0;
+}
+.custom-inline .t-label {
+  margin-right: 2em;
+  margin-top: 23px;
+  width: auto;
+}
+#buttonsContainer span {
+  margin-left: 0.5em;
+}
+#controlsContainer {
+  margin-top: 2em;
+  width: 280px;
+}
+.controlBaseedit {
+  margin-bottom: 0em;
+}
+.lookupTypeContainer {
+  margin-right: 28px;
+}
+#prefixLabel {
+  padding-top: 18px;
+}

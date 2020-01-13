@@ -1,0 +1,14 @@
+{
+	"harness": {
+		"runCore": "sequential",
+		"defaultTimeout": 80000,
+		"waitForTimeout": 80000,
+		"isReadyTimeout": 80000,
+		"warnOnNotBDD": false,
+		"writeToFileOnNotBDD": false
+	},
+	"cmd": {
+		"max-workers": 1,
+		"no-color": false
+	}
+}

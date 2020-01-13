@@ -1,0 +1,48 @@
+﻿.folder-lookup-page-main-buttons {
+  margin-left: 9px;
+  vertical-align: bottom;
+}
+.folder-lookup-page-left-container {
+  width: 390px;
+  float: right;
+}
+.folder-lookup-page-right-container {
+  margin-top: 43px;
+  margin-right: 390px;
+  padding-right: 20px;
+}
+.folder-lookup-page-right-control-group {
+  padding-top: 5px;
+}
+.folder-lookup-page-right-inner-container {
+  height: 34px;
+}
+.folder-lookup-page-filter-edit-container {
+  margin-top: 20px;
+}
+.folder-lookup-page-right-inner-container .t-btn-wrapper {
+  vertical-align: bottom;
+}
+.folder-lookup-page-name-label {
+  margin-top: 8px;
+}
+.folder-lookup-page-name-edit {
+  margin-left: 9px;
+  width: 235px;
+}
+.folder-lookup-page-element-with-right-space {
+  margin-left: 9px;
+}
+#noDataAvailableInfoContainer .t-label {
+  width: auto;
+}
+.filteredit {
+  margin-top: 24px;
+}
+.header-name {
+  font-size: 35px;
+  font-family: 'Segoe UI Light';
+  letter-spacing: -0.01em;
+  text-align: right;
+  color: #4d5a75;
+}

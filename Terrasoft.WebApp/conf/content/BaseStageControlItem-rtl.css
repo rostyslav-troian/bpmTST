@@ -1,0 +1,57 @@
+﻿.stage-item {
+  color: rgba(255, 255, 255, 0.5);
+  font: 12px Segoe UI;
+  background-color: #d7d8db;
+  border-color: #d7d8db;
+  border-radius: 5px;
+  padding: 5px 25px 5px 0;
+  flex-grow: 2;
+  margin-left: 2px;
+  position: relative;
+}
+.stage-item:first-child {
+  padding-right: 10px;
+}
+.stage-item:last-child:after,
+.stage-item:last-child:before {
+  opacity: 0;
+}
+.stage-item:before,
+.stage-item:after {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+}
+.stage-item:after {
+  margin-right: -2px;
+  border-right-color: inherit;
+  border-width: 1em;
+  margin-top: -1em;
+}
+.stage-item:before {
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #fff;
+  border-width: 1.1em;
+  margin-top: -1.1em;
+}
+.stage-current {
+  color: #ffffff;
+}
+.stage-item:hover {
+  cursor: default;
+}
+.stage-enabled:hover {
+  cursor: pointer;
+}
+.stage-item:hover ~ .stage-not-passed {
+  background-color: #d7d8db !important;
+}
+.stage-item:hover ~ .stage-not-passed:after {
+  border-right-color: #d7d8db !important;
+}

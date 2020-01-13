@@ -1,0 +1,40 @@
+﻿.dashboard-module-wrap {
+  min-height: 100%;
+}
+.dashboard-container .section-wrap .analytics-gridLayout-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.dashboard-container .section-wrap .analytics-gridLayout-container .ts-tabpanel {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.dashboard-container .section-wrap .analytics-gridLayout-container #DashboardModuleContainer {
+  margin-left: 0;
+}
+.dashboard-container .section-wrap .analytics-gridLayout-container #DashboardModuleContainer .module-container {
+  padding: 10px;
+}
+#DashboardModuleContainer {
+  min-height: 99.5%;
+  margin-top: 10px;
+  width: 100%;
+  margin-left: -20px;
+}
+#DashboardModuleContainer .grid-layout-column {
+  overflow: hidden;
+}
+.dashboard-el > .grid-layout > .grid-layout-row {
+  padding-right: 1px;
+}
+.default-center-panel-content > .schema-wrap:not(.dashboard-container) .dashboard-el,
+.center-panel-content > .schema-wrap:not(.dashboard-container) .dashboard-el {
+  margin-left: -10px;
+  margin-right: 30px;
+}
+.default-center-panel-content > .schema-wrap:not(.dashboard-container) .dashboard-el .module-container,
+.center-panel-content > .schema-wrap:not(.dashboard-container) .dashboard-el .module-container {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}

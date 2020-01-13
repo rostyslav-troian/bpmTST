@@ -1,0 +1,82 @@
+﻿.summary-delete-button-image-size {
+  width: 1.18em;
+  height: 1.18em;
+  background-repeat: no-repeat;
+}
+.summary-delete-button-wrapperEl {
+  vertical-align: top;
+  position: relative;
+  z-index: 22;
+}
+.summary-main-container {
+  display: inline-block;
+  vertical-align: top;
+}
+.summary-item-container {
+  margin: 0.7em 0.8em;
+  float: right;
+  margin-right: 0;
+  font-family: "Segoe UI", serif;
+  background-color: white;
+  margin-top: 0.9em;
+}
+.summary-item-caption {
+  color: #999;
+  font-size: 1.3em;
+  font-family: "Segoe UI";
+  overflow: visible;
+  margin: 0.1em 0 -0.17em 0;
+  padding: 0 0 0 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  width: auto;
+}
+.summary-item-value {
+  color: #8ecb60;
+  font-size: 1.6em;
+  font-family: "Segoe UI Semibold";
+  overflow: visible;
+  padding-left: 0.5em;
+  width: auto;
+}
+.summary-container-wrapClass {
+  height: 100%;
+}
+.summary-container-wrapClass .summaries-container {
+  height: 100%;
+}
+.summary-container-wrapClass .summaries-container .summary-item-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.summary-container-wrapClass .summaries-container .ts-mask-frame {
+  width: 100%;
+  border: 0;
+  background-color: #fff;
+}
+.summary-container-wrapClass .summaries-container .summary-item-value .ts-mask-container {
+  height: 22px;
+}
+.summary-container-wrapClass .summaries-container .summary-item-value .ts-mask-container .ts-mask-spinner-wrap .ts-mask-frame {
+  height: 22px;
+  padding: 0;
+  margin: 0;
+}
+.summary-container-wrapClass .summaries-container .summary-item-value .ts-mask-container .ts-mask-spinner-wrap .ts-mask-frame .ts-mask-spinner {
+  width: 16px;
+  height: 16px;
+  margin: 0 auto;
+}
+.summary-container-wrapClass .summaries-container .summary-item-value[maskstate="none"] .ts-mask-container {
+  display: none;
+}
+.summary-container-wrapClass .summaries-container .summary-item-value[maskstate="visible"] {
+  min-width: 18px;
+  min-height: 18px;
+  margin-top: 0.1em;
+}

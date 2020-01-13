@@ -1,0 +1,29 @@
+.content-mjimage-wrap {
+	position: relative;
+	height: auto;
+	min-height: 30px;
+	width: 100%;
+}
+
+.content-mjimage-wrap-styles.empty-image {
+	min-height: 1em;
+}
+
+.content-mjimage-image {
+	max-width: 100%;
+	display: block;
+	position: sticky;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	pointer-events: none;
+
+	&.boxed {
+		box-sizing: border-box;
+	}
+}
+
+img[src=""].content-mjimage-image {
+	width: auto !important;
+}

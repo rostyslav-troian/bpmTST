@@ -1,0 +1,36 @@
+﻿@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#MiniPageContainer .forecast-column-designer-alignable-container {
+  top: 10% !important;
+  width: 500px;
+  animation: 0.5s ease-out 0s 1 opacityAnimation;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .base-minipage-edit-button-container.forecast-column-designer-button-container {
+  padding-top: 0px;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .forecast-column-designer-container .grid-layout {
+  width: 100%;
+  padding-bottom: 0px;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .forecast-column-designer-container .label-wrap {
+  padding-right: 14px;
+  margin-right: 0px;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .hide-column-checkbox-container .label-wrap {
+  display: inline-block;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .hide-column-checkbox-container .control-wrap {
+  float: left;
+  width: auto;
+  display: inline-block;
+  padding-right: 5px;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .t-btn-style-default.delete-button:hover {
+  background: #f2f5ff;
+}

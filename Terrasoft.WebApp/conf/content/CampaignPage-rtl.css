@@ -1,0 +1,9 @@
+﻿.ts-process-message-box {
+  width: 550px;
+}
+.ts-process-message-box .ts-inputbox-caption {
+  font-size: 22px;
+}
+.ts-process-message-box .memo-edit-core {
+  box-sizing: content-box;
+}

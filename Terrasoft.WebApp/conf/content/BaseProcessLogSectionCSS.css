@@ -1,0 +1,12 @@
+﻿.archived-process-filter-container {
+  float: left;
+}
+.archived-process-filter-container .label-wrap {
+  float: right;
+  min-width: 0;
+  width: auto;
+  margin: 0.4em 1em;
+}
+.archived-process-filter-container .label-wrap .t-label {
+  color: #333333;
+}

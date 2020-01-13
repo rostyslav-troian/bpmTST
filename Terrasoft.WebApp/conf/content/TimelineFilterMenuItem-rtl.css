@@ -1,0 +1,32 @@
+﻿.timeline-filter-menu-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 32px;
+  padding: 0 0 0 0;
+}
+.timeline-filter-menu-item .timeline-filter-menu-item-left-wrap {
+  display: flex;
+  align-items: center;
+  margin: 0 18px 0 20px;
+  width: calc(70%);
+}
+.timeline-filter-menu-item .timeline-filter-menu-item-right-wrap {
+  margin: 0 0 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 30px;
+}
+.timeline-filter-menu-item .t-checkboxedit-checked + .timeline-filter-menu-item-image {
+  background-position: 0px 0px;
+}
+.timeline-filter-menu-item .timeline-filter-menu-item-image {
+  background-position: 0px -20px;
+  background-repeat: no-repeat;
+  background-size: 20px 40px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 12px 0 12px;
+}

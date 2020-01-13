@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../../../normalize/normalize.css">
+        <link rel="stylesheet" href="filteredit.css">
+        <style>
+            .example {
+                margin: 10px;
+                padding: 25px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="example">
+            <div id="t-comp-1-filteredit" class="filteredit">
+                <div class="filteredit-group">
+                    <span class="filteredit-group-type">
+                        <a href="#">И</a>
+                    </span>
+                    <a href="#" class="filteredit-group-delete"></a>
+                    <div class="filteredit-group-rules">
+                        <div class="filteredit-group-rules-list">
+                            <div class="filteredit-rule">
+                                <a href="#" class="filteredit-rule-left">Город</a>
+                                <a href="#" class="filteredit-rule-comparison">равно<span></span></a>
+                                <a href="#" class="filteredit-rule-right">Москва</a>
+                                <a href="#" class="filteredit-rule-delete"></a>
+                            </div>
+                            <div class="filteredit-rule">
+                                <a href="#" class="filteredit-rule-left">Тип</a>
+                                <a href="#" class="filteredit-rule-comparison">равно<span></span></a>
+                                <a href="#" class="filteredit-rule-right">Клиент</a>
+                                <a href="#" class="filteredit-rule-delete"></a>
+                            </div>
+                            <div class="filteredit-group filteredit-selected">
+                                <span class="filteredit-group-type">
+                                    <a href="#">И</a>
+                                </span>
+                                <a href="#" class="filteredit-group-delete"></a>
+                                <div class="filteredit-group-rules">
+                                    <div class="filteredit-group-rules-list">
+                                        <div class="filteredit-rule">
+                                            <a href="#" class="filteredit-rule-left">Ответственный</a>
+                                            <a href="#" class="filteredit-rule-comparison">равно<span></span></a>
+                                            <a href="#" class="filteredit-rule-right">Ласточкин Сергей</a>
+                                            <a href="#" class="filteredit-rule-delete"></a>
+                                        </div>
+                                    </div>
+                                    <a class="filteredit-group-rules-add" href="#">Добавить условие</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="filteredit-group-rules-add" href="#">Добавить условие</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="example">
+            <div id="t-comp-2-filteredit" class="filteredit">
+                <div class="filteredit-group">
+                    <span class="filteredit-group-type">
+                        <a href="#">И</a>
+                    </span>
+                    <a href="#" class="filteredit-group-delete"></a>
+                    <div class="filteredit-group-rules">
+                        <div class="filteredit-group-rules-list">
+                            <div class="filteredit-rule">
+                                <a href="#" class="filteredit-rule-left">Город</a>
+                                <a href="#" class="filteredit-rule-comparison">равно<span></span></a>
+                                <a href="#" class="filteredit-rule-right">Москва</a>
+                                <a href="#" class="filteredit-rule-delete"></a>
+                            </div>
+                            <div class="filteredit-rule filteredit-selected">
+                                <a href="#" class="filteredit-rule-left">Тип</a>
+                                <a href="#" class="filteredit-rule-comparison">равно<span></span></a>
+                                <a href="#" class="filteredit-rule-right">Клиент</a>
+                                <a href="#" class="filteredit-rule-delete"></a>
+                            </div>
+                            <div class="filteredit-rule">
+                                <a href="#" class="filteredit-rule-left">Ответственный</a>
+                                <a href="#" class="filteredit-rule-comparison">равно<span></span></a>
+                                <a href="#" class="filteredit-rule-right">Ласточкин Сергей</a>
+                                <a href="#" class="filteredit-rule-delete"></a>
+                            </div>
+                            <div class="filteredit-rule-aggregation">
+                                <a href="#" class="filteredit-rule-left">Активность (по полю Ответственный).Время начала</a>
+                                <a href="#" class="filteredit-rule-condition">(максимум)<span></span></a>
+                                <a href="#" class="filteredit-rule-comparison">равно<span></span></a>
+                                <a href="#" class="filteredit-rule-right">19.02.2013</a>
+                                <a href="#" class="filteredit-rule-delete"></a>
+                                <div class="filteredit-group filteredit-selected">
+                                    <span class="filteredit-group-type">
+                                        <a href="#">И</a>
+                                    </span>
+                                    <a href="#" class="filteredit-group-delete"></a>
+                                    <div class="filteredit-group-rules">
+                                        <div class="filteredit-group-rules-list">
+                                            <div class="filteredit-rule">
+                                                <a href="#" class="filteredit-rule-left">Состояние</a>
+                                                <a href="#" class="filteredit-rule-comparison">равно<span></span></a>
+                                                <a href="#" class="filteredit-rule-right">Выполнена</a>
+                                                <a href="#" class="filteredit-rule-delete"></a>
+                                            </div>
+                                            <div class="filteredit-rule">
+                                                <a href="#" class="filteredit-rule-left">Тип</a>
+                                                <a href="#" class="filteredit-rule-comparison">равно<span></span></a>
+                                                <a href="#" class="filteredit-rule-right">Звонок</a>
+                                                <a href="#" class="filteredit-rule-delete"></a>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="filteredit-group-rules-add">Добавить условие</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="filteredit-group-rules-add" href="#">Добавить условие</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

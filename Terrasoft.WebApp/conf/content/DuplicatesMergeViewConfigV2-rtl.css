@@ -1,0 +1,89 @@
+﻿.duplicates-merge-container {
+  height: 100%;
+  width: 740px;
+}
+.duplicates-merge-container .grid-layout-row > .grid-layout-column {
+  float: none;
+  display: none;
+  min-width: 120px;
+}
+.duplicates-merge-container .grid-layout-row > .grid-layout-column[id] {
+  display: inline-block;
+}
+.duplicates-merge-container .header {
+  width: 100%;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.duplicates-merge-container .header .header-label {
+  color: #64B8DF;
+  font-size: 2.2em;
+  letter-spacing: -0.01em;
+  margin-bottom: 5px;
+}
+.duplicates-merge-container .header .description-label {
+  color: #999999;
+  font-size: 15px;
+}
+.duplicates-merge-container .header .close-btn {
+  position: absolute;
+  left: 0.5em;
+  top: 11px;
+}
+.duplicates-merge-container .content {
+  white-space: nowrap;
+  margin: 20px 10px 0 10px;
+  height: 230px;
+  overflow-x: auto;
+}
+.duplicates-merge-container .content .grid-layout-row {
+  padding-top: 3px;
+}
+.duplicates-merge-container .content .grid-layout-row div[id*='-odd'] {
+  background-color: #F7F7F7;
+}
+.duplicates-merge-container .content .column-header {
+  border-bottom: 1px solid #E1E8D2;
+}
+.duplicates-merge-container .content .column-header .t-label {
+  margin-right: 5px;
+  width: 115px;
+  color: #999999;
+  font-size: 13px;
+  text-overflow: ellipsis;
+}
+.duplicates-merge-container .content .radio-button-container {
+  margin-right: 5px;
+}
+.duplicates-merge-container .content .radio-button-container .t-label {
+  max-width: 90px;
+  padding-top: 0;
+  padding-right: 5px;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+}
+.duplicates-merge-container .content .radio-button-container .t-label[style*='url'] {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin-right: 5px;
+}
+.duplicates-merge-container .description {
+  display: flex;
+}
+.duplicates-merge-container .footer {
+  bottom: 25px;
+  position: absolute;
+  width: 100%;
+  padding-left: 10px;
+}
+.duplicates-merge-container .footer .t-btn-wrapper {
+  float: left;
+  margin: 0 0 0 9px;
+}
+.duplicates-merge-container .right-padding {
+  padding-left: 7px;
+}

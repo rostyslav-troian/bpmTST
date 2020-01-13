@@ -1,0 +1,12 @@
+﻿.systemMessage-button-label {
+  font-size: 13px;
+  color: #999;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  margin-bottom: 0px;
+}
+.systemMessage-button-label:hover {
+  text-decoration: underline;
+}

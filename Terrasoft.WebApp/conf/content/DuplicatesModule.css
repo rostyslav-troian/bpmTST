@@ -1,0 +1,47 @@
+﻿.open-button-image-size {
+  width: 21px;
+  height: 21px;
+}
+.open-button-markerEl {
+  display: none;
+}
+.open-button-wrapperEl {
+  margin-left: -5px;
+}
+.caption-label-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 95%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  overflow: hidden;
+}
+.duplicate-context-container {
+  display: inline-block;
+  width: 5%;
+  height: 42px;
+}
+.captionContainer .t-label {
+  font-family: "Segoe UI Light";
+  font-size: 3.5em;
+  letter-spacing: -0.01em;
+  margin-bottom: 34px;
+}
+#buttonsContainer {
+  position: relative;
+}
+#buttonsContainer .t-btn-text {
+  margin-right: 0.5em;
+}
+#DescriptionContainer {
+  margin-top: 2em;
+}
+#settings-container {
+  display: block;
+  /*width: 40px;*/
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

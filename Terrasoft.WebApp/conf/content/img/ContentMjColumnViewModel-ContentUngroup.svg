@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="icon_group_ungroup" transform="translate(9 6)">
+    <circle id="Ellipse_681" data-name="Ellipse 681" cx="8" cy="8" r="8" transform="translate(-9 -6)" fill="#ef7000"/>
+    <g id="Group_4911" data-name="Group 4911" transform="translate(-7.39 -0.855)">
+      <path id="Path_2897" data-name="Path 2897" d="M0,0" transform="translate(1.269 4.578)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_2898" data-name="Path 2898" d="M0,0" transform="translate(3.807 3.732)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_2899" data-name="Path 2899" d="M.316,3.7a1.29,1.29,0,0,1,0-1.692L2.008.316A1.29,1.29,0,0,1,3.7.316h0a1.29,1.29,0,0,1,0,1.692l-.846.846" transform="translate(2.849) rotate(45)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_5640" data-name="Path 5640" d="M0,2.658a1.29,1.29,0,0,0,1.692,0h0a1.29,1.29,0,0,0,0-1.692L.725,0" transform="translate(3.523 3.523) rotate(135)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="Group_5123" data-name="Group 5123" transform="translate(-0.382 -0.855)">
+      <path id="Path_2897-2" data-name="Path 2897" d="M0,0" transform="translate(1.269 4.578)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_2898-2" data-name="Path 2898" d="M0,0" transform="translate(3.807 3.732)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_2899-2" data-name="Path 2899" d="M.316,3.7a1.29,1.29,0,0,1,0-1.692L2.008.316A1.29,1.29,0,0,1,3.7.316h0a1.29,1.29,0,0,1,0,1.692l-.846.846" transform="translate(2.849) rotate(45)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_5640-2" data-name="Path 5640" d="M0,2.658a1.29,1.29,0,0,0,1.692,0h0a1.29,1.29,0,0,0,0-1.692L.725,0" transform="translate(3.523 3.523) rotate(135)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

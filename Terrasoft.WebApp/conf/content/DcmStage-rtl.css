@@ -1,0 +1,328 @@
+﻿.dcm-stage-container.reorderable-container .dcm-stage.dcm-stage-wrap:first-child .stage-header {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.dcm-stage.dcm-stage-wrap:first-child .stage-header:before,
+.dcm-stage.dcm-stage-wrap:first-child .stage-header:after {
+  content: initial;
+}
+.dcm-stage {
+  position: relative;
+  height: 100%;
+  min-width: 242px;
+  max-width: 242px;
+  padding-top: 22px;
+  margin-left: 2px;
+}
+.dcm-stage.draggable-item-grabbed.x-dd-drag-current .stage-header {
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.1);
+}
+.dcm-stage.draggable-item-grabbed.x-dd-drag-current .dcm-stage-element {
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.1);
+  border-color: white;
+}
+.dcm-stage.draggable-item-grabbed.x-dd-drag-current .stage-header.outer-rounded .add-btn-ct {
+  box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.1);
+  padding-left: 0;
+}
+.dcm-stage.draggable-item-grabbed.x-dd-drag-current .add-dcm-stage-element {
+  display: none;
+}
+.dcm-stage.draggable-item-grabbed.x-dd-drag-current .stage-header .boundary-el {
+  background-color: transparent;
+}
+.dcm-stage.draggable-item-grabbed.x-dd-drag-current .stage-header.inner-arrow .boundary-el:after {
+  border-right-color: transparent;
+}
+.dcm-stage.draggable-item-grabbed.x-dd-drag-current .stage-inner-container {
+  background-color: transparent;
+}
+.dcm-stage.draggable-item-grabbed.x-dd-drag-current .stage-header.outer-rounded .boundary-el.right-add-btn-el {
+  border-color: transparent;
+}
+.dcm-stage .stage-inner-container {
+  padding-right: 3px;
+  padding-left: 2px;
+  background-color: white;
+}
+.dcm-stage .stage-inner-container .dcm-stage-element {
+  padding: 5px;
+  box-sizing: border-box;
+}
+.dcm-stage .draggable-item-move {
+  width: 200px;
+}
+.dcm-stage .stage-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 2.5em;
+  background-color: #8ecb60;
+  padding-right: 2.4em;
+  box-sizing: border-box;
+  padding-left: 1.7em;
+  color: white;
+  line-height: 2.5em;
+}
+.dcm-stage .stage-header .stage-tools {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: bpmonline Open Sans;
+}
+.dcm-stage .stage-header .stage-tools .t-label {
+  font-size: 13px;
+  text-overflow: ellipsis;
+}
+.dcm-stage .stage-header .add-btn-ct {
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 1000;
+  top: 0;
+  height: 100%;
+  cursor: pointer;
+}
+.dcm-stage .stage-header .add-btn-el {
+  height: 100%;
+  background-color: #c1c4bf;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Open Sans Light;
+  font-size: 21px;
+  display: none;
+  cursor: inherit;
+}
+.dcm-stage .stage-header .boundary-el {
+  position: absolute;
+  top: 0;
+  width: 0.2em;
+  height: 100%;
+  background-color: white;
+  box-sizing: content-box;
+  border: 0 solid white;
+  z-index: 1000;
+}
+.dcm-stage .stage-header .boundary-el:after,
+.dcm-stage .stage-header .boundary-el:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border: 0 solid;
+}
+.dcm-stage .stage-header .boundary-el:after {
+  content: "";
+}
+.dcm-stage .stage-header .boundary-el.left-add-btn-el {
+  display: none;
+  right: 0;
+}
+.dcm-stage .stage-header.show-add-button .boundary-el.left-add-btn-el {
+  display: block;
+}
+.dcm-stage .stage-header .boundary-el.left-add-btn-el:after,
+.dcm-stage .stage-header .boundary-el.left-add-btn-el:before {
+  right: 0;
+  left: 0;
+  z-index: 900;
+  width: 0;
+}
+.dcm-stage .stage-header .boundary-el.right-add-btn-el {
+  left: 0;
+}
+.dcm-stage .stage-header .boundary-el.left-add-btn-el:before {
+  content: "";
+}
+.dcm-stage .stage-header .boundary-el.right-add-btn-el:after {
+  z-index: 900;
+}
+.dcm-stage .stage-header .boundary-el.right-add-btn-el:before {
+  z-index: 1000;
+}
+.dcm-stage .dcm-stage-items {
+  height: auto;
+}
+/* --------------------------------------  ARROW  --------------------------------------------- */
+
+.dcm-stage .stage-header.inner-arrow .add-btn-ct {
+  width: 1.7em;
+  left: 0;
+}
+.dcm-stage .stage-header.show-add-button.inner-arrow .add-btn-ct {
+  left: -1.4em;
+  width: 2.9em;
+}
+.dcm-stage .stage-header.show-add-button.inner-arrow .add-btn-el {
+  display: block;
+  padding-right: 14px;
+}
+.dcm-stage .stage-header.inner-arrow .boundary-el.right-add-btn-el {
+  left: -0.2em;
+}
+.dcm-stage .stage-header.inner-arrow .boundary-el:before,
+.dcm-stage .stage-header.inner-arrow .boundary-el:after {
+  border-color: transparent;
+  border-width: 1.2em 0.8em;
+}
+.dcm-stage .stage-header.inner-arrow .boundary-el:before {
+  border-right-color: #8ecb60;
+}
+.dcm-stage .stage-header.inner-arrow .boundary-el:after {
+  right: 100%;
+  border-right-color: white;
+}
+.dcm-stage .stage-header.inner-arrow .boundary-el.left-add-btn-el:before {
+  z-index: 1000;
+}
+.dcm-stage .stage-header.inner-arrow .boundary-el.right-add-btn-el:before {
+  content: "";
+  right: 0;
+}
+.dcm-stage .stage-header.show-add-button.inner-arrow .boundary-el.right-add-btn-el:before {
+  border-right-color: #c1c4bf;
+}
+/* -------------------------------  BUTTON & INNER_BUTTON  ------------------------------------- */
+
+.dcm-stage .stage-header.inner-rounded,
+.dcm-stage .stage-header.outer-rounded {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-left-width: 4px;
+}
+.dcm-stage .stage-header.inner-rounded:before,
+.dcm-stage .stage-header.inner-rounded:after,
+.dcm-stage .stage-header.outer-rounded:before,
+.dcm-stage .stage-header.outer-rounded:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -2px;
+  height: 100%;
+  background-color: white;
+  border: 0 solid;
+}
+.dcm-stage .stage-header.inner-rounded:after,
+.dcm-stage .stage-header.outer-rounded:after {
+  width: 1px;
+  box-sizing: content-box;
+  border-left-width: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-color: #8ecb60;
+  z-index: 700;
+}
+.dcm-stage .stage-header.inner-rounded:before,
+.dcm-stage .stage-header.outer-rounded:before {
+  box-sizing: border-box;
+  border-left-width: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-color: white;
+  z-index: 800;
+}
+/* --------------------------------------  BUTTON  --------------------------------------------- */
+
+.dcm-stage .stage-header.inner-rounded .add-btn-ct {
+  width: 1.7em;
+  left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-left-width: 4px;
+}
+.dcm-stage .stage-header.show-add-button.inner-rounded .add-btn-ct {
+  width: 2.9em;
+  left: -1.2em;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.dcm-stage .stage-header.show-add-button.inner-rounded .add-btn-el {
+  display: block;
+  padding-right: 5px;
+}
+.dcm-stage .stage-header.inner-rounded .boundary-el.right-add-btn-el {
+  border-left-width: 2px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.dcm-stage .stage-header.show-add-button.inner-rounded .boundary-el.left-add-btn-el {
+  border-right-width: 2px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.dcm-stage .stage-header.show-add-button.inner-rounded .boundary-el.left-add-btn-el:after {
+  background-color: #c1c4bf;
+  border-right-width: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-color: #c1c4bf;
+}
+.dcm-stage .stage-header.inner-rounded .boundary-el.right-add-btn-el:after {
+  right: 0;
+  left: 0;
+  border-left-width: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-color: #8ecb60;
+}
+.dcm-stage .stage-header.show-add-button.inner-rounded .boundary-el.right-add-btn-el:after {
+  border-color: #c1c4bf;
+  right: -2px;
+}
+/* --------------------------------------  INNER_BUTTON  --------------------------------------------- */
+
+.dcm-stage .stage-header.outer-rounded .add-btn-ct {
+  width: 3.1em;
+  right: 100%;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-left-width: 4px;
+  padding-left: 2px;
+}
+.dcm-stage .stage-header.outer-rounded .boundary-el.left-add-btn-el {
+  display: block;
+  border-left-width: 4px;
+  border-color: #c1c4bf;
+  width: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.dcm-stage .stage-header.outer-rounded .boundary-el.right-add-btn-el {
+  border-left-width: 4px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  width: 0;
+}
+.dcm-stage .stage-header.outer-rounded .add-btn-el {
+  display: block;
+  padding-right: 10px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.dcm-stage .stage-header.outer-rounded .boundary-el.left-add-btn-el:after {
+  border-left-width: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-color: white;
+}
+.dcm-stage .stage-header.outer-rounded .boundary-el.right-add-btn-el:before {
+  content: "";
+  right: -2px;
+  left: 0;
+  border-left-width: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-color: #c1c4bf;
+  width: 0;
+}
+.dcm-stage .stage-header.outer-rounded .boundary-el.right-add-btn-el:after {
+  content: initial;
+}
+.dcm-stage .valid-state {
+  z-index: 600;
+}
+.dcm-stage .not-valid {
+  position: absolute;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #f15440;
+  width: 100%;
+}

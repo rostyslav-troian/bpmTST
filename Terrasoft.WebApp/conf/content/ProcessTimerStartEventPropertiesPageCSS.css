@@ -1,0 +1,108 @@
+﻿.custom-cron-description-box {
+  margin-top: 20px;
+  border: 1px solid #8ecb60;
+  background: #ffffff;
+  color: #8ecb60;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.start-timer-properties-page-label {
+  color: #8ecb60;
+}
+.start-timer-weekly-validation {
+  background-color: #58aeda;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  position: absolute;
+  left: -1px;
+  z-index: 11;
+  margin-top: 2px;
+}
+.start-timer-weekly-validation-label {
+  font-size: 1.3em;
+  color: #ffffff;
+  word-wrap: break-word;
+  white-space: normal;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.start-timer-properties-optional-date-time {
+  padding-top: 8px;
+  padding-left: 28px;
+}
+.base-edit.datetime-timecontrol {
+  width: 100px;
+}
+.multiselect-button-group-wrapper {
+  margin-left: -15px;
+}
+.multiselect-button-group-wrapper .multiselect-button-group {
+  border-collapse: separate;
+  border-spacing: 15px 0px;
+  padding-top: 10px;
+}
+.multiselect-button-group-wrapper .multiselect-button-group .t-btn-style-default {
+  display: table-cell;
+  line-height: normal;
+  font-size: 14px;
+  text-transform: capitalize;
+  border-radius: 32px;
+  width: 32px;
+  height: 32px;
+  min-height: 32px;
+  min-width: 32px;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #8ecb60;
+  background: #ffffff;
+  color: #8ecb60;
+}
+.multiselect-button-group-wrapper .multiselect-button-group .t-btn-pressed,
+.multiselect-button-group-wrapper .multiselect-button-group .t-btn-pressed:hover {
+  background: #8ecb60;
+  color: #ffffff;
+}
+.start-timer-edit-label {
+  padding-top: 6px;
+  font-size: 1.3em;
+}
+.month-container-radio-group .two-rows-radio-button {
+  margin-top: 8px;
+  margin-bottom: 25px;
+}
+.month-section-day-selection-group {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.month-section-day-selection-container {
+  margin-bottom: 15px;
+}
+.padding-top-4 {
+  padding-top: 4px;
+}
+.black-text {
+  color: #444;
+}
+.grid-section-expanded {
+  width: 100%;
+}
+.single-run-date-container .base-edit.datetime-datecontrol {
+  width: 155px;
+}
+.single-run-date-container .base-edit.datetime-timecontrol {
+  width: 150px;
+}
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+.additional-section-container .base-edit.datetime-datecontrol {
+  width: 140px;
+}
+.additional-section-container .base-edit.datetime-timecontrol {
+  width: 135px;
+}

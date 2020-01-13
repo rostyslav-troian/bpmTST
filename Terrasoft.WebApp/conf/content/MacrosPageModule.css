@@ -1,0 +1,16 @@
+﻿.main-buttons-container {
+  margin-bottom: 2px;
+}
+.button-margin-right {
+  margin-right: 9px;
+}
+.page-caption-label {
+  color: #444;
+  font-size: 3.5em;
+  margin-bottom: 30px;
+  font-family: "Segoe UI Light";
+  letter-spacing: -0.01em;
+}
+#macros-edit-container {
+  width: 50%;
+}

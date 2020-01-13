@@ -1,0 +1,18 @@
+﻿.service-tile.tile {
+  height: 150px;
+}
+.service-tile.itil-service-operations-tile.tile {
+  height: 170px;
+}
+.service-tile.itil-service-transitions-tile.tile {
+  height: auto;
+}
+.service-tile.tile {
+  height: 150px;
+}
+.service-tile .color-panel {
+  background-color: #eeaf4b;
+}
+.service-tile .tile-caption {
+  color: #5bc7c4;
+}

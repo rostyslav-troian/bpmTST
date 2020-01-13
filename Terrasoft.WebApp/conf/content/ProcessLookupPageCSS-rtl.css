@@ -1,0 +1,61 @@
+﻿.process-lookup-page .process-lookup-page-selected-rows-count-label {
+  width: auto;
+  font-size: 22px;
+  color: #88c658;
+}
+.process-lookup-page .process-lookup-page-options-container {
+  float: right;
+  width: 260px;
+  margin-left: 0px;
+  padding-right: 100px;
+}
+.process-lookup-page .process-lookup-page-right-container {
+  display: inline-block;
+  float: left;
+  width: 240px;
+}
+.process-lookup-page .process-lookup-page-label-edit {
+  width: auto;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #999999;
+  padding-bottom: 2px;
+}
+.process-lookup-page .process-lookup-page-filtering-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding-top: 22px;
+  padding-bottom: 7px;
+}
+.process-lookup-page .search-edit.control-no-label .base-edit {
+  width: 366px;
+}
+.process-lookup-page .search-edit.control-no-label .base-edit:not(.base-edit-focus) {
+  border: 1px solid #c8c8c8;
+}
+.process-lookup-page .process-lookup-page-controls-container {
+  margin-top: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.process-lookup-page .vertical-align-top {
+  vertical-align: top;
+  margin-right: 10px;
+}
+.process-lookup-page .base-edit .search-edit {
+  width: 366px;
+  padding-right: 0px;
+}
+.process-lookup-page .center-area-grid-container-process-lookup-page {
+  padding-left: 2px;
+  height: 390px;
+  overflow-y: auto;
+}
+.process-lookup-page .center-area-grid-container-process-lookup-page .grid .grid-captions {
+  display: inherit;
+}
+.process-lookup-page .center-area-grid-container-process-lookup-page .grid-listed-row .grid-fixed-col,
+.process-lookup-page .center-area-grid-container-process-lookup-page .grid-listed-row .grid-fixed-col-2 {
+  margin-right: 3px;
+}

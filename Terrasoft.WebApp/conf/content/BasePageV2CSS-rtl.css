@@ -1,0 +1,1220 @@
+﻿.proc-btn-img {
+  margin-top: 2px;
+  background: no-repeat;
+}
+.left-collapsed_right-collapsed {
+  width: calc(100% - 7.2em - 5.6em);
+  min-width: calc(100% - 7.2em - 5.6em);
+}
+.left-collapsed_right-open {
+  width: calc(100% - 7.2em - 41.3em);
+  min-width: calc(100% - 7.2em - 41.3em);
+}
+.left-open_right-collapsed {
+  width: calc(100% - 21em - 5.6em);
+  min-width: calc(100% - 21em - 5.6em);
+}
+.left-open_right-open {
+  width: calc(100% - 21em - 41.3em);
+  min-width: calc(100% - 21em - 41.3em);
+}
+.left-collapsed_right-collapsed_with-folders {
+  width: calc(100% - 7.2em - 5.6em - 399px);
+  min-width: calc(100% - 7.2em - 5.6em - 399px);
+}
+.left-collapsed_right-open_with-folders {
+  width: calc(100% - 7.2em - 41.3em - 399px);
+  min-width: calc(100% - 7.2em - 41.3em - 399px);
+}
+.left-open_right-collapsed_with-folders {
+  width: calc(100% - 21em - 5.6em - 399px);
+  min-width: calc(100% - 21em - 5.6em - 399px);
+}
+.left-open_right-open_with-folders {
+  width: calc(100% - 21em - 41.3em - 399px);
+  min-width: calc(100% - 21em - 41.3em - 399px);
+}
+body[OldUI=false] .card-content-container > .actions-container {
+  position: fixed;
+}
+body[OldUI=false] .card-content-container .filteredit .base-edit-right-icon {
+  display: block;
+}
+body[OldUI=false] .left-modules-container .profile-container .base-edit,
+body[OldUI=false] .left-modules-container .module-container .base-edit {
+  padding-right: 1px;
+}
+body[OldUI=false] .left-modules-container .profile-container .label-wrap + .control-wrap,
+body[OldUI=false] .left-modules-container .module-container .label-wrap + .control-wrap {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: none;
+}
+body[OldUI=false] .left-modules-container .profile-container .label-wrap label,
+body[OldUI=false] .left-modules-container .module-container .label-wrap label {
+  text-align: right;
+  padding-right: 1px;
+}
+body[OldUI=false] .left-modules-container .profile-container .control-width-15,
+body[OldUI=false] .left-modules-container .module-container .control-width-15 {
+  display: inline-block;
+}
+body[OldUI=false] .left-modules-container .profile-container .control-width-15 .t-checkboxedit-wrap,
+body[OldUI=false] .left-modules-container .module-container .control-width-15 .t-checkboxedit-wrap {
+  margin-right: 0;
+}
+body[OldUI=false] .left-modules-container .profile-container .control-width-15 > .label-wrap,
+body[OldUI=false] .left-modules-container .module-container .control-width-15 > .label-wrap {
+  min-width: none;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+body[OldUI=false] .left-modules-container .profile-container .control-width-15 > .label-wrap {
+  justify-content: flex-start;
+}
+body[OldUI=false] .left-modules-container .module-container .base-edit {
+  border: none;
+}
+body[OldUI=false] .left-modules-container .module-container .base-edit:hover {
+  border: none;
+}
+body[OldUI=false] .left-modules-container .module-container .base-edit .base-edit-disabled-el-icon {
+  display: none;
+}
+body[OldUI=false] .left-modules-container .module-container .base-edit-input[disabled="disabled"] {
+  color: #000;
+}
+body[OldUI=false] .left-modules-container .module-container .schema-wrap {
+  min-width: 0;
+}
+body[OldUI=false] .left-modules-container .module-container .control-width-15 .t-label-is-required:after {
+  content: "";
+}
+body[OldUI=false] .left-modules-container .module-container .profile-module-actions .t-btn-menuWrap,
+body[OldUI=false] .left-modules-container .module-container .profile-module-actions .t-btn-menu {
+  display: none;
+}
+body[OldUI=false] .left-modules-container .module-container .profile-module-actions .tools-button-icon {
+  position: absolute;
+  left: 0px;
+  margin-left: -26px;
+  margin-top: -18px;
+  padding: 5px 10px;
+}
+body[OldUI=false] .left-modules-container .module-container .profile-module-actions .tools-button-icon .t-btn-image {
+  width: 16px;
+  height: 16px;
+}
+body[OldUI=false] .left-modules-container .module-container .contact-profile-photo,
+body[OldUI=false] .left-modules-container .module-container .account-profile-photo,
+body[OldUI=false] .left-modules-container .module-container .profile-icon,
+body[OldUI=false] .left-modules-container .module-container .blank-slate-icon {
+  width: 32px;
+  height: 32px;
+}
+body[OldUI=false] .left-modules-container .module-container .contact-profile-photo img,
+body[OldUI=false] .left-modules-container .module-container .account-profile-photo img,
+body[OldUI=false] .left-modules-container .module-container .profile-icon img,
+body[OldUI=false] .left-modules-container .module-container .blank-slate-icon img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+body[OldUI=false] .left-modules-container .module-container .profile-header-container {
+  padding-right: 2px;
+  padding-left: 25px;
+  margin-top: -4px;
+}
+body[OldUI=false] .left-modules-container .module-container .profile-header-container .label-link {
+  color: #4e7bd8;
+  padding-bottom: 4px;
+}
+body[OldUI=false] .left-modules-container .module-container .profile-header-container > * {
+  text-align: right;
+  margin: 0;
+}
+body[OldUI=false] .left-modules-container .module-container .profile-module-container {
+  position: relative;
+}
+body[OldUI=false] .left-modules-container .module-container .blank-slate-container {
+  background-color: white;
+}
+body[OldUI=false][is-card-opened="true"] .center-panel .schema-wrap.one-el .section-wrap .action-buttons-container-wrapClass {
+  padding-bottom: 2em;
+}
+.default .center-panel {
+  position: relative;
+}
+.default .center-panel .t-btn-no-text-padding.card-back-button {
+  margin-left: -2em;
+}
+.default .center-panel .card-content-container {
+  display: flex;
+  overflow: hidden;
+  min-height: calc(100vh - 9.9em);
+  margin-bottom: -2em;
+  margin-left: -3em;
+  margin-right: 0;
+  width: calc(100% + 3em);
+  background-color: #ebeeef;
+  padding-left: 0.6em;
+  padding-top: 22px;
+  padding-bottom: 0.6em;
+  box-sizing: border-box;
+}
+.default .center-panel .card-content-container .actions-container {
+  margin-left: -3em;
+  padding-left: 2em;
+  margin-top: -5.7em;
+  padding-top: 0;
+  height: 3.7em;
+  min-width: 0;
+  left: auto;
+  right: auto;
+}
+.default .center-panel .card-content-container .page-header-container {
+  height: 1.3em;
+  margin-top: -1.9em;
+  margin-left: 0;
+  margin-bottom: 0.6em;
+  padding-left: 3em;
+  padding-right: 0.6em;
+  white-space: nowrap;
+  background-color: #fff;
+  border-bottom: 1px solid #d8d9d9;
+  color: #444;
+  position: fixed;
+  z-index: 1000;
+}
+.default .center-panel .card-content-container .page-header-container > label:empty:before {
+  content: "...";
+}
+.default .center-panel .card-content-container .page-header-container > * {
+  height: 0.65em;
+  line-height: 0.15em;
+  font-size: 2em;
+  text-overflow: ellipsis;
+}
+.default .center-panel .card-content-container .left-modules-container {
+  flex-grow: 0;
+  display: table;
+}
+.default .center-panel .card-content-container .left-modules-container > * {
+  width: 29.8em;
+  margin-right: 0.6em;
+}
+.default .center-panel .card-content-container .left-modules-container > *:last-child {
+  margin-bottom: 0;
+}
+.default .center-panel .card-content-container .center-main-container {
+  min-width: 43em;
+  max-width: none;
+  flex-grow: 1;
+}
+.default .center-panel .card-content-container .center-main-container > *:last-child {
+  margin-bottom: 0;
+}
+.default .center-panel .card-content-container .center-main-container .ts-tabpanel {
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -0.6em;
+}
+.default .center-panel .card-content-container .center-main-container .ts-tabpanel .ts-tabpanel-wrap .ts-tabpanel-items li:first-child {
+  margin-left: 8px;
+}
+.default .center-panel .card-content-container .center-main-container .ts-tabpanel .ts-tabpanel-wrap .ts-tabpanel-items li:last-child {
+  margin-right: 8px;
+}
+.default .center-panel .designer .card-content-container {
+  min-height: 0;
+}
+.default .center-panel .schema-wrap .action-buttons-container-wrapClass {
+  width: calc(100% - 21em - 5.6em);
+  min-width: calc(100% - 21em - 5.6em);
+}
+.default .center-panel .schema-wrap.one-el .section-wrap .action-buttons-container-wrapClass {
+  padding-right: 0;
+  padding-bottom: 0em;
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
+  border-top: none;
+}
+.default .center-panel .schema-wrap.two-el span[data-item-marker="ScrollTopBtn"] {
+  margin-top: -10px;
+}
+.default .center-panel .schema-wrap.two-el .section-wrap .action-buttons-container-wrapClass {
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  padding-right: 0;
+  border-left: 1px solid #e6e6e6;
+}
+.default .center-panel .schema-wrap.two-el .section-wrap .combined-action-buttons-container-wrapClass {
+  background-color: #ebeeef;
+  margin-left: 30px;
+}
+.default .center-panel .schema-wrap.two-el .section-wrap .combined-action-buttons-section-container-wrapClass {
+  background-color: #fff;
+  width: 279px;
+  border-right: 1px solid #e6e6e6;
+  padding-bottom: 12px;
+  margin-left: -10px;
+}
+.default .center-panel .schema-wrap.two-el .section-wrap .combined-action-buttons-card-container-wrapClass {
+  background-color: #fff;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.default .center-panel .schema-wrap.two-el .action-buttons-container-wrapClass,
+.default .center-panel .schema-wrap.two-el .utils-container-wrapClass {
+  left: auto;
+}
+.default .center-panel .schema-wrap.two-el .utils-container-wrapClass {
+  width: 299px;
+}
+.default .center-panel .schema-wrap.two-el .combined-action-buttons-card-container-wrapClass {
+  right: 0;
+  left: 275px;
+  padding-left: 20px;
+}
+.default .center-panel .schema-wrap.two-el .card-content-container {
+  padding-left: 0.6em;
+  margin-bottom: 0;
+}
+.default .center-panel .schema-wrap.two-el .card-content-container .page-header-container {
+  margin-left: -0.6em;
+  padding-left: 0.6em;
+}
+.default .center-panel .schema-wrap .section-wrap .action-buttons-container-wrapClass {
+  height: auto;
+  margin-left: -3em;
+  min-height: 3.2em;
+}
+.default .center-panel .schema-wrap .section-wrap .utils-container-wrapClass {
+  box-sizing: border-box;
+  margin: 0;
+}
+.default .center-panel .schema-wrap .section-wrap .action-buttons-container-wrapClass,
+.default .center-panel .schema-wrap .section-wrap .utils-container-wrapClass,
+.default .center-panel .schema-wrap .section-wrap .section-header-container-wrapClass {
+  padding-left: 20px;
+  padding-right: 0.6em;
+  left: auto;
+  right: auto;
+}
+.default .center-panel .schema-wrap .section-wrap .two-el {
+  max-width: none;
+}
+.default .center-panel .schema-wrap .section-wrap .two-el .action-buttons-container-wrapClass,
+.default .center-panel .schema-wrap .section-wrap .two-el .utils-container-wrapClass {
+  max-width: none;
+  left: auto;
+}
+.default .center-panel .schema-wrap .section-wrap .content-container-wrapClass > .section.left-el {
+  top: 10.6em;
+}
+.default .center-panel .schema-wrap .section-wrap .content-container-wrapClass > .section .utils-container-wrapClass {
+  top: 9.4em;
+  padding-bottom: 0.3em;
+}
+.default .center-panel .schema-wrap .section-wrap .content-container-wrapClass .card.right-el {
+  padding-top: 3.5em;
+}
+.default .center-panel .default-center-panel-content .actions-container {
+  left: auto;
+  margin-left: 0;
+  padding-left: 2em;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  border-radius: 0px 0px 3px 3px;
+  width: calc(100% - 21em - 5.6em);
+  min-width: calc(100% - 21em - 5.6em);
+}
+.default .center-panel .default-center-panel-content .schema-wrap.one-el .card-content-container {
+  padding-left: 0;
+}
+.default .center-panel .default-center-panel-content .schema-wrap.one-el .combined-action-buttons-container-wrapClass {
+  max-width: none;
+  margin-right: 0;
+}
+.default .center-panel .default-center-panel-content .schema-wrap.two-el .combined-action-buttons-container-wrapClass {
+  max-width: none;
+  margin-right: 0;
+}
+.default .center-panel .default-center-panel-content .schema-wrap.two-el .action-buttons-container-wrapClass,
+.default .center-panel .default-center-panel-content .schema-wrap.two-el .utils-container-wrapClass {
+  max-width: none;
+}
+.default .center-panel .default-center-panel-content .schema-wrap.two-el .combined-action-buttons-card-container-wrapClass {
+  right: 0;
+  left: 275px;
+}
+.default .center-panel .default-center-panel-content .schema-wrap.two-el .card-content-container {
+  padding-left: 0.6em;
+}
+.default .center-panel .center-panel-content .actions-container,
+.default .center-panel .center-panel-content .action-buttons-container-wrapClass {
+  width: calc(100% - 21em - 41.3em);
+  min-width: calc(100% - 21em - 41.3em);
+  margin-left: 0;
+}
+.default .center-panel .center-panel-content .actions-container .combined-action-buttons-container-wrapClass,
+.default .center-panel .center-panel-content .action-buttons-container-wrapClass .combined-action-buttons-container-wrapClass {
+  max-width: none;
+  margin-right: 0;
+}
+.default .center-panel .center-panel-content .actions-container .separate-action-buttons-container-wrapClass,
+.default .center-panel .center-panel-content .action-buttons-container-wrapClass .separate-action-buttons-container-wrapClass {
+  margin-right: 0;
+}
+.default .center-panel .action-buttons-container-wrapClass,
+.default .center-panel .utils-container-wrapClass {
+  margin-left: -3em;
+  left: auto;
+}
+.default .center-panel .action-buttons-container-wrapClass,
+.default .center-panel .actions-container {
+  padding-bottom: 5em;
+  min-height: 3.2em;
+}
+.center-panel-border {
+  width: 1px;
+  height: 100vh;
+  background-color: #e6e6e6;
+  top: 10px;
+  position: fixed;
+}
+body[OldUI=false].x-safari.x-body .center-panel.opened-right-panel:after {
+  left: 413px;
+}
+body[OldUI=false].x-ie.x-edge .center-panel.opened-right-panel:after,
+body[OldUI=false].x-safari.x-edge .center-panel.opened-right-panel:after {
+  left: 413px;
+}
+body[OldUI=false].x-ie .center-panel:after,
+body[OldUI=false].x-safari .center-panel:after {
+  width: 1px;
+  height: 100vh;
+  background-color: #e6e6e6;
+  top: 10px;
+  position: fixed;
+  content: "";
+  left: 56px;
+}
+body[OldUI=false].x-ie .center-panel:before,
+body[OldUI=false].x-safari .center-panel:before {
+  width: 1px;
+  height: 100vh;
+  background-color: #e6e6e6;
+  top: 10px;
+  position: fixed;
+  content: "";
+  right: 21em;
+  z-index: 1000;
+}
+body[OldUI=false].x-ie .center-panel.opened-right-panel:after,
+body[OldUI=false].x-safari .center-panel.opened-right-panel:after {
+  left: 41.2em;
+}
+body[OldUI=false].x-ie[is-card-opened="true"] .center-panel:after,
+body[OldUI=false].x-safari[is-card-opened="true"] .center-panel:after {
+  display: none;
+}
+body[OldUI=false].x-ie[is-card-opened="true"][is-main-header-visible="false"] .center-panel:before,
+body[OldUI=false].x-safari[is-card-opened="true"][is-main-header-visible="false"] .center-panel:before {
+  display: none;
+}
+body[OldUI=false].x-ie.left-panel-collapsed .center-panel:before,
+body[OldUI=false].x-safari.left-panel-collapsed .center-panel:before {
+  right: 7.2em;
+}
+body[OldUI=false].x-ie .section-designer-shown .center-panel:before,
+body[OldUI=false].x-safari .section-designer-shown .center-panel:before,
+body[OldUI=false].x-ie .section-designer-shown .center-panel:after,
+body[OldUI=false].x-safari .section-designer-shown .center-panel:after {
+  display: none;
+}
+body[OldUI=false][is-main-header-visible="true"] .card-content-container:before {
+  content: "";
+  position: fixed;
+  width: 1px;
+  height: 100vh;
+  background-color: #e6e6e6;
+  margin-right: -6px;
+}
+body[OldUI=false].left-panel-collapsed .folders-container-wrapClass,
+body[OldUI=false].left-panel-collapsed .extended-filters-container-wrapClass {
+  right: 7.3em !important;
+}
+body[OldUI=false] .folders-container-wrapClass,
+body[OldUI=false] .extended-filters-container-wrapClass {
+  z-index: 1001;
+  background: #fff;
+}
+body[OldUI=false] [class*='grid-cols-'] {
+  padding-left: 20px;
+}
+body[OldUI=false] .scheduler-area {
+  padding-left: 2.8em;
+}
+body[OldUI=false] .UsersSectionV2 .utils-container-wrapClass {
+  z-index: 1000;
+}
+body[OldUI=false] .ts-controlgroup-container .control-width-15 .t-label {
+  font-size: 1.3em;
+}
+body[OldUI=false] .detail-edit-container-user-class span.detail-type-btn-inner-user-class {
+  font-size: 13px;
+}
+body[OldUI=false][is-card-opened=true] {
+  min-height: 100vh;
+}
+body[OldUI=false][is-card-opened=true] .center-panel {
+  min-height: 100vh;
+}
+body[OldUI=false] .main-header.fixed {
+  border-top: 6px solid #ebeeef;
+}
+body[OldUI=false] .main-header.fixed > div {
+  height: 100%;
+}
+body[OldUI=false] .center-panel {
+  position: relative;
+}
+body[OldUI=false] .center-panel .t-btn-no-text-padding.card-back-button {
+  margin-left: -2em;
+}
+body[OldUI=false] .center-panel .card-content-container {
+  display: flex;
+  overflow: hidden;
+  min-height: calc(100vh - 9.9em);
+  margin-bottom: -2em;
+  margin-left: -3em;
+  margin-right: 0;
+  width: calc(100% + 3em);
+  background-color: #ebeeef;
+  padding-left: 0.6em;
+  padding-top: 22px;
+  padding-bottom: 0.6em;
+  box-sizing: border-box;
+}
+body[OldUI=false] .center-panel .card-content-container .actions-container {
+  margin-left: -3em;
+  padding-left: 2em;
+  margin-top: -5.7em;
+  padding-top: 0;
+  height: 3.7em;
+  min-width: 0;
+  left: auto;
+  right: auto;
+}
+body[OldUI=false] .center-panel .card-content-container .page-header-container {
+  height: 1.3em;
+  margin-top: -1.9em;
+  margin-left: 0;
+  margin-bottom: 0.6em;
+  padding-left: 3em;
+  padding-right: 0.6em;
+  white-space: nowrap;
+  background-color: #fff;
+  border-bottom: 1px solid #d8d9d9;
+  color: #444;
+  position: fixed;
+  z-index: 1000;
+}
+body[OldUI=false] .center-panel .card-content-container .page-header-container > label:empty:before {
+  content: "...";
+}
+body[OldUI=false] .center-panel .card-content-container .page-header-container > * {
+  height: 0.65em;
+  line-height: 0.15em;
+  font-size: 2em;
+  text-overflow: ellipsis;
+}
+body[OldUI=false] .center-panel .card-content-container .left-modules-container {
+  flex-grow: 0;
+  display: table;
+}
+body[OldUI=false] .center-panel .card-content-container .left-modules-container > * {
+  width: 29.8em;
+  margin-right: 0.6em;
+}
+body[OldUI=false] .center-panel .card-content-container .left-modules-container > *:last-child {
+  margin-bottom: 0;
+}
+body[OldUI=false] .center-panel .card-content-container .center-main-container {
+  min-width: 43em;
+  max-width: none;
+  flex-grow: 1;
+}
+body[OldUI=false] .center-panel .card-content-container .center-main-container > *:last-child {
+  margin-bottom: 0;
+}
+body[OldUI=false] .center-panel .card-content-container .center-main-container .ts-tabpanel {
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -0.6em;
+}
+body[OldUI=false] .center-panel .card-content-container .center-main-container .ts-tabpanel .ts-tabpanel-wrap .ts-tabpanel-items li:first-child {
+  margin-left: 8px;
+}
+body[OldUI=false] .center-panel .card-content-container .center-main-container .ts-tabpanel .ts-tabpanel-wrap .ts-tabpanel-items li:last-child {
+  margin-right: 8px;
+}
+body[OldUI=false] .center-panel .designer .card-content-container {
+  min-height: 0;
+}
+body[OldUI=false] .center-panel .schema-wrap .action-buttons-container-wrapClass {
+  width: calc(100% - 21em - 5.6em);
+  min-width: calc(100% - 21em - 5.6em);
+}
+body[OldUI=false] .center-panel .schema-wrap.one-el .section-wrap .action-buttons-container-wrapClass {
+  padding-right: 0;
+  padding-bottom: 0em;
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
+  border-top: none;
+}
+body[OldUI=false] .center-panel .schema-wrap.two-el span[data-item-marker="ScrollTopBtn"] {
+  margin-top: -10px;
+}
+body[OldUI=false] .center-panel .schema-wrap.two-el .section-wrap .action-buttons-container-wrapClass {
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  padding-right: 0;
+  border-left: 1px solid #e6e6e6;
+}
+body[OldUI=false] .center-panel .schema-wrap.two-el .section-wrap .combined-action-buttons-container-wrapClass {
+  background-color: #ebeeef;
+  margin-left: 30px;
+}
+body[OldUI=false] .center-panel .schema-wrap.two-el .section-wrap .combined-action-buttons-section-container-wrapClass {
+  background-color: #fff;
+  width: 279px;
+  border-right: 1px solid #e6e6e6;
+  padding-bottom: 12px;
+  margin-left: -10px;
+}
+body[OldUI=false] .center-panel .schema-wrap.two-el .section-wrap .combined-action-buttons-card-container-wrapClass {
+  background-color: #fff;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+body[OldUI=false] .center-panel .schema-wrap.two-el .action-buttons-container-wrapClass,
+body[OldUI=false] .center-panel .schema-wrap.two-el .utils-container-wrapClass {
+  left: auto;
+}
+body[OldUI=false] .center-panel .schema-wrap.two-el .utils-container-wrapClass {
+  width: 299px;
+}
+body[OldUI=false] .center-panel .schema-wrap.two-el .combined-action-buttons-card-container-wrapClass {
+  right: 0;
+  left: 275px;
+  padding-left: 20px;
+}
+body[OldUI=false] .center-panel .schema-wrap.two-el .card-content-container {
+  padding-left: 0.6em;
+  margin-bottom: 0;
+}
+body[OldUI=false] .center-panel .schema-wrap.two-el .card-content-container .page-header-container {
+  margin-left: -0.6em;
+  padding-left: 0.6em;
+}
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .action-buttons-container-wrapClass {
+  height: auto;
+  margin-left: -3em;
+  min-height: 3.2em;
+}
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .utils-container-wrapClass {
+  box-sizing: border-box;
+  margin: 0;
+}
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .action-buttons-container-wrapClass,
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .utils-container-wrapClass,
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .section-header-container-wrapClass {
+  padding-left: 20px;
+  padding-right: 0.6em;
+  left: auto;
+  right: auto;
+}
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .two-el {
+  max-width: none;
+}
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .two-el .action-buttons-container-wrapClass,
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .two-el .utils-container-wrapClass {
+  max-width: none;
+  left: auto;
+}
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .content-container-wrapClass > .section.left-el {
+  top: 10.6em;
+}
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .content-container-wrapClass > .section .utils-container-wrapClass {
+  top: 9.4em;
+  padding-bottom: 0.3em;
+}
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .content-container-wrapClass .card.right-el {
+  padding-top: 3.5em;
+}
+body[OldUI=false] .center-panel .default-center-panel-content .actions-container {
+  left: auto;
+  margin-left: 0;
+  padding-left: 2em;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  border-radius: 0px 0px 3px 3px;
+  width: calc(100% - 21em - 5.6em);
+  min-width: calc(100% - 21em - 5.6em);
+}
+body[OldUI=false] .center-panel .default-center-panel-content .schema-wrap.one-el .card-content-container {
+  padding-left: 0;
+}
+body[OldUI=false] .center-panel .default-center-panel-content .schema-wrap.one-el .combined-action-buttons-container-wrapClass {
+  max-width: none;
+  margin-right: 0;
+}
+body[OldUI=false] .center-panel .default-center-panel-content .schema-wrap.two-el .combined-action-buttons-container-wrapClass {
+  max-width: none;
+  margin-right: 0;
+}
+body[OldUI=false] .center-panel .default-center-panel-content .schema-wrap.two-el .action-buttons-container-wrapClass,
+body[OldUI=false] .center-panel .default-center-panel-content .schema-wrap.two-el .utils-container-wrapClass {
+  max-width: none;
+}
+body[OldUI=false] .center-panel .default-center-panel-content .schema-wrap.two-el .combined-action-buttons-card-container-wrapClass {
+  right: 0;
+  left: 275px;
+}
+body[OldUI=false] .center-panel .default-center-panel-content .schema-wrap.two-el .card-content-container {
+  padding-left: 0.6em;
+}
+body[OldUI=false] .center-panel .center-panel-content .actions-container,
+body[OldUI=false] .center-panel .center-panel-content .action-buttons-container-wrapClass {
+  width: calc(100% - 21em - 41.3em);
+  min-width: calc(100% - 21em - 41.3em);
+  margin-left: 0;
+}
+body[OldUI=false] .center-panel .center-panel-content .actions-container .combined-action-buttons-container-wrapClass,
+body[OldUI=false] .center-panel .center-panel-content .action-buttons-container-wrapClass .combined-action-buttons-container-wrapClass {
+  max-width: none;
+  margin-right: 0;
+}
+body[OldUI=false] .center-panel .center-panel-content .actions-container .separate-action-buttons-container-wrapClass,
+body[OldUI=false] .center-panel .center-panel-content .action-buttons-container-wrapClass .separate-action-buttons-container-wrapClass {
+  margin-right: 0;
+}
+body[OldUI=false] .center-panel .action-buttons-container-wrapClass,
+body[OldUI=false] .center-panel .utils-container-wrapClass {
+  margin-left: -3em;
+  left: auto;
+}
+body[OldUI=false] .center-panel .action-buttons-container-wrapClass,
+body[OldUI=false] .center-panel .actions-container {
+  padding-bottom: 5em;
+  min-height: 3.2em;
+}
+body[OldUI=false] .before-grid-line {
+  height: 1px;
+  content: '';
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  display: block;
+  position: fixed;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+body[OldUI=false] .schema-wrap.one-el .custom-filter-button-container .t-btn-wrapper {
+  margin-right: 0;
+}
+body[OldUI=false] .schema-wrap.one-el .section-inner-wrap.one-el .grid.grid-tiled:not(.grid-empty):before {
+  height: 1px;
+  content: '';
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  display: block;
+  position: fixed;
+  z-index: 1000;
+  box-sizing: border-box;
+  margin-top: -0.1em;
+}
+body[OldUI=false] .data-views-with-folders-container-wrapClass .grid.grid-tiled:not(.grid-empty):before {
+  height: 1px;
+  content: '';
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  display: block;
+  position: fixed;
+  z-index: 1000;
+  box-sizing: border-box;
+  margin-top: -0.1em;
+}
+body[OldUI=false] div.default-center-panel-content .schema-wrap.two-el div.page-header-container {
+  width: calc(100% - 21em - 5.6em - 299px);
+}
+body[OldUI=false] div.center-panel-content {
+  margin-left: 36.7em;
+}
+body[OldUI=false] div.center-panel-content > .schema-wrap .card-content-container {
+  width: calc(100% + 3em);
+  border-left: 0;
+}
+body[OldUI=false] div.center-panel-content > .schema-wrap.one-el .card-content-container {
+  padding-right: 0;
+}
+body[OldUI=false] div.center-panel-content > .schema-wrap.two-el div.page-header-container {
+  width: calc(100% - 21em - 41.3em - 299px);
+}
+body[OldUI=false].left-panel-collapsed div.default-center-panel-content .schema-wrap.two-el div.page-header-container {
+  width: calc(100% - 7.2em - 5.6em - 299px);
+}
+body[OldUI=false].left-panel-collapsed div.default-center-panel-content .actions-container,
+body[OldUI=false].left-panel-collapsed div.default-center-panel-content .action-buttons-container-wrapClass {
+  width: calc(100% - 7.2em - 5.6em);
+  min-width: calc(100% - 7.2em - 5.6em);
+}
+body[OldUI=false].left-panel-collapsed div.center-panel-content .schema-wrap.two-el div.page-header-container {
+  width: calc(100% - 7.2em - 41.3em - 299px);
+}
+body[OldUI=false].left-panel-collapsed div.center-panel-content .actions-container,
+body[OldUI=false].left-panel-collapsed div.center-panel-content .action-buttons-container-wrapClass {
+  width: calc(100% - 7.2em - 41.3em);
+  min-width: calc(100% - 7.2em - 41.3em);
+}
+body[OldUI=false] .schema-wrap.two-el,
+body[OldUI=false] .schema-wrap.one-el .section-wrap,
+body[OldUI=false] .schema-wrap.one-el .card-content-container {
+  max-width: none;
+}
+body[OldUI=false].x-safari .center-main-container {
+  width: calc(100% - 30.4em);
+}
+body[OldUI=false] .schema-wrap.one-el .card-content-container {
+  max-width: none;
+  margin-top: 3.5em;
+}
+body[OldUI=false] .left-modules-container,
+body[OldUI=false] .center-main-container {
+  box-sizing: border-box;
+  float: right;
+  padding: 0;
+}
+body[OldUI=false] .left-modules-container:empty {
+  display: none;
+}
+body[OldUI=false] .left-modules-container .profile-container .image-edit-container {
+  padding-top: 0;
+  padding-bottom: 17px !important;
+}
+body[OldUI=false] .left-modules-container .profile-container .photo-timezone-container > div {
+  float: right;
+}
+body[OldUI=false] .left-modules-container .profile-container .photo-timezone-container .timezone-container {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+body[OldUI=false] .left-modules-container .profile-container .photo-timezone-container .image-edit-container {
+  padding-top: 0;
+  padding-bottom: 17px;
+}
+body[OldUI=false] .left-modules-container .profile-container.grid-layout .grid-layout-row .grid-layout-column > *:not(.grid-layout-spacer) {
+  padding-bottom: 8px;
+}
+body[OldUI=false] .center-main-container {
+  display: flex;
+  flex-direction: column;
+}
+body[OldUI=false] .center-main-container > *:last-child {
+  flex-grow: 1;
+}
+body[OldUI=false] .center-main-container > .grid-layout > * {
+  max-width: 140em;
+}
+body[OldUI=false] .center-main-container .actions-dashboard-content .social-message-module > *,
+body[OldUI=false] .center-main-container .actions-dashboard-content .call-message-module > *,
+body[OldUI=false] .center-main-container .actions-dashboard-content .email-message-module .layout-container {
+  max-width: 140em;
+}
+body[OldUI=false] .center-main-container > div,
+body[OldUI=false] .left-modules-container > div {
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  margin-bottom: 0.6em;
+}
+body[OldUI=false] .center-main-container > .header-container-margin-bottom {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+}
+body[OldUI=false] .center-main-container > .header-container-margin-bottom > * {
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  margin-bottom: 0.6em;
+}
+body[OldUI=false] .center-main-container > .header-container-margin-bottom > *:empty {
+  display: none;
+}
+body[OldUI=false] .designer .center-main-container > div,
+body[OldUI=false] .designer .center-main-container > .header-container-margin-bottom > * {
+  border: 0;
+}
+body[OldUI=false] .center-main-container > div:not(.dcm-actions-dashboard-container):empty,
+body[OldUI=false] .left-modules-container > div:not(.module-container):empty {
+  display: none;
+}
+body[OldUI=false] .center-main-container .action-dashboard-container,
+body[OldUI=false] .center-main-container .dcm-actions-dashboard-container {
+  background-color: #f4f5f7;
+}
+body[OldUI=false] .center-main-container .action-dashboard-container {
+  min-height: 192px;
+}
+body[OldUI=false] .center-main-container .action-dashboard-container[tab-panel-collapsed] {
+  min-height: 68px;
+}
+body[OldUI=false] .center-main-container .action-dashboard-container[actions-visible="true"],
+body[OldUI=false] .center-main-container .dcm-actions-dashboard-container {
+  min-height: 233px;
+}
+body[OldUI=false] .center-main-container .action-dashboard-container[actions-visible="true"][tab-panel-collapsed],
+body[OldUI=false] .center-main-container .dcm-actions-dashboard-container[tab-panel-collapsed] {
+  min-height: 109px;
+}
+body[OldUI=false] .card-content-container > .actions-container .right-container-wrapClass,
+body[OldUI=false] .combined-action-buttons-card-container-wrapClass > .combined-action-buttons-card-right-container-wrapClass,
+body[OldUI=false] .separate-action-buttons-right-container-wrapClass {
+  margin-left: 8px;
+}
+body[OldUI=false] .schema-wrap.two-el div.right-el {
+  right: 299px;
+}
+body[OldUI=false] div.wizard-container div.card-content-container,
+body[OldUI=false] div.designer div.card-content-container {
+  padding-top: 2em;
+}
+body[OldUI=false] div.wizard-container div.card-content-container div.page-header-container,
+body[OldUI=false] div.designer div.card-content-container div.page-header-container {
+  display: none;
+}
+body[OldUI=false] .center-main-container .label-wrap {
+  margin-left: 0;
+  padding-left: 14px;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup-container .detail-edit-container-user-class .label-wrap {
+  padding-left: 21px;
+}
+body[OldUI=false] .center-main-container .grid-layout-row {
+  max-width: 140em;
+}
+body[OldUI=false] .center-main-container .ts-controlgroup:not(.grid-detail) {
+  max-width: 140em;
+}
+body[OldUI=false] .center-main-container.campaign-card-content-container .header-container-margin-bottom .grid-layout-row,
+body[OldUI=false] .center-main-container.campaign-card-content-container .campaign-schema-block .grid-layout-row {
+  max-width: none;
+}
+body[OldUI=false] .default-center-panel-content .schema-wrap.one-el .combined-action-buttons-container-wrapClass {
+  max-width: none;
+}
+body[OldUI=false] div.schema-wrap div.SysAdminUnitSectionV2 div.combined-action-buttons-card-container-wrapClass {
+  right: 486px !important;
+}
+body[OldUI=false] .autofill-layout > .grid-layout-row > .grid-layout-column[id] {
+  width: 100% !important;
+}
+body[OldUI=false] .autofill-layout > .grid-layout-row > .grid-layout-column:not([id]) {
+  width: 0 !important;
+}
+body[OldUI=false] .header-caption-container-margin:empty {
+  display: none;
+}
+body[OldUI=false] .schema-wrap.one-el .google-integration-card-container.card-content-container .actions-container {
+  margin-top: -6.5em;
+}
+body[OldUI=false] .image-edit-container {
+  position: relative;
+}
+body[OldUI=false] .image-edit-container .ts-image-edit-full-size-element {
+  transform: translate(-50%, -50%);
+}
+body[OldUI=false] .caption-class {
+  padding-right: 20px;
+}
+body[OldUI=false] .left-panel-collapsed .action-buttons-container-wrapClass {
+  padding-right: 3em;
+}
+body[OldUI=false] .action-buttons-container-wrapClass {
+  padding-right: 3em;
+}
+body[OldUI=false] .utils-container-wrapClass {
+  padding-right: 3em;
+}
+body[OldUI=false] .schema-wrap .section.left-el .analytics-gridLayout-container .grid-listed-row {
+  padding-right: 30px;
+}
+body[OldUI=false] .grid-module,
+body[OldUI=false] .grid-row-actions {
+  padding-right: 21px;
+}
+body[OldUI=false] .two-el .utils-container-wrapClass + div .grid-pad:first-child:before {
+  display: none;
+}
+body[OldUI=false] .schema-wrap.two-el .utils-container-wrapClass {
+  border-bottom: 0;
+  overflow: hidden;
+}
+body[OldUI=false] .schema-wrap.two-el .filter-caption-value-container {
+  max-width: 240px;
+}
+body[OldUI=false] .default-center-panel-content {
+  padding-left: 0em;
+}
+/*--- PageDesigner ---*/
+
+body[OldUI=false] div.designer {
+  margin-top: 2.2em;
+}
+body[OldUI=false] div.designer > div.card-content-container {
+  margin-top: 0;
+  padding-top: 1em;
+  background-color: #ffffff;
+}
+body[OldUI=false] div.designer > div.card-content-container div.page-header-container {
+  display: none;
+}
+/*---End PageDesigner ---*/
+
+/*--- SectionDasboardsModule ---*/
+
+body[OldUI=false] div.center-panel div.dashboard-container div.content-container-wrapClass > div.section .utils-container-wrapClass {
+  top: 6.4em !important;
+}
+body[OldUI=false] div.center-panel div.dashboard-container.schema-wrap .ts-tabpanel {
+  padding-left: 7em;
+}
+body[OldUI=false] div.center-panel div.dashboard-container.schema-wrap .ts-tabpanel-tools {
+  padding-left: 0em;
+}
+body[OldUI=false] div.center-panel div.dashboard-container .card-content-container .module-container {
+  padding-top: 0;
+}
+body[OldUI=false] div.center-panel div.dashboard-container .module-container {
+  height: 100%;
+  width: 100%;
+  padding-right: 14px;
+  padding-top: 6px;
+}
+body[OldUI=false] div.center-panel div.dashboard-container #DashboardModule {
+  margin-right: 0;
+}
+body[OldUI=false] div.center-panel div.dashboard-container #DashboardsModuleContainer {
+  background-color: inherit;
+  margin-top: 8px;
+  padding-left: 14px;
+  padding-bottom: 14px;
+}
+/*--- End SectionDashboardsModule ---*/
+
+/*--- ViewModelSchemaDesignerModule ---*/
+
+body[OldUI=false] div.design-container-wrapClass {
+  padding-top: 108px;
+}
+body[OldUI=false] div.design-container-wrapClass #DesignedView {
+  padding-top: 0;
+}
+body[OldUI=false] div.design-container-wrapClass #DesignedView div.card-content-container {
+  padding-top: 2em;
+}
+body[OldUI=false] div.design-container-wrapClass #DesignedView div.card-content-container div.page-header-container {
+  display: none;
+}
+body[OldUI=false] div.design-container-wrapClass div.card-content-container {
+  margin-top: 0;
+}
+body[OldUI=false] .draggable-items-list {
+  top: 110px;
+  background-color: #fff;
+}
+/*--- End ViewModelSchemaDesignerModule ---*/
+
+/*--- LookupSectionModule ---*/
+
+body[OldUI=false] .schema-wrap.two-el .section-header-container-wrapClass {
+  display: none;
+}
+body[OldUI=false] .section-header-container-wrapClass {
+  background-color: #fff;
+  padding-right: 1em;
+  white-space: nowrap;
+  margin-top: -3.7em;
+  color: #444;
+  font-size: 2em;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+body[OldUI=false] .section-header-container-wrapClass > label {
+  font-size: 1em;
+}
+body[OldUI=false] .center-panel .schema-wrap.one-el .section-wrap .content-container-wrapClass .section-header-container-wrapClass + .utils-container-wrapClass {
+  top: 13em;
+}
+/*--- End LookupSectionModule ---*/
+
+body[OldUI=false] div.design-container-wrapClass {
+  padding-top: 108px;
+}
+body[OldUI=false] div.design-container-wrapClass #DesignedView {
+  padding-top: 0;
+}
+body[OldUI=false] div.design-container-wrapClass #DesignedView div.card-content-container {
+  padding-top: 2em;
+}
+body[OldUI=false] div.design-container-wrapClass #DesignedView div.card-content-container div.page-header-container {
+  display: none;
+}
+body[OldUI=false] div.design-container-wrapClass div.card-content-container {
+  margin-top: 0;
+}
+body[OldUI=false] .draggable-items-list {
+  top: 110px;
+  background-color: #fff;
+}
+.schema-wrap .card-content-container + * {
+  padding-top: 14px;
+  margin-top: 20px;
+}
+.schema-wrap .card-content-container + *:before {
+  top: 0;
+}
+.schema-wrap .card-content-container ~ * {
+  position: relative;
+  background: #fff;
+  padding-left: 20px;
+  overflow: visible;
+  padding-right: 0;
+}
+.schema-wrap .card-content-container ~ *:before {
+  content: "";
+  width: 1px;
+  background: #ebeeef;
+  position: absolute;
+  height: calc(100% + 2em);
+  right: -30px;
+}
+.schema-wrap .card-content-container.page-with-left-el ~ * {
+  padding-right: 300px;
+}
+.schema-wrap .card-content-container.page-with-left-el ~ *:before {
+  width: 305px;
+}
+.schema-wrap.two-el .card-content-container + * {
+  margin-top: 0;
+}
+.schema-wrap.two-el .card-content-container ~ *:before {
+  width: 7px;
+}
+.schema-wrap.two-el .card-content-container.page-with-left-el ~ *:before {
+  width: 311px;
+}
+.card-widget-grid-layout-item {
+  overflow: hidden;
+  padding-top: 6px;
+  padding-right: 14px;
+}
+.grid-layout > .grid-layout-row > *:first-child .card-widget-grid-layout-item {
+  padding-right: 0;
+}
+html[dir="rtl"] .center-main-container .grid-layout.collapse-empty-row .control-width-15 .label-wrap > * {
+  margin-bottom: 0.5em;
+}
+html[dir="rtl"] .center-panel-content {
+  margin-right: 0;
+}
+html[dir="rtl"] .custom-filter-button-container .t-btn-image {
+  margin-right: 0;
+}
+html[dir="rtl"] body[OldUI=false] div.center-panel-content > .schema-wrap.one-el .card-content-container {
+  padding-left: 0;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel.opened-right-panel .schema-wrap.two-el .combined-action-buttons-card-container-wrapClass {
+  left: 0;
+  right: 305px;
+  padding-right: 20px;
+  padding-left: 0;
+  margin-left: -33px;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel.opened-right-panel .schema-wrap.one-el .combined-action-buttons-container-wrapClass {
+  margin-left: 0;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel .default-center-panel-content .schema-wrap.two-el .combined-action-buttons-card-container-wrapClass {
+  right: 305px;
+  left: -37px;
+  padding-right: 20px;
+  padding-left: 0;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel .schema-wrap .section-wrap .action-buttons-container-wrapClass,
+html[dir="rtl"] body[OldUI=false] .center-panel .schema-wrap .section-wrap .utils-container-wrapClass,
+html[dir="rtl"] body[OldUI=false] .center-panel .schema-wrap .section-wrap .section-header-container-wrapClass {
+  padding-right: 20px;
+  padding-left: 0.6em;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel .schema-wrap .action-buttons-container-wrapClass {
+  margin-right: -3em;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel .schema-wrap.one-el .toggle-section-button > span {
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+  background-position: center;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel .schema-wrap.two-el .action-buttons-container-wrapClass {
+  padding-right: 0;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel .schema-wrap.two-el .toggle-section-button > span {
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  transform: scaleX(1);
+  background-position: -2px center;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel .schema-wrap.two-el .card-content-container {
+  padding-right: 0.6em;
+  padding-left: 0;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel .schema-wrap.two-el .section-wrap .combined-action-buttons-section-container-wrapClass {
+  border-right: none;
+  width: 298px;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel .schema-wrap.two-el .section-wrap .combined-action-buttons-section-container-wrapClass .t-btn-wrapper {
+  margin-right: 20px;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel .card-content-container {
+  left: 3em;
+}
+html[dir="rtl"] body[OldUI=false] .center-panel .card-content-container .left-modules-container > * {
+  margin-right: 0;
+  margin-left: 0.6em;
+}

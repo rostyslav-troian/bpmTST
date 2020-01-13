@@ -1,0 +1,72 @@
+﻿.ts-modalbox {
+  border-top: 3px solid;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  border-top-color: #64b8df;
+  position: fixed;
+  padding: 15px 5px 10px 5px;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 2000;
+}
+body.ts-modalbox-opened {
+  overflow: hidden;
+}
+.ts-modalbox-innerbox {
+  display: inline-block;
+}
+.ts-modalbox-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: alpha(opacity=0);
+  z-index: 2000;
+  background-color: #737CA1;
+  opacity: 0.3;
+}
+.ts-modalbox-center-position {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 98%;
+}
+.x-ie8 .ts-modalbox {
+  border-left: solid 1px #c2c6ce;
+  border-right: solid 1px #c2c6ce;
+  border-bottom: solid 1px #c2c6ce;
+}
+.x-ie8 .ts-modalbox-center-position {
+  display: table-cell;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.ts-modalbox::-webkit-scrollbar {
+  width: 12px;
+}
+.ts-modalbox::-webkit-scrollbar-thumb {
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  border-color: white;
+  background-color: #e2e2e2;
+}
+.ts-modalbox #labelContainer {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  white-space: pre-wrap;
+}
+.ts-modalbox #buttonContainer {
+  padding-left: 20px;
+}

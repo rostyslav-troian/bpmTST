@@ -1,0 +1,14 @@
+﻿.mobile-section-designer-button {
+  height: 28px;
+  padding-top: 5px;
+}
+.mobile-section-designer-arrow-button .t-btn-image {
+  width: 16px;
+}
+#grid-SectionDesignerModuleGrid-wrap {
+  min-width: 650px;
+  width: 50%;
+}
+.grid-designer-group-section-label {
+  font: normal 20px Segoe UI Light;
+}

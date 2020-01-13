@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="icon_re-entering_color_55px" transform="translate(-303 -60)">
+    <circle id="Ellipse_239" data-name="Ellipse 239" cx="27.5" cy="27.5" r="27.5" transform="translate(303 60)" fill="#63d691"/>
+    <g id="Group_2449" data-name="Group 2449" transform="translate(38 -87)">
+      <g id="Group_2432" data-name="Group 2432" transform="translate(-1180.008 -18.195)">
+        <path id="Path_1623" data-name="Path 1623" d="M1483.54,203.008c0-6.532-5.329-10.313-12.032-10.313s-12.031,4.125-12.031,10.313h24.063" fill="#fff"/>
+        <circle id="Ellipse_240" data-name="Ellipse 240" cx="5.672" cy="5.672" r="5.672" transform="translate(1465.836 178.429)" fill="#fff"/>
+        <path id="Path_1624" data-name="Path 1624" d="M1472.368,209.023V196.992h6.359l1.719,1.719h7.391v10.312Z" fill="#fff"/>
+      </g>
+      <path id="Path_1625" data-name="Path 1625" d="M1478.383,197.852l1.719,1.719h6.875v8.594h-13.75V197.852h5.156m.688-1.719h-7.563v13.75H1488.7V197.852h-7.907l-1.2-1.2Z" transform="translate(-1180.008 -18.195)" fill="#63d691"/>
+    </g>
+    <g id="Group_2435" data-name="Group 2435" transform="translate(-1142.008 -107.195)">
+      <path id="Path_1857" data-name="Path 1857" d="M1484.817,193.038a4.5,4.5,0,1,0-3.056-4.015" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_1858" data-name="Path 1858" d="M1479.254,188.773l2.5,3,2.5-3Z" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

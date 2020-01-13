@@ -1,0 +1,16 @@
+﻿body[OldUI=false] .schema-wrap.one-el .content-container-wrapClass .lookup-views-container-wrapClass {
+  padding-top: 6.8em;
+}
+body[OldUI=false] .schema-wrap.one-el .section-inner-wrap.one-el .lookup-content-block-section .grid.grid-tiled:not(.grid-empty):before {
+  margin-top: -0.2em;
+}
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .lookup-views-container-wrapClass .section-header-container-wrapClass {
+  margin-top: -1.8em;
+  padding-top: 0.2em;
+}
+body[OldUI=false] .center-panel .schema-wrap .section-wrap .content-container-wrapClass > .section .lookup-views-container-wrapClass .utils-container-wrapClass {
+  top: 13em;
+}
+.lookup-views-container-wrapClass .utils-container-wrapper-wrapClass {
+  margin-top: 0;
+}

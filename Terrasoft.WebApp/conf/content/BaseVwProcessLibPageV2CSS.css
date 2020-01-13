@@ -1,0 +1,12 @@
+﻿.tracing-process-property-container {
+  width: 220px;
+  display: inline-flex;
+}
+.tracing-process-property-container .tracing-info-button {
+  float: right;
+  margin: 0.3em;
+}
+.tracing-process-property-container .tracing-info-button .t-btn-image {
+  width: 26px;
+  height: 26px;
+}

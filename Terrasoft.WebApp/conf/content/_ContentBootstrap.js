@@ -1,0 +1,2 @@
+﻿define(["_ContentBootstrap"], function() {
+});

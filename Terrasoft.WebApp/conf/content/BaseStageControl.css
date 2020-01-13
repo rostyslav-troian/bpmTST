@@ -1,0 +1,101 @@
+﻿.stage-wrapper {
+  display: flex;
+  margin: 0 0 16px 0;
+  align-items: stretch;
+}
+.stage-item {
+  color: #fff;
+  font-size: 12px;
+  background-color: #bababa;
+  border-color: #bababa;
+  padding: 4px 0 4px 22px;
+  position: relative;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-width: 10px;
+  transition: min-width 0.2s ease;
+  flex-basis: 100%;
+}
+.stage-item:hover {
+  min-width: 150px;
+}
+.stage-item.stage-current {
+  color: #fff;
+  min-width: 150px;
+}
+.stage-item.stage-with-menu {
+  padding-right: 5px;
+}
+.stage-item .t-btn-menu {
+  position: static;
+  width: auto;
+  height: auto;
+}
+.stage-item .t-btn-menu .t-btn-marker {
+  margin-right: 2px;
+  margin-top: 12px;
+  border-top-color: white;
+}
+.stage-item .t-stage-text {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 0.2em;
+  line-height: normal;
+}
+.stage-item:first-child {
+  padding-left: 10px;
+  border-radius: 5px 0 0 5px;
+}
+.stage-item:last-child {
+  border-radius: 0 5px 5px 0;
+  padding-right: 10px;
+  text-overflow: clip;
+}
+.stage-item:last-child:after,
+.stage-item:last-child:before {
+  opacity: 0;
+}
+.stage-item:before,
+.stage-item:after {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+}
+.stage-item:after {
+  border-left-color: inherit;
+  border-width: 12px;
+  margin-top: -12px;
+}
+.stage-item:before {
+  border-color: rgba(255, 255, 255, 0);
+  border-left-color: #fff;
+  border-width: 14px;
+  margin-top: -14px;
+}
+.stage-item,
+.stage-item span {
+  cursor: not-allowed;
+}
+.stage-enabled,
+.stage-item.stage-enabled span {
+  cursor: pointer;
+}
+.stage-item:hover ~ .stage-not-passed {
+  background-color: #bababa !important;
+}
+.stage-item:hover ~ .stage-not-passed:after {
+  border-left-color: #bababa !important;
+}
+html[dir="rtl"] .stage-item:first-child {
+  border-radius: 0 5px 5px 0;
+}
+html[dir="rtl"] .stage-item:last-child {
+  border-radius: 5px 0 0 5px;
+}

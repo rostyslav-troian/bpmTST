@@ -1,0 +1,85 @@
+﻿.folder-manager-header {
+  margin-bottom: 0px;
+  width: 100%;
+}
+.folder-manager-header-name {
+  color: #444444;
+  font-size: 22px;
+  font-family: "Segoe UI Light";
+  letter-spacing: -0.01em;
+  text-align: right;
+  width: auto;
+}
+.folder-manager-main-buttons {
+  margin: 0 0 0 9px;
+  text-align: center;
+  background-color: #fff;
+  width: inherit;
+}
+.folder-manager-btn-wrapper {
+  padding-right: 0;
+}
+.folder-manager-button-container {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  margin-top: 10px;
+}
+.folder-manager-left-container {
+  width: 100%;
+  cursor: default;
+  padding-top: 1em;
+}
+.folder-manager-grid-captions {
+  margin-top: 0;
+}
+.folder-manager-button-right {
+  padding: 0;
+  position: absolute;
+  top: 22px;
+  left: 12px;
+  z-index: 1;
+}
+.folder-manager-left-container .grid-row-actions {
+  position: absolute;
+  left: 0;
+  padding: 0;
+  width: 60px;
+}
+.folder-menu-actions-icon,
+.folder-favorite-actions-icon {
+  display: inline-block;
+  padding: 0 !important;
+  height: 23px;
+  margin-left: 10px !important;
+}
+.grid-row-actions .t-btn-wrapper.folder-menu-actions-icon .t-btn-image {
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+  background-repeat: no-repeat;
+}
+.grid-row-actions .t-btn-wrapper.folder-favorite-actions-icon .t-btn-image {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  background-repeat: no-repeat;
+  background-size: 16px;
+}
+.folder-menu-actions-icon .t-btn-menuWrap,
+.folder-menu-actions-icon .t-btn-menu {
+  display: none;
+}
+.action-buttons-container-wrapClass {
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
+.folder-manager-left-container .grid-cols-22 {
+  padding-left: 20px;
+}
+.folder-manager-left-container .grid-fixed-col {
+  z-index: 995;
+}
+.folder-manager-left-container .grid-cols-22 span {
+  margin-top: 3px;
+  display: block;
+}

@@ -1,0 +1,18 @@
+﻿.x-actions-list.x-list .x-icon.cf-action-add-file-and-links {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MCA4MCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgODAgODAiPjxwYXRoIGQ9Im00NS40IDMwLjdsLTE1LjcgMTUuNGMtMi4zIDIuMy0uNiA1LjEgMCA1LjdzMy40IDIuMyA1LjcgMGwxOC44LTE4LjZjMi4zLTIuMyAyLjMtNi4zIDAtOC42LTIuMy0yLjMtNi4zLTIuMy04LjYgMGwtMjEuMyAyMS41YzAgMC0zLjQgNS43LjkgOS43IDQuMyA0LjMgOC4zIDMuNCAxMS43IDBzMTcuMS0xNy4xIDE3LjEtMTcuMSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIvPjwvc3ZnPg==);
+  background-color: #00b0ff;
+}
+.x-field-without-label {
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+}
+.x-field-without-label.x-field-select .x-component-outer::after {
+  margin-top: 0;
+}
+.ts-grid-list .x-list-item.x-list-item-tpl {
+  padding: 0 7px;
+}
+.ts-grid-list .x-list-item.x-list-item-tpl .x-innerhtml {
+  padding: 14px 7px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}

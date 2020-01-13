@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Factory="System.ServiceModel.Activation.WebServiceHostFactory" 
+  Service="Terrasoft.Core.ServiceModel.ChangeLogService" CodeBehind="ChangeLogService.svc.cs" %>

@@ -1,0 +1,57 @@
+﻿.cf-social-channel-combobox {
+  min-height: 50px;
+  padding-top: 13px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+  background-color: #FAFAFA;
+}
+.cf-social-channel-combobox .x-field-input {
+  background-color: transparent;
+}
+.cf-social-channel-combobox .x-component-outer::after {
+  margin-top: 0px !important;
+}
+#SocialMessageEditPage .x-record-container .x-scroll-scroller-vertical > .x-container {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#SocialMessageEditPage .x-edit-panel .x-form-fieldset:first-child {
+  margin-top: 0px;
+  margin-right: 54px;
+}
+#SocialMessageEditPage .x-dock.x-dock-horizontal.x-sized {
+  background-color: white;
+}
+#SocialMessageEditPage .x-field .x-form-label {
+  visibility: hidden;
+}
+#SocialMessageEditPage .x-form-fieldset {
+  border: 0;
+}
+.x-button.cf-social-message-edit-owner-image {
+  position: absolute;
+  margin-right: 14px;
+  top: 13px;
+}
+.x-button.cf-social-message-edit-owner-image,
+.x-button.cf-social-message-edit-owner-image > .x-button-icon {
+  min-height: 40px;
+  height: 40px;
+  width: 40px;
+}
+.x-button.cf-social-message-edit-owner-image.cf-social-message-owner-default-image .x-button-icon {
+  background-size: 40px;
+  border: 1px solid #C8C8C8;
+}
+.x-button.cf-social-message-edit-owner-image .x-button-icon {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+}
+.cf-social-message-edit-owner-image .x-button-icon {
+  background-size: cover;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+#SocialMessageEditPage .x-form-fieldset {
+  box-shadow: none;
+}

@@ -1,0 +1,571 @@
+<!doctype html>
+<html>
+	<meta charset="utf-8">
+	<head>
+		<link rel="stylesheet" href="grid24-1.css">
+		<style>
+			body {
+				margin: 0px;
+				padding: 10px 25px;
+				height: 100%;
+			}
+
+			img {
+				border: 0px;
+			}
+
+			/*
+			[class*='grid-cols-'] { outline: 1px solid #adff2f; }
+			.grid-fixed-col { background-color: #eeeeee; }
+			.grid { outline: 1px solid red; }
+			*/
+		</style>
+	</head>
+	<body>
+
+		<div class="grid">
+			<div class="grid-listed-row grid-captions">
+				<div class="grid-cols-10"><label>Название</label></div>
+				<div class="grid-cols-8"><label>Основной контакт</label></div>
+				<div class="grid-cols-6"><label>Ответственный</label></div>
+			</div>
+			<div class="grid-listed-row">
+				<div class="grid-cols-10"><img src="minus.png" style="float: left; margin-right: 12px;"><img src="checkbox-unchecked.png" style="float: left; margin-right: 12px;">Alfa</div>
+				<div class="grid-cols-8">Timothy Sawyer</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-11069-22x22.png" class="grid-listed-icon-22x22">
+					Jhon Best
+				</div>
+			</div>
+			<div class="grid-listed-row grid-row-selected">
+				<div class="grid-cols-10" style="padding-left: 32px;"><img src="plus.png" style="float: left; margin-right: 12px;"><img src="checkbox-checked.png" style="float: left; margin-right: 12px;">Alfa-business</div>
+				<div class="grid-cols-8">Taylor P. Johnson</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-12053-22x22.png" class="grid-listed-icon-22x22">
+					Helen Hall
+				</div>
+			</div>
+			<div class="grid-listed-row grid-row-selected">
+				<div class="grid-cols-10" style="padding-left: 32px;"><img src="minus.png" style="float: left; margin-right: 12px;"><img src="checkbox-checked.png" style="float: left; margin-right: 12px;">Alfa-trade</div>
+				<div class="grid-cols-8">James Smith</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-11069-22x22.png" class="grid-listed-icon-22x22">
+					Richard Clayton
+				</div>
+			</div>
+			<div class="grid-listed-row">
+				<div class="grid-cols-10" style="padding-left: 64px;"><img src="plus.png" style="float: left; margin-right: 12px;"><img src="checkbox-unchecked.png" style="float: left; margin-right: 12px;">Beta alfa</div>
+				<div class="grid-cols-8">Jane Russel</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-empty-22x22.png" class="grid-listed-icon-22x22">
+					Alfred Cambbell
+				</div>
+			</div>
+			<div class="grid-listed-row">
+				<div class="grid-cols-10"><img src="plus.png" style="float: left; margin-right: 12px;"><img src="checkbox-unchecked.png" style="float: left; margin-right: 12px;">Company alfa</div>
+				<div class="grid-cols-8">Jason Robinson</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-11069-22x22.png" class="grid-listed-icon-22x22">
+					Emily V. Cook
+				</div>
+			</div>
+		</div>
+
+		<div align="center"><h1><br><br><br></h1></div>
+
+		<div class="grid">
+			<div class="grid-listed-row grid-captions">
+				<div class="grid-cols-10"><label>Название</label></div>
+				<div class="grid-cols-8"><label>Основной контакт</label></div>
+				<div class="grid-cols-6"><label>Ответственный</label></div>
+			</div>
+			<div class="grid-listed-row">
+				<div class="grid-cols-10"><img src="minus.png" style="float: left; margin-right: 12px;">Alfa</div>
+				<div class="grid-cols-8">Timothy Sawyer</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-11069-22x22.png" class="grid-listed-icon-22x22">
+					Jhon Best
+				</div>
+			</div>
+			<div class="grid-listed-row grid-row-selected">
+				<div class="grid-cols-10" style="padding-left: 32px;"><img src="plus.png" style="float: left; margin-right: 12px;">Alfa-business</div>
+				<div class="grid-cols-8">Taylor P. Johnson</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-12053-22x22.png" class="grid-listed-icon-22x22">
+					Helen Hall
+				</div>
+			</div>
+			<div class="grid-listed-row grid-row-selected">
+				<div class="grid-cols-10" style="padding-left: 32px;"><img src="plus.png" style="float: left; margin-right: 12px;">Alfa-trade</div>
+				<div class="grid-cols-8">James Smith</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-11069-22x22.png" class="grid-listed-icon-22x22">
+					Richard Clayton
+				</div>
+			</div>
+			<div class="grid-listed-row">
+				<div class="grid-cols-10"><img src="plus.png" style="float: left; margin-right: 12px;">Beta alfa</div>
+				<div class="grid-cols-8">Jane Russel</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-empty-22x22.png" class="grid-listed-icon-22x22">
+					Alfred Cambbell
+				</div>
+			</div>
+			<div class="grid-listed-row">
+				<div class="grid-cols-10"><img src="plus.png" style="float: left; margin-right: 12px;">Company alfa</div>
+				<div class="grid-cols-8">Jason Robinson</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-11069-22x22.png" class="grid-listed-icon-22x22">
+					Emily V. Cook
+				</div>
+			</div>
+		</div>
+
+		<div align="center"><h1><br><br><br></h1></div>
+
+		<div class="grid">
+			<div class="grid-listed-row grid-captions">
+				<div class="grid-cols-10"><label>Название</label></div>
+				<div class="grid-cols-8"><label>Основной контакт</label></div>
+				<div class="grid-cols-6"><label>Ответственный</label></div>
+			</div>
+			<div class="grid-listed-row">
+				<div class="grid-cols-10"><img src="checkbox-unchecked.png" style="float: left; margin-right: 12px;">Alfa</div>
+				<div class="grid-cols-8">Timothy Sawyer</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-11069-22x22.png" class="grid-listed-icon-22x22">
+					Jhon Best
+				</div>
+			</div>
+			<div class="grid-listed-row grid-row-selected">
+				<div class="grid-cols-10"><img src="checkbox-checked.png" style="float: left; margin-right: 12px;">Alfa-business</div>
+				<div class="grid-cols-8">Taylor P. Johnson</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-12053-22x22.png" class="grid-listed-icon-22x22">
+					Helen Hall
+				</div>
+			</div>
+			<div class="grid-listed-row grid-row-selected">
+				<div class="grid-cols-10"><img src="checkbox-checked.png" style="float: left; margin-right: 12px;">Alfa-trade</div>
+				<div class="grid-cols-8">James Smith</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-11069-22x22.png" class="grid-listed-icon-22x22">
+					Richard Clayton
+				</div>
+			</div>
+			<div class="grid-listed-row grid-row-selected">
+				<div class="grid-cols-10"><img src="checkbox-unchecked.png" style="float: left; margin-right: 12px;">Beta alfa</div>
+				<div class="grid-cols-8">Jane Russel</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-empty-22x22.png" class="grid-listed-icon-22x22">
+					Alfred Cambbell
+				</div>
+			</div>
+			<div class="grid-listed-row">
+				<div class="grid-cols-10"><img src="checkbox-unchecked.png" style="float: left; margin-right: 12px;">Company alfa</div>
+				<div class="grid-cols-8">Jason Robinson</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-11069-22x22.png" class="grid-listed-icon-22x22">
+					Emily V. Cook
+				</div>
+			</div>
+		</div>
+
+		<div align="center"><h1><br><br><br></h1></div>
+
+		<div class="grid grid-listed">
+			<div class="grid-listed-row grid-captions">
+				<div class="grid-cols-10"><label>Название</label></div>
+				<div class="grid-cols-8"><label>Основной контакт</label></div>
+				<div class="grid-cols-6"><label>Ответственный</label></div>
+			</div>
+			<div class="grid-listed-row">
+				<div class="grid-cols-10">Alfa</div>
+				<div class="grid-cols-8">Timothy Sawyer</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-11069-22x22.png" class="grid-listed-icon-22x22">
+					Jhon Best
+				</div>
+			</div>
+			<div class="grid-listed-row grid-row-selected">
+				<div class="grid-cols-10">Alfa-business</div>
+				<div class="grid-cols-8">Taylor P. Johnson</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-12053-22x22.png" class="grid-listed-icon-22x22">
+					Helen Hall
+				</div>
+			</div>
+			<div class="grid-listed-row">
+				<div class="grid-cols-10">Alfa-trade</div>
+				<div class="grid-cols-8">James Smith</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-11069-22x22.png" class="grid-listed-icon-22x22">
+					Richard Clayton
+				</div>
+			</div>
+			<div class="grid-listed-row">
+				<div class="grid-cols-10">Beta alfa</div>
+				<div class="grid-cols-8">Jane Russel</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-empty-22x22.png" class="grid-listed-icon-22x22">
+					Alfred Cambbell
+				</div>
+			</div>
+			<div class="grid-listed-row">
+				<div class="grid-cols-10">Company alfa</div>
+				<div class="grid-cols-8">Jason Robinson</div>
+				<div class="grid-cols-6 grid-listed-icon-spacer-22x22">
+					<img src="photo-11069-22x22.png" class="grid-listed-icon-22x22">
+					Emily V. Cook
+				</div>
+			</div>
+		</div>
+
+		<div align="center"><h1><br><br><br></h1></div>
+
+		<div class="grid grid-tiled-selectable">
+			<div class="grid-row grid-pad">
+				<div class="grid-fixed-col"><img src="checkbox-unchecked.png"></div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-24 grid-header icon-spacer-22x22">
+						<img src="icon-phone-22x22.png" class="grid-icon-22x22">
+						Контрольный звонок клиенту, узнать ситуацию о финансировании отдела
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-9 icon-spacer-32x32">
+						<img src="photo-11069-32x32.png" class="grid-icon-32x32">
+						<label>Ответственный</label>
+						Евгений Мирный
+					</div>
+					<div class="grid-cols-5">
+						<label>Дата начала</label>
+						26.09.2012 19:30
+					</div>
+					<div class="grid-cols-5">
+						<label>Приоритет</label>
+						Нормальный
+					</div>
+					<div class="grid-cols-5">
+						<label>Состояние</label>
+						В работе
+					</div>
+				</div>
+			</div>
+			<div class="grid-row grid-row-selected grid-pad grid-top-line">
+				<div class="grid-fixed-col"><img src="checkbox-checked.png"></div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-24 grid-header icon-spacer-22x22">
+						<img src="icon-letter-22x22.png" class="grid-icon-22x22">
+						Предложить клиенту референсную встречу
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-9 icon-spacer-32x32">
+						<img src="photo-12053-32x32.png" class="grid-icon-32x32">
+						<label>Ответственный</label>
+						Светлана Филимонова
+					</div>
+					<div class="grid-cols-5">
+						<label>Дата начала</label>
+						25.09.2012 12:30
+					</div>
+					<div class="grid-cols-5">
+						<label>Приоритет</label>
+						Нормальный
+					</div>
+					<div class="grid-cols-5">
+						<label>Состояние</label>
+						Отменена
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-9">
+						<label>Результат</label>
+						Отменена
+					</div>
+					<div class="grid-cols-15">
+						<label>Результат подробно</label>
+						Отменена в связи с отсутствием необходимости. Клиент принял решение в нашу пользу.
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-6">
+						<label>Контрагент</label>
+						Альфабизнес
+					</div>
+					<div class="grid-cols-6">
+						<label>Контакт</label>
+						Вячеслав Носов
+					</div>
+					<div class="grid-cols-6">
+						<label>Страна</label>
+						<img src="flag-spain-16x16.png" class="grid-flag-icon-16x16">
+						Испания
+					</div>
+					<div class="grid-cols-6">
+						<label>Воздействие</label>
+						Выставка
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-24">
+						<label>Продажа</label>
+						101/Альфабизнес/Комплексная продажа
+					</div>
+				</div>
+			</div>
+			<div class="grid-row grid-pad grid-top-line">
+				<div class="grid-fixed-col"><img src="checkbox-unchecked.png"></div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-24 grid-header icon-spacer-22x22">
+						<img src="icon-phone-22x22.png" class="grid-icon-22x22">
+						Предложить клиенту референсную встречу
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-9 icon-spacer-32x32">
+						<img src="photo-12053-32x32.png" class="grid-icon-32x32">
+						<label>Ответственный</label>
+						Светлана Филимонова
+					</div>
+					<div class="grid-cols-5">
+						<label>Дата начала</label>
+						25.09.2012 12:30
+					</div>
+					<div class="grid-cols-5">
+						<label>Приоритет</label>
+						Нормальный
+					</div>
+					<div class="grid-cols-5">
+						<label>Состояние</label>
+						Выполнена
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-9">
+						<label>Результат</label>
+						Договорились о встрече
+					</div>
+					<div class="grid-cols-15">
+						<label>Результат подробно</label>
+						Договорились провести встречу на следующей неделе
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div align="center"><h1><br><br><br></h1></div>
+
+		<div class="grid grid-tiled">
+			<div class="grid-row grid-pad">
+				<div class="grid-row grid-module">
+					<div class="grid-cols-24 grid-header icon-spacer-22x22">
+						<img  src="icon-phone-22x22.png" class="grid-icon-22x22">
+						Контрольный звонок клиенту, узнать ситуацию о финансировании отдела
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-9 icon-spacer-32x32">
+						<img src="photo-11069-32x32.png" class="grid-icon-32x32">
+						<label>Ответственный</label>
+						Евгений Мирный
+					</div>
+					<div class="grid-cols-5">
+						<label>Дата начала</label>
+						26.09.2012 19:30
+					</div>
+					<div class="grid-cols-5">
+						<label>Приоритет</label>
+						Нормальный
+					</div>
+					<div class="grid-cols-5">
+						<label>Состояние</label>
+						В работе
+					</div>
+				</div>
+			</div>
+			<div class="grid-row grid-row-selected grid-pad grid-top-line">
+				<div class="grid-row grid-module">
+					<div class="grid-cols-24 grid-header icon-spacer-22x22">
+						<img src="icon-letter-22x22.png" class="grid-icon-22x22">
+						Предложить клиенту референсную встречу
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-9 icon-spacer-32x32">
+						<img src="photo-12053-32x32.png" class="grid-icon-32x32">
+						<label>Ответственный</label>
+						Светлана Филимонова
+					</div>
+					<div class="grid-cols-5">
+						<label>Дата начала</label>
+						25.09.2012 12:30
+					</div>
+					<div class="grid-cols-5">
+						<label>Приоритет</label>
+						Нормальный
+					</div>
+					<div class="grid-cols-5">
+						<label>Состояние</label>
+						Отменена
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-9">
+						<label>Результат</label>
+						Отменена
+					</div>
+					<div class="grid-cols-15">
+						<label>Результат подробно</label>
+						Отменена в связи с отсутствием необходимости. Клиент принял решение в нашу пользу.
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-6">
+						<label>Контрагент</label>
+						Альфабизнес
+					</div>
+					<div class="grid-cols-6">
+						<label>Контакт</label>
+						Вячеслав Носов
+					</div>
+					<div class="grid-cols-6">
+						<label>Страна</label>
+						<img src="flag-spain-16x16.png" class="grid-flag-icon-16x16">
+						Испания
+					</div>
+					<div class="grid-cols-6">
+						<label>Воздействие</label>
+						Выставка
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-24">
+						<label>Продажа</label>
+						101/Альфабизнес/Комплексная продажа
+					</div>
+				</div>
+			</div>
+			<div class="grid-row grid-pad grid-top-line">
+				<div class="grid-row grid-module">
+					<div class="grid-cols-24 grid-header icon-spacer-22x22">
+						<img src="icon-phone-22x22.png" class="grid-icon-22x22">
+						Предложить клиенту референсную встречу
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-9 icon-spacer-32x32">
+						<img src="photo-12053-32x32.png" class="grid-icon-32x32">
+						<label>Ответственный</label>
+						Светлана Филимонова
+					</div>
+					<div class="grid-cols-5">
+						<label>Дата начала</label>
+						25.09.2012 12:30
+					</div>
+					<div class="grid-cols-5">
+						<label>Приоритет</label>
+						Нормальный
+					</div>
+					<div class="grid-cols-5">
+						<label>Состояние</label>
+						Выполнена
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-9">
+						<label>Результат</label>
+						Договорились о встрече
+					</div>
+					<div class="grid-cols-15">
+						<label>Результат подробно</label>
+						Договорились провести встречу на следующей неделе
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div align="center"><h1><br><br><br></h1></div>
+
+		<div class="grid grid-hierarchical">
+			<div class="grid-row grid-pad">
+				<div class="grid-fixed-col"><img src="minus.png"></div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-24 grid-header">
+						Логистика
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-12">
+						<label>Руководитель</label>
+						Равенская Ольга
+					</div>
+					<div class="grid-cols-12">
+						<label>Родительский департамент</label>
+						Производство
+					</div>
+				</div>
+				<div class="grid-row">
+					<div class="grid-row grid-pad grid-top-line">
+						<div class="grid-fixed-col"><img src="plus.png" class="icon"></div>
+						<div class="grid-row grid-module">
+							<div class="grid-cols-24 grid-header">
+								Логистика
+							</div>
+						</div>
+						<div class="grid-row grid-module">
+							<div class="grid-cols-12">
+								<label>Руководитель</label>
+								Пинков Вячеслав
+							</div>
+							<div class="grid-cols-12">
+								<label>Родительский департамент</label>
+								Производство
+							</div>
+						</div>
+					</div>
+					<div class="grid-row grid-pad grid-top-line">
+						<div class="grid-fixed-col"></div>
+						<div class="grid-row grid-module">
+							<div class="grid-cols-24 grid-header">
+								Производство
+							</div>
+						</div>
+						<div class="grid-row grid-module">
+							<div class="grid-cols-12">
+								<label>Руководитель</label>
+								Филин Сергей
+							</div>
+							<div class="grid-cols-12">
+								<label>Родительский департамент</label>
+								Производство
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="grid-row grid-pad grid-top-line">
+				<div class="grid-fixed-col"><img src="plus.png" class="icon"></div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-24 grid-header">
+						Производственный департамент
+					</div>
+				</div>
+				<div class="grid-row grid-module">
+					<div class="grid-cols-12">
+						<label>Руководитель</label>
+						Равенская Ольга
+					</div>
+					<div class="grid-cols-12">
+						<label>Родительский департамент</label>
+						Производство
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div align="center"><h1><br><br><br></h1></div>
+
+	</body>
+</html>

@@ -1,0 +1,30 @@
+﻿.common-filter-container {
+  margin: 0.4em 0;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 30px;
+  width: 100%;
+}
+.common-filter-calendar-wrapper-class {
+  padding-top: 0.4em;
+  padding-left: 0;
+  padding-right: 1.7143em;
+}
+.common-filter-calendar-image-class {
+  width: 1.43em;
+  height: 1.429em;
+}
+.common-filter-remove-wrapper-class {
+  padding: 0.35em;
+  padding-bottom: 0.3em;
+  position: relative;
+  top: 5px;
+}
+.common-filter-caption-class {
+  color: #999999;
+  margin-right: 2px;
+  vertical-align: top;
+  top: 0.15em;
+  position: relative;
+  width: auto;
+}

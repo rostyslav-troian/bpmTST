@@ -1,0 +1,56 @@
+﻿.tracking-merge-container {
+  display: inline-block;
+  height: 100%;
+  min-width: 600px;
+}
+.tracking-merge-container .header {
+  display: inline-block;
+  width: 100%;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.tracking-merge-container .header .header-label {
+  font-family: "Segoe UI Light";
+  color: #64b8df;
+  font-size: 2.2em;
+  letter-spacing: -0.01em;
+  margin-bottom: 5px;
+}
+.tracking-merge-container .header .description-label {
+  color: #999999;
+  font-size: 15px;
+}
+.tracking-merge-container .header .close-btn {
+  position: absolute;
+  left: 0.5em;
+  top: 11px;
+}
+.tracking-merge-container .content {
+  margin: 20px 10px 0 10px;
+  border: 1px solid #c8c8c8 !important;
+}
+.tracking-merge-container .content .grid-layout-row div[id*="-odd"] {
+  background-color: #f7f7f7;
+}
+.tracking-merge-container .content .column-header {
+  border-bottom: 1px solid #e1e8d2;
+}
+.tracking-merge-container .content .column-header .t-label {
+  width: 100%;
+  margin-right: 29px;
+  color: #999999;
+  font-size: 13px;
+}
+.tracking-merge-container .content .radio-button-container .t-label {
+  padding-top: 2px;
+}
+.tracking-merge-container .footer {
+  bottom: 25px;
+  position: absolute;
+  width: 100%;
+  padding-left: 10px;
+}
+.tracking-merge-container .footer .t-btn-wrapper {
+  float: left;
+  margin: 0 0 0 9px;
+}

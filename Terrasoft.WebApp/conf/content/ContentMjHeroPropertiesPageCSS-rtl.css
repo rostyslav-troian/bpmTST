@@ -1,0 +1,58 @@
+﻿.right-panel-container *[data-item-type="mjhero"][data-page-exists="true"] .properties-header,
+.right-panel-container *[data-item-type="mjhero"][data-page-exists="true"] .properties-content .ts-tabpanel {
+  background-color: #c5cc5f;
+}
+.right-panel-container *[data-item-type="mjhero"][data-page-exists="true"] .ts-controlgroup-caption-wrap > span {
+  color: #c5cc5f;
+}
+.right-panel-container *[data-item-type="mjhero"][data-page-exists="true"] .background-label-wrapper > label {
+  color: #c5cc5f;
+}
+.right-panel-container *[data-item-type="mjhero"][data-page-exists="true"] .properties-content > *:first-child {
+  height: 100%;
+  margin-top: 0;
+  padding-bottom: 0;
+}
+.right-panel-container *[data-item-type="mjhero"][data-page-exists="true"] .base-edit-with-clear-icon[data-item-marker="BackgroundImage"]:not(.clear-icon-not-visible):hover .base-edit-input {
+  padding-left: 0;
+}
+.right-panel-container *[data-item-type="mjhero"][data-page-exists="true"] .base-edit-with-clear-icon[data-item-marker="BackgroundImage"] .base-edit-clear-icon {
+  left: 0;
+}
+.content-properties-container .mjhero-properties-container {
+  box-sizing: border-box;
+  height: 100%;
+}
+.content-properties-container .mjhero-properties-container .ts-controlgroup .ts-controlgroup-marker-wrap {
+  display: none;
+}
+.content-properties-container .mjhero-properties-container .ts-controlgroup .ts-controlgroup-caption-wrap {
+  pointer-events: none;
+}
+.content-properties-container .mjhero-properties-container .size-control-group {
+  overflow: visible;
+}
+.content-properties-container .mjhero-properties-container .background-properties-grid .align-label {
+  display: flex;
+  padding: 5px 0;
+  font-size: 1.3em;
+  color: #999999;
+}
+.content-properties-container .mjhero-properties-container .background-properties-grid .grid-layout-row {
+  display: table;
+  table-layout: fixed;
+  min-height: 100%;
+}
+.content-properties-container .mjhero-properties-container .background-properties-grid .grid-layout-column {
+  display: table-cell;
+  vertical-align: bottom;
+  min-height: 100%;
+  float: none;
+}
+.content-properties-container .mjhero-properties-container .background-properties-grid .control-wrap {
+  flex-basis: auto;
+}
+.content-properties-container .mjhero-properties-container .background-properties-grid .content-builder-align-container {
+  flex-direction: column;
+  align-items: initial;
+}

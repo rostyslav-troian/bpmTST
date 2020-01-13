@@ -1,0 +1,12 @@
+﻿.isActive-filter-container-wrapClass {
+  float: right;
+}
+.isActive-filter-container-wrapClass .label-wrap {
+  float: left;
+  min-width: 0;
+  width: auto;
+  margin: 0.2em 1em;
+}
+.isActive-filter-container-wrapClass .label-wrap .t-label {
+  color: #333;
+}

@@ -1,0 +1,340 @@
+﻿.formula-modal-box {
+  box-sizing: border-box;
+  width: calc(100% - 356px) !important;
+  height: 100% !important;
+  margin-right: 1px;
+  min-width: inherit !important;
+  min-height: inherit !important;
+  max-width: 1280px !important;
+  max-height: 800px !important;
+  display: block;
+}
+.formula-modal-box .grid-listed-row .grid-fixed-col {
+  margin-top: 8px;
+}
+.formula-modal-box .ts-modalbox-innerbox {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.formula-modal-box .ts-modalbox-innerbox > .schema-wrap.one-el {
+  width: 100%;
+  height: 100%;
+  padding-right: 19px;
+  padding-left: 19px;
+  padding-bottom: 15px;
+}
+.formula-modal-box .ts-modalbox-innerbox div[data-item-marker=ProcessParameterSelectionPageContainer] .controls-container-modal-page,
+.formula-modal-box .ts-modalbox-innerbox div[data-item-marker=DcmParameterSelectionPageContainer] .controls-container-modal-page {
+  padding-top: 0;
+}
+.formula-modal-box .modal-page-fixed-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 83px;
+}
+.formula-modal-box .modal-page-fixed-container .header {
+  position: absolute;
+  top: 4px;
+}
+.formula-modal-box .modal-page-fixed-container .header .header-name-container .t-label {
+  color: #00aeef;
+  font-size: 20px;
+  letter-spacing: inherit;
+}
+.formula-modal-box .modal-page-fixed-container .close-btn-user-class {
+  position: absolute;
+  left: -12px;
+  top: 9px;
+}
+.formula-modal-box .modal-page-fixed-container .utils-container-modal-page {
+  position: absolute;
+  top: 53px;
+  right: 0;
+}
+.formula-modal-box .modal-page-fixed-container .utils-buttons {
+  margin: 0 0 0 9px;
+  height: 30px;
+}
+.formula-modal-box .modal-page-fixed-container .utils-buttons.t-btn-style-blue {
+  line-height: 18px;
+}
+.formula-modal-box .modal-page-fixed-container .formula-help-button {
+  position: absolute;
+  top: 53px;
+  left: 0;
+  padding: 0.33em;
+  padding-right: 3em !important;
+}
+.formula-modal-box .modal-page-fixed-container .formula-help-button .formula-help-button-text {
+  font-size: 14px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 100px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page ::-webkit-input-placeholder {
+  opacity: 1;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page :-moz-placeholder {
+  opacity: 1;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page ::-moz-placeholder {
+  opacity: 1;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page :-ms-input-placeholder {
+  opacity: 1;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .formula-edit-control {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: 89px;
+  border: 1px solid #ebebeb;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .formula-edit-control .control-wrap {
+  height: 100%;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .formula-edit-control .control-wrap .base-edit.memo-edit-core {
+  height: 100%;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .formula-edit-control .control-wrap .base-edit.memo-edit-core.base-edit:not(.base-edit-focus) {
+  border: 1px solid white;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .formula-edit-control .control-wrap .base-edit.memo-edit-core.base-edit:not(.base-edit-focus):hover {
+  border: 1px solid white;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .formula-edit-control .control-wrap .base-edit.memo-edit-core .base-edit-input.memo-edit-area {
+  font-size: 13px;
+  padding-top: 9px;
+  padding-bottom: 3px;
+  overflow: auto;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 61px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .ts-tabpanel {
+  position: absolute;
+  top: 29px;
+  width: 100%;
+  height: 2.3em;
+  font-size: 14px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .ts-tabpanel .ts-tabpanel-wrap .ts-tabpanel-items > li {
+  font-family: inherit;
+  font-size: inherit;
+  margin-right: 30px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .ts-tabpanel .ts-tabpanel-wrap .ts-tabpanel-items > li:first-child {
+  margin-right: 0;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .ts-tabpanel .ts-tabpanel-wrap .ts-tabpanel-scroll-left,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .ts-tabpanel .ts-tabpanel-wrap .ts-tabpanel-scroll-right {
+  width: 32px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .grid {
+  font-family: inherit;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab {
+  width: 100%;
+  height: 100%;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.tabs {
+  padding-right: inherit;
+  padding-left: inherit;
+  overflow-y: auto;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.no-grid-caption {
+  padding-top: 10px;
+  overflow: hidden;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.no-grid-caption .mapping-container {
+  overflow-y: auto;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.no-grid-caption .mapping-container .grid .grid-captions {
+  display: none;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.elements-mapping-tab .elements-mapping-container .schema-wrap.one-el {
+  align-items: stretch;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.elements-mapping-tab .elements-mapping-container .schema-wrap.one-el .grid-container {
+  height: auto !important;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.elements-mapping-tab .elements-mapping-container .schema-wrap.one-el .grid-empty {
+  position: absolute;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.elements-mapping-tab .elements-mapping-container .schema-wrap.one-el .grid-empty .t-label {
+  text-align: center;
+  margin-top: 15px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.elements-mapping-tab .elements-mapping-container .schema-wrap.one-el .grid-container.right .grid-empty .t-label {
+  width: 50%;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.value-mapping-tab {
+  padding-top: 38px;
+  position: relative;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.value-mapping-tab .value-mapping-lookup-schema {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 100%;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.value-mapping-tab .value-mapping-container {
+  position: relative;
+  padding-top: 52px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.sys-settings-mapping-tab .sys-settings-mapping-container {
+  padding-top: 52px;
+  position: relative;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.datetime-mapping-tab ::-webkit-input-placeholder {
+  opacity: 0;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.datetime-mapping-tab :-moz-placeholder {
+  opacity: 0;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.datetime-mapping-tab ::-moz-placeholder {
+  opacity: 0;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab.datetime-mapping-tab :-ms-input-placeholder {
+  opacity: 0;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container {
+  width: 100%;
+  height: 100%;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=ProcessParametersMappingPageContainer],
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=ProcessElementParametersMappingPageContainer],
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=DcmElementParametersMappingPageContainer] {
+  display: flex;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=ProcessParametersMappingPageContainer] .grid-container,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=ProcessElementParametersMappingPageContainer] .grid-container,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=DcmElementParametersMappingPageContainer] .grid-container {
+  width: 50%;
+  margin-top: 1em;
+  overflow-y: auto;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=ProcessParametersMappingPageContainer] .left,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=ProcessElementParametersMappingPageContainer] .left,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=DcmElementParametersMappingPageContainer] .left {
+  margin-left: 8px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=ProcessParametersMappingPageContainer] .grid-listed-icon-22x22,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=ProcessElementParametersMappingPageContainer] .grid-listed-icon-22x22,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=DcmElementParametersMappingPageContainer] .grid-listed-icon-22x22 {
+  width: 27px;
+  height: 27px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=ProcessParametersMappingPageContainer] .grid-listed-icon-16x16,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=ProcessElementParametersMappingPageContainer] .grid-listed-icon-16x16,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=DcmElementParametersMappingPageContainer] .grid-listed-icon-16x16 {
+  width: 16px;
+  height: 16px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=ProcessParametersMappingPageContainer] .grid {
+  padding-top: 1em;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container *[data-item-marker=LookupGridContainer] {
+  padding-top: 17px;
+  width: 100%;
+  height: 100%;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container .containerLookupPage.container-lookup-page-fixed {
+  min-width: inherit;
+  padding-right: 0;
+  width: 100%;
+  height: 52px;
+  position: absolute;
+  top: 0;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .mapping-tab .mapping-container .containerLookupPage.container-lookup-page-grid {
+  height: 100%;
+  position: static;
+  width: 100%;
+  max-height: none;
+  margin: 0;
+  padding-right: 4px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .tab-parameters-mapping .grid-listed-row,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .elements-mapping-tab .grid-listed-row {
+  min-height: 36px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .tab-parameters-mapping .grid-listed-row span,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .elements-mapping-tab .grid-listed-row span {
+  line-height: 27px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .grid-listed-icon-16x16 {
+  padding-top: 6px;
+  padding-right: 7px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab {
+  padding-top: 10px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab .grid-layout-column {
+  min-height: 34px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab .date-container {
+  display: flex;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab .date-container .t-label {
+  line-height: 34px;
+  padding-right: 10px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab div[data-item-marker='selected-date-container'] {
+  background-color: #e4ebfa;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab div[data-item-marker='selected-date-container'] .t-label {
+  width: 50%;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab div[data-item-marker='selected-date-container'] .control-no-label .base-edit:not(.base-edit-focus) {
+  border-color: #D3D9E6;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab div[data-item-marker='selected-date-container'] input {
+  background-color: #e4ebfa;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab div[data-item-marker='selected-date-container'] .input-wrap {
+  width: 219px;
+  padding-top: 3px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab div[data-item-marker='selected-date-container'] .input-wrap .datetime-timecontrol.time-edit {
+  width: 96px;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab div[data-item-marker='date-container'] .t-btn-wrapper,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab div[data-item-marker='date-container'] .base-edit {
+  display: none;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab .control-no-label .base-edit:hover.base-edit-with-right-icon,
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab .control-no-label .base-edit-focus.base-edit-with-right-icon {
+  padding-left: 34px !important;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab .t-btn-style-default {
+  padding-top: 0.45em;
+}
+.formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab .t-btn-style-default:hover {
+  background: inherit;
+  text-decoration: underline;
+}
+@media screen and (min-width: 1636px) {
+  .formula-modal-box {
+    margin-right: calc((100% - 1280px - 356px) / 2);
+  }
+}
+@media screen and (min-width: 1992px) {
+  .formula-modal-box {
+    margin-right: auto;
+  }
+}
+#cke_ProcessMappingPageFormulaEditTextEdit-inline-text-edit-el {
+  display: none;
+}

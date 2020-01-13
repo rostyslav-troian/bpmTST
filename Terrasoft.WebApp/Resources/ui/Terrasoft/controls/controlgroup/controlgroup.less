@@ -1,0 +1,99 @@
+﻿.ts-controlgroup {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.ts-controlgroup-caption-wrap {
+	position: relative;
+	overflow: hidden;
+}
+
+.ts-controlgroup-caption-wrap > span {
+	font-family: "Segoe UI";
+	font-size: 1.5em;
+	color: #4e7bd8;
+	cursor: pointer;
+	padding-right: 0.75em;
+	height: 2.5em;
+	padding-top: 0.1em;
+}
+
+.ts-controlgroup-marker-wrap {
+	display: inline-block;
+	width: 1.6em;
+	height: 1.6em;
+	margin-right: 1.7em;
+	margin-top: 0.2em;
+	margin-left: -0.4em;
+}
+
+.ts-controlgroup-marker {
+	top: 50%;
+	cursor: pointer;
+	height: 24px;
+	width: 24px;
+	background: url(arrow_group.svg) no-repeat center 0px;
+	background-position: 0 -24px;
+	background-size: 100%;
+}
+
+.ts-controlgroup-marker-ie {
+	top: 50%;
+	cursor: pointer;
+	height: 23px;
+	width: 23px;
+	background: url(arrow_group.png) no-repeat center 0px;
+	background-position: 0 -23px;
+}
+
+.ts-controlgroup-collapsed .ts-controlgroup-marker {
+	background-position: 0 0;
+}
+
+.ts-controlgroup-collapsed .ts-controlgroup-marker-ie {
+	background-position: 0 0;
+}
+
+.ts-controlgroup-container {
+	padding-bottom: 1.1em;
+	display: none;
+	border-bottom: 1px solid #e1e8f2;
+}
+
+.ts-controlgroup-container .grid.grid-listed {
+	padding-left: 24px;
+	padding-top: 3px;
+}
+
+.ts-controlgroup-container .grid.grid-listed .grid-captions{
+	margin: 0;
+}
+
+.ts-controlgroup-container.no-line {
+	border: none;
+}
+.ts-controlgroup-collapsed .ts-controlgroup-container {
+	display: none;
+}
+
+.ts-controlgroup-container {
+	display: block;
+}
+
+.ts-controlgroup-empty-caption {
+	padding-top: 0;
+}
+
+.ts-controlgroup-tools {
+	background-color: white;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ts-controlgroup-tools > * {
+	height: 100%;
+}

@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>NUI - Unit tests - Coverage</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="shortcut icon" href="tests.siesta.logo.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="./Siesta/resources/css/siesta-all.css"/>
+	<script type="text/javascript" src="./Siesta/siesta-all.js"></script>
+	<script type="text/javascript" src="./Siesta/siesta-coverage-all.js"></script>
+	<script type="text/javascript" src="./Terrasoft.tests.class.js"></script>
+	<script type="text/javascript" src="./Terrasoft.tests.contentManager.js"></script>
+	<script type="text/javascript" src="./tests.coverage.js"></script>
+	<style>
+		.siesta-assertion-grid .assertion-text {
+			white-space: pre-wrap;
+		}
+
+		.tr-assert-row-annontation {
+			overflow: auto;
+		}
+
+		#coverageButton {
+			z-index: 1000;
+			position: absolute;
+			left: 50%;
+			width: 0;
+			height: 0;
+			display: none;
+		}
+
+		body.siesta #coverageButton {
+			display: block;
+		}
+
+		.copy-bdd-assertion {
+			position: absolute;
+			right: 80px;
+			bottom: 25px;
+			animation: blinker 1s linear infinite;
+			font-weight: bold;
+		}
+
+		@keyframes blinker {
+			50% { opacity: 0; }
+		}
+
+		.copy-bdd-assertion.hidden {
+			visibility: hidden;
+		}
+	</style>
+</head>
+<body>
+<div id="coverageButton"></div>
+<a id="copyBddAssertion" href="#" class="copy-bdd-assertion hidden">Copy BDD...</a>
+</body>
+</html>

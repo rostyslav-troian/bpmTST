@@ -1,0 +1,54 @@
+﻿.context-tips-mode-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.context-tips-mode-container .ts-mask-container {
+  position: fixed;
+}
+.context-tips-mode-container .ts-mask-spinner-wrap {
+  display: none;
+}
+.context-tips-mode-container .context-tips-mode-tools-wrap {
+  position: absolute;
+  top: 3px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.context-tips-mode-container .context-tips-mode-border:after {
+  border-radius: 10px;
+}
+.context-tips-mode-container .context-tips-mode-tools {
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.context-tips-mode-container .context-tips-mode-tools .context-tips-mode-tool {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  background-color: #8ecb60;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.context-tips-mode-border {
+  width: 100%;
+  height: 100%;
+}
+.context-tips-mode-border,
+.context-tips-mode-tools {
+  position: fixed;
+  z-index: 2000;
+}
+.context-tips-mode-container .context-tips-mode-border:before,
+.context-tips-mode-container .context-tips-mode-border:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #94de35;
+  box-sizing: border-box;
+}

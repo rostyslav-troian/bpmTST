@@ -1,0 +1,22 @@
+﻿.right-panel-container *[data-item-type="spacer"] .properties-header,
+.right-panel-container *[data-item-type="spacer"] .properties-content .ts-tabpanel {
+  background-color: #ff7a64;
+}
+.right-panel-container *[data-item-type="spacer"] .content-styles-editor-wrapper .ts-controlgroup {
+  margin-top: 10px;
+}
+.right-panel-container *[data-item-type="spacer"] .content-styles-editor-wrapper .navbar-styles-container .t-properties-label {
+  margin-top: 10px;
+}
+.right-panel-container *[data-item-type="spacer"] .content-navbar-properties .main-checkbox-wrap {
+  margin-top: 10px;
+}
+.content-properties-container .spacer-properties-container .ts-controlgroup .ts-controlgroup-marker-wrap {
+  display: none;
+}
+.content-properties-container .spacer-properties-container .ts-controlgroup .ts-controlgroup-caption-wrap {
+  pointer-events: none;
+}
+.content-properties-container .spacer-properties-container .size-control-group {
+  overflow: visible;
+}

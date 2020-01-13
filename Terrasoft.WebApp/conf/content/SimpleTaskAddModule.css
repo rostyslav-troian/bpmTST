@@ -1,0 +1,57 @@
+﻿.modify-task-link {
+  text-decoration: underline;
+  color: darkblue;
+}
+.modify-task-link:hover {
+  color: blue;
+}
+.smartButton-wrap {
+  position: absolute;
+  left: 0px;
+}
+.simple-task-add-module-wrap .memo-edit-core {
+  border: 1px solid #c8c8c8 !important;
+  height: 68px;
+  margin-bottom: 12px;
+  padding: 3px 0 !important;
+}
+.simple-task-add-module-wrap .control-wrap {
+  margin-left: 0;
+  padding-left: 0;
+}
+.simple-task-add-module-wrap .base-edit-validation {
+  display: none !important;
+}
+.simple-task-add-module-wrap .modify-activity-button-wrap {
+  padding: 0.56em 0.58em 0.56em 0.58em;
+  float: right;
+}
+.simple-task-add-module-wrap .base-edit-focus {
+  border-color: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.simple-task-add-module-wrap .right-buttons-container-wrap {
+  text-align: right;
+}
+.simple-task-add-module-wrap .left-buttons-container-wrap {
+  text-align: left;
+}
+.simple-task-add-module-wrap .save-button-wrap {
+  margin-right: 10px;
+}
+.simple-task-add-module-wrap .memo-edit-scroll {
+  padding-right: 3px;
+  overflow-y: auto !important;
+}
+.simple-task-add-module-wrap .memo-edit-area {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.simple-task-add-module-wrap .memo-edit-height {
+  height: 60px;
+}
+.scheduler-item-caption {
+  position: absolute;
+}

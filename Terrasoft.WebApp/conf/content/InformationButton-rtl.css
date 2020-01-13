@@ -1,0 +1,11 @@
+﻿.t-information-btn.t-btn-wrapper {
+  margin: 0.4em;
+  padding: 0;
+}
+.t-information-btn.t-btn-image {
+  width: 24px;
+  height: 24px;
+}
+.t-information-btn:hover .t-btn-image {
+  background-position-y: -24px;
+}

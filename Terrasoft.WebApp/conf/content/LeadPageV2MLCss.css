@@ -1,0 +1,15 @@
+﻿.progress-bar-container {
+  height: 56px;
+}
+.progress-bar-container > div {
+  width: auto;
+}
+.progress-bar-container .ts-iconized-progress-bar-wrap:hover {
+  cursor: pointer;
+}
+.progress-bar-container .tip-label-wrap {
+  margin-bottom: 8px;
+}
+.predictive-score-non-evaluated-label {
+  margin-left: 2px;
+}

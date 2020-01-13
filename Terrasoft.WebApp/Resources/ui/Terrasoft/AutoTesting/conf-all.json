@@ -1,0 +1,18 @@
+{
+	"harness": {
+		"runCore": "parallel",
+		"title": "Configuration JS tests",
+		"defaultTimeout": 50000,
+		"waitForTimeout": 50000,
+		"isReadyTimeout": 180000,
+		"warnOnNotBDD": false,
+		"writeToFileOnNotBDD": false,
+		"maxThreads": 5
+	},
+	"cmd": {
+		"max-workers": 2,
+		"chunk-size": 6,
+		"no-color": false,
+		"rerun-failed": true
+	}
+}

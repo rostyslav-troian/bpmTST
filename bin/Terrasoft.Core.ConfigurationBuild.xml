@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Core.ConfigurationBuild</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Core.ConfigurationBuild.IAppConfigurationBuilder">
+            <summary>
+            Provides methods to build configuration client content to application defined output directory.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ConfigurationBuild.IAppConfigurationBuilder.BuildAll">
+            <summary>
+            Builds configuration client content for all schemas.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ConfigurationBuild.IAppConfigurationBuilder.BuildChanged">
+            <summary>
+            Builds configuration client content for changed schemas.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ConfigurationBuild.IConfigurationBuilder">
+            <summary>
+            Provides methods to build configuration client content.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ConfigurationBuild.IConfigurationBuilder.BuildAllAsync(System.String)">
+            <summary>
+            Builds configuration client content for all schemas asynchronously.
+            </summary>
+            <param name="outputDirectory">Directory to write configuration client content to.</param>
+            <returns>Task that represents asynchronous build operation.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ConfigurationBuild.IConfigurationBuilder.BuildChangedAsync(System.String)">
+            <summary>
+            Builds configuration client content for changed schemas asynchronously.
+            </summary>
+            <param name="outputDirectory">Directory to write configuration client content to.</param>
+            <returns>Task that represents asynchronous build operation.</returns>
+        </member>
+    </members>
+</doc>

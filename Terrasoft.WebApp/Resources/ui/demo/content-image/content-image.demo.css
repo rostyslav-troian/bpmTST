@@ -1,0 +1,10 @@
+.tools-image {
+    width: 32px;
+    height: 32px;
+    background-size: 100% 100%;
+}
+
+#demoContainer .t-btn-wrapper {
+    margin-right: 5px;
+    padding: 0 !important;
+}

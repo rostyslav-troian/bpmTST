@@ -1,0 +1,6 @@
+﻿.socialMessageWrap {
+  background-color: #fef6d7;
+}
+.socialMessageWrap::after {
+  border-color: transparent #fef6d7;
+}

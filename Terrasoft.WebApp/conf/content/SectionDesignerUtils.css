@@ -1,0 +1,10 @@
+﻿#choose-current-package-container {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+}
+#choose-current-package-container .t-btn-wrapper {
+  margin-top: 10px;
+  min-width: 85px;
+  margin-right: 9px;
+}

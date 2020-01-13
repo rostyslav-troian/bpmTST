@@ -1,0 +1,88 @@
+﻿.shared-user-radio-group .radio-button-container {
+  margin-left: 0px;
+}
+.shared-user-radio-group .radio-button-container .t-label {
+  text-align: left;
+}
+#OAuthSettingsTab .label-wrap {
+  max-width: 15em !important;
+}
+.auth-info-setup-container div[id*="RedirectUrlInfoComponent"] {
+  max-width: none;
+}
+.scope-info-btn {
+  border: 0 !important;
+  margin: 0 !important;
+  margin-top: 1px !important;
+}
+.show-placeholder ::-webkit-input-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.show-placeholder ::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.show-placeholder :-ms-input-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.info-help {
+  padding-left: 15em;
+  padding-top: 7px;
+  padding-bottom: 14px;
+}
+.info-help img {
+  float: left;
+}
+.info-help div {
+  color: #999;
+  font-size: 1.3em;
+  margin-left: 30px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.app-image .ts-image-edit-button {
+  background-color: #e0e0e0 !important;
+}
+.app-image .ts-image-edit-button:hover {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.faq-container .faq-header {
+  color: #8ecb60;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+  text-align: left;
+  padding-top: 0;
+}
+.faq-container .t-btn-wrapper.faq-button {
+  padding: 0;
+  text-decoration: none;
+  color: #4e7bd8;
+  outline: none;
+  overflow: hidden;
+  font-size: 1.4em;
+  text-align: left;
+}
+.faq-container .t-btn-wrapper.faq-button:hover {
+  text-decoration: underline;
+}
+.faq-container .faq-button-grid-layout {
+  margin: 0 0 3px 0;
+  min-height: 20px;
+}
+.faq-container .faq-button-grid-layout .profile-icon {
+  padding-bottom: 0px;
+}
+.faq-container .faq-button-grid-layout .profile-icon img {
+  width: 32px;
+}
+.schema-wrap.two-el .oauth20app-card-content-wrapper {
+  margin-top: 0px !important;
+}
+.schema-wrap.two-el .oauth20-header-container {
+  padding-left: 0px !important;
+}

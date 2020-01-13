@@ -1,0 +1,15 @@
+body.siesta, body>.x-splitter-vertical, .resultPanel-panel>.x-panel-body>.x-splitter-vertical, div.x-border-layout-ct, .resultpanel-toolbar, .tr-testgrid .x-grid-header-ct, .tr-testgrid .x-column-header {
+	background-color: #51a351;
+}
+
+.x-panel-header-default-vertical {
+	background-color: #51a351;
+}
+
+.x-panel-header-default {
+	border: 1px solid #51a351;
+}
+
+.siesta-toolbar {
+	background-color: #51a351;
+}

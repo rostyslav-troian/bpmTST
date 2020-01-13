@@ -1,0 +1,31 @@
+﻿.base-dc-template-viewer-control-group {
+  margin-top: 10px;
+}
+.base-dc-template-viewer-control-group .email-empty-template-container {
+  height: 350px;
+  border: 1px solid #dedede;
+}
+.base-dc-template-viewer-control-group .email-empty-template-container .email-template-blank-slates-container {
+  width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.base-dc-template-viewer-control-group .email-empty-template-container .email-template-blank-slates-container .email-template-blank-slates-image-container {
+  width: 100%;
+  height: 229px;
+}
+.base-dc-template-viewer-control-group .email-empty-template-container .email-template-blank-slates-container .email-template-blank-slates-image-container .not-selected-image {
+  width: 134px;
+  height: 139px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.base-dc-template-viewer-control-group .email-empty-template-container .email-template-blank-slates-container .description-label {
+  font-family: "Bpmonline Open Sans Light";
+  font-size: 20px;
+  color: #999999;
+  text-align: center;
+}

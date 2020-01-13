@@ -1,0 +1,133 @@
+﻿.module-container .grid-layout.collapse-empty-row.blank-slate-container label.blank-slate-header {
+  min-height: 0;
+}
+.module-container .profile-module-actions:after {
+  content: '';
+  clear: both;
+  font-size: 0;
+  display: block;
+}
+.module-container .profile-module-actions .actions-button-right {
+  float: left;
+}
+.module-container .profile-module-actions .actions-button-clear {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  position: absolute;
+  left: -10px;
+  z-index: 10;
+}
+.module-container .profile-module-actions .actions-button-clear:hover {
+  background-color: inherit;
+}
+.module-container .profile-module-actions .actions-button-clear:hover .t-btn-image {
+  opacity: 1;
+}
+.module-container .profile-module-actions .actions-button-clear .t-btn-image {
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+}
+.module-container .profile-content-container .profile-icon img[src*='SysImage'] {
+  background-color: #fff;
+}
+.module-container .profile-content-container .warning-icon {
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  height: 12px;
+  z-index: 1;
+  top: 22px;
+  right: -5px;
+}
+.module-container .profile-content-container .warning-icon:hover {
+  cursor: help;
+}
+.module-container .profile-content-container .warning-icon img {
+  width: 12px;
+  height: 12px;
+}
+.module-container .profile-content-container .grid-layout-row .grid-layout-column * {
+  font-size: 14px;
+}
+.module-container .profile-content-container .grid-layout-row .grid-layout-column label {
+  font-size: 13px;
+}
+.module-container .profile-content-container .grid-layout-row .grid-layout-column .t-label {
+  margin-bottom: 0;
+}
+.module-container .profile-content-container .grid-layout-row .grid-layout-column[id$="ImageEdit"] + .grid-layout-column {
+  margin-top: 2px;
+}
+.module-container .profile-content-container .grid-layout-row .grid-layout-column .placeholder {
+  opacity: 0.8;
+  font-size: 12px;
+  font-style: italic;
+}
+.module-container .profile-content-container .grid-layout-row .grid-layout-column input::-webkit-input-placeholder {
+  opacity: 0.8;
+  font-size: 12px;
+  font-style: italic;
+}
+.module-container .profile-content-container .grid-layout-row .grid-layout-column input::-moz-placeholder {
+  opacity: 0.8;
+  font-size: 12px;
+  font-style: italic;
+}
+.module-container .profile-content-container .grid-layout-row .grid-layout-column input:-ms-input-placeholder {
+  opacity: 0.8;
+  font-size: 12px;
+  font-style: italic;
+}
+.module-container .profile-content-container .grid-layout-row .grid-layout-column input:-moz-placeholder {
+  opacity: 0.8;
+  font-size: 12px;
+  font-style: italic;
+}
+.module-container .profile-content-container .grid-layout-row .grid-layout-column input:-ms-input-placeholder {
+  opacity: 0.8;
+  font-size: 12px;
+  font-style: italic;
+}
+.module-container .profile-content-container .grid-layout-row .grid-layout-column > *:not(.grid-layout-spacer) {
+  padding-bottom: 8px;
+}
+.module-container .profile-content-container .grid-layout-row .grid-layout-column > .ts-image-edit-wrap {
+  padding: 0;
+}
+.module-container .blank-slate-container label,
+.module-container .blank-slate-container .t-btn-wrapper {
+  margin-right: -11px;
+}
+.module-container .blank-slate-container label.blank-slate-header {
+  font-size: 15px;
+  padding-right: 12px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.module-container .blank-slate-container .blank-slate-button {
+  color: #4e7bd8;
+}
+.module-container .client-profile .profile-icon img,
+.module-container .client-profile .blank-slate-icon img {
+  background-color: #aec3cd;
+}
+.module-container .client-profile .blank-slate-header {
+  color: #aec3cd;
+}
+.module-container .account-profile .profile-icon img,
+.module-container .account-profile .blank-slate-icon img {
+  background-color: #9575cd;
+}
+.module-container .account-profile .blank-slate-header {
+  color: #9575cd;
+}
+.module-container .contact-profile .profile-icon img,
+.module-container .contact-profile .blank-slate-icon img {
+  background-color: #00aeef;
+}
+.module-container .contact-profile .blank-slate-header {
+  color: #00aeef;
+}

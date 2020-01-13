@@ -1,0 +1,135 @@
+﻿.constraints-item-container {
+  margin-bottom: 5px;
+}
+.constraints-item-container .constraint-details-hide {
+  display: none;
+}
+.constraints-item-container .constraints-item-details-container {
+  margin-right: 36px;
+  padding-bottom: 6px;
+  padding-top: 14px;
+}
+.constraints-item-container .constraints-item-details-container .multi-delete-detail-module {
+  margin-bottom: 26px;
+}
+.constraints-item-container .constraints-item-details-container .constraints-item-container.selectable {
+  margin-bottom: 0;
+}
+.constraints-item-container .constraints-item-details-container .constraints-item-container.selectable .grid label {
+  font-size: 0.928em;
+}
+.constraints-item-container .constraints-item-details-container .constraints-item-container.selectable .ts-controlgroup-container.no-line {
+  padding-bottom: 0;
+}
+.constraints-item-container > label {
+  width: auto;
+}
+.constraints-item-container > .label-link.t-label {
+  font-size: 1.7em;
+  margin-right: 17px;
+}
+.constraints-item-container > .constraints-item-tools-container {
+  display: inline-block;
+  position: relative;
+  top: -11px;
+  margin-right: 10px;
+}
+.constraints-item-container > .constraints-icon-hierarchical {
+  border: 1px solid #CCC;
+  width: 18px;
+  height: 17px;
+  padding: 0px 0 3px 0;
+  text-align: center;
+  cursor: pointer;
+}
+.constraints-item-container > .subject-text-labelClass {
+  font-size: 1.5em;
+  position: relative;
+  margin-right: 6px;
+  top: -1px;
+}
+#MultiDeleteResultPageV2Container .page-header-container,
+#MultiDeleteResultPageV2Container .header-container-margin-bottom {
+  display: none;
+}
+#MultiDeleteResultPageV2Container .resultsContainerCollapsed {
+  display: none;
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer,
+#MultiDeleteResultPageV2ByRightsContainerContainer {
+  flex-grow: unset;
+  padding-bottom: 14px;
+  position: relative;
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .container-multi-delete-caption-labelClass,
+#MultiDeleteResultPageV2ByRightsContainerContainer .container-multi-delete-caption-labelClass {
+  font-size: 2.5em;
+  margin: -7px 27px 0 0;
+  width: auto;
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer #ByConstraintsContainerListContainerList,
+#MultiDeleteResultPageV2ByRightsContainerContainer #ByConstraintsContainerListContainerList {
+  margin-top: 19px;
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer #grid-MultiDeleteResultPageV2DataGridGrid-wrap,
+#MultiDeleteResultPageV2ByRightsContainerContainer #grid-MultiDeleteResultPageV2DataGridGrid-wrap {
+  margin-top: 16px;
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .multi-delete-type-image-wrapClass,
+#MultiDeleteResultPageV2ByRightsContainerContainer .multi-delete-type-image-wrapClass {
+  width: 16px;
+  height: 17px;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  top: 23px;
+  right: 19px;
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .multi-delete-type-image-wrapClass > span,
+#MultiDeleteResultPageV2ByRightsContainerContainer .multi-delete-type-image-wrapClass > span {
+  width: 16px;
+  height: 17px;
+  background-position-y: 0;
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .multi-delete-type-image-wrapClass.multi-delete-type-image-wrapClass-rights > span,
+#MultiDeleteResultPageV2ByRightsContainerContainer .multi-delete-type-image-wrapClass.multi-delete-type-image-wrapClass-rights > span {
+  background-position-y: 17px;
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .multi-delete-collapsed-wrapClass,
+#MultiDeleteResultPageV2ByRightsContainerContainer .multi-delete-collapsed-wrapClass,
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .multi-delete-expand-wrapClass,
+#MultiDeleteResultPageV2ByRightsContainerContainer .multi-delete-expand-wrapClass {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  padding: 0;
+  position: absolute;
+  right: 100%;
+  top: 16px;
+  margin-right: -46px;
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .multi-delete-collapsed-wrapClass > span,
+#MultiDeleteResultPageV2ByRightsContainerContainer .multi-delete-collapsed-wrapClass > span,
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .multi-delete-expand-wrapClass > span,
+#MultiDeleteResultPageV2ByRightsContainerContainer .multi-delete-expand-wrapClass > span {
+  width: 32px;
+  height: 32px;
+  background-position: left top;
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .multi-delete-collapsed-wrapClass > span:Hover,
+#MultiDeleteResultPageV2ByRightsContainerContainer .multi-delete-collapsed-wrapClass > span:Hover,
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .multi-delete-expand-wrapClass > span:Hover,
+#MultiDeleteResultPageV2ByRightsContainerContainer .multi-delete-expand-wrapClass > span:Hover {
+  background-position-y: center;
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .multi-delete-collapsed-wrapClass > span:active,
+#MultiDeleteResultPageV2ByRightsContainerContainer .multi-delete-collapsed-wrapClass > span:active,
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .multi-delete-expand-wrapClass > span:active,
+#MultiDeleteResultPageV2ByRightsContainerContainer .multi-delete-expand-wrapClass > span:active {
+  background-position-y: bottom;
+}
+#MultiDeleteResultPageV2ByConstraintsContainerContainer .multi-delete-expand-wrapClass > span,
+#MultiDeleteResultPageV2ByRightsContainerContainer .multi-delete-expand-wrapClass > span {
+  background-position-x: right;
+}

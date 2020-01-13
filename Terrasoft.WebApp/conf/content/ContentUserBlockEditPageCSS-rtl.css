@@ -1,0 +1,44 @@
+﻿#SaveBlockPageContainer {
+  width: 490px;
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#SaveBlockPageContainer .base-edit-focus,
+#SaveBlockPageContainer .base-edit-error.base-edit-focus {
+  outline: none;
+  border: 1px solid white;
+  border-bottom: 1px solid #c8c8c8;
+}
+#SaveBlockPageContainer .user-block-edit-page-preview-image {
+  width: 95%;
+}
+#SaveBlockPageContainer .t-title-label-user-block-edit-page {
+  height: 50px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #00aeef;
+  width: auto;
+}
+#SaveBlockPageContainer .base-edit[data-item-marker*="BlockName"] {
+  padding-right: 0;
+}
+#SaveBlockPageContainer #EditButtonsContainer {
+  height: 50px;
+  padding-top: 10px;
+  text-align: left;
+}
+#SaveBlockPageContainer #PreviewImageContainer {
+  height: 100%;
+  margin-top: 10px;
+  overflow: auto;
+  text-align: center;
+}
+#SaveBlockPageContainer #BlockNameInputCaption {
+  height: 30px;
+}
+#SaveBlockPageContainer #ContentUserBlockEditPageBlockNameContainer {
+  height: 50px;
+}

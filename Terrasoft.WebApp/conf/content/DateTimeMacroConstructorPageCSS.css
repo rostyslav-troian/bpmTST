@@ -1,0 +1,48 @@
+﻿.dt-modal-box .ts-modalbox-innerbox {
+  width: 100%;
+  height: 98%;
+}
+.dt-modal-box .ts-modalbox-innerbox .schema-wrap {
+  height: 100%;
+}
+.datetime-macro-lookup-container {
+  height: 100%;
+  padding-left: 24px;
+  padding-bottom: 18px;
+}
+.datetime-macro-lookup-container .datetime-macro-lookup-header {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-left: -10px;
+}
+.datetime-macro-lookup-container .datetime-macro-lookup-header .t-label {
+  font-family: "Segoe UI Light";
+  color: #64b8df;
+  font-size: 2.2em;
+  letter-spacing: -0.01em;
+  padding-left: 5px;
+}
+.datetime-macro-lookup-container .datetime-macro-lookup-header .close-btn-user-class {
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+}
+.datetime-macro-lookup-container .datetime-macro-container {
+  margin-top: 18px;
+  padding-right: 24px;
+}
+.datetime-macro-lookup-container .datetime-macro-container .grid-layout-row {
+  min-height: 0;
+}
+.datetime-macro-lookup-container .datetime-macro-container .grid-layout-row .grid-layout-column {
+  min-height: 0;
+}
+.datetime-macro-lookup-container .datetime-macro-container .grid-layout-row .grid-layout-column .grid-layout-spacer {
+  height: 1px;
+}
+.datetime-macro-lookup-container .datetime-macro-container .label-small {
+  font-size: 13px;
+  color: #999;
+  margin-top: 12px;
+}

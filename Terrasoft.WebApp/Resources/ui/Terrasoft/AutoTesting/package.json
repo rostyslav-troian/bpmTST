@@ -1,0 +1,17 @@
+{
+  "name": "core-js-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "StartTestServer.js",
+  "scripts": {
+    "test": "node StartTestServer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "babel-plugin-istanbul": "^5.2.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1"
+  }
+}

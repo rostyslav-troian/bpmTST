@@ -1,0 +1,21 @@
+﻿define("BusinessRuleSchemaDesignerResources", ["terrasoft"], function(Terrasoft) {
+	var localizableStrings = {
+		CaptionLabelCaptionNew: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435",
+		DescriptionCaption: "\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435",
+		PageGroupCaption: "\u0412\u044B\u043F\u043E\u043B\u043D\u0438\u0442\u044C \u043D\u0430 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0435",
+		RecommendationsCaption: "\u0420\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0430\u0446\u0438\u0438",
+		ApplyButtonCaption: "\u041F\u0440\u0438\u043C\u0435\u043D\u0438\u0442\u044C",
+		CancelButtonCaption: "\u041E\u0442\u043C\u0435\u043D\u0430",
+		CloseButtonCaption: "\u0417\u0430\u043A\u0440\u044B\u0442\u044C",
+		DesignerHeaderCaption: "\u0411\u0438\u0437\u043D\u0435\u0441-\u043F\u0440\u0430\u0432\u0438\u043B\u043E",
+		CaptionLabelCaption: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 (\u0437\u0430\u043F\u043E\u043B\u043D\u044F\u0435\u0442\u0441\u044F \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438)",
+		NewBusinessRuleCaption: "\u0417\u0430\u043F\u043E\u043B\u043D\u044F\u0435\u0442\u0441\u044F \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438"
+	};
+	var localizableImages = {
+
+	};
+	return {
+		localizableStrings: localizableStrings,
+		localizableImages: localizableImages
+	};
+});

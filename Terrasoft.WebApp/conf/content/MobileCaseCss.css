@@ -1,0 +1,26 @@
+﻿.cf-action-feed-main-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NCA0NCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNDQgNDQiPjxwYXRoIGZpbGw9IiM0NzdjZWQiIGQ9Im03IDMyaDV2N2gybDYuNC03aDE2LjZ2LTIzaC0zMHoiLz48L3N2Zz4=);
+}
+.x-actions-button .cf-action-feed-main-icon {
+  background-size: 26px;
+}
+.cf-action-feed-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MCA4MCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgODAgODAiPjxwYXRoIGQ9Ik0yNSw1MGg1djdoMmw2LjQtN0g1NVYyN0gyNVY1MHoiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiLz48L3N2Zz4=);
+}
+.x-list .x-icon.cf-action-feed-icon {
+  background-color: #477ced;
+}
+.cf-action-portal-message-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MCA4MCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgODAgODAiPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiPjxlbGxpcHNlIGN4PSI0MCIgY3k9IjQwIiByeD0iMTciIHJ5PSIxNSIvPjxlbGxpcHNlIGN4PSI0MCIgY3k9IjQwIiByeD0iNiIgcnk9IjE1Ii8+PHBhdGggZD0ibTI1IDM0aDMwIi8+PHBhdGggZD0ibTI1IDQ2aDMwIi8+PC9nPjwvc3ZnPg==);
+}
+.x-list .x-icon.cf-action-portal-message-icon {
+  background-color: #8474d6;
+}
+.cf-list-case-priority-icon {
+  width: 16px;
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}

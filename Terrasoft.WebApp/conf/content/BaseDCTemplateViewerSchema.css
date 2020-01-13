@@ -1,0 +1,79 @@
+﻿.base-dc-template-viewer-control-group {
+  overflow: visible;
+  max-width: none !important;
+}
+.base-dc-template-viewer-control-group .blank-slate-message {
+  width: 100%;
+  display: block;
+}
+.base-dc-template-viewer-control-group .blank-slate-message .t-label {
+  color: #999999;
+  text-align: center;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #dedede;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container .toggle-list-button {
+  position: absolute;
+  left: -15px;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 100;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container .toggle-list-button .t-btn-image {
+  width: 15px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: 0px -35px;
+  background-size: 15px 70px;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container .toggle-list-button.toggle-list-button-pressed {
+  left: 248px !important;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container .toggle-list-button.toggle-list-button-pressed .t-btn-image {
+  background-position: 0px 0px;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container .base-dc-template-viewer-left-container {
+  width: 262px;
+  overflow-y: auto;
+  border-right: 1px solid #dedede;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container .base-dc-template-viewer-left-container .replica-item-wrapper-container {
+  padding: 11px 20px 12px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container .base-dc-template-viewer-left-container .replica-item-wrapper-container .t-label {
+  font-family: "Bpmonline Open Sans";
+  font-size: 14px;
+  color: #444444;
+  display: inline;
+  width: 100%;
+  word-wrap: normal;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container .base-dc-template-viewer-left-container .replica-item-wrapper-container .replica-recipient-count-info-label {
+  width: 100%;
+  font-size: 13px;
+  color: #999999;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container .base-dc-template-viewer-left-container .selected {
+  background-color: #e4ebfa;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container .base-dc-template-viewer-right-container {
+  width: 100%;
+  position: relative;
+  overflow: auto;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container .base-dc-template-viewer-right-container > .template-html-iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.base-dc-template-viewer-control-group .base-dc-template-viewer-inner-container .base-dc-template-viewer-left-container:not([style='display: none;']) + .base-dc-template-viewer-right-container {
+  width: calc(100% -  262px) !important;
+}

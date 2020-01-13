@@ -1,0 +1,44 @@
+{
+  "name": "bpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --inspect ./node_modules/mocha-webpack/lib/cli -w --webpack-config webpack.config.js --require Terrasoft/vue/test/setup.js Terrasoft/vue/**/*.spec.js",
+    "build": "webpack --config webpack.config.js",
+    "karma": "karma start karma.conf.js",
+    "karma:ci": "karma start karma.conf.js --reporters teamcity,coverage --single-run --colors false"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.0.1",
+    "karma-jasmine": "^2.0.1",
+    "karma-requirejs": "^1.1.0",
+    "karma-teamcity-reporter": "^1.1.0",
+    "puppeteer": "^2.0.0",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.21",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "css-loader": "^3.2.0",
+    "expect": "^24.9.0",
+    "file-loader": "^4.2.0",
+    "jsdom": "^15.1.1",
+    "jsdom-global": "^3.0.2",
+    "less": "^3.8.0",
+    "less-loader": "^5.0.0",
+    "mocha": "^6.2.0",
+    "mocha-webpack": "^1.1.0",
+    "requirejs-webpack-plugin": "^1.0.5",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.6",
+    "vue-resource": "^1.5.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.3.8"
+  }
+}

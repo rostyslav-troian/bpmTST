@@ -1,0 +1,16 @@
+﻿.local-duplicate-search-container .local-duplicate-buttons-container {
+  margin-bottom: 20px;
+}
+.local-duplicate-search-container .local-duplicate-buttons-container span {
+  margin-left: 5px;
+}
+.local-duplicate-search-container > .grid {
+  margin-right: -30px;
+  width: auto;
+}
+.local-duplicate-search-container > .grid > .grid-pad {
+  padding: 0 6px;
+}
+.local-duplicate-search-container > .grid > .grid-pad.no-duplicate .grid-row span {
+  color: #999;
+}

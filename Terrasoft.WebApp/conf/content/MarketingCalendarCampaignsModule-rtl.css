@@ -1,0 +1,53 @@
+﻿.calendar-container {
+  height: calc(100vh - 131px);
+  flex-direction: row;
+  display: flex;
+}
+.calendar-container[data-item-marker="RightGridContainerVisible"] .calendar-left-grid-container .grid .marketing-calendar-grid-listed-row {
+  padding: 0;
+}
+.calendar-container[data-item-marker="RightGridContainerVisible"] .calendar-left-grid-container .grid .grid-row-actions {
+  display: none;
+}
+.calendar-container[data-item-marker="RightGridContainerNotVisible"] .calendar-left-grid-container .grid .grid-row-selected {
+  height: auto;
+}
+.calendar-left-grid-container {
+  height: calc(100% - 23px);
+  display: flex;
+  flex-basis: 100%;
+  min-width: 400px;
+}
+.calendar-right-grid-container {
+  width: calc(100% - 400px);
+  height: calc(100% - 20px);
+}
+.button-container-wrapClass {
+  height: 40px;
+  white-space: nowrap;
+}
+.right-tools-buttons-container-wrapClass {
+  display: inline-block;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.module-container {
+  height: 100%;
+  width: 100%;
+  padding-right: 14px;
+  padding-top: 0px;
+}
+.toggle-calendar-wrapper {
+  height: 30px;
+  padding-right: 0.38em;
+  padding-left: 0.38em;
+}
+.toggle-calendar-wrapper .toggle-calendar-image {
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+}
+.toggle-calendar-wrapper[data-item-marker="RightGridContainerVisible"] .toggle-calendar-image {
+  background-position-y: -22px;
+}

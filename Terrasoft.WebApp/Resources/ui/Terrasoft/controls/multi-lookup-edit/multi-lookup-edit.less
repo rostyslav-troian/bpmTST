@@ -1,0 +1,58 @@
+.multi-lookup-edit {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+
+	.selected-items {
+		position: relative;
+		overflow: hidden;
+		margin: 0;
+		padding: 0 5px;
+		width: 100%;
+		height: auto;
+		cursor: text;
+
+		li {
+			float: left;
+			list-style: none;
+		}
+
+		.selected-item {
+			position: relative;
+
+			.t-btn-wrapper {
+				cursor: default;
+				color: #444;
+				padding: 3px 5px 3px 3px;
+				margin-right: 5px;
+
+				.t-btn-text {
+					text-transform: none;
+				}
+
+				.t-btn-image {
+					cursor: pointer;
+					display: inline-block;
+					background: url(remove_icon.svg) no-repeat;
+					background-size: 10px;
+					width: 10px;
+					height: 10px;
+
+					&:hover {
+						background-position: 0 -10px;
+					}
+				}
+			}
+		}
+
+		.search-field {
+			padding-top: 2px;
+
+			input {
+				width: 25px;
+			}
+		}
+
+	}
+
+}

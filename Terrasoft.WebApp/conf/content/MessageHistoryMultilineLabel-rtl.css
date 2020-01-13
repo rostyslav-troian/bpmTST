@@ -1,0 +1,72 @@
+﻿.multiline-label-wrap {
+  font-size: 1.4em;
+}
+.multiline-label-wrap .label-content-container {
+  overflow: hidden;
+  position: relative;
+  max-height: 100px;
+}
+.multiline-label-wrap .label-content-container p {
+  margin: 0;
+}
+.multiline-label-wrap .read-less {
+  display: none;
+}
+.multiline-label-wrap .read-more {
+  padding-left: 30px;
+}
+.multiline-label-wrap:after {
+  display: none;
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1.2em;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff 7%);
+}
+.multiline-label-wrap.content-visble .label-content-container.content-visble {
+  max-height: none;
+}
+.multiline-label-wrap.read-less-button-visible .label-content-container:after {
+  display: block;
+}
+.multiline-label-wrap.read-less-button-visible .read-less {
+  display: inline;
+}
+.multiline-label-wrap.read-buttons-container-hidden .read-buttons-container {
+  display: none;
+}
+.multiline-label-wrap a {
+  color: #4e7bd8;
+  text-decoration: none;
+}
+.multiline-label-wrap a:hover {
+  text-decoration: underline;
+}
+.multiline-label-wrap iframe {
+  width: 100%;
+  border: none;
+}
+.multiline-label-wrap .collapse-history-message-image-container {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-left: 8px;
+  vertical-align: bottom;
+}
+.multiline-label-wrap .read-button-label {
+  cursor: pointer;
+  font-size: 13px;
+  vertical-align: baseline;
+  color: #999;
+  text-decoration: none;
+}
+.multiline-label-wrap .read-button-label:hover {
+  color: #4e7bd8;
+  text-decoration: underline;
+}
+.multiline-label-wrap .read-buttons-container {
+  padding-top: 11px;
+}

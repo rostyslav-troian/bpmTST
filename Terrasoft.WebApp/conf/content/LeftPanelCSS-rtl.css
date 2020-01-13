@@ -1,0 +1,184 @@
+﻿body[OldUI=false]:not(.x-ie) .left-panel:after {
+  content: "";
+  width: 1px;
+  height: 100vh;
+  background-color: #e6e6e6;
+  position: fixed;
+  top: 10px;
+  right: 210px;
+}
+body[OldUI=false]:not(.x-ie) .left-panel:before {
+  content: "";
+  position: fixed;
+  right: 202px;
+  width: 1px;
+  height: 100vh;
+  box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+body[OldUI=false]:not(.x-ie).left-panel-collapsed .left-panel:after {
+  right: 72px;
+}
+body[OldUI=false]:not(.x-ie).left-panel-collapsed .left-panel:before {
+  content: "";
+  position: fixed;
+  right: 64px;
+  width: 1px;
+  height: 100vh;
+  box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+body[OldUI=false]:not(.x-ie)[is-main-header-visible="false"] .left-panel:after {
+  display: none;
+}
+body[OldUI=false] .button-image-size {
+  width: 38px;
+  height: 38px;
+  background: no-repeat center;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  margin-right: -19px;
+  margin-top: -19px;
+}
+body[OldUI=false] .default-button-size {
+  height: 64px;
+  width: 52px;
+}
+body[OldUI=false] .collapsed-button-size {
+  height: 53px;
+  width: 70px;
+}
+body[OldUI=false].left-panel-collapsed .left-panel {
+  width: 72px;
+}
+body[OldUI=false] .left-panel {
+  border-left: 7px solid #ebeeef;
+  width: 210px;
+}
+body[OldUI=false] .left-panel .ts-sidebar-item-image {
+  margin-right: 4px;
+  margin-left: 16px;
+}
+body[OldUI=false] .top-menu-module-container #collapse-button-imageEl {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+body[OldUI=false] .top-menu-module-container .menu-button-wrapperEl {
+  height: 64px;
+  width: 52px;
+}
+body[OldUI=false] .top-menu-module-container .menu-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  margin: 0;
+}
+body[OldUI=false] .top-menu-module-container .menu-button-wrapperEl.t-btn-wrapper:hover {
+  background-color: #CA13FF;
+}
+body[OldUI=false] .top-menu-module-container .menu-startprocess-button-wrapperEl {
+  height: 64px;
+  width: 52px;
+}
+body[OldUI=false] .top-menu-module-container .menu-startprocess-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  margin: 0;
+}
+body[OldUI=false] .top-menu-module-container .menu-startprocess-button-wrapperEl.t-btn-wrapper:hover {
+  background-color: #006CE0;
+}
+body[OldUI=false] .top-menu-module-container .menu-quickadd-button-wrapperEl {
+  height: 64px;
+  width: 52px;
+}
+body[OldUI=false] .top-menu-module-container .menu-quickadd-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  margin: 0;
+}
+body[OldUI=false] .top-menu-module-container .menu-quickadd-button-wrapperEl.t-btn-wrapper:hover {
+  background-color: #22AC14;
+}
+body[OldUI=false] .top-menu-module-container .collapse-button-wrapperEl {
+  height: 64px;
+  width: 52px;
+}
+body[OldUI=false] .top-menu-module-container .collapse-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+  margin: 0;
+}
+body[OldUI=false] .top-menu-module-container .collapse-button-wrapperEl.t-btn-wrapper:hover {
+  background-color: #1A4580;
+}
+body[OldUI=false].left-panel-collapsed #collapse-button-imageEl {
+  -moz-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+body[OldUI=false].left-panel-collapsed .top-menu-module-container {
+  height: 207px;
+  display: block;
+}
+body[OldUI=false].left-panel-collapsed .collapse-button-wrapperEl {
+  height: 53px;
+  width: 70px;
+}
+body[OldUI=false].left-panel-collapsed .collapse-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  margin: 0;
+}
+body[OldUI=false].left-panel-collapsed .collapse-button-wrapperEl.t-btn-wrapper:hover {
+  background-color: "transparent";
+}
+body[OldUI=false].left-panel-collapsed .menu-button-wrapperEl {
+  height: 53px;
+  width: 70px;
+}
+body[OldUI=false].left-panel-collapsed .menu-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  margin: 0;
+}
+body[OldUI=false].left-panel-collapsed .menu-button-wrapperEl.t-btn-wrapper:hover {
+  background-color: #CA13FF;
+}
+body[OldUI=false].left-panel-collapsed .menu-startprocess-button-wrapperEl {
+  height: 53px;
+  width: 70px;
+}
+body[OldUI=false].left-panel-collapsed .menu-startprocess-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  margin: 0;
+}
+body[OldUI=false].left-panel-collapsed .menu-startprocess-button-wrapperEl.t-btn-wrapper:hover {
+  background-color: #006CE0;
+}
+body[OldUI=false].left-panel-collapsed .menu-quickadd-button-wrapperEl {
+  height: 53px;
+  width: 70px;
+}
+body[OldUI=false].left-panel-collapsed .menu-quickadd-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+  margin: 0;
+}
+body[OldUI=false].left-panel-collapsed .menu-quickadd-button-wrapperEl.t-btn-wrapper:hover {
+  background-color: #22AC14;
+}

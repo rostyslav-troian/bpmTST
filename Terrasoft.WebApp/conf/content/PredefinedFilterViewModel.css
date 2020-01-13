@@ -1,0 +1,15 @@
+﻿.predefined-filters-container-wrapClass {
+  padding-top: 0.48em;
+  vertical-align: top;
+}
+.predefined-filters-container-wrapClass .filter-items-container-list {
+  display: inline-flex;
+  padding: 0.38em 0.86em 0.38em 0.86em;
+}
+.predefined-filters-container-wrapClass .filter-items-container-list .t-label {
+  width: auto;
+}
+.predefined-filters-container-wrapClass .filter-items-container-list .t-btn-wrapper {
+  padding-top: 0.2em;
+  padding-left: 0.38em;
+}

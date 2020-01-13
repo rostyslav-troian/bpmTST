@@ -1,0 +1,61 @@
+﻿#process-reminder {
+  margin-top: -15px;
+}
+#reminderContainer {
+  vertical-align: top;
+  margin-bottom: 24px;
+  border-bottom: 2px solid #64b8df;
+  display: inline-block;
+  width: 100%;
+}
+#reminderContainer #stepsCaption-caption {
+  font-family: "Segoe UI Light";
+  font-size: 18px;
+  color: #444;
+  letter-spacing: -0.01em;
+}
+#reminderContainer #stepsCaption {
+  margin-left: 37px;
+  padding-bottom: 0px;
+}
+#reminderContainer #stepsCaption-wrap {
+  margin-bottom: 22px !important;
+  margin-top: 0px;
+}
+#reminderContainer #stepsCaption-wrap .t-label-blue,
+#reminderContainer #stepsCaption-wrap .t-label-gray {
+  font-size: 16px;
+  cursor: hand;
+  cursor: pointer;
+  width: auto;
+  color: #0e84cf;
+}
+#reminderContainer #stepsCaption-wrap .t-label-gray {
+  color: #444;
+}
+#reminderContainer #stepsCaption-wrap .t-label-blue:hover,
+#reminderContainer #stepsCaption-wrap .t-label-gray:hover {
+  color: #10a0e3;
+}
+#reminderContainer .custom-view-container {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.img-user-class {
+  margin-right: 9px;
+  margin-bottom: 2px;
+}
+#leftContainer {
+  display: inline-block;
+  width: 90%;
+  vertical-align: top;
+}
+#rightContainer {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+#rightContainer #hideReminder-btn-wrapperEl {
+  padding-top: 9px;
+  padding-right: 10px;
+}

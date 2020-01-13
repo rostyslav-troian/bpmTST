@@ -1,0 +1,43 @@
+﻿.header {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.header-name-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  padding-left: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.header-name-container-full {
+  width: 95%;
+}
+.module-command-line {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding-right: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.module-help-container {
+  display: inline-block;
+  width: 5%;
+  height: 42px;
+}
+.header-name-container .t-label {
+  font-family: "Segoe UI Light";
+  font-size: 3.5em;
+  letter-spacing: -0.01em;
+  margin-bottom: 34px;
+}
+#buttonContainer .t-btn-wrapper {
+  margin-left: 9px;
+}
+#messageLabel {
+  margin-top: 30px;
+}

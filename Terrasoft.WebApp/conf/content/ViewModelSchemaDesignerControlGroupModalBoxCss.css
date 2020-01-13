@@ -1,0 +1,6 @@
+﻿.modal-box-card-content-wrap.control-group-modal-box .tap-panel-box {
+  margin-top: 1.5em;
+}
+.modal-box-card-content-wrap.control-group-modal-box .tap-panel-box + .tap-panel-box {
+  margin-left: 1em;
+}

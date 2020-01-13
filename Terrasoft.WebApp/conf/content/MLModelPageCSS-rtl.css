@@ -1,0 +1,159 @@
+﻿#MLModelPageContainer .faq-header {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#MLModelPageContainer .label-green-color {
+  color: #8ecb60;
+}
+#MLModelPageContainer .t-btn-wrapper.rootentity-info-button-control-group {
+  border: 0 !important;
+  margin: 0;
+}
+#MLModelPageContainer .t-btn-wrapper.faq-button {
+  padding: 0;
+  text-decoration: none;
+  color: #4e7bd8;
+  outline: none;
+  overflow: hidden;
+  font-size: 1.4em;
+  text-align: right;
+  margin-bottom: 6px;
+}
+#MLModelPageContainer .t-btn-wrapper.faq-button:hover {
+  text-decoration: underline;
+}
+#MLModelPageContainer #ModelSettingsTab #MetaData-wrap {
+  height: 300px;
+  margin-bottom: 10px;
+}
+#MLModelPageContainer #ModelSettingsTab #TrainingSetQuery-wrap,
+#MLModelPageContainer #ModelSettingsTab #BatchPredictionQuery-wrap {
+  height: 200px;
+}
+#MLModelPageContainer #ModelSettingsTab .memo-label {
+  color: #999999;
+  font-size: 1.3em;
+  margin: 4px 4px 0 0;
+}
+#MLModelPageContainer #ModelSettingsTab .add-columns-menu-button .t-btn-menu {
+  display: none;
+}
+#MLModelPageContainer #ModelSettingsTab .target-column.base-edit-focus,
+#MLModelPageContainer #ModelSettingsTab .predicted-result-column.base-edit-focus {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+}
+#MLModelPageContainer #ModelSettingsTab .training-query-designer {
+  white-space: nowrap;
+}
+#MLModelPageContainer #ModelSettingsTab .training-query-designer .columns-container-list {
+  width: 100%;
+  line-height: 31px;
+  border-top: 1px outset;
+  margin-top: 10px;
+}
+#MLModelPageContainer #ModelSettingsTab .training-query-designer .columns-container-list .column-item-container {
+  height: 31px;
+  position: relative;
+}
+#MLModelPageContainer #ModelSettingsTab .training-query-designer .columns-container-list .column-item-container .column-type-icon {
+  margin-right: 10px;
+  height: 16px;
+  width: 16px;
+}
+#MLModelPageContainer #ModelSettingsTab .training-query-designer .columns-container-list .column-item-container .column-link {
+  margin-right: 19px;
+  max-width: 350px;
+  text-overflow: ellipsis;
+}
+#MLModelPageContainer #ModelSettingsTab .training-query-designer .columns-container-list .column-item-container .column-link:focus {
+  outline: none;
+}
+#MLModelPageContainer #ModelSettingsTab .training-query-designer .columns-container-list .column-item-container .remove-column-icon {
+  display: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  margin-right: -10px;
+  margin-top: -10px;
+  left: 3px;
+}
+#MLModelPageContainer #ModelSettingsTab .training-query-designer .columns-container-list .column-item-container .remove-column-icon:hover {
+  cursor: pointer;
+}
+#MLModelPageContainer #ModelSettingsTab .training-query-designer .column-item-container > * {
+  vertical-align: middle;
+}
+#MLModelPageContainer #ModelSettingsTab .training-query-designer .column-item-container:nth-child(even) {
+  background-color: #f7f7f7;
+}
+#MLModelPageContainer #ModelSettingsTab .training-query-designer .column-item-container:hover .remove-column-icon {
+  display: inline !important;
+}
+#MLModelPageContainer #ModelSettingsTab .training-query-designer > div {
+  display: inline-block;
+  vertical-align: top;
+}
+#MLModelPageContainer #ModelSettingsTab .placeholder-label {
+  color: #999999;
+  text-align: center;
+  margin-top: 10px;
+}
+#MLModelPageContainer #ModelSettingsTab .toggle-edit {
+  display: inline-block;
+}
+#MLModelPageContainer #ModelSettingsTab .toggle-edit-label {
+  display: inline;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+#MLModelPageContainer #ModelSettingsTab .ts-controlgroup-caption-wrap {
+  height: auto;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+#MLModelPageContainer #ModelSettingsTab .ts-controlgroup-caption-wrap .ts-controlgroup-tools {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+}
+#MLModelPageContainer #ModelSettingsTab .ts-controlgroup-caption-wrap > span {
+  min-height: 2.5em;
+  height: auto;
+}
+#MLModelPageContainer #ModelSettingsTab .ts-controlgroup-container,
+#MLModelPageContainer #ModelSettingsTab .batch-prediction-filters-container,
+#MLModelPageContainer #ModelSettingsTab .batch-prediction-filters-label {
+  margin-right: 24px;
+}
+#MLModelPageContainer #ModelSettingsTab #MLModelPageTrainingSettingsGroupControlGroup .toggle-edit {
+  margin-bottom: 10px;
+}
+#MLModelPageContainer #ModelSettingsTab .batch-prediction-filters-label {
+  margin-top: 10px;
+}
+#MLModelPageContainer #ModelSettingsTab .t-information-btn.t-btn-image {
+  width: 26px;
+  height: 26px;
+}
+#MLModelPageContainer .ml-explanation-widget {
+  height: 320px;
+}
+#MLModelPageContainer .ml-explanation-widget .empty-training-data-message {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999999;
+  text-align: center;
+}
+#MLModelPageContainer .ml-explanation-widget .empty-training-data-message .ts-image-edit-wrap {
+  margin-left: 0;
+  margin-bottom: 14px;
+}

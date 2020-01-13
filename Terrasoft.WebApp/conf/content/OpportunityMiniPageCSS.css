@@ -1,0 +1,35 @@
+﻿.opportunity-general-info-container {
+  display: -webkit-flex;
+  display: flex;
+}
+.opportunity-mini-page-container {
+  width: 380px;
+}
+.opportunity-mini-page-container .label-wrap.label-mini-wrap {
+  max-width: 100%;
+}
+.opportunity-mini-page-container .number-control-wrap .control-wrap .t-label {
+  color: #88bf60;
+  font-size: 15px;
+}
+.opportunity-header-buttons {
+  display: flex;
+}
+.opportunity-mini-page-container .opportunity-photo-container {
+  float: left;
+  height: 44px;
+  width: 44px;
+}
+.opportunity-mini-page-container .opportunity-photo-container img {
+  width: 44px;
+  height: 44px;
+}
+.opportunity-mini-page-container .header-mini-wrap .container-mini-wrap {
+  padding-left: 12px;
+}
+.opportunity-mini-page-container .header-mini-wrap {
+  margin-bottom: 0px;
+}
+.opportunity-mini-page-container .header-mini-wrap .t-label {
+  margin-top: 6px;
+}

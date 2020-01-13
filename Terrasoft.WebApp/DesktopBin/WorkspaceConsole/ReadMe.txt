@@ -1,0 +1,1 @@
+PrepareWorkspaceConsole.bat copies all contents of \Terrasoft.WebApp\bin\ to \Terrasoft.WebApp\DesktopBin\WorkspaceConsole\ with replacement.

@@ -1,0 +1,11 @@
+﻿html[dir="rtl"] body[OldUI=false] .center-panel .card-content-container.right-container-template .left-modules-container {
+  margin-left: -5px;
+  margin-right: 5px;
+}
+body[OldUI=false] .center-panel .card-content-container.right-container-template .left-modules-container {
+  order: 2;
+}
+body[OldUI=false] .center-panel .card-content-container.right-container-template .left-modules-container > * {
+  margin-left: 0;
+  margin-right: 0.6em;
+}

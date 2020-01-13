@@ -1,0 +1,24 @@
+﻿.inlinetextedit-expandable .item-control {
+  width: 100%;
+  min-width: 0px;
+  background-color: #ffffff;
+  border: 1px solid #c8c8c8;
+}
+.inlinetextedit-expandable .item-control .inline-text-edit-el {
+  min-height: 100px;
+  padding: 10px;
+  font-size: 14px;
+}
+.inlinetextedit-expandable .item-control .inline-text-edit-wrap:hover {
+  outline: none;
+  padding: 0;
+}
+.inlinetextedit-expandable .item-control .inline-text-edit-placeholder:after {
+  color: #999999;
+  left: 10px;
+  font-size: 14px;
+  font-family: "Segoe UI";
+}
+.inlinetextedit-expandable .item-control .cke_focus {
+  outline: 1px solid #00aeef;
+}

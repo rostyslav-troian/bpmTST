@@ -1,0 +1,150 @@
+﻿.designer {
+  margin-top: 2.2em;
+}
+.add-button {
+  border: 1px dotted #ccc;
+}
+.change-column-container {
+  display: block;
+  padding-top: 2em;
+}
+.change-column-container .t-label {
+  width: auto;
+  padding-right: 1.9em;
+  padding-left: 0.77em;
+  line-height: 2.4em;
+}
+.change-column-container .t-btn-wrapper {
+  display: inline-block;
+}
+.stretch-button {
+  margin-right: 0.25em;
+}
+.plus-button {
+  margin-right: 0.25em;
+}
+.remove-button,
+.copy-button {
+  margin-right: 0.67em;
+}
+.designer .grid-layout .t-btn-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #E5ECFA;
+}
+.designer .grid-layout .t-btn-wrapper.selected-item {
+  background-color: #FDF1C1;
+}
+.designer .ts-tabpanel {
+  padding-left: 8em;
+  margin-top: 3em;
+  margin-right: -3em;
+  margin-bottom: 1.6em;
+  width: 84.8em;
+}
+.designer .grid-layout {
+  width: 78.8em;
+}
+.designer .grid-layout .t-btn-wrapper .add-button {
+  position: relative;
+  right: 1.7em;
+}
+.designer .grid-layout .t-btn-wrapper .t-btn-marker {
+  display: none;
+}
+.designer .grid-layout .t-btn-wrapper .t-btn-menuWrap {
+  width: 100%;
+}
+.designer .grid-layout .t-btn-wrapper.wrapper-with-centered-right-menu {
+  background-color: #F4F7F8;
+}
+.designer .ts-controlgroup {
+  width: 78.8em;
+}
+.ts-controlgroup .grid-layout {
+  margin-right: 0;
+}
+.ts-controlgroup .ts-controlgroup-container {
+  padding-top: 0.27em;
+  padding-bottom: 2em;
+}
+.navigation-buttons {
+  margin-bottom: 1.5em;
+  margin-left: 1em;
+}
+.item-cell {
+  padding: 0.2em 0em 0.1em;
+}
+.empty-element-class {
+  width: 100%;
+  height: 100%;
+  border: 1px dotted #ccc;
+}
+.column-item-container {
+  width: 100%;
+  height: 100%;
+  padding-left: 0.3em;
+}
+.add-detail-button {
+  margin-top: 1.5em;
+}
+.sort-button {
+  margin-top: 1.5em;
+  margin-right: 0.6em;
+}
+.custom-button.t-btn-wrapper {
+  background-color: lightblue;
+  display: inline-table;
+}
+.ts-tabpanel-tools {
+  padding-left: 0;
+}
+.custom-button.t-btn-wrapper.t-btn-pressed {
+  background-color: #FDF1C1;
+}
+.add-button.custom-button.t-btn-wrapper {
+  background-color: #f0f0f0;
+}
+.custom-btn-table-el {
+  display: table;
+}
+.custom-btn-inner-el {
+  display: table-cell;
+  vertical-align: middle;
+}
+.custom-button .custom-btn-content-el {
+  overflow: hidden;
+}
+.custom-button.t-btn-wrapper .t-btn-text {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.custom-button.t-btn-wrapper.required .t-btn-text:after {
+  color: red;
+  content: '*';
+}
+.full-size {
+  width: 100%;
+  height: 100%;
+}
+.grid-layout-row .item-cell:last-child .column-item-container {
+  padding-left: 0;
+}
+.dashboard-tools-container .t-btn-wrapper {
+  margin-left: 0.65em;
+}
+.dashboard-config-container {
+  margin-top: 10px;
+}
+.dashboard-config-container #captionContainer {
+  height: 50px;
+}
+.open-grid-settings-button {
+  margin-top: 20px;
+}
+.custom-designerGridLayoutItem-center-text-el {
+  display: table-cell;
+  vertical-align: middle;
+}

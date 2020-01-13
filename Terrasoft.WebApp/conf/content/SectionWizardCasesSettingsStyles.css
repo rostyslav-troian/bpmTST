@@ -1,0 +1,184 @@
+﻿.section-designer-shown {
+  height: 100%;
+}
+.section-designer-shown #ViewModuleContainer {
+  height: 100%;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container {
+  height: 100%;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel {
+  height: 100%;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content {
+  height: 100%;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content div[data-item-marker*="GridSettings"] .card-content-container {
+  margin-top: 126px;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content div[data-item-marker*="GridSettings"] .card-content-container .actions-container {
+  position: absolute;
+  left: 30px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  height: 7em;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content div[data-item-marker*="GridSettings"] .card-content-container .actions-container .left-container-wrapClass {
+  padding: 20px;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .separate-action-buttons-right-container-wrapClass {
+  position: static;
+  padding-right: 10px;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .grid-settings,
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content #main-summary-settings-view {
+  position: absolute;
+  top: 132px;
+  left: 6px;
+  width: calc(100% - 12px);
+  min-height: 500px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .grid-settings.center-main-container,
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content #main-summary-settings-view.center-main-container {
+  border: none;
+  background: none;
+  padding: 0;
+  left: 30px;
+  width: calc(70%);
+  position: static;
+  top: 0;
+  margin-left: 30px;
+  margin-top: 55px;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings {
+  height: 100%;
+  padding-top: 126px;
+  overflow-y: hidden;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-settings {
+  position: fixed;
+  min-width: 380px;
+  width: 380px;
+  height: 100%;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-settings .schema-wrap.one-el {
+  min-width: inherit;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-settings .sys-dcm-settings {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 0 25px 8px 66px;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-settings .sys-dcm-settings .t-btn-wrapper.cases-icon {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  top: 20px;
+  left: 20px;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-settings .sys-dcm-settings .t-btn-wrapper.cases-icon .t-btn-image {
+  width: 36px;
+  height: 36px;
+  background: center no-repeat;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-settings .sys-dcm-settings .t-btn-wrapper.cases-icon:hover .t-btn-image {
+  animation: rotate 1s cubic-bezier(0.74, -0.55, 0.63, 0.63);
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-settings .sys-dcm-settings .control-width-15 {
+  margin: 15px 0;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-settings .sys-dcm-settings .control-width-15 .label-wrap {
+  display: block;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  padding: 0;
+  margin: 0 0 6px 0;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-settings .sys-dcm-settings .control-width-15 .label-wrap .t-label {
+  text-align: left;
+  color: #8fcb61;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-settings .sys-dcm-settings .control-width-15 .label-wrap .t-label.t-label-is-required:after {
+  position: static;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-settings .sys-dcm-settings .control-width-15 .control-wrap {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library {
+  height: calc(100vh - 138px);
+  margin-left: 386px;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  border-top: none;
+  overflow-y: auto;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library .section {
+  margin-left: inherit;
+  background-color: white;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library .section .viewmodel-scrolltop-btn {
+  margin-top: -80px;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library .section .right-section-container {
+  border: 0;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library .section .left-section-container .extended-filters-container-wrapClass {
+  left: 394px;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library .section .left-section-container .folders-container-wrapClass {
+  left: 394px;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library .schema-wrap.one-el .section-wrap {
+  background-color: white;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library .schema-wrap.one-el .section-wrap .data-views-container-wrapClass {
+  padding-top: 61px;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library .schema-wrap.one-el .section-wrap .action-buttons-container-wrapClass {
+  background-color: white;
+  margin-left: 0;
+  width: calc(100% - 400px);
+  min-width: calc(100% - 400px);
+  padding-top: 20px;
+  border: none;
+  border-top: 1px solid #e6e6e6;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library .schema-wrap.one-el .section-wrap .content-container-wrapClass > .section .utils-container-wrapClass {
+  position: fixed;
+  top: 182px;
+  border: 0;
+  background-color: white;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library .schema-wrap.one-el .section-wrap .content-container-wrapClass > .section .utils-container-wrapper-wrapClass {
+  margin-top: -1em;
+  background-color: white;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library .schema-wrap.one-el .section-wrap .section-inner-wrap.one-el .grid.grid-tiled:not(.grid-empty):before {
+  display: none;
+}
+.section-designer-shown #ViewModuleContainer .wizard-container .center-panel .default-center-panel-content .cases-settings .section-dcm-library .ts-image-edit-container img {
+  background-color: inherit;
+}

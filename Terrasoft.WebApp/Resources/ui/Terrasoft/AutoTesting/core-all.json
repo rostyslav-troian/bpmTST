@@ -1,0 +1,14 @@
+{
+	"harness": {
+		"runCore": "parallel",
+		"title": "Core tests",
+		"forceDOMVisible": false,
+		"warnOnNotBDD": true,
+		"maxThreads": 2
+	},
+	"cmd": {
+		"max-workers": 2,
+		"chunk-size": 2,
+		"no-color": false
+	}
+}

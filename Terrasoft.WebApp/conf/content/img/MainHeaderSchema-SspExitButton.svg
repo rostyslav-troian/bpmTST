@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="16" height="16" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_account_exit" clip-path="url(#clip-path)">
+    <rect id="Rectangle_461" data-name="Rectangle 461" width="16" height="16" fill="none"/>
+    <g id="Group_634" data-name="Group 634" transform="translate(111.5 -588.792)">
+      <path id="Path_827" data-name="Path 827" d="M-102.447,589.782v14.01l-6.1-1-.006-12Z" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <path id="Path_828" data-name="Path 828" d="M-102.466,590.772h2.932v12.041h-2.932" transform="translate(111.5 -588.792)" fill="none" stroke="#8095b3" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

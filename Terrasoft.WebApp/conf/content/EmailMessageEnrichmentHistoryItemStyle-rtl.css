@@ -1,0 +1,16 @@
+﻿.email-message-actions-button-wrapper {
+  margin-right: 14px;
+}
+.historyMessageWrap .messageContent .messageHeader .email-message-actions-button-wrapper[data-item-marker*=ShowCloud] .t-btn-image {
+  height: 13px;
+  background-repeat: no-repeat;
+  margin-top: 3px;
+}
+[data-item-marker*=CaseEmailActionsButton] .menu-item-image {
+  width: 18px;
+  height: 12px;
+  margin-top: 3px;
+}
+.historyMessageWrap .messageContent .messageHeader .email-sender-contact {
+  font-size: 14px;
+}

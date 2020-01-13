@@ -1,0 +1,109 @@
+﻿.left-container {
+  margin-top: 28px;
+  float: left;
+  width: 45%;
+  margin-bottom: 40px;
+}
+.right-container {
+  margin-top: 28px;
+  float: right;
+  width: 45%;
+  margin-bottom: 40px;
+}
+.header-name-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  padding-right: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.dashboard-context-help-container {
+  display: inline-block;
+  width: 5%;
+  height: 42px;
+}
+.card-command-line {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding-left: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.graph-header-name {
+  font-size: 16px;
+  font-family: "Segoe UI Light";
+  color: #058dc7;
+  letter-spacing: -0.01em;
+  width: 100%;
+  margin-bottom: 28px;
+}
+.section-tab-list {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding-right: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  overflow: hidden;
+}
+.section-tab-list .t-btn-menu {
+  right: 0;
+}
+.header-button-text .t-btn-text {
+  color: #4d5a75;
+  font-size: 35px;
+  font-family: 'Segoe UI Light';
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+.header-button-menu {
+  font-size: 24px;
+  margin-top: 9px;
+}
+.section-tab-list .t-btn-wrapper {
+  padding: 0px 27px 0px 0px;
+}
+.t-btn-marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -10px;
+  margin: auto 0;
+  width: 0;
+  height: 0;
+  border-top: 0.32em solid #6d6d6d;
+  border-right: 0.32em solid transparent;
+  border-left: 0.32em solid transparent;
+  content: "";
+  font-size: 24px;
+  margin-top: 9px;
+}
+.t-btn-wrapper {
+  padding-top: 0px;
+  padding-left: 0px;
+  overflow: hidden;
+  display: inline-block;
+  --padding: 0.71em 0.86em 0em 0.86em;
+  cursor: pointer;
+  font-size: 1.4em;
+  -webkit-user-select: none;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.t-btn-wrapper.wrapper-with-centered-right-menu {
+  padding-top: 0px;
+}
+#menu-workplace-button-wrapperEl {
+  width: 165px;
+  margin-left: 4px;
+  margin-top: 4px;
+  padding-top: 10px;
+  padding-left: 11px;
+}

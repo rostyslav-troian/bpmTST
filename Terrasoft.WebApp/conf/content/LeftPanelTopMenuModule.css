@@ -1,0 +1,149 @@
+﻿body.left-panel-collapsed #process-button-wrapperEl {
+  border-bottom: thin solid #5F697F;
+}
+.button-image-size {
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+}
+.remindings-button-textEl {
+  color: #ffffff;
+  font-size: 10px;
+  position: absolute;
+  top: 14px;
+  left: 20.5px;
+  height: 13px;
+  width: 16px;
+  line-height: 12px;
+  vertical-align: middle;
+  text-align: center;
+}
+.remindings-button-wrapperEl {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+  margin-left: 7px;
+  padding-right: 8px;
+  width: 45px;
+  height: 41px;
+}
+.left-panel-collapsed .top-menu-module-container {
+  height: 207px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-content: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+}
+.top-menu-module-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+  height: 63px;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.top-menu-module-container span.t-btn-no-text-padding {
+  margin: auto;
+  padding: 0;
+}
+/* MFF */
+
+#menu-startprocess-button-markerEl {
+  border-top-color: transparent;
+}
+#menu-quickadd-button-markerEl {
+  border-top-color: transparent;
+}
+#menu-button-markerEl {
+  border-top: 0.3em solid transparent;
+}
+.menu-wrap.left-top-menu {
+  background: #717B91;
+  color: #FFFFFF;
+  border: none;
+}
+/*
+//Сапараторы для "синего" меню
+#separator-top-menu-item-menu-separator-header{
+	color: #C7CFE0;
+	border-top: 1px solid #C7CFE0;
+}
+#separator-botom-menu-item-menu-separator-header{
+	color: #C7CFE0;
+	border-top: 1px solid #C7CFE0;
+}*/
+
+.left-top-menu .menu-focus-el {
+  visibility: hidden;
+}
+.top-menu-module-container .collapse-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+  margin-right: 11px;
+}
+.top-menu-module-container .menu-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  margin-left: 18px;
+  margin-top: 19px;
+}
+.top-menu-module-container .menu-startprocess-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+.top-menu-module-container .menu-quickadd-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  margin-right: 7px;
+}
+.left-panel-collapsed .collapse-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  margin: auto;
+}
+.left-panel-collapsed .menu-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  margin: auto;
+}
+.left-panel-collapsed .menu-startprocess-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  margin: auto;
+}
+.left-panel-collapsed .menu-quickadd-button-wrapperEl.t-btn-wrapper {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+  margin: auto;
+}
+html[dir="rtl"] body[OldUI=false].left-panel-collapsed .top-menu-module-container #collapse-button-imageEl {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+html[dir="rtl"] body[OldUI=false] .top-menu-module-container #collapse-button-imageEl {
+  -moz-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}

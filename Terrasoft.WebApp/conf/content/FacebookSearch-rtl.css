@@ -1,0 +1,42 @@
+﻿.social-search-result-container-wrapClass .grid-listed-icon {
+  margin-top: -0.45em;
+  position: absolute;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.social-search-result-container-wrapClass .grid-captions {
+  margin-bottom: 3px;
+  /*
+		padding: 7px 6px 0px;
+		border-bottom: none;
+*/
+
+}
+.social-search-result-container-wrapClass .grid-listed-row {
+  min-height: 32px;
+  /*
+		padding: 7px 6px 0px;
+*/
+
+}
+.social-search-result-container-wrapClass .grid-listed-row [class*='grid-cols-']:first-child {
+  width: 30px;
+  margin-left: 9px;
+}
+.social-search-query-container .facebook-search-button {
+  border: 1px solid #b4c1d2;
+  border-radius: 1px;
+  color: #4e7bd8;
+  padding-right: 27px !important;
+  padding-left: 6px;
+  height: 32px;
+}
+.social-search-query-container .facebook-search-button-image {
+  right: 6px;
+}
+.social-search-query-container .help-text-label {
+  color: #999999;
+  text-align: justify;
+  margin-bottom: 15px;
+}

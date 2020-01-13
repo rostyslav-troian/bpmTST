@@ -1,0 +1,936 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Core.ServiceModel</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Core.ServiceModel.BaseProcessSchemaManagerService`2">
+            <summary>
+            The base class that provides common operations to manipulate with Process and Dcm schemas.
+            </summary>
+            <seealso cref="T:Terrasoft.Web.Common.BaseService" />
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.BaseProcessSchemaManagerService`2.GetSchemaVersionInfo(System.String,System.String)">
+            <summary>
+            Returns schema version info.
+            </summary>
+            <param name="parentSchemaUId">The unique identifier of the parent schema.</param>
+            <param name="packageUId">The unique identifier of the package.</param>
+            <returns>String that contains the json object.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.BaseProcessSchemaManagerService`2.SetIsActualVersion(System.String)">
+            <summary>
+            Sets schema as actual by UId.
+            </summary>
+            <param name="schemaUId">The schema UId.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.BaseProcessSchemaManagerService`2.GetActualVersionUId(System.String)">
+            <summary>
+            Gets unique identifier of process schema's actual version.
+            </summary>
+            <param name="schemaUId">The schema UId.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.BaseSchemaService.WriteErrorLog(System.Exception)">
+            <summary>
+            Writes formatter log to application log.
+            </summary>
+            <param name="exception">Exception to write.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.BaseSchemaService.GetExceptionResponse(System.String)">
+            <summary>
+            Gets success response
+            </summary>
+            <param name="message">The message.</param>
+            <returns>Response string.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.BaseSchemaService.GetSuccessResponse(System.String)">
+            <summary>
+            Gets success response
+            </summary>
+            <param name="message">The message.</param>
+            <returns>Response string.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.BaseSchemaService.ExportInternal(System.Guid)">
+            <summary>
+            Performs export operation.
+            </summary>
+            <param name="schemaId">Schema to export.</param>
+            <returns>The String with metadata.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.BaseSchemaService.Export(System.String,System.String)">
+            <summary>
+            Exports schema MetaData by specified identifier and schema manager name.
+            </summary>
+            <param name="schemaUId">Schema identifier.</param>
+            <param name="managerName">Schema identifier.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.BaseSchemaService.GetUniqueNameAndCaption(System.String,System.String,System.String)">
+            <summary>
+            Returns unique manager item name and caption by specified manager name.
+            </summary>
+            <param name="managerName">Manager name.</param>
+            <param name="namePrefix">Name prefix</param>
+            <param name="captionPrefix">Caption prefix</param>
+            <returns>Json object with name and caption values.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.BaseSchemaService.CheckHasNoForeignLock(System.String,System.String)">
+            <summary>
+            Indicates whether the specified schema has any foreign lock.
+            </summary>
+            <param name="managerName">Schema manager name.</param>
+            <param name="schemaUId">Schema identifier.</param>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModel.ChangeLogRepository">
+            <summary>
+            Class containing a logic for receiving a change log.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.AddLookupQueryColumn(Terrasoft.Core.Entities.EntitySchemaQuery,System.String)">
+            <summary>
+            Adds lookup query column to entity schema query.
+            </summary>
+            <param name="entitySchemaQuery">Entity schema query.</param>
+            <param name="columnName">Column name.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.GetChangeLogEsq(Terrasoft.Core.Entities.EntitySchema,Terrasoft.Core.Entities.EntitySchemaColumn[],Terrasoft.Core.ServiceModelContract.ChangeLogPagingOptions)">
+            <summary>
+            Returns change log entity schema query.
+            </summary>
+            <param name="changeLogEntitySchema">Entity schema of change log object.</param>
+            <param name="trackedColumns">Tracked columns to be added to the entity schema query.</param>
+            <param name="pagingOptions">Paging options to the entity schema query.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.AddChangeLogEsqFilters(Terrasoft.Core.Entities.EntitySchemaQuery,Terrasoft.Core.ServiceModelContract.ChangeLogFilters)">
+            <summary>
+            Adds filters to entity schema query.
+            </summary>
+            <param name="changeLogEsq">Entity schema query.</param>
+            <param name="filters">Query filters.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.AddChangeLogEsqSearchFilter(Terrasoft.Core.Entities.EntitySchemaQuery,System.String)">
+            <summary>
+            Adds search filter to entity schema query.
+            </summary>
+            <param name="changeLogEsq">Entity schema query.</param>
+            <param name="searchValue">Search value.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.GetLookupValueColumnAlias(System.String)">
+            <summary>
+            Builds alias of ESQ column containing lookup column value.
+            </summary>
+            <param name="columnName">Lookup column name.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.GetLookupValue(Terrasoft.Core.Entities.Entity,System.String)">
+            <summary>
+            Returns lookup value by column name.
+            </summary>
+            <param name="entity">Entity.</param>
+            <param name="columnName">Column name.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.GetLookupDisplayValueColumnAlias(System.String)">
+            <summary>
+            Builds alias of ESQ column containing lookup column display value.
+            </summary>
+            <param name="columnName">Lookup column name.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.GetLookupDisplayValue(Terrasoft.Core.Entities.Entity,System.String)">
+            <summary>
+            Returns lookup display value by column name.
+            </summary>
+            <param name="entity">Entity.</param>
+            <param name="columnName">Column name.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.GetColumnDataValueType(Terrasoft.Core.Entities.EntitySchemaColumn)">
+            <summary>
+            Returns column data value type.
+            </summary>
+            <param name="column">Entity schema column.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.FormatColumnValue(Terrasoft.Core.Entities.EntitySchemaColumn,System.Object)">
+            <summary>
+            Formats column value for sending it to the client side.
+            </summary>
+            <param name="column">Entity schema column which value needs to be formatted.</param>
+            <param name="columnValue">Column value.</param>
+            <returns>Formatted column value.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.CreateChangedColumn(Terrasoft.Core.Entities.EntitySchemaColumn,System.Object,System.Object)">
+            <summary>
+            Creates changed column instance.
+            </summary>
+            <param name="column">Entity schema column.</param>
+            <param name="oldValue">Old column value.</param>
+            <param name="newValue">New column value.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.CreateChangeLogRecord(Terrasoft.Core.Entities.Entity)">
+            <summary>
+            Creates change log record.
+            </summary>
+            <param name="entity">Change log record entity.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.AreColumnValuesEqual(System.Object,System.Object)">
+            <summary>
+            Compares specified column values.
+            </summary>
+            <param name="value1">First column value.</param>
+            <param name="value2">Second column value.</param>
+            <returns>True if values are equal, and false in another case.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.GetChangedColumns(Terrasoft.Core.Entities.Entity,Terrasoft.Core.Entities.Entity,Terrasoft.Core.Entities.EntitySchemaColumn[])">
+            <summary>
+            Compares values of tracked columns of two change log record entities and creates <see cref="T:Terrasoft.Core.ServiceModelContract.ChangedColumn"/>
+            instances for changed ones.
+            </summary>
+            <param name="oldChangeLogEntity">Change log record entity that specifies a change was tracked first.</param>
+            <param name="newChangeLogEntity">Change log record entity that specifies a change was tracked
+            next after change specified by <paramref name="oldChangeLogEntity"/>.</param>
+            <param name="changeLogTrackedColumns">Tracked change log columns to be compared.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.CreateRecordChangeLogList(Terrasoft.Core.Entities.EntityCollection,Terrasoft.Core.Entities.EntitySchemaColumn[])">
+            <summary>
+            Creates change log list.
+            </summary>
+            <param name="changeLogEntityCollection">Collection of change log entities.</param>
+            <param name="changeLogTrackedColumns">Tracked change log columns to be returned in the result list.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogRepository.GetObjectChangeLog(Terrasoft.Core.Entities.EntitySchema,Terrasoft.Core.Entities.EntitySchemaColumn[],Terrasoft.Core.ServiceModelContract.ChangeLogPagingOptions,Terrasoft.Core.ServiceModelContract.ChangeLogFilters)">
+            <summary>
+            Returns object change log list.
+            </summary>
+            <param name="entitySchema"></param>
+            <param name="trackedColumns"></param>
+            <param name="pagingOptions"></param>
+            <param name="filters"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModel.ChangeLogService">
+            <summary>
+            Web service with change log API.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.ServiceModel.ChangeLogService._operationAccessDeniedMessage">
+            <summary>
+            Operation access denied message.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModel.ChangeLogService.DBViewOperationErrorMessage">
+            <summary>
+            Logging is unavailable for views error message.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModel.ChangeLogService.DbSecurityEngine">
+            <summary>
+            DB security engine.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.CreateChangeLogRepository">
+            <summary>
+            Creates change log repository instance for receiving a change log.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.CheckCanReadColumn(Terrasoft.Core.Entities.EntitySchema,Terrasoft.Core.Entities.EntitySchemaColumn)">
+            <summary>
+            Checks if current user can read column.
+            </summary>
+            <param name="entitySchema">Entity schema.</param>
+            <param name="column">Entity schema column.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.CheckNeedLoadTrackedColumn(Terrasoft.Core.Entities.EntitySchema,Terrasoft.Core.Entities.EntitySchemaColumn)">
+            <summary>
+            Checks whether specified tracked column of the entity schema should be loaded.
+            </summary>
+            <param name="entitySchema">Entity schema instance.</param>
+            <param name="entitySchemaColumn">Entity schema column to check</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.GetEntitySchemaTrackedColumns(Terrasoft.Core.Entities.EntitySchema)">
+            <summary>
+            Returns entity schema tracked columns.
+            </summary>
+            <param name="entitySchema">Entity schema.</param>
+            <returns>Entity schema tracked columns.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.GetRecordTitle(Terrasoft.Core.Entities.EntitySchema,System.Guid)">
+            <summary>
+            Returns record primary display value;
+            </summary>
+            <param name="entitySchema">Entity schema.</param>
+            <param name="recordId">Record Id.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.CheckCanReadObject(Terrasoft.Core.Entities.EntitySchema)">
+            <summary>
+            Checks if current user can read object.
+            </summary>
+            <param name="entitySchema">Entity schema.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.CheckCanReadRecord(Terrasoft.Core.Entities.EntitySchema,System.Guid)">
+            <summary>
+            Checks if current user can read record.
+            </summary>
+            <param name="entitySchema">Entity schema.</param>
+            <param name="recordId">Record Id.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.CreateChangeLogSettings(Terrasoft.Core.Entities.EntitySchema)">
+            <summary>
+            Creates change log settings by schema UId.
+            </summary>
+            <param name="entitySchema">Entity schema.</param>
+            <returns>Change log settings.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.SaveChangeLogSettings(Terrasoft.Core.ServiceModelContract.ObjectChangeLogSettings)">
+            <summary>
+            Saves Change log settings for entity schema.
+            </summary>
+            <param name="settings">Change log settings.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.CreateChangeLogObjectsEsq">
+            <summary>
+            Creates entity schema query for receiving the change log objects.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.CreateChangeLogObjects(Terrasoft.Core.Entities.EntitySchemaQuery)">
+            <summary>
+            Creates change log objects from entity collection.
+            </summary>
+            <param name="esq">Entity schema query for change log objects.</param>
+            <returns>Array with change log objects.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.UpdateDbStructure(Terrasoft.Core.Entities.EntitySchema)">
+            <summary>
+            Executes required database actions.
+            </summary>
+            <param name="schema">Entity schema.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.BuildChangedConfiguration">
+            <summary>
+            Builds changed configuration.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.GetAllObjects">
+            <summary>
+            Returns list of all objects change log settings.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.GetSectionObjects">
+            <summary>
+            Returns list of section objects change log settings.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.GetLookupObjects">
+            <summary>
+            Returns list of lookup objects change log settings.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.GetRecordChangeLog(System.Guid,System.Guid)">
+            <summary>
+            Returns change log by record.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <param name="recordId">Record Id.</param>
+            <returns>Change log by record.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.GetObjectChangeLog(System.Guid,Terrasoft.Core.ServiceModelContract.ChangeLogPagingOptions,Terrasoft.Core.ServiceModelContract.ChangeLogFilters)">
+            <summary>
+            Returns change log by object.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <param name="pagingOptions">Paging options.</param>
+            <param name="filters">Change log filters.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.SaveObjectChangeLogSettings(Terrasoft.Core.ServiceModelContract.ObjectChangeLogSettings)">
+            <summary>
+            Saves entity schema change log settings.
+            </summary>
+            <param name="changeLogSettings">Change log settings.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.GetObjectChangeLogSettings(System.Guid)">
+            <summary>
+            Returns change log settings for entity schema.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <returns>Change log settings for entity schema.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ChangeLogService.GetLoggedObjects">
+            <summary>
+            Returns change log settings for entity schema.
+            </summary>
+            <returns>Change log settings for entity schema.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModel.DcmSchemaManagerService">
+            <summary>
+            The web service that provides access to the <see cref="T:Terrasoft.Core.DcmProcess.DcmSchemaManager" /> methods.
+            </summary>
+            <seealso cref="T:Terrasoft.Web.Common.BaseService" />
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.IDcmSchemaManagerService" />
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModel.DcmSchemaManagerService.Manager">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModel.EntitySchemaService">
+            <summary>
+            Web service with entity schema API.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.EntitySchemaService.GetEntitySchemaByUId(System.Guid)">
+            <summary>
+            Returns entity schema by UId.
+            </summary>
+            <param name="entitySchemaUId">Entity schema UId.</param>
+            <returns>Entity schema response.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModel.ProcessEngineService">
+            <summary>
+            The web service that provides access to the <see cref="T:Terrasoft.Core.IProcessEngine" /> methods.
+            </summary>
+            <seealso cref="T:Terrasoft.Web.Common.BaseService" />
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.IProcessEngineService" />
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModel.ProcessEngineService.CurrentHttpContext">
+            <summary>
+            Gets the current HTTP context.
+            </summary>
+            <value>
+            The current HTTP context.
+            </value>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModel.ProcessEngineService.Log">
+            <summary>
+            Gets or sets the global logger instance for this type.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModel.ProcessEngineService.ProcessNotificationManager">
+            <summary>
+            Gets a notification manager of a process.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModel.ProcessEngineService.StartTimerScheduleSynchronizer">
+            <summary>
+            Returns instance of <see cref="P:Terrasoft.Core.ServiceModel.ProcessEngineService.StartTimerScheduleSynchronizer"/>.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModel.ProcessEngineService.DataStorage">
+            <summary>
+            Gets or sets the data storage.
+            </summary>
+            <value>The data storage.</value>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.RunProcess(System.String)">
+            <summary>
+            Runs process by the specified name.
+            </summary>
+            <param name="processName">Process schema name.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.CompleteExecuting(System.String,System.String,System.String)">
+            <summary>
+            Completes process element executing.
+            </summary>
+            <param name="procElUId">Process element identifier.</param>
+            <param name="entitySchemaName"></param>
+            <param name="entityId">Entity identifier.</param>
+            <exception cref="T:System.ServiceModel.Web.WebFaultException">If entity schema not found.</exception>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.GetExecutionData(System.String,System.String)">
+            <summary>
+            Returns additional data for the opening page.
+            </summary>
+            <param name="elementUId">Identifier of the process element.</param>
+            <param name="recordId">Identifier of the entity.</param>
+            <returns>String that contains additional data for the opening page.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.GetExecutionData(Terrasoft.Core.ServiceModelContract.ProcessExecutionDataRequest)">
+            <summary>
+            Returns data for the opening page by the specified elements.
+            </summary>
+            <param name="request">Request.</param>
+            <returns>Additional batch data for the opening page.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.GetDcmExecutionData(Terrasoft.Core.ServiceModelContract.DcmExecutionDataRequest)">
+            <summary>
+            Returns data for the opening page by the specified dcm elements.
+            </summary>
+            <param name="request">Request.</param>
+            <returns>Additional batch data for the opening page.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.CompleteExecution(System.String)">
+            <summary>
+            Completes process element execution by the specified identifier.
+            </summary>
+            <param name="procElUId">Process element identifier.</param>
+            <returns></returns>
+            <exception cref="T:System.ServiceModel.Web.WebFaultException">if process element not found.</exception>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.CompleteExecuting(Terrasoft.Core.ServiceModelContract.CompleteExecutingRequest)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.ExecuteProcessElementByUId(System.String)">
+            <summary>
+            Executes process element by the specified identifier.
+            </summary>
+            <param name="procElUId">Process element identifier.</param>
+            <exception cref="T:System.ServiceModel.Web.WebFaultException"></exception>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.CancelExecution(System.IO.Stream)">
+            <summary>
+            Cancels process execution.
+            </summary>
+            <param name="data">Process identifier list.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.CancelExecutionBySchemaId(System.String)">
+            <summary>
+            Cancels execution of all processes for all schema versions.
+            </summary>
+            <param name="schemaId">The schema unique identifier.</param>
+            <returns>The response text.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.ThrowSignal(System.String)">
+            <summary>
+            Throws signals.
+            </summary>
+            <param name="signal">Signal name.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.ContinueExecuting(System.String)">
+            <summary>
+            Continues process executing by the specified identifier.
+            </summary>
+            <param name="processUId">The process identifier.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.RunProcess(Terrasoft.Core.ServiceModelContract.RunProcessRequest)">
+            <summary>
+            Runs process.
+            </summary>
+            <param name="requestBody">Run process request.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.RunSpecifiedProcessVersion(Terrasoft.Core.ServiceModelContract.RunSpecifiedProcessVersionRequest)">
+            <summary>
+            Runs the specified process version.
+            </summary>
+            <param name="request">The request.</param>
+            <returns>The result of running process.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.GetRunningProcessCount(Terrasoft.Core.ServiceModelContract.GetRunningProcessCountRequest)">
+            <summary>
+            Gets running process count for all process schema versions.
+            </summary>
+            <param name="request">The request with some schema version UId.</param>
+            <returns>The number of running processes.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.GetProcessElementStatus(Terrasoft.Core.ServiceModelContract.ProcessElementStatusRequest)">
+            <summary>
+            Gets the specified process element running status.
+            </summary>
+            <param name="request">Request.</param>
+            <returns>Status of the specified process element.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessEngineService.GetTimerEventsInfo(System.Guid)">
+            <summary>
+            Gets timer events information.
+            </summary>
+            <param name="processSchemaUId">UId of process schema.</param>
+            <returns>Information about timer events.</returns>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModel.ProcessSchemaManagerService">
+            <summary>
+            The web service that provides access to the <see cref="T:Terrasoft.Core.Process.ProcessSchemaManager" /> methods.
+            </summary>
+            <seealso cref="T:Terrasoft.Core.ServiceModelContract.IProcessSchemaManagerService" />
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessSchemaManagerService.GetWorkspaceBuilder">
+            <summary>
+            Gets the workspace builder.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessSchemaManagerService.GetSchemasByFilter(System.String)">
+            <summary>
+            Returns schemas list by specified filters.
+            </summary>
+            <param name="filter">Schemas filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessSchemaManagerService.GetActualProcessSchemasByFilter(Terrasoft.Core.ServiceModelContract.ActualProcessSchemasByFilterRequest)">
+            <summary>
+            Returns actual schemas list by specified filters.
+            </summary>
+            <param name="filter">Filter data for schema list select.</param>
+            <returns>The actual schemas info list.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessSchemaManagerService.Copy(System.String)">
+            <summary>
+            Copies process schema.
+            </summary>
+            <param name="data">Schema data.</param>
+            <returns>Copied schema identifier.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessSchemaManagerService.Delete(System.String)">
+            <summary>
+            Deletes process schema by specified identifier.
+            </summary>
+            <param name="schemaUId">Schema identifier.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessSchemaManagerService.GetInvalidElements(System.String,System.String)">
+            <summary>
+            Returns invalid elements list for the specified process schema.
+            </summary>
+            <param name="schemaUId">Process schema identifier.</param>
+            <param name="hostProcessSchemaName">Optional. Host process schema name,
+            if checked schema is sub-process.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ProcessSchemaManagerService.PingApplication">
+            <summary>
+            Ping application after configuration compiled.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModel.RightManagementService">
+            <summary>
+            Web service with rights management API.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Core.ServiceModel.RightManagementService._operationAccessDeniedMessage">
+            <summary>
+            Operation access denied message.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.CanUserManage">
+            <summary>
+            Returns "true" when user can manage administration operation.
+            </summary>
+            <returns>Administration operation opportunity.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.CanUserView">
+            <summary>
+            Returns "true" when user can view administration operation.
+            </summary>
+            <returns>Administration view opportunity.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetAccessDeniedInfoMessage(System.String)">
+            <summary>
+            Returns information message that user have not permission to perform operation by code.
+            </summary>
+            <returns>Information message.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.CreateAdministratedObjectsEntitySchemaQuery">
+            <summary>
+            Creates entity schema query for administrated objects.
+            </summary>
+            <returns>Entity schema query for administrated objects.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetDefaultEntitySchemaOperationsRights(System.Guid)">
+            <summary>
+            Returns default entity schema operations rights.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <returns>Default entity schema operations rights.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetEntitySchemaOperationsRights(System.Guid)">
+            <summary>
+            Returns entity schema operation rights.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.CreateRightLevelSubSelect(Terrasoft.Core.Configuration.EntitySchemaRecordRightOperation,System.Guid)">
+            <summary>
+            Creates right level subselect by operation type.
+            </summary>
+            <param name="operationType">Operation type.</param>
+            <param name="schemaUId">Schema UId</param>
+            <returns>Right level select query.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetSysEntitySchemaRecordDefRights(System.Guid)">
+            <summary>
+            Returns entity schema record default rights by schema UId.
+            </summary>
+            <param name="schemaUId">Schema UId</param>
+            <returns>Entity schema record default rights.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.CreateAdministratedObjects(Terrasoft.Core.Entities.EntitySchemaQuery)">
+            <summary>
+            Creates administrated objects from entity collection.
+            </summary>
+            <param name="esq">Entity schema query for administrated objects.</param>
+            <returns>Array with administrated objects.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.SaveEntitySchemaRecordDefRights(System.Guid,Terrasoft.Core.ServiceModelContract.EntitySchemaRecordDefRight[])">
+            <summary>
+            Saves entity schema record default rights.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <param name="entitySchemaRecordDefRights">Array of entity schema record default rights data.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.ClearEntitySchemaRecordDefRights(System.Guid)">
+            <summary>
+            Clear entity schema record default rights.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetRightLevelByOperation(Terrasoft.Core.ServiceModelContract.EntitySchemaRecordDefRight,Terrasoft.Core.Configuration.EntitySchemaRecordRightOperation)">
+            <summary>
+            Returns right level by operation.
+            </summary>
+            <param name="entitySchemaRecordDefRight"></param>
+            <param name="operation">Entity schema record right operation.</param>
+            <returns>Right level by operation.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.SetEntitySchemaRecordDefRightLevel(System.Guid,Terrasoft.Core.ServiceModelContract.EntitySchemaRecordDefRight,Terrasoft.Core.Configuration.EntitySchemaRecordRightOperation)">
+            <summary>
+            Sets entity schema record default right level.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <param name="entitySchemaRecordDefRight">Entity schema record default right.</param>
+            <param name="operation">Entity schema record right operation.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.SetEntitySchemaRecordDefRightLevels(System.Guid,Terrasoft.Core.ServiceModelContract.EntitySchemaRecordDefRight)">
+            <summary>
+            Sets entity schema record default right levels.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <param name="entitySchemaRecordDefRight">Entity schema record default right.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetEmptyEntitySchemaColumnsRights(System.Guid)">
+            <summary>
+            Returns all columns empty rights from entity schema.
+            </summary>
+            <param name="schemaUId">Entity schema UId.</param>
+            <returns>All columns empty rights from entity schema</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetNotDefaultColumnsRights(System.Collections.Generic.List{Terrasoft.Core.ServiceModelContract.EntitySchemaColumnRights})">
+            <summary>
+            Returns not default columns rights.
+            </summary>
+            <param name="entitySchemaColumnsRights">Entity schema columns rights.</param>
+            <returns>Custom columns rights.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetSysEntitySchemaColumnsRights(System.Guid)">
+            <summary>
+            Fetches entity schema columns rights.
+            </summary>
+            <param name="schemaUId">Entity schema UId</param>
+            <returns>Entity schema columns rights.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.CreateDefaultRightForEntitySchemaColumns(System.Guid,Terrasoft.Core.ServiceModelContract.EntitySchemaColumnRights[])">
+            <summary>
+            Creates default columns rights.
+            </summary>
+            <param name="schemaUId">Entity schema UId</param>
+            <param name="columnRights">Entity schema columns rights.</param>
+            <returns>Default columns rights.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.AddDefaultColumnsRights(System.Guid,Terrasoft.Core.ServiceModelContract.EntitySchemaColumnRights[])">
+            <summary>
+            Adds default columns rights to user columns rights.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <param name="columnRights">Entity schema columns rights.</param>
+            <returns>Combined user and default columns rights.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.InsertEntitySchemaColumnRights(System.Guid,Terrasoft.Core.ServiceModelContract.EntitySchemaColumnRights)">
+            <summary>
+            Inserts entity schema column rights.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <param name="columnRights">Entity schema column rights.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.SetEntitySchemaColumnsRights(System.Guid,System.Collections.Generic.List{Terrasoft.Core.ServiceModelContract.EntitySchemaColumnRights})">
+            <summary>
+            Sets entity schema columns rights.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <param name="columnsRights">Entity schema columns rights.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.SaveEntitySchemaColumnsRights(System.Guid,Terrasoft.Core.ServiceModelContract.EntitySchemaColumnRights[])">
+            <summary>
+            Saves entity schema column rights.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <param name="columnRights">Entity schema column rights.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.InsertEntitySchemaColumnRight(System.Guid,System.Guid,Terrasoft.Core.ServiceModelContract.EntitySchemaColumnRight)">
+            <summary>
+            Inserts new entity schema column right.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <param name="columnUId">Column UId.</param>
+            <param name="columnRight">Column right.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.ClearEntitySchemaColumnRights(System.Guid)">
+            <summary>
+            Cleares entity schema column rights.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.SaveEntitySchemaOperationsRights(System.Guid,Terrasoft.Core.ServiceModelContract.EntitySchemaOperationsRights[])">
+            <summary>
+            Saves entity schema operations rights.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <param name="operationsRights">Entity schema operations rights.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.InsertEntitySchemaOperationsRights(System.Guid,Terrasoft.Core.ServiceModelContract.EntitySchemaOperationsRights)">
+            <summary>
+            Inserts new entity schema operations right.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <param name="operationsRight">Entity schema operations right.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.ClearEntitySchemaOperationsRights(System.Guid)">
+            <summary>
+            Cleares entity schema operations rights.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetSysAdminUnitQuery">
+            <summary>
+            Returns entity schema query.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.HasAdministratedObjectPropertyChanges(Terrasoft.Core.Entities.Entity,Terrasoft.Core.ServiceModelContract.AdministratedObject)">
+            <summary>
+            Returns flag that some administrated column is changed.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetSysAdminUnitsByChunks">
+            <summary>
+            Receives list containing all SysAdminUnit records with chunks sized by MaxEntityRowCount setting.
+            </summary>
+            <returns><see cref="T:Terrasoft.Core.Entities.EntityCollection"/> instance containing SysAdminUnit records.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetAllObjects">
+            <summary>
+            Returns list of all objects administration properties.
+            </summary>
+            <returns>List of all objects administration description.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetSectionObjects">
+            <summary>
+            Returns list of section objects administration properties.
+            </summary>
+            <returns>List of section objects administration description.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetLookupObjects">
+            <summary>
+            Returns list of lookup objects administration properties.
+            </summary>
+            <returns>List of lookup objects administration description.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetAdministratedObject(System.Guid)">
+            <summary>
+            Returns administrated object by schema UId.
+            </summary>
+            <param name="schemaUId">Schema UId.</param>
+            <returns>Administrated objects response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.SaveAdministratedObject(Terrasoft.Core.ServiceModelContract.AdministratedObject)">
+            <summary>
+            Saves modifications for administrated object.
+            </summary>
+            <param name="administratedObject"></param>
+            <returns>Base response.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetSysAdminUnitList">
+            <summary>
+            Returns list of system admin unit.
+            </summary>
+            <returns>List of system admin unit.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.RightManagementService.GetSysAdminUnitById(System.Guid)">
+            <summary>
+            Returns system admin unit by primary column value.
+            </summary>
+            <returns>System admin unit.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.IServiceOAuthAuthenticatorEndpoint.GetAuthorizationGrantUrl(System.String)">
+            <summary>
+            Returns authorization grant url.
+            </summary>
+            <param name="appId">Application id.</param>
+            <returns>Authorization grant url.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.IServiceOAuthAuthenticatorEndpoint.GetOAuthClientSecret(System.String)">
+            <summary>
+            Returns OAuth client secret key.
+            </summary>
+            <param name="appId">Application id.</param>
+            <returns>Client secret key.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.IServiceOAuthAuthenticatorEndpoint.RemoveOAuthUser(Terrasoft.Core.ServiceModel.RemoveOAuthAppUserService)">
+            <summary>
+            Removes token by OAuthAppUser.
+            <param name="contract">Data contract.</param>
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.IServiceOAuthAuthenticatorEndpoint.AuthorizationCodeRedirectHandler(System.String,System.String)">
+            <summary>
+            Handle and process authorization code.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.IServiceOAuthAuthenticatorEndpoint.RemoveOAuthApplication(System.String)">
+            <summary>
+            Removes OAuth application.
+            </summary>
+            <param name="applicationId">Application id.</param>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ServiceOAuthAuthenticatorEndpoint.#ctor">
+            <summary>
+            Creates instance of <see cref="T:Terrasoft.Social.OAuth.ServiceOAuthAuthenticator"/>.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ServiceOAuthAuthenticatorEndpoint.#ctor(Terrasoft.Core.UserConnection)">
+            <summary>
+            Creates instance of <see cref="T:Terrasoft.Social.OAuth.ServiceOAuthAuthenticator"/>.
+            </summary>
+            <param name="userConnection">User connection.</param>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModel.ServiceOAuthAuthenticatorEndpoint.Request">
+            <summary>
+            Gets instance of <see cref="T:System.Web.HttpRequestBase"/>.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Core.ServiceModel.ServiceOAuthAuthenticatorEndpoint.Response">
+            <summary>
+            Gets instance of <see cref="T:System.Web.HttpResponseBase"/>.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ServiceOAuthAuthenticatorEndpoint.GetAuthorizationGrantUrl(System.String)">
+            <summary>
+            Returns authorization grant url.
+            </summary>
+            <param name="appId">Application id.</param>
+            <returns>Authorization grant url.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ServiceOAuthAuthenticatorEndpoint.GetOAuthClientSecret(System.String)">
+            <summary>
+            Returns OAuth client secret key.
+            </summary>
+            <param name="appId">Application id.</param>
+            <returns>Client secret key.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ServiceOAuthAuthenticatorEndpoint.RemoveOAuthUser(Terrasoft.Core.ServiceModel.RemoveOAuthAppUserService)">
+            <summary>
+            Removes token by OAuthAppUser.
+            <param name="contract">Data contract.</param>
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ServiceOAuthAuthenticatorEndpoint.AuthorizationCodeRedirectHandler(System.String,System.String)">
+            <summary>
+            Handle and process authorization code.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.ServiceOAuthAuthenticatorEndpoint.RemoveOAuthApplication(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Terrasoft.Core.ServiceModel.UserInfoService">
+            <summary>
+            Web service with user info API.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.ServiceModel.UserInfoService.GetCurrentUserInfo">
+            <summary>
+            Returns current user info.
+            </summary>
+            <returns>User info response.</returns>
+        </member>
+    </members>
+</doc>

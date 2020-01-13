@@ -1,0 +1,214 @@
+.ts-menu-color-picker-cover {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: 0;
+}
+.ts-menu-color-picker-item {
+	position: relative;
+	padding: 15px;
+	margin: 0;
+	box-sizing: border-box;
+	width: 371px;
+	min-height: 260px;
+}
+.ts-menu-color-picker-container {
+	background-color: #fff;
+	color: #444;
+	width: 100%;
+	height: 100%;
+}
+.ts-menu-color-picker-main-block {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	-webkit-user-select: none;
+}
+.ts-menu-color-picker-block {
+	width: 180px;
+	height: 180px;
+	background-image: -webkit-linear-gradient(to top,#000,rgba(0,0,0,0)),linear-gradient(to right,#fff,rgba(255,255,255,0));
+	background-image: -moz-linear-gradient(to top,#000,rgba(0,0,0,0)),linear-gradient(to right,#fff,rgba(255,255,255,0));
+	background-image: linear-gradient(to top,#000,rgba(0,0,0,0)),linear-gradient(to right,#fff,rgba(255,255,255,0));
+	background-color: #ff0000;
+	position: relative;
+}
+html[dir="rtl"] .ts-menu-color-picker-block {
+	background-image: -webkit-linear-gradient(to top,#000,rgba(0,0,0,0)),linear-gradient(to left,#fff,rgba(255,255,255,0));
+	background-image: -moz-linear-gradient(to top,#000,rgba(0,0,0,0)),linear-gradient(to left,#fff,rgba(255,255,255,0));
+	background-image: linear-gradient(to top,#000,rgba(0,0,0,0)),linear-gradient(to left,#fff,rgba(255,255,255,0));
+	background-color: #ff0000;
+}
+
+.ts-menu-color-picker-block-circle {
+	width:10px;
+	height:10px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	position:absolute;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+	box-sizing: border-box;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+html[dir="rtl"] .ts-menu-color-picker-block-circle {
+	left: auto;
+}
+
+.ts-menu-color-picker-block-circle:before {
+	width: 8px;
+	height: 8px;
+	content: "";
+	position: absolute;
+	border: 1px solid #999;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+.ts-menu-color-picker-line {
+	width: 60px;
+	background-color: #fff;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+.ts-menu-color-picker-hue-line {
+	width: 20px;
+	height: 180px;
+	background: -moz-linear-gradient(top, red 0%, #ff0 17%, lime 33%, cyan 50%, blue 66%, #f0f 83%, red 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, red), color-stop(17%, #ff0),
+	color-stop(33%, lime), color-stop(50%, cyan), color-stop(66%, blue), color-stop(83%, #f0f), color-stop(100%, red));
+	background-image: -webkit-linear-gradient(top, red 0%, #ff0 17%, lime 33%, cyan 50%, blue 66%, #f0f 83%, red 100%);
+	background-image: -o-linear-gradient(top, red 0%, #ff0 17%, lime 33%, cyan 50%, blue 66%, #f0f 83%, red 100%);
+	background-image: linear-gradient(to bottom, red 0%, #ff0 17%, lime 33%, cyan 50%, blue 66%, #f0f 83%, red 100%);
+	cursor: pointer;
+	position: relative;
+}
+.ts-menu-color-picker-hue-pointer {
+	position:absolute;
+	top:0;
+	left: 0;
+	width: 20px;
+	cursor: pointer;
+	height: 1px;
+	box-sizing: border-box;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	-webkit-user-select: none;
+}
+.ts-menu-color-picker-hue-pointer:before,
+.ts-menu-color-picker-hue-pointer:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: -5px;
+	margin-top: 1px;
+	width: 7px;
+	height: 9px;
+	background-position: 0 0;
+}
+.ts-menu-color-picker-hue-pointer:before {
+	left: -7px;
+	background: url(images/Triangle_left.svg) no-repeat;
+}
+.ts-menu-color-picker-hue-pointer:after {
+	right: -7px;
+	background: url(images/Triangle_right.svg) no-repeat;
+}
+.ts-menu-color-picker-preview-block {
+	width: 101px;
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	z-index: 1;
+}
+.ts-menu-color-picker-preview {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #ccc;
+	background-color: #ff0000;
+	box-sizing: border-box;
+}
+.ts-menu-color-picker-buttons {
+	width: 100%;
+	text-align: left;
+	margin-bottom: 20px;
+	z-index: 1;
+}
+.ts-menu-color-picker-buttons > span {
+	font-size: 15px;
+	margin-right: 10px;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+.ts-menu-color-picker-values-block {
+	padding-top: 18px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.ts-menu-color-picker-values-block label, .recent-colors-container label {
+	padding-right: 14px;
+	font-size: 13px;
+	font-family: "Bpmonline Open Sans", serif;
+	color: #999;
+}
+.ts-menu-color-picker-values-block label {
+	text-transform: uppercase;
+}
+.ts-menu-color-picker-values-block input {
+	font-family: "Bpmonline Open Sans", serif;
+	color: #444;
+	outline: none;
+	border: none;
+	border-bottom: 1px dotted #c8c8c8;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding: 2px 0 6px 0;
+	text-align: left;
+	width: 60px;
+}
+.ts-menu-color-picker-hex-block, .ts-menu-color-picker-rgb-block {
+	text-align: right;
+}
+.ts-menu-color-picker-values-block input:hover {
+	border-bottom: 1px solid #c8c8c8;
+}
+.ts-menu-color-picker-values-block input:focus {
+	border-bottom: 1px solid #00aeef;
+}
+.recent-colors-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	.recent-colors {
+		position: relative;
+		display: inline-flex;
+		margin-top: 4px;
+		.recent-color {
+			width: 20px;
+			min-width: 20px;
+			height: 20px;
+			border: 1px solid #CCCCCC;
+			border-left-width: 0;
+		}
+		.recent-color:first-child {
+			border-left-width: 1px;
+			width: 21px;
+		}
+	}
+}

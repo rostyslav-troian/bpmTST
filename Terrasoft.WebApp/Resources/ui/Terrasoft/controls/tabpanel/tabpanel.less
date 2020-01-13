@@ -1,0 +1,205 @@
+﻿.ts-tabpanel {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 3.2em;
+	position: relative;
+	border-bottom: 1px solid rgb(219, 219, 219);
+}
+.ts-tabpanel-wrap:before {
+	content: " ";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: rgb(219, 219, 219);
+}
+.ts-tabpanel-wrap {
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+}
+.ts-tabpanel-tools {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-right: 3em;
+	padding-left: 0.8em;
+}
+
+.ts-tabpanel-scroll-visible .ts-tabpanel-items {
+	margin: 0 30px 0 30px;
+}
+
+.ts-tabpanel-items {
+	padding: 0;
+	margin: 0;
+	height: inherit;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.animation(@property) {
+	transition: @property .5s cubic-bezier(.35, 0, .25, 1);
+}
+
+.scroll-animation li {
+	.animation(margin-left);
+}
+
+/*rtl:begin:ignore*/
+html[dir="rtl"] {
+	.scroll-animation li {
+		.animation(margin-right);
+	}
+}
+/*rtl:end:ignore*/
+
+.ts-tabpanel-active-item:before {
+	display: none;
+}
+.ts-tabpanel-items > li {
+	-webkit-user-select: none;
+	display: inline-block;
+	padding: 3px 6px 0 6px;
+	font-size: 1.4em;
+	color: #4e7bd8;
+	cursor: pointer;
+	height: 2.3em;
+	margin-right: 0;
+	margin-left: 20px;
+	font-family: "Segoe UI", sans-serif;
+	position: relative;
+	text-transform: uppercase;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ts-tabpanel-items > li:first-child {
+	margin-left: 0;
+}
+.ts-tabpanel-items > li:last-child {
+	margin-right: 0;
+}
+.ts-tabpanel-items .ts-tabpanel-active-item-arrow {
+	color: rgb(68, 68, 68);
+}
+.ts-tabpanel-items .ts-tabpanel-active-item-arrow:before, .ts-tabpanel-items .ts-tabpanel-active-item-arrow:after {
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	bottom: 0;
+}
+.ts-tabpanel-items .ts-tabpanel-active-item-arrow:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: rgb(255, 255, 255);
+	border-width: 6px;
+	left: calc(~'50% - 6px');
+}
+.ts-tabpanel-items .ts-tabpanel-active-item-arrow:before {
+	border-bottom-color: rgb(219, 219, 219);
+	border-width: 7px;
+	background-color: transparent;
+	left: calc(~'50% - 7px');
+}
+.ts-tabpanel-items .ts-tab-align-left {
+	float: left;
+	margin-right: 0.6em;
+	margin-left: -0.6em;
+}
+.ts-tab-image:hover {
+	background-position: 0 -32px;
+}
+.ts-tab-image:active {
+	background-position: 0 -64px;
+}
+.ts-tabpanel-active-item-arrow.ts-tab-image, .ts-tabpanel-active-item.ts-tab-image {
+	background-position: 0 -64px;
+}
+.ts-tabpanel-items .ts-tab-image {
+	min-width: 32px;
+	background-size: 32px 96px;
+	background-repeat: no-repeat;
+	padding: 0.42em 0.23em 0.625em 0.23em;
+}
+.ts-tabpanel-scroll-visible.ts-tabpanel-collapse-visible .ts-tabpanel-scroll-right {
+	margin-right: 5em;
+}
+.ts-tabpanel-collapse-button:hover {
+	background-position: 0 -32px;
+}
+.ts-tabpanel-collapse-button:active {
+	background-position: 0 -64px;
+}
+.ts-tabpanel-collapse-button {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position: absolute;
+	height: 2.9em;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	top: 2px;
+	right: 0;
+	width: 3em;
+	margin-right: 2em;
+	background-image: url('collapse.png');
+}
+.ts-tabpanel-collapsed .ts-tabpanel-collapse-button {
+	background-image: url('expand.png');
+}
+.ts-tabpanel-items .ts-tabpanel-active-item {
+	color: rgb(68, 68, 68);
+	border-bottom: 3px solid rgb(255, 64, 19);
+	background-color: white;
+}
+.ts-tabpanel-scroll-left, .ts-tabpanel-scroll-right {
+	-webkit-user-select: none;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	cursor: pointer;
+	top: 0;
+}
+
+.ts-tabpanel-scroll-left {
+	background-image: url('left-arrow-icon-sprite.png');
+	background-position: 14px 6px;
+}
+
+.ts-tabpanel-scroll-right {
+	right: 0;
+	background-image: url('right-arrow-icon-sprite.png');
+	background-position: 0 6px;
+}
+
+.ts-tabpanel-scroll-right:hover {
+	background-position: 0 -20px;
+}
+
+.ts-tabpanel-scroll-right:active {
+	background-position: 0 -46px;
+}
+
+.ts-tabpanel-scroll-left:hover {
+	background-position: 14px -20px;
+}
+
+.ts-tabpanel-scroll-left:active {
+	background-position: 14px -46px;
+}
+
+/*rtl:begin:ignore*/
+html[dir="rtl"] {
+	.ts-tabpanel-scroll-left,
+	.ts-tabpanel-scroll-right {
+		transform: scaleX(-1);
+	}
+}
+/*rtl:end:ignore*/

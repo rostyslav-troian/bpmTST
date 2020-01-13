@@ -1,0 +1,102 @@
+﻿.header-name-container {
+  display: inline-block;
+  width: 45%;
+  margin-top: -1px;
+  margin-bottom: 27px;
+}
+/*.t-btn-text {
+}*/
+
+.graph-header-name {
+  font-size: 16px;
+  font-family: "Segoe UI Light";
+  color: #058dc7;
+  letter-spacing: -0.01em;
+  width: 100%;
+  margin-bottom: 28px;
+}
+.header-button-menu {
+  font-size: 24px;
+  margin-top: 9px;
+}
+.header-button-text {
+  color: #444444;
+  font-size: 35px;
+  font-family: 'Segoe UI Light';
+  letter-spacing: -0.01em;
+  text-align: right;
+  padding: 0px 0px 0px 27px;
+  line-height: 1.072em;
+}
+.section-tab-list {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding-left: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  overflow: hidden;
+}
+.profile-save-button {
+  margin-left: 9px;
+}
+.buttons-menu-container {
+  margin-bottom: 8px;
+  width: 100%;
+  /*display: inline-block;*/
+
+}
+/*.qualify-lead-main-buttons {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	padding-right: 15px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	overflow: hidden;
+}*/
+
+.profile-command-line {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding-right: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.profile-context-help-container {
+  display: inline-block;
+  width: 5%;
+  height: 42px;
+  vertical-align: top;
+}
+.left-container {
+  margin-bottom: 24px;
+  /*float:left;*/
+  width: 280px;
+}
+.profile-button {
+  width: 100%;
+  margin-top: 24px;
+  background-color: #f0f0f0;
+  color: #444;
+  text-transform: none;
+  font-size: 1.4em;
+  padding-top: 0.4em;
+}
+.profile-button.t-btn-style-default:not(.t-btn-disabled):hover {
+  background: #e5e5e5;
+}
+.profile-button.t-btn-down.t-btn-style-default:not(.t-btn-disabled) {
+  background-color: #dbdbdb;
+}
+.profile-module-left-container-bottom-border {
+  border-bottom: solid 1px #c2c6ce;
+  padding-bottom: 24px;
+}
+#profileModuleTopContainer {
+  margin-right: 2px;
+}

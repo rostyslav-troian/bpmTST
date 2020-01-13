@@ -1,0 +1,72 @@
+﻿.filter-elements-container {
+  margin-top: 1.5em;
+}
+.extended-filter-attributes-button-container {
+  border-bottom: 1px solid #E0E0E0;
+  border-top: 1px solid #E0E0E0;
+  height: 4.3em;
+  padding-top: 0.5em;
+  margin-top: 0.3em;
+}
+.extended-filter-back-button {
+  padding-left: 0;
+  padding-right: 7px;
+}
+.extended-filter-back-button > .t-btn-image {
+  width: 1.5em;
+  height: 1.5em;
+  background-repeat: no-repeat;
+}
+.extended-filter-apply-button {
+  border-right: 1px solid #E0E0E0;
+  border-left: 1px solid #E0E0E0;
+}
+.extended-filter-path-label {
+  line-height: 3.5em;
+  padding-left: 2em !important;
+  text-align: left;
+  margin-top: 0.6em;
+  cursor: default;
+}
+.extended-filter-path-label:hover {
+  color: #444444 !important;
+  cursor: default;
+}
+.text-filter-container {
+  /*margin-bottom: 0.5em;
+	margin-top: 2em;*/
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+.extended-filter-path-label > .t-btn-image-left {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5em;
+  left: 0;
+}
+.gridRowCheckBoxCheckBoxEdit {
+  width: 2em;
+  margin-right: 1em;
+}
+span.tools-button {
+  border-right: 1px solid #E0E0E0;
+}
+div[class*="ToolsContainer"] {
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+.lookup-filter-view-container > .control-group-margin-bottom.ts-controlgroup-collapsed {
+  /*margin-bottom: 2em;*/
+  margin-bottom: 0.5em;
+}
+.lookup-filter-view-container > .control-group-margin-bottom {
+  /*margin-bottom: -2em;*/
+  margin-bottom: -0.5em;
+}
+.lookup-filter-view-container .ts-controlgroup-container {
+  padding-top: 0px;
+}

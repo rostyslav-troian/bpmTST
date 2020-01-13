@@ -1,0 +1,121 @@
+﻿.esn-notifications-main-container {
+  overflow-y: auto;
+  height: 100%;
+}
+.esn-notifications-main-container .schema-wrap {
+  padding-right: 0;
+}
+.esn-notifications-main-container .notification-container {
+  border-bottom: 1px solid #e1e8f2;
+  position: relative;
+  padding: 13px 15px 12px 15px;
+  min-height: 72px;
+  cursor: pointer;
+}
+.esn-notifications-main-container .notification-container * {
+  cursor: pointer;
+}
+.esn-notifications-main-container .notification-container:after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  background-color: white;
+}
+.esn-notifications-main-container .notification-container:before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 1px;
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  background-color: white;
+}
+.esn-notifications-main-container .notification-container.selected {
+  background-color: #EEF2FA;
+  border-bottom-color: white;
+}
+.esn-notifications-main-container .notification-container .ts-image-edit-wrap.author-image-container {
+  margin: 0;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: 16px;
+}
+.esn-notifications-main-container .notification-container .ts-image-edit-wrap.author-image-container img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.esn-notifications-main-container .notification-container .message-container {
+  margin-right: 51px;
+}
+.esn-notifications-main-container .notification-container .message-text-container {
+  line-height: 16px;
+}
+.esn-notifications-main-container .notification-container .message-created-by {
+  cursor: pointer;
+  color: #0e84cf;
+}
+.esn-notifications-main-container .notification-container .message-created-by,
+.esn-notifications-main-container .notification-container .message-type-text {
+  display: inline;
+}
+.esn-notifications-main-container .notification-container .message-labels-container {
+  position: relative;
+  line-height: 16px;
+}
+.esn-notifications-main-container .notification-container .ts-image-edit-wrap.type-image-container {
+  margin: 0;
+  line-height: 8px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 1px;
+}
+.esn-notifications-main-container .notification-container .ts-image-edit-wrap.type-image-container img {
+  width: 16px;
+  height: 16px;
+}
+.esn-notifications-main-container .notification-container .message-created-on {
+  color: #999;
+  display: inline;
+  margin-right: 27px;
+  font-size: 1.3em;
+}
+.esn-notifications-main-container .notification-container .social-message-container {
+  position: relative;
+}
+.esn-notifications-main-container .notification-container .social-message-text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  line-height: 16px;
+  overflow: hidden;
+}
+.esn-notifications-main-container .notification-container .social-message-text:after {
+  content: "\"";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.esn-notifications-main-container .notification-container .social-message-text:before {
+  content: "\"";
+}
+.x-gecko .esn-notifications-main-container .notification-container {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  min-height: 76px;
+}
+.x-gecko .esn-notifications-main-container .message-text-container {
+  line-height: 15px;
+  margin-top: 1px;
+}
+.x-gecko .esn-notifications-main-container .message-created-on {
+  margin-right: 28px;
+}

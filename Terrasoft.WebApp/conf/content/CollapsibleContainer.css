@@ -1,0 +1,37 @@
+﻿.ts-collapsible-container-collapsing-button-visible .ts-collapsible-container-inner-wrap {
+  margin-bottom: 7px;
+}
+.ts-collapsible-container-collapsing-button-visible .ts-collapsible-container-collapsing-button-wrap {
+  display: inline-block;
+  height: auto;
+}
+.ts-collapsible-container-collapsing-button-visible .ts-collapsible-container-collapsing-button-image {
+  width: 16px;
+  height: 16px;
+  margin: 0 5px 0 0;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 0px -16px;
+  background-size: 16px 32px;
+}
+.ts-collapsible-container-collapsing-button-wrap {
+  cursor: pointer;
+  display: none;
+  height: 0;
+}
+.ts-collapsible-container-collapsing-button-wrap .ts-collapsible-container-collapsing-button {
+  font-family: "Bpmonline Open Sans";
+  font-size: 13px;
+  color: #999;
+  width: auto;
+  vertical-align: top;
+}
+.ts-collapsible-container-collapsing-button-wrap .ts-collapsible-container-collapsing-button:hover {
+  color: #4e7bd8;
+}
+.ts-collapsible-container-collapsed .ts-collapsible-container-inner-wrap {
+  overflow: hidden;
+}
+.ts-collapsible-container-collapsed .ts-collapsible-container-collapsing-button-image {
+  background-position: 0px 0px;
+}

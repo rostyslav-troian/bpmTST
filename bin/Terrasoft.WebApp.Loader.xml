@@ -1,0 +1,585 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.WebApp.Loader</name>
+    </assembly>
+    <members>
+        <member name="F:Terrasoft.WebApp.Loader.Authentication.AuthEngine._currentContext">
+            <summary>
+            <see cref="T:System.Web.HttpContextBase"/> instance.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.WebApp.Loader.Authentication.AuthEngine.UserConnectionFactory">
+            <summary>
+            <see cref="T:Terrasoft.Core.IUserConnectionFactory"/> implementation instance.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Authentication.AuthEngine.ShowPasswordChangeReminding(System.String,System.String@)">
+            <summary>
+            <seealso cref="M:Terrasoft.Authentication.Core.BaseAuthEngine.ShowPasswordChangeReminding(System.String,System.String@)"/>
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Authentication.AuthEngine.ChangePassword(Terrasoft.Core.AuthData,System.String,System.String)">
+            <summary>
+            <seealso cref="M:Terrasoft.Authentication.Core.BaseAuthEngine.ChangePassword(Terrasoft.Core.AuthData,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Authentication.AuthEngine.SsoLogin(Terrasoft.Core.AuthData)">
+            <summary>
+            <seealso cref="M:Terrasoft.Authentication.Core.BaseAuthEngine.SsoLogin(Terrasoft.Core.AuthData)"/>
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Authentication.AuthEngine.OAuthLogin(System.String,Terrasoft.Core.AuthData)">
+            <summary>
+            Authorizes user using OAuth access token.
+            </summary>
+            <param name="accessToken">The access token.</param>
+            <param name="authData">The authentication data. If access token is valid, <see cref="P:Terrasoft.Core.AuthData.UserName"/>
+            will be set.</param>
+            <returns>Validated user name.</returns>
+        </member>
+        <member name="T:Terrasoft.WebApp.Loader.Authentication.AuthProvider">
+            <summary>
+            Public base class for authentication provider implementations.
+            </summary>
+            <remarks>Used as base class for authentication provider implementations.</remarks>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Authentication.ClientCertificate.ClientCertificateProvider._userConnection">
+            <summary>
+            <see cref="P:Terrasoft.WebApp.Loader.Authentication.ClientCertificate.ClientCertificateProvider.UserConnection"/> instance.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.WebApp.Loader.Authentication.ExternalAccessValidator">
+            <summary>
+            Validates external access information.
+            </summary>
+            <seealso cref="T:Terrasoft.WebApp.Loader.Authentication.IExternalAccessValidator" />
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Authentication.ExternalAccessValidator.Validate(Terrasoft.Core.UserConnection,System.String,System.Guid)">
+            <summary>
+            Validates the specified external access.
+            </summary>
+            <param name="userConnection">User connection.</param>
+            <param name="externalAccessId">The external access identifier.</param>
+            <param name="sysAdminUnitId">User identifier.</param>
+            <returns><b>true</b> if information is valid. Otherwise - <b>false</b>.</returns>
+        </member>
+        <member name="T:Terrasoft.WebApp.Loader.Authentication.IExternalAccessValidator">
+            <summary>
+            Interface for validating external access information.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Authentication.IExternalAccessValidator.Validate(Terrasoft.Core.UserConnection,System.String,System.Guid)">
+            <summary>
+            Validates the specified external access.
+            </summary>
+            <param name="userConnection">User connection.</param>
+            <param name="externalAccessId">The external access identifier.</param>
+            <param name="sysAdminUnitId">User identifier.</param>
+            <returns><b>true</b> if information is valid. Otherwise - <b>false</b>.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Authentication.Ldap.LdapProvider.AddProviderThumb(Terrasoft.UI.WebControls.Controls.PageContainer)">
+            <summary>
+            Deprecated. Never used.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.WebApp.Loader.Authentication.SSO.SsoAuthProvider">
+            <summary>
+            Provides methods for Single Sign On authentication.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.WebApp.Loader.Authentication.SSPUserPassword.SSPUserPasswordProvider">
+            <summary>
+            Self service portal users authentication provider.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Authentication.SSPUserPassword.SSPUserPasswordProvider._userPrefix">
+            <summary>
+            Portal user name prefix.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.WebApp.Loader.Authentication.SSPUserPassword.SSPUserPasswordProvider.UseCredentialsInput">
+            <summary>
+            <see cref="P:Terrasoft.Authentication.Core.BaseAuthProvider.UseCredentialsInput"/>
+            </summary>
+        </member>
+        <member name="P:Terrasoft.WebApp.Loader.Authentication.SSPUserPassword.SSPUserPasswordProvider.UserType">
+            <summary>
+            <see cref="P:Terrasoft.Authentication.Core.BaseAuthProvider.UserType"/>
+            </summary>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Authentication.SSPUserPassword.SSPUserPasswordProvider._userConnection">
+            <summary>
+            <see cref="P:Terrasoft.WebApp.Loader.Authentication.SSPUserPassword.SSPUserPasswordProvider.UserConnection"/> instance.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Authentication.SSPUserPassword.SSPUserPasswordProvider.IsPasswordValid(Terrasoft.Core.UserConnection,System.String,System.String,System.String)">
+            <summary>
+            Checks <paramref name="userPassword"/> is valid.
+            </summary>
+            <param name="userConnection"><see cref="P:Terrasoft.WebApp.Loader.Authentication.SSPUserPassword.SSPUserPasswordProvider.UserConnection"/> instance.</param>
+            <param name="userName">User name.</param>
+            <param name="userPassword">User password.</param>
+            <param name="dbHashedPassword">User password hash from database.</param>
+            <returns><c>True</c> if password valid, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Authentication.SSPUserPassword.SSPUserPasswordProvider.GetLogin">
+            <summary>
+            <see cref="M:Terrasoft.Authentication.Core.BaseAuthProvider.GetLogin"/>
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Authentication.SSPUserPassword.SSPUserPasswordProvider.GetLogin(System.String,System.String)">
+            <summary>
+            <see cref="M:Terrasoft.Authentication.Core.BaseAuthProvider.GetLogin(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Authentication.SSPUserPassword.SSPUserPasswordProvider.Initialize(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            <see cref="M:Terrasoft.Authentication.Core.BaseAuthProvider.Initialize(System.Collections.Generic.IDictionary{System.String,System.String})"/>
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Authentication.SSPUserPassword.SSPUserPasswordProvider.OnGetRedirectUrl(System.String@)">
+            <summary>
+            <see cref="M:Terrasoft.Authentication.Core.BaseAuthProvider.OnGetRedirectUrl(System.String@)"/>
+            </summary>
+        </member>
+        <member name="T:Terrasoft.WebApp.Loader.DefaultWorkspaceMode">
+            <summary>
+            ###### ############### ########## #### [####### ############].
+            </summary>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.DefaultWorkspaceMode.None">
+            <summary>
+            ## ############.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.DefaultWorkspaceMode.Normal">
+            <summary>
+            ########## ######## ## ######### ######### <c>DefaultWorkspace</c>.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.DefaultWorkspaceMode.Hidden">
+            <summary>
+            ########## ######## ## ######### ######### <c>DefaultWorkspace</c> # ###### ####
+            [####### ############].
+            </summary>
+        </member>
+        <member name="T:Terrasoft.WebApp.Loader.PreAppStart">
+            <summary>
+            Class that is responsible for registering of ${iis-application-name} macro for NLog.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.PreAppStart.PreApplicationStartMethod">
+            <summary>
+            Registers layout renderer.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.WebApp.Loader.IISManager.RootAppPath">
+            <summary>#### ######### ##########</summary>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Lic.LicLoader.form1">
+            <summary>
+            form1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Lic.LicLoader.ScriptManager">
+            <summary>
+            ScriptManager control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Lic.LicLoader.MainControlLayout">
+            <summary>
+            MainControlLayout control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Lic.LicLoader.InformationPanel">
+            <summary>
+            InformationPanel control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Lic.LicLoader.ContentControlLayout">
+            <summary>
+            ContentControlLayout control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Lic.LicLoader.LoadLicenseButtonFileUploadEdit">
+            <summary>
+            LoadLicenseButtonFileUploadEdit control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Lic.LicLoader.BottomControlLayout">
+            <summary>
+            BottomControlLayout control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Lic.LicLoader.Spacer2">
+            <summary>
+            Spacer2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Lic.LicLoader.OkButton">
+            <summary>
+            OkButton control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Lic.LicLoader.CancelButton">
+            <summary>
+            CancelButton control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.BaseLogin.InitializeClientTimeZoneOffset(System.String,System.String)">
+            <summary>
+            ############# ########### TimeZoneOffset </summary>
+            <remarks>
+            # ###### ############# ########## ##########:
+            	###### ####### TimeZoneOffset, ######## ## # ######### X-CurrentUserTimeZoneOffset
+            # ###### ############# ######## ##########:
+            	TimeZoneOffset ####### # ####### ####, ##### ########## ########
+            </remarks>
+            <param name="pageName"></param>
+            <param name="requestUrlString"></param>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.BaseLogin.SpecifyPageTitle">
+            <summary>
+            ######### ######### ######## ## ######### #########
+            </summary>
+        </member>
+        <member name="T:Terrasoft.WebApp.Loader.Login.BaseNuiLogin">
+            <summary>
+            Base class for login pages that use NUI user interface.
+            </summary>
+            <seealso cref="T:Terrasoft.Web.Common.BaseViewModule" />
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Login.BaseNuiLogin._urlDomainReplacer">
+            <summary>
+            <see cref="P:Terrasoft.WebApp.Loader.Login.BaseNuiLogin.UrlDomainReplacer"/> instance.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Login.BaseNuiLogin._requestWrapper">
+            <summary>
+            <see cref="T:System.Web.HttpRequestBase"/> instance.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Login.BaseNuiLogin._responseWrapper">
+            <summary>
+            <see cref="T:System.Web.HttpResponseBase"/> instance.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.BaseNuiLogin.TryExternalLoginOptions">
+            <summary>
+            Calls all available autologin options.
+            </summary>
+            <returns>Error message if any, otherwise - <c>null</c>.</returns>
+        </member>
+        <member name="T:Terrasoft.WebApp.Loader.Login.ExternalAccessLogin">
+            <summary>
+            Class for page used for login via OAuth access tokens issued by external applications.
+            </summary>
+            <seealso cref="T:Terrasoft.WebApp.Loader.Login.BaseNuiLogin" />
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Login.ExternalAccessLogin.IndexForm">
+            <summary>
+            IndexForm control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:Terrasoft.WebApp.Loader.Login.LoginPageData">
+            <summary>
+            Returns login module required data.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.WebApp.Loader.Login.NuiLogin.IsSsoAuthenticationEnabled">
+            <summary>
+            Returns true if <see cref="T:Terrasoft.WebApp.Loader.Authentication.SSO.SsoAuthProvider"/> available.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.NuiLogin.SetUserTypeCookie">
+            <summary>
+            Sets user type cookie value
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.NuiLogin.SetupStyles">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.NuiLogin.TryExternalLoginOptions">
+            <summary>
+            Calls all available autologin options.
+            </summary>
+            <returns>Error message if any, otherwise - <c>null</c>.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.NuiLogin.SsoLogin">
+            <summary>
+            Starts single sign on session if sso authentication is available.
+            </summary>
+            <returns>Error message if any, otherwise - <c>null</c>.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.NuiLogin.ShouldUseSsoLogin">
+            <summary>
+            Checks if single sign on enabled and request has sso parameter.
+            </summary>
+            <returns><c>True</c> if request has use_sso/start_sso parameter, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.NuiLogin.IsSsoRequested">
+            <summary>
+            Checks if request has use_sso parameter.
+            </summary>
+            <returns><c>True</c> if request has use_sso parameter, <c>false</c> otherwise.</returns>
+            <remarks>External dependency reallocation.</remarks>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.NuiLogin.AddSsoUnauthorizedCookie(System.Web.HttpResponseBase,System.String,System.String)">
+            <summary>
+            Creates and adds sso logout cookie to <paramref name="response"/> instance.
+            </summary>
+            <param name="response"><see cref="T:System.Web.HttpResponseBase"/> instance.</param>
+            <param name="reason">Sso logout reason.</param>
+            <param name="message">Sso logout message.</param>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.NuiLogin.InitiateSso">
+            <summary>
+            Starts single sign on session.
+            </summary>
+            <returns>Error message if any, otherwise - null.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.NuiLogin.RemoveUserType">
+            <summary>
+            Removes user type cookie value.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.NuiLogin.InitiateSSOServiceProvider">
+            <summary>
+            Starts single sign on session.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.NuiLogin.GetUserType">
+            <summary>
+            Returns <see cref="T:Terrasoft.Core.UserType"/> instance.
+            </summary>
+            <returns><see cref="T:Terrasoft.Core.UserType"/> instance.</returns>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Login.NuiLogin.IndexForm">
+            <summary>
+            IndexForm control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Login.SspLogin.GetUserType">
+            <summary>
+            Returns <see cref="T:Terrasoft.Core.UserType"/> instance.
+            </summary>
+            <returns><see cref="T:Terrasoft.Core.UserType"/> instance.</returns>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Navigation.Navigation.ServiceName">
+            <summary>
+            Navigation service name.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.Navigation.Navigation.MethodName">
+            <summary>
+            Navigation service method name.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.WebApp.Loader.Navigation.Navigation.ResponseBase">
+            <summary>
+            Wrapper for <see cref="T:System.Web.UI.Page"/> <see cref="T:System.Web.HttpResponse"/> class.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.WebApp.Loader.Navigation.Navigation.RequestBase">
+            <summary>
+            Wrapper for <see cref="T:System.Web.UI.Page"/> <see cref="T:System.Web.HttpRequest"/> class.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Navigation.Navigation.GetNavigationServiceUrl">
+            <summary>
+            Create url to navigation service.
+            </summary>
+            <returns>Navigation service url.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.Navigation.Navigation.GetWorkspaceNumber(System.String)">
+            <summary>
+            Gets <see cref="T:Terrasoft.Core.Configuration.SysWorkspace"/> number by name.
+            </summary>
+            <param name="workspaceName"><see cref="T:Terrasoft.Core.Configuration.SysWorkspace"/> name.</param>
+            <returns>Number of <see cref="T:Terrasoft.Core.Configuration.SysWorkspace"/>.</returns>
+        </member>
+        <member name="F:Terrasoft.WebApp.Loader.ServiceModel.AuthService._request">
+            <summary>
+            Returns <see cref="T:System.Web.HttpRequestBase"/> instance.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.CreateSsoAuthData">
+            <summary>
+            Creates single sign on auth data.
+            </summary>
+            <returns><see cref="T:Terrasoft.Core.AuthData"/> instance.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.SetUserType(Terrasoft.Core.AuthData)">
+            <summary>
+            Sets user type property to <paramref name="authData"/>.
+            </summary>
+            <param name="authData"><see cref="T:Terrasoft.Core.AuthData"/> instance.</param>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.GetAppConnection">
+            <summary>
+            Gets current application connection.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.RedirectToUrl(System.String,Terrasoft.Core.AuthData,System.Boolean)">
+            <summary>
+            Redirects to uniform resource Locator with <paramref name="userName"/> and <paramref name="authData"/>.
+            </summary>
+            <param name="userName">User name.</param>
+            <param name="authData"><see cref="T:Terrasoft.Core.AuthData"/> instance.</param>
+            <param name="endResponse">Flag indicates whether execution of the current page should terminate.</param>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.GetApplicationRedirectUrl(System.String,Terrasoft.Core.AuthData)">
+            <summary>
+            Creates main application redirect url.
+            </summary>
+            <param name="userName">User name.</param>
+            <param name="authData"><see cref="T:Terrasoft.Core.AuthData"/> instance.</param>
+            <returns>Main application redirect url.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.GetResponse">
+            <summary>
+            Returns <see cref="T:System.Web.HttpResponseBase"/> instance.
+            </summary>
+            <returns><see cref="T:System.Web.HttpResponseBase"/> instance.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.GetUserName(Terrasoft.Core.AuthData)">
+            <summary>
+            Gets user name by <paramref name="authData"/> object.
+            </summary>
+            <returns>User name.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.ReceiveSlo(System.Boolean@)">
+            <summary>
+            Tells the application if logout operation needs to be done.
+            </summary>
+            <param name="isRequest">Sign of request action, if true then need to close session,
+            if false then need to redirect.</param>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.SetEmptyDataStoreSsoSession">
+            <summary>
+            Sets empty single sign on session in data store.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.CompleteSlo">
+            <summary>
+            Completes SP-initiated SLO.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.SetRequestHeader">
+            <summary>
+            Sets request header for SLO.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.RedirectOnLogout">
+            <summary>
+            Redirects the browser when IdP-initiated SLO is completed.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.AddSsoUnauthorizedCookie(System.Web.HttpResponseBase,System.String)">
+            <summary>
+            Creates and adds sso logout cookie to <paramref name="response"/> instance.
+            </summary>
+            <param name="response"><see cref="T:System.Web.HttpResponseBase"/> instance.</param>
+            <param name="reason">Sso logout cookie value.</param>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.AddSsoUnauthorizedCookie(System.Web.HttpResponseBase,System.String,System.String)">
+            <summary>
+            Creates and adds sso logout cookie to <paramref name="response"/> instance.
+            </summary>
+            <param name="response"><see cref="T:System.Web.HttpResponseBase"/> instance.</param>
+            <param name="reason">Sso logout reason.</param>
+            <param name="message">Sso logout message.</param>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.SsoLogin">
+            <summary>
+            Entrances into the application using sso.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.SsoLogout">
+            <summary>
+            Exits from the single sign on.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.OAuthTokenLogin(System.Int32)">
+            <summary>
+            Authorizes user using OAuth access token.
+            </summary>
+            <param name="timeZoneOffset">User's time zone offset.</param>
+            <returns>Result of login.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.GetWorkspacesData">
+            <summary>
+            Returns a list of developer workspaces with their "numbers". What is needed, particularly for cases
+            When you need to properly build the url to BPMonline Web services according to the selected workspace.
+            </summary>
+            <returns>Reference workspace name as a key number and as the value of.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.GetDefaultWorkspacePath">
+            <summary>
+            Returns workspace path for default workspace.
+            </summary>
+            <returns>Workspace path for default workspace.</returns>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.ServiceModel.AuthService.GenerateRecoveryPasswordLink(System.String)">
+            <summary>
+            Generates a link to reset your password and sends it to the user's e-mail.
+            </summary>
+            <param name="userName">Username.</param>
+        </member>
+        <member name="M:Terrasoft.WebApp.Loader.UrlDomainReplacer.GetUrlWithReplacedDomain(System.Uri,Terrasoft.Core.UserConnection)">
+            <summary>
+            Replaces domain in URL with value from System Settings. If domain in URL equals
+            to domain in settings, then original URL is returned.
+            </summary>
+        </member>
+    </members>
+</doc>

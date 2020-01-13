@@ -1,0 +1,25 @@
+﻿.page-tools-button {
+  float: right;
+  margin-top: -36px;
+}
+.next-record-button {
+  margin-top: 5px;
+}
+div#OperatorQueuesContainer .schema-wrap .detail .ts-controlgroup-container {
+  padding-bottom: 1.1em;
+}
+div#OperatorQueuesContainer .schema-wrap .detail .ts-controlgroup-container .grid {
+  padding-left: 0;
+}
+div#OperatorQueuesContainer .schema-wrap .detail .ts-controlgroup-container .grid .grid-pad {
+  padding-left: 6px;
+}
+div#OperatorQueuesContainer .schema-wrap .detail .ts-controlgroup-container .grid.grid-tiled .grid-pad:after {
+  margin: 0;
+}
+div#OperatorQueuesContainer .schema-wrap .detail .ts-controlgroup-container .grid.grid-tiled .grid-pad .grid-module {
+  padding-left: 0;
+}
+.supervisor-single-window-page-queue-wrapper .grid.grid-tiled .grid-pad {
+  padding-top: 1px;
+}

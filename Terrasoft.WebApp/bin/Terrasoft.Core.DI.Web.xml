@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Core.DI.Web</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Core.DI.Web.HttpScopeProvider">
+            <summary>
+            Provides a way to set HTTP Context scope
+            </summary>
+            <seealso cref="T:Terrasoft.Core.DI.ScopedLifetime.IScopeProvider" />
+        </member>
+        <member name="P:Terrasoft.Core.DI.Web.HttpScopeProvider.Ninject#Components#INinjectComponent#Settings">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.DI.Web.HttpScopeProvider.GetScope(System.Web.HttpContext)">
+            <summary>
+            Gets the scope.
+            </summary>
+            <param name="httpContext">The HTTP context.</param>
+            <returns>Current HTTP context scope.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.DI.Web.HttpScopeProvider.CreateScope(System.Web.HttpContext)">
+            <summary>
+            Creates the scope.
+            </summary>
+            <param name="httpContext">The HTTP context.</param>
+            <returns>Created instance of <see cref="T:Terrasoft.Core.DI.ScopedLifetime.ActivationScope"/>.</returns>
+        </member>
+        <member name="M:Terrasoft.Core.DI.Web.HttpScopeProvider.DisposeScope(System.Web.HttpContext)">
+            <summary>
+            Disposes the scope.
+            </summary>
+            <param name="httpContext">The HTTP context.</param>
+        </member>
+        <member name="M:Terrasoft.Core.DI.Web.HttpScopeProvider.GetScope(Ninject.Activation.IContext)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.DI.Web.HttpScopeProvider.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.Web.HttpScopeProviderModule">
+            <summary>
+            Used to initialize activation scope for Http requests.
+            </summary>
+            <seealso cref="T:System.Web.IHttpModule" />
+        </member>
+        <member name="M:Terrasoft.Core.DI.Web.HttpScopeProviderModule.Init(System.Web.HttpApplication)">
+            <inheritdoc />
+        </member>
+        <member name="M:Terrasoft.Core.DI.Web.HttpScopeProviderModule.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Terrasoft.Core.DI.Web.IIgnoreRequestScope">
+            <summary>
+            Marker interface. <see cref="T:System.Web.IHttpHandler"/> implementations that not requires activation scope should be
+            marked with it.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Core.DI.Web.WebModule.Load">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

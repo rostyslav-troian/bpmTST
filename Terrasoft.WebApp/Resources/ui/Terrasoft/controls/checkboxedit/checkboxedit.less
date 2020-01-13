@@ -1,0 +1,44 @@
+.t-checkboxedit {
+	margin: 0px;
+	padding: 0px;
+	width: 16px;
+	height: 16px;
+	outline: none;
+	outline: none;
+	border: 0px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.t-checkboxedit-wrap {
+	display: inline-block;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 16px;
+	height: 16px;
+	background-image: url(images/Checkbox_empty.svg);
+	background-repeat: no-repeat;
+	margin-top: 2px;
+}
+.t-checkboxedit-wrap.t-checkboxedit-focus {
+	background-image: url(images/Checkbox_empty_focused.svg);
+}
+.t-checkboxedit-wrap.t-checkboxedit-checked {
+	background-image: url(images/Checkbox_checked.svg);
+}
+.t-checkboxedit-wrap.t-checkboxedit-checked.t-checkboxedit-focus {
+	background-image: url(images/Checkbox_checked_focused.svg);
+}
+.t-checkboxedit-wrap.t-checkboxedit-disabled {
+	background-image: url(images/Checkbox_empty_disabled.svg);
+}
+.t-checkboxedit-wrap.t-checkboxedit-disabled.t-checkboxedit-checked {
+	background-image: url(images/Checkbox_disabled.svg);
+}
+.t-checkboxedit-wrap.t-checkboxedit-disabled.t-checkboxedit-checked.t-checkboxedit-focus {
+	background-image: url(images/Checkbox_disabled_checked_focused.svg);
+}
+.t-checkboxedit-wrap.t-checkboxedit-disabled.t-checkboxedit-focus {
+	background-image: url(images/Checkbox_disabled_empty_focused.svg);
+}

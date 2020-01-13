@@ -1,0 +1,30 @@
+﻿.t-display-inline-block {
+  display: inline-block;
+}
+.t-width-auto {
+  width: auto;
+}
+.t-max-width-5em {
+  max-width: 5em;
+}
+.t-margin-right-1em {
+  margin-left: 1em;
+}
+.t-margin-left-1em {
+  margin-right: 1em;
+}
+.t-vertical-align-middle {
+  vertical-align: middle;
+}
+.t-overflow-visible {
+  overflow: visible;
+}
+.t-validation-message-min-width-15em .base-edit-validation {
+  min-width: 15em;
+}
+.t-disabled-validation-hidden .base-edit-disabled .base-edit-validation {
+  visibility: hidden;
+}
+.card-content-container #ExtendedFiltersContainer .base-edit-right-icon {
+  display: inherit;
+}

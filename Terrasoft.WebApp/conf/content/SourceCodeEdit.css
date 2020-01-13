@@ -1,0 +1,20 @@
+﻿.base-edit.source-code-edit {
+  padding-right: 0;
+  border: 1px solid #e9e9e9;
+}
+.base-edit.source-code-edit,
+.base-edit.source-code-edit .base-edit-input.ace-edit {
+  width: 100%;
+  height: 100%;
+}
+/*
+Remove after aceEdit bug fix https://github.com/ajaxorg/ace/issues/2872
+Scroll bar is not visible on Safari
+*/
+
+.x-safari .base-edit.source-code-edit .ace_scrollbar {
+  z-index: auto;
+}
+.ace_scrollbar {
+  cursor: default;
+}

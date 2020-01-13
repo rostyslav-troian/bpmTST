@@ -1,0 +1,15 @@
+﻿.separator-header {
+  font-weight: 600;
+  color: #4e7bd8;
+  background-color: white;
+}
+.separator-header div {
+  text-align: center;
+  cursor: default;
+}
+.separator-header.listview-selected:hover {
+  background-color: white;
+}
+div[data-item-marker^="ForecastEntity"].listview ul {
+  width: 318px;
+}

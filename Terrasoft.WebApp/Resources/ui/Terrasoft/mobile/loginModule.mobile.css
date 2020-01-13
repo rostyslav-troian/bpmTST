@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'bpmonline UI';
+	src: url("segoeuil.ttf") format("truetype");
+}
+.login-container {
+	margin: 0 14px;
+	padding-top: 28px;
+}
+.login-container .t-label {
+	margin-top: 20px;
+}
+.login-buttons-container {
+	position: relative;
+	margin-top: 28px;
+	margin-bottom: 28px;
+}
+.login-container .base-edit {
+	margin-top: 10px;
+}
+.login-row-container {
+	background-image: url('logo.png');
+	background-repeat: no-repeat;
+	height: 30px;
+}
+.ts-messagebox-box {
+	max-width: 90%;
+}
+.login-isSecureConnection-container .t-checkboxedit-wrap {
+	margin-top: 20px;
+}
+.login-isSecureConnection-container .t-label {
+	position: absolute;
+	margin-top: 5px;
+	line-height: 50px;
+	left: 0;
+	padding-left: 50px;
+}
+.login-version {
+	text-align: right;
+	position: absolute;
+	right: 0;
+	top: 7px;
+	margin-top: 0!important;
+	width: initial!important;
+}

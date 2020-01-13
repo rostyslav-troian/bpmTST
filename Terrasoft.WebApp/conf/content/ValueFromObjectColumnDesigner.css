@@ -1,0 +1,55 @@
+﻿@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+html[dir="rtl"] #MiniPageContainer .forecast-column-designer-alignable-container .column-designer-container .column-designer-layout.grid-layout .multiple-character-caption {
+  margin-left: -14px;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .column-designer-container .column-designer-layout.grid-layout {
+  padding: 10px 30px 0px 0px;
+  width: 450px;
+  animation: 0.5s ease-out 0s 1 opacityAnimation;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .column-designer-container .column-designer-layout.grid-layout .rule-group-number-label {
+  width: 24px;
+  height: 24px;
+  background-color: #00AEEF;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 22px;
+  display: inline-block;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .column-designer-container .column-designer-layout.grid-layout .rule-group-label {
+  font-size: 16px;
+  color: #00AEEF;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .column-designer-container .column-designer-layout.grid-layout .filters-container .filteredit {
+  max-height: 130px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .column-designer-container .column-designer-layout.grid-layout .multiple-character-caption {
+  margin-left: 14px;
+  color: #4E7BD8;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .column-designer-container .column-designer-layout.grid-layout .coefficient {
+  margin-top: -15px;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .column-designer-container .column-designer-layout.grid-layout .multiple-percent-caption {
+  margin-left: 5px;
+  margin-top: -15px;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .column-designer-container .column-designer-layout.grid-layout .structure-column-edit .base-edit.base-edit-readonly {
+  background-color: transparent;
+}
+#MiniPageContainer .forecast-column-designer-alignable-container .column-designer-container .column-designer-layout.grid-layout .structure-column-edit .base-edit.base-edit-readonly .base-edit-input {
+  background-color: transparent;
+}

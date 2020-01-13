@@ -1,0 +1,57 @@
+﻿.label-red label.estimate-caption-label {
+  color: #ea7356;
+}
+.label-green label.estimate-caption-label {
+  color: #6cb039;
+}
+.base-edit.datetime-timecontrol {
+  width: 81px;
+}
+.estimate-caption-container {
+  margin-right: -30px;
+  width: 165px;
+  margin-top: 2px;
+}
+.timer-image-container {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-top: 4px;
+  margin-right: 5px;
+  background-position: 0 0;
+  float: left;
+}
+.estimate-caption-label {
+  font-size: 15px;
+  font-family: "bpmonline UI", serif;
+}
+.prefix {
+  width: 65px;
+  display: inline-block;
+  text-align: right;
+}
+.day {
+  width: 55px;
+  display: inline-block;
+  text-align: left;
+}
+.blink {
+  -webkit-animation: blink 1s linear infinite;
+  animation: blink 1s linear infinite;
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,38 @@
+﻿.interval-item-container {
+  display: flex;
+  width: 400px;
+  margin-right: -110px;
+}
+.notification-container {
+  width: 300px;
+  margin-right: -110px;
+  margin-bottom: 15px;
+  color: #444;
+}
+.interval-item-container .interval-label {
+  min-width: 3em;
+}
+.header-mini-wrap {
+  margin-left: -20px;
+  margin-bottom: 10px;
+}
+.header-mini-wrap > label {
+  width: auto;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 5px;
+  color: #00aeef;
+}
+.header-mini-wrap .t-btn-wrapper.t-btn-style-transparent {
+  margin-top: 4px;
+  margin-left: 4px;
+}
+.header-mini-wrap span.t-btn-image {
+  margin-left: 0;
+  height: 25px;
+  margin-right: 5px;
+}
+.day-intervals-collection-container {
+  overflow: hidden;
+  padding-top: 25px;
+}

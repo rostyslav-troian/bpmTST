@@ -1,0 +1,41 @@
+﻿.widget-metrics-container {
+  align-items: center;
+  background-color: #4ca6a3;
+  color: #ffffff;
+  display: flex;
+  font-family: "Bpmonline Open Sans", serif;
+  justify-content: center;
+  overflow: hidden;
+}
+.widget-metric-item {
+  cursor: default;
+  margin-top: 22px;
+  text-align: center;
+}
+.widget-metric-item label {
+  font-size: 13px;
+  margin-top: 14px;
+}
+.overlay span {
+  color: #ffffff;
+  font-family: "Bpmonline Open Sans", serif;
+  font-size: 45px;
+}
+div.ts-round-progress-bar-wrap {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+div.ts-round-progress-bar-wrap .overlay {
+  background-color: #4ca6a3;
+  color: #ffffff;
+  font-family: "Bpmonline Open Sans", serif;
+}
+div.ts-round-progress-bar-wrap .circle .half {
+  border-color: #ffffff !important;
+}
+.main-widget-metrics-container {
+  background-color: #4ca6a3;
+  height: 100vh;
+}
+#PRMportalLevelSchemaContainer.schema-wrap.one-el {
+  min-width: auto;
+}

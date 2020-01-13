@@ -1,0 +1,45 @@
+﻿.ts-progress-bar-wrap {
+  height: 32px;
+  padding-top: 4px;
+}
+.ts-progress-bar-items {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
+  height: 4px !important;
+  margin-top: 5px !important;
+}
+.ts-progress-bar-caption {
+  font-family: "Segoe UI";
+  color: #444;
+  font-size: 12px;
+}
+.ts-progress-bar-item {
+  padding: 0;
+  border: 0;
+  margin-left: 2px;
+}
+.ts-progress-bar-item-active {
+  background: #f8c065;
+}
+.ts-progress-bar-item-inactive {
+  background: #e0e0e0;
+}
+div.two-el .ts-progress-bar-caption {
+  line-height: 8px !important;
+  height: 13px !important;
+  margin-top: 0px !important;
+}
+div.two-el .ts-progress-bar-items {
+  margin-top: 2px !important;
+}
+div.two-el .indicator-cell {
+  top: 4px;
+}
+div.grid-listed .ts-progress-bar-wrap {
+  padding-top: 0;
+}

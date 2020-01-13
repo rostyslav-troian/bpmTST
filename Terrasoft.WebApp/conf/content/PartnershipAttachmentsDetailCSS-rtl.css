@@ -1,0 +1,117 @@
+﻿div[id*="PartnershipAttachmentsDetail"] .grid-status-message-empty {
+  display: none;
+}
+div[id*="PartnershipAttachmentsDetail"] .grid-empty > .grid-bottom-spinner-space {
+  height: 5px;
+}
+div[id*="PartnershipAttachmentsDetail"] .dropzone {
+  height: 35px;
+  width: 100%;
+  border: 1px dashed #999999;
+  text-align: center;
+  line-height: 35px;
+}
+div[id*="PartnershipAttachmentsDetail"] .dropzone-hover {
+  border: 1px dashed #4b7fc7;
+}
+div[id*="PartnershipAttachmentsDetail"] .DragAndDropLabel {
+  font-size: 1.8em;
+  color: #6e6e70;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .entity-image-class,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .entity-image-class {
+  width: 165px;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .entity-image-container-class,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .entity-image-container-class {
+  float: left;
+  width: 128px;
+  height: 128px;
+  text-align: center;
+  line-height: 128px;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .entity-image-view-class,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .entity-image-view-class {
+  max-width: 128px;
+  max-height: 128px;
+  vertical-align: middle;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .images-list-class,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .images-list-class {
+  min-height: 0.5em;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .images-list-class > .selectable,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .images-list-class > .selectable {
+  margin-left: 10px;
+  display: inline-block;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .entity-label,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .entity-label {
+  display: block;
+  max-width: 128px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .entity-link-container-class > a,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .entity-link-container-class > a {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  display: block;
+  max-width: 128px;
+  margin-bottom: 10px;
+  color: #444;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .entity-link-container-class > a:hover,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .entity-link-container-class > a:hover {
+  color: #0e84cf;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .entity-link-container-class,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .entity-link-container-class {
+  float: left;
+  width: 128px;
+  text-align: center;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .select-entity-container-class,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .select-entity-container-class {
+  float: right;
+  width: 2em;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .listed-mode-button,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .listed-mode-button {
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .tiled-mode-button,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .tiled-mode-button {
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .tiled-mode-button,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .tiled-mode-button,
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .listed-mode-button,
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .listed-mode-button {
+  padding-right: 0.308em;
+  padding-left: 0.462em;
+}
+div[data-item-marker*="added-detail"] .button-pressed {
+  background: #fff;
+}
+div[data-item-marker*="added-detail"] .button-pressed .t-btn-image {
+  background-position: 0 16px !important;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .tiled-mode-button {
+  background: #ffffff;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="tiled"] .tiled-mode-button .t-btn-image {
+  background-position: 0 16px !important;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .listed-mode-button {
+  background: #ffffff;
+}
+div[data-item-marker*="added-detail"] div[data-item-marker*="listed"] .listed-mode-button .t-btn-image {
+  background-position: 0 16px !important;
+}

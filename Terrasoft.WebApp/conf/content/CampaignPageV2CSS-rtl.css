@@ -1,0 +1,6 @@
+﻿.campaign-card-content-container {
+  max-width: none !important;
+}
+[data-item-marker*=TargetPercent] .base-edit-validation {
+  min-width: 150px;
+}

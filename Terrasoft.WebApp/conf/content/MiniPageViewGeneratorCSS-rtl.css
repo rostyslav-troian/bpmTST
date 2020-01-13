@@ -1,0 +1,285 @@
+﻿.control-width-15.container-mini-wrap {
+  display: inline-block;
+}
+.label-wrap.label-mini-wrap {
+  justify-content: flex-start;
+  height: 20px;
+  max-width: none;
+}
+.label-wrap.label-mini-wrap > label {
+  font-size: 12px;
+  padding-top: 6px;
+  text-align: right;
+}
+.container-mini-wrap .label-mini-wrap {
+  text-align: right;
+}
+.container-mini-wrap .memo-edit-core .memo-edit-area:not(.virtual) {
+  overflow-y: auto;
+  max-height: inherit;
+}
+.memo-edit-height {
+  max-height: inherit;
+}
+.container-mini-wrap .memo-edit-core {
+  max-height: 6em;
+  overflow: hidden;
+}
+.container-mini-wrap .memo-edit-core.base-edit-error {
+  overflow: visible;
+}
+.control-wrap.control-mini-wrap {
+  min-height: 24px;
+}
+.control-wrap.control-mini-wrap input {
+  background-color: transparent;
+}
+.control-wrap.control-mini-wrap > a,
+.control-wrap.control-mini-wrap > label {
+  font-size: 14px;
+  text-align: right;
+  width: initial;
+}
+.control-wrap.control-mini-wrap > a {
+  color: #4E7BD8;
+}
+.control-wrap.control-mini-wrap > label {
+  color: #444;
+  margin-bottom: -3px;
+}
+.header-mini-wrap .t-label.label-link {
+  font-size: 18px;
+  overflow: inherit;
+}
+.control-wrap.control-mini-wrap.minipage-view-mode .base-edit:not(.base-edit-focus) {
+  height: 26px;
+  border: none;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.control-wrap.control-mini-wrap .base-edit.base-edit-focus {
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+.minipage-edit-mode div.grid-layout-column[data-rowspan='1'] .memo-edit-area {
+  margin-top: 0px;
+}
+.control-wrap.control-mini-wrap > .base-edit > .base-edit-input {
+  background-color: transparent;
+}
+#MiniPageContainer .grid-layout {
+  padding: 10px 30px 15px 30px;
+}
+#MiniPageContainer .grid-layout .grid-layout-row {
+  min-height: 0px;
+  display: flex;
+}
+#MiniPageContainer .grid-layout .grid-layout-row .grid-layout-column {
+  min-height: 0px;
+  align-self: center;
+}
+#MiniPageContainer .grid-layout .grid-layout-row .grid-layout-column:empty {
+  display: none;
+}
+.grid-mini-wrap .grid-layout-spacer {
+  height: auto;
+}
+.grid-layout.grid-mini-wrap {
+  padding-left: 44px;
+  padding-top: 12px;
+  overflow-x: auto;
+}
+.control-mini-wrap > .base-edit {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.btn-mini-wrap {
+  padding: 8px;
+}
+.btn-mini-wrap .t-btn-wrapper,
+.btn-mini-wrap .t-btn-image,
+.header-mini-wrap .open-entity-page-wrapper-class {
+  height: 16px;
+  width: 16px;
+  padding: 0px;
+  border: 0px;
+}
+.header-mini-wrap {
+  display: flex;
+}
+.header-mini-wrap .open-entity-page-wrapper-class {
+  margin-top: 8px;
+}
+.header-mini-wrap .control-mini-wrap {
+  margin-top: 2px;
+  vertical-align: middle;
+  line-height: 18px;
+  display: inline-block;
+  height: auto;
+}
+.header-mini-wrap .control-mini-wrap > a {
+  margin-top: 0px;
+}
+.header-mini-wrap .container-mini-wrap {
+  width: 100%;
+  line-height: 34px;
+  margin-left: auto;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.header-mini-wrap .btn-mini-wrap {
+  width: 32px;
+}
+.show-overlay .header-mini-wrap span:first-child {
+  margin-right: 11px;
+}
+.alignable-container .t-btn-style-default:not(.t-btn-disabled):hover {
+  background: transparent;
+}
+.base-minipage-save-button:hover,
+.alignable-container .t-btn-style-default.base-minipage-cancel-button:hover {
+  background: #f2f5ff;
+}
+.t-btn-marker.extended-menu-button-marker {
+  display: none;
+}
+.header-mini-wrap .t-btn-wrapper,
+.extended-menu-button-wrap {
+  padding: 0px 0px 0px 0px;
+  border: none;
+  min-width: 32px;
+  float: left;
+  margin-top: 6px;
+}
+.header-mini-wrap .t-btn-wrapper,
+.extended-menu-button-wrap {
+  align-self: flex-start;
+}
+.header-mini-wrap .t-btn-image,
+.extended-menu-image {
+  border: none;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.grid-mini-wrap .base-minipage-action-button-image {
+  width: 19px;
+  height: 19px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.base-minipage-edit-button-container {
+  text-align: left;
+  padding: 14px 0 20px 0;
+}
+.base-minipage-save-button-wrapper {
+  color: #63bade;
+}
+.base-minipage-edit-button-container .t-btn-wrapper {
+  padding: 4.5px 12px 4.5px 12px;
+  margin-right: 8px;
+}
+.base-minipage-edit-button-container .t-btn-wrapper.base-minipage-cancel-button {
+  margin-left: -12px;
+}
+.base-minipage-cancel-button-wrapper {
+  color: #999;
+}
+.base-minipage-edit-button-container .t-btn-wrapper {
+  float: none;
+}
+.entity-connection-container {
+  margin-top: 4px;
+}
+.entity-connection-container > div {
+  height: 32px;
+  display: flex;
+}
+.entity-connection-container .entity-connection-image-wrap {
+  float: right;
+  margin-top: 4px;
+}
+.entity-connection-container .entity-connection-lookup {
+  width: 100%;
+}
+.entity-connection-container .entity-connection-hyperlink {
+  width: auto;
+  max-width: 310px;
+  height: 32px;
+  line-height: 32px;
+  margin-right: 6px;
+}
+.entity-connection-container .entity-connection-buttons-container {
+  margin-right: auto;
+}
+.grid-mini-wrap .base-edit:not(.base-edit-disabled):hover .base-edit-right-icon,
+.grid-mini-wrap .base-edit-focus .base-edit-right-icon {
+  display: block;
+}
+.grid-mini-wrap .base-edit-right-icon {
+  display: none;
+}
+.grid-mini-wrap .base-edit.base-edit-with-right-icon {
+  padding-left: 10px;
+}
+.grid-mini-wrap .base-edit:hover.base-edit-with-right-icon,
+.grid-mini-wrap .base-edit-focus.base-edit-with-right-icon {
+  padding-left: 33px;
+}
+.container-mini-wrap ::-webkit-input-placeholder {
+  opacity: 1;
+}
+.container-mini-wrap :-moz-placeholder {
+  opacity: 1;
+}
+.container-mini-wrap ::-moz-placeholder {
+  opacity: 1;
+}
+.container-mini-wrap :-ms-input-placeholder {
+  opacity: 1;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column .edit-indents {
+  margin-bottom: 10px;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column .edit-indents .base-edit {
+  padding-right: 0;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column .edit-indents .base-edit textarea {
+  padding-right: 0;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column > div {
+  margin-bottom: 10px;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column > div .base-edit {
+  padding-right: 0;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column > div .base-edit textarea {
+  padding-right: 0;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column > div.base-minipage-edit-button-container,
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column > div.header-mini-wrap,
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column > div.communications-container {
+  margin-bottom: 0;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column .control-width-15 {
+  margin-bottom: 10px;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column .control-width-15 .base-edit {
+  padding-right: 0;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column .control-width-15 .base-edit textarea {
+  padding-right: 0;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column .base-edit.base-edit-with-left-icon {
+  padding-right: 34px;
+}
+.show-overlay [class*="mini-page-container"].grid-layout > .grid-layout-row > .grid-layout-column .base-edit.base-edit-with-right-icon {
+  padding-left: 34px;
+}
+.show-overlay [class*="mini-page-container"] .communications-container .entity-connection-container {
+  padding-bottom: 10px;
+}

@@ -1,0 +1,16 @@
+﻿.recipient-percent-label-wrap {
+  min-width: 26em !important;
+}
+.bulk-email-split-test-date-time-header.date-edit {
+  width: 60%;
+}
+.bulk-email-split-test-date-time-header.time-edit {
+  width: 36%;
+}
+.determine-winner-label {
+  padding-left: 40px;
+  color: #999;
+}
+.recipient-percent .base-edit-validation {
+  text-align: initial;
+}

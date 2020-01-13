@@ -1,0 +1,1327 @@
+[
+	{
+		"group": "AmdCore",
+		"items": [
+			"./amd/tests/core-base.unit.tests.js",
+			"./amd/tests/core-base.ui.tests.js",
+			"./amd/tests/require-url-config.unit.tests.js",
+			"./amd/tests/performanceLogger.unit.tests.js"
+		]
+	},
+	{
+		"group": "Core",
+		"items": [
+			{
+				"group": "Draggable",
+				"items": [
+					"./core/mixins/tests/draggable.ui.tests.js"
+				]
+			},
+			{
+				"group": "Filterable",
+				"items": [
+					"./core/mixins/tests/filterable.unit.tests.js"
+				]
+			},
+			{
+				"group": "Sortable",
+				"items": [
+					"./core/mixins/tests/sortable.unit.tests.js"
+				]
+			},
+			{
+				"group": "Exceptions",
+				"items": [
+					"./core/exceptions/tests/exceptions.unit.tests.js"
+				]
+			},
+			{
+				"group": "ResourceMutex",
+				"items": [
+					"./core/tests/resource-mutex.unit.tests.js"
+				]
+			},
+			{
+				"group": "Serializable",
+				"items": [
+					"./core/mixins/tests/serializable.unit.tests.js"
+				]
+			},
+			{
+				"group": "Reorderable",
+				"items": [
+					"./core/mixins/tests/reorderable.unit.tests.js"
+				]
+			},
+			{
+				"group": "Collection",
+				"items": [
+					"./core/collections/tests/basecollection.unit.tests.js",
+					"./core/collections/tests/collection.unit.tests.js",
+					"./core/collections/tests/objectcollection.unit.tests.js"
+				]
+			},
+			{
+				"group": "Router",
+				"items": [
+					"./core/router/tests/basenavigationprovider.unit.tests.js",
+					"./core/router/tests/history-navigation-provider.unit.tests.js",
+					"./core/router/tests/ie-family-history-navigation-provider.unit.tests.js",
+					"./core/router/tests/router.unit.tests.js",
+					"./core/router/tests/router.ui.tests.js"
+				]
+			},
+			{
+				"group": "PrivateMemberWatcher",
+				"items": [
+					"./core/tests/private-member-watcher.unit.tests.js"
+				]
+			},
+			{
+				"group": "LocalizableString",
+				"items": [
+					"./core/tests/localizable-string.unit.tests.js"
+				]
+			},
+			{
+				"group": "ClientUnitSchemaMessage",
+				"items": [
+					"./core/tests/client-unit-schema-message.unit.tests.js"
+				]
+			},
+			{
+				"group": "SysSettings",
+				"items": [
+					"./core/tests/sys-settings.unit.tests.js"
+				]
+			},
+			{
+				"group": "Features",
+				"items": [
+					"./core/tests/features.unit.tests.js"
+				]
+			},
+			{
+				"group": "ComponentManager",
+				"items": [
+					"./core/tests/component-manager.unit.tests.js"
+				]
+			},
+			{
+				"group": "BaseObject",
+				"items": [
+					"./core/tests/baseobject.unit.tests.js"
+				]
+			},
+			{
+				"group": "CronExpression",
+				"items": [
+					"./core/cron/tests/cron-expression.unit.tests.js",
+					"./core/cron/tests/cron-expression-parser.unit.tests.js",
+					"./core/cron/tests/cron-expression-descriptor.unit.tests.js"
+				]
+			},
+			{
+				"group": "Logger",
+				"items": [
+					"./core/tests/logger.unit.tests.js"
+				]
+			},
+			{
+				"group": "ImageApi",
+				"items": [
+					"./core/imageApi/tests/imageApi.unit.tests.js"
+				]
+			},
+			{
+				"group": "deferred-execution",
+				"items": [
+					"./core/deferred-execution/tests/deferred-execution-dispatcher.unit.tests.js",
+					"./core/deferred-execution/tests/deferred-execution-function.unit.tests.js"
+				]
+			},
+			{
+				"group": "ajax-provider",
+				"items": [
+					"./core/tests/ajax-provider.unit.tests.js"
+				]
+			},
+			{
+				"group": "data-provider",
+				"items": [
+					"./core/tests/data-provider.unit.tests.js"
+				]
+			},
+			{
+				"group": "ServerChannelResponse",
+				"items": [
+					"./core/tests/base-server-channel-response.unit.tests.js"
+				]
+			},
+			{
+				"group": "WebSocketChannel",
+				"items": [
+					"./core/tests/websocket-msg-channel.unit.tests.js"
+				]
+			},
+			{
+				"group": "ServerChannel",
+				"items": [
+					"./core/tests/server-channel.unit.tests.js",
+					"./core/tests/signalr-msg-channel.unit.tests.js"
+				]
+			},
+			{
+				"group": "PackageMarketModule",
+				"items": [
+					"./core/package-market-module/tests/package-market-module.unit.tests.js",
+					"./core/package-market-module/tests/package-market-module.ui.tests.js",
+					"./core/package-market-module/tests/package-market-view.unit.tests.js",
+					"./core/package-market-module/tests/package-market-view-model.unit.tests.js"
+				]
+			},
+			{
+				"group": "File",
+				"items": [
+					"./core/tests/file-helper.unit.tests.js"
+				]
+			}
+		]
+	},
+	{
+		"group": "Data",
+		"items": [
+			{
+				"group": "Filters",
+				"items": [
+					"./data/filters/tests/filter-group.unit.tests.js",
+					"./data/filters/tests/basefilter.unit.tests.js",
+					"./data/filters/tests/comparefilter.unit.tests.js",
+					"./data/filters/tests/exists-filter.unit.tests.js",
+					"./data/filters/tests/betweenfilter.unit.tests.js",
+					"./data/filters/tests/isnullfilter.unit.tests.js",
+					"./data/filters/tests/in-filter.unit.tests.js",
+					"./data/filters/tests/filter-utils.unit.tests.js"
+				]
+			},
+			{
+				"group": "FilterManager",
+				"items": [
+					"./data/filters/tests/base-filter-provider.unit.tests.js",
+					"./data/filters/tests/filter-manager.unit.tests.js"
+				]
+			},
+			{
+				"group": "Parameters",
+				"items": [
+					"./data/filters/tests/parameters.unit.tests.js",
+					"./data/filters/tests/parameter.unit.tests.js"
+				]
+			},
+			{
+				"group": "Model",
+				"items": [
+					"./data/models/tests/base-model.unit.tests.js",
+					"./data/models/tests/base-view-model.unit.tests.js",
+					"./data/models/tests/entity-base-view-model-mixin.unit.tests.js",
+					"./data/models/tests/base-view-model-collection.unit.tests.js",
+					"./data/models/tests/sys-setting-view-model.unit.tests.js",
+					"./data/models/tests/entity-data-model.unit.tests.js",
+					"./data/models/tests/data-model-collection.unit.tests.js",
+					"./data/models/tests/value-converter-mixin.unit.tests.js"
+				]
+			},
+			{
+				"group": "EntitySchema",
+				"items": [
+					"./data/models/tests/base-entity-schema.unit.tests.js"
+				]
+			},
+			{
+				"group": "Query",
+				"items": [
+					"./data/queries/tests/base-query.unit.tests.js",
+					"./data/queries/tests/base-filterable-query.unit.tests.js",
+					"./data/queries/tests/batch-query.unit.tests.js",
+					"./data/queries/tests/entity-schema-query.unit.tests.js",
+					"./data/queries/tests/insert-query.unit.tests.js",
+					"./data/queries/tests/update-query.unit.tests.js"
+				]
+			},
+			{
+				"group": "QueryColumns",
+				"items": [
+					"./data/columns/tests/basequerycolumn.unit.tests.js",
+					"./data/columns/tests/column-values.unit.tests.js",
+					"./data/columns/tests/querycolumns.unit.tests.js",
+					"./data/columns/tests/entityquerycolumn.unit.tests.js",
+					"./data/columns/tests/parameterquerycolumn.unit.tests.js",
+					"./data/columns/tests/functionquerycolumn.unit.tests.js",
+					"./data/columns/tests/sub-query-column.unit.tests.js",
+					"./data/columns/tests/aggregation-query-column.unit.tests.js",
+					"./data/columns/tests/related-entity-columns-mixin.tests.js"
+				]
+			},
+			{
+				"group": "QueryExpressions",
+				"items": [
+					"./data/expressions/tests/column-expression.unit.tests.js",
+					"./data/expressions/tests/parameter-expression.unit.tests.js",
+					"./data/expressions/tests/function-expression.unit.tests.js",
+					"./data/expressions/tests/sub-query-expression.unit.tests.js",
+					"./data/expressions/tests/aggregation-query-expression.unit.tests.js"
+				]
+			},
+			{
+				"group": "BaseServiceProvider",
+				"items": [
+					"./core/tests/base-service-provider.unit.tests.js"
+				]
+			},
+			{
+				"group": "ServiceProvider",
+				"items": [
+					"./core/tests/service-provider.unit.tests.js"
+				]
+			},
+			{
+				"group": "CoreServiceProvider",
+				"items": [
+					"./core/tests/core-service-provider.unit.tests.js"
+				]
+			},
+			{
+				"group": "Store",
+				"items": [
+					"./data/store/tests/store-manager.unit.tests.js",
+					"./data/store/tests/memory-store.unit.tests.js",
+					"./data/store/tests/local-store.unit.tests.js"
+				]
+			}
+		]
+	},
+	{
+		"group": "Controls",
+		"items": [
+			{
+				"group": "GridLayoutEdit",
+				"items": [
+					"./controls/grid-layout-edit/tests/grid-layout-edit.unit.tests.js",
+					"./controls/grid-layout-edit/tests/grid-layout-edit-item.unit.tests.js"
+				]
+			},
+			{
+				"group": "GridLayout",
+				"items": [
+					"./controls/grid-layout/tests/grid-layout.ui.tests.js",
+					"./controls/grid-layout/tests/grid-layout.unit.tests.js"
+				]
+			},
+			{
+				"group": "CommonUtils",
+				"items": [
+					"./utils/common/tests/commonutils.unit.tests.js",
+					"./utils/common/tests/commonutils.ui.tests.js",
+					"./utils/common/tests/json.unit.tests.js",
+					"./utils/common/tests/json-applier.unit.tests.js",
+					"./utils/common/tests/json-differ.unit.tests.js",
+					"./utils/common/tests/color-utils.unit.tests.js"
+				]
+			},
+			{
+				"group": "BuilderUtils",
+				"items": [
+					"./utils/builder/tests/object-builder.unit.tests.js"
+				]
+			},
+			{
+				"group": "ArrayUtils",
+				"items": [
+					"./utils/common/tests/arrayutils.unit.tests.js"
+				]
+			},
+			{
+				"group": "DateUtils",
+				"items": [
+					"./utils/common/tests/dateutils.unit.tests.js"
+				]
+			},
+			{
+				"group": "StringUtils",
+				"items": [
+					"./utils/common/tests/stringutils.unit.tests.js"
+				]
+			},
+			{
+				"group": "HtmlUtils",
+				"items": [
+					"./utils/common/tests/htmlutils.unit.tests.js"
+				]
+			},
+			{
+				"group": "GuidUtils",
+				"items": [
+					"./utils/common/tests/guidutils.unit.tests.js"
+				]
+			},
+			{
+				"group": "ObjectUtils",
+				"items": [
+					"./utils/common/tests/objectutils.unit.tests.js"
+				]
+			},
+			{
+				"group": "UriUtils",
+				"items": [
+					"./utils/common/tests/uriutils.unit.tests.js"
+				]
+			},
+			{
+				"group": "DataValueTypeUtils",
+				"items": [
+					"./utils/common/tests/datavaluetypeutils.unit.tests.js"
+				]
+			},
+			{
+				"group": "EnumsUtils",
+				"items": [
+					"./utils/common/tests/enumsutils.unit.tests.js"
+				]
+			},
+			{
+				"group": "NumberUtils",
+				"items": [
+					"./utils/common/tests/numberutils.unit.tests.js"
+				]
+			},
+			{
+				"group": "DomUtils",
+				"items": [
+					"./utils/dom/tests/domutils.ui.tests.js"
+				]
+			},
+			{
+				"group": "DragDropUtils",
+				"items": [
+					"./utils/dragdrop/tests/dragdrophelper.ui.tests.js"
+				]
+			},
+			{
+				"group": "Bindable",
+				"items": [
+					"./controls/mixins/tests/bindable.unit.tests.js"
+				]
+			},
+			{
+				"group": "Tooltip",
+				"items": [
+					"./controls/mixins/tests/tooltip.unit.tests.js",
+					"./controls/mixins/tests/tooltip.ui.tests.js"
+				]
+			},
+			{
+				"group": "SanitizeHtml",
+				"items": [
+					"./controls/mixins/tests/sanitizehtml.unit.tests.js"
+				]
+			},
+			{
+				"group": "Component",
+				"items": [
+					"./controls/component/tests/component.unit.tests.js",
+					"./controls/component/tests/component.ui.tests.js"
+				]
+			},
+			{
+				"group": "Container",
+				"items": [
+					"./controls/container/tests/abstractcontainer.unit.tests.js",
+					"./controls/container/tests/abstractcontainer.ui.tests.js",
+					"./controls/container/tests/lazy-container.unit.tests.js",
+					"./controls/container/tests/reorderable-container.ui.tests.js",
+					"./controls/container/tests/reorderable-container.unit.tests.js",
+					"./controls/mixins/tests/reorderable-container-view-model-mixin.unit.tests.js"
+				]
+			},
+			{
+				"group": "ReorderableItemMixin",
+				"items": [
+					"./controls/mixins/tests/reorderable-item-mixin.ui.tests.js",
+					"./controls/mixins/tests/reorderable-item-mixin.unit.tests.js"
+				]
+			},
+			{
+				"group": "ReorderableItemVMMixin",
+				"items": [
+					"./controls/mixins/tests/reorderable-item-view-model-mixin.unit.tests.js"
+				]
+			},
+			{
+				"group": "MessageBox",
+				"items": [
+					"./controls/messagebox/tests/messagebox.unit.tests.js",
+					"./controls/messagebox/tests/messagebox.ui.tests.js"
+				]
+			},
+			{
+				"group": "BaseEdit",
+				"items": [
+					"./controls/baseedit/tests/baseedit.ui.tests.js",
+					"./controls/baseedit/tests/baseedit.unit.tests.js"
+				]
+			},
+			{
+				"group": "SideBar",
+				"items": [
+					"./controls/sidebar/tests/sidebar.ui.tests.js",
+					"./controls/sidebar/tests/sidebar.unit.tests.js"
+				]
+			},
+			{
+				"group": "Tip",
+				"items": [
+					"./controls/tip/tests/tip.ui.tests.js",
+					"./controls/tip/tests/tip.unit.tests.js"
+				]
+			},
+			{
+				"group": "TipLabel",
+				"items": [
+					"./controls/tip-label/tests/tip-label.ui.tests.js"
+				]
+			},
+			{
+				"group": "ExpandableTipMixin",
+				"items": [
+					"./controls/mixins/tests/expandabletip.ui.tests.js",
+					"./controls/mixins/tests/expandabletip.unit.tests.js"
+				]
+			},
+			{
+				"group": "ExpandableListMixin",
+				"items": [
+					"./controls/mixins/tests/expandablelist.unit.tests.js"
+				]
+			},
+			{
+				"group": "AlignableMixin",
+				"items": [
+					"./controls/mixins/tests/alignable.ui.tests.js",
+					"./controls/mixins/tests/alignable.unit.tests.js"
+				]
+			},
+			{
+				"group": "ResizableMixin",
+				"items": [
+					"./controls/mixins/tests/resizable.ui.tests.js"
+				]
+			},
+			{
+				"group": "ListView",
+				"items": [
+					"./controls/listview/tests/listview.unit.tests.js",
+					"./controls/listview/tests/listview.ui.tests.js"
+				]
+			},
+			{
+				"group": "ComboBoxEdit",
+				"items": [
+					"./controls/comboboxedit/tests/comboboxedit.ui.tests.js",
+					"./controls/comboboxedit/tests/comboboxedit.unit.tests.js"
+				]
+			},
+			{
+				"group": "TimeEdit",
+				"items": [
+					"./controls/timeedit/tests/timeedit.ui.tests.js",
+					"./controls/timeedit/tests/timeedit.unit.tests.js"
+				]
+			},
+			{
+				"group": "IntegerEdit",
+				"items": [
+					"./controls/integeredit/tests/integeredit.ui.tests.js",
+					"./controls/integeredit/tests/integeredit.unit.tests.js"
+				]
+			},
+			{
+				"group": "GroupManager",
+				"items": [
+					"./core/tests/groupManager.unit.tests.js",
+					"./core/tests/group.unit.tests.js",
+					"./core/tests/groupable.unit.tests.js",
+					"./core/tests/groupable.module.tests.js"
+				]
+			},
+			{
+				"group": "NumberEdit",
+				"items": [
+					"./controls/numberedit/tests/numberedit.ui.tests.js",
+					"./controls/numberedit/tests/numberedit.unit.tests.js"
+				]
+			},
+			{
+				"group": "FloatEdit",
+				"items": [
+					"./controls/floatedit/tests/floatedit.ui.tests.js",
+					"./controls/floatedit/tests/floatedit.unit.tests.js"
+				]
+			},
+			{
+				"group": "TextEdit",
+				"items": [
+					"./controls/textedit/tests/textedit.unit.tests.js",
+					"./controls/textedit/tests/textedit.ui.tests.js"
+				]
+			},
+			{
+				"group": "PhoneEdit",
+				"items": [
+					"./controls/phone-edit/tests/phone-edit.unit.tests.js"
+				]
+			},
+			{
+				"group": "InlineTextEdit",
+				"items": [
+					"./controls/inline-text-edit/tests/inline-text-edit.ui.tests.js",
+					"./controls/inline-text-edit/tests/inline-text-edit.unit.tests.js"
+				]
+			},
+			{
+				"group": "InlineTextEditMacros",
+				"items": [
+					"./controls/inline-text-edit/tests/inline-text-edit-macros.unit.tests.js"
+				]
+			},
+			{
+				"group": "FormulaInlineTextEdit",
+				"items": [
+					"./controls/formula-inline-text-edit/tests/formula-inline-text-edit.ui.tests.js"
+				]
+			},
+			{
+				"group": "Button",
+				"items": [
+					"./controls/button/tests/button.ui.tests.js",
+					"./controls/button/tests/button.unit.tests.js"
+				]
+			},
+			{
+				"group": "CheckBoxEdit",
+				"items": [
+					"./controls/checkboxedit/tests/checkboxedit.ui.tests.js"
+				]
+			},
+			{
+				"group": "ToggleEdit",
+				"items": [
+					"./controls/toggleedit/tests/toggleedit.ui.tests.js"
+				]
+			},
+			{
+				"group": "Label",
+				"items": [
+					"./controls/label/tests/label.ui.tests.js",
+					"./controls/label/tests/label.unit.tests.js"
+				]
+			},
+			{
+				"group": "Hyperlink",
+				"items": [
+					"./controls/hyperlink/tests/hyperlink.ui.tests.js",
+					"./controls/hyperlink/tests/hyperlink.unit.tests.js"
+				]
+			},
+			{
+				"group": "Menu",
+				"items": [
+					"./controls/menu/tests/basemenuitem.ui.tests.js",
+					"./controls/menu/tests/basemenuitem.unit.tests.js",
+					"./controls/menu/tests/menu.ui.tests.js",
+					"./controls/menu/tests/menu.unit.tests.js",
+					"./controls/menu/tests/menuitem.ui.tests.js",
+					"./controls/menu/tests/menuitem.unit.tests.js",
+					"./controls/menu/tests/menuseparator.ui.tests.js",
+					"./controls/menu/tests/checkmenuitem.ui.tests.js",
+					"./controls/menu/tests/radiomenuitem.ui.tests.js",
+					"./controls/menu/tests/radiomenuitem.unit.tests.js",
+					"./controls/menu/tests/colormenuitem.ui.tests.js",
+					"./controls/menu/tests/color-picker-menu-item.ui.tests.js",
+					"./controls/menu/tests/color-picker-menu-item.unit.tests.js"
+				]
+			},
+			{
+				"group": "RadioButton",
+				"items": [
+					"./controls/radiobutton/tests/radiobutton.ui.tests.js"
+				]
+			},
+			{
+				"group": "ControlGroup",
+				"items": [
+					"./controls/controlgroup/tests/controlgroup.ui.tests.js",
+					"./controls/controlgroup/tests/controlgroup.unit.tests.js"
+				]
+			},
+			{
+				"group": "LookupEdit",
+				"items": [
+					"./controls/lookupedit/tests/lookupedit.ui.tests.js",
+					"./controls/lookupedit/tests/lookupedit.unit.tests.js"
+				]
+			},
+			{
+				"group": "DateEdit",
+				"items": [
+					"./controls/dateedit/tests/dateedit.unit.tests.js",
+					"./controls/dateedit/tests/dateedit.ui.tests.js"
+				]
+			},
+			{
+				"group": "DatePicker",
+				"items": [
+					"./controls/datepicker/tests/datepicker.ui.tests.js",
+					"./controls/datepicker/tests/datepicker.unit.tests.js"
+				]
+			},
+			{
+				"group": "Schedule-Edit",
+				"items": [
+					"./controls/schedule-edit/tests/schedule-edit.unit.tests.js",
+					"./controls/schedule-edit/tests/schedule-edit.ui.tests.js",
+					"./controls/schedule-edit/tests/schedule-item.unit.tests.js",
+					"./controls/schedule-edit/tests/schedule-item.ui.tests.js",
+					"./controls/schedule-edit/tests/schedule-floating-item.ui.tests.js",
+					"./controls/schedule-edit/tests/schedule-floating-item.unit.tests.js"
+				]
+			},
+			{
+				"group": "Command-Line",
+				"items": [
+					"./controls/command-line/tests/command-line.ui.tests.js"
+				]
+			},
+			{
+				"group": "Grid",
+				"items": [
+					"./controls/grid/tests/grid.ui.tests.js",
+					"./controls/grid/tests/grid.unit.tests.js"
+				]
+			},
+			{
+				"group": "AudioGrid",
+				"items": [
+					"./controls/grid/audio-grid/tests/audio-grid.ui.tests.js"
+				]
+			},
+			{
+				"group": "BaseViewGrid",
+				"items": [
+					"./controls/grid/base-view-grid/tests/base-view-grid.ui.tests.js",
+					"./controls/grid/base-view-grid/tests/base-view-grid.unit.tests.js"
+				]
+			},
+			{
+				"group": "FileUpload",
+				"items": [
+					"./controls/mixins/tests/fileupload.ui.tests.js"
+				]
+			},
+			{
+				"group": "MemoEdit",
+				"items": [
+					"./controls/memoedit/tests/memoedit.ui.tests.js",
+					"./controls/memoedit/tests/memoedit.unit.tests.js"
+				]
+			},
+			{
+				"group": "ProgressSpiner",
+				"items": [
+					"./controls/progressspinner/tests/progressspinner.ui.tests.js"
+				]
+			},
+			{
+				"group": "BaseSpinner",
+				"items": [
+					"./controls/basespinner/tests/basespinner.ui.tests.js"
+				]
+			},
+			{
+				"group": "BaseAnimationSpinner",
+				"items": [
+					"./controls/baseanimationspinner/tests/baseanimationspinner.ui.tests.js"
+				]
+			},
+			{
+				"group": "ImageEdit",
+				"items": [
+					"./controls/image-edit/tests/image-edit.ui.tests.js"
+				]
+			},
+			{
+				"group": "ColorButton",
+				"items": [
+					"./controls/color-button/tests/color-button.ui.tests.js",
+					"./controls/color-button/tests/color-button.unit.tests.js"
+				]
+			},
+			{
+				"group": "FilterEdit",
+				"items": [
+					"./controls/filteredit/tests/filteredit.ui.tests.js",
+					"./controls/filteredit/tests/filteredit.unit.tests.js",
+					"./controls/filteredit/tests/filteredit-group.ui.tests.js",
+					"./controls/filteredit/tests/filteredit-group.unit.tests.js",
+					"./controls/filteredit/tests/filteredit-filter.ui.tests.js",
+					"./controls/filteredit/tests/filteredit-filter.unit.tests.js",
+					"./controls/filteredit/tests/filteredit-filter-input.ui.tests.js",
+					"./controls/filteredit/tests/filteredit-filter-input.unit.tests.js"
+				]
+			},
+			{
+				"group": "Mask",
+				"items": [
+					"./controls/mask/tests/mask.ui.tests.js"
+				]
+			},
+			{
+				"group": "LeftIcon",
+				"items": [
+					"./controls/mixins/tests/lefticon.ui.tests.js",
+					"./controls/mixins/tests/lefticon.unit.tests.js"
+				]
+			},
+			{
+				"group": "RightIcon",
+				"items": [
+					"./controls/mixins/tests/righticon.ui.tests.js",
+					"./controls/mixins/tests/righticon.unit.tests.js"
+				]
+			},
+			{
+				"group": "PredictableIcon",
+				"items": [
+					"./controls/mixins/tests/predictableicon.ui.tests.js"
+				]
+			},
+			{
+				"group": "ClearIcon",
+				"items": [
+					"./controls/mixins/tests/clearicon.ui.tests.js",
+					"./controls/mixins/tests/clearicon.unit.tests.js"
+				]
+			},
+			{
+				"group": "MenuMixin",
+				"items": [
+					"./controls/mixins/tests/menu-mixin.unit.tests.js",
+					"./controls/mixins/tests/menu-mixin.ui.tests.js"
+				]
+			},
+			{
+				"group": "ImageTabPanel",
+				"items": [
+					"./controls/image-tab-panel/tests/image-tab-panel.ui.tests.js"
+				]
+			},
+			{
+				"group": "TabPanel",
+				"items": [
+					"./controls/tabpanel/tests/tabpanel.ui.tests.js",
+					"./controls/tabpanel/tests/tabpanel.unit.tests.js"
+				]
+			},
+			{
+				"group": "Managers",
+				"items": [
+					{
+						"group": "BaseManager",
+						"items": [
+							"./manager/base-manager/tests/base-manager-item.unit.tests.js",
+							"./manager/base-manager/tests/base-manager.unit.tests.js"
+						]
+					},
+					{
+						"group": "DataManager",
+						"items": [
+							"./manager/data-manager/tests/data-manager.unit.tests.js",
+							"./manager/data-manager/tests/data-manager-item.unit.tests.js"
+						]
+					},
+					{
+						"group": "ObjectManager",
+						"items": [
+							"./manager/object-manager/tests/object-manager.unit.tests.js",
+							"./manager/object-manager/tests/object-manager-item.unit.tests.js"
+						]
+					},
+					{
+						"group": "BaseSchemaManager",
+						"items": [
+							"./manager/base-schema-manager/tests/base-schema-manager-item.unit.tests.js",
+							"./manager/base-schema-manager/tests/base-schema-manager.unit.tests.js",
+							"./manager/base-schema-manager/tests/base-schema.unit.tests.js",
+							"./manager/base-schema-manager/tests/meta-item.unit.tests.js"
+						]
+					},
+					{
+						"group": "EntitySchemaManager",
+						"items": [
+							"./manager/entity-schema-manager/tests/entity-schema.unit.tests.js",
+							"./manager/entity-schema-manager/tests/entity-schema-manager.unit.tests.js",
+							"./manager/entity-schema-manager/tests/entity-schema-manager-item.unit.tests.js",
+							"./manager/entity-schema-manager/tests/entity-schema-column.unit.tests.js"
+						]
+					},
+					{
+						"group": "ClientUnitSchemaManager",
+						"items": [
+							"./manager/client-unit-schema-manager/tests/client-unit-schema.unit.tests.js",
+							"./manager/client-unit-schema-manager/tests/client-unit-schema-manager.unit.tests.js",
+							"./manager/client-unit-schema-manager/tests/client-unit-schema-manager-item.unit.tests.js",
+							"./manager/client-unit-schema-manager/tests/client-unit-schema-parameter.unit.tests.js"
+						]
+					},
+					{
+						"group": "PackageManager",
+						"items": [
+							"./manager/package-manager/tests/package-manager.unit.tests.js",
+							"./manager/package-manager/tests/package-manager-item.unit.tests.js"
+						]
+					},
+					{
+						"group": "SchemaRequest",
+						"items": [
+							"./manager/schema-request/tests/base-schema-request.unit.tests.js",
+							"./manager/schema-request/tests/base-schema-update-request.unit.tests.js",
+							"./manager/schema-request/tests/client-unit-schema-request.unit.tests.js",
+							"./manager/schema-request/tests/client-unit-schema-update-request.unit.tests.js",
+							"./manager/schema-request/tests/client-unit-schema-remove-request.unit.tests.js",
+							"./manager/schema-request/tests/entity-schema-request.unit.tests.js",
+							"./manager/schema-request/tests/entity-schema-update-request.unit.tests.js",
+							"./manager/schema-request/tests/remove-entity-schema-request.unit.tests.js",
+							"./manager/schema-request/tests/sys-user-property-helper.unit.tests.js",
+							"./manager/schema-request/tests/parametrized-request.unit.tests.js",
+							"./manager/schema-request/tests/process-schema-lazy-properties-helper.unit.tests.js"
+						]
+					},
+					{
+						"group": "SchemaManagerDataProvider",
+						"items": [
+							"./manager/tests/schema-manager-data-provider.unit.tests.js"
+						]
+					},
+					{
+						"group": "SchemaDesignerUtilities",
+						"items": [
+							"./manager/tests/schema-designer-utilities.unit.tests.js"
+						]
+					},
+					{
+						"group": "Requests",
+						"items": [
+							"./core/tests/base-request.unit.tests.js",
+							"./core/tests/base-core-request.unit.tests.js",
+							"./manager/tests/update-package-schema-data-request.unit.tests.js",
+							"./manager/tests/delete-package-schema-data-request.unit.tests.js",
+							"./manager/tests/build-package-hierarchy-request.unit.tests.js",
+							"./data/queries/sys-setting/tests/delete-sys-setting-request.unit.tests.js",
+							"./data/queries/sys-setting/tests/sys-setting-save-request.unit.tests.js",
+							"./data/queries/sys-setting/tests/insert-sys-setting-request.unit.tests.js",
+							"./data/queries/sys-setting/tests/update-sys-setting-request.unit.tests.js",
+							"./data/queries/sys-setting/tests/sys-setting-query.unit.tests.js"
+						]
+					},
+					{
+						"group": "Response",
+						"items": [
+							"./core/tests/base-response.unit.tests.js",
+							"./core/tests/base-schema-response.unit.tests.js",
+							"./core/tests/client-unit-schema-response.unit.tests.js",
+							"./core/tests/entity-schema-response.unit.tests.js",
+							"./core/tests/error-info.unit.tests.js"
+						]
+					},
+					{
+						"group": "SchemaUsing",
+						"items": [
+							"./manager/tests/schema-using.unit.tests.js"
+						]
+					},
+					{
+						"group": "BaseObservableMixin",
+						"items": [
+							"./manager/tests/observable-item.unit.test.js"
+						]
+					},
+					{
+						"group": "BusinessRuleSchemaManager",
+						"items": [
+							"./manager/business-rule-schema-manager/tests/business-rule-element-helper.unit.tests.js",
+							"./manager/business-rule-schema-manager/tests/business-rule-schema.unit.tests.js",
+							"./manager/business-rule-schema-manager/tests/business-rule-switch.unit.tests.js",
+							"./manager/business-rule-schema-manager/tests/business-rule-case.unit.tests.js",
+							"./manager/business-rule-schema-manager/tests/business-rule-element-utils.unit.tests.js",
+							"./manager/business-rule-schema-manager/actions/tests/base-business-rule-action.unit.tests.js",
+							"./manager/business-rule-schema-manager/actions/tests/business-rule-action-group.unit.tests.js",
+							"./manager/business-rule-schema-manager/actions/tests/column-business-rule-action.unit.tests.js",
+							"./manager/business-rule-schema-manager/actions/tests/attribute-business-rule-action.unit.tests.js",
+							"./manager/business-rule-schema-manager/actions/tests/filtration-business-rule-action.unit.tests.js",
+							"./manager/business-rule-schema-manager/expressions/tests/column-business-rule-expression.unit.tests.js",
+							"./manager/business-rule-schema-manager/expressions/tests/attribute-business-rule-expression.unit.tests.js",
+							"./manager/business-rule-schema-manager/expressions/tests/parameter-business-rule-expression.unit.tests.js",
+							"./manager/business-rule-schema-manager/expressions/tests/constant-business-rule-expression.unit.tests.js",
+							"./manager/business-rule-schema-manager/expressions/tests/sys-setting-business-rule-expression.unit.tests.js",
+							"./manager/business-rule-schema-manager/expressions/tests/sys-value-business-rule-expression.unit.tests.js",
+							"./manager/business-rule-schema-manager/conditions/tests/business-rule-condition-group.unit.tests.js",
+							"./manager/business-rule-schema-manager/conditions/tests/comparison-business-rule-condition.unit.tests.js"
+						]
+					}
+				]
+			},
+			{
+				"group": "Content",
+				"items": [
+					"./controls/content/tests/base-content-element.ui.tests.js",
+					"./controls/content/tests/base-content-element.unit.tests.js",
+					"./controls/content/tests/content-block.ui.tests.js",
+					"./controls/content/tests/content-block.unit.tests.js",
+					"./controls/content/tests/content-column.unit.tests.js",
+					"./controls/content/tests/content-mjgroup.unit.tests.js",
+					"./controls/content/tests/content-section.unit.tests.js",
+					"./controls/content/tests/content-html-element.unit.tests.js",
+					"./controls/content/tests/content-html-element.ui.tests.js",
+					"./controls/content/tests/content-mjraw.unit.tests.js",
+					"./controls/content/tests/content-separator-element.ui.tests.js",
+					"./controls/content/tests/content-mjdivider.ui.tests.js",
+					"./controls/content/tests/content-mjbutton.ui.tests.js",
+					"./controls/content/tests/content-mjimage.ui.tests.js",
+					"./controls/content/tests/content-image-element.unit.tests.js",
+					"./controls/content/tests/content-image-element.ui.tests.js",
+					"./controls/content/tests/content-button-element.ui.tests.js",
+					"./controls/content/tests/content-text-element.unit.tests.js",
+					"./controls/content/tests/content-sheet.unit.tests.js",
+					"./controls/content/tests/content-sheet.ui.tests.js",
+					"./controls/content/tests/draggable-content-block.unit.tests.js",
+					"./controls/content/tests/draggable-content-element.unit.tests.js"
+				]
+			},
+			{
+				"group": "GridLayoutTableEdit",
+				"items": [
+					"./controls/grid-layout-table-edit/tests/grid-layout-table-edit.integration.tests.js",
+					"./controls/grid-layout-table-edit/tests/grid-layout-table-edit-item.integration.tests.js"
+				]
+			},
+			{
+				"group": "IframeControl",
+				"items": [
+					"./controls/iframe/tests/iframe.unit.tests.js",
+					"./controls/iframe/tests/iframe.ui.tests.js"
+				]
+			},
+			{
+				"group": "ExternalWidget",
+				"items": [
+					"./controls/external-widget/tests/external-widget.unit.tests.js",
+					"./controls/external-widget/tests/external-widget.integration.tests.js"
+				]
+			}
+		]
+	},
+	{
+		"group": "Integration",
+		"items": [
+			{
+				"group": "Telephony",
+				"items": [
+					"./integration/telephony/tests/call.unit.tests.js",
+					"./integration/telephony/tests/cti-model.unit.tests.js",
+					{
+						"group": "Messaging",
+						"items": [
+							"./integration/telephony/messaging/tests/msg-command-info.unit.tests.js",
+							"./integration/telephony/messaging/tests/msg-service-cti-provider.unit.tests.js"
+						]
+					},
+					{
+						"group": "Callway",
+						"items": [
+							"./integration/telephony/callway/tests/callway-cti-provider.unit.tests.js"
+						]
+					},
+					{
+						"group": "Finesse",
+						"items": [
+							"./integration/telephony/finesse/tests/finesse-cti-provider.unit.tests.js"
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"group": "Exporters",
+		"items": [
+			"./exporters/tests/base-content-exporter.unit.tests.js",
+			"./exporters/tests/email-content-exporter.unit.tests.js",
+			"./exporters/tests/email-content-templates.unit.tests.js",
+			"./exporters/tests/email-content-validator.unit.tests.js"
+		]
+	},
+	{
+		"group": "Bpms",
+		"items": [
+			{
+				"group": "BaseProcessSchemaManager",
+				"items": [
+					"./manager/base-process-schema-manager/tests/base-process-schema-manager.unit.tests.js"
+				]
+			},
+			{
+				"group": "ProcessSchemaManager",
+				"items": [
+					"./manager/process-schema-manager/tests/base-process-schema.unit.tests.js",
+					"./manager/process-schema-manager/tests/formula-parser-utils.unit.tests.js",
+					"./manager/process-schema-manager/tests/formula-parser.unit.tests.js",
+					"./manager/process-schema-manager/tests/formula-macros.unit.tests.js",
+					"./manager/process-schema-manager/tests/formula-display-value-parser.unit.tests.js",
+					"./manager/process-schema-manager/tests/formula-value-parser.unit.tests.js",
+					"./manager/process-schema-manager/tests/process-schema.unit.tests.js",
+					"./manager/process-schema-manager/tests/process-schema-manager.unit.tests.js",
+					"./manager/process-schema-manager/tests/process-schema-manager-item.unit.tests.js"
+				]
+			},
+			{
+				"group": "EmbeddedProcessSchemaManager",
+				"items": [
+					"./manager/embedded-process-schema-manager/tests/embedded-process-schema.unit.tests.js",
+					"./manager/embedded-process-schema-manager/tests/embedded-process-schema-manager.unit.tests.js",
+					"./manager/embedded-process-schema-manager/tests/embedded-process-schema-manager-item.unit.tests.js",
+					"./manager/embedded-process-schema-manager/tests/guid-meta-item.unit.tests.js"
+				]
+			},
+			{
+				"group": "BaseUserTaskSchemaManager",
+				"items": [
+					"./manager/base-usertask-schema-manager/tests/base-usertask-schema-manager.unit.tests.js"
+				]
+			},
+			{
+				"group": "ProcessUserTaskSchemaManager",
+				"items": [
+					"./manager/process-user-task-schema-manager/tests/process-usertask-schema.unit.tests.js",
+					"./manager/process-user-task-schema-manager/tests/process-usertask-schema-manager.unit.tests.js",
+					"./manager/process-user-task-schema-manager/tests/process-usertask-schema-manager-item.unit.tests.js",
+					"./manager/process-user-task-schema-manager/tests/user-task-schema.unit.tests.js"
+				]
+			},
+			{
+				"group": "BaseProcessFlowElementSchemaManager",
+				"items": [
+					"./manager/base-process-flow-element-schema-manager/tests/base-process-flow-element-schema-manager.unit.tests.js"
+				]
+			},
+			{
+				"group": "ProcessFlowElementSchemaManager",
+				"items": [
+					"./manager/process-flow-element-schema-manager/tests/base-process-schema-item.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/base-process-schema-element.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/parametrized-process-schema-element.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-activity-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-base-element-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-base-event-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-conditional-sequence-flow-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-default-sequence-flow-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-event-subprocess-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-flow-element-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-laneset-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-flow-element-schema-manager.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-flow-element-schema-manager-item.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-formulatask-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-intermediate-catch-message-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-intermediate-catch-signal-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-intermediate-catch-timer-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-intermediate-throw-message-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-intermediate-throw-signal-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-terminate-event-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-event-base-gateway-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-inclusive-gateway-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-exclusive-event-based-gateway-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-schema-parameter.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/dynamic-process-schema-parameter.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-schema-usertask.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-scripttask-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-sequence-flow-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-start-event-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-start-message-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-start-signal-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-subprocess-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-start-timer-event-schema.unit.tests.js",
+					"./manager/process-flow-element-schema-manager/tests/process-webservice-schema.unit.tests.js"
+				]
+			},
+			{
+				"group": "SchemaRequest",
+				"items": [
+					"./manager/schema-request/tests/process-schema-update-request.unit.tests.js",
+					"./manager/schema-request/tests/process-schema-request.unit.tests.js",
+					"./manager/schema-request/tests/process-schema-response.unit.tests.js",
+					"./manager/schema-request/tests/process-usertask-schema-request.unit.tests.js",
+					"./manager/schema-request/tests/embedded-process-schema-request.unit.tests.js",
+					"./manager/schema-request/tests/embedded-process-schema-response.unit.tests.js",
+					"./manager/schema-request/tests/embedded-process-schema-update-request.unit.tests.js"
+				]
+			},
+			{
+				"group": "SchemaDesigner",
+				"items": [
+					"./designers/base-schema-designer/tests/base-schema-designer.ui.tests.js",
+					"./designers/base-schema-designer/tests/base-schema-designer-storage-mixin.unit.tests.js",
+					"./designers/base-schema-designer/tests/base-schema-designer-utilities.unit.tests.js",
+					{
+						"group": "BaseProcessSchemaDesigner",
+						"items": [
+							"./designers/base-process-schema-designer/tests/base-process-schema-designer.ui.tests.js",
+							"./designers/base-process-schema-designer/tests/base-process-schema-designer-view-model.unit.tests.js"
+						]
+					},
+					{
+						"group": "ProcessSchemaDesigner",
+						"items": [
+							"./designers/process-schema-designer/tests/diagram-draggable-container.unit.tests.js",
+							"./designers/process-schema-designer/tests/process-schema-element-editable.unit.tests.js",
+							"./designers/process-schema-designer/tests/process-schema-designer.ui.tests.js",
+							"./designers/process-schema-designer/tests/process-schema-diagram.ui.tests.js",
+							"./designers/process-schema-designer/tests/process-schema-designer-left-toolbar.unit.tests.js",
+							"./designers/process-schema-designer/tests/process-schema-designer-utilities.unit.tests.js",
+							"./designers/process-schema-designer/tests/process-schema-designer-view-model.unit.tests.js",
+							"./designers/process-schema-designer/tests/process-schema-designer-copy-mixin.unit.tests.js",
+							"./designers/process-schema-designer/tests/process-schema-designer-view-model-5x.unit.tests.js",
+							"./designers/process-schema-designer-log/tests/process-schema-designer-log-view-model.unit.tests.js",
+							{
+								"group": "utils",
+								"items": [
+									"./utils/ts-diagram-module/tests/ts-diagram-module-svg-utils.ui.tests.js",
+									"./utils/ts-diagram-module/tests/ts-diagram-module-label-utils.ui.tests.js",
+									"./utils/ts-diagram-module/tests/ts-diagram-module-label-utils.unit.tests.js"
+								]
+							}
+						]
+					},
+					{
+						"group": "EmbeddedProcessSchemaDesigner",
+						"items": [
+							"./designers/embedded-process-schema-designer/tests/embedded-process-schema-designer.ui.tests.js",
+							"./designers/embedded-process-schema-designer/tests/embedded-process-schema-designer-left-toolbar.unit.tests.js",
+							"./designers/embedded-process-schema-designer/tests/embedded-process-schema-designer-view-model.unit.tests.js"
+						]
+					}
+				]
+			},
+			{
+				"group": "Controls",
+				"items": [
+					{
+						"group": "MappingEdit",
+						"items": [
+							"./controls/mappingedit/tests/mappingedit.ui.tests.js"
+						]
+					},
+					{
+						"group": "Diagram",
+						"items": [
+							"./controls/diagram/tests/diagram.ui.tests.js"
+						]
+					}
+				]
+			},
+			{
+				"group": "Process",
+				"items": [
+					"./process/tests/base-process-request.unit.tests.js",
+					"./process/tests/base-process-response.unit.tests.js",
+					"./process/tests/parameterized-process-request.unit.tests.js",
+					"./process/tests/base-run-process-request.unit.tests.js",
+					"./process/tests/run-process-request.unit.tests.js",
+					"./process/tests/run-specified-process-version-request.unit.tests.js",
+					"./process/tests/process-engine-utilities.unit.tests.js",
+					"./process/tests/complete-executing-request.unit.tests.js",
+					"./process/tests/execution-data-collector.unit.tests.js",
+					"./process/tests/process-execution-data-utils.unit.tests.js"
+				]
+			}
+		]
+	},
+	{
+		"group": "CorePages",
+		"items": [
+			{
+				"group": "ApplicationInstallPage",
+				"items": [
+					"./configuration/applicationinstall/tests/ApplicationInstallViewModel.unit.tests.js",
+					"./configuration/applicationinstall/tests/ApplicationInstallRequest.unit.tests.js"
+				]
+			}
+		]
+	},
+	{
+		"group": "SingleSignOn",
+		"items": [
+			{
+				"group": "SsoUtils",
+				"items": [
+					"./utils/sso/tests/ssoutils.unit.tests.js"
+				]
+			}
+		]
+	},
+	{
+		"group": "RequireJs",
+		"items": [
+			"../requirejs/tests/css.unit.tests.js",
+			"../requirejs/tests/require.unit.tests.js",
+			"../requirejs/tests/profile.unit.tests.js"
+		]
+	},
+	{
+		"group": "ImageUrlBuilder",
+		"items": [
+			"./utils/common/tests/imageurlbuilder.unit.tests.js"
+		]
+	},
+	{
+		"group": "FileContentUrlBuilder",
+		"items": [
+			"./utils/common/tests/filecontenturlbuilder.unit.tests.js"
+		]
+	},
+	{
+		"group": "SchemaUrlBuilder",
+		"items": [
+			"./utils/common/tests/schemaurlbuilder.unit.tests.js"
+		]
+	},
+	{
+		"group": "ResourceUrlBuilder",
+		"items": [
+			"./utils/common/tests/resourceurlbuilder.unit.tests.js"
+		]
+	},
+	{
+		"group": "ServiceSchemaManager",
+		"items": [
+			"./manager/service-schema-manager/tests/service-meta-item.unit.tests.js",
+			"./manager/service-schema-manager/tests/service-parameter-value.unit.tests.js",
+			"./manager/service-schema-manager/tests/service-parameter.unit.tests.js",
+			"./manager/service-schema-manager/tests/service-method-request.unit.tests.js",
+			"./manager/service-schema-manager/tests/service-method-response.unit.tests.js",
+			"./manager/service-schema-manager/tests/service-method.unit.tests.js",
+			"./manager/service-schema-manager/tests/service-schema.unit.tests.js",
+			"./manager/service-schema-manager/tests/service-schema-manager-item.unit.tests.js",
+			"./manager/service-schema-manager/tests/service-schema-manager.unit.tests.js",
+			"./manager/service-schema-manager/tests/service-authentification-info.unit.tests.js",
+			"./manager/service-schema-manager/tests/process-schema-parameter-collection.unit.tests.js"
+		]
+	}
+]

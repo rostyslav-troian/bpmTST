@@ -1,0 +1,1491 @@
+﻿.schema-designer .properties-ct .properties-container .header-container .control-no-label {
+  padding-top: 0;
+  padding-left: 25px;
+  width: 100%;
+}
+.schema-designer .properties-ct .properties-container .header-container input {
+  background-color: transparent;
+  color: white;
+  font-size: 13px;
+}
+.schema-designer .properties-ct .properties-container .header-container .control-no-label .base-edit {
+  border: 0;
+  border-bottom: 1px dotted white;
+  margin-right: 20px;
+}
+.schema-designer .properties-ct .properties-container .header-container .control-no-label .base-edit:not(.base-edit-focus) {
+  border: 0;
+  border-bottom: 1px dotted white;
+}
+.schema-designer .properties-ct .properties-container .header-container .control-no-label .base-edit:not(.base-edit-focus):hover,
+.schema-designer .properties-ct .properties-container .header-container .control-no-label .base-edit.base-edit-focus {
+  border-bottom: 1px solid white;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+.schema-designer .properties-ct .properties-container .header-container .t-btn-no-text-padding {
+  padding: 0;
+}
+.schema-designer .properties-ct .properties-container .header-container .t-information-btn.t-btn-wrapper {
+  margin: 0;
+}
+.schema-designer .properties-ct .properties-container .header-container .top-container-wrapClass {
+  padding: 26px 20px 18px 6px;
+  display: flex;
+}
+.schema-designer .properties-ct .properties-container .header-container .top-container-wrapClass .t-label {
+  color: white;
+  padding-top: 2px;
+}
+.schema-designer .properties-ct .properties-container .header-container .top-container-wrapClass .tools-container-wrapClass {
+  display: flex;
+}
+.schema-designer .properties-ct .properties-container .header-container .top-container-wrapClass .tools-container-wrapClass .t-btn-image {
+  width: 20px;
+  height: 20px;
+}
+.schema-designer .properties-ct .properties-container .header-container .top-container-wrapClass .tools-container-wrapClass .t-btn-wrapper:hover .t-btn-image {
+  opacity: 0.7;
+}
+.schema-designer .properties-ct .properties-container .header-container .top-container-wrapClass .tools-container-wrapClass .t-information-btn:hover .t-btn-image {
+  background-position-y: 0;
+}
+.schema-designer .properties-ct .properties-container .header-container .top-container-wrapClass .t-btn-no-text-padding {
+  min-width: 30px;
+}
+.schema-designer .properties-ct .properties-container .header-container .top-container-wrapClass .detail-tools-button-menu {
+  display: none;
+}
+.schema-designer :-ms-input-placeholder {
+  color: #8a8a8a !important;
+}
+.schema-designer .combobox-edit-right-icon {
+  display: none;
+}
+.schema-designer .button-background-no-repeat {
+  background-repeat: no-repeat;
+}
+.schema-designer .base-edit:not(.base-edit-disabled):hover .base-edit-right-icon,
+.schema-designer .base-edit-focus .base-edit-right-icon {
+  display: block;
+}
+.schema-designer .title-container {
+  display: flex;
+  padding: 0 20px 28px 14px;
+}
+.schema-designer .title-container .title-button {
+  padding: 0;
+  min-width: 42px;
+}
+.schema-designer .title-container .t-btn-image.title-button-image {
+  width: 42px;
+  height: 42px;
+  background: center no-repeat;
+}
+.schema-designer .t-label-proc {
+  font-size: 12px;
+}
+.schema-designer .t-label-is-required-proc:after {
+  font-size: 15px;
+}
+.schema-designer .control-width-15 .t-label {
+  text-align: right;
+}
+.schema-designer .control-width-15 .label-wrap {
+  width: 100%;
+}
+.schema-designer .grid-layout-column {
+  color: #999;
+}
+.schema-designer .ts-params-grid {
+  padding-top: 20px;
+}
+.schema-designer .t-checkbox-proc {
+  padding-right: 0 !important;
+}
+.schema-designer .t-checkbox-label-proc {
+  right: 38px;
+  padding-top: 6px;
+  width: 100%;
+}
+.schema-designer .properties-ct {
+  right: 0px !important;
+  height: 100% !important;
+  overflow-y: hidden;
+}
+.schema-designer .properties-ct .t-checkboxedit-wrap {
+  margin-right: 0px;
+}
+.schema-designer .properties-ct .base-edit {
+  padding-right: 0;
+}
+.schema-designer .properties-ct .base-edit:not(.base-edit-focus) {
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.schema-designer .properties-ct .base-edit:hover {
+  border-bottom: 1px solid #c8c8c8;
+  cursor: pointer;
+}
+.schema-designer .properties-ct .base-edit.base-edit-focus {
+  outline: none;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #00aeef;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+.schema-designer .properties-ct .base-edit-error {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+.schema-designer .properties-ct .ts-tabpanel-wrap {
+  display: flex;
+}
+.schema-designer .properties-ct .ts-tabpanel-items {
+  width: 100%;
+}
+.schema-designer .properties-ct .ts-tabpanel-items > li {
+  color: white;
+  text-transform: uppercase;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 13px;
+}
+.schema-designer .properties-ct .ts-tabpanel-items .ts-tabpanel-active-item {
+  border-bottom: 4px solid white;
+  background-color: transparent;
+}
+.schema-designer .properties-ct .ts-tabpanel {
+  border-bottom: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0;
+}
+.schema-designer .properties-ct .header-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.schema-designer .properties-ct .schema-wrap.one-el {
+  height: 100%;
+  width: 100%;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-top: 135px;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .tabs-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-top: 32px;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .tabs-container .tabs.editors-ct {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content: stretch;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .tabs-container .tabs.editors-ct .grid-layout {
+  flex-shrink: 0;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .tabs {
+  padding: 10px 20px 20px 20px;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .tabs.resources-tab {
+  padding-top: 21px;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .top-caption-control {
+  flex-direction: column;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .no-caption-control {
+  padding-top: 6px;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .t-title-label-proc {
+  font-size: 15px;
+  padding-top: 20px;
+  line-height: 18px;
+  text-align: right;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .t-title-label-info-button-proc {
+  width: auto;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .top-caption-control-label {
+  padding-bottom: 6px;
+  padding-top: 6px;
+  flex-direction: column;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .top-caption-control-label .t-title-label-proc {
+  padding-top: 0;
+}
+.schema-designer .properties-ct .record-column-values-container {
+  padding-right: 30px;
+}
+.schema-designer .properties-ct .add-record-column-values-button {
+  padding: 0;
+  margin: 15px 20px 0 0;
+  font-size: 13px;
+  color: #999;
+}
+.schema-designer .properties-ct .add-record-column-values-button .t-btn-image:hover {
+  opacity: 0.7;
+}
+.schema-designer .properties-ct .add-record-answer-values-button {
+  padding: 0;
+  margin: 15px -10px 0 0;
+  font-size: 13px;
+  color: #999;
+}
+.schema-designer .properties-ct .add-record-answer-values-button .t-btn-image:hover {
+  opacity: 0.7;
+}
+.schema-designer .properties-ct .filter-edit-container {
+  margin-top: 5px;
+}
+.schema-designer .properties-ct .filter-edit-container .filteredit .filteredit-group {
+  margin-bottom: 0;
+}
+.schema-designer .properties-ct .filter-edit-container .filteredit .filteredit-group .filteredit-group-rules {
+  padding-bottom: 0;
+}
+.schema-designer .properties-ct .filter-edit-container .filteredit .filteredit-group .filteredit-group-rules .filteredit-rule {
+  padding-right: 0;
+  margin-bottom: 0;
+  padding-top: 8px;
+}
+.schema-designer .properties-ct .filter-edit-container .filteredit .filteredit-group .filteredit-group-rules .filteredit-rule .filteredit-rule-left {
+  margin-right: 0;
+  font-size: 14px;
+  color: inherit;
+}
+.schema-designer .properties-ct .filter-edit-container .filteredit .filteredit-group .filteredit-group-rules .filteredit-rule .filteredit-rule-delete {
+  top: 9px;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .t-title-label-proc.other-properties-label {
+  padding-top: 9px;
+}
+.schema-designer .properties-ct .filter-info-button-container .t-information-btn.t-btn-wrapper {
+  padding-top: 18px;
+  margin: 0;
+}
+.schema-designer .properties-ct .filteredit-aggregative-rule > .t-checkboxedit-wrap {
+  margin-right: 10px;
+}
+.schema-designer .properties-ct .container-list-header .t-btn-disabled {
+  opacity: 0.2 !important;
+}
+.schema-designer .parameter-value-ct {
+  margin-right: 24px;
+}
+.schema-designer .parameter-value-ct .base-edit-input {
+  text-overflow: ellipsis;
+}
+.schema-designer .parameter-value-ct .base-edit {
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.schema-designer .ts-image-edit-full-size-element {
+  margin: 0px;
+}
+.schema-designer .t-label-proc-param {
+  color: #4e7bd8;
+  font-size: 13px;
+}
+.schema-designer .parameter-datavaluetype-ct {
+  width: 16px;
+  height: 16px;
+  float: right;
+}
+.schema-designer .parameter-ct {
+  padding-top: 20px;
+}
+.schema-designer .parameter-ct .base-edit-input {
+  font-size: 13px;
+  color: #444;
+}
+.schema-designer .parameter-edit-ct {
+  min-height: 60px;
+  margin-top: 20px;
+}
+.schema-designer .empty-parameters {
+  font-size: 13px;
+  color: #999999;
+  text-align: center;
+}
+.schema-designer .container-list-header {
+  display: flex;
+}
+.schema-designer .container-list-header .t-title-label-proc {
+  width: inherit;
+  padding-left: 8px;
+}
+.schema-designer .container-list-header .t-btn-wrapper {
+  align-self: flex-end;
+  padding-bottom: inherit;
+}
+.schema-designer .tools-container-wrapClass .label-container-wrapClass {
+  float: right;
+}
+.schema-designer .tools-container-wrapClass .tools-button-container-wrapClass {
+  float: left;
+  visibility: hidden;
+}
+.schema-designer .tools-container-wrapClass .t-btn-no-text-padding {
+  padding: 0px;
+}
+.schema-designer .tools-container-wrapClass .t-btn-menu {
+  visibility: hidden;
+}
+.schema-designer .parameter-datavaluetype-ct .ts-image-edit-wrap {
+  width: 16px !important;
+  height: 16px !important;
+}
+.schema-designer .parameter-datavaluetype-ct .ts-image-edit-inner-container {
+  width: 16px;
+  height: 16px;
+}
+.schema-designer .parameter-value-ct:hover .tools-button-container-wrapClass {
+  visibility: visible;
+}
+.schema-designer .parameter-edit-container-wrapClass {
+  padding-top: 11px;
+}
+.schema-designer .tools-button-container-wrapClass .t-btn-image {
+  padding-right: 9px;
+}
+.schema-designer .empty-parameters {
+  padding-top: 20px;
+}
+.schema-designer .entity-column-mapping {
+  margin-top: 14px;
+}
+.schema-designer .methods-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
+.schema-designer .methods-tab .using-container {
+  flex-shrink: 0;
+}
+.schema-designer .methods-tab .using-container .t-title-button-label-proc {
+  color: #42caf4;
+}
+.schema-designer .methods-tab .using-container .t-items-list-proc .t-label-proc {
+  font-size: 14px;
+}
+.schema-designer .methods-tab .using-container .t-items-list-proc .tools-container-wrapClass .tools-button-container-wrapClass {
+  float: none;
+}
+.schema-designer .methods-tab .using-container .t-items-list-proc .tools-container-wrapClass .t-btn-no-text-padding {
+  padding-right: 5px;
+}
+.schema-designer .methods-tab .using-container .t-items-list-proc .parameter-ct .parameter-value-ct {
+  margin-right: 0;
+}
+.schema-designer .methods-tab .using-container .t-items-list-proc .parameter-edit-ct {
+  min-height: 26px;
+}
+.schema-designer .methods-tab .using-container .t-items-list-proc .top-caption-control .control-wrap {
+  flex-basis: auto;
+  color: #444;
+}
+.schema-designer .methods-tab .process-methods {
+  flex-basis: 100%;
+  height: 100%;
+  position: relative;
+  min-height: 200px;
+}
+.schema-designer .methods-tab .process-methods .schema-wrap.one-el {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.schema-designer .dcm-setting-filter {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 11px;
+}
+.schema-designer .dcm-setting-filter .information-button {
+  width: 70px;
+  margin-right: 0;
+}
+.schema-designer .dcm-setting-filter .dcm-setting-filters-label {
+  display: inline;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 0;
+}
+.schema-designer .dcm-setting-filter .select-filter-column-button {
+  text-decoration: none;
+  cursor: pointer;
+  color: #4e7bd8;
+  padding: 2px 5px 0 0;
+}
+.schema-designer .dcm-setting-filter .select-filter-column-button:hover {
+  text-decoration: underline;
+}
+.schema-designer .resources-tab .localizable-srting-list {
+  padding-top: 10px;
+}
+.schema-designer .resources-tab .parameter-ct {
+  padding-top: 10px;
+}
+.schema-designer .resources-tab .parameter-ct .parameter-value-ct {
+  margin-right: 0;
+}
+.schema-designer .editors-ct .grid-layout-column {
+  min-height: inherit;
+}
+.schema-designer .editors-ct .grid-layout-column .control-wrap {
+  flex-basis: inherit;
+}
+.schema-designer .editors-ct .grid-layout-row {
+  min-height: inherit;
+}
+.schema-designer .editors-ct .control-width-15.t-checkbox-control {
+  margin-top: 10px;
+}
+.schema-designer .editors-ct .control-width-15.t-checkbox-control .control-wrap {
+  flex-basis: 32px;
+}
+.schema-designer .editors-ct .control-width-15.t-checkbox-control .label-wrap {
+  order: 2;
+  margin-top: 5px;
+}
+.schema-designer .editors-ct .control-width-15.t-checkbox-control .label-wrap .t-label {
+  font-size: 14px;
+  color: #444;
+  padding-top: 0px;
+}
+.schema-designer .editors-ct .control-width-15 .label-wrap {
+  margin-top: 14px;
+}
+.schema-designer .editors-ct .control-width-15 .t-label {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 0px;
+}
+.schema-designer .editors-ct .label-wrap,
+.schema-designer .editors-ct .grid-layout .label-wrap {
+  max-width: none;
+  justify-content: flex-start;
+}
+.schema-designer .editors-ct .label-wrap .t-label-proc,
+.schema-designer .editors-ct .grid-layout .label-wrap .t-label-proc {
+  margin-top: 0px;
+}
+.schema-designer .editors-ct .t-label-proc {
+  margin-top: 14px;
+  font-size: 13px;
+  color: #999;
+  text-align: right;
+}
+.schema-designer .editors-ct .base-edit-input {
+  font-size: 14px;
+  color: #444;
+}
+.schema-designer .editors-ct .memo-edit-scroll > textarea {
+  padding-right: 0px;
+}
+.schema-designer .editors-ct .activity-connection .tools-button-container-wrapClass {
+  margin-top: 14px;
+}
+.schema-designer .editors-ct .activity-connection .parameter-value-ct {
+  margin-right: inherit;
+}
+.schema-designer .editors-ct .activity-connection .parameter-ct {
+  padding-top: inherit;
+}
+.schema-designer .editors-ct .record-answer-values-container {
+  margin-top: 10px;
+}
+.schema-designer .editors-ct .record-answer-values-container .tools-container-wrapClass {
+  border-bottom: 1px dotted #c8c8c8;
+}
+.schema-designer .editors-ct .record-answer-values-container .tools-button-container-wrapClass {
+  margin-top: inherit;
+}
+.schema-designer .editors-ct .record-answer-values-container .parameter-value-ct {
+  margin-right: inherit;
+}
+.schema-designer .editors-ct .record-answer-values-container .parameter-value-ct .base-edit {
+  border-bottom: white;
+}
+.schema-designer .editors-ct .record-answer-values-container .parameter-ct {
+  padding-top: inherit;
+}
+.schema-designer .editors-ct .label-info-button-container-wrapClass {
+  display: inline-flex;
+  width: 100%;
+}
+.schema-designer .editors-ct .label-info-button-container-wrapClass .t-information-btn {
+  margin-bottom: 0;
+  margin-top: 0.6em;
+  margin-right: 5px;
+}
+.schema-designer .editors-ct .label-info-button-container-wrapClass .t-title-label-proc {
+  width: auto;
+}
+.schema-designer .activity-results-list {
+  background-color: white;
+  padding-top: 20px;
+}
+.schema-designer .activity-results-list .results-caption {
+  font-size: 14px;
+  color: #42caf4;
+}
+.schema-designer .activity-results-list .activity-result {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: fit-content;
+}
+.schema-designer .activity-results-list .activity-result label {
+  padding-right: 15px;
+  font-size: 13px;
+  color: #444;
+  width: auto;
+}
+.schema-designer .activity-results-list .activity-result input,
+.schema-designer .activity-results-list .activity-result label {
+  cursor: pointer;
+}
+.schema-designer .activity-results-list .t-checkboxedit-wrap {
+  flex-shrink: 0;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailUserTaskPropertiesPage'] .t-title-label-proc {
+  color: #FCC242;
+}
+.schema-designer .email-body-control {
+  padding-top: 20px;
+}
+.schema-designer .email-body-control .html-edit-toolbar {
+  display: none !important;
+  flex-flow: row wrap;
+  position: absolute;
+  background-color: white;
+  top: -135px;
+  z-index: 1000;
+  border: 1px solid #b3c1d2;
+  border-radius: 5px;
+  border-bottom-color: #999;
+  box-shadow: 0 0 5px #b3c1d2;
+  padding: 5px;
+}
+.schema-designer .email-body-control .html-edit-toolbar #html-edit-toolbar-image {
+  display: none;
+}
+.schema-designer .email-body-control .html-edit-textarea {
+  height: 155px;
+  margin-bottom: 0px !important;
+  color: #CBCBCB;
+}
+.schema-designer .email-body-control .html-edit-textarea .cke_chrome {
+  border: 1px solid;
+}
+.schema-designer .email-body-control .html-edit-textarea .cke_focus {
+  border: 1px solid #00aeef;
+}
+.schema-designer .email-body-control .html-edit-textarea .memo-edit-height {
+  padding-right: 5px;
+  height: 100% !important;
+}
+.schema-designer .email-body-control .html-edit-textarea .memo-edit-core {
+  height: 100% !important;
+  border: 1px solid #CBCBCB;
+}
+.schema-designer .email-body-control .html-edit-textarea .memo-edit-core.base-edit-focus {
+  box-shadow: none;
+  border: 1px solid #00aeef;
+}
+.schema-designer .email-body-control .html-editor {
+  height: inherit !important;
+  display: table;
+}
+.schema-designer .email-body-control .html-edit-toolbar-show {
+  display: flex !important;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .t-title-label-proc {
+  color: #F79652;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .content-builder-body-container {
+  position: fixed;
+  right: 3%;
+  left: 3%;
+  top: 50px;
+  bottom: 50px;
+  width: auto;
+  height: auto;
+  z-index: 2000;
+  background-color: white;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  border-top: 3px solid #64b8df;
+  overflow-y: auto;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .content-builder-body-container .left-control-group .ts-controlgroup-caption-wrap {
+  padding-bottom: 3.9em;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .content-builder-body-container .header-container {
+  right: 265px;
+  position: static !important;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .content-builder-body-container .content-panel-wrapper:not([data-item-type="block"]) .properties-content .content-item-style-tab {
+  display: none;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .content-builder-body-container .content-panel-wrapper[data-item-type="block"] .properties-content .content-styles-editor-wrapper {
+  margin-bottom: 0;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .content-builder-body-container .content-panel-wrapper[data-item-type="block"] .properties-content .content-block-properties .align-control-group {
+  margin-bottom: 13px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .content-builder-body-container .content-panel-wrapper[data-item-type="block"] .module-container:first-of-type .ts-controlgroup:first-of-type {
+  padding-top: 23px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .content-builder-body-container .right-panel-container .content-panel-wrapper:not([data-item-type="block"]) .properties-content > *:first-child {
+  margin-top: 24px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .content-builder-body-container .right-panel-container *:not([data-item-type="block"])[data-page-exists="false"] .properties-content > *:first-child {
+  margin-top: 5px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .content-builder-body-container .right-panel-container *:not([data-item-type="block"])[data-page-exists="true"] .properties-content .padding-control-group {
+  padding-top: 9px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .content-panel-wrapper .ts-controlgroup + .ts-controlgroup {
+  padding-top: 3px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .open-email-template-tool-button {
+  padding: 0;
+  width: 9%;
+  margin-top: 27px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .open-email-template-tool-button .t-btn-image {
+  width: 32px;
+  height: 32px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .email-template-edit {
+  width: 91%;
+  float: right;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .content-builder-mask-container {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  background-color: #737CA1;
+  opacity: 0.4;
+  z-index: 1100;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .edit-button-container {
+  height: 36px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .edit-label {
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  font-size: 1.4em;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  visibility: visible;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .edit-button {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0px;
+  background-color: #000000;
+  opacity: 0.3;
+  height: 37px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .edit-button .t-btn-image {
+  margin: auto !important;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .previw-body-mask-container {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 18px;
+  bottom: 0px;
+  z-index: 10;
+  width: auto;
+  height: auto;
+  background-color: #CBCBCB;
+  opacity: 0.4;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .preview-container:hover .preview-button {
+  visibility: visible;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .preview-container:hover .edit-label {
+  visibility: hidden;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .preview-container {
+  margin-top: 18px;
+  height: 110px;
+  overflow: hidden;
+  border: 1px solid #CBCBCB;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .message-container:hover .preview-button {
+  visibility: visible;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .message-container:hover .edit-label {
+  visibility: hidden;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .message-container {
+  margin-top: 18px;
+  overflow: hidden;
+  border: 1px solid #CBCBCB;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .preview-content-iframe {
+  height: 510px;
+  width: 784px;
+  border: none;
+  z-index: 0;
+  transform: scale(0.4, 0.4);
+  transform-origin: left top 0px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .preview-button {
+  margin: auto;
+  display: flex;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0px;
+  z-index: 11;
+  background-color: #000000;
+  opacity: 0.3;
+  height: 36px;
+  visibility: hidden;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .preview-button .t-btn-image {
+  margin: auto !important;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .top-recipient-container-list {
+  margin-top: 5px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .recipient-container-list {
+  margin-top: 10px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailTemplateUserTaskPropertiesPage'] .detail-tools-button-menu {
+  display: none;
+}
+.schema-designer .source-code-edit-page-container {
+  width: 100%;
+  height: 100%;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container .source-code-edit-container {
+  width: 100%;
+  height: 100%;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: relative;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container .source-code-edit-container[data-item-marker*=source-code-edit-container-tools-hidden] .source-code-edit-tools-container {
+  display: none;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container .source-code-edit-container[data-item-marker*=caption-visible] .source-code-edit-tools-container .source-code-caption {
+  display: inline-block;
+  font-size: 15px;
+  color: #42caf4;
+  padding-top: 20px;
+  overflow: hidden;
+  width: initial;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container .source-code-edit-container[data-item-marker*=caption-visible] .source-code-edit-tools-container .tooltip-message-info-button {
+  position: absolute;
+  margin-top: 19px;
+  margin-right: 14px;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container .source-code-edit-container .source-code-edit-tools-container {
+  width: 100%;
+  flex-shrink: 0;
+  padding-bottom: 8px;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container .source-code-edit-container .source-code-edit-tools-container .source-code-caption {
+  display: none;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container .source-code-edit-container .source-code-edit-tools-container .source-code-edit-tool-button.t-btn-wrapper {
+  padding: 0;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container .source-code-edit-container .source-code-edit-tools-container .source-code-edit-tool-button.t-btn-wrapper .t-btn-image {
+  width: 32px;
+  height: 32px;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container .source-code-edit-container .source-code-edit-tools-container .source-code-edit-tool-button.t-btn-wrapper.find-button {
+  padding-right: 1px;
+  padding-left: 2px;
+  padding-top: 1px;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container .source-code-edit-container .source-code-edit-tools-container .source-code-edit-tool-button.t-btn-wrapper.expand-button {
+  float: left;
+  margin-left: -10px;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container .source-code-edit-container .source-code-edit-control-wrap-container {
+  padding-right: 0;
+  flex-basis: 100%;
+  position: relative;
+}
+.schema-designer .source-code-edit-page-container .source-code-edit-expandable-container .source-code-edit-container .source-code-edit-control-wrap-container .base-edit.source-code-edit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.schema-designer .source-code-edit-page-container.background-container {
+  display: none;
+  background-color: white;
+}
+.schema-designer .source-code-edit-page-container[data-item-marker*=source-code-edit-page-expand] .source-code-edit-expandable-container {
+  padding: 30px;
+  position: fixed;
+  right: 3%;
+  left: 3%;
+  top: 50px;
+  bottom: 50px;
+  width: auto;
+  height: auto;
+  z-index: 2000;
+  background-color: white;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  border-top: 3px solid #64b8df;
+  overflow-y: auto;
+}
+.schema-designer .source-code-edit-page-container[data-item-marker*=source-code-edit-page-expand] .source-code-edit-expandable-container .source-code-edit-container .source-code-edit-tools-container .source-code-caption {
+  font-family: "Bpmonline Open Sans Light";
+  color: #00aeef;
+  font-size: 20px;
+  letter-spacing: inherit;
+  display: inline-block;
+  padding-top: 0;
+  width: initial;
+}
+.schema-designer .source-code-edit-page-container[data-item-marker*=source-code-edit-page-expand] .source-code-edit-expandable-container .source-code-edit-container .source-code-edit-tools-container .tooltip-message-info-button {
+  margin-top: 3px;
+}
+.schema-designer .source-code-edit-page-container[data-item-marker*=source-code-edit-page-expand] .source-code-edit-expandable-container .source-code-edit-container .source-code-edit-tools-container .source-code-edit-tool-button.t-btn-wrapper.expand-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.schema-designer .source-code-edit-page-container[data-item-marker*=source-code-edit-page-expand] .source-code-edit-mask-container {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  background-color: #737CA1;
+  opacity: 0.4;
+  z-index: 1100;
+}
+.schema-designer .source-code-edit-page-container[data-item-marker*=source-code-edit-page-expand] .background-container {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.schema-designer .properties-container[data-item-marker*=ProcessScriptTaskSchema] .tabs.editors-ct .script-task-body-container {
+  width: 100%;
+  height: 100%;
+}
+.schema-designer .properties-container[data-item-marker*=ProcessScriptTaskSchema] .tabs.editors-ct .script-task-body-container .schema-wrap.one-el {
+  width: 100%;
+  height: 100%;
+}
+.schema-designer .properties-container[data-item-marker*=ProcessScriptTaskSchema] .tabs.editors-ct .script-task-body-container .schema-wrap.one-el .source-code-edit-page-container .tooltip-message-info-button {
+  position: absolute;
+  margin-right: 79px;
+  margin-top: 5px;
+}
+.schema-designer .properties-container[data-item-marker*=ProcessScriptTaskSchema] .tabs.editors-ct .script-task-body-container .schema-wrap.one-el .source-code-edit-page-container[data-item-marker*=source-code-edit-page-expand] .tooltip-message-info-button {
+  margin-right: 14px;
+  margin-top: 3px;
+}
+.schema-designer .properties-container[data-item-marker*=UserTask] .tabs.editors-ct .after-activity-save-script-body-container {
+  flex-basis: 100%;
+}
+.schema-designer .properties-container[data-item-marker*=UserTask] .tabs.editors-ct .after-activity-save-script-body-container .schema-wrap.one-el {
+  width: 100%;
+  height: 100%;
+}
+.schema-designer .properties-ct [data-item-marker*='OpenEditPageUserTaskPropertiesPage'] .t-title-label-proc {
+  color: #A28DC5;
+}
+.schema-designer .properties-ct [data-item-marker*='OpenEditPageUserTaskPropertiesPage'] .label-info-button-container-wrapClass .t-information-btn {
+  margin-right: 0;
+  margin-left: 0;
+}
+.schema-designer .record-column-values-lookup-page .modal-page-fixed-container.process-lookup-page .center-area-grid-container {
+  height: 445px;
+}
+.schema-designer .properties-ct .base-data-modification-user-task-properties-page .t-title-label-proc {
+  color: #839DC3;
+}
+.schema-designer .properties-ct .base-data-modification-user-task-properties-page .record-column-values-container {
+  padding-right: 0;
+}
+.schema-designer .properties-ct .base-data-modification-user-task-properties-page .add-record-column-values-button {
+  margin-right: 0;
+  padding-right: 20px !important;
+}
+.schema-designer .properties-ct .base-data-modification-user-task-properties-page .add-record-column-values-button .t-btn-image {
+  right: 0;
+}
+.schema-designer .properties-ct [data-item-marker*='ReadDataUserTaskPropertiesPage'] .entity-columns-container .record-column-values-container .control-width-15 .base-edit-input[readonly="readonly"],
+.schema-designer .properties-ct [data-item-marker*='ReadDataUserTaskPropertiesPage'] .entity-columns-container .record-column-values-container .control-width-15 .base-edit-readonly {
+  background-color: #ffffff;
+}
+.schema-designer .row-count-container {
+  display: inline-flex;
+  color: #333333;
+  justify-content: flex-start;
+}
+.schema-designer .row-count-container .label-wrap {
+  width: auto;
+  min-width: auto;
+  margin: 0 0em 0 1em !important;
+}
+.schema-designer .row-count-container .label-wrap .t-label {
+  margin-top: inherit;
+  color: #333333;
+  font-size: 1.4em;
+}
+.schema-designer .row-count-container .t-checkboxedit-wrap {
+  margin-top: 5px;
+}
+.schema-designer .row-count-container .t-label {
+  white-space: nowrap;
+  margin-top: 5px;
+}
+.schema-designer .row-count-container .control-wrap {
+  margin-top: 1px;
+}
+.schema-designer .row-count-container .number-edit-input-align {
+  width: auto;
+  max-width: 90px;
+}
+.schema-designer .sorting-order-container {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.schema-designer .sorting-order-item-container {
+  float: right;
+  width: 25%;
+  margin-left: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  padding-left: 10px;
+  flex: 1 1 25%;
+  -ms-flex: 1 1 25%;
+  box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+}
+.schema-designer .sorting-order-edit-button-container {
+  float: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  visibility: hidden;
+  flex: 0 0 32px;
+}
+.schema-designer .sorting-order-edit-button-container .sorting-order-edit-button {
+  padding: 8px;
+}
+.schema-designer .sorting-order-edit-button-container .sorting-order-edit-button .t-btn-image {
+  height: 16px;
+  width: 16px;
+}
+.schema-designer .sorting-order-container:hover .sorting-order-edit-button-container {
+  visibility: visible;
+}
+.schema-designer .properties-ct .extended-filters-container {
+  margin-top: 15px;
+}
+.schema-designer .properties-ct .extended-filters-container .t-btn-wrapper {
+  padding-right: 0;
+  font-size: 13px;
+}
+.schema-designer .properties-ct .extended-filters-container .filteredit {
+  font-size: 13px;
+}
+.schema-designer .filteredit-rule-right-wrapper .base-edit {
+  width: 175px;
+}
+.schema-designer .properties-ct .open-schema-designer-tool-button {
+  padding: 0;
+}
+.schema-designer .properties-ct .open-schema-designer-tool-button .t-btn-image {
+  width: 32px;
+  height: 32px;
+}
+.schema-designer .properties-ct .open-schema-designer-tool-button.t-btn-disabled {
+  opacity: 0.2;
+}
+.schema-designer .properties-ct [data-item-marker*='CallUserTaskPropertiesPage'] .t-title-label-proc {
+  color: #94DE35;
+}
+.schema-designer .properties-ct [data-item-marker*='PreconfiguredPageUserTaskPropertiesPage'] .t-title-label-proc {
+  color: #C5CC66;
+}
+.schema-designer .properties-ct [data-item-marker*='PreconfiguredPageUserTaskPropertiesPage'] .page-parameters .t-label-proc {
+  margin-top: 0px;
+  font-size: 12px;
+  color: #4e7bd8;
+}
+.schema-designer .properties-ct [data-item-marker*='PreconfiguredPageUserTaskPropertiesPage'] .activity-connection {
+  min-height: 63px;
+}
+.schema-designer .properties-ct [data-item-marker*='FormulaTaskPropertiesPage'] .t-title-label-proc {
+  color: #839DC3;
+}
+.schema-designer .properties-ct .base-signal-properties .entity-columns-container {
+  margin-top: 10px;
+}
+.schema-designer .properties-ct .base-signal-properties .entity-columns-container .record-column-values-container .control-width-15 .base-edit-input[readonly="readonly"],
+.schema-designer .properties-ct .base-signal-properties .entity-columns-container .record-column-values-container .control-width-15 .base-edit-readonly {
+  background-color: #ffffff;
+}
+.schema-designer .properties-ct .base-signal-properties .extended-filters-container {
+  margin-top: 0px;
+}
+.schema-designer .properties-ct [data-item-marker*='StartSignalPropertiesPage'] .t-title-label-proc {
+  color: #8ECB60;
+}
+.schema-designer .properties-ct [data-item-marker*='IntermediateCatchSignalPropertiesPage'] .t-title-label-proc {
+  color: #F79552;
+}
+.schema-designer .properties-ct [data-item-marker*='IntermediateThrowSignalPropertiesPage'] .t-title-label-proc {
+  color: #F79552;
+}
+.schema-designer .properties-ct [data-item-marker*='QuestionUserTaskPropertiesPage'] .t-title-label-proc {
+  color: #74DEDA;
+}
+.schema-designer .properties-ct [data-item-marker*='QuestionUserTaskPropertiesPage'] .record-answer-values-container .tools-container-wrapClass .t-btn-no-text-padding {
+  padding-top: 4px;
+}
+.schema-designer .properties-ct [data-item-marker*='SendEmailUserTaskPropertiesPage'] .t-title-label-proc {
+  color: #839DC3;
+}
+.schema-designer .properties-ct [data-item-marker*='SendEmailUserTaskPropertiesPage'] .t-title-label-proc[data-item-marker='RecipientLabel'] {
+  padding-left: 10px;
+}
+.schema-designer .properties-ct [data-item-marker*='SendEmailUserTaskPropertiesPage'] .editors-ct .label-info-button-container-wrapClass .t-information-btn {
+  margin-right: 0;
+}
+.schema-designer .properties-ct [data-item-marker*='ActivityUserTaskPropertiesPage'] .t-title-label-proc {
+  color: #42caf4;
+}
+.schema-designer .properties-ct [data-item-marker*='ActivityUserTaskPropertiesPage'] .container-list-header .t-btn-image:hover {
+  opacity: 0.7;
+}
+.schema-designer .entity-column-mapping:hover .tools-button-container-wrapClass {
+  visibility: visible;
+}
+.schema-designer .entity-column-mapping.t-title-label-proc {
+  margin-top: 14px;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .t-title-label-proc {
+  color: #B869D1;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .button-container-list-items .item-wrap .item-view-wrap {
+  padding: 10px 24px 0 10px;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .button-container-list-items .item-wrap .item-view-wrap .autogenerated-button-background {
+  position: absolute;
+  left: 0;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .button-container-list-items .item-wrap .item-view-wrap .t-btn-image-left {
+  margin-left: 2px;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .button-container-list-items .item-wrap .item-view-wrap .t-btn-menu {
+  display: none;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .button-container-list-items .item-wrap .item-view-wrap .t-btn-style-default,
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .button-container-list-items .item-wrap .item-view-wrap .t-btn-style-transparent {
+  border: 1px solid rgba(211, 211, 211, 0.38);
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .button-container-list-items .item-wrap .item-view-wrap .t-btn-style-transparent {
+  border-radius: 2px;
+  font-size: 1.5em;
+  min-height: 30px;
+  padding-right: 0.7em;
+  padding-bottom: 0.3em;
+  padding-top: 0.3em;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .button-container-list-items .item-wrap .item-edit-wrap {
+  min-height: 30px;
+  margin: 10px 0 0 10px;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .button-container-list-items .item-wrap .processminieditpage-edit-container {
+  margin-top: 0;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .container-list-header .t-btn-menu {
+  display: none;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .container-list-header .t-addbutton-proc.t-btn-wrapper:hover {
+  opacity: 0.7;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap {
+  padding-top: 15px;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap {
+  margin-right: 24px;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .type-image-wrap {
+  float: right;
+  padding-top: 2px;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .type-image-wrap .ts-image-edit-wrap {
+  width: 16px !important;
+  height: 16px !important;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .type-image-wrap .ts-image-edit-wrap .ts-image-edit-inner-container {
+  width: 16px;
+  height: 16px;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .item-label-wrap {
+  margin-right: 8px;
+  float: right;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .tools-button-wrap {
+  visibility: hidden;
+  float: left;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .tools-button-wrap .t-btn-menu {
+  display: none;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .tools-button-wrap .t-btn-wrapper {
+  padding: 1px 0 0 5px;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .base-edit {
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap:hover .tools-button-wrap {
+  visibility: visible;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .page-edit-wrap {
+  min-height: 50px;
+}
+.schema-designer .properties-ct [data-item-marker*='AutoGeneratedPageUserTaskPropertiesPage'] .editors-ct .page-container-list-items .processminieditpage-edit-container {
+  margin-top: 0;
+}
+.schema-designer .processminieditpage-edit-container {
+  margin-top: 20px;
+  border: 1px solid #00AEEF;
+  padding: 10px;
+}
+.schema-designer .processminieditpage-edit-container .label-wrap + .control-wrap {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+.schema-designer .processminieditpage-edit-container .processminieditpage-edit-container-controls {
+  display: flex;
+  flex-direction: column;
+}
+.schema-designer .processminieditpage-edit-container .processminieditpage-edit-container-controls .label-wrap {
+  margin-top: 10px;
+}
+.schema-designer .processminieditpage-edit-container .processminieditpage-edit-container-controls .label-wrap .t-label {
+  font-size: 12px;
+}
+.schema-designer .processminieditpage-edit-container .processminieditpage-edit-container-controls .base-edit-validation {
+  z-index: 1000;
+  background-color: #00AEEF;
+}
+.schema-designer .processminieditpage-edit-container .processminieditpage-edit-container-controls .t-btn-disabled .t-btn-text {
+  color: #ffffff !important;
+}
+.schema-designer .processminieditpage-edit-container .processminieditpage-edit-container-controls .t-checkbox-control {
+  display: -ms-flexbox;
+  display: flex;
+}
+.schema-designer .processminieditpage-edit-container .processminieditpage-edit-container-controls .t-checkbox-control .label-wrap {
+  margin-top: 1px;
+}
+.schema-designer .processminieditpage-edit-container .processminieditpage-edit-container-controls .t-checkbox-control .label-wrap .t-label {
+  margin-top: 0px;
+  font-size: 12px;
+  color: #999;
+}
+.schema-designer .processminieditpage-edit-container .base-edit-input {
+  font-size: 14px;
+}
+.schema-designer .processminieditpage-edit-container .actions-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .t-title-label-proc {
+  color: #839DC3;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .container-list-header .t-btn-wrapper {
+  padding-right: 0;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .rights-items-header-container {
+  margin-bottom: 6px;
+  margin-top: 20px;
+  min-height: 16px;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .rights-items-header-container .rights-items-header-label {
+  max-width: 190px;
+  font-size: 13px;
+  line-height: 1.1;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .rights-items-header-container .rights-items-header-images-container {
+  float: left;
+  width: 108px;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .rights-items-header-container .rights-items-header-images-container .rights-header-image {
+  width: 16px;
+  height: 16px;
+  float: right;
+  margin-right: 19px;
+  margin-left: 0;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .rights-items-header-container .rights-items-header-buttom-container {
+  height: 1px;
+  margin-top: 6px;
+  background-color: #999999;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .container-list-empty {
+  text-align: center;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap {
+  clear: both;
+  min-height: 30px;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .item-label-tool-view-wrap {
+  float: right;
+  width: 183px;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .item-label-tool-view-wrap .item-label-wrap {
+  max-width: 158px;
+  float: right;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .item-label-tool-view-wrap .item-label-wrap .t-label {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #4e7bd8;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .item-label-tool-view-wrap .tools-button-wrap {
+  visibility: hidden;
+  float: right;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .item-label-tool-view-wrap .tools-button-wrap .t-btn-menu {
+  display: none;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap .item-label-tool-view-wrap .tools-button-wrap .t-btn-wrapper {
+  padding: 1px 4px 0 5px;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .item-view-wrap:hover .tools-button-wrap {
+  visibility: visible;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .page-edit-wrap {
+  min-height: 50px;
+  margin-bottom: 10px;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .operations-wrap {
+  float: left;
+  width: auto;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .operations-wrap .t-checkboxedit-wrap {
+  margin-right: 16px;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .operations-wrap .t-checkboxedit-wrap:first-child {
+  margin-right: 0px;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .right-level-wrap {
+  float: right;
+  width: auto;
+  margin-top: -3px;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .right-level-wrap .right-level-tools-button-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .right-level-wrap .right-level-tools-button-wrapper .detail-tools-button-menu {
+  visibility: visible;
+  left: 0;
+  position: relative;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .item-wrap .right-level-wrap .right-level-tools-button-wrapper .detail-tools-button-menu .t-btn-marker {
+  border-top: 3px solid #4d6a98;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .page-container-list-items .processminieditpage-edit-container {
+  margin-top: 0;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .delete-rights-container-list-items .item-wrap .item-view-wrap .item-label-tool-view-wrap {
+  width: 209px;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .delete-rights-container-list-items .item-wrap .item-view-wrap .item-label-tool-view-wrap .item-label-wrap {
+  max-width: 184px;
+}
+.schema-designer .properties-ct [data-item-marker*='ChangeAdminRightsUserTaskPropertiesPage'] .editors-ct .detail-tools-button-menu {
+  float: left;
+  visibility: hidden;
+}
+.schema-designer .properties-ct .link-entity-to-process-user-task-properties-page .t-title-label-proc {
+  color: #839DC3;
+}
+.schema-designer .properties-ct [data-item-marker*='SubProcessPropertiesPage'] .t-title-label-proc {
+  color: #E6C600;
+}
+.schema-designer .properties-ct [data-item-marker*='ProcessSchemaUserTask'] .t-title-label-proc {
+  color: #839DC3;
+}
+.schema-designer .properties-ct [data-item-marker*='WebServiceUserTaskPropertiesPage'] .t-title-label-proc {
+  color: #839DC3;
+}
+.schema-designer .properties-ct [data-item-marker*='ApprovalUserTaskPropertiesPage'] .t-title-label-proc {
+  color: #5cc480;
+}
+.schema-designer .properties-ct [data-item-marker*='ApprovalUserTaskPropertiesPage'] .t-information-btn.entity-schema-select-info-button {
+  margin: 0;
+}
+.schema-designer .properties-ct [data-item-marker*='ApprovalUserTaskPropertiesPage'] .entity-schema-select-control {
+  width: 100%;
+}
+.schema-designer .properties-ct [data-item-marker*='ApprovalUserTaskPropertiesPage'] .open-email-template-tool-button {
+  padding: 0;
+  position: absolute;
+  margin-top: 27px;
+}
+.schema-designer .properties-ct [data-item-marker*='ApprovalUserTaskPropertiesPage'] .open-email-template-tool-button .t-btn-image {
+  width: 32px;
+  height: 32px;
+}
+.schema-designer .properties-ct [data-item-marker*='ApprovalUserTaskPropertiesPage'] .visa-mailbox-settings-info-button {
+  margin-top: 17px;
+  position: absolute;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmProcessElement'] .condition-header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmProcessElement'] .condition-header-container .t-label {
+  font-size: 13px;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmProcessElement'] .condition-header-container .t-label:last-child {
+  margin-left: 16px;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmProcessElement'] .condition-container-list .condition-item {
+  display: flex;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmProcessElement'] .condition-container-list .condition-item [id*="VisaStatus"].base-edit {
+  margin-left: 10px;
+  padding-left: 25px;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmProcessElement'] .condition-container-list .condition-item [id*="NextStage"].base-edit {
+  margin-right: 10px;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmProcessElement'] .condition-container-list .remove-condition-button {
+  visibility: hidden;
+  margin-left: -10px;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmProcessElement'] .condition-container-list .condition-item:hover .remove-condition-button {
+  visibility: visible;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmProcessElement'] .add-condition-button {
+  margin-top: 10px;
+  padding-right: 25px !important;
+  font-size: 13px;
+  color: #999999;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmProcessElement'] .add-condition-button .t-btn-image {
+  right: 0px;
+  width: 16px;
+  height: 16px;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmProcessElement'] .add-condition-button .t-btn-image:hover {
+  opacity: 0.7;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmSchemaPropertiesPage'] .filteredit-rule-comparison {
+  padding-right: 16px;
+}
+.schema-designer .properties-ct [data-item-marker*='DcmSchemaPropertiesPage'] .filteredit-rule-right-wrapper {
+  margin-right: 0px;
+}
+.schema-designer .properties-ct [data-item-marker*='WebServiceUserTaskPropertiesPage'] .request-timeout-information-button {
+  margin-top: 17px;
+  position: absolute;
+}
+.schema-designer .ace-crimson-editor .ace_gutter {
+  background: #fafafa;
+}
+.schema-designer .ace-crimson-editor .ace_gutter-active-line {
+  background-color: #eaeaea;
+}
+.schema-designer .email-template-academy-link {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+.menu-item-image {
+  background-repeat: no-repeat;
+}
+.ts-process-message-box {
+  width: 550px;
+}
+.ts-process-message-box .ts-inputbox-caption {
+  font-size: 22px;
+}
+.ts-process-message-box .memo-edit-core {
+  box-sizing: content-box;
+}
+html[dir="rtl"] .schema-designer .properties-ct {
+  border-right: 1px solid #e6e6e6;
+}
+html[dir="rtl"] .menu-item-image {
+  transform: none !important;
+}
+html[dir="rtl"] .schema-designer .properties-ct .properties-container .header-container .top-container-wrapClass .t-label {
+  margin-left: 10px;
+}
+html[dir="rtl"] .formula-modal-box .modal-page-fixed-container .controls-container-modal-page .center-area-grid-container .datetime-mapping-tab .date-container .t-label {
+  text-align: right;
+}

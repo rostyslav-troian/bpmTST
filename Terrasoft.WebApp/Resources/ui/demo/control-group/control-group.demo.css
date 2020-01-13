@@ -1,0 +1,7 @@
+#demoContainer > .ts-controlgroup:not(:last-child).ts-controlgroup-collapsed .ts-controlgroup-caption-wrap {
+	border-bottom: 0;
+}
+
+.ts-controlgroup-tools > .t-btn-wrapper.t-btn-text {
+	line-height: 0;
+}

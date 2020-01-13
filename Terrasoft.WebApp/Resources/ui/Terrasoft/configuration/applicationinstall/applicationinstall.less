@@ -1,0 +1,279 @@
+﻿body {
+	background-color: #ebeeef;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.panel {
+	background-color: white;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+	overflow: auto;
+	box-sizing: border-box;
+}
+
+.main-header-logo-image {
+	width: 127px;
+	height: 27px;
+	background-repeat: no-repeat;
+}
+
+.buttons-log-panel {
+	text-align: center;
+	color: #999999;
+
+	.t-label {
+		width: auto;
+		margin: 0 2px;
+	}
+}
+
+.install-app-image {
+	width: 100%;
+	height: 3.9em;
+	display: inline-block;
+	background-repeat: no-repeat;
+	margin-bottom: 17px;
+	text-align: left;
+}
+
+.select-file-image {
+	width: 13.4em;
+	height: 13.9em;
+	display: inline-block;
+	background-repeat: no-repeat;
+	margin-bottom: 17px;
+}
+
+.install-success-image {
+	width: 100%;
+	height: 9.6em;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 10px;
+	margin-bottom: 17px;
+}
+
+.t-label {
+	text-align: left;
+
+	&.heading {
+		font-size: 2.6em;
+		font-family: "Bpmonline Open Sans Light";
+	}
+
+	&.attention-text {
+		margin-bottom: 14px;
+
+		&:nth-child(odd) {
+			font-size: 1.3em;
+			color: #999999;
+		}
+
+		&:nth-child(even) {
+			font-size: 1.4em;
+			color: #444444;
+		}
+	}
+
+	&.msg-panel-left {
+		font-size: 1.4em;
+		margin-bottom: 2px;
+		text-align: left;
+		width: auto;
+	}
+
+	&.msg-panel-heading {
+		font-size: 2.0em;
+		margin-bottom: 2px;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	&.msg-panel-caption {
+		font-size: 1.4em;
+		margin-bottom: 2px;
+		text-align: left;
+		color: #4e7bd8;
+		white-space: nowrap;
+	}
+
+	&.msg-panel-right {
+		margin-bottom: 2px;
+	}
+
+	&.msg-panel-text {
+		font-size: 1.4em;
+		margin-bottom: 14px;
+		color: #999999;
+		text-align: center;
+	}
+
+	&.msg-progressPanel-text {
+		font-size: 1.4em;
+		margin-bottom: 14px;
+		color: #999999;
+		text-align: center;
+		padding-top: 70px;
+	}
+
+	&.msg-uploadPanel-text {
+		font-size: 1.4em;
+		margin-bottom: 14px;
+		color: #999999;
+		text-align: center;
+	}
+
+	&.section-title {
+		color: #444444;
+		margin-bottom: 11px;
+		margin-top: -12px;
+	}
+}
+
+.container-main {
+	padding: 0.6em;
+	font-family: "Bpmonline Open Sans";
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+
+.container-bottom {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	flex-grow: 1;
+}
+
+.head-panel {
+	margin-bottom: 0.6em;
+	padding-top: -40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-shrink: 0;
+}
+
+.central-panel {
+	min-width: 622px;
+	flex-basis: 100%;
+}
+
+.message-download-panel {
+	border: 2px solid #8ecb60;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: left;
+}
+
+.message-progress-panel {
+	border: 2px solid #00aeef;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: left;
+}
+
+.message-upload-panel {
+	border: 2px solid #8ecb60;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+}
+
+.applicationLeftRight-panels {
+	display: table;
+	width: 100%;
+}
+
+.applicationLeft-panel, .applicationRight-panel {
+	text-align: left;
+	display: table-cell;
+}
+
+div#application-right-panel {
+	padding-left: 40px;
+}
+
+div#application-left-panel {
+	width: 80px;
+}
+
+.buttons-panel {
+	text-align: right;
+}
+
+.right-panel {
+	flex-basis: 393px;
+	margin-left: 0.6em;
+}
+
+.attention-label {
+	color: #8ecb60;
+	margin-bottom: 2px;
+	margin-top: -10px;
+}
+
+#install-success-panel {
+	& > .msg-panel-heading {
+		color: #8ecb60;
+	}
+
+	& > .msg-panel-text {
+		margin-top: 4px;
+		margin-bottom: 26px;
+	}
+}
+
+div#error-panel {
+	border-color: #ff7a64;
+	padding: 30px;
+}
+
+#error-panel {
+	& > .msg-panel-heading {
+		color: #ff7a64;
+	}
+
+	& > .msg-panel-text {
+		margin-top: 31px;
+		margin-bottom: 37px;
+	}
+}
+
+div#message-panel {
+	border-color: #00aeef;
+}
+
+#message-panel {
+	& > .msg-panel-heading {
+		margin-top: 81px;
+	}
+
+	& > .msg-panel-text {
+		margin-top: 51px;
+	}
+}
+
+.error-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	.t-btn-wrapper {
+		&:not(:last-child) {
+			margin-right: 22px;
+		}
+	}
+}
+
+.ts-mask-frame {
+	display: inline-block;
+	padding: 0px !important;
+	margin-top: -35px !important;
+}

@@ -1,0 +1,84 @@
+﻿.translation-modal-box {
+  -webkit-transition: height 0.1s ease-in;
+  -moz-transition: height 0.1s ease-in;
+  -ms-transition: height 0.1s ease-in;
+  -o-transition: height 0.1s ease-in;
+  transition: height 0.1s ease-in;
+}
+.translation-modal-box .navigation-button {
+  width: auto;
+}
+.translation-modal-box .navigation-button .navigation-button-back {
+  padding-right: 2em;
+}
+.translation-modal-box .navigation-button .navigation-button-next {
+  padding-left: 2em;
+}
+.translation-modal-box .navigation-button .t-btn-image.t-btn-image-right {
+  left: 0.6em;
+}
+.translation-modal-box .navigation-button .t-btn-image.t-btn-image-left {
+  right: 0.6em;
+}
+.translation-modal-box .navigation-button.t-btn-disabled .t-btn-image {
+  opacity: 0.6;
+}
+.translation-modal-box .navigation-button.navigation-button-back .t-btn-image {
+  background-position: 0 16px;
+}
+.translation-modal-box .ts-modalbox-innerbox {
+  display: block;
+  height: calc(100% - 55px);
+  margin-top: 0.5em;
+  overflow: hidden;
+  padding: 0 2.5em 4em 0.5em;
+  position: relative;
+}
+.translation-modal-box .schema-wrap.one-el.modal-box-schema-module-content {
+  right: 2.5em;
+  max-height: none;
+  position: static;
+  left: 1.5em;
+  overflow-y: auto;
+}
+.translation-modal-box .schema-wrap.one-el.modal-box-schema-module-content .label-wrap label {
+  text-align: left;
+}
+.translation-modal-box .footer-container {
+  bottom: 0;
+  right: 2.5em;
+  position: absolute;
+  left: 1em;
+}
+.translation-modal-box .control-no-label {
+  display: inline-block;
+  margin-right: -2em;
+  position: absolute;
+  top: calc(50% - 15px);
+}
+.translation-modal-box .control-width-15 {
+  padding-left: 3em;
+  padding-top: 0.5em;
+}
+.translation-modal-box .control-width-15 .t-checkboxedit-wrap {
+  margin-right: 0;
+}
+.translation-modal-box .key-edit {
+  padding-left: 6em;
+}
+.translation-modal-box .tools-container {
+  margin-top: 1em;
+  text-align: center;
+}
+.translation-modal-box .footer-bottom-right-container {
+  float: left;
+}
+.translation-modal-box .footer-bottom-right-container .t-btn-wrapper {
+  margin-right: 1em;
+}
+.translation-modal-box .footer-bottom-left-container {
+  float: right;
+}
+.translation-modal-box .footer-bottom-left-container .t-btn-wrapper {
+  margin-left: 1em;
+}

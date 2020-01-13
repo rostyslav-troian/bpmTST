@@ -1,0 +1,240 @@
+﻿#mainContainer {
+  padding-top: 7px;
+  margin-left: 30px;
+  margin-right: 40px;
+  width: 480px;
+}
+#contentContainer .t-label {
+  color: #999999;
+}
+#contentContainer {
+  margin-top: 12px;
+}
+#prefix-label {
+  margin-top: 24px;
+}
+#column-name-container {
+  margin-top: 12px;
+}
+.base-element {
+  display: inline-block;
+  width: 100%;
+  margin-top: 12px;
+}
+.base-element-left {
+  width: 191px;
+  height: 100%;
+  margin-top: 6px;
+}
+.base-element-right {
+  width: 289px;
+  float: right;
+}
+#detailMainContainer .base-element-left,
+#groupMainContainer .base-element-left {
+  width: 153px;
+}
+#detailMainContainer .base-element-right,
+#groupMainContainer .base-element-right {
+  width: 347px;
+}
+.radio-button-label {
+  width: 90%;
+  vertical-align: super;
+  margin-left: 5px;
+}
+.radio-button-container {
+  margin-left: 29px;
+}
+.control-group-container {
+  width: inherit;
+  margin-top: 24px;
+}
+.check-box-left {
+  width: 191px;
+}
+#contentContainer .ts-controlgroup {
+  margin-top: 24px;
+}
+.top-container-margin {
+  margin-top: 12px;
+}
+.closeIcon {
+  right: 14px;
+  position: absolute;
+  top: 14px;
+}
+#cancelButton-textEl {
+  margin-left: 10px;
+}
+#caption-label {
+  font-family: "Segoe UI Light";
+  font-size: 2.2em;
+  letter-spacing: -0.01em;
+  color: #598eeb;
+  font-weight: 500;
+  margin-bottom: 0.9em;
+}
+/*otnositsa k tabam*/
+
+.page-records-type-caption {
+  margin: 34px 0px 6px;
+  margin-bottom: 6px;
+  color: #999999;
+  padding-left: 6px;
+  padding-bottom: 7px;
+  border-bottom-width: 1px;
+  border-bottom-color: #E0E0E0;
+  border-bottom-style: solid;
+}
+.tab-item-container {
+  display: block;
+  height: 34px;
+  margin-top: 3px;
+}
+.tab-item-left-container {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+.tab-item-right-container {
+  display: table-cell;
+}
+.tab-float-right {
+  float: right;
+}
+.tab-edit-container {
+  background-color: #edf1f8;
+  height: 88px;
+  display: table;
+  padding-right: 5px;
+}
+.tab-add-container {
+  margin-bottom: 10px;
+}
+.tab-edit {
+  background-color: #edf1f8;
+  margin-bottom: 18px;
+}
+.tab-edit input {
+  padding: 5px;
+}
+.tab-button {
+  padding: 8px 13px 6px 13px;
+  color: #4d5a75;
+}
+.tab-edit-full {
+  width: 484px;
+  margin-top: 6px;
+  margin-left: 6px;
+  padding: 0;
+}
+.tab-padding-left-0px {
+  padding-left: 0px;
+}
+.tab-padding-right-0px {
+  padding-right: 0px;
+}
+.tab-delete-button {
+  padding-right: 8px;
+}
+.contentContainer .tab-delete-button {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 6px;
+  margin-left: 24px;
+}
+#tabListContainer {
+  margin-top: 1em;
+}
+#tabListContainer .cell-left,
+#tabListContainer .cell-right {
+  padding-left: 0.6em;
+  width: 48%;
+}
+#tabListContainer .cell-left {
+  width: 230px;
+}
+#tabListContainer .cell-right {
+  width: 190px;
+  margin-left: 12px;
+}
+#tabListContainer .t-label {
+  color: #444;
+}
+/*
+#itemEditInnerContainer {
+  padding: 0;
+  margin: 0;
+}
+#itemEditInnerContainer .tab-edit {
+  background-color: #edf1f8;
+  margin-bottom:15px;
+ 
+}
+#itemEditInnerContainer .tab-edit-left, #itemEditInnerContainer .tab-edit-right {
+  margin-left: 0.6em;
+  margin-top: 1em;
+  width: 23em;
+  padding: 0;
+}
+#itemEditInnerContainer .tab-edit input {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+*/
+
+#itemEditInnerButtonsContainer .page-type-button {
+  font-family: "Segoe UI";
+  font-size: 1.4em;
+  color: #4d5a75;
+}
+#itemEditInnerButtonsContainer .page-type-float-right {
+  float: right;
+}
+#captionContainer {
+  height: 82px;
+}
+#captionRowContainer {
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 0.1em solid #ccc;
+  width: 494px;
+}
+#captionRowContainer .caption-row-left,
+#captionRowContainer .caption-row-right {
+  padding-left: 0.6em;
+  width: 230px;
+}
+#captionRowContainer .caption-row-right {
+  margin-left: 12px;
+}
+#itemEditInnerContainer .tab-edit-left,
+#itemEditInnerContainer .tab-edit-right {
+  margin-left: 0.6em;
+  margin-top: 0.6em;
+  width: 23em;
+  padding: 0;
+}
+#itemEditInnerContainer .tab-edit-right {
+  margin-left: 24px;
+}
+#footer {
+  width: 100%;
+  height: 46px;
+}
+#addButtonContainer {
+  height: 52px;
+  padding-top: 20px;
+}
+#tabsMainContainer,
+#detailMainContainer,
+#groupMainContainer {
+  padding-top: 7px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 500px;
+}
+.toggleButton {
+  float: right;
+}

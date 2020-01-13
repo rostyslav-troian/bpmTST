@@ -1,0 +1,73 @@
+/** Default font style **/
+.fonts-default-normal() {
+	font-family: "Bpmonline Open Sans";
+}
+
+.fonts-default-light() {
+	font-family: "Bpmonline Open Sans Light";
+}
+
+.fonts-default-bold() {
+	font-family: "Bpmonline Open Sans Bold";
+}
+
+/** Arabic font style **/
+.fonts-ar-SA-normal() {
+	font-family: "Bpmonline Cairo";
+}
+
+.fonts-ar-SA-light() {
+	font-family: "Bpmonline Cairo Light";
+}
+
+.fonts-ar-SA-bold() {
+	font-family: "Bpmonline Cairo Bold";
+}
+
+/** Hebrew font style **/
+.fonts-he-IL-normal() {
+	font-family: "Bpmonline Rubik";
+}
+
+.fonts-he-IL-light() {
+	font-family: "Bpmonline Rubik Light";
+}
+
+.fonts-he-IL-bold() {
+	font-family: "Bpmonline Rubik Bold";
+}
+
+/** Farsi font style **/
+.fonts-fa-IR-normal() {
+	font-family: "IranSans";
+}
+
+.fonts-fa-IR-light() {
+	font-family: "IranSans Light";
+}
+
+.fonts-fa-IR-bold() {
+	font-family: "IranSans Bold";
+}
+
+body.x-body {
+	.fonts-default-normal;
+}
+
+html[culture="ar-SA"] {
+	body.x-body {
+		.fonts-ar-SA-normal;
+	}
+}
+
+html[culture="he-IL"] {
+	body.x-body {
+		.fonts-he-IL-normal;
+	}
+}
+
+html[culture="fa-IR"] {
+	body.x-body {
+		.fonts-fa-IR-normal;
+	}
+}

@@ -1,0 +1,47 @@
+akka {
+	loggers = ["Terrasoft.ActorSystem.Logging.CommonsLogger, Terrasoft.ActorSystem"]
+	loglevel = INFO // DEBUG, INFO, WARNING, ERROR
+	log-config-on-start = on // on, off
+	actor {
+		debug {
+			receive = off  // only for actors marked by ILogReceive
+			autoreceive = off
+			lifecycle = off
+			event-stream = on
+			unhandled = on
+		}
+		deployment {
+			/ProcessEngineActor/StartProcessActor {
+			 	router = round-robin-pool
+			 	nr-of-instances = 100
+			}
+			/ProcessEngineActor/ContinueProcessActor {
+			 	router = round-robin-pool
+			 	nr-of-instances = 100
+			}
+			/ProcessEngineActor/CancelProcessActor {
+			 	router = round-robin-pool
+			 	resizer {
+					enabled = on
+					lower-bound = 1
+					upper-bound = 100
+				}
+			}
+			/TaskExecutorActor {
+			 	router = round-robin-pool
+			 	nr-of-instances = 100
+				resizer {
+					enabled = on
+					lower-bound = 3
+					upper-bound = 100
+				}
+			}
+		}
+	}
+}
+terrasoft {
+	taskExecutorActor {
+		log-long-running-tasks = on
+		long-running-task-threshold = 30s
+	}
+}

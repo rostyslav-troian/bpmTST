@@ -1,0 +1,18 @@
+﻿.main-content-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.main-content-wrapper .diagram-caption-ct .label-caption {
+  color: #444444;
+  font-size: 28px;
+  font-family: "Bpmonline Open Sans Light";
+}
+.container-lookup-page-fixed .rightContainerLookupPage {
+  visibility: hidden;
+}
+html[dir="rtl"] body .tip .tip-content {
+  direction: rtl !important;
+}
+html[dir="rtl"] body .properties-container .t-label {
+  direction: rtl !important;
+}

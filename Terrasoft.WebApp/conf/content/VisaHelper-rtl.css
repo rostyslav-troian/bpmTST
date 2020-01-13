@@ -1,0 +1,17 @@
+﻿.visa-action .base-edit {
+  border: none;
+}
+.visa-action .base-edit textarea.memo-edit-area {
+  border: 1px solid #c8c8c8;
+}
+.visa-action .base-edit.base-edit-focus {
+  box-shadow: none;
+}
+.visa-action .base-edit.base-edit-focus textarea.memo-edit-area {
+  outline: none;
+  border-color: #56b4ef;
+  box-shadow: 0 0 3px 0 rgba(86, 180, 239, 0.7);
+}
+.visa-action .ts-inputbox-caption {
+  font-size: 2.2em;
+}

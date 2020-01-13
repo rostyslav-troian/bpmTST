@@ -1,0 +1,20 @@
+﻿.product-image-edit-container DIV > IMG {
+  border: 1px solid #c8c8c8;
+  padding: 2px;
+  margin-right: 2px;
+}
+.product-image-edit-container .ts-image-edit-upload,
+.product-image-edit-container .ts-image-edit-clear {
+  display: none;
+}
+.product-image-edit-container:hover .ts-image-edit-upload,
+.product-image-edit-container:hover .ts-image-edit-clear {
+  display: block;
+  z-index: 1;
+}
+.product-image-edit-container DIV > DIV {
+  border-color: transparent;
+}
+div#ProductPageV2HeaderGridLayout-item-ProductPageV2PhotoContainerContainer {
+  z-index: 1;
+}

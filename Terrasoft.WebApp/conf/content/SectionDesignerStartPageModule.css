@@ -1,0 +1,56 @@
+﻿.start-page-main-container {
+  width: 800px;
+  margin-top: 6px;
+}
+.start-page-main-container img {
+  background: #4D5A75;
+}
+.start-page-icon {
+  width: 108px;
+  display: inline-block;
+  padding-top: 24px;
+  vertical-align: top;
+  margin-right: 3px;
+}
+.start-page-controls {
+  width: 569px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 20px;
+}
+.start-page-controls .label-wrap {
+  max-width: 95px;
+}
+.start-page-radio-button-caption {
+  width: 90%;
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+.start-page-radio-button {
+  margin-top: 24px;
+}
+.start-page-pages-container {
+  margin-top: 20px;
+}
+.start-page-page-container {
+  margin-top: 16px;
+}
+.start-page-hint-label {
+  margin-left: 34px;
+  color: #999999;
+  width: 495px;
+}
+.start-page-multi-pages-edit-container {
+  margin-top: 4px;
+  margin-left: 34px;
+}
+.start-page-controls .control-wrap {
+  margin-left: -104px;
+  padding-left: 104px;
+}
+div.image-edit-container {
+  position: relative;
+}
+.start-page-image-label {
+  color: #999999;
+}

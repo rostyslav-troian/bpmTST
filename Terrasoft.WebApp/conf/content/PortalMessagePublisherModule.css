@@ -1,0 +1,9 @@
+﻿.portal-message-module {
+  padding: 14px;
+}
+.portal-message-module .header-container-margin-bottom {
+  margin-bottom: 14px;
+}
+.portal-message-content {
+  height: 20px;
+}

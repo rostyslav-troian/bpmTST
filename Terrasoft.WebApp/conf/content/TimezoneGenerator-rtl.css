@@ -1,0 +1,88 @@
+﻿.timezone-image {
+  width: 1.7em !important;
+  height: 1.7em !important;
+}
+.timezone-container {
+  text-align: center;
+}
+.timezone-container .timezone-label {
+  font-size: 14px;
+  color: #999;
+  line-height: 1.7;
+  vertical-align: text-bottom;
+}
+body[OldUI=false] .left-modules-container .profile-container .grid-layout-row .photo-timezone-container .timezone-container {
+  margin: 32px 36px 0px 0px;
+}
+.profile-container .timezone-container {
+  width: 92px;
+  text-align: center;
+}
+.profile-container .timezone-container .timezone-image {
+  margin: auto;
+  padding-left: 5px;
+}
+.profile-container .timezone-container .timezone-city {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.profile-container .timezone-container .timezone-caption {
+  line-height: 1.7;
+}
+.contact-mini-page-container .timezone-container {
+  text-align: right;
+}
+.contact-mini-page-container .timezone-container .timezone-label {
+  padding-right: 5px;
+}
+.timezone-grid-layout {
+  width: 420px;
+}
+.timezone-grid-layout .base-edit-right-icon {
+  display: none;
+}
+.timezone-grid-layout .base-edit-right-icon:hover {
+  cursor: pointer;
+}
+.timezone-grid-layout .base-edit.base-edit-with-right-icon {
+  padding-left: 10px;
+}
+.timezone-grid-layout .base-edit {
+  min-height: 28px;
+  margin-top: -5px;
+  padding-right: 0;
+}
+.timezone-grid-layout .base-edit.base-edit-focus {
+  border: 0;
+  box-shadow: none;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+.timezone-grid-layout .timezone-label {
+  min-height: 20px;
+  font-size: 1.3em;
+  color: #999999;
+}
+.timezone-grid-layout .timezone-label-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.timezone-grid-layout .grid-layout-row,
+.timezone-grid-layout .grid-layout-column {
+  min-height: 26px;
+}
+.timezone-grid-layout .base-edit.datetime-datecontrol {
+  width: 110px;
+}
+.timezone-grid-layout .due-date-right {
+  padding-right: 11px;
+}
+.timezone-button-container {
+  text-align: left;
+  padding-top: 11px;
+}
+.timezone-button-container .t-btn-wrapper {
+  margin-right: 8px;
+}

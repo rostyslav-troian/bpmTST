@@ -1,0 +1,27 @@
+﻿.sys-logo-settings .save-button {
+  margin-right: 9px;
+}
+.sys-logo-settings .grid-layout {
+  margin-top: 24px;
+}
+.sys-logo-settings .logo-label-wrap .t-label {
+  text-align: right;
+  color: #999999;
+  text-overflow: ellipsis;
+  padding-top: 3px;
+}
+.sys-logo-settings .logo-label-wrap {
+  padding-right: 0.9em;
+}
+.sys-logo-settings .ts-image-edit-inner-container {
+  width: 100%;
+}
+.sys-logo-settings .ts-image-edit-full-size-element {
+  behavior: url(ieb64.htc);
+}
+.sys-logo-settings .ts-image-edit-button {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.sys-logo-settings .ts-image-edit-button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}

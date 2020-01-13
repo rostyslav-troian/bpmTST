@@ -1,0 +1,96 @@
+.ts-image-edit-wrap {
+	position: relative;
+	margin-right: 37px;
+}
+
+.ts-image-edit-container {
+	position: relative;
+}
+
+.ts-image-edit-full-size {
+	width: 100%;
+	height: 100%;
+}
+
+.ts-image-edit-full-size-element {
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+.ts-image-style-rectangular, .ts-image-container-style-rectangular {
+	border-radius: 0%;
+}
+
+.ts-image-style-circle, .ts-image-container-style-circle {
+	border-radius: 50%;
+}
+
+.ts-image-edit-button:focus, .ts-image-edit-button:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ts-image-edit-wrap .ts-image-edit-disabled {
+	cursor: default;
+}
+
+.ts-image-edit-button {
+	position: absolute;
+	width: 34px;
+	height: 34px;
+	display: block;
+	background-color: #f0f0f0;
+	cursor: pointer;
+	right: 0px;
+}
+
+.ts-image-edit-upload {
+	top: 0px;
+	right: -37px;
+}
+
+.ts-image-edit-clear {
+	top: 37px;
+	right: -37px;
+}
+
+.ts-image-edit-button span {
+	width: 16px;
+	height: 16px;
+	display: block;
+	background: no-repeat center top;
+	margin: 9px;
+}
+
+.ts-image-edit-upload span {
+	background-image: url(image-edit-ico-upload.svg);
+}
+
+.ts-image-edit-clear span {
+	background-image: url(image-edit-ico-clear.svg);
+}
+
+.ts-image-edit-button.ts-image-edit-disabled span {
+	background-position: center bottom;
+}
+
+.ts-image-edit-inner-container {
+	position: relative;
+	width: 72px;
+	height: 72px;
+}
+
+/*rtl:begin:ignore*/
+html[dir="rtl"] {
+	body[OldUI=false] {
+		.image-edit-container .ts-image-edit-full-size-element {
+			transform: translate(50%, -50%);
+		}
+	}
+}
+/*rtl:end:ignore*/

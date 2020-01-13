@@ -1,0 +1,42 @@
+#demoContainer.docked {
+	padding: 15px;
+}
+
+#demoContainer.docked .grid-layout {
+	margin-bottom: 100px;
+}
+
+#demoContainer.docked .grid-layout .grid-layout-column {
+	outline: 1px dotted grey;
+}
+
+.itemCell {
+	padding: 2px;
+}
+
+.itemCell .t-btn-wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.code {
+	width: 100%;
+	margin-bottom: 25px;
+	font-family: "Lucida Console";
+	font-size: 1.2em;
+	border: 0;
+}
+fieldset {
+	border: 0;
+}
+
+legend {
+	font-family: "Lucida Console";
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+textarea {
+	font-family: "Lucida Console";
+	font-size: 1.2em;
+}

@@ -1,0 +1,184 @@
+﻿html[dir="rtl"] body[OldUI=false][sysadmin-section=true] .center-panel .schema-wrap.two-el .section-wrap .combined-action-buttons-section-container-wrapClass {
+  width: 509px;
+}
+html[dir="rtl"] body[OldUI=false] div.schema-wrap div.SysAdminUnitSectionV2 div.combined-action-buttons-card-container-wrapClass {
+  right: 516px !important;
+}
+html[dir="rtl"] body[OldUI=false] .button-class .view-images-class {
+  width: 2.8em;
+}
+body[OldUI=false] .button-class > .t-btn-pressed > .t-btn-image {
+  background-position: 0 -41px;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true][sysadmin-section=true] .main-header .left-header-container-class {
+  min-width: 511px;
+  width: 511px;
+}
+body[OldUI=false][sysadmin-section=true] .center-panel .schema-wrap.two-el .section-wrap .combined-action-buttons-section-container-wrapClass {
+  width: 490px;
+}
+body[OldUI=false] .center-panel .schema-wrap.two-el .SysAdminUnitSectionV2 .section.left-el {
+  width: 511px;
+}
+body[OldUI=false] .schema-wrap.one-el .data-views-container-wrapClass {
+  padding-top: 5.2em;
+}
+body[OldUI=false] .schema-wrap.one-el .data-views-container-wrapClass .configuration-grid {
+  padding-bottom: 2.6em;
+}
+body[OldUI=false] .schema-wrap.one-el .data-views-container-wrapClass .grid-dataview-container-wrapClass .grid-pad:first-child:before {
+  display: none;
+}
+body[OldUI=false] div.center-panel {
+  padding-top: 6.4em;
+}
+body[OldUI=false][is-card-opened=true] .main-header .page-header-container {
+  display: block;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header .main-header-menu-logo-image-container-class {
+  display: none;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header .left-header-container-class {
+  margin-left: 6px;
+  min-width: 300px;
+  width: 300px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header .left-header-container-class .caption-class {
+  flex-grow: 1;
+  width: 0px;
+  padding-right: 20px;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header .left-header-container-class,
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header .right-header-container-class {
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header .button-class {
+  min-width: 0;
+  padding-left: 20px;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header .button-class .t-btn-wrapper:last-child {
+  padding-left: 0;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header .caption-class {
+  padding-left: 9px;
+  margin-left: 0;
+  line-height: 55px;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=true] .main-header .caption-class .header-section-caption-class {
+  font-size: 26px;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=false] .main-header .left-header-container-class {
+  display: none;
+}
+body[OldUI=false][is-card-opened=true][is-main-header-visible=false] .main-header .right-header-container-class {
+  border-right: 1px solid #e6e6e6;
+}
+body[OldUI=false].x-ie .main-header .left-header-container-class {
+  border-left: 1px solid #fff;
+}
+body[OldUI=false].x-ie .main-header .right-header-container-class {
+  border-right: 1px solid #fff;
+}
+body[OldUI=false] .main-header {
+  background-color: #ebeeef;
+  height: 64px;
+}
+body[OldUI=false] .main-header .left-header-container-class,
+body[OldUI=false] .main-header .right-header-container-class {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
+  border-radius: 3px 3px 0 0;
+}
+body[OldUI=false] .main-header .left-header-container-class {
+  position: relative;
+  padding: 0;
+  border-left: none;
+}
+body[OldUI=false] .main-header .right-header-container-class {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+  border-right: none;
+  margin-left: 56px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+body[OldUI=false] .main-header .main-header-logo-container-class {
+  padding-top: 10px;
+  padding-left: 18px;
+}
+body[OldUI=false] .main-header.opened-right-panel .right-header-container-class {
+  margin-left: 41.3em;
+}
+@media screen and (max-width: 1439px) {
+  body[OldUI=false] .main-header.opened-right-panel .right-header-container-class {
+    margin-left: 56px;
+  }
+}
+body[OldUI=false] .main-header .command-line-class {
+  width: 253px;
+  max-width: 253px;
+  min-width: 253px;
+  padding-left: 20px;
+  padding-top: 12px;
+}
+body[OldUI=false] .main-header.opened-right-panel .context-right-image-class > div {
+  background-color: #fff;
+  margin-left: 6px;
+  min-height: 112px;
+  padding-right: 5px;
+  border-top-left-radius: 3px;
+}
+body[OldUI=false] .main-header.fixed.opened-right-panel .inner-context-right-image-class {
+  margin-right: 3px;
+}
+body[OldUI=false] .main-header .inner-context-right-image-class {
+  margin-right: 8px;
+}
+body[OldUI=false] .main-header .context-right-image-class {
+  background-color: #ebeeef;
+  padding: 0;
+  width: 56px;
+  position: fixed;
+  left: 0;
+  min-height: 112px;
+}
+body[OldUI=false] .main-header .context-right-image-class .operator-status-icon-wrapper:empty {
+  display: none;
+}
+body[OldUI=false] .main-header .context-right-image-class > div > div {
+  float: none;
+  display: block;
+  padding-top: 5px;
+}
+body[OldUI=false] .main-header .context-right-image-class > div > div:not(.main-header-image-container-class) {
+  padding-right: 7px;
+  height: 30px;
+}
+body[OldUI=false] .main-header .context-right-image-class .main-header-image-container-class > .t-btn-wrapper {
+  margin: 0;
+}
+body[OldUI=false] .main-header .context-right-image-class .main-header-image-container-class > .t-btn-wrapper.operator-status-icon-wrapper {
+  margin-right: -5px;
+  margin-top: -3px;
+}
+body[OldUI=false] .main-header .page-header-container {
+  padding-right: 2em;
+  white-space: nowrap;
+  flex-grow: 1;
+  width: 0px;
+  padding-left: 20px;
+  display: none;
+}
+body[OldUI=false] .main-header .page-header-container label {
+  line-height: 51px;
+  font-size: 26px;
+  text-overflow: ellipsis;
+  text-align: right;
+}

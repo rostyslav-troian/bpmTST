@@ -1,0 +1,23 @@
+﻿.email-message-module {
+  padding: 14px;
+}
+.email-message-module .header-container-margin-bottom {
+  margin-bottom: 12px;
+}
+.email-message-module .header-container-margin-bottom .t-label {
+  text-align: right;
+  margin-right: 1px;
+}
+.email-message-module .header-container-margin-bottom .label-wrap {
+  min-width: 6.2em;
+  max-width: 9em;
+}
+.email-message-module .layout-container {
+  padding-bottom: 10px;
+}
+.email-message-module .bcc-button-text {
+  margin-right: 5px;
+}
+.email-message-content {
+  height: 20px;
+}

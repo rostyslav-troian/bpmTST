@@ -1,0 +1,95 @@
+﻿.grid-settings {
+  width: 800px;
+}
+.page-caption-label {
+  color: #444444;
+  font-size: 3.5em;
+  margin-bottom: 25px;
+  font-family: "Segoe UI Light";
+  letter-spacing: -0.01em;
+}
+.column-caption-label {
+  color: #444444;
+  font-size: 14px;
+}
+.column-caption-label-value {
+  color: #4e7bd8;
+  font-size: 16px;
+}
+.title-label {
+  color: #444444;
+  font-size: 14px;
+  margin-top: 22px;
+  margin-bottom: 5px;
+}
+.left-column-settings-container .ts-controlgroup .ts-controlgroup-caption-wrap {
+  height: 3.9em;
+}
+.text-size-label {
+  color: #444444;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.hide-title-settings-container,
+.left-column-settings-container .ts-controlgroup {
+  margin-top: 22px;
+  margin-bottom: 19px;
+}
+.cancel-button {
+  margin-right: 9px;
+  /*vertical-align: bottom;*/
+
+}
+.top-settings-container {
+  margin-bottom: 4px;
+}
+.page-caption-container {
+  width: 100%;
+}
+.column-settings-container {
+  margin-right: 2px;
+}
+.column-settings-container .ts-controlgroup-caption-wrap {
+  border-top: none;
+  border-bottom: none;
+  height: 3em;
+}
+.column-properties-settings-container {
+  display: inline-block;
+}
+.left-column-settings-container {
+  float: right;
+  width: 280px;
+  margin-top: 23px;
+}
+.right-column-settings-container {
+  float: right;
+  width: 500px;
+  margin-top: 23px;
+  margin-right: 47px;
+}
+.hide-title-label {
+  width: auto;
+  margin-right: 10px;
+  vertical-align: top;
+}
+.sum-radio-settings-container {
+  margin-top: 7px;
+  margin-right: -3px;
+}
+.max-radio-settings-container {
+  margin-top: 5px;
+  margin-right: -3px;
+}
+.min-radio-settings-container {
+  margin-top: 5px;
+  margin-right: -3px;
+}
+.avg-radio-settings-container {
+  margin-top: 5px;
+  margin-right: -3px;
+}
+.function-label {
+  margin-right: 10px;
+  padding-bottom: 2px;
+}

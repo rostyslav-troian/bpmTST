@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "CEXMT7WP8F.org.bpmonline.mobile70",
+        "paths": [
+          "/Nui/ViewModule.aspx",
+          "/0/Nui/ViewModule.aspx",
+          "/Navigation/Navigation.aspx"
+        ]
+      }
+    ]
+  }
+}

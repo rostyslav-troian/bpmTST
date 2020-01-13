@@ -1,0 +1,66 @@
+﻿div#OperatorSingleWindowPageContainer {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  height: 100%;
+  justify-content: flex-start;
+}
+div#OperatorSingleWindowPageContainer .schema-wrap.one-el {
+  min-width: 0;
+}
+div#OperatorSingleWindowPageContainer [data-item-marker="SettingsButton"] {
+  padding: 0.38em 1.65em 0.38em 0;
+}
+div#OperatorSingleWindowPageContainer .page-tools-button {
+  margin-top: -32px;
+  height: 30px;
+  padding: 0.38em 1.65em 0.38em 0;
+}
+div#OperatorSingleWindowPageContainer .ts-tabpanel-scroll-right {
+  background-position: 6px 6px;
+}
+div#OperatorSingleWindowPageContainer .ts-tabpanel-scroll-right:hover {
+  background-position: 6px 6px;
+}
+div#OperatorSingleWindowPageContainer .operator-window-left-container {
+  width: 100%;
+  min-width: 20em;
+  padding-right: 2em;
+}
+div#OperatorSingleWindowPageContainer .operator-window-center-container {
+  min-width: 36.4em;
+  max-width: 36.4em;
+  padding-right: 0.5em;
+  padding-left: 1em;
+  border-left: solid 1px #e1e8f2;
+  overflow-y: auto;
+}
+div#OperatorSingleWindowPageContainer .operator-window-center-container .social-feed-header {
+  display: none;
+}
+div#OperatorSingleWindowPageContainer .operator-window-right-container {
+  min-width: 35.9em;
+  max-width: 35.9em;
+}
+div#OperatorSingleWindowPageContainer .ts-tabpanel-scroll-right {
+  right: 4em;
+}
+div#OperatorSingleWindowPageContainer #centerContainer .comment-actions {
+  padding-left: 44px;
+}
+div#OperatorSingleWindowPageContainer #centerContainer .comment-actions .likeCaption {
+  display: none;
+}
+div#OperatorSingleWindowPageContainer #centerContainer .comment-actions .createdByDate {
+  display: block;
+  padding-left: 0;
+}
+div#OperatorSingleWindowPageContainer .ts-tabpanel-scroll-visible .ts-tabpanel-items {
+  margin-right: 70px;
+}
+div#OperatorSingleWindowPageContainer .grid-pad {
+  padding-top: 0px;
+}

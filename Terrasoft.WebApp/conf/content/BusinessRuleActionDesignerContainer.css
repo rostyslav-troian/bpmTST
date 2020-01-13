@@ -1,0 +1,106 @@
+﻿.business-rule-case-action-header-container,
+.business-rule-case-action-content-container {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-bottom: 6px;
+}
+.business-rule-case-action-header-container > div,
+.business-rule-case-action-content-container > div {
+  flex-basis: 100%;
+  position: relative;
+  margin-right: 2em;
+}
+.business-rule-case-action-header-container > div:last-child,
+.business-rule-case-action-content-container > div:last-child {
+  margin-right: 0;
+}
+.business-rule-case-action-header-container:before {
+  content: '';
+  position: absolute;
+  width: 2.6em;
+  height: 1px;
+  background: #cccccc;
+  left: -4.4em;
+  top: 1em;
+}
+.business-rule-case-action-header-container:after {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  height: 0.5em;
+  left: -1.8em;
+  top: 0.8em;
+  border-radius: 0.25em;
+  background: #9bb3e8;
+}
+.business-rule-case-action-header-container .business-rule-case-action-header-item {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.business-rule-case-action-header-container .business-rule-case-action-header-item:after {
+  content: "";
+  display: inline-block;
+  width: 95%;
+  height: 1px;
+  background: #cccccc;
+  position: absolute;
+  right: -1em;
+  top: 1em;
+}
+.business-rule-case-action-header-container .business-rule-case-action-header-item:last-child:after {
+  display: none;
+}
+.business-rule-case-action-header-container .business-rule-case-action-header-item:before {
+  content: "";
+  position: absolute;
+  width: 0.5em;
+  height: 0.5em;
+  left: -1.5em;
+  top: 0.8em;
+  border-radius: 0.25em;
+  background: #9bb3e8;
+}
+.business-rule-case-action-header-container .business-rule-case-action-header-item:first-child:before {
+  display: none;
+}
+.business-rule-case-action-header-container .business-rule-case-action-header-item label {
+  color: #bababa;
+  font-size: 1.4em;
+  background: white;
+  display: inline-block;
+  z-index: 1;
+  max-width: 90%;
+  padding-right: 10px;
+  overflow: initial;
+}
+.business-rule-case-action-titleitems-content-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  margin-top: 0.3em;
+}
+.business-rule-case-action-titleitems-content-container label {
+  color: #4e7bd8;
+  width: auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.business-rule-case-action-titleitems-content-container > .t-btn-wrapper {
+  display: none;
+  padding: 0;
+  width: 1.15em;
+  height: 1.15em;
+  margin-left: 5px;
+  margin-top: 0.23em;
+  min-width: 1.15em;
+  min-height: 1.15em;
+}
+.business-rule-case-action-titleitems-content-container:hover > .t-btn-wrapper {
+  display: inline-block;
+}

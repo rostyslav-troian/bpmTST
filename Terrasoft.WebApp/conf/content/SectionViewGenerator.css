@@ -1,0 +1,13 @@
+﻿.left-container {
+  float: left;
+  width: 40%;
+}
+.right-container {
+  float: right;
+  width: 40%;
+  margin-top: 40px;
+}
+.analytics-control-group {
+  padding-top: 0px;
+  border-bottom: none;
+}

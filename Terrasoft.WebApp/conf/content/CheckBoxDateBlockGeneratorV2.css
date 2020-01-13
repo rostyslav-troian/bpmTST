@@ -1,0 +1,27 @@
+﻿.dateTimeContainer {
+  display: inline-block;
+  padding-left: 28px;
+}
+.checkBoxElement {
+  display: inline;
+}
+.labelElement {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  width: 40%;
+  min-width: 80px;
+  max-width: 150px;
+  padding-top: 0;
+}
+.control-width-15 .t-checkboxedit-wrap {
+  margin: 0.6em;
+  margin-left: 1.1em;
+  vertical-align: middle;
+}
+.datetime-datecontrol .datetime-timecontrol {
+  vertical-align: middle;
+}
+.t-label.labelElement {
+  padding-top: 0px;
+}

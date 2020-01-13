@@ -1,0 +1,30 @@
+﻿.registration-container {
+  margin-top: 50px;
+  width: 310px;
+  position: absolute;
+  left: 50%;
+  margin-left: -155px;
+}
+.label {
+  margin-top: 24px;
+}
+.edit {
+  margin-top: 6px;
+}
+.button {
+  margin-top: 24px;
+}
+.login-container-footer {
+  margin-top: 34px;
+  display: inline-block;
+  width: 310px;
+}
+.t-checkboxedit-wrap {
+  margin-right: 6px;
+  margin-top: 26px;
+  vertical-align: top;
+}
+#is-Agreed {
+  width: 90%;
+  margin-top: 24px;
+}

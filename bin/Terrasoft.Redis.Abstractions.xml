@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Redis.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Redis.Abstractions.RedisConfigSection">
+            <summary>
+            Represents redis configuration section.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Redis.Abstractions.RedisConfigSection.ConnectionStringName">
+            <summary>
+            Connection string name.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Redis.Abstractions.RedisConfigSection.ExecutionTimeLoggingThresholdSec">
+            <summary>
+            Redis operation execution time logging threshold in seconds.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Redis.Abstractions.RedisConfigSection.ClientRetryTimeoutMs">
+            <summary>
+            Redis client retry timeout in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Redis.Abstractions.RedisConfigSection.ClientReceiveTimeoutMs">
+            <summary>
+            Redis client receive timeout in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Redis.Abstractions.RedisConfigSection.ClientSendTimeoutMs">
+            <summary>
+            Redis client send timeout in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Redis.Abstractions.RedisConfigSection.ClientConnectTimeoutMs">
+            <summary>
+            Redis client connect timeout in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Redis.Abstractions.RedisConfigSection.ClientSyncTimeoutMs">
+            <summary>
+            Redis client synchronous operation timeout in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Redis.Abstractions.RedisConfigSection.ClientAsyncTimeoutMs">
+            <summary>
+            Redis client asynchronous operation timeout in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Redis.Abstractions.RedisConfigSection.DeactivatedClientsExpirySec">
+            <summary>
+            Deactivated clients expiry in seconds.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Redis.Abstractions.RedisConfigSection.OperationRetryIntervalMs">
+            <summary>
+            Redis operation retry interval in milliseconds.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Redis.Abstractions.RedisConfigSection.OperationRetryCount">
+            <summary>
+            Redis operation retry count.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Redis.Abstractions.RedisConfigSection.RedisConnectionConfig">
+            <summary>
+            Redis connection config.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Redis.Abstractions.RedisConfigSection.GetRedisConfig(System.String)">
+            <summary>
+            Returns <see cref="T:Terrasoft.Redis.Abstractions.RedisConfig"/> instance.
+            </summary>
+            <param name="connectionStringName">The name of the connection string to user.</param>
+            <returns><see cref="T:Terrasoft.Redis.Abstractions.RedisConfig"/> instance.</returns>
+        </member>
+    </members>
+</doc>

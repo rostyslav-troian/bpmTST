@@ -1,0 +1,129 @@
+﻿.alignable-container-opened {
+  overflow: hidden;
+}
+.alignable-container {
+  position: fixed;
+  z-index: 1500;
+  top: -1000px;
+  right: -1000px;
+  min-width: 275px;
+  padding: 10px;
+  border: 0;
+  background-color: transparent;
+}
+.alignable-container:not(.align-bottom):not(.align-left):not(.align-top):not(.align-right) .alignable-container-anchor {
+  display: none;
+}
+.alignable-container.show-overlay .alignable-container-anchor {
+  display: none;
+}
+.show-overlay + div.alignable-container-overlay {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  top: 0;
+  background-color: #737CA1;
+  opacity: 0.3;
+  position: fixed;
+  z-index: 1250;
+}
+.alignable-container-anchor,
+.alignable-container-anchor:before,
+.alignable-container-anchor:after {
+  position: absolute;
+  border-style: solid;
+  height: 0;
+  width: 0;
+}
+.alignable-container-anchor {
+  border-width: 1em;
+  color: transparent;
+  z-index: 2000;
+}
+.alignable-container-anchor:after,
+.alignable-container-anchor:before {
+  border: solid transparent;
+  content: ' ';
+}
+.alignable-container-anchor:after {
+  border-width: 0.7em;
+  border-color: white;
+}
+.alignable-container-anchor:before {
+  border-width: 0.7em;
+  border-color: #B4C1D2;
+}
+.align-bottom .alignable-container-anchor {
+  right: 50%;
+  top: 0;
+}
+.align-bottom .alignable-container-anchor:before {
+  top: -2.4em;
+  right: -1em;
+}
+.align-bottom .alignable-container-anchor:after {
+  top: -2.3em;
+  right: -1em;
+}
+.align-bottom .alignable-container-anchor:before,
+.align-bottom .alignable-container-anchor:after {
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+.align-top .alignable-container-anchor {
+  right: 50%;
+  top: 100%;
+  bottom: 0;
+}
+.align-top .alignable-container-anchor:before {
+  top: -1em;
+  right: -1em;
+}
+.align-top .alignable-container-anchor:after {
+  top: -1.1em;
+  right: -1em;
+}
+.align-top .alignable-container-anchor:before,
+.align-top .alignable-container-anchor:after {
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+.align-right .alignable-container-anchor {
+  top: 50%;
+  right: 0;
+}
+.align-right .alignable-container-anchor:before {
+  right: -2.4em;
+  top: -1.5em;
+}
+.align-right .alignable-container-anchor:after {
+  right: -2.3em;
+  top: -1.5em;
+}
+.align-right .alignable-container-anchor:before,
+.align-right .alignable-container-anchor:after {
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+}
+.align-left .alignable-container-anchor {
+  top: 50%;
+  right: 100%;
+  left: 0;
+}
+.align-left .alignable-container-anchor:before {
+  top: -1.5em;
+  right: -1em;
+}
+.align-left .alignable-container-anchor:after {
+  top: -1.5em;
+  right: -1.1em;
+}
+.align-left .alignable-container-anchor:before,
+.align-left .alignable-container-anchor:after {
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+}

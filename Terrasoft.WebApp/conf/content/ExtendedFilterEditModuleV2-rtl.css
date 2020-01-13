@@ -1,0 +1,86 @@
+﻿.header-name {
+  color: #444444;
+  font-size: 35px;
+  font-family: 'Segoe UI Light';
+  letter-spacing: -0.01em;
+  margin-bottom: 25px;
+}
+.extended-filter-button-container {
+  margin-top: 5px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+.extended-filter-button-container .t-btn-wrapper {
+  margin-left: 9px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  vertical-align: bottom;
+  border-left: 1px solid lightgrey;
+  padding-right: 0;
+}
+.extended-filter-btn-actions-wrapper {
+  margin-left: 9px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  vertical-align: bottom;
+}
+.extended-filter-caption {
+  width: auto;
+}
+.extended-filter-button-right {
+  float: left;
+  border-left: 0px !important;
+}
+#extendedFilterEdit {
+  width: 280px;
+}
+.custom-filter-container .filter-element-container-wrap {
+  display: none;
+}
+.period-fixed-filter-image-class,
+.custom-filter-button-container .wrapper-with-centered-right-menu {
+  margin-right: 10px;
+}
+.extended-filter-folder-icon {
+  padding: 0 0 0 10px;
+  vertical-align: bottom;
+}
+.extended-filter-folder-icon .t-btn-image {
+  width: 16px;
+  height: 16px;
+  margin-bottom: 2px;
+}
+.folder-title-container-wrap {
+  padding-top: 16px;
+}
+.extended-filter-folder-caption {
+  display: inline;
+}
+.action-buttons-container-wrapClass {
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
+.section .left-section-container .extended-filters-container-wrapClass {
+  overflow: hidden;
+  height: calc(100% - 96px);
+}
+.dashboard-container .section .left-section-container .extended-filters-container-wrapClass {
+  height: calc(100% - 64px);
+}
+.filter-edit {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.extended-filters-container-wrapClass .filter-edit .filteredit {
+  min-height: calc(100% - 95px);
+  margin-top: 14px;
+  overflow-x: auto;
+}
+.extended-filters-container-wrapClass .filter-edit .filteredit .filteredit-group {
+  height: auto;
+}
+.extended-filters-container-wrapClass .filter-edit .folder-title-container-wrap[style="display: none;"] + .filteredit {
+  min-height: calc(100% - 60px);
+}

@@ -1,0 +1,19 @@
+﻿.business-rules-filter-action-condition {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex-basis: auto;
+  align-self: center;
+  width: 100%;
+}
+.business-rules-filter-action-condition > div {
+  flex-basis: 5%;
+}
+.business-rules-filter-action-condition > div:last-child {
+  flex-basis: 57%;
+}
+.business-rules-filter-action-condition > div:first-child {
+  flex-basis: 38%;
+}

@@ -1,0 +1,111 @@
+﻿#CampaignDiagram {
+  overflow: scroll !important;
+}
+#CampaignPageV2CampaignStatusLabel:after {
+  top: 7px !important;
+}
+.campaign-name-enlarged input {
+  font-size: 17px;
+}
+.campaign-status-left .label-wrap {
+  justify-content: flex-start;
+  min-width: 5em;
+  margin-right: 14px !important;
+}
+.campaign-target-left {
+  color: #999999;
+  overflow: initial;
+  white-space: nowrap;
+  font-size: 1.4em;
+  width: auto;
+}
+.campaign-target-center {
+  color: #999999;
+  overflow: initial;
+  white-space: nowrap;
+  display: inline-flex;
+  width: auto;
+}
+.campaign-target-right {
+  color: #999999;
+  padding-top: 7px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: right;
+  overflow: hidden;
+  display: inline-block;
+  width: 100% !important;
+  font-size: 1.4em;
+}
+.campaign-target {
+  font-size: 1.4em;
+  width: 30px;
+  display: inline;
+}
+#CampaignPageV2TargetDescriptionContainerContainer {
+  display: flex;
+  padding-top: 7px;
+}
+#CampaignPageV2TargetPercentContainer {
+  display: -webkit-inline-flex !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  min-width: 60px;
+  width: 60px;
+}
+#CampaignPageV2TargetDescriptionContainer {
+  display: -webkit-inline-flex !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  vertical-align: bottom;
+  width: auto;
+  top: -7px;
+  position: relative;
+}
+#CampaignPageV2TargetPercentFloatEdit-wrap {
+  margin-top: -10px;
+}
+#CampaignPageV2DescriptionContainerContainer {
+  margin-left: 200px;
+  margin-top: -32px;
+  position: relative;
+}
+#AnalyticsDiagramContainer {
+  margin-left: 20px;
+  overflow: hidden;
+  margin-right: -5px;
+  margin-top: 1px;
+}
+.campaign-name-enlarged input {
+  font-size: 17px;
+  min-height: 1.655em;
+}
+.campaign-schema-block {
+  display: table;
+  width: 100%;
+  min-height: 350px;
+  margin-top: -15px;
+}
+.campaign-schema-block > div {
+  display: table-cell;
+  vertical-align: top;
+}
+.campaign-schema-block > .column-1 {
+  min-width: 60px;
+  border-right: 1px solid #E1E8F2;
+  padding-top: 25px;
+}
+.campaign-schema-block > .column-2 {
+  width: 100%;
+}
+.campaign-schema-block > .column-3 {
+  min-width: 340px;
+  max-width: 340px;
+  width: 340px;
+  border-left: 1px solid #E1E8F2;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+.campaign-indicator-container .indicator-module-wraper {
+  height: 98px !important;
+}

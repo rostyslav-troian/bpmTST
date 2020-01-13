@@ -1,0 +1,45 @@
+﻿.cf-likes-info {
+  color: #BEBEBE;
+}
+.cf-feed-comments-list {
+  background-color: #FAFAFA;
+}
+.cf-feed-comments-list .cf-like-icon {
+  width: 34px;
+}
+.cf-feed-comments-list .cf-like-icon::after {
+  right: 6px;
+}
+.cf-feed-comments-list .cf-feed-list-item-like-button {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.cf-feed-comments-list .cf-feed-list-item-actions {
+  left: 34px;
+}
+.cf-feed-comments-list.cf-feed-list.x-list .x-list-item.x-list-item-tpl .x-list-item-tpl.cf-comment-item {
+  background-color: transparent;
+  padding-right: 0;
+  margin-right: 14px;
+}
+.cf-comment-item .ts-list-group-columns,
+.cf-comment-item .cf-likes-info {
+  margin-right: 56px !important;
+}
+.cf-feed-comments-list.cf-feed-list.x-list .x-list-item.x-list-item-tpl .x-list-item-tpl {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  padding-bottom: 10px;
+  border-top: 0;
+}
+.cf-feed-comments-list .ts-list-group-columns {
+  max-height: 100%;
+}
+.cf-feed-comments-list .cf-feed-list-item-header {
+  margin-left: 21px;
+}
+.cf-feed-comments-list .cf-has-actions .cf-feed-list-item-header {
+  margin-left: 50px;
+}

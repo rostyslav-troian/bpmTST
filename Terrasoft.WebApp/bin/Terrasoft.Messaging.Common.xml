@@ -1,0 +1,1081 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Messaging.Common</name>
+    </assembly>
+    <members>
+        <member name="T:Terrasoft.Messaging.Common.GeneralizedCallFeatures">
+            <summary>
+            ############ ###### ######### ######## ## #######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallFeatures.CanNothing">
+            <summary>
+            ### ######### ########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallFeatures.CanReCall">
+            <summary>
+            ###########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallFeatures.CanDial">
+            <summary>
+            ####### #####.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallFeatures.CanAnswer">
+            <summary>
+            ########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallFeatures.CanDrop">
+            <summary>
+            #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallFeatures.CanHold">
+            <summary>
+            ######### ## #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallFeatures.CanUnHold">
+            <summary>
+            ##### # #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallFeatures.CanSetupTransfer">
+            <summary>
+            ###### ######## #######.
+            </summary>
+            <remarks>###### TAPI</remarks>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallFeatures.CanCompleteTransfer">
+            <summary>
+            ######### ########### #######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallFeatures.CanBlindTransfer">
+            <summary>
+            ######### ##########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallFeatures.CanMakeConsultCall">
+            <summary>
+            ######### ################ ######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallFeatures.CanDtmf">
+            <summary>
+            ######### ####### Dtmf.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.GeneralizedCallStateEnum">
+            <summary>
+            ############ ######### ######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallStateEnum.None">
+            <summary>
+            #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallStateEnum.Alerting">
+            <summary>
+            ###### ######## ### #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallStateEnum.Connected">
+            <summary>
+            ########## ###########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallStateEnum.Holded">
+            <summary>
+            ## #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallStateEnum.Conferenced">
+            <summary>
+            # ###### ###########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallStateEnum.Unknown">
+            <summary>
+            ########### #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.GeneralizedCallStateEnum.Busy">
+            <summary>
+            ######.
+            </summary>
+            <remarks>###### TAPI.</remarks>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.CallDirection">
+            <summary>
+            ############ ########### ######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.CallDirection.Unknown">
+            <summary>
+            ########### ## ##########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.CallDirection.Out">
+            <summary>
+            ######### ######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.CallDirection.In">
+            <summary>
+            ######## ######.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.Call">
+            <summary>
+            ##### ###### ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.Call.#ctor(System.String)">
+            <summary>
+            ############## ##### ######### <see cref="T:Terrasoft.Messaging.Common.Call"/>.
+            </summary>
+            <param name="id">############# ######.</param>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.Id">
+            <summary>
+            ############# ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.DataBaseUId">
+            <summary>
+            ############# ###### # #### ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.UserContactUId">
+            <summary>
+            ############# ######## ############, ####### ############ ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.CallFeaturesSet">
+            <summary>
+            ##### ###### <see cref="T:Terrasoft.Messaging.Common.GeneralizedCallFeatures"/> ######### ######## ## #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.DeviceId">
+            <summary>
+            ############# ##########, ####### ############ ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.CallerId">
+            <summary>
+            ##### ########, ####### ########### ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.CalledId">
+            <summary>
+            #### ########, ####### ###### ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.Direction">
+            <summary>
+            ########### ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.CallContext">
+            <summary>
+            ######## ######.
+            </summary>
+            <remarks>############## ########## ## ######.</remarks>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.CallContextType">
+            <summary>
+            ### ######### ######.
+            </summary>
+            <remarks>########## ######## ######.</remarks>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.StartTime">
+            <summary>
+            ##### ###### ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.EndTime">
+            <summary>
+            ##### ########## ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.State">
+            <summary>
+            ######### ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.OldState">
+            <summary>
+            ########## ######### ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.CurrentHoldStartTime">
+            <summary>
+            ##### ######### ######### ###### ## #########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.TotalHoldDuration">
+            <summary>
+            ################# (# ########) ###### ## #########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.ConnectionStartTime">
+            <summary>
+            ##### ######### ########## # #########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.CurrentTalkStartTime">
+            <summary>
+            ##### ###### ########## ######### ## ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.TotalTalkDuration">
+            <summary>
+            ################# (# ########) ###### # ###### #########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.RedirectingId">
+            <summary>
+            ##### ########, ####### ####### ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.RedirectionId">
+            <summary>
+            ##### ########, ## ######## ######## ######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.Call.TimeStamp">
+            <summary>
+            ######### ######### ##### ######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.Call._callProvider">
+            <summary>
+            ######### ######.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.Call.MakeConsultCall(System.String)">
+            <summary>
+            ######### ################ ######.
+            </summary>
+            <param name="targetAddress">#####, ## ####### ########### ################ #####.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.Call.AnswerCall">
+            <summary>
+            ######## ## ######.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.Call.HoldCall">
+            <summary>
+            ###### #### ####### ###### # #########.
+            </summary>
+            <remarks>######### ####### ## ######## ######### ######. #### ###### ######### ## #########, ##
+            ############ ###### ###### # #########. # ######### ###### - ######### ###### ## #########.</remarks>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.Call.DropCall">
+            <summary>
+            ######### ##########.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.Call.TransferCall(Terrasoft.Messaging.Common.Call)">
+            <summary>
+            ######### ######## (################) ####### ######.
+            </summary>
+            <param name="consultationCall">######, ####### ### ######## ############ (################ #####).</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.Call.SetupTransferCall">
+            <summary>
+            ########## # ######### ######## ######.
+            </summary>
+            <remarks>############ ###### # TAPI.</remarks>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.Call.BlindTransferCall(System.String)">
+            <summary>
+            ######### ########### (######) ####### ###### ## ######## #####.
+            </summary>
+            <param name="targetAddress">#####, ## ####### ########### ######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.Call.SendDtmf(System.String)">
+            <summary>
+            ########## ###### Dtmf.
+            </summary>
+            <param name="digits">####### ########.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.Call.Equals(Terrasoft.Messaging.Common.Call)">
+            <summary>
+            ########## ####### ###### # ########.
+            </summary>
+            <param name="other">######, # ####### ############ #######.</param>
+            <returns><c>true</c>, #### ###### #########, ##### - <c>false</c>.</returns>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.ActiveCallCollection">
+            <summary>
+            ######### ######## ####### <see cref="T:Terrasoft.Messaging.Common.Call"/>.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.ActiveCallCollection.CallExpireDuration">
+            <summary>
+            ############ ##### ##### ###### ###### # ######### (#####).
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallCollection.#ctor(Terrasoft.Core.UserConnection)">
+            <summary>
+            ############## ##### ######### <see cref="T:Terrasoft.Messaging.Common.ActiveCallCollection"/>.
+            </summary>
+            <param name="userConnection">################ ##########.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallCollection.#ctor(Terrasoft.Core.UserConnection,System.Guid)">
+            <summary>
+            ############## ##### ######### <see cref="T:Terrasoft.Messaging.Common.ActiveCallCollection"/> ### ######### ######## ############.
+            </summary>
+            <param name="userConnection">################ ##########.</param>
+            <param name="userContactId">############# ######## ############.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallCollection.ClearExpiredCalls">
+            <summary>
+            ####### ############ (########) ######.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallCollection.UpdateCallTable(Terrasoft.Messaging.Common.Call)">
+            <summary>
+            ####### ### ######### ###### ###### # #### ######.
+            </summary>
+            <param name="callListItem">######### ######### ######## #######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallCollection.SaveNewCallInDB(Terrasoft.Messaging.Common.Call,Terrasoft.Core.Entities.Entity)">
+            <summary>
+            ####### ###### ###### # #### ######.
+            </summary>
+            <param name="callListItem">######### ######### ######## #######.</param>
+            <param name="callEntity">###### ######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallCollection.UpdateCallInDB(Terrasoft.Messaging.Common.Call,Terrasoft.Core.Entities.Entity)">
+            <summary>
+            ######### ###### ###### # #### ######.
+            </summary>
+            <param name="callItem">######### ######### ######## #######.</param>
+            <param name="callEntity">###### ######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallCollection.UpdateCallTimeFileds(Terrasoft.Messaging.Common.Call,Terrasoft.Core.Entities.Entity,System.Exception)">
+            <summary>
+            Updates time call filds in database.
+            </summary>
+            <param name="callListItem">Call from active call collection.</param>
+            <param name="callEntity">Call record from database.</param>
+            <param name="ex"><see cref="T:System.Exception"/> instance.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallCollection.LogCallDurations(Terrasoft.Messaging.Common.Call,Terrasoft.Core.Entities.Entity)">
+            <summary>
+            Write logs with duration call info.
+            </summary>
+            <param name="callListItem">Call from active call collection.</param>
+            <param name="callEntity">Call record from database.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallCollection.GetStoreKey">
+            <summary>
+            ########## #### # ######### ### ####### ######### ######## #######.
+            </summary>
+            <returns>Hash-#### # ######### ######## #######.</returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallCollection.LoadState">
+            <summary>
+            ######### ######### ######## ####### ## #########.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallCollection.RefreshWithCallInfoPortion(Terrasoft.Messaging.Common.Call)">
+            <summary>
+            ######### ######## ######### ###### ## ######### ######### ########## ######.
+            </summary>
+            <param name="updateCall">######### ######, ## ######### ######## ##### ######### ##########.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallCollection.SaveState">
+            <summary>
+            ######### ####### ######### ######## ####### # #########.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.ActiveCallSnapshot">
+            <summary>
+            #####, ############## ###### ######## ####### ########## ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.ActiveCallSnapshot.ActiveCalls">
+            <summary>
+            ###### ######## #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.ActiveCallSnapshot.CurrentCall">
+            <summary>
+            ######## ######## ######.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ActiveCallSnapshot.SerializeToString">
+            <summary>
+            ############# ###### # ######.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.MsgEventType">
+            <summary>
+            ############ ####### ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.None">
+            <summary>
+            ## ##########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.LibraryInitialized">
+            <summary>
+            ########## ################.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.ConnectionCreated">
+            <summary>
+            ########## ###########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.Error">
+            <summary>
+            ######## ######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.CommandInfo">
+            <summary>
+            ######### ########## #######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.RingStarted">
+            <summary>
+            ####### ######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.RingFinished">
+            <summary>
+            ########## ######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.CommutationStarted">
+            <summary>
+            ########### ########## # #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.PutHoldAction">
+            <summary>
+            ####### ########## ## #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.EndHoldAction">
+            <summary>
+            ####### #### # #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.ActiveCallSnapshot">
+            <summary>
+            ####### ###### ######## #######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.LineStateChanged">
+            <summary>
+            ########## ######### ##### (##### ######### ######## ## #######).
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.AgentStateChanged">
+            <summary>
+            ########## ######### ######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.AbonentBusy">
+            <summary>
+            ####### ########## # ######### #####.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.Disconnected">
+            <summary>
+            ########## #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.CallSavedInDb">
+            <summary>
+            ###### ######## # #### ######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.RawData">
+            <summary>
+            ############## ###### ########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.CallInfoChanged">
+            <summary>
+            ########## ###### ######.
+            </summary>
+            <remarks>############ ####### ###### ############ ## <see cref="P:Terrasoft.Messaging.Common.Call.DataBaseUId"/>.</remarks>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgEventType.DtmfEntered">
+            <summary>
+            ########## ####### Dtmf.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.MsgErrorType">
+            <summary>
+            ############ ##### ###### ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgErrorType.GeneralError">
+            <summary>
+            ##### ######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgErrorType.LoadLibraryError">
+            <summary>
+            ###### ######## ##########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgErrorType.OpenConnectionError">
+            <summary>
+            ###### ######## ###########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgErrorType.CommandError">
+            <summary>
+            ###### ########## #######.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgErrorType.CommandNotImplementedError">
+            <summary>
+            ####### ## ###########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgErrorType.CallCentreNotAvailableError">
+            <summary>
+            ###### ######### ## ########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgErrorType.AuthenticationError">
+            <summary>
+            ###### ############## (######## ##### ### ######).
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.MsgErrorType.CallSavingError">
+            <summary>
+            ###### ########## ###### # ##.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.OnMessageHandler">
+            <summary>
+            ####### ########### ####### ########## ###### ###########.
+            </summary>
+            <param name="eventParams">######### #######.</param>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.ConnectionCloseHandler">
+            <summary>
+            ####### ########### ######## ########### ########## ###### ###########.
+            </summary>
+            <param name="connection">########### ########## ###### ###########.</param>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.IMsgConnectionFactory">
+            <summary>
+            ######### ####### ########### ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.IMsgLibrary">
+            <summary>
+            ######### ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.IMsgLibrary.Name">
+            <summary>
+            ###### ######## ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.IMsgLibrary.IsActive">
+            <summary>
+            ####### ########## ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.IMsgLibrary.MsgServer">
+            <summary>
+            ###### ## ###### ####### ###### ###########.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.IMsgConnection">
+            <summary>
+            ######### ########### ####### #########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.IMsgConnection.IgnoreTryReconnection">
+            <summary>
+            Sign that do not need to try reconnecting to terrasoft messaging service.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.IMsgConnection.LibrarySpecificService(System.String,System.String)">
+            <summary>
+            ######### ########### ### ####### ########## ###### #########.
+            </summary>
+            <param name="serviceName">### ######## #######.</param>
+            <param name="serviceParams">################# ######### #######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.IMsgConnection.SetMsgUserState(System.String,System.String)">
+            <summary>
+            ############# ######### # ####### ######### #########.
+            </summary>
+            <param name="code">### #########.</param>
+            <param name="reason">####### ######### #########.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.IMsgConnection.QueryMsgUserState">
+            <summary>
+            ########### ####### ######### ############.
+            </summary>
+            <remarks>########## ######## ####### <see cref="F:Terrasoft.Messaging.Common.MsgEventType.AgentStateChanged"/>.</remarks>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.IMsgCommandProcessor">
+            <summary>
+            ######### ########## ###### #########.
+            </summary>
+            <remarks>######### ######### #######, ####### ############ ####### ####### #########.</remarks>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.IMsgCommandProcessor.ProcessMsgCommand(Terrasoft.Messaging.Common.MsgCommandInfo)">
+            <summary>
+            ############ #######, ############ ######## ####### #########.
+            </summary>
+            <param name="msgCommand">####### ####### #########.</param>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.ILicenseAbleLibrary">
+            <summary>
+            ######### ########## ####### #########, ####### ######## ##############.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ILicenseAbleLibrary.GetLicInfo">
+            <summary>
+            ########## ############ ######## ######## ##########.
+            </summary>
+            <returns>#### ############ ######## ######## ##########.</returns>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.ITelephonyCall">
+            <summary>
+            ######### ########## ######.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyCall.MakeConsultCall(System.String)">
+            <summary>
+            ######### ################ ######.
+            </summary>
+            <param name="targetAddress">#####, ## ####### ########### ################ #####.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyCall.AnswerCall">
+            <summary>
+            ######## ## ######.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyCall.HoldCall">
+            <summary>
+            ###### #### ####### ###### # #########.
+            </summary>
+            <remarks>######### ####### ## ######## ######### ######. #### ###### ######### ## #########, ##
+            ############ ###### ###### # #########. # ######### ###### - ######### ###### ## #########.</remarks>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyCall.DropCall">
+            <summary>
+            ######### ##########.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyCall.TransferCall(Terrasoft.Messaging.Common.Call)">
+            <summary>
+            ######### ######## (################) ####### ######.
+            </summary>
+            <param name="consultationCall">################ ######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyCall.SetupTransferCall">
+            <summary>
+            ######### ########## ###### # ######### ########.
+            </summary>
+            <remarks>###### TAPI.</remarks>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyCall.BlindTransferCall(System.String)">
+            <summary>
+            ######### ########### (######) ####### ###### ## ######## #####.
+            </summary>
+            <param name="targetAddress">#####, ## ####### ########### ######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.IDtmfSupported.SendDtmf(System.String)">
+            <summary>
+            ########## ###### Dtmf.
+            </summary>
+            <param name="digits">####### ########.</param>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.ITelephonyConnection">
+            <summary>
+            ######### ########### # ######### ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyConnection.CloseConnection">
+            <summary>
+            ######### ########### # ####### ######### # ############ #######.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyConnection.MakeCall(System.String)">
+            <summary>
+            ########## ###### ## ######### ######.
+            </summary>
+            <param name="targetAddress">#####, ## ######## ############ ######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyConnection.Hookup">
+            <summary>
+            ######### ######.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyConnection.SetDnd">
+            <summary>
+            ############# ######### "## ##########".
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyConnection.SetDndForAddress(System.String)">
+            <summary>
+            ############# ######### "## ##########" ### #####.
+            </summary>
+            <param name="targetAddress">#####, ### ####### ########## ########## ######### "## ##########".</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyConnection.QueryLineState">
+            <summary>
+            ########### ####### ######### #####.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyConnection.QueryCallState(Terrasoft.Messaging.Common.Call)">
+            <summary>
+            ########### ####### ######### ######.
+            </summary>
+            <remarks># ##### ###### ########## ############### ##### ######.</remarks>
+            <param name="call">######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyConnection.QueryActiveCallSnapshot">
+            <summary>
+            ########### ######### ####### #######.
+            </summary>
+            <remarks># ###### ######### ########## ############ ####### <see cref="F:Terrasoft.Messaging.Common.MsgEventType.ActiveCallSnapshot"/>.
+            </remarks>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyConnection.SetCallCustomContext(Terrasoft.Messaging.Common.Call,System.String,System.String)">
+            <summary>
+            ############# ########### ########## ## ######.
+            </summary>
+            <param name="call">######.</param>
+            <param name="contentTypeName">### ########### ##########.</param>
+            <param name="content">########### ##########.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyConnection.SetCallProvider(Terrasoft.Messaging.Common.Call)">
+            <summary>
+            ############# ######### <see cref="T:Terrasoft.Messaging.Common.ITelephonyCall"/> ### ####### ######.
+            </summary>
+            <param name="call">######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyConnection.CancelTransfer(Terrasoft.Messaging.Common.Call,Terrasoft.Messaging.Common.Call)">
+            <summary>
+            ######## ######## ####### ######.
+            </summary>
+            <param name="currentCall">######## ######.</param>
+            <param name="consultCall">################ ######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.ITelephonyConnection.SetWrapUpUserState(System.Boolean)">
+            <summary>
+            ############# ######### ##############.
+            </summary>
+            <param name="isWrapUpActive">####### ######### ######### ##############.</param>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.IMsgEventInfo">
+            <summary>
+            ######### ####### ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.IMsgEventInfo.Connection">
+            <summary>
+            ###########, ####### ######## ############ #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.IMsgEventInfo.EventType">
+            <summary>
+            ### #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.IMsgEventInfo.ContentType">
+            <summary>
+            ### ###### #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.IMsgEventInfo.CommandUId">
+            <summary>
+            ############# #######, ####### ############ #######.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.MsgEventInfo">
+            <summary>
+            ####### ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.MsgEventInfo.#ctor">
+            <summary>
+            ############## ##### ######### ###### <see cref="T:Terrasoft.Messaging.Common.MsgEventInfo"/>.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.MsgEventInfo.Connection">
+            <summary>
+            ###########, ####### ######## ############ #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.MsgEventInfo.ConnectionUId">
+            <summary>
+            ############# ########### <see cref="P:Terrasoft.Messaging.Common.MsgEventInfo.Connection"/>.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.MsgEventInfo.LibraryUId">
+            <summary>
+            ############# ########## ###### ###########, ####### ############ #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.MsgEventInfo.CommandUId">
+            <summary>
+            ############# #######, ####### ############ #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.MsgEventInfo.EventType">
+            <summary>
+            ### #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.MsgEventInfo.Content">
+            <summary>
+            ###### #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.MsgEventInfo.ContentType">
+            <summary>
+            ### ###### #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.MsgEventInfo.PrivateData">
+            <summary>
+            ############## ######### #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.MsgEventInfo.ResultData">
+            <summary>
+            ################# ############# #######.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.MsgUtilService">
+            <summary>
+            ##### ###-####### #########.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.MsgUtilService.LogInMsgServer(Terrasoft.Messaging.Common.NewSessionParameters)">
+            <summary>
+            ############ ############ # ####### #########.
+            </summary>
+            <param name="paramList">######### ######.</param>
+            <returns>########## ##### ########## #############, #### ########### ###### #######. ##### - ###### ######.
+            </returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.MsgUtilService.UpdateCall(Terrasoft.Messaging.Common.Call)">
+            <summary>
+            ######### ########## # ###### # #### ###### # ######### ##### ########## ##########.
+            </summary>
+            <param name="call">######.</param>
+            <returns>#### ########## ###### ####### - ############# ###### # #### ######, ##### - ######### ##
+            ######.</returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.MsgUtilService.UpdateCallInfo(Terrasoft.Messaging.Common.Call)">
+            <summary>
+            ######### ###### ###### # #### ######.
+            </summary>
+            <param name="callInfo">######.</param>
+            <returns>#### ########## ###### ####### - ############# ###### # #### ######, ##### - ######### ##
+            ######.</returns>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.TelephonyConnectionBase">
+            <summary>
+            ####### ##### ########### #########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.TelephonyConnectionBase.CallTypeName">
+            <summary>
+            ###### ######## #### ###### ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.TelephonyConnectionBase.MsgErrorInfoTypeName">
+            <summary>
+            ######## #### ### ########## ## ###### ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Common.TelephonyConnectionBase.ActiveCallSnapshotTypeName">
+            <summary>
+            ######## #### ### ######### ####### #######.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.TelephonyConnectionBase.MsgSessionUId">
+            <summary>
+            ############# ###### ###########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.TelephonyConnectionBase.IsActive">
+            <summary>
+            ####### ########## ###########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.TelephonyConnectionBase.MsgLibrary">
+            <summary>
+            ###### ## ########## ###### ###########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.TelephonyConnectionBase.IgnoreTryReconnection">
+            <summary>
+            Sign that do not need to try reconnecting to terrasoft messaging service.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.TelephonyConnectionBase.UserUId">
+            <summary>
+            ############# ############ # #### ######, ####### ########### ###### ###########.
+            </summary>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.TelephonyConnectionBase.UserContactUId">
+            <summary>
+            ############# ######## ############ # #### ######, ####### ########### ###### ###########.
+            </summary>
+        </member>
+        <member name="E:Terrasoft.Messaging.Common.TelephonyConnectionBase.OnMessage">
+            <summary>
+            ####### ########### ### ######## ######### ## ###### ####### ############.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.GetServiceRequestObject(System.String,Terrasoft.Messaging.Common.Call)">
+            <summary>
+            Returns service request and logs call parameters. 
+            </summary>
+            <param name="serviceMethodName">Service method name.</param>
+            <param name="call"><see cref="T:Terrasoft.Messaging.Common.Call"/> instance.</param>
+            <returns><see cref="T:System.Net.HttpWebRequest"/> instance.</returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.DecryptPassword(System.String)">
+            <summary>
+            ######### ########### ######, ############ ### ########### ############ ## ####### #########.
+            </summary>
+            <param name="password">############# ######.</param>
+            <returns>############## ######.</returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.SendError(System.String,System.String)">
+            <summary>
+            ########## ######### ## ###### ## ######.
+            </summary>
+            <param name="message">######### ## ######.</param>
+            <param name="errorCode">### ######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.SendCallMsgEvent(Terrasoft.Messaging.Common.Call,Terrasoft.Messaging.Common.MsgEventType,System.Boolean)">
+            <summary>
+            ########## ######### ## ######### ######### ######, ######## ###### # #### ######.
+            </summary>
+            <param name="call">######.</param>
+            <param name="eventType">### #######.</param>
+            <param name="skipSaveDb">## ######### ###### # ##.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.SendLineFeatures(Terrasoft.Messaging.Common.GeneralizedCallFeatures,System.String)">
+            <summary>
+            ########## ######### ## ######### ######### ######## ## #####.
+            </summary>
+            <param name="lineFeatures">############ ###### ######### ########.</param>
+            <param name="callId">############# ######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.LogDebug(System.String)">
+            <summary>
+            ########## # ### ########## #########.
+            </summary>
+            <param name="value">########## #########.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.LogDebug(System.String,System.Object[])">
+            <summary>
+            ########## # ### ########## #########.
+            </summary>
+            <param name="value">###### ########## ####### # ########## ###########.</param>
+            <param name="args">######### ####### #########.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.LogError(System.String)">
+            <summary>
+            ########## # ### ######### ## ######.
+            </summary>
+            <param name="value">######### ## ######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.LogError(System.String,System.Object[])">
+            <summary>
+            ########## # ### ######### ## ######.
+            </summary>
+            <param name="value">###### ########## ####### # ########## ## ######.</param>
+            <param name="args">######### ####### #########.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.LogError(System.Exception,System.String,System.Object[])">
+            <summary>
+            ########## # ### ######### ## ######, ########## ########## ## ##########, ####### ####### ### ######.
+            </summary>
+            <param name="e">########## ## ###### ######.</param>
+            <param name="value">###### ########## ####### # ########## ## ######.</param>
+            <param name="args">######### ####### #########.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.ClearMsgEventHandlers">
+            <summary>
+            ########## web-socket ########## ## ####### <see cref="E:Terrasoft.Messaging.Common.TelephonyConnectionBase.OnMessage"/> ########### #########.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.ResetCloseConnectionTimer">
+            <summary>
+            ######### ##### ####### ###########.
+            </summary>
+            <remarks>###### ########### #####, ####### ###### ## #### web-socket ##### # #######
+            ############.</remarks>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.CloseConnection">
+            <summary>
+            ######### ########### # ####### ######### # ############ #######.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.TelephonyConnectionBase.Dispose">
+            <summary>
+            ######### ########, ############# # ##### ########.
+            </summary>
+        </member>
+        <member name="T:Terrasoft.Messaging.Common.SimpleMsgCommandExecutor">
+            <summary>
+            ############### ##### ### ########## ###### ########## ###### ###########.
+            </summary>
+            <remarks>### ########## ###### ############ #########.</remarks>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.SimpleMsgCommandExecutor.ExecuteMsgCommand(System.Object,Terrasoft.Messaging.Common.MsgCommandInfo)">
+            <summary>
+            ######### ####### ########## ###### ###########.
+            </summary>
+            <param name="executor">########### #######. <remarks>##### ####, ########, ###### ####
+            <see cref="T:Terrasoft.Messaging.Common.TelephonyConnectionBase"/> ### <see cref="T:Terrasoft.Messaging.Common.Call"/>.</remarks></param>
+            <param name="msgCommand">####### ########## ###### ###########.</param>
+        </member>
+        <member name="P:Terrasoft.Messaging.Common.WebSocketServiceLayer.ClientConnectionClassName">
+            <summary>
+            Gets a value with name of Js-client class that supports connection to this msg service.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.WebSocketServiceLayer.Initilize(System.Int32)">
+            <summary>
+            Initializes the web-socket service. The port number depends on the number of the current workspace.
+            </summary>
+            <param name="workspaceNumber">The number of the current workspace.</param>
+            <remarks>The number of the workspace is added to the setting's port number.</remarks>
+            <returns><c>true</c>, if the service is successfully initialized. Otherwise - <c>false</c>.</returns>
+        </member>
+        <member name="M:Terrasoft.Messaging.Common.WebSocketServiceLayer.GetServiceUrl(System.String)">
+            <summary>
+            Gets a service url for client connections.
+            </summary>
+            <param name="baseUrl">Base url for service connection.</param>
+            <returns>Service endpoint url that client must use to connect.</returns>
+        </member>
+    </members>
+</doc>

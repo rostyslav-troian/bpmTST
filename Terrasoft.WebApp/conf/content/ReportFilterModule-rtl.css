@@ -1,0 +1,42 @@
+﻿.report-custom-view-container {
+  margin-bottom: 12px;
+}
+.report-custom-control-container {
+  float: right;
+}
+.report-custom-label-container {
+  width: auto;
+  padding-right: 12px;
+}
+.report-custom-label {
+  margin-bottom: 6px;
+  width: auto;
+}
+.report-filter-inner-container {
+  height: 34px;
+  float: right;
+}
+.report-element-with-space {
+  width: auto;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+.report-custom-label-with-top {
+  width: auto;
+  margin-top: 25px;
+  margin-bottom: 14px;
+}
+.report-custom-label-with-top28 {
+  width: auto;
+  margin-top: 25px;
+  margin-bottom: 6px;
+  display: inherit;
+}
+.report-with-centered-right-menu {
+  position: relative;
+  padding-left: 1.86em;
+  padding-right: 0px;
+}
+.report-custom-control {
+  width: 215px;
+}

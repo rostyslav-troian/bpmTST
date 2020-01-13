@@ -1,0 +1,10 @@
+﻿.ts-state-information-buttons .ts-refresh-blue-icon {
+  height: 18px;
+}
+.ts-state-information-buttons .ts-info-blue-icon {
+  height: 28px;
+}
+.cf-export-error-details-button .x-button-label,
+.cf-information-panel-refresh-button .x-button-label {
+  color: #0DA9F2;
+}

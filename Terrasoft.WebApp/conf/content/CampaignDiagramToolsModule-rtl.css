@@ -1,0 +1,52 @@
+﻿.tools-cell-caption {
+  padding-bottom: 19px;
+}
+.tools-cell-icon {
+  height: 60px;
+}
+.tools-cell-icon-small {
+  height: 30px;
+}
+.tools-cell-label {
+  height: 35px;
+}
+.drag-icon-container {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  margin: 0 auto;
+}
+.drag-icon-container-small {
+  width: 25px;
+  height: 25px;
+}
+.tools-icon {
+  margin-left: 0px;
+}
+.tools-icon img {
+  width: 45px;
+  height: 45px;
+}
+.drag-icon-container-small .tools-icon img {
+  width: 25px;
+  height: 25px;
+}
+.tools-caption {
+  text-align: center;
+  -webkit-user-select: none;
+  font-size: 1.6em;
+  color: #0e84cf;
+  font-family: "Segoe UI";
+}
+.tools-name {
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-size: 12px;
+  fill: #444444;
+  text-decoration: none;
+  dominant-baseline: middle;
+}
+.campaign-diagram-tools-container {
+  margin-right: -21px;
+  width: 74px;
+}

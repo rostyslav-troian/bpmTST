@@ -1,0 +1,59 @@
+﻿.right-panel-container-wrap.narrow .right-panel-container *[data-item-type="smarthtml"][data-page-exists="true"] .properties-header,
+.right-panel-container-wrap.narrow .right-panel-container *[data-item-type="smarthtml"][data-page-exists="true"] .properties-content .ts-tabpanel {
+  background-color: #a6bfa1;
+}
+.right-panel-container-wrap.narrow .right-panel-container *[data-item-type="smarthtml"][data-page-exists="true"] .ts-controlgroup-caption-wrap > span {
+  color: #a6bfa1;
+}
+.right-panel-container-wrap.narrow .right-panel-container *[data-item-type="smarthtml"][data-page-exists="true"] .background-label-wrapper > label {
+  color: #a6bfa1;
+}
+.right-panel-container-wrap.narrow .right-panel-container *[data-item-type="smarthtml"][data-page-exists="true"] .properties-content > *:first-child {
+  height: 100%;
+  margin-top: 0;
+  padding: 0;
+}
+.content-smarthtml-properties-container .blank-slate-container {
+  padding-top: 20px;
+}
+.content-smarthtml-properties-container .blank-slate-container .label-content-container {
+  overflow: visible;
+}
+.description-label {
+  box-shadow: -3px 0 0 0 #54b8df;
+  padding-left: 5px;
+}
+.content-smarthtml-properties-container .macros-container {
+  padding-top: 10px;
+}
+.content-smarthtml-properties-container .macros-container .macro-input-container .base-edit {
+  padding-left: 0;
+}
+.content-smarthtml-properties-container .macros-container .macro-input-container .base-edit:not(.base-edit-focus) {
+  border: 1px solid white;
+  border-bottom: 1px dotted #c8c8c8;
+}
+.content-smarthtml-properties-container .macros-container .macro-input-container .base-edit:hover {
+  border-bottom: 1px solid #c8c8c8;
+  cursor: pointer;
+}
+.content-smarthtml-properties-container .macros-container .macro-input-container .base-edit.base-edit-focus {
+  outline: none;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #00aeef;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+.content-smarthtml-properties-container .macros-container .macro-input-container .t-label {
+  color: #999999;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  padding-top: 10px;
+}
+.content-smarthtml-properties-container .edit-button-container {
+  text-align: center;
+}
+.content-smarthtml-properties-container .edit-button-container .edit-smart-block-button {
+  padding-top: 10px;
+}

@@ -1,0 +1,82 @@
+﻿.issue-main-container {
+  width: 100%;
+  height: auto;
+  overflow-y: hidden;
+  position: relative;
+  z-index: 9999;
+  box-shadow: 0 0 7px #cdcdcd;
+  background: rgba(255, 255, 255, 0.8);
+  pointer-events: auto;
+}
+.issue-main-container .ts-tabpanel {
+  background: #ffffff;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  width: 100%;
+  height: 45px;
+}
+.issue-main-container .ts-tabpanel .ts-tabpanel-wrap:before {
+  background-color: white;
+}
+.issue-main-container .ts-tabpanel .tab-counter {
+  margin-left: 8px;
+  border: 1px solid red;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: red;
+}
+.issue-main-container .ts-tabpanel .tab-counter[data-item-marker="ErrorsTab-counter"] {
+  color: #fc5555;
+  border: 1px solid #fc5555;
+}
+.issue-main-container .ts-tabpanel .tab-counter[data-item-marker="WarningsTab-counter"] {
+  color: #f29446;
+  border: 1px solid #f29446;
+}
+.issue-main-container .ts-tabpanel .ts-tabpanel-items > li {
+  padding: 3px 0 0 6px;
+  font-size: 1.2em;
+  margin-left: 5px;
+}
+.issue-main-container .ts-tabpanel .ts-tabpanel-items .ts-tabpanel-active-item {
+  background-color: transparent;
+}
+.issue-main-container .ts-tabpanel-collapse-button {
+  margin-right: 0;
+  top: 0;
+  background-position: 8px 12px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4NCiAgPGcgaWQ9ImFycm93X2hpZGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMjM4IC02MDMpIj4NCiAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlXzEzOTAiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDEzOTAiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTIzOCA2MDMpIiBmaWxsPSJub25lIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfMTMzNiIgZGF0YS1uYW1lPSJQYXRoIDEzMzYiIGQ9Ik03LDAsMCw2LjUsNywxMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTIzOS41IDYxNC41KSByb3RhdGUoLTkwKSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNDJhZGVmIiBzdHJva2Utd2lkdGg9IjIiLz4NCiAgPC9nPg0KPC9zdmc+DQo=);
+}
+.issue-main-container .ts-tabpanel-collapse-button:hover {
+  background-position: 8px 12px;
+}
+.issue-main-container .ts-tabpanel-collapsed .ts-tabpanel-collapse-button {
+  background-position: 8px 12px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4NCiAgPGcgaWQ9ImFycm93X3Nob3ciIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMjM4IC02NzgpIj4NCiAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlXzEzOTAiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDEzOTAiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTIzOCA2NzgpIiBmaWxsPSJub25lIi8+DQogICAgPHBhdGggaWQ9IlBhdGhfMTMzNiIgZGF0YS1uYW1lPSJQYXRoIDEzMzYiIGQ9Ik03LDEzLDAsNi41LDcsMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI1Mi41IDY4Mi41KSByb3RhdGUoOTApIiBmaWxsPSJub25lIiBzdHJva2U9IiM0MmFkZWYiIHN0cm9rZS13aWR0aD0iMiIvPg0KICA8L2c+DQo8L3N2Zz4NCg==);
+}
+.issue-main-container .ts-tabpanel.ts-tabpanel-collapsed {
+  background: rgba(255, 255, 255, 0);
+}
+.issue-main-container .tab-container {
+  background: #ffffff;
+  height: 163px;
+  overflow-y: auto;
+  padding-left: 10px;
+}
+.issue-main-container[data-tab-panel-collapsed="false"] {
+  width: 100%;
+}
+.issue-main-container[data-tab-panel-collapsed="true"] {
+  width: 264px;
+  opacity: 1;
+}
+.issue-main-container[data-tab-panel-collapsed="true"] .ts-tabpanel .ts-tabpanel-items .ts-tabpanel-active-item {
+  border-bottom: 0;
+  color: #4e7bd8;
+}

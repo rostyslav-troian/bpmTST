@@ -1,0 +1,193 @@
+﻿.schema-designer .properties-ct .schema-wrap.one-el .properties-container .t-checkbox-control {
+  margin-top: 8px;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .t-checkbox-control.no-wrap {
+  margin-top: 0;
+}
+.schema-designer .properties-ct .schema-wrap.one-el .properties-container .t-combobox-edit.no-label {
+  padding-top: 10px;
+}
+.schema-designer .properties-ct .label-small {
+  margin: 16px 9px 0 0;
+  font-size: 13px;
+}
+.schema-designer .properties-ct .label-control {
+  color: #444444;
+  margin: 16px 0 0 32px;
+}
+.schema-designer .properties-ct .grid-layout-spacer {
+  height: 0;
+}
+.schema-designer .properties-ct .filter-edit-container .filteredit .filteredit-group .filteredit-group-rules .filteredit-group-rules-list .filteredit-rule .filteredit-rule-left {
+  margin-left: 32px;
+  font-size: 13px;
+  color: #999999;
+}
+.schema-designer .properties-ct .t-btn-wrapper.t-information-btn.t-checkbox-information-button {
+  margin-top: 11px;
+  margin-bottom: 0;
+}
+.schema-designer .properties-ct .t-btn-toolbar-wrapper {
+  margin-top: 20px;
+}
+.schema-designer .properties-ct [data-item-marker*='AddCampaignParticipantPage'] .t-title-label-proc {
+  color: #4ad693;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignStartSignalPage'] .t-title-label-proc {
+  color: #4ad693;
+}
+.schema-designer .properties-ct [data-item-marker*='ExitFromCampaignPage'] .t-title-label-proc {
+  color: #ec757b;
+}
+.schema-designer .properties-ct [data-item-marker*='ExitFromCampaignPage'] .t-folder-information-btn {
+  margin-top: 20px;
+}
+.schema-designer .properties-ct [data-item-marker*='MarketingEmailPage'] .t-title-label-proc {
+  color: #9494eb;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignLandingPage'] .t-title-label-proc {
+  color: #f2c933;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignEventPage'] .t-title-label-proc {
+  color: #f2c933;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .t-title-label-proc,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .t-title-label-proc {
+  color: #839dc3;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container {
+  padding-top: 20px;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .multiline-label,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .multiline-label {
+  font-size: 13px;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .macros-input-container,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .macros-input-container,
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .parameter-input-container,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .parameter-input-container {
+  padding-top: 4px;
+  margin-right: 28px;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .macros-input-container .parameter-label-wrap,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .macros-input-container .parameter-label-wrap,
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .parameter-input-container .parameter-label-wrap,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .parameter-input-container .parameter-label-wrap,
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .macros-input-container .parameter-control-wrap,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .macros-input-container .parameter-control-wrap,
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .parameter-input-container .parameter-control-wrap,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .parameter-input-container .parameter-control-wrap {
+  margin-top: 25px;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .macros-input-container .parameter-label-wrap label,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .macros-input-container .parameter-label-wrap label,
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .parameter-input-container .parameter-label-wrap label,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .parameter-input-container .parameter-label-wrap label {
+  padding-bottom: 2px;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .parameter-tools-container,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .parameter-tools-container {
+  width: 26px;
+  float: right;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .parameter-tools-container .value-menu-btn,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .parameter-tools-container .value-menu-btn {
+  padding: 3px 3px;
+  margin-bottom: 2px;
+  min-height: 24px;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .parameter-tools-container .value-menu-btn .t-btn-menu,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .parameter-tools-container .value-menu-btn .t-btn-menu {
+  display: none;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container .parameter-tools-container .value-remove-btn,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container .parameter-tools-container .value-remove-btn {
+  padding: 3px 3px;
+  margin-bottom: 2px;
+  min-height: 24px;
+  visibility: hidden;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-item-container:hover .parameter-tools-container .value-remove-btn,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-item-container:hover .parameter-tools-container .value-remove-btn {
+  visibility: visible;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .add-entity-column-button,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .add-entity-column-button {
+  padding: 0;
+  margin-top: 20px;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-label-wrap,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-label-wrap {
+  display: inline-block;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .parameter-control-wrap,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .parameter-control-wrap {
+  display: inline-block;
+  margin-right: 14px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignAddObjectPage'] .time-edit.datetime-timecontrol,
+.schema-designer .properties-ct [data-item-marker*='CampaignUpdateObjectPage'] .time-edit.datetime-timecontrol {
+  width: 94px;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignSequenceFlowPropertiesPage'] .t-title-label-proc {
+  color: #839dc3;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignConditionalSequenceFlowPropertiesPage'] .t-title-label-proc {
+  color: #839dc3;
+}
+.schema-designer .properties-ct [data-item-marker*='CampaignConditionalSequenceFlowPropertiesPage'] #ExtendedFiltersContainer {
+  margin-top: 16px;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailConditionalTransitionPropertiesPage'] .t-title-label-proc {
+  color: #839dc3;
+}
+.schema-designer .properties-ct [data-item-marker*='EmailConditionalTransitionPropertiesPage'] #ExtendedFiltersContainer {
+  margin-top: 16px;
+}
+.schema-designer .properties-ct [data-item-marker*='EventConditionalTransitionPropertiesPage'] .t-label.t-title-label-proc {
+  color: #839dc3;
+}
+.schema-designer .properties-ct [data-item-marker*='EventConditionalTransitionPropertiesPage'] #ExtendedFiltersContainer {
+  margin-top: 16px;
+}
+.schema-designer .properties-ct [data-item-marker*='EventConditionalTransitionPropertiesPage'] .responses-list {
+  margin-top: 10px;
+}
+.schema-designer .properties-ct [data-item-marker*='EventConditionalTransitionPropertiesPage'] .responses-list .t-label {
+  font-size: 14px;
+  color: #444444;
+  padding-top: 0px;
+}
+.schema-designer .properties-ct [data-item-marker*='EventConditionalTransitionPropertiesPage'] .responses-grid-row {
+  padding: 5px 0 6px 0;
+}
+.schema-designer .properties-ct [data-item-marker*='EventConditionalTransitionPropertiesPage'] .response-label-wrap {
+  display: inline-block;
+}
+.schema-designer .properties-ct [data-item-marker*='EventConditionalTransitionPropertiesPage'] .response-control-wrap {
+  display: inline-block;
+  margin-right: 16px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.schema-designer .properties-ct [data-item-marker*='LandingConditionalTransitionPropertiesPage'] .t-label.t-title-label-proc {
+  color: #839dc3;
+}
+.schema-designer .properties-ct [data-item-marker*='LandingConditionalTransitionPropertiesPage'] #ExtendedFiltersContainer {
+  margin-top: 16px;
+}
+.schema-designer .properties-ct [data-item-marker*='LandingConditionalTransitionPropertiesPage'] .responses-list {
+  margin-top: 10px;
+}
+.schema-designer .properties-ct [data-item-marker*='LandingConditionalTransitionPropertiesPage'] .responses-list .t-label {
+  font-size: 14px;
+  color: #444444;
+  padding-top: 0px;
+}

@@ -1,0 +1,249 @@
+﻿.sync-settings-page .t-label.help-label {
+  color: #999999;
+  font-size: 14px;
+  padding-right: 52px;
+}
+.sync-settings-page .language-edit {
+  padding-right: 52px;
+  margin-top: 10px;
+}
+.sync-settings-page .language-edit .control-wrap {
+  max-width: 40em;
+}
+.sync-settings-page .ts-tabpanel {
+  margin: 15px 0;
+}
+.sync-settings-page .grid-multiselect div[level='0'] .t-checkboxedit-wrap {
+  display: none;
+}
+.sync-settings-page .grid-captions {
+  display: none;
+}
+.sync-settings-page .grid {
+  margin-right: 47px;
+  margin-left: 30px;
+  width: 95%;
+}
+.sync-settings-page .grid .grid-toggle-empty {
+  width: 16px;
+}
+.sync-settings-page .control-wrap {
+  max-width: 280px;
+}
+.sync-settings-page .t-label {
+  color: #444444;
+}
+.sync-settings-page .control-width-15.settings-page-reverse-toggle-edit {
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+.sync-settings-page .control-width-15:not(.settings-page-reverse-toggle-edit) {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.sync-settings-page .control-width-15:not(.settings-page-reverse-toggle-edit) .label-wrap {
+  max-width: 50em;
+  width: auto;
+}
+.sync-settings-page .radio-button-container {
+  margin-right: 48px;
+}
+.sync-settings-page .radio-button-container .t-label {
+  padding-right: 23px;
+}
+.sync-settings-page .radio-button-container .t-radio-wrap {
+  color: #4E7BD8;
+}
+.sync-settings-page .settings-page-import-from-date .label-wrap {
+  width: 18.5em;
+  max-width: 18.5em;
+}
+.sync-settings-page .settings-page-reverse-checkbox,
+.sync-settings-page .settings-page-reverse-toggle-edit {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+}
+.sync-settings-page .settings-page-reverse-checkbox .label-wrap,
+.sync-settings-page .settings-page-reverse-toggle-edit .label-wrap {
+  display: flex;
+  width: 80%;
+  max-width: 80%;
+  align-items: center;
+}
+.sync-settings-page .settings-page-reverse-checkbox .label-wrap .t-label,
+.sync-settings-page .settings-page-reverse-toggle-edit .label-wrap .t-label {
+  text-align: right;
+}
+.sync-settings-page .settings-page-reverse-checkbox .control-wrap,
+.sync-settings-page .settings-page-reverse-toggle-edit .control-wrap {
+  margin-right: 0;
+  padding-right: 0;
+  width: 35px;
+  height: 30px;
+  display: flex;
+}
+.sync-settings-page .date-combobox {
+  padding-right: 52px;
+}
+.sync-settings-page .date-combobox .t-label {
+  text-align: right;
+}
+.sync-settings-page .settings-page-reverse-checkbox {
+  padding-right: 52px;
+}
+.sync-settings-page .settings-page-reverse-checkbox .label-wrap .t-label {
+  padding: 0 10px 0 0;
+}
+.sync-settings-page .settings-page-reverse-toggle-edit {
+  flex-basis: 40%;
+  font-family: "Bpmonline Open Sans Light";
+}
+.sync-settings-page .settings-page-reverse-toggle-edit .control-wrap {
+  width: 50px;
+  padding-top: 4px;
+}
+.sync-settings-page .settings-page-reverse-toggle-edit .label-wrap .t-label {
+  color: #4E7BD8;
+  padding: 0;
+  font-size: 21px;
+}
+.sync-settings-page .edit-with-checkbox-container {
+  display: flex;
+}
+.sync-settings-page .edit-with-checkbox-container .control-no-label {
+  display: flex;
+  flex-basis: 30px;
+  margin: 10px 0px 0px 10px;
+}
+.sync-settings-page .edit-with-checkbox-container .edit-wrap {
+  flex-direction: row;
+  display: flex;
+}
+.sync-settings-page .edit-with-checkbox-container .edit-wrap .label-wrap {
+  max-width: 210px;
+}
+.sync-settings-page .edit-with-checkbox-container .edit-wrap .label-wrap .t-label {
+  text-align: right;
+  margin-right: 6px;
+}
+.sync-settings-page .edit-with-checkbox-container .edit-wrap .control-wrap {
+  max-width: 300px;
+  margin: 0;
+  padding: 0;
+}
+.sync-settings-page .edit-with-checkbox-container {
+  padding-right: 52px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+.sync-settings-page .signature-edit-container {
+  padding-right: 52px;
+  max-width: 1034px;
+}
+.sync-settings-page .signature-edit-container .control-wrap {
+  max-width: 100%;
+}
+.sync-settings-page .signature-edit-container .html-editor.instance-ready {
+  width: 100%;
+}
+.sync-settings-page .signature-edit-container .html-editor.instance-ready .cke_bottom {
+  background-color: #fff;
+  margin-bottom: 2px;
+}
+.sync-settings-page .signature-edit-container .html-editor.instance-ready .cke_bottom .cke_resizer {
+  border-color: transparent #999999 transparent transparent;
+  margin-left: 4px;
+}
+.sync-settings-page .signature-edit-container .add-macros-button-image {
+  margin-top: 1px;
+}
+.sync-settings-page .settings-page-radio-group {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.sync-settings-page .add-rights-detail {
+  width: 800px;
+  margin: 7px 0 12px 0;
+  padding-right: 50px;
+}
+.sync-settings-page .add-rights-detail .t-title-label-proc {
+  color: #839DC3;
+  width: inherit;
+  font-size: 15px;
+  padding-top: 4px;
+  padding-left: 4px;
+  line-height: 18px;
+}
+.sync-settings-page .add-rights-detail .container-list-header .t-btn-wrapper {
+  padding-right: 0;
+}
+.sync-settings-page .add-rights-detail .rights-items-header-container {
+  margin-bottom: 6px;
+  margin-top: 20px;
+  min-height: 16px;
+}
+.sync-settings-page .add-rights-detail .rights-items-header-container .rights-items-header-label {
+  max-width: 190px;
+  color: #839DC3;
+  font-size: 15px;
+  line-height: 1.1;
+}
+.sync-settings-page .add-rights-detail .rights-items-header-container .rights-items-header-images-container {
+  float: left;
+  width: auto;
+}
+.sync-settings-page .add-rights-detail .rights-items-header-container .rights-items-header-images-container .rights-items-header-label-end {
+  width: auto;
+  min-width: 95px;
+  padding-right: 10px;
+  height: 20px;
+  float: right;
+  margin-left: 0;
+}
+.sync-settings-page .add-rights-detail .rights-items-header-container .rights-items-header-buttom-container {
+  height: 1px;
+  margin-top: 6px;
+  background-color: #999999;
+}
+.sync-settings-page .add-rights-detail .container-list-empty {
+  text-align: center;
+}
+.sync-settings-page .admin-rights-display-container .t-label {
+  width: auto;
+  margin-top: 0;
+  max-width: 395px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+.sync-settings-page .admin-rights-display-container .t-btn-wrapper {
+  padding-right: 0;
+  padding-top: 2px;
+  margin-right: 16px;
+  width: 16px;
+}
+.sync-settings-page .admin-rights-display-container .t-btn-wrapper .t-btn-image {
+  visibility: hidden;
+}
+.sync-settings-page .admin-rights-display-container .rights-checkbox {
+  margin-right: 45px;
+  margin-left: 45px;
+  float: left;
+}
+.sync-settings-page .admin-rights-display-container:hover .t-btn-wrapper .t-btn-image {
+  visibility: visible;
+}
+.sync-settings-page .admin-rights-edit-container {
+  border: 1px solid #00aeef;
+  padding: 5px;
+}
+.sync-settings-page .admin-rights-edit-container .t-btn-wrapper {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.sync-settings-page .admin-rights-edit-container .control-wrap {
+  max-width: none;
+}

@@ -1,0 +1,32 @@
+img[data-type=ProcessParameter] {
+	border:1px dashed silver;
+	padding: 1px;
+}
+
+//BrowserSupport: Chrome only
+@supports (-webkit-appearance:none) {
+
+	img[data-type=ProcessParameter] {
+		position: relative;
+	}
+
+	img[data-type=ProcessParameter]:before {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		text-align: center;
+		content: attr(alt);
+	}
+}
+
+//BrowserSupport: Firefox only
+@-moz-document url-prefix() {
+	img[data-type=ProcessParameter]:before {
+		display: initial;
+		position: static;
+	}
+}

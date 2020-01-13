@@ -1,0 +1,9 @@
+﻿.t-btn-wrapper > .context-help-image {
+  height: 9em;
+  width: 7em;
+}
+.context-help-description {
+  margin-top: 0.3em;
+  padding-right: 0.7em;
+  border-right: solid 3px #8ecb60;
+}

@@ -1,0 +1,18 @@
+﻿.localMessage-channelIcon {
+  display: flex;
+  margin-right: 14px;
+}
+.localMessage-channelIcon img {
+  width: 20px;
+  height: 20px;
+}
+.localMessage-message-content-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+.localMessage-message-content-container .localMessage-text {
+  font-size: 12px;
+  color: #999;
+}

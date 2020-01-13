@@ -1,0 +1,125 @@
+﻿.enrichment-contact-container-wrapper {
+  z-index: 1500 !important;
+  width: 100%;
+  max-width: 410px;
+}
+.enrichment-contact-container-wrapper .base-edit {
+  border: none;
+}
+.enrichment-contact-container-wrapper .base-edit-focus,
+.enrichment-contact-container-wrapper .base-edit:focus {
+  border: 0 solid #00aeef;
+  border-bottom-width: 1px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.enrichment-contact-container-wrapper .contact-name-edit,
+.enrichment-contact-container-wrapper .account-edit {
+  color: #444444;
+}
+.enrichment-contact-container-wrapper .contact-header-enrichment-container .base-edit:not(.base-edit-focus) {
+  border-bottom: 1px dotted #c8c8c8;
+}
+.enrichment-contact-container-wrapper .contact-header-enrichment-container {
+  display: flex;
+  flex-direction: column;
+}
+.enrichment-contact-container-wrapper .contact-change-enrich-mode-container {
+  display: flex;
+  flex-direction: row;
+  order: 1;
+}
+.enrichment-contact-container-wrapper .contact-edit-container {
+  order: 2;
+  width: 98%;
+}
+.enrichment-contact-container-wrapper .contact-lookup-edit {
+  color: #444444;
+}
+.enrichment-contact-container-wrapper .control-wrap {
+  margin-right: 0;
+  padding-right: 0;
+}
+.enrichment-contact-container-wrapper .enrichment-container .enrichment-container-list .enrichment-data-row .label-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+.enrichment-contact-container-wrapper .enrichment-container .enrichment-container-list .enrichment-data-row .label-wrap label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.enrichment-contact-container-wrapper .contact-enrichment-header-caption {
+  font-family: 'Bpmonline Open Sans Regular', 'Bpmonline Open Sans';
+  font-size: 18px;
+  color: #00aeef;
+  line-height: 16px;
+  height: 20px;
+  margin-bottom: 10px;
+  width: auto;
+  flex-basis: 56%;
+}
+.enrichment-contact-container-wrapper .change-enrichment-mode-button {
+  font-size: 14px;
+  font-family: 'Bpmonline Open Sans';
+  color: #999999;
+  text-decoration: underline;
+  text-align: left;
+  margin-left: 10px;
+  flex-basis: 44%;
+}
+.enrichment-contact-container-wrapper .change-enrichment-mode-button.t-btn-style-transparent:not(.t-btn-disabled):hover {
+  color: #999999;
+}
+.enrichment-contact-container-wrapper .change-enrichment-mode-button.t-btn-wrapper {
+  padding: 1px 0 0 0;
+}
+.enrichment-contact-container-wrapper .additional-data-enrichment-container {
+  margin: 12px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.enrichment-contact-container-wrapper .additional-data-enrichment-caption {
+  font-family: 'Bpmonline Open Sans';
+  font-size: 14px;
+  color: #00AEEF;
+  margin-bottom: 5px;
+  order: 1;
+}
+.enrichment-contact-container-wrapper .account-data-enrichment-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2px;
+  order: 2;
+}
+.enrichment-contact-container-wrapper .account-data-enrichment-container .control-no-label {
+  width: 66%;
+}
+.enrichment-contact-container-wrapper .account-data-enrichment-container .control-no-label:hover {
+  border-bottom-color: #00aeef;
+}
+.enrichment-contact-container-wrapper .account-data-enrichment-container .control-no-label:focus {
+  border-bottom-color: #00aeef;
+}
+.enrichment-contact-container-wrapper .account-caption {
+  width: 95px;
+  margin-left: 8px;
+  text-align: left;
+  font-size: 13px;
+}
+.enrichment-contact-container-wrapper .custom-right-item {
+  display: none;
+  background-position: -9px -9px !important;
+}
+.enrichment-contact-container-wrapper .custom-right-item:hover {
+  display: inline-block;
+}
+.enrichment-contact-container-wrapper.enrichment-container-wrapper {
+  width: 465px;
+}
+.enrichment-contact-container-wrapper.enrichment-container-wrapper .enrichment-container > .enrichment-close-button {
+  top: -25px;
+  left: -35px;
+}

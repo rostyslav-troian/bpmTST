@@ -1,0 +1,13 @@
+.interface-caption {
+	padding: 5px;
+	margin-right: 6px;
+	text-align: right;
+}
+
+.interface-butttons {
+	padding: 5px;
+}
+
+.container {
+	height: 40px;
+}

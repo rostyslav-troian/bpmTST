@@ -1,0 +1,9 @@
+﻿.historyMessageWrap.historySocialMessageWrap .messageContent {
+  background-color: #fef6d7;
+}
+.historyMessageWrap.historySocialMessageWrap .messageContent .messageHeader {
+  min-height: 20px;
+}
+.historyMessageWrap.historySocialMessageWrap .messageContent.speech-bubble::after {
+  border-color: transparent #fef6d7;
+}

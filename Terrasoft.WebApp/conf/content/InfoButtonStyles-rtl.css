@@ -1,0 +1,17 @@
+﻿.info-button {
+  padding: 0;
+}
+.info-button-image {
+  display: inline;
+  background-position: 0px 0px;
+  width: 24px;
+  height: 24px;
+}
+.info-button-image:hover,
+.info-button:hover .info-button-image {
+  display: inline;
+  background-position: 0px -24px;
+}
+.t-information-btn.t-btn-wrapper .info-button-auto-padding {
+  padding: 0.38em 0.38em 0.86em 0.86em !important;
+}

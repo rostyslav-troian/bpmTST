@@ -1,0 +1,13 @@
+{
+	"harness": {
+		"runCore": "parallel",
+		"title": "Core Unit tests",
+		"failOnExclusiveSpecsWhenAutomated": true,
+		"warnOnNotBDD": false
+	},
+	"cmd": {
+		"filter": "unit.tests.js",
+		"max-workers": 2,
+		"no-color": false
+	}
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Terrasoft.Messaging.Core</name>
+    </assembly>
+    <members>
+        <member name="F:Terrasoft.Messaging.Core.MessagingServer.SessionWakeUpInterval">
+            <summary>
+            ######## # #############, ##### ####### ###### ########## ######### ### ############## ###########
+            web-socket ########### # ########.
+            </summary>
+            <remarks>############ ### ####### ######## # Chrome, ##### ########## ########## ######## ##### 10 #####
+            ###########.</remarks>
+        </member>
+        <member name="F:Terrasoft.Messaging.Core.MessagingServer.PingJsonMessage">
+            <summary>
+            ###### # ####### json, ############ ## ###### ### ############## web-socket ###########.
+            </summary>
+        </member>
+        <member name="F:Terrasoft.Messaging.Core.MessagingServer._isDisposing">
+            <summary>
+            ####### ####, ### ###### ######### # ###### ##########.
+            </summary>
+        </member>
+        <member name="M:Terrasoft.Messaging.Core.MessagingServer.NewMessagingSessionConnected(SuperWebSocket.WebSocketSession{SuperWebSocket.WebSocketSession})">
+            <summary>
+            ############ ######## ###### web-socket ###########.
+            </summary>
+            <param name="session">Web-socket ######.</param>
+        </member>
+        <member name="M:Terrasoft.Messaging.Core.MessagingServer.GetMessagingLibrary(System.String)">
+            <summary>
+            ########### ######### ########## ###### ########### # #####.
+            </summary>
+            <param name="assemblyName">######## ###### ##########.</param>
+            <returns>########## ###### ###########.</returns>
+        </member>
+    </members>
+</doc>

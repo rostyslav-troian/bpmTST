@@ -1,0 +1,13 @@
+﻿.info-label {
+  font-size: 1.25em;
+  margin: 0 0 4px 0;
+}
+.external-access-mini-page-container {
+  width: 460px;
+}
+.external-access-mini-page-container .container-mini-wrap.single-row-boolean-wrap {
+  display: flex;
+}
+.external-access-mini-page-container .grid-layout-column[data-colspan="12"]:first-of-type {
+  margin-left: 20px;
+}
